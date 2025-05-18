@@ -1,0 +1,550 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Model.IExtendedResource
+  commentId: T:OSLC4Net.Core.Model.IExtendedResource
+  id: IExtendedResource
+  parent: OSLC4Net.Core.Model
+  children:
+  - OSLC4Net.Core.Model.IExtendedResource.AddType(System.Uri)
+  - OSLC4Net.Core.Model.IExtendedResource.GetExtendedProperties
+  - OSLC4Net.Core.Model.IExtendedResource.GetTypes
+  - OSLC4Net.Core.Model.IExtendedResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+  - OSLC4Net.Core.Model.IExtendedResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+  langs:
+  - csharp
+  - vb
+  name: IExtendedResource
+  nameWithType: IExtendedResource
+  fullName: OSLC4Net.Core.Model.IExtendedResource
+  type: Interface
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: IExtendedResource
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs
+    startLine: 30
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: >-
+    A resource that can hold unknown properties and content. If a setter is not
+
+    found for a property when reading a resource, it is added as an extended
+
+    property. These extended properties are preserved when writing the resource
+
+    back out, for instance on a PUT request. In OSLC, clients MUST preserve
+
+    unknown content when performing updates of resources.
+
+    see
+
+    <a href="http://open-services.net/bin/view/Main/OslcCoreSpecification?sortcol=table;up=#Unknown_properties_and_content">
+        OSLC
+        Core 2.0: Unknown properties and content
+    </a>
+  example: []
+  syntax:
+    content: 'public interface IExtendedResource : IResource'
+    content.vb: Public Interface IExtendedResource Inherits IResource
+  inheritedMembers:
+  - OSLC4Net.Core.Model.IResource.About
+  - OSLC4Net.Core.Model.IResource.GetAbout
+  - OSLC4Net.Core.Model.IResource.SetAbout(System.Uri)
+- uid: OSLC4Net.Core.Model.IExtendedResource.GetTypes
+  commentId: M:OSLC4Net.Core.Model.IExtendedResource.GetTypes
+  id: GetTypes
+  parent: OSLC4Net.Core.Model.IExtendedResource
+  langs:
+  - csharp
+  - vb
+  name: GetTypes()
+  nameWithType: IExtendedResource.GetTypes()
+  fullName: OSLC4Net.Core.Model.IExtendedResource.GetTypes()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetTypes
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs
+    startLine: 38
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: >-
+    Gets the RDF types of this resource. These types will be added to the
+
+    serialization of the resource in addition to the
+
+    OslcResourceShape#describes() annotation
+  example: []
+  syntax:
+    content: ICollection<Uri> GetTypes()
+    return:
+      type: System.Collections.Generic.ICollection{System.Uri}
+      description: ''
+    content.vb: Function GetTypes() As ICollection(Of Uri)
+  overload: OSLC4Net.Core.Model.IExtendedResource.GetTypes*
+- uid: OSLC4Net.Core.Model.IExtendedResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+  commentId: M:OSLC4Net.Core.Model.IExtendedResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+  id: SetTypes(System.Collections.Generic.ICollection{System.Uri})
+  parent: OSLC4Net.Core.Model.IExtendedResource
+  langs:
+  - csharp
+  - vb
+  name: SetTypes(ICollection<Uri>)
+  nameWithType: IExtendedResource.SetTypes(ICollection<Uri>)
+  fullName: OSLC4Net.Core.Model.IExtendedResource.SetTypes(System.Collections.Generic.ICollection<System.Uri>)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetTypes
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs
+    startLine: 46
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: >-
+    Sets the RDF types of this resource. These types will be added to the
+
+    serialization of the resource in addition to the
+
+    OslcResourceShape#describes() annotation.
+  example: []
+  syntax:
+    content: void SetTypes(ICollection<Uri> types)
+    parameters:
+    - id: types
+      type: System.Collections.Generic.ICollection{System.Uri}
+      description: ''
+    content.vb: Sub SetTypes(types As ICollection(Of Uri))
+  overload: OSLC4Net.Core.Model.IExtendedResource.SetTypes*
+  nameWithType.vb: IExtendedResource.SetTypes(ICollection(Of Uri))
+  fullName.vb: OSLC4Net.Core.Model.IExtendedResource.SetTypes(System.Collections.Generic.ICollection(Of System.Uri))
+  name.vb: SetTypes(ICollection(Of Uri))
+- uid: OSLC4Net.Core.Model.IExtendedResource.AddType(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.IExtendedResource.AddType(System.Uri)
+  id: AddType(System.Uri)
+  parent: OSLC4Net.Core.Model.IExtendedResource
+  langs:
+  - csharp
+  - vb
+  name: AddType(Uri)
+  nameWithType: IExtendedResource.AddType(Uri)
+  fullName: OSLC4Net.Core.Model.IExtendedResource.AddType(System.Uri)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AddType
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs
+    startLine: 54
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: >-
+    Adds an RDF type to this resource. These types will be added to the
+
+    serialization of the resource in addition to the
+
+    OslcResourceShape#describes() annotation.
+  example: []
+  syntax:
+    content: void AddType(Uri type)
+    parameters:
+    - id: type
+      type: System.Uri
+      description: ''
+    content.vb: Sub AddType(type As Uri)
+  overload: OSLC4Net.Core.Model.IExtendedResource.AddType*
+- uid: OSLC4Net.Core.Model.IExtendedResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+  commentId: M:OSLC4Net.Core.Model.IExtendedResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+  id: SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+  parent: OSLC4Net.Core.Model.IExtendedResource
+  langs:
+  - csharp
+  - vb
+  name: SetExtendedProperties(IDictionary<QName, object>)
+  nameWithType: IExtendedResource.SetExtendedProperties(IDictionary<QName, object>)
+  fullName: OSLC4Net.Core.Model.IExtendedResource.SetExtendedProperties(System.Collections.Generic.IDictionary<OSLC4Net.Core.Model.QName, object>)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetExtendedProperties
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs
+    startLine: 60
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: Sets extended properties not defined in the bean.
+  example: []
+  syntax:
+    content: void SetExtendedProperties(IDictionary<QName, object> properties)
+    parameters:
+    - id: properties
+      type: System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object}
+      description: ''
+    content.vb: Sub SetExtendedProperties(properties As IDictionary(Of QName, Object))
+  overload: OSLC4Net.Core.Model.IExtendedResource.SetExtendedProperties*
+  nameWithType.vb: IExtendedResource.SetExtendedProperties(IDictionary(Of QName, Object))
+  fullName.vb: OSLC4Net.Core.Model.IExtendedResource.SetExtendedProperties(System.Collections.Generic.IDictionary(Of OSLC4Net.Core.Model.QName, Object))
+  name.vb: SetExtendedProperties(IDictionary(Of QName, Object))
+- uid: OSLC4Net.Core.Model.IExtendedResource.GetExtendedProperties
+  commentId: M:OSLC4Net.Core.Model.IExtendedResource.GetExtendedProperties
+  id: GetExtendedProperties
+  parent: OSLC4Net.Core.Model.IExtendedResource
+  langs:
+  - csharp
+  - vb
+  name: GetExtendedProperties()
+  nameWithType: IExtendedResource.GetExtendedProperties()
+  fullName: OSLC4Net.Core.Model.IExtendedResource.GetExtendedProperties()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetExtendedProperties
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs
+    startLine: 66
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: Gets back the list of extended properties not defined in this bean.
+  example: []
+  syntax:
+    content: IDictionary<QName, object> GetExtendedProperties()
+    return:
+      type: System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object}
+      description: ''
+    content.vb: Function GetExtendedProperties() As IDictionary(Of QName, Object)
+  overload: OSLC4Net.Core.Model.IExtendedResource.GetExtendedProperties*
+references:
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+- uid: OSLC4Net.Core.Model.IResource.About
+  commentId: P:OSLC4Net.Core.Model.IResource.About
+  parent: OSLC4Net.Core.Model.IResource
+  href: OSLC4Net.Core.Model.IResource.html#OSLC4Net_Core_Model_IResource_About
+  name: About
+  nameWithType: IResource.About
+  fullName: OSLC4Net.Core.Model.IResource.About
+- uid: OSLC4Net.Core.Model.IResource.GetAbout
+  commentId: M:OSLC4Net.Core.Model.IResource.GetAbout
+  parent: OSLC4Net.Core.Model.IResource
+  href: OSLC4Net.Core.Model.IResource.html#OSLC4Net_Core_Model_IResource_GetAbout
+  name: GetAbout()
+  nameWithType: IResource.GetAbout()
+  fullName: OSLC4Net.Core.Model.IResource.GetAbout()
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.IResource.GetAbout
+    name: GetAbout
+    href: OSLC4Net.Core.Model.IResource.html#OSLC4Net_Core_Model_IResource_GetAbout
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.IResource.GetAbout
+    name: GetAbout
+    href: OSLC4Net.Core.Model.IResource.html#OSLC4Net_Core_Model_IResource_GetAbout
+  - name: (
+  - name: )
+- uid: OSLC4Net.Core.Model.IResource.SetAbout(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.IResource.SetAbout(System.Uri)
+  parent: OSLC4Net.Core.Model.IResource
+  isExternal: true
+  href: OSLC4Net.Core.Model.IResource.html#OSLC4Net_Core_Model_IResource_SetAbout_System_Uri_
+  name: SetAbout(Uri)
+  nameWithType: IResource.SetAbout(Uri)
+  fullName: OSLC4Net.Core.Model.IResource.SetAbout(System.Uri)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.IResource.SetAbout(System.Uri)
+    name: SetAbout
+    href: OSLC4Net.Core.Model.IResource.html#OSLC4Net_Core_Model_IResource_SetAbout_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.IResource.SetAbout(System.Uri)
+    name: SetAbout
+    href: OSLC4Net.Core.Model.IResource.html#OSLC4Net_Core_Model_IResource_SetAbout_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+- uid: OSLC4Net.Core.Model.IResource
+  commentId: T:OSLC4Net.Core.Model.IResource
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.IResource.html
+  name: IResource
+  nameWithType: IResource
+  fullName: OSLC4Net.Core.Model.IResource
+- uid: OSLC4Net.Core.Model.IExtendedResource.GetTypes*
+  commentId: Overload:OSLC4Net.Core.Model.IExtendedResource.GetTypes
+  href: OSLC4Net.Core.Model.IExtendedResource.html#OSLC4Net_Core_Model_IExtendedResource_GetTypes
+  name: GetTypes
+  nameWithType: IExtendedResource.GetTypes
+  fullName: OSLC4Net.Core.Model.IExtendedResource.GetTypes
+- uid: System.Collections.Generic.ICollection{System.Uri}
+  commentId: T:System.Collections.Generic.ICollection{System.Uri}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<Uri>
+  nameWithType: ICollection<Uri>
+  fullName: System.Collections.Generic.ICollection<System.Uri>
+  nameWithType.vb: ICollection(Of Uri)
+  fullName.vb: System.Collections.Generic.ICollection(Of System.Uri)
+  name.vb: ICollection(Of Uri)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: OSLC4Net.Core.Model.IExtendedResource.SetTypes*
+  commentId: Overload:OSLC4Net.Core.Model.IExtendedResource.SetTypes
+  href: OSLC4Net.Core.Model.IExtendedResource.html#OSLC4Net_Core_Model_IExtendedResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__
+  name: SetTypes
+  nameWithType: IExtendedResource.SetTypes
+  fullName: OSLC4Net.Core.Model.IExtendedResource.SetTypes
+- uid: OSLC4Net.Core.Model.IExtendedResource.AddType*
+  commentId: Overload:OSLC4Net.Core.Model.IExtendedResource.AddType
+  href: OSLC4Net.Core.Model.IExtendedResource.html#OSLC4Net_Core_Model_IExtendedResource_AddType_System_Uri_
+  name: AddType
+  nameWithType: IExtendedResource.AddType
+  fullName: OSLC4Net.Core.Model.IExtendedResource.AddType
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uri
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OSLC4Net.Core.Model.IExtendedResource.SetExtendedProperties*
+  commentId: Overload:OSLC4Net.Core.Model.IExtendedResource.SetExtendedProperties
+  href: OSLC4Net.Core.Model.IExtendedResource.html#OSLC4Net_Core_Model_IExtendedResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__
+  name: SetExtendedProperties
+  nameWithType: IExtendedResource.SetExtendedProperties
+  fullName: OSLC4Net.Core.Model.IExtendedResource.SetExtendedProperties
+- uid: System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object}
+  commentId: T:System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<QName, object>
+  nameWithType: IDictionary<QName, object>
+  fullName: System.Collections.Generic.IDictionary<OSLC4Net.Core.Model.QName, object>
+  nameWithType.vb: IDictionary(Of QName, Object)
+  fullName.vb: System.Collections.Generic.IDictionary(Of OSLC4Net.Core.Model.QName, Object)
+  name.vb: IDictionary(Of QName, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - uid: OSLC4Net.Core.Model.QName
+    name: QName
+    href: OSLC4Net.Core.Model.QName.html
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: OSLC4Net.Core.Model.QName
+    name: QName
+    href: OSLC4Net.Core.Model.QName.html
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: OSLC4Net.Core.Model.IExtendedResource.GetExtendedProperties*
+  commentId: Overload:OSLC4Net.Core.Model.IExtendedResource.GetExtendedProperties
+  href: OSLC4Net.Core.Model.IExtendedResource.html#OSLC4Net_Core_Model_IExtendedResource_GetExtendedProperties
+  name: GetExtendedProperties
+  nameWithType: IExtendedResource.GetExtendedProperties
+  fullName: OSLC4Net.Core.Model.IExtendedResource.GetExtendedProperties

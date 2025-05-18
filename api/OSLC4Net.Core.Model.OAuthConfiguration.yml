@@ -1,0 +1,1015 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Model.OAuthConfiguration
+  commentId: T:OSLC4Net.Core.Model.OAuthConfiguration
+  id: OAuthConfiguration
+  parent: OSLC4Net.Core.Model
+  children:
+  - OSLC4Net.Core.Model.OAuthConfiguration.#ctor
+  - OSLC4Net.Core.Model.OAuthConfiguration.#ctor(System.Uri,System.Uri,System.Uri)
+  - OSLC4Net.Core.Model.OAuthConfiguration.GetAuthorizationURI
+  - OSLC4Net.Core.Model.OAuthConfiguration.GetOauthAccessTokenURI
+  - OSLC4Net.Core.Model.OAuthConfiguration.GetOauthRequestTokenURI
+  - OSLC4Net.Core.Model.OAuthConfiguration.SetAuthorizationURI(System.Uri)
+  - OSLC4Net.Core.Model.OAuthConfiguration.SetOauthAccessTokenURI(System.Uri)
+  - OSLC4Net.Core.Model.OAuthConfiguration.SetOauthRequestTokenURI(System.Uri)
+  langs:
+  - csharp
+  - vb
+  name: OAuthConfiguration
+  nameWithType: OAuthConfiguration
+  fullName: OSLC4Net.Core.Model.OAuthConfiguration
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OAuthConfiguration.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OAuthConfiguration
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OAuthConfiguration.cs
+    startLine: 22
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: An OSLC OAuth configuration resource
+  example: []
+  syntax:
+    content: >-
+      [OslcNamespace("http://open-services.net/ns/core#")]
+
+      public class OAuthConfiguration : AbstractResource, IExtendedResource, IResource
+    content.vb: >-
+      <OslcNamespace("http://open-services.net/ns/core#")>
+
+      Public Class OAuthConfiguration Inherits AbstractResource Implements IExtendedResource, IResource
+  inheritance:
+  - System.Object
+  - OSLC4Net.Core.Model.AbstractResource
+  implements:
+  - OSLC4Net.Core.Model.IExtendedResource
+  - OSLC4Net.Core.Model.IResource
+  inheritedMembers:
+  - OSLC4Net.Core.Model.AbstractResource.About
+  - OSLC4Net.Core.Model.AbstractResource.GetAbout
+  - OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+  - OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+  - OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties
+  - OSLC4Net.Core.Model.AbstractResource.GetTypes
+  - OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+  - OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcNamespace
+    ctor: OSLC4Net.Core.Attribute.OslcNamespace.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#
+- uid: OSLC4Net.Core.Model.OAuthConfiguration.#ctor
+  commentId: M:OSLC4Net.Core.Model.OAuthConfiguration.#ctor
+  id: '#ctor'
+  parent: OSLC4Net.Core.Model.OAuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: OAuthConfiguration()
+  nameWithType: OAuthConfiguration.OAuthConfiguration()
+  fullName: OSLC4Net.Core.Model.OAuthConfiguration.OAuthConfiguration()
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OAuthConfiguration.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OAuthConfiguration.cs
+    startLine: 33
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: ''
+  example: []
+  syntax:
+    content: public OAuthConfiguration()
+    content.vb: Public Sub New()
+  overload: OSLC4Net.Core.Model.OAuthConfiguration.#ctor*
+  nameWithType.vb: OAuthConfiguration.New()
+  fullName.vb: OSLC4Net.Core.Model.OAuthConfiguration.New()
+  name.vb: New()
+- uid: OSLC4Net.Core.Model.OAuthConfiguration.#ctor(System.Uri,System.Uri,System.Uri)
+  commentId: M:OSLC4Net.Core.Model.OAuthConfiguration.#ctor(System.Uri,System.Uri,System.Uri)
+  id: '#ctor(System.Uri,System.Uri,System.Uri)'
+  parent: OSLC4Net.Core.Model.OAuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: OAuthConfiguration(Uri, Uri, Uri)
+  nameWithType: OAuthConfiguration.OAuthConfiguration(Uri, Uri, Uri)
+  fullName: OSLC4Net.Core.Model.OAuthConfiguration.OAuthConfiguration(System.Uri, System.Uri, System.Uri)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OAuthConfiguration.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OAuthConfiguration.cs
+    startLine: 42
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: ''
+  example: []
+  syntax:
+    content: public OAuthConfiguration(Uri oauthRequestTokenURI, Uri authorizationURI, Uri oauthAccessTokenURI)
+    parameters:
+    - id: oauthRequestTokenURI
+      type: System.Uri
+      description: ''
+    - id: authorizationURI
+      type: System.Uri
+      description: ''
+    - id: oauthAccessTokenURI
+      type: System.Uri
+      description: ''
+    content.vb: Public Sub New(oauthRequestTokenURI As Uri, authorizationURI As Uri, oauthAccessTokenURI As Uri)
+  overload: OSLC4Net.Core.Model.OAuthConfiguration.#ctor*
+  nameWithType.vb: OAuthConfiguration.New(Uri, Uri, Uri)
+  fullName.vb: OSLC4Net.Core.Model.OAuthConfiguration.New(System.Uri, System.Uri, System.Uri)
+  name.vb: New(Uri, Uri, Uri)
+- uid: OSLC4Net.Core.Model.OAuthConfiguration.GetAuthorizationURI
+  commentId: M:OSLC4Net.Core.Model.OAuthConfiguration.GetAuthorizationURI
+  id: GetAuthorizationURI
+  parent: OSLC4Net.Core.Model.OAuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GetAuthorizationURI()
+  nameWithType: OAuthConfiguration.GetAuthorizationURI()
+  fullName: OSLC4Net.Core.Model.OAuthConfiguration.GetAuthorizationURI()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OAuthConfiguration.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetAuthorizationURI
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OAuthConfiguration.cs
+    startLine: 50
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [OslcDescription("Uri for obtaining OAuth authorization")]
+
+      [OslcOccurs(Occurs.ExactlyOne)]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/core#authorizationURI")]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Authorization Uri")]
+
+      public Uri GetAuthorizationURI()
+    return:
+      type: System.Uri
+    content.vb: >-
+      <OslcDescription("Uri for obtaining OAuth authorization")>
+
+      <OslcOccurs(Occurs.ExactlyOne)>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/core#authorizationURI")>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Authorization Uri")>
+
+      Public Function GetAuthorizationURI() As Uri
+  overload: OSLC4Net.Core.Model.OAuthConfiguration.GetAuthorizationURI*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Uri for obtaining OAuth authorization
+  - type: OSLC4Net.Core.Attribute.OslcOccurs
+    ctor: OSLC4Net.Core.Attribute.OslcOccurs.#ctor(OSLC4Net.Core.Model.Occurs)
+    arguments:
+    - type: OSLC4Net.Core.Model.Occurs
+      value: 0
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#authorizationURI
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Authorization Uri
+- uid: OSLC4Net.Core.Model.OAuthConfiguration.GetOauthAccessTokenURI
+  commentId: M:OSLC4Net.Core.Model.OAuthConfiguration.GetOauthAccessTokenURI
+  id: GetOauthAccessTokenURI
+  parent: OSLC4Net.Core.Model.OAuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GetOauthAccessTokenURI()
+  nameWithType: OAuthConfiguration.GetOauthAccessTokenURI()
+  fullName: OSLC4Net.Core.Model.OAuthConfiguration.GetOauthAccessTokenURI()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OAuthConfiguration.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetOauthAccessTokenURI
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OAuthConfiguration.cs
+    startLine: 60
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [OslcDescription("Uri for obtaining OAuth access token")]
+
+      [OslcOccurs(Occurs.ExactlyOne)]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/core#oauthAccessTokenURI")]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Access Token Uri")]
+
+      public Uri GetOauthAccessTokenURI()
+    return:
+      type: System.Uri
+    content.vb: >-
+      <OslcDescription("Uri for obtaining OAuth access token")>
+
+      <OslcOccurs(Occurs.ExactlyOne)>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/core#oauthAccessTokenURI")>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Access Token Uri")>
+
+      Public Function GetOauthAccessTokenURI() As Uri
+  overload: OSLC4Net.Core.Model.OAuthConfiguration.GetOauthAccessTokenURI*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Uri for obtaining OAuth access token
+  - type: OSLC4Net.Core.Attribute.OslcOccurs
+    ctor: OSLC4Net.Core.Attribute.OslcOccurs.#ctor(OSLC4Net.Core.Model.Occurs)
+    arguments:
+    - type: OSLC4Net.Core.Model.Occurs
+      value: 0
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#oauthAccessTokenURI
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Access Token Uri
+- uid: OSLC4Net.Core.Model.OAuthConfiguration.GetOauthRequestTokenURI
+  commentId: M:OSLC4Net.Core.Model.OAuthConfiguration.GetOauthRequestTokenURI
+  id: GetOauthRequestTokenURI
+  parent: OSLC4Net.Core.Model.OAuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GetOauthRequestTokenURI()
+  nameWithType: OAuthConfiguration.GetOauthRequestTokenURI()
+  fullName: OSLC4Net.Core.Model.OAuthConfiguration.GetOauthRequestTokenURI()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OAuthConfiguration.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetOauthRequestTokenURI
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OAuthConfiguration.cs
+    startLine: 70
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [OslcDescription("Uri for obtaining OAuth request token")]
+
+      [OslcOccurs(Occurs.ExactlyOne)]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/core#oauthRequestTokenURI")]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Request Token Uri")]
+
+      public Uri GetOauthRequestTokenURI()
+    return:
+      type: System.Uri
+    content.vb: >-
+      <OslcDescription("Uri for obtaining OAuth request token")>
+
+      <OslcOccurs(Occurs.ExactlyOne)>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/core#oauthRequestTokenURI")>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Request Token Uri")>
+
+      Public Function GetOauthRequestTokenURI() As Uri
+  overload: OSLC4Net.Core.Model.OAuthConfiguration.GetOauthRequestTokenURI*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Uri for obtaining OAuth request token
+  - type: OSLC4Net.Core.Attribute.OslcOccurs
+    ctor: OSLC4Net.Core.Attribute.OslcOccurs.#ctor(OSLC4Net.Core.Model.Occurs)
+    arguments:
+    - type: OSLC4Net.Core.Model.Occurs
+      value: 0
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#oauthRequestTokenURI
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Request Token Uri
+- uid: OSLC4Net.Core.Model.OAuthConfiguration.SetAuthorizationURI(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.OAuthConfiguration.SetAuthorizationURI(System.Uri)
+  id: SetAuthorizationURI(System.Uri)
+  parent: OSLC4Net.Core.Model.OAuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SetAuthorizationURI(Uri)
+  nameWithType: OAuthConfiguration.SetAuthorizationURI(Uri)
+  fullName: OSLC4Net.Core.Model.OAuthConfiguration.SetAuthorizationURI(System.Uri)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OAuthConfiguration.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetAuthorizationURI
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OAuthConfiguration.cs
+    startLine: 80
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetAuthorizationURI(Uri authorizationURI)
+    parameters:
+    - id: authorizationURI
+      type: System.Uri
+    content.vb: Public Sub SetAuthorizationURI(authorizationURI As Uri)
+  overload: OSLC4Net.Core.Model.OAuthConfiguration.SetAuthorizationURI*
+- uid: OSLC4Net.Core.Model.OAuthConfiguration.SetOauthAccessTokenURI(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.OAuthConfiguration.SetOauthAccessTokenURI(System.Uri)
+  id: SetOauthAccessTokenURI(System.Uri)
+  parent: OSLC4Net.Core.Model.OAuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SetOauthAccessTokenURI(Uri)
+  nameWithType: OAuthConfiguration.SetOauthAccessTokenURI(Uri)
+  fullName: OSLC4Net.Core.Model.OAuthConfiguration.SetOauthAccessTokenURI(System.Uri)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OAuthConfiguration.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetOauthAccessTokenURI
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OAuthConfiguration.cs
+    startLine: 85
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetOauthAccessTokenURI(Uri oauthAccessTokenURI)
+    parameters:
+    - id: oauthAccessTokenURI
+      type: System.Uri
+    content.vb: Public Sub SetOauthAccessTokenURI(oauthAccessTokenURI As Uri)
+  overload: OSLC4Net.Core.Model.OAuthConfiguration.SetOauthAccessTokenURI*
+- uid: OSLC4Net.Core.Model.OAuthConfiguration.SetOauthRequestTokenURI(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.OAuthConfiguration.SetOauthRequestTokenURI(System.Uri)
+  id: SetOauthRequestTokenURI(System.Uri)
+  parent: OSLC4Net.Core.Model.OAuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SetOauthRequestTokenURI(Uri)
+  nameWithType: OAuthConfiguration.SetOauthRequestTokenURI(Uri)
+  fullName: OSLC4Net.Core.Model.OAuthConfiguration.SetOauthRequestTokenURI(System.Uri)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OAuthConfiguration.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetOauthRequestTokenURI
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OAuthConfiguration.cs
+    startLine: 90
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetOauthRequestTokenURI(Uri oauthRequestTokenURI)
+    parameters:
+    - id: oauthRequestTokenURI
+      type: System.Uri
+    content.vb: Public Sub SetOauthRequestTokenURI(oauthRequestTokenURI As Uri)
+  overload: OSLC4Net.Core.Model.OAuthConfiguration.SetOauthRequestTokenURI*
+references:
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: OSLC4Net.Core.Model.AbstractResource
+  commentId: T:OSLC4Net.Core.Model.AbstractResource
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.AbstractResource.html
+  name: AbstractResource
+  nameWithType: AbstractResource
+  fullName: OSLC4Net.Core.Model.AbstractResource
+- uid: OSLC4Net.Core.Model.IExtendedResource
+  commentId: T:OSLC4Net.Core.Model.IExtendedResource
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.IExtendedResource.html
+  name: IExtendedResource
+  nameWithType: IExtendedResource
+  fullName: OSLC4Net.Core.Model.IExtendedResource
+- uid: OSLC4Net.Core.Model.IResource
+  commentId: T:OSLC4Net.Core.Model.IResource
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.IResource.html
+  name: IResource
+  nameWithType: IResource
+  fullName: OSLC4Net.Core.Model.IResource
+- uid: OSLC4Net.Core.Model.AbstractResource.About
+  commentId: P:OSLC4Net.Core.Model.AbstractResource.About
+  parent: OSLC4Net.Core.Model.AbstractResource
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_About
+  name: About
+  nameWithType: AbstractResource.About
+  fullName: OSLC4Net.Core.Model.AbstractResource.About
+- uid: OSLC4Net.Core.Model.AbstractResource.GetAbout
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.GetAbout
+  parent: OSLC4Net.Core.Model.AbstractResource
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetAbout
+  name: GetAbout()
+  nameWithType: AbstractResource.GetAbout()
+  fullName: OSLC4Net.Core.Model.AbstractResource.GetAbout()
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetAbout
+    name: GetAbout
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetAbout
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetAbout
+    name: GetAbout
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetAbout
+  - name: (
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+  parent: OSLC4Net.Core.Model.AbstractResource
+  isExternal: true
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetAbout_System_Uri_
+  name: SetAbout(Uri)
+  nameWithType: AbstractResource.SetAbout(Uri)
+  fullName: OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+    name: SetAbout
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetAbout_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+    name: SetAbout
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetAbout_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+  parent: OSLC4Net.Core.Model.AbstractResource
+  isExternal: true
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__
+  name: SetExtendedProperties(IDictionary<QName, object>)
+  nameWithType: AbstractResource.SetExtendedProperties(IDictionary<QName, object>)
+  fullName: OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary<OSLC4Net.Core.Model.QName, object>)
+  nameWithType.vb: AbstractResource.SetExtendedProperties(IDictionary(Of QName, Object))
+  fullName.vb: OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary(Of OSLC4Net.Core.Model.QName, Object))
+  name.vb: SetExtendedProperties(IDictionary(Of QName, Object))
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+    name: SetExtendedProperties
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__
+  - name: (
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - uid: OSLC4Net.Core.Model.QName
+    name: QName
+    href: OSLC4Net.Core.Model.QName.html
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+    name: SetExtendedProperties
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__
+  - name: (
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: OSLC4Net.Core.Model.QName
+    name: QName
+    href: OSLC4Net.Core.Model.QName.html
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties
+  parent: OSLC4Net.Core.Model.AbstractResource
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetExtendedProperties
+  name: GetExtendedProperties()
+  nameWithType: AbstractResource.GetExtendedProperties()
+  fullName: OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties()
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties
+    name: GetExtendedProperties
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetExtendedProperties
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties
+    name: GetExtendedProperties
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetExtendedProperties
+  - name: (
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.GetTypes
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.GetTypes
+  parent: OSLC4Net.Core.Model.AbstractResource
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetTypes
+  name: GetTypes()
+  nameWithType: AbstractResource.GetTypes()
+  fullName: OSLC4Net.Core.Model.AbstractResource.GetTypes()
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetTypes
+    name: GetTypes
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetTypes
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetTypes
+    name: GetTypes
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetTypes
+  - name: (
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+  parent: OSLC4Net.Core.Model.AbstractResource
+  isExternal: true
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__
+  name: SetTypes(ICollection<Uri>)
+  nameWithType: AbstractResource.SetTypes(ICollection<Uri>)
+  fullName: OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection<System.Uri>)
+  nameWithType.vb: AbstractResource.SetTypes(ICollection(Of Uri))
+  fullName.vb: OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection(Of System.Uri))
+  name.vb: SetTypes(ICollection(Of Uri))
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+    name: SetTypes
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+    name: SetTypes
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+  parent: OSLC4Net.Core.Model.AbstractResource
+  isExternal: true
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_AddType_System_Uri_
+  name: AddType(Uri)
+  nameWithType: AbstractResource.AddType(Uri)
+  fullName: OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+    name: AddType
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_AddType_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+    name: AddType
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_AddType_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OSLC4Net.Core.Model.OAuthConfiguration.#ctor*
+  commentId: Overload:OSLC4Net.Core.Model.OAuthConfiguration.#ctor
+  href: OSLC4Net.Core.Model.OAuthConfiguration.html#OSLC4Net_Core_Model_OAuthConfiguration__ctor
+  name: OAuthConfiguration
+  nameWithType: OAuthConfiguration.OAuthConfiguration
+  fullName: OSLC4Net.Core.Model.OAuthConfiguration.OAuthConfiguration
+  nameWithType.vb: OAuthConfiguration.New
+  fullName.vb: OSLC4Net.Core.Model.OAuthConfiguration.New
+  name.vb: New
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uri
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
+- uid: OSLC4Net.Core.Model.OAuthConfiguration.GetAuthorizationURI*
+  commentId: Overload:OSLC4Net.Core.Model.OAuthConfiguration.GetAuthorizationURI
+  href: OSLC4Net.Core.Model.OAuthConfiguration.html#OSLC4Net_Core_Model_OAuthConfiguration_GetAuthorizationURI
+  name: GetAuthorizationURI
+  nameWithType: OAuthConfiguration.GetAuthorizationURI
+  fullName: OSLC4Net.Core.Model.OAuthConfiguration.GetAuthorizationURI
+- uid: OSLC4Net.Core.Model.OAuthConfiguration.GetOauthAccessTokenURI*
+  commentId: Overload:OSLC4Net.Core.Model.OAuthConfiguration.GetOauthAccessTokenURI
+  href: OSLC4Net.Core.Model.OAuthConfiguration.html#OSLC4Net_Core_Model_OAuthConfiguration_GetOauthAccessTokenURI
+  name: GetOauthAccessTokenURI
+  nameWithType: OAuthConfiguration.GetOauthAccessTokenURI
+  fullName: OSLC4Net.Core.Model.OAuthConfiguration.GetOauthAccessTokenURI
+- uid: OSLC4Net.Core.Model.OAuthConfiguration.GetOauthRequestTokenURI*
+  commentId: Overload:OSLC4Net.Core.Model.OAuthConfiguration.GetOauthRequestTokenURI
+  href: OSLC4Net.Core.Model.OAuthConfiguration.html#OSLC4Net_Core_Model_OAuthConfiguration_GetOauthRequestTokenURI
+  name: GetOauthRequestTokenURI
+  nameWithType: OAuthConfiguration.GetOauthRequestTokenURI
+  fullName: OSLC4Net.Core.Model.OAuthConfiguration.GetOauthRequestTokenURI
+- uid: OSLC4Net.Core.Model.OAuthConfiguration.SetAuthorizationURI*
+  commentId: Overload:OSLC4Net.Core.Model.OAuthConfiguration.SetAuthorizationURI
+  href: OSLC4Net.Core.Model.OAuthConfiguration.html#OSLC4Net_Core_Model_OAuthConfiguration_SetAuthorizationURI_System_Uri_
+  name: SetAuthorizationURI
+  nameWithType: OAuthConfiguration.SetAuthorizationURI
+  fullName: OSLC4Net.Core.Model.OAuthConfiguration.SetAuthorizationURI
+- uid: OSLC4Net.Core.Model.OAuthConfiguration.SetOauthAccessTokenURI*
+  commentId: Overload:OSLC4Net.Core.Model.OAuthConfiguration.SetOauthAccessTokenURI
+  href: OSLC4Net.Core.Model.OAuthConfiguration.html#OSLC4Net_Core_Model_OAuthConfiguration_SetOauthAccessTokenURI_System_Uri_
+  name: SetOauthAccessTokenURI
+  nameWithType: OAuthConfiguration.SetOauthAccessTokenURI
+  fullName: OSLC4Net.Core.Model.OAuthConfiguration.SetOauthAccessTokenURI
+- uid: OSLC4Net.Core.Model.OAuthConfiguration.SetOauthRequestTokenURI*
+  commentId: Overload:OSLC4Net.Core.Model.OAuthConfiguration.SetOauthRequestTokenURI
+  href: OSLC4Net.Core.Model.OAuthConfiguration.html#OSLC4Net_Core_Model_OAuthConfiguration_SetOauthRequestTokenURI_System_Uri_
+  name: SetOauthRequestTokenURI
+  nameWithType: OAuthConfiguration.SetOauthRequestTokenURI
+  fullName: OSLC4Net.Core.Model.OAuthConfiguration.SetOauthRequestTokenURI

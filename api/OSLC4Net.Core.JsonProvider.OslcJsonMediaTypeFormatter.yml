@@ -1,0 +1,1722 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter
+  commentId: T:OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter
+  id: OslcJsonMediaTypeFormatter
+  parent: OSLC4Net.Core.JsonProvider
+  children:
+  - OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.#ctor(System.Boolean)
+  - OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.#ctor(System.Json.JsonValue,System.Boolean)
+  - OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.CanReadType(System.Type)
+  - OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.CanWriteType(System.Type)
+  - OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.GetPerRequestFormatterInstance(System.Type,System.Net.Http.HttpRequestMessage,System.Net.Http.Headers.MediaTypeHeaderValue)
+  - OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.Json
+  - OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.ReadFromStreamAsync(System.Type,System.IO.Stream,System.Net.Http.HttpContent,System.Net.Http.Formatting.IFormatterLogger)
+  - OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.RebuildJson
+  - OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.WriteToStreamAsync(System.Type,System.Object,System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext)
+  langs:
+  - csharp
+  - vb
+  name: OslcJsonMediaTypeFormatter
+  nameWithType: OslcJsonMediaTypeFormatter
+  fullName: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.JsonProvider/JsonMediaTypeFormatter.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OslcJsonMediaTypeFormatter
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.JsonProvider/JsonMediaTypeFormatter.cs
+    startLine: 29
+  assemblies:
+  - OSLC4Net.Core.JsonProvider
+  namespace: OSLC4Net.Core.JsonProvider
+  summary: >-
+    A class to
+        - read RDF/XML from an input stream and create .NET objects.
+        - write .NET objects to an output stream as RDF/XML
+  example: []
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public class OslcJsonMediaTypeFormatter : MediaTypeFormatter
+    content.vb: >-
+      <Obsolete>
+
+      Public Class OslcJsonMediaTypeFormatter Inherits MediaTypeFormatter
+  inheritance:
+  - System.Object
+  - System.Net.Http.Formatting.MediaTypeFormatter
+  inheritedMembers:
+  - System.Net.Http.Formatting.MediaTypeFormatter.ReadFromStreamAsync(System.Type,System.IO.Stream,System.Net.Http.HttpContent,System.Net.Http.Formatting.IFormatterLogger,System.Threading.CancellationToken)
+  - System.Net.Http.Formatting.MediaTypeFormatter.WriteToStreamAsync(System.Type,System.Object,System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext,System.Threading.CancellationToken)
+  - System.Net.Http.Formatting.MediaTypeFormatter.SelectCharacterEncoding(System.Net.Http.Headers.HttpContentHeaders)
+  - System.Net.Http.Formatting.MediaTypeFormatter.SetDefaultContentHeaders(System.Type,System.Net.Http.Headers.HttpContentHeaders,System.Net.Http.Headers.MediaTypeHeaderValue)
+  - System.Net.Http.Formatting.MediaTypeFormatter.GetDefaultValueForType(System.Type)
+  - System.Net.Http.Formatting.MediaTypeFormatter.MaxHttpCollectionKeys
+  - System.Net.Http.Formatting.MediaTypeFormatter.SupportedMediaTypes
+  - System.Net.Http.Formatting.MediaTypeFormatter.SupportedEncodings
+  - System.Net.Http.Formatting.MediaTypeFormatter.MediaTypeMappings
+  - System.Net.Http.Formatting.MediaTypeFormatter.RequiredMemberSelector
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.Json
+  commentId: P:OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.Json
+  id: Json
+  parent: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter
+  langs:
+  - csharp
+  - vb
+  name: Json
+  nameWithType: OslcJsonMediaTypeFormatter.Json
+  fullName: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.Json
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.JsonProvider/JsonMediaTypeFormatter.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Json
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.JsonProvider/JsonMediaTypeFormatter.cs
+    startLine: 33
+  assemblies:
+  - OSLC4Net.Core.JsonProvider
+  namespace: OSLC4Net.Core.JsonProvider
+  syntax:
+    content: public JsonValue Json { get; set; }
+    parameters: []
+    return:
+      type: System.Json.JsonValue
+    content.vb: Public Property Json As JsonValue
+  overload: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.Json*
+- uid: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.RebuildJson
+  commentId: P:OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.RebuildJson
+  id: RebuildJson
+  parent: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter
+  langs:
+  - csharp
+  - vb
+  name: RebuildJson
+  nameWithType: OslcJsonMediaTypeFormatter.RebuildJson
+  fullName: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.RebuildJson
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.JsonProvider/JsonMediaTypeFormatter.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: RebuildJson
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.JsonProvider/JsonMediaTypeFormatter.cs
+    startLine: 34
+  assemblies:
+  - OSLC4Net.Core.JsonProvider
+  namespace: OSLC4Net.Core.JsonProvider
+  syntax:
+    content: public bool RebuildJson { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property RebuildJson As Boolean
+  overload: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.RebuildJson*
+- uid: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.#ctor(System.Boolean)
+  commentId: M:OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.#ctor(System.Boolean)
+  id: '#ctor(System.Boolean)'
+  parent: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter
+  langs:
+  - csharp
+  - vb
+  name: OslcJsonMediaTypeFormatter(bool)
+  nameWithType: OslcJsonMediaTypeFormatter.OslcJsonMediaTypeFormatter(bool)
+  fullName: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.OslcJsonMediaTypeFormatter(bool)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.JsonProvider/JsonMediaTypeFormatter.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.JsonProvider/JsonMediaTypeFormatter.cs
+    startLine: 41
+  assemblies:
+  - OSLC4Net.Core.JsonProvider
+  namespace: OSLC4Net.Core.JsonProvider
+  summary: Defauld JSON formatter
+  example: []
+  syntax:
+    content: public OslcJsonMediaTypeFormatter(bool rebuildJson = true)
+    parameters:
+    - id: rebuildJson
+      type: System.Boolean
+      description: ''
+    content.vb: Public Sub New(rebuildJson As Boolean = True)
+  overload: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.#ctor*
+  nameWithType.vb: OslcJsonMediaTypeFormatter.New(Boolean)
+  fullName.vb: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.New(Boolean)
+  name.vb: New(Boolean)
+- uid: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.#ctor(System.Json.JsonValue,System.Boolean)
+  commentId: M:OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.#ctor(System.Json.JsonValue,System.Boolean)
+  id: '#ctor(System.Json.JsonValue,System.Boolean)'
+  parent: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter
+  langs:
+  - csharp
+  - vb
+  name: OslcJsonMediaTypeFormatter(JsonValue, bool)
+  nameWithType: OslcJsonMediaTypeFormatter.OslcJsonMediaTypeFormatter(JsonValue, bool)
+  fullName: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.OslcJsonMediaTypeFormatter(System.Json.JsonValue, bool)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.JsonProvider/JsonMediaTypeFormatter.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.JsonProvider/JsonMediaTypeFormatter.cs
+    startLine: 54
+  assemblies:
+  - OSLC4Net.Core.JsonProvider
+  namespace: OSLC4Net.Core.JsonProvider
+  summary: JSON formatter which accepts a pre-built JSON object
+  example: []
+  syntax:
+    content: public OslcJsonMediaTypeFormatter(JsonValue json, bool rebuildJson = true)
+    parameters:
+    - id: json
+      type: System.Json.JsonValue
+      description: ''
+    - id: rebuildJson
+      type: System.Boolean
+      description: ''
+    content.vb: Public Sub New(json As JsonValue, rebuildJson As Boolean = True)
+  overload: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.#ctor*
+  nameWithType.vb: OslcJsonMediaTypeFormatter.New(JsonValue, Boolean)
+  fullName.vb: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.New(System.Json.JsonValue, Boolean)
+  name.vb: New(JsonValue, Boolean)
+- uid: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.GetPerRequestFormatterInstance(System.Type,System.Net.Http.HttpRequestMessage,System.Net.Http.Headers.MediaTypeHeaderValue)
+  commentId: M:OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.GetPerRequestFormatterInstance(System.Type,System.Net.Http.HttpRequestMessage,System.Net.Http.Headers.MediaTypeHeaderValue)
+  id: GetPerRequestFormatterInstance(System.Type,System.Net.Http.HttpRequestMessage,System.Net.Http.Headers.MediaTypeHeaderValue)
+  parent: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetPerRequestFormatterInstance(Type, HttpRequestMessage, MediaTypeHeaderValue)
+  nameWithType: OslcJsonMediaTypeFormatter.GetPerRequestFormatterInstance(Type, HttpRequestMessage, MediaTypeHeaderValue)
+  fullName: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.GetPerRequestFormatterInstance(System.Type, System.Net.Http.HttpRequestMessage, System.Net.Http.Headers.MediaTypeHeaderValue)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.JsonProvider/JsonMediaTypeFormatter.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetPerRequestFormatterInstance
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.JsonProvider/JsonMediaTypeFormatter.cs
+    startLine: 70
+  assemblies:
+  - OSLC4Net.Core.JsonProvider
+  namespace: OSLC4Net.Core.JsonProvider
+  summary: Save the HttpRequestMessage locally for use during serialization.
+  example: []
+  syntax:
+    content: public override MediaTypeFormatter GetPerRequestFormatterInstance(Type type, HttpRequestMessage request, MediaTypeHeaderValue mediaType)
+    parameters:
+    - id: type
+      type: System.Type
+      description: ''
+    - id: request
+      type: System.Net.Http.HttpRequestMessage
+      description: ''
+    - id: mediaType
+      type: System.Net.Http.Headers.MediaTypeHeaderValue
+      description: ''
+    return:
+      type: System.Net.Http.Formatting.MediaTypeFormatter
+      description: ''
+    content.vb: Public Overrides Function GetPerRequestFormatterInstance(type As Type, request As HttpRequestMessage, mediaType As MediaTypeHeaderValue) As MediaTypeFormatter
+  overridden: System.Net.Http.Formatting.MediaTypeFormatter.GetPerRequestFormatterInstance(System.Type,System.Net.Http.HttpRequestMessage,System.Net.Http.Headers.MediaTypeHeaderValue)
+  overload: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.GetPerRequestFormatterInstance*
+- uid: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.CanWriteType(System.Type)
+  commentId: M:OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.CanWriteType(System.Type)
+  id: CanWriteType(System.Type)
+  parent: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter
+  langs:
+  - csharp
+  - vb
+  name: CanWriteType(Type)
+  nameWithType: OslcJsonMediaTypeFormatter.CanWriteType(Type)
+  fullName: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.CanWriteType(System.Type)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.JsonProvider/JsonMediaTypeFormatter.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CanWriteType
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.JsonProvider/JsonMediaTypeFormatter.cs
+    startLine: 81
+  assemblies:
+  - OSLC4Net.Core.JsonProvider
+  namespace: OSLC4Net.Core.JsonProvider
+  summary: Test the write-ability of a type
+  example: []
+  syntax:
+    content: public override bool CanWriteType(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Overrides Function CanWriteType(type As Type) As Boolean
+  overridden: System.Net.Http.Formatting.MediaTypeFormatter.CanWriteType(System.Type)
+  overload: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.CanWriteType*
+- uid: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.WriteToStreamAsync(System.Type,System.Object,System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext)
+  commentId: M:OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.WriteToStreamAsync(System.Type,System.Object,System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext)
+  id: WriteToStreamAsync(System.Type,System.Object,System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext)
+  parent: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter
+  langs:
+  - csharp
+  - vb
+  name: WriteToStreamAsync(Type, object, Stream, HttpContent, TransportContext)
+  nameWithType: OslcJsonMediaTypeFormatter.WriteToStreamAsync(Type, object, Stream, HttpContent, TransportContext)
+  fullName: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.WriteToStreamAsync(System.Type, object, System.IO.Stream, System.Net.Http.HttpContent, System.Net.TransportContext)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.JsonProvider/JsonMediaTypeFormatter.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: WriteToStreamAsync
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.JsonProvider/JsonMediaTypeFormatter.cs
+    startLine: 139
+  assemblies:
+  - OSLC4Net.Core.JsonProvider
+  namespace: OSLC4Net.Core.JsonProvider
+  summary: Write a .NET object to an output stream
+  example: []
+  syntax:
+    content: public override Task WriteToStreamAsync(Type type, object value, Stream writeStream, HttpContent content, TransportContext transportContext)
+    parameters:
+    - id: type
+      type: System.Type
+      description: ''
+    - id: value
+      type: System.Object
+      description: ''
+    - id: writeStream
+      type: System.IO.Stream
+      description: ''
+    - id: content
+      type: System.Net.Http.HttpContent
+      description: ''
+    - id: transportContext
+      type: System.Net.TransportContext
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Overrides Function WriteToStreamAsync(type As Type, value As Object, writeStream As Stream, content As HttpContent, transportContext As TransportContext) As Task
+  overridden: System.Net.Http.Formatting.MediaTypeFormatter.WriteToStreamAsync(System.Type,System.Object,System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext)
+  overload: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.WriteToStreamAsync*
+  nameWithType.vb: OslcJsonMediaTypeFormatter.WriteToStreamAsync(Type, Object, Stream, HttpContent, TransportContext)
+  fullName.vb: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.WriteToStreamAsync(System.Type, Object, System.IO.Stream, System.Net.Http.HttpContent, System.Net.TransportContext)
+  name.vb: WriteToStreamAsync(Type, Object, Stream, HttpContent, TransportContext)
+- uid: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.CanReadType(System.Type)
+  commentId: M:OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.CanReadType(System.Type)
+  id: CanReadType(System.Type)
+  parent: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter
+  langs:
+  - csharp
+  - vb
+  name: CanReadType(Type)
+  nameWithType: OslcJsonMediaTypeFormatter.CanReadType(Type)
+  fullName: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.CanReadType(System.Type)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.JsonProvider/JsonMediaTypeFormatter.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CanReadType
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.JsonProvider/JsonMediaTypeFormatter.cs
+    startLine: 226
+  assemblies:
+  - OSLC4Net.Core.JsonProvider
+  namespace: OSLC4Net.Core.JsonProvider
+  summary: Test the readability of a type
+  example: []
+  syntax:
+    content: public override bool CanReadType(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Overrides Function CanReadType(type As Type) As Boolean
+  overridden: System.Net.Http.Formatting.MediaTypeFormatter.CanReadType(System.Type)
+  overload: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.CanReadType*
+- uid: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.ReadFromStreamAsync(System.Type,System.IO.Stream,System.Net.Http.HttpContent,System.Net.Http.Formatting.IFormatterLogger)
+  commentId: M:OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.ReadFromStreamAsync(System.Type,System.IO.Stream,System.Net.Http.HttpContent,System.Net.Http.Formatting.IFormatterLogger)
+  id: ReadFromStreamAsync(System.Type,System.IO.Stream,System.Net.Http.HttpContent,System.Net.Http.Formatting.IFormatterLogger)
+  parent: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter
+  langs:
+  - csharp
+  - vb
+  name: ReadFromStreamAsync(Type, Stream, HttpContent, IFormatterLogger)
+  nameWithType: OslcJsonMediaTypeFormatter.ReadFromStreamAsync(Type, Stream, HttpContent, IFormatterLogger)
+  fullName: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.ReadFromStreamAsync(System.Type, System.IO.Stream, System.Net.Http.HttpContent, System.Net.Http.Formatting.IFormatterLogger)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.JsonProvider/JsonMediaTypeFormatter.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ReadFromStreamAsync
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.JsonProvider/JsonMediaTypeFormatter.cs
+    startLine: 251
+  assemblies:
+  - OSLC4Net.Core.JsonProvider
+  namespace: OSLC4Net.Core.JsonProvider
+  summary: Read RDF/XML from an HTTP input stream and convert to .NET objects
+  example: []
+  syntax:
+    content: public override Task<object> ReadFromStreamAsync(Type type, Stream readStream, HttpContent content, IFormatterLogger formatterLogger)
+    parameters:
+    - id: type
+      type: System.Type
+      description: ''
+    - id: readStream
+      type: System.IO.Stream
+      description: ''
+    - id: content
+      type: System.Net.Http.HttpContent
+      description: ''
+    - id: formatterLogger
+      type: System.Net.Http.Formatting.IFormatterLogger
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{System.Object}
+      description: ''
+    content.vb: Public Overrides Function ReadFromStreamAsync(type As Type, readStream As Stream, content As HttpContent, formatterLogger As IFormatterLogger) As Task(Of Object)
+  overridden: System.Net.Http.Formatting.MediaTypeFormatter.ReadFromStreamAsync(System.Type,System.IO.Stream,System.Net.Http.HttpContent,System.Net.Http.Formatting.IFormatterLogger)
+  overload: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.ReadFromStreamAsync*
+references:
+- uid: OSLC4Net.Core.JsonProvider
+  commentId: N:OSLC4Net.Core.JsonProvider
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.JsonProvider
+  nameWithType: OSLC4Net.Core.JsonProvider
+  fullName: OSLC4Net.Core.JsonProvider
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.JsonProvider
+    name: JsonProvider
+    href: OSLC4Net.Core.JsonProvider.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.JsonProvider
+    name: JsonProvider
+    href: OSLC4Net.Core.JsonProvider.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Net.Http.Formatting.MediaTypeFormatter
+  commentId: T:System.Net.Http.Formatting.MediaTypeFormatter
+  parent: System.Net.Http.Formatting
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter
+  name: MediaTypeFormatter
+  nameWithType: MediaTypeFormatter
+  fullName: System.Net.Http.Formatting.MediaTypeFormatter
+- uid: System.Net.Http.Formatting.MediaTypeFormatter.ReadFromStreamAsync(System.Type,System.IO.Stream,System.Net.Http.HttpContent,System.Net.Http.Formatting.IFormatterLogger,System.Threading.CancellationToken)
+  commentId: M:System.Net.Http.Formatting.MediaTypeFormatter.ReadFromStreamAsync(System.Type,System.IO.Stream,System.Net.Http.HttpContent,System.Net.Http.Formatting.IFormatterLogger,System.Threading.CancellationToken)
+  parent: System.Net.Http.Formatting.MediaTypeFormatter
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.readfromstreamasync#system-net-http-formatting-mediatypeformatter-readfromstreamasync(system-type-system-io-stream-system-net-http-httpcontent-system-net-http-formatting-iformatterlogger-system-threading-cancellationtoken)
+  name: ReadFromStreamAsync(Type, Stream, HttpContent, IFormatterLogger, CancellationToken)
+  nameWithType: MediaTypeFormatter.ReadFromStreamAsync(Type, Stream, HttpContent, IFormatterLogger, CancellationToken)
+  fullName: System.Net.Http.Formatting.MediaTypeFormatter.ReadFromStreamAsync(System.Type, System.IO.Stream, System.Net.Http.HttpContent, System.Net.Http.Formatting.IFormatterLogger, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter.ReadFromStreamAsync(System.Type,System.IO.Stream,System.Net.Http.HttpContent,System.Net.Http.Formatting.IFormatterLogger,System.Threading.CancellationToken)
+    name: ReadFromStreamAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.readfromstreamasync#system-net-http-formatting-mediatypeformatter-readfromstreamasync(system-type-system-io-stream-system-net-http-httpcontent-system-net-http-formatting-iformatterlogger-system-threading-cancellationtoken)
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.HttpContent
+    name: HttpContent
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpcontent
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.Formatting.IFormatterLogger
+    name: IFormatterLogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.iformatterlogger
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter.ReadFromStreamAsync(System.Type,System.IO.Stream,System.Net.Http.HttpContent,System.Net.Http.Formatting.IFormatterLogger,System.Threading.CancellationToken)
+    name: ReadFromStreamAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.readfromstreamasync#system-net-http-formatting-mediatypeformatter-readfromstreamasync(system-type-system-io-stream-system-net-http-httpcontent-system-net-http-formatting-iformatterlogger-system-threading-cancellationtoken)
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.HttpContent
+    name: HttpContent
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpcontent
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.Formatting.IFormatterLogger
+    name: IFormatterLogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.iformatterlogger
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Net.Http.Formatting.MediaTypeFormatter.WriteToStreamAsync(System.Type,System.Object,System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext,System.Threading.CancellationToken)
+  commentId: M:System.Net.Http.Formatting.MediaTypeFormatter.WriteToStreamAsync(System.Type,System.Object,System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext,System.Threading.CancellationToken)
+  parent: System.Net.Http.Formatting.MediaTypeFormatter
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.writetostreamasync#system-net-http-formatting-mediatypeformatter-writetostreamasync(system-type-system-object-system-io-stream-system-net-http-httpcontent-system-net-transportcontext-system-threading-cancellationtoken)
+  name: WriteToStreamAsync(Type, object, Stream, HttpContent, TransportContext, CancellationToken)
+  nameWithType: MediaTypeFormatter.WriteToStreamAsync(Type, object, Stream, HttpContent, TransportContext, CancellationToken)
+  fullName: System.Net.Http.Formatting.MediaTypeFormatter.WriteToStreamAsync(System.Type, object, System.IO.Stream, System.Net.Http.HttpContent, System.Net.TransportContext, System.Threading.CancellationToken)
+  nameWithType.vb: MediaTypeFormatter.WriteToStreamAsync(Type, Object, Stream, HttpContent, TransportContext, CancellationToken)
+  fullName.vb: System.Net.Http.Formatting.MediaTypeFormatter.WriteToStreamAsync(System.Type, Object, System.IO.Stream, System.Net.Http.HttpContent, System.Net.TransportContext, System.Threading.CancellationToken)
+  name.vb: WriteToStreamAsync(Type, Object, Stream, HttpContent, TransportContext, CancellationToken)
+  spec.csharp:
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter.WriteToStreamAsync(System.Type,System.Object,System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext,System.Threading.CancellationToken)
+    name: WriteToStreamAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.writetostreamasync#system-net-http-formatting-mediatypeformatter-writetostreamasync(system-type-system-object-system-io-stream-system-net-http-httpcontent-system-net-transportcontext-system-threading-cancellationtoken)
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.HttpContent
+    name: HttpContent
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpcontent
+  - name: ','
+  - name: " "
+  - uid: System.Net.TransportContext
+    name: TransportContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.transportcontext
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter.WriteToStreamAsync(System.Type,System.Object,System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext,System.Threading.CancellationToken)
+    name: WriteToStreamAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.writetostreamasync#system-net-http-formatting-mediatypeformatter-writetostreamasync(system-type-system-object-system-io-stream-system-net-http-httpcontent-system-net-transportcontext-system-threading-cancellationtoken)
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.HttpContent
+    name: HttpContent
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpcontent
+  - name: ','
+  - name: " "
+  - uid: System.Net.TransportContext
+    name: TransportContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.transportcontext
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Net.Http.Formatting.MediaTypeFormatter.SelectCharacterEncoding(System.Net.Http.Headers.HttpContentHeaders)
+  commentId: M:System.Net.Http.Formatting.MediaTypeFormatter.SelectCharacterEncoding(System.Net.Http.Headers.HttpContentHeaders)
+  parent: System.Net.Http.Formatting.MediaTypeFormatter
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.selectcharacterencoding
+  name: SelectCharacterEncoding(HttpContentHeaders)
+  nameWithType: MediaTypeFormatter.SelectCharacterEncoding(HttpContentHeaders)
+  fullName: System.Net.Http.Formatting.MediaTypeFormatter.SelectCharacterEncoding(System.Net.Http.Headers.HttpContentHeaders)
+  spec.csharp:
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter.SelectCharacterEncoding(System.Net.Http.Headers.HttpContentHeaders)
+    name: SelectCharacterEncoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.selectcharacterencoding
+  - name: (
+  - uid: System.Net.Http.Headers.HttpContentHeaders
+    name: HttpContentHeaders
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.headers.httpcontentheaders
+  - name: )
+  spec.vb:
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter.SelectCharacterEncoding(System.Net.Http.Headers.HttpContentHeaders)
+    name: SelectCharacterEncoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.selectcharacterencoding
+  - name: (
+  - uid: System.Net.Http.Headers.HttpContentHeaders
+    name: HttpContentHeaders
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.headers.httpcontentheaders
+  - name: )
+- uid: System.Net.Http.Formatting.MediaTypeFormatter.SetDefaultContentHeaders(System.Type,System.Net.Http.Headers.HttpContentHeaders,System.Net.Http.Headers.MediaTypeHeaderValue)
+  commentId: M:System.Net.Http.Formatting.MediaTypeFormatter.SetDefaultContentHeaders(System.Type,System.Net.Http.Headers.HttpContentHeaders,System.Net.Http.Headers.MediaTypeHeaderValue)
+  parent: System.Net.Http.Formatting.MediaTypeFormatter
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.setdefaultcontentheaders
+  name: SetDefaultContentHeaders(Type, HttpContentHeaders, MediaTypeHeaderValue)
+  nameWithType: MediaTypeFormatter.SetDefaultContentHeaders(Type, HttpContentHeaders, MediaTypeHeaderValue)
+  fullName: System.Net.Http.Formatting.MediaTypeFormatter.SetDefaultContentHeaders(System.Type, System.Net.Http.Headers.HttpContentHeaders, System.Net.Http.Headers.MediaTypeHeaderValue)
+  spec.csharp:
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter.SetDefaultContentHeaders(System.Type,System.Net.Http.Headers.HttpContentHeaders,System.Net.Http.Headers.MediaTypeHeaderValue)
+    name: SetDefaultContentHeaders
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.setdefaultcontentheaders
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.Headers.HttpContentHeaders
+    name: HttpContentHeaders
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.headers.httpcontentheaders
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.Headers.MediaTypeHeaderValue
+    name: MediaTypeHeaderValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.headers.mediatypeheadervalue
+  - name: )
+  spec.vb:
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter.SetDefaultContentHeaders(System.Type,System.Net.Http.Headers.HttpContentHeaders,System.Net.Http.Headers.MediaTypeHeaderValue)
+    name: SetDefaultContentHeaders
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.setdefaultcontentheaders
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.Headers.HttpContentHeaders
+    name: HttpContentHeaders
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.headers.httpcontentheaders
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.Headers.MediaTypeHeaderValue
+    name: MediaTypeHeaderValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.headers.mediatypeheadervalue
+  - name: )
+- uid: System.Net.Http.Formatting.MediaTypeFormatter.GetDefaultValueForType(System.Type)
+  commentId: M:System.Net.Http.Formatting.MediaTypeFormatter.GetDefaultValueForType(System.Type)
+  parent: System.Net.Http.Formatting.MediaTypeFormatter
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.getdefaultvaluefortype
+  name: GetDefaultValueForType(Type)
+  nameWithType: MediaTypeFormatter.GetDefaultValueForType(Type)
+  fullName: System.Net.Http.Formatting.MediaTypeFormatter.GetDefaultValueForType(System.Type)
+  spec.csharp:
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter.GetDefaultValueForType(System.Type)
+    name: GetDefaultValueForType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.getdefaultvaluefortype
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter.GetDefaultValueForType(System.Type)
+    name: GetDefaultValueForType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.getdefaultvaluefortype
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Net.Http.Formatting.MediaTypeFormatter.MaxHttpCollectionKeys
+  commentId: P:System.Net.Http.Formatting.MediaTypeFormatter.MaxHttpCollectionKeys
+  parent: System.Net.Http.Formatting.MediaTypeFormatter
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.maxhttpcollectionkeys
+  name: MaxHttpCollectionKeys
+  nameWithType: MediaTypeFormatter.MaxHttpCollectionKeys
+  fullName: System.Net.Http.Formatting.MediaTypeFormatter.MaxHttpCollectionKeys
+- uid: System.Net.Http.Formatting.MediaTypeFormatter.SupportedMediaTypes
+  commentId: P:System.Net.Http.Formatting.MediaTypeFormatter.SupportedMediaTypes
+  parent: System.Net.Http.Formatting.MediaTypeFormatter
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.supportedmediatypes
+  name: SupportedMediaTypes
+  nameWithType: MediaTypeFormatter.SupportedMediaTypes
+  fullName: System.Net.Http.Formatting.MediaTypeFormatter.SupportedMediaTypes
+- uid: System.Net.Http.Formatting.MediaTypeFormatter.SupportedEncodings
+  commentId: P:System.Net.Http.Formatting.MediaTypeFormatter.SupportedEncodings
+  parent: System.Net.Http.Formatting.MediaTypeFormatter
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.supportedencodings
+  name: SupportedEncodings
+  nameWithType: MediaTypeFormatter.SupportedEncodings
+  fullName: System.Net.Http.Formatting.MediaTypeFormatter.SupportedEncodings
+- uid: System.Net.Http.Formatting.MediaTypeFormatter.MediaTypeMappings
+  commentId: P:System.Net.Http.Formatting.MediaTypeFormatter.MediaTypeMappings
+  parent: System.Net.Http.Formatting.MediaTypeFormatter
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.mediatypemappings
+  name: MediaTypeMappings
+  nameWithType: MediaTypeFormatter.MediaTypeMappings
+  fullName: System.Net.Http.Formatting.MediaTypeFormatter.MediaTypeMappings
+- uid: System.Net.Http.Formatting.MediaTypeFormatter.RequiredMemberSelector
+  commentId: P:System.Net.Http.Formatting.MediaTypeFormatter.RequiredMemberSelector
+  parent: System.Net.Http.Formatting.MediaTypeFormatter
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.requiredmemberselector
+  name: RequiredMemberSelector
+  nameWithType: MediaTypeFormatter.RequiredMemberSelector
+  fullName: System.Net.Http.Formatting.MediaTypeFormatter.RequiredMemberSelector
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Net.Http.Formatting
+  commentId: N:System.Net.Http.Formatting
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http.Formatting
+  nameWithType: System.Net.Http.Formatting
+  fullName: System.Net.Http.Formatting
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  - name: .
+  - uid: System.Net.Http.Formatting
+    name: Formatting
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  - name: .
+  - uid: System.Net.Http.Formatting
+    name: Formatting
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting
+- uid: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.Json*
+  commentId: Overload:OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.Json
+  href: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.html#OSLC4Net_Core_JsonProvider_OslcJsonMediaTypeFormatter_Json
+  name: Json
+  nameWithType: OslcJsonMediaTypeFormatter.Json
+  fullName: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.Json
+- uid: System.Json.JsonValue
+  commentId: T:System.Json.JsonValue
+  parent: System.Json
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.json.jsonvalue
+  name: JsonValue
+  nameWithType: JsonValue
+  fullName: System.Json.JsonValue
+- uid: System.Json
+  commentId: N:System.Json
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Json
+  nameWithType: System.Json
+  fullName: System.Json
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Json
+    name: Json
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.json
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Json
+    name: Json
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.json
+- uid: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.RebuildJson*
+  commentId: Overload:OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.RebuildJson
+  href: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.html#OSLC4Net_Core_JsonProvider_OslcJsonMediaTypeFormatter_RebuildJson
+  name: RebuildJson
+  nameWithType: OslcJsonMediaTypeFormatter.RebuildJson
+  fullName: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.RebuildJson
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.#ctor*
+  commentId: Overload:OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.#ctor
+  href: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.html#OSLC4Net_Core_JsonProvider_OslcJsonMediaTypeFormatter__ctor_System_Boolean_
+  name: OslcJsonMediaTypeFormatter
+  nameWithType: OslcJsonMediaTypeFormatter.OslcJsonMediaTypeFormatter
+  fullName: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.OslcJsonMediaTypeFormatter
+  nameWithType.vb: OslcJsonMediaTypeFormatter.New
+  fullName.vb: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.New
+  name.vb: New
+- uid: System.Net.Http.Formatting.MediaTypeFormatter.GetPerRequestFormatterInstance(System.Type,System.Net.Http.HttpRequestMessage,System.Net.Http.Headers.MediaTypeHeaderValue)
+  commentId: M:System.Net.Http.Formatting.MediaTypeFormatter.GetPerRequestFormatterInstance(System.Type,System.Net.Http.HttpRequestMessage,System.Net.Http.Headers.MediaTypeHeaderValue)
+  parent: System.Net.Http.Formatting.MediaTypeFormatter
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.getperrequestformatterinstance
+  name: GetPerRequestFormatterInstance(Type, HttpRequestMessage, MediaTypeHeaderValue)
+  nameWithType: MediaTypeFormatter.GetPerRequestFormatterInstance(Type, HttpRequestMessage, MediaTypeHeaderValue)
+  fullName: System.Net.Http.Formatting.MediaTypeFormatter.GetPerRequestFormatterInstance(System.Type, System.Net.Http.HttpRequestMessage, System.Net.Http.Headers.MediaTypeHeaderValue)
+  spec.csharp:
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter.GetPerRequestFormatterInstance(System.Type,System.Net.Http.HttpRequestMessage,System.Net.Http.Headers.MediaTypeHeaderValue)
+    name: GetPerRequestFormatterInstance
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.getperrequestformatterinstance
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.Headers.MediaTypeHeaderValue
+    name: MediaTypeHeaderValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.headers.mediatypeheadervalue
+  - name: )
+  spec.vb:
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter.GetPerRequestFormatterInstance(System.Type,System.Net.Http.HttpRequestMessage,System.Net.Http.Headers.MediaTypeHeaderValue)
+    name: GetPerRequestFormatterInstance
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.getperrequestformatterinstance
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.Headers.MediaTypeHeaderValue
+    name: MediaTypeHeaderValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.headers.mediatypeheadervalue
+  - name: )
+- uid: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.GetPerRequestFormatterInstance*
+  commentId: Overload:OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.GetPerRequestFormatterInstance
+  href: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.html#OSLC4Net_Core_JsonProvider_OslcJsonMediaTypeFormatter_GetPerRequestFormatterInstance_System_Type_System_Net_Http_HttpRequestMessage_System_Net_Http_Headers_MediaTypeHeaderValue_
+  name: GetPerRequestFormatterInstance
+  nameWithType: OslcJsonMediaTypeFormatter.GetPerRequestFormatterInstance
+  fullName: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.GetPerRequestFormatterInstance
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Net.Http.HttpRequestMessage
+  commentId: T:System.Net.Http.HttpRequestMessage
+  parent: System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage
+  name: HttpRequestMessage
+  nameWithType: HttpRequestMessage
+  fullName: System.Net.Http.HttpRequestMessage
+- uid: System.Net.Http.Headers.MediaTypeHeaderValue
+  commentId: T:System.Net.Http.Headers.MediaTypeHeaderValue
+  parent: System.Net.Http.Headers
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.headers.mediatypeheadervalue
+  name: MediaTypeHeaderValue
+  nameWithType: MediaTypeHeaderValue
+  fullName: System.Net.Http.Headers.MediaTypeHeaderValue
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+- uid: System.Net.Http.Headers
+  commentId: N:System.Net.Http.Headers
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http.Headers
+  nameWithType: System.Net.Http.Headers
+  fullName: System.Net.Http.Headers
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  - name: .
+  - uid: System.Net.Http.Headers
+    name: Headers
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.headers
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  - name: .
+  - uid: System.Net.Http.Headers
+    name: Headers
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.headers
+- uid: System.Net.Http.Formatting.MediaTypeFormatter.CanWriteType(System.Type)
+  commentId: M:System.Net.Http.Formatting.MediaTypeFormatter.CanWriteType(System.Type)
+  parent: System.Net.Http.Formatting.MediaTypeFormatter
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.canwritetype
+  name: CanWriteType(Type)
+  nameWithType: MediaTypeFormatter.CanWriteType(Type)
+  fullName: System.Net.Http.Formatting.MediaTypeFormatter.CanWriteType(System.Type)
+  spec.csharp:
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter.CanWriteType(System.Type)
+    name: CanWriteType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.canwritetype
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter.CanWriteType(System.Type)
+    name: CanWriteType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.canwritetype
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.CanWriteType*
+  commentId: Overload:OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.CanWriteType
+  href: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.html#OSLC4Net_Core_JsonProvider_OslcJsonMediaTypeFormatter_CanWriteType_System_Type_
+  name: CanWriteType
+  nameWithType: OslcJsonMediaTypeFormatter.CanWriteType
+  fullName: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.CanWriteType
+- uid: System.Net.Http.Formatting.MediaTypeFormatter.WriteToStreamAsync(System.Type,System.Object,System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext)
+  commentId: M:System.Net.Http.Formatting.MediaTypeFormatter.WriteToStreamAsync(System.Type,System.Object,System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext)
+  parent: System.Net.Http.Formatting.MediaTypeFormatter
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.writetostreamasync#system-net-http-formatting-mediatypeformatter-writetostreamasync(system-type-system-object-system-io-stream-system-net-http-httpcontent-system-net-transportcontext)
+  name: WriteToStreamAsync(Type, object, Stream, HttpContent, TransportContext)
+  nameWithType: MediaTypeFormatter.WriteToStreamAsync(Type, object, Stream, HttpContent, TransportContext)
+  fullName: System.Net.Http.Formatting.MediaTypeFormatter.WriteToStreamAsync(System.Type, object, System.IO.Stream, System.Net.Http.HttpContent, System.Net.TransportContext)
+  nameWithType.vb: MediaTypeFormatter.WriteToStreamAsync(Type, Object, Stream, HttpContent, TransportContext)
+  fullName.vb: System.Net.Http.Formatting.MediaTypeFormatter.WriteToStreamAsync(System.Type, Object, System.IO.Stream, System.Net.Http.HttpContent, System.Net.TransportContext)
+  name.vb: WriteToStreamAsync(Type, Object, Stream, HttpContent, TransportContext)
+  spec.csharp:
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter.WriteToStreamAsync(System.Type,System.Object,System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext)
+    name: WriteToStreamAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.writetostreamasync#system-net-http-formatting-mediatypeformatter-writetostreamasync(system-type-system-object-system-io-stream-system-net-http-httpcontent-system-net-transportcontext)
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.HttpContent
+    name: HttpContent
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpcontent
+  - name: ','
+  - name: " "
+  - uid: System.Net.TransportContext
+    name: TransportContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.transportcontext
+  - name: )
+  spec.vb:
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter.WriteToStreamAsync(System.Type,System.Object,System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext)
+    name: WriteToStreamAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.writetostreamasync#system-net-http-formatting-mediatypeformatter-writetostreamasync(system-type-system-object-system-io-stream-system-net-http-httpcontent-system-net-transportcontext)
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.HttpContent
+    name: HttpContent
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpcontent
+  - name: ','
+  - name: " "
+  - uid: System.Net.TransportContext
+    name: TransportContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.transportcontext
+  - name: )
+- uid: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.WriteToStreamAsync*
+  commentId: Overload:OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.WriteToStreamAsync
+  href: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.html#OSLC4Net_Core_JsonProvider_OslcJsonMediaTypeFormatter_WriteToStreamAsync_System_Type_System_Object_System_IO_Stream_System_Net_Http_HttpContent_System_Net_TransportContext_
+  name: WriteToStreamAsync
+  nameWithType: OslcJsonMediaTypeFormatter.WriteToStreamAsync
+  fullName: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.WriteToStreamAsync
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.Net.Http.HttpContent
+  commentId: T:System.Net.Http.HttpContent
+  parent: System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.httpcontent
+  name: HttpContent
+  nameWithType: HttpContent
+  fullName: System.Net.Http.HttpContent
+- uid: System.Net.TransportContext
+  commentId: T:System.Net.TransportContext
+  parent: System.Net
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.transportcontext
+  name: TransportContext
+  nameWithType: TransportContext
+  fullName: System.Net.TransportContext
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: System.Net
+  commentId: N:System.Net
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net
+  nameWithType: System.Net
+  fullName: System.Net
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: System.Net.Http.Formatting.MediaTypeFormatter.CanReadType(System.Type)
+  commentId: M:System.Net.Http.Formatting.MediaTypeFormatter.CanReadType(System.Type)
+  parent: System.Net.Http.Formatting.MediaTypeFormatter
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.canreadtype
+  name: CanReadType(Type)
+  nameWithType: MediaTypeFormatter.CanReadType(Type)
+  fullName: System.Net.Http.Formatting.MediaTypeFormatter.CanReadType(System.Type)
+  spec.csharp:
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter.CanReadType(System.Type)
+    name: CanReadType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.canreadtype
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter.CanReadType(System.Type)
+    name: CanReadType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.canreadtype
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.CanReadType*
+  commentId: Overload:OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.CanReadType
+  href: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.html#OSLC4Net_Core_JsonProvider_OslcJsonMediaTypeFormatter_CanReadType_System_Type_
+  name: CanReadType
+  nameWithType: OslcJsonMediaTypeFormatter.CanReadType
+  fullName: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.CanReadType
+- uid: System.Net.Http.Formatting.MediaTypeFormatter.ReadFromStreamAsync(System.Type,System.IO.Stream,System.Net.Http.HttpContent,System.Net.Http.Formatting.IFormatterLogger)
+  commentId: M:System.Net.Http.Formatting.MediaTypeFormatter.ReadFromStreamAsync(System.Type,System.IO.Stream,System.Net.Http.HttpContent,System.Net.Http.Formatting.IFormatterLogger)
+  parent: System.Net.Http.Formatting.MediaTypeFormatter
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.readfromstreamasync#system-net-http-formatting-mediatypeformatter-readfromstreamasync(system-type-system-io-stream-system-net-http-httpcontent-system-net-http-formatting-iformatterlogger)
+  name: ReadFromStreamAsync(Type, Stream, HttpContent, IFormatterLogger)
+  nameWithType: MediaTypeFormatter.ReadFromStreamAsync(Type, Stream, HttpContent, IFormatterLogger)
+  fullName: System.Net.Http.Formatting.MediaTypeFormatter.ReadFromStreamAsync(System.Type, System.IO.Stream, System.Net.Http.HttpContent, System.Net.Http.Formatting.IFormatterLogger)
+  spec.csharp:
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter.ReadFromStreamAsync(System.Type,System.IO.Stream,System.Net.Http.HttpContent,System.Net.Http.Formatting.IFormatterLogger)
+    name: ReadFromStreamAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.readfromstreamasync#system-net-http-formatting-mediatypeformatter-readfromstreamasync(system-type-system-io-stream-system-net-http-httpcontent-system-net-http-formatting-iformatterlogger)
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.HttpContent
+    name: HttpContent
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpcontent
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.Formatting.IFormatterLogger
+    name: IFormatterLogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.iformatterlogger
+  - name: )
+  spec.vb:
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter.ReadFromStreamAsync(System.Type,System.IO.Stream,System.Net.Http.HttpContent,System.Net.Http.Formatting.IFormatterLogger)
+    name: ReadFromStreamAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter.readfromstreamasync#system-net-http-formatting-mediatypeformatter-readfromstreamasync(system-type-system-io-stream-system-net-http-httpcontent-system-net-http-formatting-iformatterlogger)
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.HttpContent
+    name: HttpContent
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpcontent
+  - name: ','
+  - name: " "
+  - uid: System.Net.Http.Formatting.IFormatterLogger
+    name: IFormatterLogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.iformatterlogger
+  - name: )
+- uid: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.ReadFromStreamAsync*
+  commentId: Overload:OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.ReadFromStreamAsync
+  href: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.html#OSLC4Net_Core_JsonProvider_OslcJsonMediaTypeFormatter_ReadFromStreamAsync_System_Type_System_IO_Stream_System_Net_Http_HttpContent_System_Net_Http_Formatting_IFormatterLogger_
+  name: ReadFromStreamAsync
+  nameWithType: OslcJsonMediaTypeFormatter.ReadFromStreamAsync
+  fullName: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.ReadFromStreamAsync
+- uid: System.Net.Http.Formatting.IFormatterLogger
+  commentId: T:System.Net.Http.Formatting.IFormatterLogger
+  parent: System.Net.Http.Formatting
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.iformatterlogger
+  name: IFormatterLogger
+  nameWithType: IFormatterLogger
+  fullName: System.Net.Http.Formatting.IFormatterLogger
+- uid: System.Threading.Tasks.Task{System.Object}
+  commentId: T:System.Threading.Tasks.Task{System.Object}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<object>
+  nameWithType: Task<object>
+  fullName: System.Threading.Tasks.Task<object>
+  nameWithType.vb: Task(Of Object)
+  fullName.vb: System.Threading.Tasks.Task(Of Object)
+  name.vb: Task(Of Object)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )

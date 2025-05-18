@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Query.SimpleTerm
+  commentId: T:OSLC4Net.Core.Query.SimpleTerm
+  id: SimpleTerm
+  parent: OSLC4Net.Core.Query
+  children:
+  - OSLC4Net.Core.Query.SimpleTerm.Property
+  - OSLC4Net.Core.Query.SimpleTerm.Type
+  langs:
+  - csharp
+  - vb
+  name: SimpleTerm
+  nameWithType: SimpleTerm
+  fullName: OSLC4Net.Core.Query.SimpleTerm
+  type: Interface
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/SimpleTerm.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SimpleTerm
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/SimpleTerm.cs
+    startLine: 28
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  summary: Simple term from oslc.where clause
+  example: []
+  syntax:
+    content: public interface SimpleTerm
+    content.vb: Public Interface SimpleTerm
+- uid: OSLC4Net.Core.Query.SimpleTerm.Type
+  commentId: P:OSLC4Net.Core.Query.SimpleTerm.Type
+  id: Type
+  parent: OSLC4Net.Core.Query.SimpleTerm
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: SimpleTerm.Type
+  fullName: OSLC4Net.Core.Query.SimpleTerm.Type
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/SimpleTerm.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Type
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/SimpleTerm.cs
+    startLine: 30
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: TermType Type { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Query.TermType
+    content.vb: ReadOnly Property Type As TermType
+  overload: OSLC4Net.Core.Query.SimpleTerm.Type*
+- uid: OSLC4Net.Core.Query.SimpleTerm.Property
+  commentId: P:OSLC4Net.Core.Query.SimpleTerm.Property
+  id: Property
+  parent: OSLC4Net.Core.Query.SimpleTerm
+  langs:
+  - csharp
+  - vb
+  name: Property
+  nameWithType: SimpleTerm.Property
+  fullName: OSLC4Net.Core.Query.SimpleTerm.Property
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/SimpleTerm.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Property
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/SimpleTerm.cs
+    startLine: 36
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  example: []
+  syntax:
+    content: PName Property { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Query.PName
+    content.vb: ReadOnly Property [Property] As PName
+  overload: OSLC4Net.Core.Query.SimpleTerm.Property*
+references:
+- uid: OSLC4Net.Core.Query
+  commentId: N:OSLC4Net.Core.Query
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Query
+  nameWithType: OSLC4Net.Core.Query
+  fullName: OSLC4Net.Core.Query
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+- uid: OSLC4Net.Core.Query.SimpleTerm.Type*
+  commentId: Overload:OSLC4Net.Core.Query.SimpleTerm.Type
+  href: OSLC4Net.Core.Query.SimpleTerm.html#OSLC4Net_Core_Query_SimpleTerm_Type
+  name: Type
+  nameWithType: SimpleTerm.Type
+  fullName: OSLC4Net.Core.Query.SimpleTerm.Type
+- uid: OSLC4Net.Core.Query.TermType
+  commentId: T:OSLC4Net.Core.Query.TermType
+  parent: OSLC4Net.Core.Query
+  href: OSLC4Net.Core.Query.TermType.html
+  name: TermType
+  nameWithType: TermType
+  fullName: OSLC4Net.Core.Query.TermType
+- uid: OSLC4Net.Core.Query.SimpleTerm.Property*
+  commentId: Overload:OSLC4Net.Core.Query.SimpleTerm.Property
+  href: OSLC4Net.Core.Query.SimpleTerm.html#OSLC4Net_Core_Query_SimpleTerm_Property
+  name: Property
+  nameWithType: SimpleTerm.Property
+  fullName: OSLC4Net.Core.Query.SimpleTerm.Property
+- uid: OSLC4Net.Core.Query.PName
+  commentId: T:OSLC4Net.Core.Query.PName
+  parent: OSLC4Net.Core.Query
+  href: OSLC4Net.Core.Query.PName.html
+  name: PName
+  nameWithType: PName
+  fullName: OSLC4Net.Core.Query.PName

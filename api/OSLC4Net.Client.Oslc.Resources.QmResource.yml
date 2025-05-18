@@ -1,0 +1,1628 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource
+  commentId: T:OSLC4Net.Client.Oslc.Resources.QmResource
+  id: QmResource
+  parent: OSLC4Net.Client.Oslc.Resources
+  children:
+  - OSLC4Net.Client.Oslc.Resources.QmResource.#ctor
+  - OSLC4Net.Client.Oslc.Resources.QmResource.#ctor(System.Uri)
+  - OSLC4Net.Client.Oslc.Resources.QmResource.AddRdfType(System.Uri)
+  - OSLC4Net.Client.Oslc.Resources.QmResource.GetCreated
+  - OSLC4Net.Client.Oslc.Resources.QmResource.GetIdentifier
+  - OSLC4Net.Client.Oslc.Resources.QmResource.GetInstanceShape
+  - OSLC4Net.Client.Oslc.Resources.QmResource.GetModified
+  - OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfType
+  - OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfTypes
+  - OSLC4Net.Client.Oslc.Resources.QmResource.GetServiceProvider
+  - OSLC4Net.Client.Oslc.Resources.QmResource.GetTitle
+  - OSLC4Net.Client.Oslc.Resources.QmResource.SetCreated(System.Nullable{System.DateTime})
+  - OSLC4Net.Client.Oslc.Resources.QmResource.SetIdentifier(System.String)
+  - OSLC4Net.Client.Oslc.Resources.QmResource.SetInstanceShape(System.Uri)
+  - OSLC4Net.Client.Oslc.Resources.QmResource.SetModified(System.Nullable{System.DateTime})
+  - OSLC4Net.Client.Oslc.Resources.QmResource.SetRdfTypes(System.Uri[])
+  - OSLC4Net.Client.Oslc.Resources.QmResource.SetServiceProvider(System.Uri)
+  - OSLC4Net.Client.Oslc.Resources.QmResource.SetTitle(System.String)
+  langs:
+  - csharp
+  - vb
+  name: QmResource
+  nameWithType: QmResource
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: QmResource
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+    startLine: 23
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  summary: http://open-services.net/bin/view/Main/QmSpecificationV2
+  example: []
+  syntax:
+    content: 'public abstract class QmResource : AbstractResource, IExtendedResource, IResource'
+    content.vb: Public MustInherit Class QmResource Inherits AbstractResource Implements IExtendedResource, IResource
+  inheritance:
+  - System.Object
+  - OSLC4Net.Core.Model.AbstractResource
+  derivedClasses:
+  - OSLC4Net.Client.Oslc.Resources.TestCase
+  - OSLC4Net.Client.Oslc.Resources.TestExecutionRecord
+  - OSLC4Net.Client.Oslc.Resources.TestPlan
+  - OSLC4Net.Client.Oslc.Resources.TestResult
+  - OSLC4Net.Client.Oslc.Resources.TestScript
+  implements:
+  - OSLC4Net.Core.Model.IExtendedResource
+  - OSLC4Net.Core.Model.IResource
+  inheritedMembers:
+  - OSLC4Net.Core.Model.AbstractResource.About
+  - OSLC4Net.Core.Model.AbstractResource.GetAbout
+  - OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+  - OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+  - OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties
+  - OSLC4Net.Core.Model.AbstractResource.GetTypes
+  - OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+  - OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.#ctor
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.#ctor
+  id: '#ctor'
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  langs:
+  - csharp
+  - vb
+  name: QmResource()
+  nameWithType: QmResource.QmResource()
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.QmResource()
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+    startLine: 34
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public QmResource()
+    content.vb: Public Sub New()
+  overload: OSLC4Net.Client.Oslc.Resources.QmResource.#ctor*
+  nameWithType.vb: QmResource.New()
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.QmResource.New()
+  name.vb: New()
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.#ctor(System.Uri)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.#ctor(System.Uri)
+  id: '#ctor(System.Uri)'
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  langs:
+  - csharp
+  - vb
+  name: QmResource(Uri)
+  nameWithType: QmResource.QmResource(Uri)
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.QmResource(System.Uri)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+    startLine: 39
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public QmResource(Uri about)
+    parameters:
+    - id: about
+      type: System.Uri
+    content.vb: Public Sub New(about As Uri)
+  overload: OSLC4Net.Client.Oslc.Resources.QmResource.#ctor*
+  nameWithType.vb: QmResource.New(Uri)
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.QmResource.New(System.Uri)
+  name.vb: New(Uri)
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfType
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfType
+  id: GetRdfType
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  langs:
+  - csharp
+  - vb
+  name: GetRdfType()
+  nameWithType: QmResource.GetRdfType()
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfType()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetRdfType
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+    startLine: 44
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: protected abstract Uri GetRdfType()
+    return:
+      type: System.Uri
+    content.vb: Protected MustOverride Function GetRdfType() As Uri
+  overload: OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfType*
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.AddRdfType(System.Uri)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.AddRdfType(System.Uri)
+  id: AddRdfType(System.Uri)
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  langs:
+  - csharp
+  - vb
+  name: AddRdfType(Uri)
+  nameWithType: QmResource.AddRdfType(Uri)
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.AddRdfType(System.Uri)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AddRdfType
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+    startLine: 46
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void AddRdfType(Uri rdfType)
+    parameters:
+    - id: rdfType
+      type: System.Uri
+    content.vb: Public Sub AddRdfType(rdfType As Uri)
+  overload: OSLC4Net.Client.Oslc.Resources.QmResource.AddRdfType*
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetCreated
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.GetCreated
+  id: GetCreated
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  langs:
+  - csharp
+  - vb
+  name: GetCreated()
+  nameWithType: QmResource.GetCreated()
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetCreated()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetCreated
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+    startLine: 51
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: >-
+      [OslcDescription("Timestamp of resource creation.")]
+
+      [OslcPropertyDefinition("http://purl.org/dc/terms/created")]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Created")]
+
+      public DateTime? GetCreated()
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: >-
+      <OslcDescription("Timestamp of resource creation.")>
+
+      <OslcPropertyDefinition("http://purl.org/dc/terms/created")>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Created")>
+
+      Public Function GetCreated() As Date?
+  overload: OSLC4Net.Client.Oslc.Resources.QmResource.GetCreated*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Timestamp of resource creation.
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://purl.org/dc/terms/created
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Created
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetIdentifier
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.GetIdentifier
+  id: GetIdentifier
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  langs:
+  - csharp
+  - vb
+  name: GetIdentifier()
+  nameWithType: QmResource.GetIdentifier()
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetIdentifier()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetIdentifier
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+    startLine: 60
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: >-
+      [OslcDescription("A unique identifier for a resource. Assigned by the service provider when a resource is created. Not intended for end-user display.")]
+
+      [OslcOccurs(Occurs.ExactlyOne)]
+
+      [OslcPropertyDefinition("http://purl.org/dc/terms/identifier")]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Identifier")]
+
+      public string GetIdentifier()
+    return:
+      type: System.String
+    content.vb: >-
+      <OslcDescription("A unique identifier for a resource. Assigned by the service provider when a resource is created. Not intended for end-user display.")>
+
+      <OslcOccurs(Occurs.ExactlyOne)>
+
+      <OslcPropertyDefinition("http://purl.org/dc/terms/identifier")>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Identifier")>
+
+      Public Function GetIdentifier() As String
+  overload: OSLC4Net.Client.Oslc.Resources.QmResource.GetIdentifier*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: A unique identifier for a resource. Assigned by the service provider when a resource is created. Not intended for end-user display.
+  - type: OSLC4Net.Core.Attribute.OslcOccurs
+    ctor: OSLC4Net.Core.Attribute.OslcOccurs.#ctor(OSLC4Net.Core.Model.Occurs)
+    arguments:
+    - type: OSLC4Net.Core.Model.Occurs
+      value: 0
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://purl.org/dc/terms/identifier
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Identifier
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetInstanceShape
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.GetInstanceShape
+  id: GetInstanceShape
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  langs:
+  - csharp
+  - vb
+  name: GetInstanceShape()
+  nameWithType: QmResource.GetInstanceShape()
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetInstanceShape()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetInstanceShape
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+    startLine: 71
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: >-
+      [OslcDescription("Resource Shape that provides hints as to resource property value-types and allowed values. ")]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/core#instanceShape")]
+
+      [OslcRange(new string[] { "http://open-services.net/ns/core#ResourceShape" })]
+
+      [OslcTitle("Instance Shape")]
+
+      public Uri GetInstanceShape()
+    return:
+      type: System.Uri
+    content.vb: >-
+      <OslcDescription("Resource Shape that provides hints as to resource property value-types and allowed values. ")>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/core#instanceShape")>
+
+      <OslcRange(New String() { "http://open-services.net/ns/core#ResourceShape" })>
+
+      <OslcTitle("Instance Shape")>
+
+      Public Function GetInstanceShape() As Uri
+  overload: OSLC4Net.Client.Oslc.Resources.QmResource.GetInstanceShape*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 'Resource Shape that provides hints as to resource property value-types and allowed values. '
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#instanceShape
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Instance Shape
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetModified
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.GetModified
+  id: GetModified
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  langs:
+  - csharp
+  - vb
+  name: GetModified()
+  nameWithType: QmResource.GetModified()
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetModified()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetModified
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+    startLine: 80
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: >-
+      [OslcDescription("Timestamp last latest resource modification.")]
+
+      [OslcPropertyDefinition("http://purl.org/dc/terms/modified")]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Modified")]
+
+      public DateTime? GetModified()
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: >-
+      <OslcDescription("Timestamp last latest resource modification.")>
+
+      <OslcPropertyDefinition("http://purl.org/dc/terms/modified")>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Modified")>
+
+      Public Function GetModified() As Date?
+  overload: OSLC4Net.Client.Oslc.Resources.QmResource.GetModified*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Timestamp last latest resource modification.
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://purl.org/dc/terms/modified
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Modified
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfTypes
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfTypes
+  id: GetRdfTypes
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  langs:
+  - csharp
+  - vb
+  name: GetRdfTypes()
+  nameWithType: QmResource.GetRdfTypes()
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfTypes()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetRdfTypes
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+    startLine: 89
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: >-
+      [OslcDescription("The resource type URIs.")]
+
+      [OslcName("type")]
+
+      [OslcPropertyDefinition("http://www.w3.org/1999/02/22-rdf-syntax-ns#type")]
+
+      [OslcTitle("Types")]
+
+      public Uri[] GetRdfTypes()
+    return:
+      type: System.Uri[]
+    content.vb: >-
+      <OslcDescription("The resource type URIs.")>
+
+      <OslcName("type")>
+
+      <OslcPropertyDefinition("http://www.w3.org/1999/02/22-rdf-syntax-ns#type")>
+
+      <OslcTitle("Types")>
+
+      Public Function GetRdfTypes() As Uri()
+  overload: OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfTypes*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: The resource type URIs.
+  - type: OSLC4Net.Core.Attribute.OslcName
+    ctor: OSLC4Net.Core.Attribute.OslcName.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: type
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Types
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetServiceProvider
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.GetServiceProvider
+  id: GetServiceProvider
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  langs:
+  - csharp
+  - vb
+  name: GetServiceProvider()
+  nameWithType: QmResource.GetServiceProvider()
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetServiceProvider()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetServiceProvider
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+    startLine: 98
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: >-
+      [OslcDescription("The scope of a resource is a Uri for the resource's OSLC Service Provider.")]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/core#serviceProvider")]
+
+      [OslcRange(new string[] { "http://open-services.net/ns/core#ServiceProvider" })]
+
+      [OslcTitle("Service Provider")]
+
+      public Uri GetServiceProvider()
+    return:
+      type: System.Uri
+    content.vb: >-
+      <OslcDescription("The scope of a resource is a Uri for the resource's OSLC Service Provider.")>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/core#serviceProvider")>
+
+      <OslcRange(New String() { "http://open-services.net/ns/core#ServiceProvider" })>
+
+      <OslcTitle("Service Provider")>
+
+      Public Function GetServiceProvider() As Uri
+  overload: OSLC4Net.Client.Oslc.Resources.QmResource.GetServiceProvider*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: The scope of a resource is a Uri for the resource's OSLC Service Provider.
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#serviceProvider
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Service Provider
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetTitle
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.GetTitle
+  id: GetTitle
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  langs:
+  - csharp
+  - vb
+  name: GetTitle()
+  nameWithType: QmResource.GetTitle()
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetTitle()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetTitle
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+    startLine: 107
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: >-
+      [OslcDescription("Title (reference: Dublin Core) or often a single line summary of the resource represented as rich text in XHTML content.")]
+
+      [OslcOccurs(Occurs.ExactlyOne)]
+
+      [OslcPropertyDefinition("http://purl.org/dc/terms/title")]
+
+      [OslcTitle("Title")]
+
+      [OslcValueType(ValueType.XMLLiteral)]
+
+      public string GetTitle()
+    return:
+      type: System.String
+    content.vb: >-
+      <OslcDescription("Title (reference: Dublin Core) or often a single line summary of the resource represented as rich text in XHTML content.")>
+
+      <OslcOccurs(Occurs.ExactlyOne)>
+
+      <OslcPropertyDefinition("http://purl.org/dc/terms/title")>
+
+      <OslcTitle("Title")>
+
+      <OslcValueType(ValueType.XMLLiteral)>
+
+      Public Function GetTitle() As String
+  overload: OSLC4Net.Client.Oslc.Resources.QmResource.GetTitle*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 'Title (reference: Dublin Core) or often a single line summary of the resource represented as rich text in XHTML content.'
+  - type: OSLC4Net.Core.Attribute.OslcOccurs
+    ctor: OSLC4Net.Core.Attribute.OslcOccurs.#ctor(OSLC4Net.Core.Model.Occurs)
+    arguments:
+    - type: OSLC4Net.Core.Model.Occurs
+      value: 0
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://purl.org/dc/terms/title
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Title
+  - type: OSLC4Net.Core.Attribute.OslcValueType
+    ctor: OSLC4Net.Core.Attribute.OslcValueType.#ctor(OSLC4Net.Core.Model.ValueType)
+    arguments:
+    - type: OSLC4Net.Core.Model.ValueType
+      value: 7
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetCreated(System.Nullable{System.DateTime})
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.SetCreated(System.Nullable{System.DateTime})
+  id: SetCreated(System.Nullable{System.DateTime})
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  langs:
+  - csharp
+  - vb
+  name: SetCreated(DateTime?)
+  nameWithType: QmResource.SetCreated(DateTime?)
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetCreated(System.DateTime?)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetCreated
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+    startLine: 118
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void SetCreated(DateTime? created)
+    parameters:
+    - id: created
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Sub SetCreated(created As Date?)
+  overload: OSLC4Net.Client.Oslc.Resources.QmResource.SetCreated*
+  nameWithType.vb: QmResource.SetCreated(Date?)
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.QmResource.SetCreated(Date?)
+  name.vb: SetCreated(Date?)
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetIdentifier(System.String)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.SetIdentifier(System.String)
+  id: SetIdentifier(System.String)
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  langs:
+  - csharp
+  - vb
+  name: SetIdentifier(string)
+  nameWithType: QmResource.SetIdentifier(string)
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetIdentifier(string)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetIdentifier
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+    startLine: 123
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void SetIdentifier(string identifier)
+    parameters:
+    - id: identifier
+      type: System.String
+    content.vb: Public Sub SetIdentifier(identifier As String)
+  overload: OSLC4Net.Client.Oslc.Resources.QmResource.SetIdentifier*
+  nameWithType.vb: QmResource.SetIdentifier(String)
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.QmResource.SetIdentifier(String)
+  name.vb: SetIdentifier(String)
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetInstanceShape(System.Uri)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.SetInstanceShape(System.Uri)
+  id: SetInstanceShape(System.Uri)
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  langs:
+  - csharp
+  - vb
+  name: SetInstanceShape(Uri)
+  nameWithType: QmResource.SetInstanceShape(Uri)
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetInstanceShape(System.Uri)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetInstanceShape
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+    startLine: 128
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void SetInstanceShape(Uri instanceShape)
+    parameters:
+    - id: instanceShape
+      type: System.Uri
+    content.vb: Public Sub SetInstanceShape(instanceShape As Uri)
+  overload: OSLC4Net.Client.Oslc.Resources.QmResource.SetInstanceShape*
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetModified(System.Nullable{System.DateTime})
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.SetModified(System.Nullable{System.DateTime})
+  id: SetModified(System.Nullable{System.DateTime})
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  langs:
+  - csharp
+  - vb
+  name: SetModified(DateTime?)
+  nameWithType: QmResource.SetModified(DateTime?)
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetModified(System.DateTime?)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetModified
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+    startLine: 133
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void SetModified(DateTime? modified)
+    parameters:
+    - id: modified
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Sub SetModified(modified As Date?)
+  overload: OSLC4Net.Client.Oslc.Resources.QmResource.SetModified*
+  nameWithType.vb: QmResource.SetModified(Date?)
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.QmResource.SetModified(Date?)
+  name.vb: SetModified(Date?)
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetRdfTypes(System.Uri[])
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.SetRdfTypes(System.Uri[])
+  id: SetRdfTypes(System.Uri[])
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  langs:
+  - csharp
+  - vb
+  name: SetRdfTypes(Uri[])
+  nameWithType: QmResource.SetRdfTypes(Uri[])
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetRdfTypes(System.Uri[])
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetRdfTypes
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+    startLine: 138
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void SetRdfTypes(Uri[] rdfTypes)
+    parameters:
+    - id: rdfTypes
+      type: System.Uri[]
+    content.vb: Public Sub SetRdfTypes(rdfTypes As Uri())
+  overload: OSLC4Net.Client.Oslc.Resources.QmResource.SetRdfTypes*
+  nameWithType.vb: QmResource.SetRdfTypes(Uri())
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.QmResource.SetRdfTypes(System.Uri())
+  name.vb: SetRdfTypes(Uri())
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetServiceProvider(System.Uri)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.SetServiceProvider(System.Uri)
+  id: SetServiceProvider(System.Uri)
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  langs:
+  - csharp
+  - vb
+  name: SetServiceProvider(Uri)
+  nameWithType: QmResource.SetServiceProvider(Uri)
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetServiceProvider(System.Uri)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetServiceProvider
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+    startLine: 145
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void SetServiceProvider(Uri serviceProvider)
+    parameters:
+    - id: serviceProvider
+      type: System.Uri
+    content.vb: Public Sub SetServiceProvider(serviceProvider As Uri)
+  overload: OSLC4Net.Client.Oslc.Resources.QmResource.SetServiceProvider*
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetTitle(System.String)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.SetTitle(System.String)
+  id: SetTitle(System.String)
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  langs:
+  - csharp
+  - vb
+  name: SetTitle(string)
+  nameWithType: QmResource.SetTitle(string)
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetTitle(string)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetTitle
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/QmResource.cs
+    startLine: 150
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void SetTitle(string title)
+    parameters:
+    - id: title
+      type: System.String
+    content.vb: Public Sub SetTitle(title As String)
+  overload: OSLC4Net.Client.Oslc.Resources.QmResource.SetTitle*
+  nameWithType.vb: QmResource.SetTitle(String)
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.QmResource.SetTitle(String)
+  name.vb: SetTitle(String)
+references:
+- uid: OSLC4Net.Client.Oslc.Resources
+  commentId: N:OSLC4Net.Client.Oslc.Resources
+  href: OSLC4Net.html
+  name: OSLC4Net.Client.Oslc.Resources
+  nameWithType: OSLC4Net.Client.Oslc.Resources
+  fullName: OSLC4Net.Client.Oslc.Resources
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Client
+    name: Client
+    href: OSLC4Net.Client.html
+  - name: .
+  - uid: OSLC4Net.Client.Oslc
+    name: Oslc
+    href: OSLC4Net.Client.Oslc.html
+  - name: .
+  - uid: OSLC4Net.Client.Oslc.Resources
+    name: Resources
+    href: OSLC4Net.Client.Oslc.Resources.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Client
+    name: Client
+    href: OSLC4Net.Client.html
+  - name: .
+  - uid: OSLC4Net.Client.Oslc
+    name: Oslc
+    href: OSLC4Net.Client.Oslc.html
+  - name: .
+  - uid: OSLC4Net.Client.Oslc.Resources
+    name: Resources
+    href: OSLC4Net.Client.Oslc.Resources.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: OSLC4Net.Core.Model.AbstractResource
+  commentId: T:OSLC4Net.Core.Model.AbstractResource
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.AbstractResource.html
+  name: AbstractResource
+  nameWithType: AbstractResource
+  fullName: OSLC4Net.Core.Model.AbstractResource
+- uid: OSLC4Net.Core.Model.IExtendedResource
+  commentId: T:OSLC4Net.Core.Model.IExtendedResource
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.IExtendedResource.html
+  name: IExtendedResource
+  nameWithType: IExtendedResource
+  fullName: OSLC4Net.Core.Model.IExtendedResource
+- uid: OSLC4Net.Core.Model.IResource
+  commentId: T:OSLC4Net.Core.Model.IResource
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.IResource.html
+  name: IResource
+  nameWithType: IResource
+  fullName: OSLC4Net.Core.Model.IResource
+- uid: OSLC4Net.Core.Model.AbstractResource.About
+  commentId: P:OSLC4Net.Core.Model.AbstractResource.About
+  parent: OSLC4Net.Core.Model.AbstractResource
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_About
+  name: About
+  nameWithType: AbstractResource.About
+  fullName: OSLC4Net.Core.Model.AbstractResource.About
+- uid: OSLC4Net.Core.Model.AbstractResource.GetAbout
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.GetAbout
+  parent: OSLC4Net.Core.Model.AbstractResource
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetAbout
+  name: GetAbout()
+  nameWithType: AbstractResource.GetAbout()
+  fullName: OSLC4Net.Core.Model.AbstractResource.GetAbout()
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetAbout
+    name: GetAbout
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetAbout
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetAbout
+    name: GetAbout
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetAbout
+  - name: (
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+  parent: OSLC4Net.Core.Model.AbstractResource
+  isExternal: true
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetAbout_System_Uri_
+  name: SetAbout(Uri)
+  nameWithType: AbstractResource.SetAbout(Uri)
+  fullName: OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+    name: SetAbout
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetAbout_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+    name: SetAbout
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetAbout_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+  parent: OSLC4Net.Core.Model.AbstractResource
+  isExternal: true
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__
+  name: SetExtendedProperties(IDictionary<QName, object>)
+  nameWithType: AbstractResource.SetExtendedProperties(IDictionary<QName, object>)
+  fullName: OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary<OSLC4Net.Core.Model.QName, object>)
+  nameWithType.vb: AbstractResource.SetExtendedProperties(IDictionary(Of QName, Object))
+  fullName.vb: OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary(Of OSLC4Net.Core.Model.QName, Object))
+  name.vb: SetExtendedProperties(IDictionary(Of QName, Object))
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+    name: SetExtendedProperties
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__
+  - name: (
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - uid: OSLC4Net.Core.Model.QName
+    name: QName
+    href: OSLC4Net.Core.Model.QName.html
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+    name: SetExtendedProperties
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__
+  - name: (
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: OSLC4Net.Core.Model.QName
+    name: QName
+    href: OSLC4Net.Core.Model.QName.html
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties
+  parent: OSLC4Net.Core.Model.AbstractResource
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetExtendedProperties
+  name: GetExtendedProperties()
+  nameWithType: AbstractResource.GetExtendedProperties()
+  fullName: OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties()
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties
+    name: GetExtendedProperties
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetExtendedProperties
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties
+    name: GetExtendedProperties
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetExtendedProperties
+  - name: (
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.GetTypes
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.GetTypes
+  parent: OSLC4Net.Core.Model.AbstractResource
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetTypes
+  name: GetTypes()
+  nameWithType: AbstractResource.GetTypes()
+  fullName: OSLC4Net.Core.Model.AbstractResource.GetTypes()
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetTypes
+    name: GetTypes
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetTypes
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetTypes
+    name: GetTypes
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetTypes
+  - name: (
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+  parent: OSLC4Net.Core.Model.AbstractResource
+  isExternal: true
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__
+  name: SetTypes(ICollection<Uri>)
+  nameWithType: AbstractResource.SetTypes(ICollection<Uri>)
+  fullName: OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection<System.Uri>)
+  nameWithType.vb: AbstractResource.SetTypes(ICollection(Of Uri))
+  fullName.vb: OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection(Of System.Uri))
+  name.vb: SetTypes(ICollection(Of Uri))
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+    name: SetTypes
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+    name: SetTypes
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+  parent: OSLC4Net.Core.Model.AbstractResource
+  isExternal: true
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_AddType_System_Uri_
+  name: AddType(Uri)
+  nameWithType: AbstractResource.AddType(Uri)
+  fullName: OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+    name: AddType
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_AddType_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+    name: AddType
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_AddType_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.#ctor*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.QmResource.#ctor
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource__ctor
+  name: QmResource
+  nameWithType: QmResource.QmResource
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.QmResource
+  nameWithType.vb: QmResource.New
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.QmResource.New
+  name.vb: New
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uri
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfType*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfType
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetRdfType
+  name: GetRdfType
+  nameWithType: QmResource.GetRdfType
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfType
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.AddRdfType*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.QmResource.AddRdfType
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_AddRdfType_System_Uri_
+  name: AddRdfType
+  nameWithType: QmResource.AddRdfType
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.AddRdfType
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetCreated*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.QmResource.GetCreated
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetCreated
+  name: GetCreated
+  nameWithType: QmResource.GetCreated
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetCreated
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime?
+  nameWithType: DateTime?
+  fullName: System.DateTime?
+  nameWithType.vb: Date?
+  fullName.vb: Date?
+  name.vb: Date?
+  spec.csharp:
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '?'
+  spec.vb:
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetIdentifier*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.QmResource.GetIdentifier
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetIdentifier
+  name: GetIdentifier
+  nameWithType: QmResource.GetIdentifier
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetIdentifier
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetInstanceShape*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.QmResource.GetInstanceShape
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetInstanceShape
+  name: GetInstanceShape
+  nameWithType: QmResource.GetInstanceShape
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetInstanceShape
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetModified*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.QmResource.GetModified
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetModified
+  name: GetModified
+  nameWithType: QmResource.GetModified
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetModified
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfTypes*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfTypes
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetRdfTypes
+  name: GetRdfTypes
+  nameWithType: QmResource.GetRdfTypes
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfTypes
+- uid: System.Uri[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uri
+  name: Uri[]
+  nameWithType: Uri[]
+  fullName: System.Uri[]
+  nameWithType.vb: Uri()
+  fullName.vb: System.Uri()
+  name.vb: Uri()
+  spec.csharp:
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: (
+  - name: )
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetServiceProvider*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.QmResource.GetServiceProvider
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetServiceProvider
+  name: GetServiceProvider
+  nameWithType: QmResource.GetServiceProvider
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetServiceProvider
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetTitle*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.QmResource.GetTitle
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetTitle
+  name: GetTitle
+  nameWithType: QmResource.GetTitle
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetTitle
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetCreated*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.QmResource.SetCreated
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetCreated_System_Nullable_System_DateTime__
+  name: SetCreated
+  nameWithType: QmResource.SetCreated
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetCreated
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetIdentifier*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.QmResource.SetIdentifier
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetIdentifier_System_String_
+  name: SetIdentifier
+  nameWithType: QmResource.SetIdentifier
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetIdentifier
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetInstanceShape*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.QmResource.SetInstanceShape
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetInstanceShape_System_Uri_
+  name: SetInstanceShape
+  nameWithType: QmResource.SetInstanceShape
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetInstanceShape
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetModified*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.QmResource.SetModified
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetModified_System_Nullable_System_DateTime__
+  name: SetModified
+  nameWithType: QmResource.SetModified
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetModified
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetRdfTypes*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.QmResource.SetRdfTypes
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetRdfTypes_System_Uri___
+  name: SetRdfTypes
+  nameWithType: QmResource.SetRdfTypes
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetRdfTypes
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetServiceProvider*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.QmResource.SetServiceProvider
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetServiceProvider_System_Uri_
+  name: SetServiceProvider
+  nameWithType: QmResource.SetServiceProvider
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetServiceProvider
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetTitle*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.QmResource.SetTitle
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetTitle_System_String_
+  name: SetTitle
+  nameWithType: QmResource.SetTitle
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetTitle

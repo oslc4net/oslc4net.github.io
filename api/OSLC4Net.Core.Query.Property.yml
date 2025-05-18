@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Query.Property
+  commentId: T:OSLC4Net.Core.Query.Property
+  id: Property
+  parent: OSLC4Net.Core.Query
+  children:
+  - OSLC4Net.Core.Query.Property.Identifier
+  - OSLC4Net.Core.Query.Property.IsWildcard
+  - OSLC4Net.Core.Query.Property.Type
+  langs:
+  - csharp
+  - vb
+  name: Property
+  nameWithType: Property
+  fullName: OSLC4Net.Core.Query.Property
+  type: Interface
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Property
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/Property.cs
+    startLine: 26
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  summary: Property list element from olsc.select of oslc.properties clause
+  example: []
+  syntax:
+    content: public interface Property
+    content.vb: Public Interface [Property]
+- uid: OSLC4Net.Core.Query.Property.Type
+  commentId: P:OSLC4Net.Core.Query.Property.Type
+  id: Type
+  parent: OSLC4Net.Core.Query.Property
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Property.Type
+  fullName: OSLC4Net.Core.Query.Property.Type
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Type
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/Property.cs
+    startLine: 29
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: PropertyType Type { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Query.PropertyType
+    content.vb: ReadOnly Property Type As PropertyType
+  overload: OSLC4Net.Core.Query.Property.Type*
+- uid: OSLC4Net.Core.Query.Property.IsWildcard
+  commentId: P:OSLC4Net.Core.Query.Property.IsWildcard
+  id: IsWildcard
+  parent: OSLC4Net.Core.Query.Property
+  langs:
+  - csharp
+  - vb
+  name: IsWildcard
+  nameWithType: Property.IsWildcard
+  fullName: OSLC4Net.Core.Query.Property.IsWildcard
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: IsWildcard
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/Property.cs
+    startLine: 31
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: bool IsWildcard { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsWildcard As Boolean
+  overload: OSLC4Net.Core.Query.Property.IsWildcard*
+- uid: OSLC4Net.Core.Query.Property.Identifier
+  commentId: P:OSLC4Net.Core.Query.Property.Identifier
+  id: Identifier
+  parent: OSLC4Net.Core.Query.Property
+  langs:
+  - csharp
+  - vb
+  name: Identifier
+  nameWithType: Property.Identifier
+  fullName: OSLC4Net.Core.Query.Property.Identifier
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Identifier
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/Property.cs
+    startLine: 33
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: PName Identifier { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Query.PName
+    content.vb: ReadOnly Property Identifier As PName
+  overload: OSLC4Net.Core.Query.Property.Identifier*
+references:
+- uid: OSLC4Net.Core.Query
+  commentId: N:OSLC4Net.Core.Query
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Query
+  nameWithType: OSLC4Net.Core.Query
+  fullName: OSLC4Net.Core.Query
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+- uid: OSLC4Net.Core.Query.Property.Type*
+  commentId: Overload:OSLC4Net.Core.Query.Property.Type
+  href: OSLC4Net.Core.Query.Property.html#OSLC4Net_Core_Query_Property_Type
+  name: Type
+  nameWithType: Property.Type
+  fullName: OSLC4Net.Core.Query.Property.Type
+- uid: OSLC4Net.Core.Query.PropertyType
+  commentId: T:OSLC4Net.Core.Query.PropertyType
+  parent: OSLC4Net.Core.Query
+  href: OSLC4Net.Core.Query.PropertyType.html
+  name: PropertyType
+  nameWithType: PropertyType
+  fullName: OSLC4Net.Core.Query.PropertyType
+- uid: OSLC4Net.Core.Query.Property.IsWildcard*
+  commentId: Overload:OSLC4Net.Core.Query.Property.IsWildcard
+  href: OSLC4Net.Core.Query.Property.html#OSLC4Net_Core_Query_Property_IsWildcard
+  name: IsWildcard
+  nameWithType: Property.IsWildcard
+  fullName: OSLC4Net.Core.Query.Property.IsWildcard
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OSLC4Net.Core.Query.Property.Identifier*
+  commentId: Overload:OSLC4Net.Core.Query.Property.Identifier
+  href: OSLC4Net.Core.Query.Property.html#OSLC4Net_Core_Query_Property_Identifier
+  name: Identifier
+  nameWithType: Property.Identifier
+  fullName: OSLC4Net.Core.Query.Property.Identifier
+- uid: OSLC4Net.Core.Query.PName
+  commentId: T:OSLC4Net.Core.Query.PName
+  parent: OSLC4Net.Core.Query
+  href: OSLC4Net.Core.Query.PName.html
+  name: PName
+  nameWithType: PName
+  fullName: OSLC4Net.Core.Query.PName

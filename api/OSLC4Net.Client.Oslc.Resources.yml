@@ -1,0 +1,235 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Client.Oslc.Resources
+  commentId: N:OSLC4Net.Client.Oslc.Resources
+  id: OSLC4Net.Client.Oslc.Resources
+  children:
+  - OSLC4Net.Client.Oslc.Resources.ArchitectureConstants
+  - OSLC4Net.Client.Oslc.Resources.ArchitectureLinkType
+  - OSLC4Net.Client.Oslc.Resources.ArchitectureResource
+  - OSLC4Net.Client.Oslc.Resources.AutomationConstants
+  - OSLC4Net.Client.Oslc.Resources.AutomationPlan
+  - OSLC4Net.Client.Oslc.Resources.AutomationRequest
+  - OSLC4Net.Client.Oslc.Resources.AutomationResult
+  - OSLC4Net.Client.Oslc.Resources.ChangeRequest
+  - OSLC4Net.Client.Oslc.Resources.CmConstants
+  - OSLC4Net.Client.Oslc.Resources.OslcQuery
+  - OSLC4Net.Client.Oslc.Resources.OslcQueryParameters
+  - OSLC4Net.Client.Oslc.Resources.OslcQueryResult
+  - OSLC4Net.Client.Oslc.Resources.ParameterInstance
+  - OSLC4Net.Client.Oslc.Resources.QmConstants
+  - OSLC4Net.Client.Oslc.Resources.QmResource
+  - OSLC4Net.Client.Oslc.Resources.Requirement
+  - OSLC4Net.Client.Oslc.Resources.RequirementBase
+  - OSLC4Net.Client.Oslc.Resources.RequirementCollection
+  - OSLC4Net.Client.Oslc.Resources.RmConstants
+  - OSLC4Net.Client.Oslc.Resources.RmUtil
+  - OSLC4Net.Client.Oslc.Resources.TestCase
+  - OSLC4Net.Client.Oslc.Resources.TestExecutionRecord
+  - OSLC4Net.Client.Oslc.Resources.TestPlan
+  - OSLC4Net.Client.Oslc.Resources.TestResult
+  - OSLC4Net.Client.Oslc.Resources.TestScript
+  langs:
+  - csharp
+  - vb
+  name: OSLC4Net.Client.Oslc.Resources
+  nameWithType: OSLC4Net.Client.Oslc.Resources
+  fullName: OSLC4Net.Client.Oslc.Resources
+  type: Namespace
+  assemblies:
+  - OSLC4Net.Client
+references:
+- uid: OSLC4Net.Client.Oslc.Resources.ArchitectureConstants
+  commentId: T:OSLC4Net.Client.Oslc.Resources.ArchitectureConstants
+  href: OSLC4Net.Client.Oslc.Resources.ArchitectureConstants.html
+  name: ArchitectureConstants
+  nameWithType: ArchitectureConstants
+  fullName: OSLC4Net.Client.Oslc.Resources.ArchitectureConstants
+- uid: OSLC4Net.Client.Oslc.Resources.ArchitectureLinkType
+  commentId: T:OSLC4Net.Client.Oslc.Resources.ArchitectureLinkType
+  href: OSLC4Net.Client.Oslc.Resources.ArchitectureLinkType.html
+  name: ArchitectureLinkType
+  nameWithType: ArchitectureLinkType
+  fullName: OSLC4Net.Client.Oslc.Resources.ArchitectureLinkType
+- uid: OSLC4Net.Client.Oslc.Resources.ArchitectureResource
+  commentId: T:OSLC4Net.Client.Oslc.Resources.ArchitectureResource
+  href: OSLC4Net.Client.Oslc.Resources.ArchitectureResource.html
+  name: ArchitectureResource
+  nameWithType: ArchitectureResource
+  fullName: OSLC4Net.Client.Oslc.Resources.ArchitectureResource
+- uid: OSLC4Net.Client.Oslc.Resources.AutomationConstants
+  commentId: T:OSLC4Net.Client.Oslc.Resources.AutomationConstants
+  href: OSLC4Net.Client.Oslc.Resources.AutomationConstants.html
+  name: AutomationConstants
+  nameWithType: AutomationConstants
+  fullName: OSLC4Net.Client.Oslc.Resources.AutomationConstants
+- uid: OSLC4Net.Client.Oslc.Resources.AutomationPlan
+  commentId: T:OSLC4Net.Client.Oslc.Resources.AutomationPlan
+  href: OSLC4Net.Client.Oslc.Resources.AutomationPlan.html
+  name: AutomationPlan
+  nameWithType: AutomationPlan
+  fullName: OSLC4Net.Client.Oslc.Resources.AutomationPlan
+- uid: OSLC4Net.Client.Oslc.Resources.AutomationRequest
+  commentId: T:OSLC4Net.Client.Oslc.Resources.AutomationRequest
+  href: OSLC4Net.Client.Oslc.Resources.AutomationRequest.html
+  name: AutomationRequest
+  nameWithType: AutomationRequest
+  fullName: OSLC4Net.Client.Oslc.Resources.AutomationRequest
+- uid: OSLC4Net.Client.Oslc.Resources.AutomationResult
+  commentId: T:OSLC4Net.Client.Oslc.Resources.AutomationResult
+  href: OSLC4Net.Client.Oslc.Resources.AutomationResult.html
+  name: AutomationResult
+  nameWithType: AutomationResult
+  fullName: OSLC4Net.Client.Oslc.Resources.AutomationResult
+- uid: OSLC4Net.Client.Oslc.Resources.ChangeRequest
+  commentId: T:OSLC4Net.Client.Oslc.Resources.ChangeRequest
+  href: OSLC4Net.Client.Oslc.Resources.ChangeRequest.html
+  name: ChangeRequest
+  nameWithType: ChangeRequest
+  fullName: OSLC4Net.Client.Oslc.Resources.ChangeRequest
+- uid: OSLC4Net.Client.Oslc.Resources.CmConstants
+  commentId: T:OSLC4Net.Client.Oslc.Resources.CmConstants
+  href: OSLC4Net.Client.Oslc.Resources.CmConstants.html
+  name: CmConstants
+  nameWithType: CmConstants
+  fullName: OSLC4Net.Client.Oslc.Resources.CmConstants
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQuery
+  commentId: T:OSLC4Net.Client.Oslc.Resources.OslcQuery
+  parent: OSLC4Net.Client.Oslc.Resources
+  href: OSLC4Net.Client.Oslc.Resources.OslcQuery.html
+  name: OslcQuery
+  nameWithType: OslcQuery
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQuery
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters
+  commentId: T:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters
+  parent: OSLC4Net.Client.Oslc.Resources
+  href: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.html
+  name: OslcQueryParameters
+  nameWithType: OslcQueryParameters
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryResult
+  commentId: T:OSLC4Net.Client.Oslc.Resources.OslcQueryResult
+  parent: OSLC4Net.Client.Oslc.Resources
+  href: OSLC4Net.Client.Oslc.Resources.OslcQueryResult.html
+  name: OslcQueryResult
+  nameWithType: OslcQueryResult
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryResult
+- uid: OSLC4Net.Client.Oslc.Resources.ParameterInstance
+  commentId: T:OSLC4Net.Client.Oslc.Resources.ParameterInstance
+  parent: OSLC4Net.Client.Oslc.Resources
+  href: OSLC4Net.Client.Oslc.Resources.ParameterInstance.html
+  name: ParameterInstance
+  nameWithType: ParameterInstance
+  fullName: OSLC4Net.Client.Oslc.Resources.ParameterInstance
+- uid: OSLC4Net.Client.Oslc.Resources.QmConstants
+  commentId: T:OSLC4Net.Client.Oslc.Resources.QmConstants
+  href: OSLC4Net.Client.Oslc.Resources.QmConstants.html
+  name: QmConstants
+  nameWithType: QmConstants
+  fullName: OSLC4Net.Client.Oslc.Resources.QmConstants
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource
+  commentId: T:OSLC4Net.Client.Oslc.Resources.QmResource
+  parent: OSLC4Net.Client.Oslc.Resources
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html
+  name: QmResource
+  nameWithType: QmResource
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource
+- uid: OSLC4Net.Client.Oslc.Resources.Requirement
+  commentId: T:OSLC4Net.Client.Oslc.Resources.Requirement
+  href: OSLC4Net.Client.Oslc.Resources.Requirement.html
+  name: Requirement
+  nameWithType: Requirement
+  fullName: OSLC4Net.Client.Oslc.Resources.Requirement
+- uid: OSLC4Net.Client.Oslc.Resources.RequirementBase
+  commentId: T:OSLC4Net.Client.Oslc.Resources.RequirementBase
+  parent: OSLC4Net.Client.Oslc.Resources
+  href: OSLC4Net.Client.Oslc.Resources.RequirementBase.html
+  name: RequirementBase
+  nameWithType: RequirementBase
+  fullName: OSLC4Net.Client.Oslc.Resources.RequirementBase
+- uid: OSLC4Net.Client.Oslc.Resources.RequirementCollection
+  commentId: T:OSLC4Net.Client.Oslc.Resources.RequirementCollection
+  href: OSLC4Net.Client.Oslc.Resources.RequirementCollection.html
+  name: RequirementCollection
+  nameWithType: RequirementCollection
+  fullName: OSLC4Net.Client.Oslc.Resources.RequirementCollection
+- uid: OSLC4Net.Client.Oslc.Resources.RmConstants
+  commentId: T:OSLC4Net.Client.Oslc.Resources.RmConstants
+  href: OSLC4Net.Client.Oslc.Resources.RmConstants.html
+  name: RmConstants
+  nameWithType: RmConstants
+  fullName: OSLC4Net.Client.Oslc.Resources.RmConstants
+- uid: OSLC4Net.Client.Oslc.Resources.RmUtil
+  commentId: T:OSLC4Net.Client.Oslc.Resources.RmUtil
+  href: OSLC4Net.Client.Oslc.Resources.RmUtil.html
+  name: RmUtil
+  nameWithType: RmUtil
+  fullName: OSLC4Net.Client.Oslc.Resources.RmUtil
+- uid: OSLC4Net.Client.Oslc.Resources.TestCase
+  commentId: T:OSLC4Net.Client.Oslc.Resources.TestCase
+  href: OSLC4Net.Client.Oslc.Resources.TestCase.html
+  name: TestCase
+  nameWithType: TestCase
+  fullName: OSLC4Net.Client.Oslc.Resources.TestCase
+- uid: OSLC4Net.Client.Oslc.Resources.TestExecutionRecord
+  commentId: T:OSLC4Net.Client.Oslc.Resources.TestExecutionRecord
+  href: OSLC4Net.Client.Oslc.Resources.TestExecutionRecord.html
+  name: TestExecutionRecord
+  nameWithType: TestExecutionRecord
+  fullName: OSLC4Net.Client.Oslc.Resources.TestExecutionRecord
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan
+  commentId: T:OSLC4Net.Client.Oslc.Resources.TestPlan
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html
+  name: TestPlan
+  nameWithType: TestPlan
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan
+- uid: OSLC4Net.Client.Oslc.Resources.TestResult
+  commentId: T:OSLC4Net.Client.Oslc.Resources.TestResult
+  href: OSLC4Net.Client.Oslc.Resources.TestResult.html
+  name: TestResult
+  nameWithType: TestResult
+  fullName: OSLC4Net.Client.Oslc.Resources.TestResult
+- uid: OSLC4Net.Client.Oslc.Resources.TestScript
+  commentId: T:OSLC4Net.Client.Oslc.Resources.TestScript
+  href: OSLC4Net.Client.Oslc.Resources.TestScript.html
+  name: TestScript
+  nameWithType: TestScript
+  fullName: OSLC4Net.Client.Oslc.Resources.TestScript
+- uid: OSLC4Net.Client.Oslc.Resources
+  commentId: N:OSLC4Net.Client.Oslc.Resources
+  href: OSLC4Net.html
+  name: OSLC4Net.Client.Oslc.Resources
+  nameWithType: OSLC4Net.Client.Oslc.Resources
+  fullName: OSLC4Net.Client.Oslc.Resources
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Client
+    name: Client
+    href: OSLC4Net.Client.html
+  - name: .
+  - uid: OSLC4Net.Client.Oslc
+    name: Oslc
+    href: OSLC4Net.Client.Oslc.html
+  - name: .
+  - uid: OSLC4Net.Client.Oslc.Resources
+    name: Resources
+    href: OSLC4Net.Client.Oslc.Resources.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Client
+    name: Client
+    href: OSLC4Net.Client.html
+  - name: .
+  - uid: OSLC4Net.Client.Oslc
+    name: Oslc
+    href: OSLC4Net.Client.Oslc.html
+  - name: .
+  - uid: OSLC4Net.Client.Oslc.Resources
+    name: Resources
+    href: OSLC4Net.Client.Oslc.Resources.html

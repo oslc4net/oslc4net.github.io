@@ -1,0 +1,2293 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  id: OslcConstants.Domains.DCTerms.Q
+  parent: OSLC4Net.Core.Model
+  children:
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Abstract
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccessRights
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualMethod
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualPeriodicity
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualPolicy
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Alternative
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Audience
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Available
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.BibliographicCitation
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.ConformsTo
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Contributor
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Coverage
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Created
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Creator
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Date
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateAccepted
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateCopyrighted
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateSubmitted
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Description
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.EducationLevel
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Extent
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Format
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasFormat
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasPart
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasVersion
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Identifier
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.InstructionalMethod
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsFormatOf
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsPartOf
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsReferencedBy
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsReplacedBy
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsRequiredBy
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsVersionOf
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Issued
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Language
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.License
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Mediator
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Medium
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Modified
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Provenance
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Publisher
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.References
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Relation
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Replaces
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Requires
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Rights
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.RightsHolder
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Source
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Spatial
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Subject
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.TableOfContents
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Temporal
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Title
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Type
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Valid
+  langs:
+  - csharp
+  - vb
+  name: OslcConstants.Domains.DCTerms.Q
+  nameWithType: OslcConstants.Domains.DCTerms.Q
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Q
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 78
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static class OslcConstants.Domains.DCTerms.Q
+    content.vb: Public Module OslcConstants.Domains.DCTerms.Q
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Abstract
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Abstract
+  id: Abstract
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Abstract
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Abstract
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Abstract
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Abstract
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 80
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Abstract { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Abstract As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Abstract*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccessRights
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccessRights
+  id: AccessRights
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: AccessRights
+  nameWithType: OslcConstants.Domains.DCTerms.Q.AccessRights
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccessRights
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AccessRights
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 81
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName AccessRights { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property AccessRights As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccessRights*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualMethod
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualMethod
+  id: AccrualMethod
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: AccrualMethod
+  nameWithType: OslcConstants.Domains.DCTerms.Q.AccrualMethod
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualMethod
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AccrualMethod
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 82
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName AccrualMethod { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property AccrualMethod As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualMethod*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualPeriodicity
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualPeriodicity
+  id: AccrualPeriodicity
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: AccrualPeriodicity
+  nameWithType: OslcConstants.Domains.DCTerms.Q.AccrualPeriodicity
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualPeriodicity
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AccrualPeriodicity
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 83
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName AccrualPeriodicity { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property AccrualPeriodicity As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualPeriodicity*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualPolicy
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualPolicy
+  id: AccrualPolicy
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: AccrualPolicy
+  nameWithType: OslcConstants.Domains.DCTerms.Q.AccrualPolicy
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualPolicy
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AccrualPolicy
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 84
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName AccrualPolicy { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property AccrualPolicy As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualPolicy*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Alternative
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Alternative
+  id: Alternative
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Alternative
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Alternative
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Alternative
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Alternative
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 85
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Alternative { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Alternative As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Alternative*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Audience
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Audience
+  id: Audience
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Audience
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Audience
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Audience
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Audience
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 86
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Audience { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Audience As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Audience*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Available
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Available
+  id: Available
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Available
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Available
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Available
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Available
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 87
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Available { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Available As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Available*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.BibliographicCitation
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.BibliographicCitation
+  id: BibliographicCitation
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: BibliographicCitation
+  nameWithType: OslcConstants.Domains.DCTerms.Q.BibliographicCitation
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.BibliographicCitation
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: BibliographicCitation
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 88
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName BibliographicCitation { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property BibliographicCitation As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.BibliographicCitation*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.ConformsTo
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.ConformsTo
+  id: ConformsTo
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: ConformsTo
+  nameWithType: OslcConstants.Domains.DCTerms.Q.ConformsTo
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.ConformsTo
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ConformsTo
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 89
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName ConformsTo { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property ConformsTo As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.ConformsTo*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Contributor
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Contributor
+  id: Contributor
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Contributor
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Contributor
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Contributor
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Contributor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 90
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Contributor { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Contributor As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Contributor*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Coverage
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Coverage
+  id: Coverage
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Coverage
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Coverage
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Coverage
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Coverage
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 91
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Coverage { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Coverage As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Coverage*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Created
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Created
+  id: Created
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Created
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Created
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Created
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Created
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 92
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Created { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Created As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Created*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Creator
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Creator
+  id: Creator
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Creator
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Creator
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Creator
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Creator
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 93
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Creator { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Creator As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Creator*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Date
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Date
+  id: Date
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Date
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Date
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Date
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 94
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Date { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property [Date] As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Date*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateAccepted
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateAccepted
+  id: DateAccepted
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: DateAccepted
+  nameWithType: OslcConstants.Domains.DCTerms.Q.DateAccepted
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateAccepted
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DateAccepted
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 95
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName DateAccepted { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property DateAccepted As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateAccepted*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateCopyrighted
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateCopyrighted
+  id: DateCopyrighted
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: DateCopyrighted
+  nameWithType: OslcConstants.Domains.DCTerms.Q.DateCopyrighted
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateCopyrighted
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DateCopyrighted
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 96
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName DateCopyrighted { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property DateCopyrighted As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateCopyrighted*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateSubmitted
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateSubmitted
+  id: DateSubmitted
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: DateSubmitted
+  nameWithType: OslcConstants.Domains.DCTerms.Q.DateSubmitted
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateSubmitted
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DateSubmitted
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 97
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName DateSubmitted { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property DateSubmitted As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateSubmitted*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Description
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Description
+  id: Description
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Description
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Description
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Description
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 98
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Description { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Description As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Description*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.EducationLevel
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.EducationLevel
+  id: EducationLevel
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: EducationLevel
+  nameWithType: OslcConstants.Domains.DCTerms.Q.EducationLevel
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.EducationLevel
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: EducationLevel
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 99
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName EducationLevel { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property EducationLevel As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.EducationLevel*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Extent
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Extent
+  id: Extent
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Extent
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Extent
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Extent
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Extent
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 100
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Extent { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Extent As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Extent*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Format
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Format
+  id: Format
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Format
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Format
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Format
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 101
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Format { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Format As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Format*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasFormat
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasFormat
+  id: HasFormat
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: HasFormat
+  nameWithType: OslcConstants.Domains.DCTerms.Q.HasFormat
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasFormat
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: HasFormat
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 102
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName HasFormat { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property HasFormat As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasFormat*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasPart
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasPart
+  id: HasPart
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: HasPart
+  nameWithType: OslcConstants.Domains.DCTerms.Q.HasPart
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasPart
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: HasPart
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 103
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName HasPart { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property HasPart As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasPart*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasVersion
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasVersion
+  id: HasVersion
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: HasVersion
+  nameWithType: OslcConstants.Domains.DCTerms.Q.HasVersion
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasVersion
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: HasVersion
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 104
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName HasVersion { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property HasVersion As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasVersion*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Identifier
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Identifier
+  id: Identifier
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Identifier
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Identifier
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Identifier
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Identifier
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 105
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Identifier { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Identifier As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Identifier*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.InstructionalMethod
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.InstructionalMethod
+  id: InstructionalMethod
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: InstructionalMethod
+  nameWithType: OslcConstants.Domains.DCTerms.Q.InstructionalMethod
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.InstructionalMethod
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: InstructionalMethod
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 106
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName InstructionalMethod { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property InstructionalMethod As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.InstructionalMethod*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsFormatOf
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsFormatOf
+  id: IsFormatOf
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: IsFormatOf
+  nameWithType: OslcConstants.Domains.DCTerms.Q.IsFormatOf
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsFormatOf
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: IsFormatOf
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 107
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName IsFormatOf { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property IsFormatOf As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsFormatOf*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsPartOf
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsPartOf
+  id: IsPartOf
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: IsPartOf
+  nameWithType: OslcConstants.Domains.DCTerms.Q.IsPartOf
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsPartOf
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: IsPartOf
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 108
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName IsPartOf { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property IsPartOf As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsPartOf*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsReferencedBy
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsReferencedBy
+  id: IsReferencedBy
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: IsReferencedBy
+  nameWithType: OslcConstants.Domains.DCTerms.Q.IsReferencedBy
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsReferencedBy
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: IsReferencedBy
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 109
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName IsReferencedBy { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property IsReferencedBy As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsReferencedBy*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsReplacedBy
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsReplacedBy
+  id: IsReplacedBy
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: IsReplacedBy
+  nameWithType: OslcConstants.Domains.DCTerms.Q.IsReplacedBy
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsReplacedBy
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: IsReplacedBy
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 110
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName IsReplacedBy { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property IsReplacedBy As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsReplacedBy*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsRequiredBy
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsRequiredBy
+  id: IsRequiredBy
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: IsRequiredBy
+  nameWithType: OslcConstants.Domains.DCTerms.Q.IsRequiredBy
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsRequiredBy
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: IsRequiredBy
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 111
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName IsRequiredBy { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property IsRequiredBy As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsRequiredBy*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsVersionOf
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsVersionOf
+  id: IsVersionOf
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: IsVersionOf
+  nameWithType: OslcConstants.Domains.DCTerms.Q.IsVersionOf
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsVersionOf
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: IsVersionOf
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 112
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName IsVersionOf { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property IsVersionOf As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsVersionOf*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Issued
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Issued
+  id: Issued
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Issued
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Issued
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Issued
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Issued
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 113
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Issued { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Issued As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Issued*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Language
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Language
+  id: Language
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Language
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Language
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Language
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 114
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Language { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Language As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Language*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.License
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.License
+  id: License
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: License
+  nameWithType: OslcConstants.Domains.DCTerms.Q.License
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.License
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: License
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 115
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName License { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property License As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.License*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Mediator
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Mediator
+  id: Mediator
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Mediator
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Mediator
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Mediator
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Mediator
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 116
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Mediator { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Mediator As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Mediator*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Medium
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Medium
+  id: Medium
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Medium
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Medium
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Medium
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Medium
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 117
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Medium { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Medium As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Medium*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Modified
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Modified
+  id: Modified
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Modified
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Modified
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Modified
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Modified
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 118
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Modified { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Modified As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Modified*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Provenance
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Provenance
+  id: Provenance
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Provenance
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Provenance
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Provenance
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Provenance
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 119
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Provenance { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Provenance As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Provenance*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Publisher
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Publisher
+  id: Publisher
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Publisher
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Publisher
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Publisher
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Publisher
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 120
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Publisher { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Publisher As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Publisher*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.References
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.References
+  id: References
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: References
+  nameWithType: OslcConstants.Domains.DCTerms.Q.References
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.References
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: References
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 121
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName References { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property References As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.References*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Relation
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Relation
+  id: Relation
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Relation
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Relation
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Relation
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Relation
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 122
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Relation { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Relation As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Relation*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Replaces
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Replaces
+  id: Replaces
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Replaces
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Replaces
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Replaces
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Replaces
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 123
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Replaces { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Replaces As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Replaces*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Requires
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Requires
+  id: Requires
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Requires
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Requires
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Requires
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Requires
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 124
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Requires { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Requires As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Requires*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Rights
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Rights
+  id: Rights
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Rights
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Rights
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Rights
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Rights
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 125
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Rights { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Rights As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Rights*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.RightsHolder
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.RightsHolder
+  id: RightsHolder
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: RightsHolder
+  nameWithType: OslcConstants.Domains.DCTerms.Q.RightsHolder
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.RightsHolder
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: RightsHolder
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 126
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName RightsHolder { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property RightsHolder As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.RightsHolder*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Source
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Source
+  id: Source
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Source
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Source
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Source
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 127
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Source { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Source As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Source*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Spatial
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Spatial
+  id: Spatial
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Spatial
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Spatial
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Spatial
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Spatial
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 128
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Spatial { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Spatial As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Spatial*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Subject
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Subject
+  id: Subject
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Subject
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Subject
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Subject
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Subject
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 129
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Subject { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Subject As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Subject*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.TableOfContents
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.TableOfContents
+  id: TableOfContents
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: TableOfContents
+  nameWithType: OslcConstants.Domains.DCTerms.Q.TableOfContents
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.TableOfContents
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: TableOfContents
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 130
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName TableOfContents { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property TableOfContents As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.TableOfContents*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Temporal
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Temporal
+  id: Temporal
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Temporal
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Temporal
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Temporal
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Temporal
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 131
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Temporal { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Temporal As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Temporal*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Title
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Title
+  id: Title
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Title
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Title
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Title
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 132
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Title { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Title As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Title*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Type
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Type
+  id: Type
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Type
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Type
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Type
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 133
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Type { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Type As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Type*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Valid
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Valid
+  id: Valid
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  langs:
+  - csharp
+  - vb
+  name: Valid
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Valid
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Valid
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Valid
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.DC.cs
+    startLine: 134
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Valid { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Valid As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Valid*
+references:
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Abstract*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Abstract
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Abstract
+  name: Abstract
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Abstract
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Abstract
+- uid: OSLC4Net.Core.Model.QName
+  commentId: T:OSLC4Net.Core.Model.QName
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.QName.html
+  name: QName
+  nameWithType: QName
+  fullName: OSLC4Net.Core.Model.QName
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccessRights*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccessRights
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_AccessRights
+  name: AccessRights
+  nameWithType: OslcConstants.Domains.DCTerms.Q.AccessRights
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccessRights
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualMethod*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualMethod
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_AccrualMethod
+  name: AccrualMethod
+  nameWithType: OslcConstants.Domains.DCTerms.Q.AccrualMethod
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualMethod
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualPeriodicity*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualPeriodicity
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_AccrualPeriodicity
+  name: AccrualPeriodicity
+  nameWithType: OslcConstants.Domains.DCTerms.Q.AccrualPeriodicity
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualPeriodicity
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualPolicy*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualPolicy
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_AccrualPolicy
+  name: AccrualPolicy
+  nameWithType: OslcConstants.Domains.DCTerms.Q.AccrualPolicy
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.AccrualPolicy
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Alternative*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Alternative
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Alternative
+  name: Alternative
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Alternative
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Alternative
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Audience*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Audience
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Audience
+  name: Audience
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Audience
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Audience
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Available*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Available
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Available
+  name: Available
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Available
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Available
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.BibliographicCitation*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.BibliographicCitation
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_BibliographicCitation
+  name: BibliographicCitation
+  nameWithType: OslcConstants.Domains.DCTerms.Q.BibliographicCitation
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.BibliographicCitation
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.ConformsTo*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.ConformsTo
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_ConformsTo
+  name: ConformsTo
+  nameWithType: OslcConstants.Domains.DCTerms.Q.ConformsTo
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.ConformsTo
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Contributor*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Contributor
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Contributor
+  name: Contributor
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Contributor
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Contributor
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Coverage*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Coverage
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Coverage
+  name: Coverage
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Coverage
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Coverage
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Created*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Created
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Created
+  name: Created
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Created
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Created
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Creator*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Creator
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Creator
+  name: Creator
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Creator
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Creator
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Date*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Date
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Date
+  name: Date
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Date
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Date
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateAccepted*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateAccepted
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_DateAccepted
+  name: DateAccepted
+  nameWithType: OslcConstants.Domains.DCTerms.Q.DateAccepted
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateAccepted
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateCopyrighted*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateCopyrighted
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_DateCopyrighted
+  name: DateCopyrighted
+  nameWithType: OslcConstants.Domains.DCTerms.Q.DateCopyrighted
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateCopyrighted
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateSubmitted*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateSubmitted
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_DateSubmitted
+  name: DateSubmitted
+  nameWithType: OslcConstants.Domains.DCTerms.Q.DateSubmitted
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.DateSubmitted
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Description*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Description
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Description
+  name: Description
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Description
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Description
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.EducationLevel*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.EducationLevel
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_EducationLevel
+  name: EducationLevel
+  nameWithType: OslcConstants.Domains.DCTerms.Q.EducationLevel
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.EducationLevel
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Extent*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Extent
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Extent
+  name: Extent
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Extent
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Extent
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Format*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Format
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Format
+  name: Format
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Format
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Format
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasFormat*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasFormat
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_HasFormat
+  name: HasFormat
+  nameWithType: OslcConstants.Domains.DCTerms.Q.HasFormat
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasFormat
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasPart*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasPart
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_HasPart
+  name: HasPart
+  nameWithType: OslcConstants.Domains.DCTerms.Q.HasPart
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasPart
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasVersion*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasVersion
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_HasVersion
+  name: HasVersion
+  nameWithType: OslcConstants.Domains.DCTerms.Q.HasVersion
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.HasVersion
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Identifier*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Identifier
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Identifier
+  name: Identifier
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Identifier
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Identifier
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.InstructionalMethod*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.InstructionalMethod
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_InstructionalMethod
+  name: InstructionalMethod
+  nameWithType: OslcConstants.Domains.DCTerms.Q.InstructionalMethod
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.InstructionalMethod
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsFormatOf*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsFormatOf
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_IsFormatOf
+  name: IsFormatOf
+  nameWithType: OslcConstants.Domains.DCTerms.Q.IsFormatOf
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsFormatOf
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsPartOf*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsPartOf
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_IsPartOf
+  name: IsPartOf
+  nameWithType: OslcConstants.Domains.DCTerms.Q.IsPartOf
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsPartOf
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsReferencedBy*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsReferencedBy
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_IsReferencedBy
+  name: IsReferencedBy
+  nameWithType: OslcConstants.Domains.DCTerms.Q.IsReferencedBy
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsReferencedBy
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsReplacedBy*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsReplacedBy
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_IsReplacedBy
+  name: IsReplacedBy
+  nameWithType: OslcConstants.Domains.DCTerms.Q.IsReplacedBy
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsReplacedBy
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsRequiredBy*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsRequiredBy
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_IsRequiredBy
+  name: IsRequiredBy
+  nameWithType: OslcConstants.Domains.DCTerms.Q.IsRequiredBy
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsRequiredBy
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsVersionOf*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsVersionOf
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_IsVersionOf
+  name: IsVersionOf
+  nameWithType: OslcConstants.Domains.DCTerms.Q.IsVersionOf
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.IsVersionOf
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Issued*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Issued
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Issued
+  name: Issued
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Issued
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Issued
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Language*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Language
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Language
+  name: Language
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Language
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Language
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.License*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.License
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_License
+  name: License
+  nameWithType: OslcConstants.Domains.DCTerms.Q.License
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.License
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Mediator*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Mediator
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Mediator
+  name: Mediator
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Mediator
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Mediator
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Medium*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Medium
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Medium
+  name: Medium
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Medium
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Medium
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Modified*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Modified
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Modified
+  name: Modified
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Modified
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Modified
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Provenance*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Provenance
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Provenance
+  name: Provenance
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Provenance
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Provenance
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Publisher*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Publisher
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Publisher
+  name: Publisher
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Publisher
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Publisher
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.References*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.References
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_References
+  name: References
+  nameWithType: OslcConstants.Domains.DCTerms.Q.References
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.References
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Relation*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Relation
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Relation
+  name: Relation
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Relation
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Relation
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Replaces*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Replaces
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Replaces
+  name: Replaces
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Replaces
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Replaces
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Requires*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Requires
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Requires
+  name: Requires
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Requires
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Requires
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Rights*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Rights
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Rights
+  name: Rights
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Rights
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Rights
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.RightsHolder*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.RightsHolder
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_RightsHolder
+  name: RightsHolder
+  nameWithType: OslcConstants.Domains.DCTerms.Q.RightsHolder
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.RightsHolder
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Source*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Source
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Source
+  name: Source
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Source
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Source
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Spatial*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Spatial
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Spatial
+  name: Spatial
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Spatial
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Spatial
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Subject*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Subject
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Subject
+  name: Subject
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Subject
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Subject
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.TableOfContents*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.TableOfContents
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_TableOfContents
+  name: TableOfContents
+  nameWithType: OslcConstants.Domains.DCTerms.Q.TableOfContents
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.TableOfContents
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Temporal*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Temporal
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Temporal
+  name: Temporal
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Temporal
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Temporal
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Title*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Title
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Title
+  name: Title
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Title
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Title
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Type*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Type
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Type
+  name: Type
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Type
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Type
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Valid*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Valid
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_DCTerms_Q_Valid
+  name: Valid
+  nameWithType: OslcConstants.Domains.DCTerms.Q.Valid
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.Valid

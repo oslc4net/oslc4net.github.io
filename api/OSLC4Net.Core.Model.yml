@@ -1,0 +1,1502 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  id: OSLC4Net.Core.Model
+  children:
+  - OSLC4Net.Core.Model.AbstractReifiedResource`1
+  - OSLC4Net.Core.Model.AbstractResource
+  - OSLC4Net.Core.Model.AbstractResourceRecord
+  - OSLC4Net.Core.Model.AddAllExtension
+  - OSLC4Net.Core.Model.AnyResource
+  - OSLC4Net.Core.Model.Compact
+  - OSLC4Net.Core.Model.CreationFactory
+  - OSLC4Net.Core.Model.Dialog
+  - OSLC4Net.Core.Model.EnumerableWrapper
+  - OSLC4Net.Core.Model.Error
+  - OSLC4Net.Core.Model.ExtendedError
+  - OSLC4Net.Core.Model.FilteredResource`1
+  - OSLC4Net.Core.Model.IExtendedResource
+  - OSLC4Net.Core.Model.IReifiedResource`1
+  - OSLC4Net.Core.Model.IResource
+  - OSLC4Net.Core.Model.InheritedGenericInterfacesHelper
+  - OSLC4Net.Core.Model.InheritedMethodAttributeHelper
+  - OSLC4Net.Core.Model.Link
+  - OSLC4Net.Core.Model.OAuthConfiguration
+  - OSLC4Net.Core.Model.Occurs
+  - OSLC4Net.Core.Model.OccursExtension
+  - OSLC4Net.Core.Model.OslcConstants
+  - OSLC4Net.Core.Model.OslcConstants.Domains
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCElements
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.P
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.Q
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.P
+  - OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.P
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  - OSLC4Net.Core.Model.OslcConstants.Domains.LDP
+  - OSLC4Net.Core.Model.OslcConstants.Domains.LDP.P
+  - OSLC4Net.Core.Model.OslcConstants.Domains.LDP.Q
+  - OSLC4Net.Core.Model.OslcConstants.Domains.PROV
+  - OSLC4Net.Core.Model.OslcConstants.Domains.PROV.P
+  - OSLC4Net.Core.Model.OslcConstants.Domains.PROV.Q
+  - OSLC4Net.Core.Model.OslcConstants.Domains.QUDT
+  - OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.P
+  - OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.Q
+  - OSLC4Net.Core.Model.OslcConstants.Domains.RDF
+  - OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P
+  - OSLC4Net.Core.Model.OslcConstants.Domains.RDF.Q
+  - OSLC4Net.Core.Model.OslcConstants.Domains.RDFS
+  - OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.P
+  - OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.Q
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.P
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  - OSLC4Net.Core.Model.OslcMediaType
+  - OSLC4Net.Core.Model.PrefixDefinition
+  - OSLC4Net.Core.Model.Preview
+  - OSLC4Net.Core.Model.Property
+  - OSLC4Net.Core.Model.Publisher
+  - OSLC4Net.Core.Model.QName
+  - OSLC4Net.Core.Model.QueryCapability
+  - OSLC4Net.Core.Model.Representation
+  - OSLC4Net.Core.Model.RepresentationExtension
+  - OSLC4Net.Core.Model.ResourceShape
+  - OSLC4Net.Core.Model.ResourceShapeFactory
+  - OSLC4Net.Core.Model.ResponseInfoArray`1
+  - OSLC4Net.Core.Model.ResponseInfoCollection`1
+  - OSLC4Net.Core.Model.ResponseInfo`1
+  - OSLC4Net.Core.Model.Service
+  - OSLC4Net.Core.Model.ServiceProvider
+  - OSLC4Net.Core.Model.ServiceProviderCatalog
+  - OSLC4Net.Core.Model.ServiceProviderFactory
+  - OSLC4Net.Core.Model.TypeFactory
+  - OSLC4Net.Core.Model.URI
+  - OSLC4Net.Core.Model.ValueType
+  - OSLC4Net.Core.Model.ValueTypeExtension
+  - OSLC4Net.Core.Model.XmlNamespace
+  langs:
+  - csharp
+  - vb
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  type: Namespace
+  assemblies:
+  - OSLC4Net.Core
+references:
+- uid: OSLC4Net.Core.Model.AbstractReifiedResource`1
+  commentId: T:OSLC4Net.Core.Model.AbstractReifiedResource`1
+  href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html
+  name: AbstractReifiedResource<T>
+  nameWithType: AbstractReifiedResource<T>
+  fullName: OSLC4Net.Core.Model.AbstractReifiedResource<T>
+  nameWithType.vb: AbstractReifiedResource(Of T)
+  fullName.vb: OSLC4Net.Core.Model.AbstractReifiedResource(Of T)
+  name.vb: AbstractReifiedResource(Of T)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractReifiedResource`1
+    name: AbstractReifiedResource
+    href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractReifiedResource`1
+    name: AbstractReifiedResource
+    href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource
+  commentId: T:OSLC4Net.Core.Model.AbstractResource
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.AbstractResource.html
+  name: AbstractResource
+  nameWithType: AbstractResource
+  fullName: OSLC4Net.Core.Model.AbstractResource
+- uid: OSLC4Net.Core.Model.AbstractResourceRecord
+  commentId: T:OSLC4Net.Core.Model.AbstractResourceRecord
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.AbstractResourceRecord.html
+  name: AbstractResourceRecord
+  nameWithType: AbstractResourceRecord
+  fullName: OSLC4Net.Core.Model.AbstractResourceRecord
+- uid: OSLC4Net.Core.Model.AnyResource
+  commentId: T:OSLC4Net.Core.Model.AnyResource
+  href: OSLC4Net.Core.Model.AnyResource.html
+  name: AnyResource
+  nameWithType: AnyResource
+  fullName: OSLC4Net.Core.Model.AnyResource
+- uid: OSLC4Net.Core.Model.Compact
+  commentId: T:OSLC4Net.Core.Model.Compact
+  href: OSLC4Net.Core.Model.Compact.html
+  name: Compact
+  nameWithType: Compact
+  fullName: OSLC4Net.Core.Model.Compact
+- uid: OSLC4Net.Core.Model.CreationFactory
+  commentId: T:OSLC4Net.Core.Model.CreationFactory
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.CreationFactory.html
+  name: CreationFactory
+  nameWithType: CreationFactory
+  fullName: OSLC4Net.Core.Model.CreationFactory
+- uid: OSLC4Net.Core.Model.Dialog
+  commentId: T:OSLC4Net.Core.Model.Dialog
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.Dialog.html
+  name: Dialog
+  nameWithType: Dialog
+  fullName: OSLC4Net.Core.Model.Dialog
+- uid: OSLC4Net.Core.Model.EnumerableWrapper
+  commentId: T:OSLC4Net.Core.Model.EnumerableWrapper
+  href: OSLC4Net.Core.Model.EnumerableWrapper.html
+  name: EnumerableWrapper
+  nameWithType: EnumerableWrapper
+  fullName: OSLC4Net.Core.Model.EnumerableWrapper
+- uid: OSLC4Net.Core.Model.Error
+  commentId: T:OSLC4Net.Core.Model.Error
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.Error.html
+  name: Error
+  nameWithType: Error
+  fullName: OSLC4Net.Core.Model.Error
+- uid: OSLC4Net.Core.Model.ExtendedError
+  commentId: T:OSLC4Net.Core.Model.ExtendedError
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.ExtendedError.html
+  name: ExtendedError
+  nameWithType: ExtendedError
+  fullName: OSLC4Net.Core.Model.ExtendedError
+- uid: OSLC4Net.Core.Model.FilteredResource`1
+  commentId: T:OSLC4Net.Core.Model.FilteredResource`1
+  href: OSLC4Net.Core.Model.FilteredResource-1.html
+  name: FilteredResource<T>
+  nameWithType: FilteredResource<T>
+  fullName: OSLC4Net.Core.Model.FilteredResource<T>
+  nameWithType.vb: FilteredResource(Of T)
+  fullName.vb: OSLC4Net.Core.Model.FilteredResource(Of T)
+  name.vb: FilteredResource(Of T)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.FilteredResource`1
+    name: FilteredResource
+    href: OSLC4Net.Core.Model.FilteredResource-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.FilteredResource`1
+    name: FilteredResource
+    href: OSLC4Net.Core.Model.FilteredResource-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: OSLC4Net.Core.Model.IExtendedResource
+  commentId: T:OSLC4Net.Core.Model.IExtendedResource
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.IExtendedResource.html
+  name: IExtendedResource
+  nameWithType: IExtendedResource
+  fullName: OSLC4Net.Core.Model.IExtendedResource
+- uid: OSLC4Net.Core.Model.InheritedGenericInterfacesHelper
+  commentId: T:OSLC4Net.Core.Model.InheritedGenericInterfacesHelper
+  href: OSLC4Net.Core.Model.InheritedGenericInterfacesHelper.html
+  name: InheritedGenericInterfacesHelper
+  nameWithType: InheritedGenericInterfacesHelper
+  fullName: OSLC4Net.Core.Model.InheritedGenericInterfacesHelper
+- uid: OSLC4Net.Core.Model.InheritedMethodAttributeHelper
+  commentId: T:OSLC4Net.Core.Model.InheritedMethodAttributeHelper
+  href: OSLC4Net.Core.Model.InheritedMethodAttributeHelper.html
+  name: InheritedMethodAttributeHelper
+  nameWithType: InheritedMethodAttributeHelper
+  fullName: OSLC4Net.Core.Model.InheritedMethodAttributeHelper
+- uid: OSLC4Net.Core.Model.IReifiedResource`1
+  commentId: T:OSLC4Net.Core.Model.IReifiedResource`1
+  href: OSLC4Net.Core.Model.IReifiedResource-1.html
+  name: IReifiedResource<T>
+  nameWithType: IReifiedResource<T>
+  fullName: OSLC4Net.Core.Model.IReifiedResource<T>
+  nameWithType.vb: IReifiedResource(Of T)
+  fullName.vb: OSLC4Net.Core.Model.IReifiedResource(Of T)
+  name.vb: IReifiedResource(Of T)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.IReifiedResource`1
+    name: IReifiedResource
+    href: OSLC4Net.Core.Model.IReifiedResource-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.IReifiedResource`1
+    name: IReifiedResource
+    href: OSLC4Net.Core.Model.IReifiedResource-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: OSLC4Net.Core.Model.IResource
+  commentId: T:OSLC4Net.Core.Model.IResource
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.IResource.html
+  name: IResource
+  nameWithType: IResource
+  fullName: OSLC4Net.Core.Model.IResource
+- uid: OSLC4Net.Core.Model.AddAllExtension
+  commentId: T:OSLC4Net.Core.Model.AddAllExtension
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.AddAllExtension.html
+  name: AddAllExtension
+  nameWithType: AddAllExtension
+  fullName: OSLC4Net.Core.Model.AddAllExtension
+- uid: OSLC4Net.Core.Model.Link
+  commentId: T:OSLC4Net.Core.Model.Link
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.Link.html
+  name: Link
+  nameWithType: Link
+  fullName: OSLC4Net.Core.Model.Link
+- uid: OSLC4Net.Core.Model.OAuthConfiguration
+  commentId: T:OSLC4Net.Core.Model.OAuthConfiguration
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.OAuthConfiguration.html
+  name: OAuthConfiguration
+  nameWithType: OAuthConfiguration
+  fullName: OSLC4Net.Core.Model.OAuthConfiguration
+- uid: OSLC4Net.Core.Model.Occurs
+  commentId: T:OSLC4Net.Core.Model.Occurs
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.Occurs.html
+  name: Occurs
+  nameWithType: Occurs
+  fullName: OSLC4Net.Core.Model.Occurs
+- uid: OSLC4Net.Core.Model.OccursExtension
+  commentId: T:OSLC4Net.Core.Model.OccursExtension
+  href: OSLC4Net.Core.Model.OccursExtension.html
+  name: OccursExtension
+  nameWithType: OccursExtension
+  fullName: OSLC4Net.Core.Model.OccursExtension
+- uid: OSLC4Net.Core.Model.OslcConstants
+  commentId: T:OSLC4Net.Core.Model.OslcConstants
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants
+  nameWithType: OslcConstants
+  fullName: OSLC4Net.Core.Model.OslcConstants
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains
+  nameWithType: OslcConstants.Domains
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.DCTerms
+  nameWithType: OslcConstants.Domains.DCTerms
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms
+    name: DCTerms
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms
+    name: DCTerms
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.P
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.P
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.DCTerms.P
+  nameWithType: OslcConstants.Domains.DCTerms.P
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.P
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms
+    name: DCTerms
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.P
+    name: P
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.P.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms
+    name: DCTerms
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.P
+    name: P
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.P.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.DCTerms.Q
+  nameWithType: OslcConstants.Domains.DCTerms.Q
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms
+    name: DCTerms
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+    name: Q
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms
+    name: DCTerms
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q
+    name: Q
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.DCElements
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.DCElements
+  nameWithType: OslcConstants.Domains.DCElements
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements
+    name: DCElements
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements
+    name: DCElements
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.P
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.P
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.DCElements.P
+  nameWithType: OslcConstants.Domains.DCElements.P
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.P
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements
+    name: DCElements
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.P
+    name: P
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.P.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements
+    name: DCElements
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.P
+    name: P
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.P.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.Q
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.Q
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.DCElements.Q
+  nameWithType: OslcConstants.Domains.DCElements.Q
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.Q
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements
+    name: DCElements
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.Q
+    name: Q
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.Q.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements
+    name: DCElements
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.Q
+    name: Q
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.Q.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.FOAF
+  nameWithType: OslcConstants.Domains.FOAF
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF
+    name: FOAF
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF
+    name: FOAF
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.P
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.P
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.FOAF.P
+  nameWithType: OslcConstants.Domains.FOAF.P
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.P
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF
+    name: FOAF
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.P
+    name: P
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.P.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF
+    name: FOAF
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.P
+    name: P
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.P.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.FOAF.Q
+  nameWithType: OslcConstants.Domains.FOAF.Q
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF
+    name: FOAF
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+    name: Q
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF
+    name: FOAF
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+    name: Q
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.LDP
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.LDP
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.LDP
+  nameWithType: OslcConstants.Domains.LDP
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.LDP
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.LDP
+    name: LDP
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.LDP.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.LDP
+    name: LDP
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.LDP.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.LDP.P
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.LDP.P
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.LDP.P
+  nameWithType: OslcConstants.Domains.LDP.P
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.LDP.P
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.LDP
+    name: LDP
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.LDP.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.LDP.P
+    name: P
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.LDP.P.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.LDP
+    name: LDP
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.LDP.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.LDP.P
+    name: P
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.LDP.P.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.LDP.Q
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.LDP.Q
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.LDP.Q
+  nameWithType: OslcConstants.Domains.LDP.Q
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.LDP.Q
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.LDP
+    name: LDP
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.LDP.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.LDP.Q
+    name: Q
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.LDP.Q.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.LDP
+    name: LDP
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.LDP.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.LDP.Q
+    name: Q
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.LDP.Q.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.PROV
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.PROV
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.PROV
+  nameWithType: OslcConstants.Domains.PROV
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.PROV
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.PROV
+    name: PROV
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.PROV.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.PROV
+    name: PROV
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.PROV.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.PROV.P
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.PROV.P
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.PROV.P
+  nameWithType: OslcConstants.Domains.PROV.P
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.PROV.P
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.PROV
+    name: PROV
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.PROV.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.PROV.P
+    name: P
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.PROV.P.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.PROV
+    name: PROV
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.PROV.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.PROV.P
+    name: P
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.PROV.P.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.PROV.Q
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.PROV.Q
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.PROV.Q
+  nameWithType: OslcConstants.Domains.PROV.Q
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.PROV.Q
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.PROV
+    name: PROV
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.PROV.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.PROV.Q
+    name: Q
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.PROV.Q.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.PROV
+    name: PROV
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.PROV.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.PROV.Q
+    name: Q
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.PROV.Q.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.QUDT
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.QUDT
+  nameWithType: OslcConstants.Domains.QUDT
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT
+    name: QUDT
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT
+    name: QUDT
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.P
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.P
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.QUDT.P
+  nameWithType: OslcConstants.Domains.QUDT.P
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.P
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT
+    name: QUDT
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.P
+    name: P
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.P.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT
+    name: QUDT
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.P
+    name: P
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.P.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.Q
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.Q
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.QUDT.Q
+  nameWithType: OslcConstants.Domains.QUDT.Q
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.Q
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT
+    name: QUDT
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.Q
+    name: Q
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.Q.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT
+    name: QUDT
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.Q
+    name: Q
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.Q.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.RDF
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.RDF
+  nameWithType: OslcConstants.Domains.RDF
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.RDF
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF
+    name: RDF
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF
+    name: RDF
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.RDF.P
+  nameWithType: OslcConstants.Domains.RDF.P
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF
+    name: RDF
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P
+    name: P
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF
+    name: RDF
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P
+    name: P
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.Q
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.RDF.Q
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.RDF.Q
+  nameWithType: OslcConstants.Domains.RDF.Q
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.Q
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF
+    name: RDF
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.Q
+    name: Q
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.Q.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF
+    name: RDF
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.Q
+    name: Q
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.Q.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.RDFS
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.RDFS
+  nameWithType: OslcConstants.Domains.RDFS
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS
+    name: RDFS
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS
+    name: RDFS
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.P
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.P
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.RDFS.P
+  nameWithType: OslcConstants.Domains.RDFS.P
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.P
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS
+    name: RDFS
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.P
+    name: P
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.P.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS
+    name: RDFS
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.P
+    name: P
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.P.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.Q
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.Q
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.RDFS.Q
+  nameWithType: OslcConstants.Domains.RDFS.Q
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.Q
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS
+    name: RDFS
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.Q
+    name: Q
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.Q.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS
+    name: RDFS
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.Q
+    name: Q
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.Q.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.SKOS
+  nameWithType: OslcConstants.Domains.SKOS
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS
+    name: SKOS
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS
+    name: SKOS
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.P
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.P
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.SKOS.P
+  nameWithType: OslcConstants.Domains.SKOS.P
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.P
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS
+    name: SKOS
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.P
+    name: P
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.P.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS
+    name: SKOS
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.P
+    name: P
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.P.html
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  href: OSLC4Net.Core.Model.OslcConstants.html
+  name: OslcConstants.Domains.SKOS.Q
+  nameWithType: OslcConstants.Domains.SKOS.Q
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS
+    name: SKOS
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+    name: Q
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.OslcConstants
+    name: OslcConstants
+    href: OSLC4Net.Core.Model.OslcConstants.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains
+    name: Domains
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS
+    name: SKOS
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.html
+  - name: .
+  - uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+    name: Q
+    href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html
+- uid: OSLC4Net.Core.Model.OslcMediaType
+  commentId: T:OSLC4Net.Core.Model.OslcMediaType
+  href: OSLC4Net.Core.Model.OslcMediaType.html
+  name: OslcMediaType
+  nameWithType: OslcMediaType
+  fullName: OSLC4Net.Core.Model.OslcMediaType
+- uid: OSLC4Net.Core.Model.PrefixDefinition
+  commentId: T:OSLC4Net.Core.Model.PrefixDefinition
+  href: OSLC4Net.Core.Model.PrefixDefinition.html
+  name: PrefixDefinition
+  nameWithType: PrefixDefinition
+  fullName: OSLC4Net.Core.Model.PrefixDefinition
+- uid: OSLC4Net.Core.Model.Preview
+  commentId: T:OSLC4Net.Core.Model.Preview
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.Preview.html
+  name: Preview
+  nameWithType: Preview
+  fullName: OSLC4Net.Core.Model.Preview
+- uid: OSLC4Net.Core.Model.Property
+  commentId: T:OSLC4Net.Core.Model.Property
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.Property.html
+  name: Property
+  nameWithType: Property
+  fullName: OSLC4Net.Core.Model.Property
+- uid: OSLC4Net.Core.Model.Publisher
+  commentId: T:OSLC4Net.Core.Model.Publisher
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.Publisher.html
+  name: Publisher
+  nameWithType: Publisher
+  fullName: OSLC4Net.Core.Model.Publisher
+- uid: OSLC4Net.Core.Model.QName
+  commentId: T:OSLC4Net.Core.Model.QName
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.QName.html
+  name: QName
+  nameWithType: QName
+  fullName: OSLC4Net.Core.Model.QName
+- uid: OSLC4Net.Core.Model.QueryCapability
+  commentId: T:OSLC4Net.Core.Model.QueryCapability
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.QueryCapability.html
+  name: QueryCapability
+  nameWithType: QueryCapability
+  fullName: OSLC4Net.Core.Model.QueryCapability
+- uid: OSLC4Net.Core.Model.Representation
+  commentId: T:OSLC4Net.Core.Model.Representation
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.Representation.html
+  name: Representation
+  nameWithType: Representation
+  fullName: OSLC4Net.Core.Model.Representation
+- uid: OSLC4Net.Core.Model.RepresentationExtension
+  commentId: T:OSLC4Net.Core.Model.RepresentationExtension
+  href: OSLC4Net.Core.Model.RepresentationExtension.html
+  name: RepresentationExtension
+  nameWithType: RepresentationExtension
+  fullName: OSLC4Net.Core.Model.RepresentationExtension
+- uid: OSLC4Net.Core.Model.ResourceShape
+  commentId: T:OSLC4Net.Core.Model.ResourceShape
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.ResourceShape.html
+  name: ResourceShape
+  nameWithType: ResourceShape
+  fullName: OSLC4Net.Core.Model.ResourceShape
+- uid: OSLC4Net.Core.Model.ResourceShapeFactory
+  commentId: T:OSLC4Net.Core.Model.ResourceShapeFactory
+  href: OSLC4Net.Core.Model.ResourceShapeFactory.html
+  name: ResourceShapeFactory
+  nameWithType: ResourceShapeFactory
+  fullName: OSLC4Net.Core.Model.ResourceShapeFactory
+- uid: OSLC4Net.Core.Model.ResponseInfo`1
+  commentId: T:OSLC4Net.Core.Model.ResponseInfo`1
+  href: OSLC4Net.Core.Model.ResponseInfo-1.html
+  name: ResponseInfo<T>
+  nameWithType: ResponseInfo<T>
+  fullName: OSLC4Net.Core.Model.ResponseInfo<T>
+  nameWithType.vb: ResponseInfo(Of T)
+  fullName.vb: OSLC4Net.Core.Model.ResponseInfo(Of T)
+  name.vb: ResponseInfo(Of T)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.ResponseInfo`1
+    name: ResponseInfo
+    href: OSLC4Net.Core.Model.ResponseInfo-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.ResponseInfo`1
+    name: ResponseInfo
+    href: OSLC4Net.Core.Model.ResponseInfo-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: OSLC4Net.Core.Model.ResponseInfoArray`1
+  commentId: T:OSLC4Net.Core.Model.ResponseInfoArray`1
+  href: OSLC4Net.Core.Model.ResponseInfoArray-1.html
+  name: ResponseInfoArray<T>
+  nameWithType: ResponseInfoArray<T>
+  fullName: OSLC4Net.Core.Model.ResponseInfoArray<T>
+  nameWithType.vb: ResponseInfoArray(Of T)
+  fullName.vb: OSLC4Net.Core.Model.ResponseInfoArray(Of T)
+  name.vb: ResponseInfoArray(Of T)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.ResponseInfoArray`1
+    name: ResponseInfoArray
+    href: OSLC4Net.Core.Model.ResponseInfoArray-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.ResponseInfoArray`1
+    name: ResponseInfoArray
+    href: OSLC4Net.Core.Model.ResponseInfoArray-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: OSLC4Net.Core.Model.ResponseInfoCollection`1
+  commentId: T:OSLC4Net.Core.Model.ResponseInfoCollection`1
+  href: OSLC4Net.Core.Model.ResponseInfoCollection-1.html
+  name: ResponseInfoCollection<T>
+  nameWithType: ResponseInfoCollection<T>
+  fullName: OSLC4Net.Core.Model.ResponseInfoCollection<T>
+  nameWithType.vb: ResponseInfoCollection(Of T)
+  fullName.vb: OSLC4Net.Core.Model.ResponseInfoCollection(Of T)
+  name.vb: ResponseInfoCollection(Of T)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.ResponseInfoCollection`1
+    name: ResponseInfoCollection
+    href: OSLC4Net.Core.Model.ResponseInfoCollection-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.ResponseInfoCollection`1
+    name: ResponseInfoCollection
+    href: OSLC4Net.Core.Model.ResponseInfoCollection-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: OSLC4Net.Core.Model.Service
+  commentId: T:OSLC4Net.Core.Model.Service
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.Service.html
+  name: Service
+  nameWithType: Service
+  fullName: OSLC4Net.Core.Model.Service
+- uid: OSLC4Net.Core.Model.ServiceProvider
+  commentId: T:OSLC4Net.Core.Model.ServiceProvider
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.ServiceProvider.html
+  name: ServiceProvider
+  nameWithType: ServiceProvider
+  fullName: OSLC4Net.Core.Model.ServiceProvider
+- uid: OSLC4Net.Core.Model.ServiceProviderCatalog
+  commentId: T:OSLC4Net.Core.Model.ServiceProviderCatalog
+  href: OSLC4Net.Core.Model.ServiceProviderCatalog.html
+  name: ServiceProviderCatalog
+  nameWithType: ServiceProviderCatalog
+  fullName: OSLC4Net.Core.Model.ServiceProviderCatalog
+- uid: OSLC4Net.Core.Model.ServiceProviderFactory
+  commentId: T:OSLC4Net.Core.Model.ServiceProviderFactory
+  href: OSLC4Net.Core.Model.ServiceProviderFactory.html
+  name: ServiceProviderFactory
+  nameWithType: ServiceProviderFactory
+  fullName: OSLC4Net.Core.Model.ServiceProviderFactory
+- uid: OSLC4Net.Core.Model.TypeFactory
+  commentId: T:OSLC4Net.Core.Model.TypeFactory
+  href: OSLC4Net.Core.Model.TypeFactory.html
+  name: TypeFactory
+  nameWithType: TypeFactory
+  fullName: OSLC4Net.Core.Model.TypeFactory
+- uid: OSLC4Net.Core.Model.URI
+  commentId: T:OSLC4Net.Core.Model.URI
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.URI.html
+  name: URI
+  nameWithType: URI
+  fullName: OSLC4Net.Core.Model.URI
+- uid: OSLC4Net.Core.Model.ValueType
+  commentId: T:OSLC4Net.Core.Model.ValueType
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.ValueType.html
+  name: ValueType
+  nameWithType: ValueType
+  fullName: OSLC4Net.Core.Model.ValueType
+- uid: OSLC4Net.Core.Model.ValueTypeExtension
+  commentId: T:OSLC4Net.Core.Model.ValueTypeExtension
+  href: OSLC4Net.Core.Model.ValueTypeExtension.html
+  name: ValueTypeExtension
+  nameWithType: ValueTypeExtension
+  fullName: OSLC4Net.Core.Model.ValueTypeExtension
+- uid: OSLC4Net.Core.Model.XmlNamespace
+  commentId: T:OSLC4Net.Core.Model.XmlNamespace
+  href: OSLC4Net.Core.Model.XmlNamespace.html
+  name: XmlNamespace
+  nameWithType: XmlNamespace
+  fullName: OSLC4Net.Core.Model.XmlNamespace
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html

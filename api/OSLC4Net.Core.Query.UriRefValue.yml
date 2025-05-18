@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Query.UriRefValue
+  commentId: T:OSLC4Net.Core.Query.UriRefValue
+  id: UriRefValue
+  parent: OSLC4Net.Core.Query
+  children:
+  - OSLC4Net.Core.Query.UriRefValue.Value
+  langs:
+  - csharp
+  - vb
+  name: UriRefValue
+  nameWithType: UriRefValue
+  fullName: OSLC4Net.Core.Query.UriRefValue
+  type: Interface
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/UriRefValue.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: UriRefValue
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/UriRefValue.cs
+    startLine: 20
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  summary: URI_REF operand from oslc.where clause
+  example: []
+  syntax:
+    content: 'public interface UriRefValue : Value'
+    content.vb: Public Interface UriRefValue Inherits Value
+  inheritedMembers:
+  - OSLC4Net.Core.Query.Value.Type
+- uid: OSLC4Net.Core.Query.UriRefValue.Value
+  commentId: P:OSLC4Net.Core.Query.UriRefValue.Value
+  id: Value
+  parent: OSLC4Net.Core.Query.UriRefValue
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: UriRefValue.Value
+  fullName: OSLC4Net.Core.Query.UriRefValue.Value
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/UriRefValue.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Value
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/UriRefValue.cs
+    startLine: 22
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: string Value { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Value As String
+  overload: OSLC4Net.Core.Query.UriRefValue.Value*
+references:
+- uid: OSLC4Net.Core.Query
+  commentId: N:OSLC4Net.Core.Query
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Query
+  nameWithType: OSLC4Net.Core.Query
+  fullName: OSLC4Net.Core.Query
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+- uid: OSLC4Net.Core.Query.Value.Type
+  commentId: P:OSLC4Net.Core.Query.Value.Type
+  parent: OSLC4Net.Core.Query.Value
+  href: OSLC4Net.Core.Query.Value.html#OSLC4Net_Core_Query_Value_Type
+  name: Type
+  nameWithType: Value.Type
+  fullName: OSLC4Net.Core.Query.Value.Type
+- uid: OSLC4Net.Core.Query.Value
+  commentId: T:OSLC4Net.Core.Query.Value
+  parent: OSLC4Net.Core.Query
+  href: OSLC4Net.Core.Query.Value.html
+  name: Value
+  nameWithType: Value
+  fullName: OSLC4Net.Core.Query.Value
+- uid: OSLC4Net.Core.Query.UriRefValue.Value*
+  commentId: Overload:OSLC4Net.Core.Query.UriRefValue.Value
+  href: OSLC4Net.Core.Query.UriRefValue.html#OSLC4Net_Core_Query_UriRefValue_Value
+  name: Value
+  nameWithType: UriRefValue.Value
+  fullName: OSLC4Net.Core.Query.UriRefValue.Value
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

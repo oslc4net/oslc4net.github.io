@@ -1,0 +1,686 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Model.QName
+  commentId: T:OSLC4Net.Core.Model.QName
+  id: QName
+  parent: OSLC4Net.Core.Model
+  children:
+  - OSLC4Net.Core.Model.QName.#ctor(System.String)
+  - OSLC4Net.Core.Model.QName.#ctor(System.String,System.String)
+  - OSLC4Net.Core.Model.QName.#ctor(System.String,System.String,System.String)
+  - OSLC4Net.Core.Model.QName.Equals(System.Object)
+  - OSLC4Net.Core.Model.QName.GetHashCode
+  - OSLC4Net.Core.Model.QName.GetLocalPart
+  - OSLC4Net.Core.Model.QName.GetNamespaceURI
+  - OSLC4Net.Core.Model.QName.GetPrefix
+  - OSLC4Net.Core.Model.QName.ToString
+  langs:
+  - csharp
+  - vb
+  name: QName
+  nameWithType: QName
+  fullName: OSLC4Net.Core.Model.QName
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/QName.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: QName
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/QName.cs
+    startLine: 20
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: Class representing namespace-qualified names
+  example: []
+  syntax:
+    content: public class QName
+    content.vb: Public Class QName
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: OSLC4Net.Core.Model.QName.#ctor(System.String)
+  commentId: M:OSLC4Net.Core.Model.QName.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: OSLC4Net.Core.Model.QName
+  langs:
+  - csharp
+  - vb
+  name: QName(string)
+  nameWithType: QName.QName(string)
+  fullName: OSLC4Net.Core.Model.QName.QName(string)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/QName.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/QName.cs
+    startLine: 31
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: Constructor with local part only
+  example: []
+  syntax:
+    content: public QName(string localPart)
+    parameters:
+    - id: localPart
+      type: System.String
+      description: ''
+    content.vb: Public Sub New(localPart As String)
+  overload: OSLC4Net.Core.Model.QName.#ctor*
+  nameWithType.vb: QName.New(String)
+  fullName.vb: OSLC4Net.Core.Model.QName.New(String)
+  name.vb: New(String)
+- uid: OSLC4Net.Core.Model.QName.#ctor(System.String,System.String)
+  commentId: M:OSLC4Net.Core.Model.QName.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: OSLC4Net.Core.Model.QName
+  langs:
+  - csharp
+  - vb
+  name: QName(string, string)
+  nameWithType: QName.QName(string, string)
+  fullName: OSLC4Net.Core.Model.QName.QName(string, string)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/QName.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/QName.cs
+    startLine: 41
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: Constructior with namespace and local part
+  example: []
+  syntax:
+    content: public QName(string namespaceURI, string localPart)
+    parameters:
+    - id: namespaceURI
+      type: System.String
+      description: ''
+    - id: localPart
+      type: System.String
+      description: ''
+    content.vb: Public Sub New(namespaceURI As String, localPart As String)
+  overload: OSLC4Net.Core.Model.QName.#ctor*
+  nameWithType.vb: QName.New(String, String)
+  fullName.vb: OSLC4Net.Core.Model.QName.New(String, String)
+  name.vb: New(String, String)
+- uid: OSLC4Net.Core.Model.QName.#ctor(System.String,System.String,System.String)
+  commentId: M:OSLC4Net.Core.Model.QName.#ctor(System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String)'
+  parent: OSLC4Net.Core.Model.QName
+  langs:
+  - csharp
+  - vb
+  name: QName(string, string, string)
+  nameWithType: QName.QName(string, string, string)
+  fullName: OSLC4Net.Core.Model.QName.QName(string, string, string)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/QName.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/QName.cs
+    startLine: 54
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: Constructor with namespace, local part and prefix/alias
+  example: []
+  syntax:
+    content: public QName(string namespaceURI, string localPart, string prefix)
+    parameters:
+    - id: namespaceURI
+      type: System.String
+      description: ''
+    - id: localPart
+      type: System.String
+      description: ''
+    - id: prefix
+      type: System.String
+      description: ''
+    content.vb: Public Sub New(namespaceURI As String, localPart As String, prefix As String)
+  overload: OSLC4Net.Core.Model.QName.#ctor*
+  nameWithType.vb: QName.New(String, String, String)
+  fullName.vb: OSLC4Net.Core.Model.QName.New(String, String, String)
+  name.vb: New(String, String, String)
+- uid: OSLC4Net.Core.Model.QName.GetNamespaceURI
+  commentId: M:OSLC4Net.Core.Model.QName.GetNamespaceURI
+  id: GetNamespaceURI
+  parent: OSLC4Net.Core.Model.QName
+  langs:
+  - csharp
+  - vb
+  name: GetNamespaceURI()
+  nameWithType: QName.GetNamespaceURI()
+  fullName: OSLC4Net.Core.Model.QName.GetNamespaceURI()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/QName.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetNamespaceURI
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/QName.cs
+    startLine: 70
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public string GetNamespaceURI()
+    return:
+      type: System.String
+    content.vb: Public Function GetNamespaceURI() As String
+  overload: OSLC4Net.Core.Model.QName.GetNamespaceURI*
+- uid: OSLC4Net.Core.Model.QName.GetLocalPart
+  commentId: M:OSLC4Net.Core.Model.QName.GetLocalPart
+  id: GetLocalPart
+  parent: OSLC4Net.Core.Model.QName
+  langs:
+  - csharp
+  - vb
+  name: GetLocalPart()
+  nameWithType: QName.GetLocalPart()
+  fullName: OSLC4Net.Core.Model.QName.GetLocalPart()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/QName.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetLocalPart
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/QName.cs
+    startLine: 75
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public string GetLocalPart()
+    return:
+      type: System.String
+    content.vb: Public Function GetLocalPart() As String
+  overload: OSLC4Net.Core.Model.QName.GetLocalPart*
+- uid: OSLC4Net.Core.Model.QName.GetPrefix
+  commentId: M:OSLC4Net.Core.Model.QName.GetPrefix
+  id: GetPrefix
+  parent: OSLC4Net.Core.Model.QName
+  langs:
+  - csharp
+  - vb
+  name: GetPrefix()
+  nameWithType: QName.GetPrefix()
+  fullName: OSLC4Net.Core.Model.QName.GetPrefix()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/QName.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetPrefix
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/QName.cs
+    startLine: 80
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public string GetPrefix()
+    return:
+      type: System.String
+    content.vb: Public Function GetPrefix() As String
+  overload: OSLC4Net.Core.Model.QName.GetPrefix*
+- uid: OSLC4Net.Core.Model.QName.ToString
+  commentId: M:OSLC4Net.Core.Model.QName.ToString
+  id: ToString
+  parent: OSLC4Net.Core.Model.QName
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: QName.ToString()
+  fullName: OSLC4Net.Core.Model.QName.ToString()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/QName.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ToString
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/QName.cs
+    startLine: 85
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: OSLC4Net.Core.Model.QName.ToString*
+- uid: OSLC4Net.Core.Model.QName.Equals(System.Object)
+  commentId: M:OSLC4Net.Core.Model.QName.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: OSLC4Net.Core.Model.QName
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: QName.Equals(object)
+  fullName: OSLC4Net.Core.Model.QName.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/QName.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Equals
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/QName.cs
+    startLine: 95
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: OSLC4Net.Core.Model.QName.Equals*
+  nameWithType.vb: QName.Equals(Object)
+  fullName.vb: OSLC4Net.Core.Model.QName.Equals(Object)
+  name.vb: Equals(Object)
+- uid: OSLC4Net.Core.Model.QName.GetHashCode
+  commentId: M:OSLC4Net.Core.Model.QName.GetHashCode
+  id: GetHashCode
+  parent: OSLC4Net.Core.Model.QName
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: QName.GetHashCode()
+  fullName: OSLC4Net.Core.Model.QName.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/QName.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetHashCode
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/QName.cs
+    startLine: 112
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: OSLC4Net.Core.Model.QName.GetHashCode*
+references:
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OSLC4Net.Core.Model.QName.#ctor*
+  commentId: Overload:OSLC4Net.Core.Model.QName.#ctor
+  href: OSLC4Net.Core.Model.QName.html#OSLC4Net_Core_Model_QName__ctor_System_String_
+  name: QName
+  nameWithType: QName.QName
+  fullName: OSLC4Net.Core.Model.QName.QName
+  nameWithType.vb: QName.New
+  fullName.vb: OSLC4Net.Core.Model.QName.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: OSLC4Net.Core.Model.QName.GetNamespaceURI*
+  commentId: Overload:OSLC4Net.Core.Model.QName.GetNamespaceURI
+  href: OSLC4Net.Core.Model.QName.html#OSLC4Net_Core_Model_QName_GetNamespaceURI
+  name: GetNamespaceURI
+  nameWithType: QName.GetNamespaceURI
+  fullName: OSLC4Net.Core.Model.QName.GetNamespaceURI
+- uid: OSLC4Net.Core.Model.QName.GetLocalPart*
+  commentId: Overload:OSLC4Net.Core.Model.QName.GetLocalPart
+  href: OSLC4Net.Core.Model.QName.html#OSLC4Net_Core_Model_QName_GetLocalPart
+  name: GetLocalPart
+  nameWithType: QName.GetLocalPart
+  fullName: OSLC4Net.Core.Model.QName.GetLocalPart
+- uid: OSLC4Net.Core.Model.QName.GetPrefix*
+  commentId: Overload:OSLC4Net.Core.Model.QName.GetPrefix
+  href: OSLC4Net.Core.Model.QName.html#OSLC4Net_Core_Model_QName_GetPrefix
+  name: GetPrefix
+  nameWithType: QName.GetPrefix
+  fullName: OSLC4Net.Core.Model.QName.GetPrefix
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: OSLC4Net.Core.Model.QName.ToString*
+  commentId: Overload:OSLC4Net.Core.Model.QName.ToString
+  href: OSLC4Net.Core.Model.QName.html#OSLC4Net_Core_Model_QName_ToString
+  name: ToString
+  nameWithType: QName.ToString
+  fullName: OSLC4Net.Core.Model.QName.ToString
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: OSLC4Net.Core.Model.QName.Equals*
+  commentId: Overload:OSLC4Net.Core.Model.QName.Equals
+  href: OSLC4Net.Core.Model.QName.html#OSLC4Net_Core_Model_QName_Equals_System_Object_
+  name: Equals
+  nameWithType: QName.Equals
+  fullName: OSLC4Net.Core.Model.QName.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: OSLC4Net.Core.Model.QName.GetHashCode*
+  commentId: Overload:OSLC4Net.Core.Model.QName.GetHashCode
+  href: OSLC4Net.Core.Model.QName.html#OSLC4Net_Core_Model_QName_GetHashCode
+  name: GetHashCode
+  nameWithType: QName.GetHashCode
+  fullName: OSLC4Net.Core.Model.QName.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

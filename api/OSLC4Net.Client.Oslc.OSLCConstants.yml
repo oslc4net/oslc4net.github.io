@@ -1,0 +1,2839 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Client.Oslc.OSLCConstants
+  commentId: T:OSLC4Net.Client.Oslc.OSLCConstants
+  id: OSLCConstants
+  parent: OSLC4Net.Client.Oslc
+  children:
+  - OSLC4Net.Client.Oslc.OSLCConstants.AM_LINK_TYPE_TYPE
+  - OSLC4Net.Client.Oslc.OSLCConstants.AM_RESOURCE_TYPE
+  - OSLC4Net.Client.Oslc.OSLCConstants.ATOM
+  - OSLC4Net.Client.Oslc.OSLCConstants.CM_APPROVED_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.CM_CHANGE_REQUEST_TYPE
+  - OSLC4Net.Client.Oslc.OSLCConstants.CM_CLOSED_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.CM_CLOSE_DATE_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.CM_FIXED_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.CM_INPROGRESS_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.CM_REVIEWED_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.CM_STATUS_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.CM_VERIFIED_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.CORE_DEFAULT
+  - OSLC4Net.Client.Oslc.OSLCConstants.CREATION_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.CT_ATOM
+  - OSLC4Net.Client.Oslc.OSLCConstants.CT_CR_JSON
+  - OSLC4Net.Client.Oslc.OSLCConstants.CT_CR_QUERY
+  - OSLC4Net.Client.Oslc.OSLCConstants.CT_CR_XML
+  - OSLC4Net.Client.Oslc.OSLCConstants.CT_DISC_CAT_XML
+  - OSLC4Net.Client.Oslc.OSLCConstants.CT_DISC_DESC_XML
+  - OSLC4Net.Client.Oslc.OSLCConstants.CT_JSON
+  - OSLC4Net.Client.Oslc.OSLCConstants.CT_RDF
+  - OSLC4Net.Client.Oslc.OSLCConstants.CT_XML
+  - OSLC4Net.Client.Oslc.OSLCConstants.DC
+  - OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS
+  - OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_CREATED
+  - OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_DESC
+  - OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_ID
+  - OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_MODIFIED
+  - OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_NAME
+  - OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_PUBLISHER
+  - OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_TITLE
+  - OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_TYPE
+  - OSLC4Net.Client.Oslc.OSLCConstants.DC_CREATED_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.DC_DESC_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.DC_ID_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.DC_MODIFIED_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.DC_NAME_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.DC_PUBLISHER_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.DC_TITLE_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.DC_TYPE_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.DESCRIPTION_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.DISCUSSION_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.ETAG
+  - OSLC4Net.Client.Oslc.OSLCConstants.INST_SHAPE_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.JENA_RDF_XML
+  - OSLC4Net.Client.Oslc.OSLCConstants.OSLC_AM_V2
+  - OSLC4Net.Client.Oslc.OSLCConstants.OSLC_ASSET_V2
+  - OSLC4Net.Client.Oslc.OSLCConstants.OSLC_AUTO
+  - OSLC4Net.Client.Oslc.OSLCConstants.OSLC_CM
+  - OSLC4Net.Client.Oslc.OSLCConstants.OSLC_CM_V2
+  - OSLC4Net.Client.Oslc.OSLCConstants.OSLC_CORE_VERSION
+  - OSLC4Net.Client.Oslc.OSLCConstants.OSLC_DISC
+  - OSLC4Net.Client.Oslc.OSLCConstants.OSLC_QM
+  - OSLC4Net.Client.Oslc.OSLCConstants.OSLC_QM_V2
+  - OSLC4Net.Client.Oslc.OSLCConstants.OSLC_RM
+  - OSLC4Net.Client.Oslc.OSLCConstants.OSLC_RM_V2
+  - OSLC4Net.Client.Oslc.OSLCConstants.OSLC_V2
+  - OSLC4Net.Client.Oslc.OSLCConstants.POST
+  - OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_CASE
+  - OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_CASE_QUERY
+  - OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_EXECUTION_RECORD
+  - OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_EXECUTION_RECORD_QUERY
+  - OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_PLAN
+  - OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_PLAN_QUERY
+  - OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_RESULT
+  - OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_RESULT_QUERY
+  - OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_SCRIPT
+  - OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_SCRIPT_QUERY
+  - OSLC4Net.Client.Oslc.OSLCConstants.QUERY_BASE_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.QUERY_CAPABILITY_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.RDF
+  - OSLC4Net.Client.Oslc.OSLCConstants.RDFS
+  - OSLC4Net.Client.Oslc.OSLCConstants.RDFS_MEMBER
+  - OSLC4Net.Client.Oslc.OSLCConstants.RDF_TYPE_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.RESOURCE_SHAPE_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.RESOURCE_TYPE_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.RESP_INFO_TYPE
+  - OSLC4Net.Client.Oslc.OSLCConstants.RFC_DATE_FORMAT
+  - OSLC4Net.Client.Oslc.OSLCConstants.RM_REQUIREMENT_COLLECTION_TYPE
+  - OSLC4Net.Client.Oslc.OSLCConstants.RM_REQUIREMENT_TYPE
+  - OSLC4Net.Client.Oslc.OSLCConstants.SERVICE_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.SERVICE_PROVIDER_CATALOG_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.SERVICE_PROVIDER_CATALOG_TYPE
+  - OSLC4Net.Client.Oslc.OSLCConstants.SERVICE_PROVIDER_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.SERVICE_PROVIDER_TYPE
+  - OSLC4Net.Client.Oslc.OSLCConstants.SSL
+  - OSLC4Net.Client.Oslc.OSLCConstants.TOTAL_COUNT_PROP
+  - OSLC4Net.Client.Oslc.OSLCConstants.USAGE_DEFAULT_URI
+  - OSLC4Net.Client.Oslc.OSLCConstants.USAGE_PROP
+  langs:
+  - csharp
+  - vb
+  name: OSLCConstants
+  nameWithType: OSLCConstants
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OSLCConstants
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 20
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  summary: General OSLC constants
+  example: []
+  syntax:
+    content: public static class OSLCConstants
+    content.vb: Public Module OSLCConstants
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.RFC_DATE_FORMAT
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.RFC_DATE_FORMAT
+  id: RFC_DATE_FORMAT
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: RFC_DATE_FORMAT
+  nameWithType: OSLCConstants.RFC_DATE_FORMAT
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.RFC_DATE_FORMAT
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: RFC_DATE_FORMAT
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 22
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string RFC_DATE_FORMAT = "yyyy-MM-dd'T'h:m:ss.S'Z'"
+    return:
+      type: System.String
+    content.vb: Public Const RFC_DATE_FORMAT As String = "yyyy-MM-dd'T'h:m:ss.S'Z'"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.DC
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.DC
+  id: DC
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: DC
+  nameWithType: OSLCConstants.DC
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.DC
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DC
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 24
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string DC = "http://purl.org/dc/terms/"
+    return:
+      type: System.String
+    content.vb: Public Const DC As String = "http://purl.org/dc/terms/"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS
+  id: DCTERMS
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: DCTERMS
+  nameWithType: OSLCConstants.DCTERMS
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DCTERMS
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 25
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string DCTERMS = "dcterms:"
+    return:
+      type: System.String
+    content.vb: Public Const DCTERMS As String = "dcterms:"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.RDF
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.RDF
+  id: RDF
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: RDF
+  nameWithType: OSLCConstants.RDF
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.RDF
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: RDF
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 26
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string RDF = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    return:
+      type: System.String
+    content.vb: Public Const RDF As String = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.RDFS
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.RDFS
+  id: RDFS
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: RDFS
+  nameWithType: OSLCConstants.RDFS
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.RDFS
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: RDFS
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 27
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string RDFS = "http://www.w3.org/2000/01/rdf-schema#"
+    return:
+      type: System.String
+    content.vb: Public Const RDFS As String = "http://www.w3.org/2000/01/rdf-schema#"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.ATOM
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.ATOM
+  id: ATOM
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: ATOM
+  nameWithType: OSLCConstants.ATOM
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.ATOM
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ATOM
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 28
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string ATOM = "http://www.w3.org/2005/Atom"
+    return:
+      type: System.String
+    content.vb: Public Const ATOM As String = "http://www.w3.org/2005/Atom"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_V2
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.OSLC_V2
+  id: OSLC_V2
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: OSLC_V2
+  nameWithType: OSLCConstants.OSLC_V2
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_V2
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OSLC_V2
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 29
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string OSLC_V2 = "http://open-services.net/ns/core#"
+    return:
+      type: System.String
+    content.vb: Public Const OSLC_V2 As String = "http://open-services.net/ns/core#"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.CORE_DEFAULT
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.CORE_DEFAULT
+  id: CORE_DEFAULT
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: CORE_DEFAULT
+  nameWithType: OSLCConstants.CORE_DEFAULT
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.CORE_DEFAULT
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CORE_DEFAULT
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 30
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string CORE_DEFAULT = "http://open-services.net/ns/core#default"
+    return:
+      type: System.String
+    content.vb: Public Const CORE_DEFAULT As String = "http://open-services.net/ns/core#default"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_CM_V2
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.OSLC_CM_V2
+  id: OSLC_CM_V2
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: OSLC_CM_V2
+  nameWithType: OSLCConstants.OSLC_CM_V2
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_CM_V2
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OSLC_CM_V2
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 31
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string OSLC_CM_V2 = "http://open-services.net/ns/cm#"
+    return:
+      type: System.String
+    content.vb: Public Const OSLC_CM_V2 As String = "http://open-services.net/ns/cm#"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_AM_V2
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.OSLC_AM_V2
+  id: OSLC_AM_V2
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: OSLC_AM_V2
+  nameWithType: OSLCConstants.OSLC_AM_V2
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_AM_V2
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OSLC_AM_V2
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 32
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string OSLC_AM_V2 = "http://open-services.net/ns/am#"
+    return:
+      type: System.String
+    content.vb: Public Const OSLC_AM_V2 As String = "http://open-services.net/ns/am#"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_ASSET_V2
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.OSLC_ASSET_V2
+  id: OSLC_ASSET_V2
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: OSLC_ASSET_V2
+  nameWithType: OSLCConstants.OSLC_ASSET_V2
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_ASSET_V2
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OSLC_ASSET_V2
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 33
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string OSLC_ASSET_V2 = "http://open-services.net/ns/asset#"
+    return:
+      type: System.String
+    content.vb: Public Const OSLC_ASSET_V2 As String = "http://open-services.net/ns/asset#"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_QM_V2
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.OSLC_QM_V2
+  id: OSLC_QM_V2
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: OSLC_QM_V2
+  nameWithType: OSLCConstants.OSLC_QM_V2
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_QM_V2
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OSLC_QM_V2
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 34
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string OSLC_QM_V2 = "http://open-services.net/ns/qm#"
+    return:
+      type: System.String
+    content.vb: Public Const OSLC_QM_V2 As String = "http://open-services.net/ns/qm#"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_RM_V2
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.OSLC_RM_V2
+  id: OSLC_RM_V2
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: OSLC_RM_V2
+  nameWithType: OSLCConstants.OSLC_RM_V2
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_RM_V2
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OSLC_RM_V2
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 35
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string OSLC_RM_V2 = "http://open-services.net/ns/rm#"
+    return:
+      type: System.String
+    content.vb: Public Const OSLC_RM_V2 As String = "http://open-services.net/ns/rm#"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_AUTO
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.OSLC_AUTO
+  id: OSLC_AUTO
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: OSLC_AUTO
+  nameWithType: OSLCConstants.OSLC_AUTO
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_AUTO
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OSLC_AUTO
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 36
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string OSLC_AUTO = "http://open-services.net/ns/auto#"
+    return:
+      type: System.String
+    content.vb: Public Const OSLC_AUTO As String = "http://open-services.net/ns/auto#"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_DISC
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.OSLC_DISC
+  id: OSLC_DISC
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: OSLC_DISC
+  nameWithType: OSLCConstants.OSLC_DISC
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_DISC
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OSLC_DISC
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 39
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string OSLC_DISC = "http://open-services.net/xmlns/discovery/1.0/"
+    return:
+      type: System.String
+    content.vb: Public Const OSLC_DISC As String = "http://open-services.net/xmlns/discovery/1.0/"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_CM
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.OSLC_CM
+  id: OSLC_CM
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: OSLC_CM
+  nameWithType: OSLCConstants.OSLC_CM
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_CM
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OSLC_CM
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 40
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string OSLC_CM = "http://open-services.net/xmlns/cm/1.0/"
+    return:
+      type: System.String
+    content.vb: Public Const OSLC_CM As String = "http://open-services.net/xmlns/cm/1.0/"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_QM
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.OSLC_QM
+  id: OSLC_QM
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: OSLC_QM
+  nameWithType: OSLCConstants.OSLC_QM
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_QM
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OSLC_QM
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 41
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string OSLC_QM = "http://open-services.net/xmlns/qm/1.0/"
+    return:
+      type: System.String
+    content.vb: Public Const OSLC_QM As String = "http://open-services.net/xmlns/qm/1.0/"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_RM
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.OSLC_RM
+  id: OSLC_RM
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: OSLC_RM
+  nameWithType: OSLCConstants.OSLC_RM
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_RM
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OSLC_RM
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 42
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string OSLC_RM = "http://open-services.net/xmlns/rm/1.0/"
+    return:
+      type: System.String
+    content.vb: Public Const OSLC_RM As String = "http://open-services.net/xmlns/rm/1.0/"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.CT_XML
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.CT_XML
+  id: CT_XML
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: CT_XML
+  nameWithType: OSLCConstants.CT_XML
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.CT_XML
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CT_XML
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 47
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string CT_XML = "application/xml"
+    return:
+      type: System.String
+    content.vb: Public Const CT_XML As String = "application/xml"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.CT_RDF
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.CT_RDF
+  id: CT_RDF
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: CT_RDF
+  nameWithType: OSLCConstants.CT_RDF
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.CT_RDF
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CT_RDF
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 48
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string CT_RDF = "application/rdf+xml"
+    return:
+      type: System.String
+    content.vb: Public Const CT_RDF As String = "application/rdf+xml"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.CT_JSON
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.CT_JSON
+  id: CT_JSON
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: CT_JSON
+  nameWithType: OSLCConstants.CT_JSON
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.CT_JSON
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CT_JSON
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 49
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string CT_JSON = "application/json"
+    return:
+      type: System.String
+    content.vb: Public Const CT_JSON As String = "application/json"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.CT_ATOM
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.CT_ATOM
+  id: CT_ATOM
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: CT_ATOM
+  nameWithType: OSLCConstants.CT_ATOM
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.CT_ATOM
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CT_ATOM
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 50
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string CT_ATOM = "application/atom+xml"
+    return:
+      type: System.String
+    content.vb: Public Const CT_ATOM As String = "application/atom+xml"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.CT_CR_XML
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.CT_CR_XML
+  id: CT_CR_XML
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: CT_CR_XML
+  nameWithType: OSLCConstants.CT_CR_XML
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.CT_CR_XML
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CT_CR_XML
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 53
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string CT_CR_XML = "application/x-oslc-cm-change-request+xml"
+    return:
+      type: System.String
+    content.vb: Public Const CT_CR_XML As String = "application/x-oslc-cm-change-request+xml"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.CT_CR_JSON
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.CT_CR_JSON
+  id: CT_CR_JSON
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: CT_CR_JSON
+  nameWithType: OSLCConstants.CT_CR_JSON
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.CT_CR_JSON
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CT_CR_JSON
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 54
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string CT_CR_JSON = "application/x-oslc-cm-change-request+json"
+    return:
+      type: System.String
+    content.vb: Public Const CT_CR_JSON As String = "application/x-oslc-cm-change-request+json"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.CT_CR_QUERY
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.CT_CR_QUERY
+  id: CT_CR_QUERY
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: CT_CR_QUERY
+  nameWithType: OSLCConstants.CT_CR_QUERY
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.CT_CR_QUERY
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CT_CR_QUERY
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 55
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string CT_CR_QUERY = "application/x-oslc-cm-change-request+xml"
+    return:
+      type: System.String
+    content.vb: Public Const CT_CR_QUERY As String = "application/x-oslc-cm-change-request+xml"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.CT_DISC_CAT_XML
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.CT_DISC_CAT_XML
+  id: CT_DISC_CAT_XML
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: CT_DISC_CAT_XML
+  nameWithType: OSLCConstants.CT_DISC_CAT_XML
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.CT_DISC_CAT_XML
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CT_DISC_CAT_XML
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 56
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string CT_DISC_CAT_XML = "application/x-oslc-disc-service-provider-catalog+xml"
+    return:
+      type: System.String
+    content.vb: Public Const CT_DISC_CAT_XML As String = "application/x-oslc-disc-service-provider-catalog+xml"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.CT_DISC_DESC_XML
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.CT_DISC_DESC_XML
+  id: CT_DISC_DESC_XML
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: CT_DISC_DESC_XML
+  nameWithType: OSLCConstants.CT_DISC_DESC_XML
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.CT_DISC_DESC_XML
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CT_DISC_DESC_XML
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 57
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string CT_DISC_DESC_XML = "application/x-oslc-cm-service-description+xml"
+    return:
+      type: System.String
+    content.vb: Public Const CT_DISC_DESC_XML As String = "application/x-oslc-cm-service-description+xml"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_CORE_VERSION
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.OSLC_CORE_VERSION
+  id: OSLC_CORE_VERSION
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: OSLC_CORE_VERSION
+  nameWithType: OSLCConstants.OSLC_CORE_VERSION
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.OSLC_CORE_VERSION
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OSLC_CORE_VERSION
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 60
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string OSLC_CORE_VERSION = "OSLC-Core-Version"
+    return:
+      type: System.String
+    content.vb: Public Const OSLC_CORE_VERSION As String = "OSLC-Core-Version"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.ETAG
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.ETAG
+  id: ETAG
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: ETAG
+  nameWithType: OSLCConstants.ETAG
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.ETAG
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ETAG
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 61
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string ETAG = "Etag"
+    return:
+      type: System.String
+    content.vb: Public Const ETAG As String = "Etag"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.POST
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.POST
+  id: POST
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: POST
+  nameWithType: OSLCConstants.POST
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.POST
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: POST
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 63
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string POST = "POST"
+    return:
+      type: System.String
+    content.vb: Public Const POST As String = "POST"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.SSL
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.SSL
+  id: SSL
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: SSL
+  nameWithType: OSLCConstants.SSL
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.SSL
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SSL
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 64
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string SSL = "SSL"
+    return:
+      type: System.String
+    content.vb: Public Const SSL As String = "SSL"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.JENA_RDF_XML
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.JENA_RDF_XML
+  id: JENA_RDF_XML
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: JENA_RDF_XML
+  nameWithType: OSLCConstants.JENA_RDF_XML
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.JENA_RDF_XML
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: JENA_RDF_XML
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 66
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string JENA_RDF_XML = "RDF/XML"
+    return:
+      type: System.String
+    content.vb: Public Const JENA_RDF_XML As String = "RDF/XML"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.SERVICE_PROVIDER_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.SERVICE_PROVIDER_PROP
+  id: SERVICE_PROVIDER_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: SERVICE_PROVIDER_PROP
+  nameWithType: OSLCConstants.SERVICE_PROVIDER_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.SERVICE_PROVIDER_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SERVICE_PROVIDER_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 72
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string SERVICE_PROVIDER_PROP = "http://open-services.net/ns/core#serviceProvider"
+    return:
+      type: System.String
+    content.vb: Public Const SERVICE_PROVIDER_PROP As String = "http://open-services.net/ns/core#serviceProvider"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.SERVICE_PROVIDER_TYPE
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.SERVICE_PROVIDER_TYPE
+  id: SERVICE_PROVIDER_TYPE
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: SERVICE_PROVIDER_TYPE
+  nameWithType: OSLCConstants.SERVICE_PROVIDER_TYPE
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.SERVICE_PROVIDER_TYPE
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SERVICE_PROVIDER_TYPE
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 73
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string SERVICE_PROVIDER_TYPE = "http://open-services.net/ns/core#ServiceProvider"
+    return:
+      type: System.String
+    content.vb: Public Const SERVICE_PROVIDER_TYPE As String = "http://open-services.net/ns/core#ServiceProvider"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.SERVICE_PROVIDER_CATALOG_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.SERVICE_PROVIDER_CATALOG_PROP
+  id: SERVICE_PROVIDER_CATALOG_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: SERVICE_PROVIDER_CATALOG_PROP
+  nameWithType: OSLCConstants.SERVICE_PROVIDER_CATALOG_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.SERVICE_PROVIDER_CATALOG_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SERVICE_PROVIDER_CATALOG_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 74
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string SERVICE_PROVIDER_CATALOG_PROP = "http://open-services.net/ns/core#serviceProviderCatalog"
+    return:
+      type: System.String
+    content.vb: Public Const SERVICE_PROVIDER_CATALOG_PROP As String = "http://open-services.net/ns/core#serviceProviderCatalog"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.SERVICE_PROVIDER_CATALOG_TYPE
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.SERVICE_PROVIDER_CATALOG_TYPE
+  id: SERVICE_PROVIDER_CATALOG_TYPE
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: SERVICE_PROVIDER_CATALOG_TYPE
+  nameWithType: OSLCConstants.SERVICE_PROVIDER_CATALOG_TYPE
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.SERVICE_PROVIDER_CATALOG_TYPE
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SERVICE_PROVIDER_CATALOG_TYPE
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 75
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string SERVICE_PROVIDER_CATALOG_TYPE = "http://open-services.net/ns/core#ServiceProviderCatalog"
+    return:
+      type: System.String
+    content.vb: Public Const SERVICE_PROVIDER_CATALOG_TYPE As String = "http://open-services.net/ns/core#ServiceProviderCatalog"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.CREATION_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.CREATION_PROP
+  id: CREATION_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: CREATION_PROP
+  nameWithType: OSLCConstants.CREATION_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.CREATION_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CREATION_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 76
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string CREATION_PROP = "http://open-services.net/ns/core#creation"
+    return:
+      type: System.String
+    content.vb: Public Const CREATION_PROP As String = "http://open-services.net/ns/core#creation"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.QUERY_CAPABILITY_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.QUERY_CAPABILITY_PROP
+  id: QUERY_CAPABILITY_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: QUERY_CAPABILITY_PROP
+  nameWithType: OSLCConstants.QUERY_CAPABILITY_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.QUERY_CAPABILITY_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: QUERY_CAPABILITY_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 77
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string QUERY_CAPABILITY_PROP = "http://open-services.net/ns/core#QueryCapability"
+    return:
+      type: System.String
+    content.vb: Public Const QUERY_CAPABILITY_PROP As String = "http://open-services.net/ns/core#QueryCapability"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.QUERY_BASE_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.QUERY_BASE_PROP
+  id: QUERY_BASE_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: QUERY_BASE_PROP
+  nameWithType: OSLCConstants.QUERY_BASE_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.QUERY_BASE_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: QUERY_BASE_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 78
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string QUERY_BASE_PROP = "http://open-services.net/ns/core#queryBase"
+    return:
+      type: System.String
+    content.vb: Public Const QUERY_BASE_PROP As String = "http://open-services.net/ns/core#queryBase"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.RESP_INFO_TYPE
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.RESP_INFO_TYPE
+  id: RESP_INFO_TYPE
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: RESP_INFO_TYPE
+  nameWithType: OSLCConstants.RESP_INFO_TYPE
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.RESP_INFO_TYPE
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: RESP_INFO_TYPE
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 79
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string RESP_INFO_TYPE = "http://open-services.net/ns/core#ResponseInfo"
+    return:
+      type: System.String
+    content.vb: Public Const RESP_INFO_TYPE As String = "http://open-services.net/ns/core#ResponseInfo"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.SERVICE_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.SERVICE_PROP
+  id: SERVICE_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: SERVICE_PROP
+  nameWithType: OSLCConstants.SERVICE_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.SERVICE_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SERVICE_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 80
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string SERVICE_PROP = "http://open-services.net/ns/core#service"
+    return:
+      type: System.String
+    content.vb: Public Const SERVICE_PROP As String = "http://open-services.net/ns/core#service"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.DISCUSSION_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.DISCUSSION_PROP
+  id: DISCUSSION_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: DISCUSSION_PROP
+  nameWithType: OSLCConstants.DISCUSSION_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.DISCUSSION_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DISCUSSION_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 81
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string DISCUSSION_PROP = "http://open-services.net/ns/core#discussion"
+    return:
+      type: System.String
+    content.vb: Public Const DISCUSSION_PROP As String = "http://open-services.net/ns/core#discussion"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.INST_SHAPE_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.INST_SHAPE_PROP
+  id: INST_SHAPE_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: INST_SHAPE_PROP
+  nameWithType: OSLCConstants.INST_SHAPE_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.INST_SHAPE_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: INST_SHAPE_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 82
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string INST_SHAPE_PROP = "http://open-services.net/ns/core#instanceShape"
+    return:
+      type: System.String
+    content.vb: Public Const INST_SHAPE_PROP As String = "http://open-services.net/ns/core#instanceShape"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.USAGE_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.USAGE_PROP
+  id: USAGE_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: USAGE_PROP
+  nameWithType: OSLCConstants.USAGE_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.USAGE_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: USAGE_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 83
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string USAGE_PROP = "http://open-services.net/ns/core#usage"
+    return:
+      type: System.String
+    content.vb: Public Const USAGE_PROP As String = "http://open-services.net/ns/core#usage"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.USAGE_DEFAULT_URI
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.USAGE_DEFAULT_URI
+  id: USAGE_DEFAULT_URI
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: USAGE_DEFAULT_URI
+  nameWithType: OSLCConstants.USAGE_DEFAULT_URI
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.USAGE_DEFAULT_URI
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: USAGE_DEFAULT_URI
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 84
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string USAGE_DEFAULT_URI = "http://open-services.net/ns/core#default"
+    return:
+      type: System.String
+    content.vb: Public Const USAGE_DEFAULT_URI As String = "http://open-services.net/ns/core#default"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.TOTAL_COUNT_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.TOTAL_COUNT_PROP
+  id: TOTAL_COUNT_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: TOTAL_COUNT_PROP
+  nameWithType: OSLCConstants.TOTAL_COUNT_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.TOTAL_COUNT_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: TOTAL_COUNT_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 85
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string TOTAL_COUNT_PROP = "http://open-services.net/ns/core#totalCount"
+    return:
+      type: System.String
+    content.vb: Public Const TOTAL_COUNT_PROP As String = "http://open-services.net/ns/core#totalCount"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.RESOURCE_TYPE_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.RESOURCE_TYPE_PROP
+  id: RESOURCE_TYPE_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: RESOURCE_TYPE_PROP
+  nameWithType: OSLCConstants.RESOURCE_TYPE_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.RESOURCE_TYPE_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: RESOURCE_TYPE_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 86
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string RESOURCE_TYPE_PROP = "http://open-services.net/ns/core#resourceType"
+    return:
+      type: System.String
+    content.vb: Public Const RESOURCE_TYPE_PROP As String = "http://open-services.net/ns/core#resourceType"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.RESOURCE_SHAPE_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.RESOURCE_SHAPE_PROP
+  id: RESOURCE_SHAPE_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: RESOURCE_SHAPE_PROP
+  nameWithType: OSLCConstants.RESOURCE_SHAPE_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.RESOURCE_SHAPE_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: RESOURCE_SHAPE_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 87
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string RESOURCE_SHAPE_PROP = "http://open-services.net/ns/core#resourceShape"
+    return:
+      type: System.String
+    content.vb: Public Const RESOURCE_SHAPE_PROP As String = "http://open-services.net/ns/core#resourceShape"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.DESCRIPTION_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.DESCRIPTION_PROP
+  id: DESCRIPTION_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: DESCRIPTION_PROP
+  nameWithType: OSLCConstants.DESCRIPTION_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.DESCRIPTION_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DESCRIPTION_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 89
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string DESCRIPTION_PROP = "http://open-services.net/ns/core#Description"
+    return:
+      type: System.String
+    content.vb: Public Const DESCRIPTION_PROP As String = "http://open-services.net/ns/core#Description"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.CM_CHANGE_REQUEST_TYPE
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.CM_CHANGE_REQUEST_TYPE
+  id: CM_CHANGE_REQUEST_TYPE
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: CM_CHANGE_REQUEST_TYPE
+  nameWithType: OSLCConstants.CM_CHANGE_REQUEST_TYPE
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.CM_CHANGE_REQUEST_TYPE
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CM_CHANGE_REQUEST_TYPE
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 92
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string CM_CHANGE_REQUEST_TYPE = "http://open-services.net/ns/cm#ChangeRequest"
+    return:
+      type: System.String
+    content.vb: Public Const CM_CHANGE_REQUEST_TYPE As String = "http://open-services.net/ns/cm#ChangeRequest"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.CM_CLOSE_DATE_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.CM_CLOSE_DATE_PROP
+  id: CM_CLOSE_DATE_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: CM_CLOSE_DATE_PROP
+  nameWithType: OSLCConstants.CM_CLOSE_DATE_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.CM_CLOSE_DATE_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CM_CLOSE_DATE_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 93
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string CM_CLOSE_DATE_PROP = "http://open-services.net/ns/cm#closeDate"
+    return:
+      type: System.String
+    content.vb: Public Const CM_CLOSE_DATE_PROP As String = "http://open-services.net/ns/cm#closeDate"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.CM_STATUS_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.CM_STATUS_PROP
+  id: CM_STATUS_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: CM_STATUS_PROP
+  nameWithType: OSLCConstants.CM_STATUS_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.CM_STATUS_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CM_STATUS_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 94
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string CM_STATUS_PROP = "http://open-services.net/ns/cm#status"
+    return:
+      type: System.String
+    content.vb: Public Const CM_STATUS_PROP As String = "http://open-services.net/ns/cm#status"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.CM_CLOSED_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.CM_CLOSED_PROP
+  id: CM_CLOSED_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: CM_CLOSED_PROP
+  nameWithType: OSLCConstants.CM_CLOSED_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.CM_CLOSED_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CM_CLOSED_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 95
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string CM_CLOSED_PROP = "http://open-services.net/ns/cm#closed"
+    return:
+      type: System.String
+    content.vb: Public Const CM_CLOSED_PROP As String = "http://open-services.net/ns/cm#closed"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.CM_INPROGRESS_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.CM_INPROGRESS_PROP
+  id: CM_INPROGRESS_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: CM_INPROGRESS_PROP
+  nameWithType: OSLCConstants.CM_INPROGRESS_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.CM_INPROGRESS_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CM_INPROGRESS_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 96
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string CM_INPROGRESS_PROP = "http://open-services.net/ns/cm#inprogress"
+    return:
+      type: System.String
+    content.vb: Public Const CM_INPROGRESS_PROP As String = "http://open-services.net/ns/cm#inprogress"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.CM_FIXED_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.CM_FIXED_PROP
+  id: CM_FIXED_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: CM_FIXED_PROP
+  nameWithType: OSLCConstants.CM_FIXED_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.CM_FIXED_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CM_FIXED_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 97
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string CM_FIXED_PROP = "http://open-services.net/ns/cm#fixed"
+    return:
+      type: System.String
+    content.vb: Public Const CM_FIXED_PROP As String = "http://open-services.net/ns/cm#fixed"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.CM_APPROVED_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.CM_APPROVED_PROP
+  id: CM_APPROVED_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: CM_APPROVED_PROP
+  nameWithType: OSLCConstants.CM_APPROVED_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.CM_APPROVED_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CM_APPROVED_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 98
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string CM_APPROVED_PROP = "http://open-services.net/ns/cm#approved"
+    return:
+      type: System.String
+    content.vb: Public Const CM_APPROVED_PROP As String = "http://open-services.net/ns/cm#approved"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.CM_REVIEWED_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.CM_REVIEWED_PROP
+  id: CM_REVIEWED_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: CM_REVIEWED_PROP
+  nameWithType: OSLCConstants.CM_REVIEWED_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.CM_REVIEWED_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CM_REVIEWED_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 99
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string CM_REVIEWED_PROP = "http://open-services.net/ns/cm#reviewed"
+    return:
+      type: System.String
+    content.vb: Public Const CM_REVIEWED_PROP As String = "http://open-services.net/ns/cm#reviewed"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.CM_VERIFIED_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.CM_VERIFIED_PROP
+  id: CM_VERIFIED_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: CM_VERIFIED_PROP
+  nameWithType: OSLCConstants.CM_VERIFIED_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.CM_VERIFIED_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CM_VERIFIED_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 100
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string CM_VERIFIED_PROP = "http://open-services.net/ns/cm#verified"
+    return:
+      type: System.String
+    content.vb: Public Const CM_VERIFIED_PROP As String = "http://open-services.net/ns/cm#verified"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_PLAN
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_PLAN
+  id: QM_TEST_PLAN
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: QM_TEST_PLAN
+  nameWithType: OSLCConstants.QM_TEST_PLAN
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_PLAN
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: QM_TEST_PLAN
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 103
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string QM_TEST_PLAN = "http://open-services.net/ns/qm#testPlan"
+    return:
+      type: System.String
+    content.vb: Public Const QM_TEST_PLAN As String = "http://open-services.net/ns/qm#testPlan"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_CASE
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_CASE
+  id: QM_TEST_CASE
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: QM_TEST_CASE
+  nameWithType: OSLCConstants.QM_TEST_CASE
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_CASE
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: QM_TEST_CASE
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 104
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string QM_TEST_CASE = "http://open-services.net/ns/qm#testCase"
+    return:
+      type: System.String
+    content.vb: Public Const QM_TEST_CASE As String = "http://open-services.net/ns/qm#testCase"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_SCRIPT
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_SCRIPT
+  id: QM_TEST_SCRIPT
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: QM_TEST_SCRIPT
+  nameWithType: OSLCConstants.QM_TEST_SCRIPT
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_SCRIPT
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: QM_TEST_SCRIPT
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 105
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string QM_TEST_SCRIPT = "http://open-services.net/ns/qm#testScript"
+    return:
+      type: System.String
+    content.vb: Public Const QM_TEST_SCRIPT As String = "http://open-services.net/ns/qm#testScript"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_RESULT
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_RESULT
+  id: QM_TEST_RESULT
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: QM_TEST_RESULT
+  nameWithType: OSLCConstants.QM_TEST_RESULT
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_RESULT
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: QM_TEST_RESULT
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 106
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string QM_TEST_RESULT = "http://open-services.net/ns/qm#testResult"
+    return:
+      type: System.String
+    content.vb: Public Const QM_TEST_RESULT As String = "http://open-services.net/ns/qm#testResult"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_EXECUTION_RECORD
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_EXECUTION_RECORD
+  id: QM_TEST_EXECUTION_RECORD
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: QM_TEST_EXECUTION_RECORD
+  nameWithType: OSLCConstants.QM_TEST_EXECUTION_RECORD
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_EXECUTION_RECORD
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: QM_TEST_EXECUTION_RECORD
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 107
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string QM_TEST_EXECUTION_RECORD = "http://open-services.net/ns/qm#testExecutionRecord"
+    return:
+      type: System.String
+    content.vb: Public Const QM_TEST_EXECUTION_RECORD As String = "http://open-services.net/ns/qm#testExecutionRecord"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_PLAN_QUERY
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_PLAN_QUERY
+  id: QM_TEST_PLAN_QUERY
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: QM_TEST_PLAN_QUERY
+  nameWithType: OSLCConstants.QM_TEST_PLAN_QUERY
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_PLAN_QUERY
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: QM_TEST_PLAN_QUERY
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 109
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string QM_TEST_PLAN_QUERY = "http://open-services.net/ns/qm#TestPlanQuery"
+    return:
+      type: System.String
+    content.vb: Public Const QM_TEST_PLAN_QUERY As String = "http://open-services.net/ns/qm#TestPlanQuery"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_CASE_QUERY
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_CASE_QUERY
+  id: QM_TEST_CASE_QUERY
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: QM_TEST_CASE_QUERY
+  nameWithType: OSLCConstants.QM_TEST_CASE_QUERY
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_CASE_QUERY
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: QM_TEST_CASE_QUERY
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 110
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string QM_TEST_CASE_QUERY = "http://open-services.net/ns/qm#TestCaseQuery"
+    return:
+      type: System.String
+    content.vb: Public Const QM_TEST_CASE_QUERY As String = "http://open-services.net/ns/qm#TestCaseQuery"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_SCRIPT_QUERY
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_SCRIPT_QUERY
+  id: QM_TEST_SCRIPT_QUERY
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: QM_TEST_SCRIPT_QUERY
+  nameWithType: OSLCConstants.QM_TEST_SCRIPT_QUERY
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_SCRIPT_QUERY
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: QM_TEST_SCRIPT_QUERY
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 111
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string QM_TEST_SCRIPT_QUERY = "http://open-services.net/ns/qm#TestScriptQuery"
+    return:
+      type: System.String
+    content.vb: Public Const QM_TEST_SCRIPT_QUERY As String = "http://open-services.net/ns/qm#TestScriptQuery"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_RESULT_QUERY
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_RESULT_QUERY
+  id: QM_TEST_RESULT_QUERY
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: QM_TEST_RESULT_QUERY
+  nameWithType: OSLCConstants.QM_TEST_RESULT_QUERY
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_RESULT_QUERY
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: QM_TEST_RESULT_QUERY
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 112
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string QM_TEST_RESULT_QUERY = "http://open-services.net/ns/qm#TestResultQuery"
+    return:
+      type: System.String
+    content.vb: Public Const QM_TEST_RESULT_QUERY As String = "http://open-services.net/ns/qm#TestResultQuery"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_EXECUTION_RECORD_QUERY
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_EXECUTION_RECORD_QUERY
+  id: QM_TEST_EXECUTION_RECORD_QUERY
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: QM_TEST_EXECUTION_RECORD_QUERY
+  nameWithType: OSLCConstants.QM_TEST_EXECUTION_RECORD_QUERY
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.QM_TEST_EXECUTION_RECORD_QUERY
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: QM_TEST_EXECUTION_RECORD_QUERY
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 113
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string QM_TEST_EXECUTION_RECORD_QUERY = "http://open-services.net/ns/qm#TestExecutionRecordQuery"
+    return:
+      type: System.String
+    content.vb: Public Const QM_TEST_EXECUTION_RECORD_QUERY As String = "http://open-services.net/ns/qm#TestExecutionRecordQuery"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.RM_REQUIREMENT_TYPE
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.RM_REQUIREMENT_TYPE
+  id: RM_REQUIREMENT_TYPE
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: RM_REQUIREMENT_TYPE
+  nameWithType: OSLCConstants.RM_REQUIREMENT_TYPE
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.RM_REQUIREMENT_TYPE
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: RM_REQUIREMENT_TYPE
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 117
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string RM_REQUIREMENT_TYPE = "http://open-services.net/ns/rm#Requirement"
+    return:
+      type: System.String
+    content.vb: Public Const RM_REQUIREMENT_TYPE As String = "http://open-services.net/ns/rm#Requirement"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.RM_REQUIREMENT_COLLECTION_TYPE
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.RM_REQUIREMENT_COLLECTION_TYPE
+  id: RM_REQUIREMENT_COLLECTION_TYPE
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: RM_REQUIREMENT_COLLECTION_TYPE
+  nameWithType: OSLCConstants.RM_REQUIREMENT_COLLECTION_TYPE
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.RM_REQUIREMENT_COLLECTION_TYPE
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: RM_REQUIREMENT_COLLECTION_TYPE
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 118
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string RM_REQUIREMENT_COLLECTION_TYPE = "http://open-services.net/ns/rm#RequirementCollection"
+    return:
+      type: System.String
+    content.vb: Public Const RM_REQUIREMENT_COLLECTION_TYPE As String = "http://open-services.net/ns/rm#RequirementCollection"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.AM_RESOURCE_TYPE
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.AM_RESOURCE_TYPE
+  id: AM_RESOURCE_TYPE
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: AM_RESOURCE_TYPE
+  nameWithType: OSLCConstants.AM_RESOURCE_TYPE
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.AM_RESOURCE_TYPE
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AM_RESOURCE_TYPE
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 121
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string AM_RESOURCE_TYPE = "http://open-services.net/ns/am#Resource"
+    return:
+      type: System.String
+    content.vb: Public Const AM_RESOURCE_TYPE As String = "http://open-services.net/ns/am#Resource"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.AM_LINK_TYPE_TYPE
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.AM_LINK_TYPE_TYPE
+  id: AM_LINK_TYPE_TYPE
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: AM_LINK_TYPE_TYPE
+  nameWithType: OSLCConstants.AM_LINK_TYPE_TYPE
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.AM_LINK_TYPE_TYPE
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AM_LINK_TYPE_TYPE
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 122
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string AM_LINK_TYPE_TYPE = "http://open-services.net/ns/am#LinkType"
+    return:
+      type: System.String
+    content.vb: Public Const AM_LINK_TYPE_TYPE As String = "http://open-services.net/ns/am#LinkType"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.RDF_TYPE_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.RDF_TYPE_PROP
+  id: RDF_TYPE_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: RDF_TYPE_PROP
+  nameWithType: OSLCConstants.RDF_TYPE_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.RDF_TYPE_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: RDF_TYPE_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 125
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string RDF_TYPE_PROP = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+    return:
+      type: System.String
+    content.vb: Public Const RDF_TYPE_PROP As String = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.RDFS_MEMBER
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.RDFS_MEMBER
+  id: RDFS_MEMBER
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: RDFS_MEMBER
+  nameWithType: OSLCConstants.RDFS_MEMBER
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.RDFS_MEMBER
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: RDFS_MEMBER
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 126
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string RDFS_MEMBER = "http://www.w3.org/2000/01/rdf-schema#member"
+    return:
+      type: System.String
+    content.vb: Public Const RDFS_MEMBER As String = "http://www.w3.org/2000/01/rdf-schema#member"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.DC_TITLE_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.DC_TITLE_PROP
+  id: DC_TITLE_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: DC_TITLE_PROP
+  nameWithType: OSLCConstants.DC_TITLE_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.DC_TITLE_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DC_TITLE_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 129
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string DC_TITLE_PROP = "http://purl.org/dc/terms/title"
+    return:
+      type: System.String
+    content.vb: Public Const DC_TITLE_PROP As String = "http://purl.org/dc/terms/title"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.DC_DESC_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.DC_DESC_PROP
+  id: DC_DESC_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: DC_DESC_PROP
+  nameWithType: OSLCConstants.DC_DESC_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.DC_DESC_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DC_DESC_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 130
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string DC_DESC_PROP = "http://purl.org/dc/terms/description"
+    return:
+      type: System.String
+    content.vb: Public Const DC_DESC_PROP As String = "http://purl.org/dc/terms/description"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.DC_TYPE_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.DC_TYPE_PROP
+  id: DC_TYPE_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: DC_TYPE_PROP
+  nameWithType: OSLCConstants.DC_TYPE_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.DC_TYPE_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DC_TYPE_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 131
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string DC_TYPE_PROP = "http://purl.org/dc/terms/type"
+    return:
+      type: System.String
+    content.vb: Public Const DC_TYPE_PROP As String = "http://purl.org/dc/terms/type"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.DC_PUBLISHER_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.DC_PUBLISHER_PROP
+  id: DC_PUBLISHER_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: DC_PUBLISHER_PROP
+  nameWithType: OSLCConstants.DC_PUBLISHER_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.DC_PUBLISHER_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DC_PUBLISHER_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 132
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string DC_PUBLISHER_PROP = "http://purl.org/dc/terms/publisher"
+    return:
+      type: System.String
+    content.vb: Public Const DC_PUBLISHER_PROP As String = "http://purl.org/dc/terms/publisher"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.DC_ID_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.DC_ID_PROP
+  id: DC_ID_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: DC_ID_PROP
+  nameWithType: OSLCConstants.DC_ID_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.DC_ID_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DC_ID_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 133
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string DC_ID_PROP = "http://purl.org/dc/terms/identifier"
+    return:
+      type: System.String
+    content.vb: Public Const DC_ID_PROP As String = "http://purl.org/dc/terms/identifier"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.DC_NAME_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.DC_NAME_PROP
+  id: DC_NAME_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: DC_NAME_PROP
+  nameWithType: OSLCConstants.DC_NAME_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.DC_NAME_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DC_NAME_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 134
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string DC_NAME_PROP = "http://purl.org/dc/terms/name"
+    return:
+      type: System.String
+    content.vb: Public Const DC_NAME_PROP As String = "http://purl.org/dc/terms/name"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.DC_CREATED_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.DC_CREATED_PROP
+  id: DC_CREATED_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: DC_CREATED_PROP
+  nameWithType: OSLCConstants.DC_CREATED_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.DC_CREATED_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DC_CREATED_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 135
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string DC_CREATED_PROP = "http://purl.org/dc/terms/created"
+    return:
+      type: System.String
+    content.vb: Public Const DC_CREATED_PROP As String = "http://purl.org/dc/terms/created"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.DC_MODIFIED_PROP
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.DC_MODIFIED_PROP
+  id: DC_MODIFIED_PROP
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: DC_MODIFIED_PROP
+  nameWithType: OSLCConstants.DC_MODIFIED_PROP
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.DC_MODIFIED_PROP
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DC_MODIFIED_PROP
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 136
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string DC_MODIFIED_PROP = "http://purl.org/dc/terms/modified"
+    return:
+      type: System.String
+    content.vb: Public Const DC_MODIFIED_PROP As String = "http://purl.org/dc/terms/modified"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_TITLE
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_TITLE
+  id: DCTERMS_TITLE
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: DCTERMS_TITLE
+  nameWithType: OSLCConstants.DCTERMS_TITLE
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_TITLE
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DCTERMS_TITLE
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 139
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string DCTERMS_TITLE = "dcterms:title"
+    return:
+      type: System.String
+    content.vb: Public Const DCTERMS_TITLE As String = "dcterms:title"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_DESC
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_DESC
+  id: DCTERMS_DESC
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: DCTERMS_DESC
+  nameWithType: OSLCConstants.DCTERMS_DESC
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_DESC
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DCTERMS_DESC
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 140
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string DCTERMS_DESC = "dcterms:description"
+    return:
+      type: System.String
+    content.vb: Public Const DCTERMS_DESC As String = "dcterms:description"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_TYPE
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_TYPE
+  id: DCTERMS_TYPE
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: DCTERMS_TYPE
+  nameWithType: OSLCConstants.DCTERMS_TYPE
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_TYPE
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DCTERMS_TYPE
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 141
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string DCTERMS_TYPE = "dcterms:type"
+    return:
+      type: System.String
+    content.vb: Public Const DCTERMS_TYPE As String = "dcterms:type"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_PUBLISHER
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_PUBLISHER
+  id: DCTERMS_PUBLISHER
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: DCTERMS_PUBLISHER
+  nameWithType: OSLCConstants.DCTERMS_PUBLISHER
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_PUBLISHER
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DCTERMS_PUBLISHER
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 142
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string DCTERMS_PUBLISHER = "dcterms:publisher"
+    return:
+      type: System.String
+    content.vb: Public Const DCTERMS_PUBLISHER As String = "dcterms:publisher"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_ID
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_ID
+  id: DCTERMS_ID
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: DCTERMS_ID
+  nameWithType: OSLCConstants.DCTERMS_ID
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_ID
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DCTERMS_ID
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 143
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string DCTERMS_ID = "dcterms:identifier"
+    return:
+      type: System.String
+    content.vb: Public Const DCTERMS_ID As String = "dcterms:identifier"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_NAME
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_NAME
+  id: DCTERMS_NAME
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: DCTERMS_NAME
+  nameWithType: OSLCConstants.DCTERMS_NAME
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_NAME
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DCTERMS_NAME
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 144
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string DCTERMS_NAME = "dcterms:name"
+    return:
+      type: System.String
+    content.vb: Public Const DCTERMS_NAME As String = "dcterms:name"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_CREATED
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_CREATED
+  id: DCTERMS_CREATED
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: DCTERMS_CREATED
+  nameWithType: OSLCConstants.DCTERMS_CREATED
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_CREATED
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DCTERMS_CREATED
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 145
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string DCTERMS_CREATED = "dcterms:created"
+    return:
+      type: System.String
+    content.vb: Public Const DCTERMS_CREATED As String = "dcterms:created"
+- uid: OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_MODIFIED
+  commentId: F:OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_MODIFIED
+  id: DCTERMS_MODIFIED
+  parent: OSLC4Net.Client.Oslc.OSLCConstants
+  langs:
+  - csharp
+  - vb
+  name: DCTERMS_MODIFIED
+  nameWithType: OSLCConstants.DCTERMS_MODIFIED
+  fullName: OSLC4Net.Client.Oslc.OSLCConstants.DCTERMS_MODIFIED
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DCTERMS_MODIFIED
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OSLCConstants.cs
+    startLine: 146
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc
+  syntax:
+    content: public const string DCTERMS_MODIFIED = "dcterms:modified"
+    return:
+      type: System.String
+    content.vb: Public Const DCTERMS_MODIFIED As String = "dcterms:modified"
+references:
+- uid: OSLC4Net.Client.Oslc
+  commentId: N:OSLC4Net.Client.Oslc
+  href: OSLC4Net.html
+  name: OSLC4Net.Client.Oslc
+  nameWithType: OSLC4Net.Client.Oslc
+  fullName: OSLC4Net.Client.Oslc
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Client
+    name: Client
+    href: OSLC4Net.Client.html
+  - name: .
+  - uid: OSLC4Net.Client.Oslc
+    name: Oslc
+    href: OSLC4Net.Client.Oslc.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Client
+    name: Client
+    href: OSLC4Net.Client.html
+  - name: .
+  - uid: OSLC4Net.Client.Oslc
+    name: Oslc
+    href: OSLC4Net.Client.Oslc.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

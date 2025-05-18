@@ -1,0 +1,737 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P
+  commentId: T:OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P
+  id: Constants.Domains.RM.P
+  parent: OSLC4Net.Domains.RequirementsManagement
+  children:
+  - OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.AffectedBy
+  - OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.ConstrainedBy
+  - OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Constrains
+  - OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.DecomposedBy
+  - OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Decomposes
+  - OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.ElaboratedBy
+  - OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Elaborates
+  - OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.ImplementedBy
+  - OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.SatisfiedBy
+  - OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Satisfies
+  - OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.SpecifiedBy
+  - OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Specifies
+  - OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.TrackedBy
+  - OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Uses
+  - OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.ValidatedBy
+  langs:
+  - csharp
+  - vb
+  name: Constants.Domains.RM.P
+  nameWithType: Constants.Domains.RM.P
+  fullName: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: P
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+    startLine: 39
+  assemblies:
+  - OSLC4Net.Domains.RequirementsManagement
+  namespace: OSLC4Net.Domains.RequirementsManagement
+  syntax:
+    content: public static class Constants.Domains.RM.P
+    content.vb: Public Module Constants.Domains.RM.P
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.AffectedBy
+  commentId: F:OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.AffectedBy
+  id: AffectedBy
+  parent: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P
+  langs:
+  - csharp
+  - vb
+  name: AffectedBy
+  nameWithType: Constants.Domains.RM.P.AffectedBy
+  fullName: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.AffectedBy
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AffectedBy
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+    startLine: 41
+  assemblies:
+  - OSLC4Net.Domains.RequirementsManagement
+  namespace: OSLC4Net.Domains.RequirementsManagement
+  syntax:
+    content: public const string AffectedBy = "http://open-services.net/ns/rm#affectedBy"
+    return:
+      type: System.String
+    content.vb: Public Const AffectedBy As String = "http://open-services.net/ns/rm#affectedBy"
+- uid: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.ConstrainedBy
+  commentId: F:OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.ConstrainedBy
+  id: ConstrainedBy
+  parent: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P
+  langs:
+  - csharp
+  - vb
+  name: ConstrainedBy
+  nameWithType: Constants.Domains.RM.P.ConstrainedBy
+  fullName: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.ConstrainedBy
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ConstrainedBy
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+    startLine: 42
+  assemblies:
+  - OSLC4Net.Domains.RequirementsManagement
+  namespace: OSLC4Net.Domains.RequirementsManagement
+  syntax:
+    content: public const string ConstrainedBy = "http://open-services.net/ns/rm#constrainedBy"
+    return:
+      type: System.String
+    content.vb: Public Const ConstrainedBy As String = "http://open-services.net/ns/rm#constrainedBy"
+- uid: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Constrains
+  commentId: F:OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Constrains
+  id: Constrains
+  parent: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P
+  langs:
+  - csharp
+  - vb
+  name: Constrains
+  nameWithType: Constants.Domains.RM.P.Constrains
+  fullName: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Constrains
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Constrains
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+    startLine: 43
+  assemblies:
+  - OSLC4Net.Domains.RequirementsManagement
+  namespace: OSLC4Net.Domains.RequirementsManagement
+  syntax:
+    content: public const string Constrains = "http://open-services.net/ns/rm#constrains"
+    return:
+      type: System.String
+    content.vb: Public Const Constrains As String = "http://open-services.net/ns/rm#constrains"
+- uid: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.DecomposedBy
+  commentId: F:OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.DecomposedBy
+  id: DecomposedBy
+  parent: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P
+  langs:
+  - csharp
+  - vb
+  name: DecomposedBy
+  nameWithType: Constants.Domains.RM.P.DecomposedBy
+  fullName: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.DecomposedBy
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DecomposedBy
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+    startLine: 44
+  assemblies:
+  - OSLC4Net.Domains.RequirementsManagement
+  namespace: OSLC4Net.Domains.RequirementsManagement
+  syntax:
+    content: public const string DecomposedBy = "http://open-services.net/ns/rm#decomposedBy"
+    return:
+      type: System.String
+    content.vb: Public Const DecomposedBy As String = "http://open-services.net/ns/rm#decomposedBy"
+- uid: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Decomposes
+  commentId: F:OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Decomposes
+  id: Decomposes
+  parent: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P
+  langs:
+  - csharp
+  - vb
+  name: Decomposes
+  nameWithType: Constants.Domains.RM.P.Decomposes
+  fullName: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Decomposes
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Decomposes
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+    startLine: 45
+  assemblies:
+  - OSLC4Net.Domains.RequirementsManagement
+  namespace: OSLC4Net.Domains.RequirementsManagement
+  syntax:
+    content: public const string Decomposes = "http://open-services.net/ns/rm#decomposes"
+    return:
+      type: System.String
+    content.vb: Public Const Decomposes As String = "http://open-services.net/ns/rm#decomposes"
+- uid: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.ElaboratedBy
+  commentId: F:OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.ElaboratedBy
+  id: ElaboratedBy
+  parent: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P
+  langs:
+  - csharp
+  - vb
+  name: ElaboratedBy
+  nameWithType: Constants.Domains.RM.P.ElaboratedBy
+  fullName: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.ElaboratedBy
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ElaboratedBy
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+    startLine: 46
+  assemblies:
+  - OSLC4Net.Domains.RequirementsManagement
+  namespace: OSLC4Net.Domains.RequirementsManagement
+  syntax:
+    content: public const string ElaboratedBy = "http://open-services.net/ns/rm#elaboratedBy"
+    return:
+      type: System.String
+    content.vb: Public Const ElaboratedBy As String = "http://open-services.net/ns/rm#elaboratedBy"
+- uid: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Elaborates
+  commentId: F:OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Elaborates
+  id: Elaborates
+  parent: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P
+  langs:
+  - csharp
+  - vb
+  name: Elaborates
+  nameWithType: Constants.Domains.RM.P.Elaborates
+  fullName: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Elaborates
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Elaborates
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+    startLine: 47
+  assemblies:
+  - OSLC4Net.Domains.RequirementsManagement
+  namespace: OSLC4Net.Domains.RequirementsManagement
+  syntax:
+    content: public const string Elaborates = "http://open-services.net/ns/rm#elaborates"
+    return:
+      type: System.String
+    content.vb: Public Const Elaborates As String = "http://open-services.net/ns/rm#elaborates"
+- uid: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.ImplementedBy
+  commentId: F:OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.ImplementedBy
+  id: ImplementedBy
+  parent: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P
+  langs:
+  - csharp
+  - vb
+  name: ImplementedBy
+  nameWithType: Constants.Domains.RM.P.ImplementedBy
+  fullName: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.ImplementedBy
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ImplementedBy
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+    startLine: 48
+  assemblies:
+  - OSLC4Net.Domains.RequirementsManagement
+  namespace: OSLC4Net.Domains.RequirementsManagement
+  syntax:
+    content: public const string ImplementedBy = "http://open-services.net/ns/rm#implementedBy"
+    return:
+      type: System.String
+    content.vb: Public Const ImplementedBy As String = "http://open-services.net/ns/rm#implementedBy"
+- uid: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.SatisfiedBy
+  commentId: F:OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.SatisfiedBy
+  id: SatisfiedBy
+  parent: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P
+  langs:
+  - csharp
+  - vb
+  name: SatisfiedBy
+  nameWithType: Constants.Domains.RM.P.SatisfiedBy
+  fullName: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.SatisfiedBy
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SatisfiedBy
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+    startLine: 49
+  assemblies:
+  - OSLC4Net.Domains.RequirementsManagement
+  namespace: OSLC4Net.Domains.RequirementsManagement
+  syntax:
+    content: public const string SatisfiedBy = "http://open-services.net/ns/rm#satisfiedBy"
+    return:
+      type: System.String
+    content.vb: Public Const SatisfiedBy As String = "http://open-services.net/ns/rm#satisfiedBy"
+- uid: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Satisfies
+  commentId: F:OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Satisfies
+  id: Satisfies
+  parent: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P
+  langs:
+  - csharp
+  - vb
+  name: Satisfies
+  nameWithType: Constants.Domains.RM.P.Satisfies
+  fullName: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Satisfies
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Satisfies
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+    startLine: 50
+  assemblies:
+  - OSLC4Net.Domains.RequirementsManagement
+  namespace: OSLC4Net.Domains.RequirementsManagement
+  syntax:
+    content: public const string Satisfies = "http://open-services.net/ns/rm#satisfies"
+    return:
+      type: System.String
+    content.vb: Public Const Satisfies As String = "http://open-services.net/ns/rm#satisfies"
+- uid: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.SpecifiedBy
+  commentId: F:OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.SpecifiedBy
+  id: SpecifiedBy
+  parent: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P
+  langs:
+  - csharp
+  - vb
+  name: SpecifiedBy
+  nameWithType: Constants.Domains.RM.P.SpecifiedBy
+  fullName: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.SpecifiedBy
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SpecifiedBy
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+    startLine: 51
+  assemblies:
+  - OSLC4Net.Domains.RequirementsManagement
+  namespace: OSLC4Net.Domains.RequirementsManagement
+  syntax:
+    content: public const string SpecifiedBy = "http://open-services.net/ns/rm#specifiedBy"
+    return:
+      type: System.String
+    content.vb: Public Const SpecifiedBy As String = "http://open-services.net/ns/rm#specifiedBy"
+- uid: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Specifies
+  commentId: F:OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Specifies
+  id: Specifies
+  parent: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P
+  langs:
+  - csharp
+  - vb
+  name: Specifies
+  nameWithType: Constants.Domains.RM.P.Specifies
+  fullName: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Specifies
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Specifies
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+    startLine: 52
+  assemblies:
+  - OSLC4Net.Domains.RequirementsManagement
+  namespace: OSLC4Net.Domains.RequirementsManagement
+  syntax:
+    content: public const string Specifies = "http://open-services.net/ns/rm#specifies"
+    return:
+      type: System.String
+    content.vb: Public Const Specifies As String = "http://open-services.net/ns/rm#specifies"
+- uid: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.TrackedBy
+  commentId: F:OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.TrackedBy
+  id: TrackedBy
+  parent: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P
+  langs:
+  - csharp
+  - vb
+  name: TrackedBy
+  nameWithType: Constants.Domains.RM.P.TrackedBy
+  fullName: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.TrackedBy
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: TrackedBy
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+    startLine: 53
+  assemblies:
+  - OSLC4Net.Domains.RequirementsManagement
+  namespace: OSLC4Net.Domains.RequirementsManagement
+  syntax:
+    content: public const string TrackedBy = "http://open-services.net/ns/rm#trackedBy"
+    return:
+      type: System.String
+    content.vb: Public Const TrackedBy As String = "http://open-services.net/ns/rm#trackedBy"
+- uid: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Uses
+  commentId: F:OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Uses
+  id: Uses
+  parent: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P
+  langs:
+  - csharp
+  - vb
+  name: Uses
+  nameWithType: Constants.Domains.RM.P.Uses
+  fullName: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.Uses
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Uses
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+    startLine: 54
+  assemblies:
+  - OSLC4Net.Domains.RequirementsManagement
+  namespace: OSLC4Net.Domains.RequirementsManagement
+  syntax:
+    content: public const string Uses = "http://open-services.net/ns/rm#uses"
+    return:
+      type: System.String
+    content.vb: Public Const Uses As String = "http://open-services.net/ns/rm#uses"
+- uid: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.ValidatedBy
+  commentId: F:OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.ValidatedBy
+  id: ValidatedBy
+  parent: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P
+  langs:
+  - csharp
+  - vb
+  name: ValidatedBy
+  nameWithType: Constants.Domains.RM.P.ValidatedBy
+  fullName: OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.ValidatedBy
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ValidatedBy
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Domains.RequirementsManagement/Constants.cs
+    startLine: 55
+  assemblies:
+  - OSLC4Net.Domains.RequirementsManagement
+  namespace: OSLC4Net.Domains.RequirementsManagement
+  syntax:
+    content: public const string ValidatedBy = "http://open-services.net/ns/rm#validatedBy"
+    return:
+      type: System.String
+    content.vb: Public Const ValidatedBy As String = "http://open-services.net/ns/rm#validatedBy"
+references:
+- uid: OSLC4Net.Domains.RequirementsManagement
+  commentId: N:OSLC4Net.Domains.RequirementsManagement
+  href: OSLC4Net.html
+  name: OSLC4Net.Domains.RequirementsManagement
+  nameWithType: OSLC4Net.Domains.RequirementsManagement
+  fullName: OSLC4Net.Domains.RequirementsManagement
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Domains
+    name: Domains
+    href: OSLC4Net.Domains.html
+  - name: .
+  - uid: OSLC4Net.Domains.RequirementsManagement
+    name: RequirementsManagement
+    href: OSLC4Net.Domains.RequirementsManagement.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Domains
+    name: Domains
+    href: OSLC4Net.Domains.html
+  - name: .
+  - uid: OSLC4Net.Domains.RequirementsManagement
+    name: RequirementsManagement
+    href: OSLC4Net.Domains.RequirementsManagement.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

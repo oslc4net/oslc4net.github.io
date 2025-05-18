@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Client.Properties
+  commentId: N:OSLC4Net.Client.Properties
+  id: OSLC4Net.Client.Properties
+  children:
+  - OSLC4Net.Client.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: OSLC4Net.Client.Properties
+  nameWithType: OSLC4Net.Client.Properties
+  fullName: OSLC4Net.Client.Properties
+  type: Namespace
+  assemblies:
+  - OSLC4Net.Client
+references:
+- uid: OSLC4Net.Client.Properties.Resources
+  commentId: T:OSLC4Net.Client.Properties.Resources
+  href: OSLC4Net.Client.Properties.Resources.html
+  name: Resources
+  nameWithType: Resources
+  fullName: OSLC4Net.Client.Properties.Resources

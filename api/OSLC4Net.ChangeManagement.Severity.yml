@@ -1,0 +1,220 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.ChangeManagement.Severity
+  commentId: T:OSLC4Net.ChangeManagement.Severity
+  id: Severity
+  parent: OSLC4Net.ChangeManagement
+  children:
+  - OSLC4Net.ChangeManagement.Severity.Blocker
+  - OSLC4Net.ChangeManagement.Severity.Critical
+  - OSLC4Net.ChangeManagement.Severity.Major
+  - OSLC4Net.ChangeManagement.Severity.Minor
+  - OSLC4Net.ChangeManagement.Severity.Normal
+  - OSLC4Net.ChangeManagement.Severity.Unclassified
+  langs:
+  - csharp
+  - vb
+  name: Severity
+  nameWithType: Severity
+  fullName: OSLC4Net.ChangeManagement.Severity
+  type: Enum
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.ChangeManagement/Severity.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Severity
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.ChangeManagement/Severity.cs
+    startLine: 17
+  assemblies:
+  - OSLC4Net.ChangeManagementCommon
+  namespace: OSLC4Net.ChangeManagement
+  syntax:
+    content: public enum Severity
+    content.vb: Public Enum Severity
+- uid: OSLC4Net.ChangeManagement.Severity.Unclassified
+  commentId: F:OSLC4Net.ChangeManagement.Severity.Unclassified
+  id: Unclassified
+  parent: OSLC4Net.ChangeManagement.Severity
+  langs:
+  - csharp
+  - vb
+  name: Unclassified
+  nameWithType: Severity.Unclassified
+  fullName: OSLC4Net.ChangeManagement.Severity.Unclassified
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.ChangeManagement/Severity.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Unclassified
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.ChangeManagement/Severity.cs
+    startLine: 19
+  assemblies:
+  - OSLC4Net.ChangeManagementCommon
+  namespace: OSLC4Net.ChangeManagement
+  syntax:
+    content: Unclassified = 0
+    return:
+      type: OSLC4Net.ChangeManagement.Severity
+- uid: OSLC4Net.ChangeManagement.Severity.Minor
+  commentId: F:OSLC4Net.ChangeManagement.Severity.Minor
+  id: Minor
+  parent: OSLC4Net.ChangeManagement.Severity
+  langs:
+  - csharp
+  - vb
+  name: Minor
+  nameWithType: Severity.Minor
+  fullName: OSLC4Net.ChangeManagement.Severity.Minor
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.ChangeManagement/Severity.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Minor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.ChangeManagement/Severity.cs
+    startLine: 20
+  assemblies:
+  - OSLC4Net.ChangeManagementCommon
+  namespace: OSLC4Net.ChangeManagement
+  syntax:
+    content: Minor = 1
+    return:
+      type: OSLC4Net.ChangeManagement.Severity
+- uid: OSLC4Net.ChangeManagement.Severity.Normal
+  commentId: F:OSLC4Net.ChangeManagement.Severity.Normal
+  id: Normal
+  parent: OSLC4Net.ChangeManagement.Severity
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: Severity.Normal
+  fullName: OSLC4Net.ChangeManagement.Severity.Normal
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.ChangeManagement/Severity.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Normal
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.ChangeManagement/Severity.cs
+    startLine: 21
+  assemblies:
+  - OSLC4Net.ChangeManagementCommon
+  namespace: OSLC4Net.ChangeManagement
+  syntax:
+    content: Normal = 2
+    return:
+      type: OSLC4Net.ChangeManagement.Severity
+- uid: OSLC4Net.ChangeManagement.Severity.Major
+  commentId: F:OSLC4Net.ChangeManagement.Severity.Major
+  id: Major
+  parent: OSLC4Net.ChangeManagement.Severity
+  langs:
+  - csharp
+  - vb
+  name: Major
+  nameWithType: Severity.Major
+  fullName: OSLC4Net.ChangeManagement.Severity.Major
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.ChangeManagement/Severity.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Major
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.ChangeManagement/Severity.cs
+    startLine: 22
+  assemblies:
+  - OSLC4Net.ChangeManagementCommon
+  namespace: OSLC4Net.ChangeManagement
+  syntax:
+    content: Major = 3
+    return:
+      type: OSLC4Net.ChangeManagement.Severity
+- uid: OSLC4Net.ChangeManagement.Severity.Critical
+  commentId: F:OSLC4Net.ChangeManagement.Severity.Critical
+  id: Critical
+  parent: OSLC4Net.ChangeManagement.Severity
+  langs:
+  - csharp
+  - vb
+  name: Critical
+  nameWithType: Severity.Critical
+  fullName: OSLC4Net.ChangeManagement.Severity.Critical
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.ChangeManagement/Severity.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Critical
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.ChangeManagement/Severity.cs
+    startLine: 23
+  assemblies:
+  - OSLC4Net.ChangeManagementCommon
+  namespace: OSLC4Net.ChangeManagement
+  syntax:
+    content: Critical = 4
+    return:
+      type: OSLC4Net.ChangeManagement.Severity
+- uid: OSLC4Net.ChangeManagement.Severity.Blocker
+  commentId: F:OSLC4Net.ChangeManagement.Severity.Blocker
+  id: Blocker
+  parent: OSLC4Net.ChangeManagement.Severity
+  langs:
+  - csharp
+  - vb
+  name: Blocker
+  nameWithType: Severity.Blocker
+  fullName: OSLC4Net.ChangeManagement.Severity.Blocker
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.ChangeManagement/Severity.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Blocker
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.ChangeManagement/Severity.cs
+    startLine: 24
+  assemblies:
+  - OSLC4Net.ChangeManagementCommon
+  namespace: OSLC4Net.ChangeManagement
+  syntax:
+    content: Blocker = 5
+    return:
+      type: OSLC4Net.ChangeManagement.Severity
+references:
+- uid: OSLC4Net.ChangeManagement
+  commentId: N:OSLC4Net.ChangeManagement
+  href: OSLC4Net.html
+  name: OSLC4Net.ChangeManagement
+  nameWithType: OSLC4Net.ChangeManagement
+  fullName: OSLC4Net.ChangeManagement
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.ChangeManagement
+    name: ChangeManagement
+    href: OSLC4Net.ChangeManagement.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.ChangeManagement
+    name: ChangeManagement
+    href: OSLC4Net.ChangeManagement.html
+- uid: OSLC4Net.ChangeManagement.Severity
+  commentId: T:OSLC4Net.ChangeManagement.Severity
+  parent: OSLC4Net.ChangeManagement
+  href: OSLC4Net.ChangeManagement.Severity.html
+  name: Severity
+  nameWithType: Severity
+  fullName: OSLC4Net.ChangeManagement.Severity

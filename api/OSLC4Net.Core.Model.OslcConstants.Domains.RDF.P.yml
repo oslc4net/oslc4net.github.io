@@ -1,0 +1,569 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P
+  id: OslcConstants.Domains.RDF.P
+  parent: OSLC4Net.Core.Model
+  children:
+  - OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Direction
+  - OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.First
+  - OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Language
+  - OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Object
+  - OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Predicate
+  - OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Rest
+  - OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Subject
+  - OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Type
+  - OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Value
+  langs:
+  - csharp
+  - vb
+  name: OslcConstants.Domains.RDF.P
+  nameWithType: OslcConstants.Domains.RDF.P
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.RDF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: P
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.RDF.cs
+    startLine: 16
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static class OslcConstants.Domains.RDF.P
+    content.vb: Public Module OslcConstants.Domains.RDF.P
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Direction
+  commentId: F:OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Direction
+  id: Direction
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: OslcConstants.Domains.RDF.P.Direction
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Direction
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.RDF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Direction
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.RDF.cs
+    startLine: 18
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public const string Direction = "http://www.w3.org/1999/02/22-rdf-syntax-ns#direction"
+    return:
+      type: System.String
+    content.vb: Public Const Direction As String = "http://www.w3.org/1999/02/22-rdf-syntax-ns#direction"
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.First
+  commentId: F:OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.First
+  id: First
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P
+  langs:
+  - csharp
+  - vb
+  name: First
+  nameWithType: OslcConstants.Domains.RDF.P.First
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.First
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.RDF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: First
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.RDF.cs
+    startLine: 19
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public const string First = "http://www.w3.org/1999/02/22-rdf-syntax-ns#first"
+    return:
+      type: System.String
+    content.vb: Public Const First As String = "http://www.w3.org/1999/02/22-rdf-syntax-ns#first"
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Language
+  commentId: F:OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Language
+  id: Language
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: OslcConstants.Domains.RDF.P.Language
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Language
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.RDF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Language
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.RDF.cs
+    startLine: 20
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public const string Language = "http://www.w3.org/1999/02/22-rdf-syntax-ns#language"
+    return:
+      type: System.String
+    content.vb: Public Const Language As String = "http://www.w3.org/1999/02/22-rdf-syntax-ns#language"
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Object
+  commentId: F:OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Object
+  id: Object
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P
+  langs:
+  - csharp
+  - vb
+  name: Object
+  nameWithType: OslcConstants.Domains.RDF.P.Object
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Object
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.RDF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Object
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.RDF.cs
+    startLine: 21
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public const string Object = "http://www.w3.org/1999/02/22-rdf-syntax-ns#object"
+    return:
+      type: System.String
+    content.vb: Public Const Object As String = "http://www.w3.org/1999/02/22-rdf-syntax-ns#object"
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Predicate
+  commentId: F:OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Predicate
+  id: Predicate
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P
+  langs:
+  - csharp
+  - vb
+  name: Predicate
+  nameWithType: OslcConstants.Domains.RDF.P.Predicate
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Predicate
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.RDF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Predicate
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.RDF.cs
+    startLine: 22
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public const string Predicate = "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"
+    return:
+      type: System.String
+    content.vb: Public Const Predicate As String = "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Rest
+  commentId: F:OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Rest
+  id: Rest
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P
+  langs:
+  - csharp
+  - vb
+  name: Rest
+  nameWithType: OslcConstants.Domains.RDF.P.Rest
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Rest
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.RDF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Rest
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.RDF.cs
+    startLine: 23
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public const string Rest = "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"
+    return:
+      type: System.String
+    content.vb: Public Const Rest As String = "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Subject
+  commentId: F:OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Subject
+  id: Subject
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P
+  langs:
+  - csharp
+  - vb
+  name: Subject
+  nameWithType: OslcConstants.Domains.RDF.P.Subject
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Subject
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.RDF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Subject
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.RDF.cs
+    startLine: 24
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public const string Subject = "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"
+    return:
+      type: System.String
+    content.vb: Public Const Subject As String = "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Type
+  commentId: F:OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Type
+  id: Type
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: OslcConstants.Domains.RDF.P.Type
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Type
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.RDF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Type
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.RDF.cs
+    startLine: 25
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public const string Type = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+    return:
+      type: System.String
+    content.vb: Public Const Type As String = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Value
+  commentId: F:OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Value
+  id: Value
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: OslcConstants.Domains.RDF.P.Value
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.Value
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.RDF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Value
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.RDF.cs
+    startLine: 26
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public const string Value = "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+    return:
+      type: System.String
+    content.vb: Public Const Value As String = "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+references:
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

@@ -1,0 +1,784 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters
+  commentId: T:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters
+  id: OslcQueryParameters
+  parent: OSLC4Net.Client.Oslc.Resources
+  children:
+  - OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.#ctor
+  - OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.#ctor(System.String,System.String,System.String,System.String,System.String)
+  - OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetOrderBy
+  - OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetPrefix
+  - OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetSearchTerms
+  - OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetSelect
+  - OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetWhere
+  - OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetOrderBy(System.String)
+  - OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetPrefix(System.String)
+  - OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetSearchTerms(System.String)
+  - OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetSelect(System.String)
+  - OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetWhere(System.String)
+  langs:
+  - csharp
+  - vb
+  name: OslcQueryParameters
+  nameWithType: OslcQueryParameters
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OslcQueryParameters
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+    startLine: 22
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  summary: A container for OSLC Query parameters which can be associated with an OslcQuery object.
+  example: []
+  syntax:
+    content: public class OslcQueryParameters
+    content.vb: Public Class OslcQueryParameters
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.#ctor
+  commentId: M:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.#ctor
+  id: '#ctor'
+  parent: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: OslcQueryParameters()
+  nameWithType: OslcQueryParameters.OslcQueryParameters()
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.OslcQueryParameters()
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+    startLine: 32
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public OslcQueryParameters()
+    content.vb: Public Sub New()
+  overload: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.#ctor*
+  nameWithType.vb: OslcQueryParameters.New()
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.New()
+  name.vb: New()
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.#ctor(System.String,System.String,System.String,System.String,System.String)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.#ctor(System.String,System.String,System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String,System.String,System.String)'
+  parent: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: OslcQueryParameters(string, string, string, string, string)
+  nameWithType: OslcQueryParameters.OslcQueryParameters(string, string, string, string, string)
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.OslcQueryParameters(string, string, string, string, string)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+    startLine: 44
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  summary: Initialize an OSLC Parameter using the supplied terms
+  example: []
+  syntax:
+    content: public OslcQueryParameters(string where, string select, string searchTerms, string orderBy, string prefix)
+    parameters:
+    - id: where
+      type: System.String
+      description: ''
+    - id: select
+      type: System.String
+      description: ''
+    - id: searchTerms
+      type: System.String
+      description: ''
+    - id: orderBy
+      type: System.String
+      description: ''
+    - id: prefix
+      type: System.String
+      description: ''
+    content.vb: Public Sub New(where As String, [select] As String, searchTerms As String, orderBy As String, prefix As String)
+  overload: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.#ctor*
+  nameWithType.vb: OslcQueryParameters.New(String, String, String, String, String)
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.New(String, String, String, String, String)
+  name.vb: New(String, String, String, String, String)
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetWhere
+  commentId: M:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetWhere
+  id: GetWhere
+  parent: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: GetWhere()
+  nameWithType: OslcQueryParameters.GetWhere()
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetWhere()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetWhere
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+    startLine: 53
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public string? GetWhere()
+    return:
+      type: System.String
+    content.vb: Public Function GetWhere() As String
+  overload: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetWhere*
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetWhere(System.String)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetWhere(System.String)
+  id: SetWhere(System.String)
+  parent: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: SetWhere(string)
+  nameWithType: OslcQueryParameters.SetWhere(string)
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetWhere(string)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetWhere
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+    startLine: 58
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void SetWhere(string where)
+    parameters:
+    - id: where
+      type: System.String
+    content.vb: Public Sub SetWhere(where As String)
+  overload: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetWhere*
+  nameWithType.vb: OslcQueryParameters.SetWhere(String)
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetWhere(String)
+  name.vb: SetWhere(String)
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetSelect
+  commentId: M:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetSelect
+  id: GetSelect
+  parent: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: GetSelect()
+  nameWithType: OslcQueryParameters.GetSelect()
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetSelect()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetSelect
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+    startLine: 63
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public string? GetSelect()
+    return:
+      type: System.String
+    content.vb: Public Function GetSelect() As String
+  overload: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetSelect*
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetSelect(System.String)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetSelect(System.String)
+  id: SetSelect(System.String)
+  parent: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: SetSelect(string)
+  nameWithType: OslcQueryParameters.SetSelect(string)
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetSelect(string)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetSelect
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+    startLine: 68
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void SetSelect(string select)
+    parameters:
+    - id: select
+      type: System.String
+    content.vb: Public Sub SetSelect([select] As String)
+  overload: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetSelect*
+  nameWithType.vb: OslcQueryParameters.SetSelect(String)
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetSelect(String)
+  name.vb: SetSelect(String)
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetSearchTerms
+  commentId: M:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetSearchTerms
+  id: GetSearchTerms
+  parent: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: GetSearchTerms()
+  nameWithType: OslcQueryParameters.GetSearchTerms()
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetSearchTerms()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetSearchTerms
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+    startLine: 73
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public string? GetSearchTerms()
+    return:
+      type: System.String
+    content.vb: Public Function GetSearchTerms() As String
+  overload: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetSearchTerms*
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetSearchTerms(System.String)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetSearchTerms(System.String)
+  id: SetSearchTerms(System.String)
+  parent: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: SetSearchTerms(string)
+  nameWithType: OslcQueryParameters.SetSearchTerms(string)
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetSearchTerms(string)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetSearchTerms
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+    startLine: 78
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void SetSearchTerms(string searchTerms)
+    parameters:
+    - id: searchTerms
+      type: System.String
+    content.vb: Public Sub SetSearchTerms(searchTerms As String)
+  overload: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetSearchTerms*
+  nameWithType.vb: OslcQueryParameters.SetSearchTerms(String)
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetSearchTerms(String)
+  name.vb: SetSearchTerms(String)
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetOrderBy
+  commentId: M:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetOrderBy
+  id: GetOrderBy
+  parent: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: GetOrderBy()
+  nameWithType: OslcQueryParameters.GetOrderBy()
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetOrderBy()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetOrderBy
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+    startLine: 83
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public string? GetOrderBy()
+    return:
+      type: System.String
+    content.vb: Public Function GetOrderBy() As String
+  overload: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetOrderBy*
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetOrderBy(System.String)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetOrderBy(System.String)
+  id: SetOrderBy(System.String)
+  parent: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: SetOrderBy(string)
+  nameWithType: OslcQueryParameters.SetOrderBy(string)
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetOrderBy(string)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetOrderBy
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+    startLine: 88
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void SetOrderBy(string orderBy)
+    parameters:
+    - id: orderBy
+      type: System.String
+    content.vb: Public Sub SetOrderBy(orderBy As String)
+  overload: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetOrderBy*
+  nameWithType.vb: OslcQueryParameters.SetOrderBy(String)
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetOrderBy(String)
+  name.vb: SetOrderBy(String)
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetPrefix
+  commentId: M:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetPrefix
+  id: GetPrefix
+  parent: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: GetPrefix()
+  nameWithType: OslcQueryParameters.GetPrefix()
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetPrefix()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetPrefix
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+    startLine: 93
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public string? GetPrefix()
+    return:
+      type: System.String
+    content.vb: Public Function GetPrefix() As String
+  overload: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetPrefix*
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetPrefix(System.String)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetPrefix(System.String)
+  id: SetPrefix(System.String)
+  parent: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: SetPrefix(string)
+  nameWithType: OslcQueryParameters.SetPrefix(string)
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetPrefix(string)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetPrefix
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/OslcQueryParameters.cs
+    startLine: 98
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void SetPrefix(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+    content.vb: Public Sub SetPrefix(prefix As String)
+  overload: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetPrefix*
+  nameWithType.vb: OslcQueryParameters.SetPrefix(String)
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetPrefix(String)
+  name.vb: SetPrefix(String)
+references:
+- uid: OSLC4Net.Client.Oslc.Resources
+  commentId: N:OSLC4Net.Client.Oslc.Resources
+  href: OSLC4Net.html
+  name: OSLC4Net.Client.Oslc.Resources
+  nameWithType: OSLC4Net.Client.Oslc.Resources
+  fullName: OSLC4Net.Client.Oslc.Resources
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Client
+    name: Client
+    href: OSLC4Net.Client.html
+  - name: .
+  - uid: OSLC4Net.Client.Oslc
+    name: Oslc
+    href: OSLC4Net.Client.Oslc.html
+  - name: .
+  - uid: OSLC4Net.Client.Oslc.Resources
+    name: Resources
+    href: OSLC4Net.Client.Oslc.Resources.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Client
+    name: Client
+    href: OSLC4Net.Client.html
+  - name: .
+  - uid: OSLC4Net.Client.Oslc
+    name: Oslc
+    href: OSLC4Net.Client.Oslc.html
+  - name: .
+  - uid: OSLC4Net.Client.Oslc.Resources
+    name: Resources
+    href: OSLC4Net.Client.Oslc.Resources.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.#ctor*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.#ctor
+  href: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.html#OSLC4Net_Client_Oslc_Resources_OslcQueryParameters__ctor
+  name: OslcQueryParameters
+  nameWithType: OslcQueryParameters.OslcQueryParameters
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.OslcQueryParameters
+  nameWithType.vb: OslcQueryParameters.New
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetWhere*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetWhere
+  href: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.html#OSLC4Net_Client_Oslc_Resources_OslcQueryParameters_GetWhere
+  name: GetWhere
+  nameWithType: OslcQueryParameters.GetWhere
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetWhere
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetWhere*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetWhere
+  href: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.html#OSLC4Net_Client_Oslc_Resources_OslcQueryParameters_SetWhere_System_String_
+  name: SetWhere
+  nameWithType: OslcQueryParameters.SetWhere
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetWhere
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetSelect*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetSelect
+  href: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.html#OSLC4Net_Client_Oslc_Resources_OslcQueryParameters_GetSelect
+  name: GetSelect
+  nameWithType: OslcQueryParameters.GetSelect
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetSelect
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetSelect*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetSelect
+  href: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.html#OSLC4Net_Client_Oslc_Resources_OslcQueryParameters_SetSelect_System_String_
+  name: SetSelect
+  nameWithType: OslcQueryParameters.SetSelect
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetSelect
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetSearchTerms*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetSearchTerms
+  href: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.html#OSLC4Net_Client_Oslc_Resources_OslcQueryParameters_GetSearchTerms
+  name: GetSearchTerms
+  nameWithType: OslcQueryParameters.GetSearchTerms
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetSearchTerms
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetSearchTerms*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetSearchTerms
+  href: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.html#OSLC4Net_Client_Oslc_Resources_OslcQueryParameters_SetSearchTerms_System_String_
+  name: SetSearchTerms
+  nameWithType: OslcQueryParameters.SetSearchTerms
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetSearchTerms
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetOrderBy*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetOrderBy
+  href: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.html#OSLC4Net_Client_Oslc_Resources_OslcQueryParameters_GetOrderBy
+  name: GetOrderBy
+  nameWithType: OslcQueryParameters.GetOrderBy
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetOrderBy
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetOrderBy*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetOrderBy
+  href: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.html#OSLC4Net_Client_Oslc_Resources_OslcQueryParameters_SetOrderBy_System_String_
+  name: SetOrderBy
+  nameWithType: OslcQueryParameters.SetOrderBy
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetOrderBy
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetPrefix*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetPrefix
+  href: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.html#OSLC4Net_Client_Oslc_Resources_OslcQueryParameters_GetPrefix
+  name: GetPrefix
+  nameWithType: OslcQueryParameters.GetPrefix
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.GetPrefix
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetPrefix*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetPrefix
+  href: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.html#OSLC4Net_Client_Oslc_Resources_OslcQueryParameters_SetPrefix_System_String_
+  name: SetPrefix
+  nameWithType: OslcQueryParameters.SetPrefix
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.SetPrefix

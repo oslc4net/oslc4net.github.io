@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Query.SortTerms
+  commentId: T:OSLC4Net.Core.Query.SortTerms
+  id: SortTerms
+  parent: OSLC4Net.Core.Query
+  children:
+  - OSLC4Net.Core.Query.SortTerms.Children
+  langs:
+  - csharp
+  - vb
+  name: SortTerms
+  nameWithType: SortTerms
+  fullName: OSLC4Net.Core.Query.SortTerms
+  type: Interface
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/SortTerms.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SortTerms
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/SortTerms.cs
+    startLine: 17
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: public interface SortTerms
+    content.vb: Public Interface SortTerms
+- uid: OSLC4Net.Core.Query.SortTerms.Children
+  commentId: P:OSLC4Net.Core.Query.SortTerms.Children
+  id: Children
+  parent: OSLC4Net.Core.Query.SortTerms
+  langs:
+  - csharp
+  - vb
+  name: Children
+  nameWithType: SortTerms.Children
+  fullName: OSLC4Net.Core.Query.SortTerms.Children
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/SortTerms.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Children
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/SortTerms.cs
+    startLine: 19
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: IList<SortTerm> Children { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{OSLC4Net.Core.Query.SortTerm}
+    content.vb: ReadOnly Property Children As IList(Of SortTerm)
+  overload: OSLC4Net.Core.Query.SortTerms.Children*
+references:
+- uid: OSLC4Net.Core.Query
+  commentId: N:OSLC4Net.Core.Query
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Query
+  nameWithType: OSLC4Net.Core.Query
+  fullName: OSLC4Net.Core.Query
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+- uid: OSLC4Net.Core.Query.SortTerms.Children*
+  commentId: Overload:OSLC4Net.Core.Query.SortTerms.Children
+  href: OSLC4Net.Core.Query.SortTerms.html#OSLC4Net_Core_Query_SortTerms_Children
+  name: Children
+  nameWithType: SortTerms.Children
+  fullName: OSLC4Net.Core.Query.SortTerms.Children
+- uid: System.Collections.Generic.IList{OSLC4Net.Core.Query.SortTerm}
+  commentId: T:System.Collections.Generic.IList{OSLC4Net.Core.Query.SortTerm}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<SortTerm>
+  nameWithType: IList<SortTerm>
+  fullName: System.Collections.Generic.IList<OSLC4Net.Core.Query.SortTerm>
+  nameWithType.vb: IList(Of SortTerm)
+  fullName.vb: System.Collections.Generic.IList(Of OSLC4Net.Core.Query.SortTerm)
+  name.vb: IList(Of SortTerm)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: OSLC4Net.Core.Query.SortTerm
+    name: SortTerm
+    href: OSLC4Net.Core.Query.SortTerm.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: OSLC4Net.Core.Query.SortTerm
+    name: SortTerm
+    href: OSLC4Net.Core.Query.SortTerm.html
+  - name: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

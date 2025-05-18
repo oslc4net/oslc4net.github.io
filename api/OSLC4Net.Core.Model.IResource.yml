@@ -1,0 +1,203 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Model.IResource
+  commentId: T:OSLC4Net.Core.Model.IResource
+  id: IResource
+  parent: OSLC4Net.Core.Model
+  children:
+  - OSLC4Net.Core.Model.IResource.About
+  - OSLC4Net.Core.Model.IResource.GetAbout
+  - OSLC4Net.Core.Model.IResource.SetAbout(System.Uri)
+  langs:
+  - csharp
+  - vb
+  name: IResource
+  nameWithType: IResource
+  fullName: OSLC4Net.Core.Model.IResource
+  type: Interface
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/IResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: IResource
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/IResource.cs
+    startLine: 20
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: Interface to represent an OSLC resource.
+  example: []
+  syntax:
+    content: public interface IResource
+    content.vb: Public Interface IResource
+- uid: OSLC4Net.Core.Model.IResource.About
+  commentId: P:OSLC4Net.Core.Model.IResource.About
+  id: About
+  parent: OSLC4Net.Core.Model.IResource
+  langs:
+  - csharp
+  - vb
+  name: About
+  nameWithType: IResource.About
+  fullName: OSLC4Net.Core.Model.IResource.About
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/IResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: About
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/IResource.cs
+    startLine: 22
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: Uri About { get; }
+    parameters: []
+    return:
+      type: System.Uri
+    content.vb: ReadOnly Property About As Uri
+  overload: OSLC4Net.Core.Model.IResource.About*
+- uid: OSLC4Net.Core.Model.IResource.GetAbout
+  commentId: M:OSLC4Net.Core.Model.IResource.GetAbout
+  id: GetAbout
+  parent: OSLC4Net.Core.Model.IResource
+  langs:
+  - csharp
+  - vb
+  name: GetAbout()
+  nameWithType: IResource.GetAbout()
+  fullName: OSLC4Net.Core.Model.IResource.GetAbout()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/IResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetAbout
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/IResource.cs
+    startLine: 24
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [Obsolete]
+
+      Uri GetAbout()
+    return:
+      type: System.Uri
+    content.vb: >-
+      <Obsolete>
+
+      Function GetAbout() As Uri
+  overload: OSLC4Net.Core.Model.IResource.GetAbout*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: OSLC4Net.Core.Model.IResource.SetAbout(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.IResource.SetAbout(System.Uri)
+  id: SetAbout(System.Uri)
+  parent: OSLC4Net.Core.Model.IResource
+  langs:
+  - csharp
+  - vb
+  name: SetAbout(Uri)
+  nameWithType: IResource.SetAbout(Uri)
+  fullName: OSLC4Net.Core.Model.IResource.SetAbout(System.Uri)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/IResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetAbout
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/IResource.cs
+    startLine: 27
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [Obsolete]
+
+      void SetAbout(Uri about)
+    parameters:
+    - id: about
+      type: System.Uri
+    content.vb: >-
+      <Obsolete>
+
+      Sub SetAbout(about As Uri)
+  overload: OSLC4Net.Core.Model.IResource.SetAbout*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+references:
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+- uid: OSLC4Net.Core.Model.IResource.About*
+  commentId: Overload:OSLC4Net.Core.Model.IResource.About
+  href: OSLC4Net.Core.Model.IResource.html#OSLC4Net_Core_Model_IResource_About
+  name: About
+  nameWithType: IResource.About
+  fullName: OSLC4Net.Core.Model.IResource.About
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uri
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OSLC4Net.Core.Model.IResource.GetAbout*
+  commentId: Overload:OSLC4Net.Core.Model.IResource.GetAbout
+  href: OSLC4Net.Core.Model.IResource.html#OSLC4Net_Core_Model_IResource_GetAbout
+  name: GetAbout
+  nameWithType: IResource.GetAbout
+  fullName: OSLC4Net.Core.Model.IResource.GetAbout
+- uid: OSLC4Net.Core.Model.IResource.SetAbout*
+  commentId: Overload:OSLC4Net.Core.Model.IResource.SetAbout
+  href: OSLC4Net.Core.Model.IResource.html#OSLC4Net_Core_Model_IResource_SetAbout_System_Uri_
+  name: SetAbout
+  nameWithType: IResource.SetAbout
+  fullName: OSLC4Net.Core.Model.IResource.SetAbout

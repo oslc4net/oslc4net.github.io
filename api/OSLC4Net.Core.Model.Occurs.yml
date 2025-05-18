@@ -1,0 +1,269 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Model.Occurs
+  commentId: T:OSLC4Net.Core.Model.Occurs
+  id: Occurs
+  parent: OSLC4Net.Core.Model
+  children:
+  - OSLC4Net.Core.Model.Occurs.ExactlyOne
+  - OSLC4Net.Core.Model.Occurs.OneOrMany
+  - OSLC4Net.Core.Model.Occurs.Unknown
+  - OSLC4Net.Core.Model.Occurs.ZeroOrMany
+  - OSLC4Net.Core.Model.Occurs.ZeroOrOne
+  langs:
+  - csharp
+  - vb
+  name: Occurs
+  nameWithType: Occurs
+  fullName: OSLC4Net.Core.Model.Occurs
+  type: Enum
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Occurs.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Occurs
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Occurs.cs
+    startLine: 21
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: OSLC Occurs attribute
+  remarks: see http://open-services.net/bin/view/Main/OslcCoreSpecification#OSLC_Defined_Resources
+  example: []
+  syntax:
+    content: public enum Occurs
+    content.vb: Public Enum Occurs
+- uid: OSLC4Net.Core.Model.Occurs.ExactlyOne
+  commentId: F:OSLC4Net.Core.Model.Occurs.ExactlyOne
+  id: ExactlyOne
+  parent: OSLC4Net.Core.Model.Occurs
+  langs:
+  - csharp
+  - vb
+  name: ExactlyOne
+  nameWithType: Occurs.ExactlyOne
+  fullName: OSLC4Net.Core.Model.Occurs.ExactlyOne
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Occurs.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ExactlyOne
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Occurs.cs
+    startLine: 23
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [URI("http://open-services.net/ns/core#Exactly-one")]
+
+      ExactlyOne = 0
+    return:
+      type: OSLC4Net.Core.Model.Occurs
+    content.vb: >-
+      <URI("http://open-services.net/ns/core#Exactly-one")>
+
+      ExactlyOne = 0
+  attributes:
+  - type: OSLC4Net.Core.Model.URI
+    ctor: OSLC4Net.Core.Model.URI.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#Exactly-one
+- uid: OSLC4Net.Core.Model.Occurs.ZeroOrOne
+  commentId: F:OSLC4Net.Core.Model.Occurs.ZeroOrOne
+  id: ZeroOrOne
+  parent: OSLC4Net.Core.Model.Occurs
+  langs:
+  - csharp
+  - vb
+  name: ZeroOrOne
+  nameWithType: Occurs.ZeroOrOne
+  fullName: OSLC4Net.Core.Model.Occurs.ZeroOrOne
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Occurs.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ZeroOrOne
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Occurs.cs
+    startLine: 26
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [URI("http://open-services.net/ns/core#Zero-or-one")]
+
+      ZeroOrOne = 1
+    return:
+      type: OSLC4Net.Core.Model.Occurs
+    content.vb: >-
+      <URI("http://open-services.net/ns/core#Zero-or-one")>
+
+      ZeroOrOne = 1
+  attributes:
+  - type: OSLC4Net.Core.Model.URI
+    ctor: OSLC4Net.Core.Model.URI.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#Zero-or-one
+- uid: OSLC4Net.Core.Model.Occurs.ZeroOrMany
+  commentId: F:OSLC4Net.Core.Model.Occurs.ZeroOrMany
+  id: ZeroOrMany
+  parent: OSLC4Net.Core.Model.Occurs
+  langs:
+  - csharp
+  - vb
+  name: ZeroOrMany
+  nameWithType: Occurs.ZeroOrMany
+  fullName: OSLC4Net.Core.Model.Occurs.ZeroOrMany
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Occurs.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ZeroOrMany
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Occurs.cs
+    startLine: 29
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [URI("http://open-services.net/ns/core#Zero-or-many")]
+
+      ZeroOrMany = 2
+    return:
+      type: OSLC4Net.Core.Model.Occurs
+    content.vb: >-
+      <URI("http://open-services.net/ns/core#Zero-or-many")>
+
+      ZeroOrMany = 2
+  attributes:
+  - type: OSLC4Net.Core.Model.URI
+    ctor: OSLC4Net.Core.Model.URI.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#Zero-or-many
+- uid: OSLC4Net.Core.Model.Occurs.OneOrMany
+  commentId: F:OSLC4Net.Core.Model.Occurs.OneOrMany
+  id: OneOrMany
+  parent: OSLC4Net.Core.Model.Occurs
+  langs:
+  - csharp
+  - vb
+  name: OneOrMany
+  nameWithType: Occurs.OneOrMany
+  fullName: OSLC4Net.Core.Model.Occurs.OneOrMany
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Occurs.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OneOrMany
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Occurs.cs
+    startLine: 32
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [URI("http://open-services.net/ns/core#One-or-many")]
+
+      OneOrMany = 3
+    return:
+      type: OSLC4Net.Core.Model.Occurs
+    content.vb: >-
+      <URI("http://open-services.net/ns/core#One-or-many")>
+
+      OneOrMany = 3
+  attributes:
+  - type: OSLC4Net.Core.Model.URI
+    ctor: OSLC4Net.Core.Model.URI.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#One-or-many
+- uid: OSLC4Net.Core.Model.Occurs.Unknown
+  commentId: F:OSLC4Net.Core.Model.Occurs.Unknown
+  id: Unknown
+  parent: OSLC4Net.Core.Model.Occurs
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: Occurs.Unknown
+  fullName: OSLC4Net.Core.Model.Occurs.Unknown
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Occurs.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Unknown
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Occurs.cs
+    startLine: 34
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [URI("")]
+
+      Unknown = 4
+    return:
+      type: OSLC4Net.Core.Model.Occurs
+    content.vb: >-
+      <URI("")>
+
+      Unknown = 4
+  attributes:
+  - type: OSLC4Net.Core.Model.URI
+    ctor: OSLC4Net.Core.Model.URI.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ''
+references:
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+- uid: OSLC4Net.Core.Model.Occurs
+  commentId: T:OSLC4Net.Core.Model.Occurs
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.Occurs.html
+  name: Occurs
+  nameWithType: Occurs
+  fullName: OSLC4Net.Core.Model.Occurs

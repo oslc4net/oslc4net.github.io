@@ -1,0 +1,174 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Exceptions
+  commentId: N:OSLC4Net.Core.Exceptions
+  id: OSLC4Net.Core.Exceptions
+  children:
+  - OSLC4Net.Core.Exceptions.MessageExtractor
+  - OSLC4Net.Core.Exceptions.OslcCoreApplicationException
+  - OSLC4Net.Core.Exceptions.OslcCoreDeregistrationException
+  - OSLC4Net.Core.Exceptions.OslcCoreDuplicatePropertyDefinitionException
+  - OSLC4Net.Core.Exceptions.OslcCoreInvalidAttributeException
+  - OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException
+  - OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyDefinitionException
+  - OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException
+  - OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException
+  - OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException
+  - OSLC4Net.Core.Exceptions.OslcCoreMissingAttributeException
+  - OSLC4Net.Core.Exceptions.OslcCoreMissingNamespaceDeclarationException
+  - OSLC4Net.Core.Exceptions.OslcCoreMissingNamespacePrefixException
+  - OSLC4Net.Core.Exceptions.OslcCoreMissingSetMethodException
+  - OSLC4Net.Core.Exceptions.OslcCoreMisusedOccursException
+  - OSLC4Net.Core.Exceptions.OslcCoreRegistrationException
+  - OSLC4Net.Core.Exceptions.OslcCoreRelativeURIException
+  - OSLC4Net.Core.Exceptions.OslcCoreRequestException
+  langs:
+  - csharp
+  - vb
+  name: OSLC4Net.Core.Exceptions
+  nameWithType: OSLC4Net.Core.Exceptions
+  fullName: OSLC4Net.Core.Exceptions
+  type: Namespace
+  assemblies:
+  - OSLC4Net.Core
+references:
+- uid: OSLC4Net.Core.Exceptions.MessageExtractor
+  commentId: T:OSLC4Net.Core.Exceptions.MessageExtractor
+  href: OSLC4Net.Core.Exceptions.MessageExtractor.html
+  name: MessageExtractor
+  nameWithType: MessageExtractor
+  fullName: OSLC4Net.Core.Exceptions.MessageExtractor
+- uid: OSLC4Net.Core.Exceptions.OslcCoreApplicationException
+  commentId: T:OSLC4Net.Core.Exceptions.OslcCoreApplicationException
+  parent: OSLC4Net.Core.Exceptions
+  href: OSLC4Net.Core.Exceptions.OslcCoreApplicationException.html
+  name: OslcCoreApplicationException
+  nameWithType: OslcCoreApplicationException
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreApplicationException
+- uid: OSLC4Net.Core.Exceptions.OslcCoreDeregistrationException
+  commentId: T:OSLC4Net.Core.Exceptions.OslcCoreDeregistrationException
+  href: OSLC4Net.Core.Exceptions.OslcCoreDeregistrationException.html
+  name: OslcCoreDeregistrationException
+  nameWithType: OslcCoreDeregistrationException
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreDeregistrationException
+- uid: OSLC4Net.Core.Exceptions.OslcCoreDuplicatePropertyDefinitionException
+  commentId: T:OSLC4Net.Core.Exceptions.OslcCoreDuplicatePropertyDefinitionException
+  href: OSLC4Net.Core.Exceptions.OslcCoreDuplicatePropertyDefinitionException.html
+  name: OslcCoreDuplicatePropertyDefinitionException
+  nameWithType: OslcCoreDuplicatePropertyDefinitionException
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreDuplicatePropertyDefinitionException
+- uid: OSLC4Net.Core.Exceptions.OslcCoreInvalidAttributeException
+  commentId: T:OSLC4Net.Core.Exceptions.OslcCoreInvalidAttributeException
+  href: OSLC4Net.Core.Exceptions.OslcCoreInvalidAttributeException.html
+  name: OslcCoreInvalidAttributeException
+  nameWithType: OslcCoreInvalidAttributeException
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreInvalidAttributeException
+- uid: OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException
+  commentId: T:OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException
+  href: OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException.html
+  name: OslcCoreInvalidOccursException
+  nameWithType: OslcCoreInvalidOccursException
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException
+- uid: OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyDefinitionException
+  commentId: T:OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyDefinitionException
+  href: OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyDefinitionException.html
+  name: OslcCoreInvalidPropertyDefinitionException
+  nameWithType: OslcCoreInvalidPropertyDefinitionException
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyDefinitionException
+- uid: OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException
+  commentId: T:OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException
+  href: OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException.html
+  name: OslcCoreInvalidPropertyTypeException
+  nameWithType: OslcCoreInvalidPropertyTypeException
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException
+- uid: OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException
+  commentId: T:OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException
+  href: OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException.html
+  name: OslcCoreInvalidRepresentationException
+  nameWithType: OslcCoreInvalidRepresentationException
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException
+- uid: OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException
+  commentId: T:OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException
+  href: OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException.html
+  name: OslcCoreInvalidValueTypeException
+  nameWithType: OslcCoreInvalidValueTypeException
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException
+- uid: OSLC4Net.Core.Exceptions.OslcCoreMissingAttributeException
+  commentId: T:OSLC4Net.Core.Exceptions.OslcCoreMissingAttributeException
+  href: OSLC4Net.Core.Exceptions.OslcCoreMissingAttributeException.html
+  name: OslcCoreMissingAttributeException
+  nameWithType: OslcCoreMissingAttributeException
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreMissingAttributeException
+- uid: OSLC4Net.Core.Exceptions.OslcCoreMissingNamespaceDeclarationException
+  commentId: T:OSLC4Net.Core.Exceptions.OslcCoreMissingNamespaceDeclarationException
+  href: OSLC4Net.Core.Exceptions.OslcCoreMissingNamespaceDeclarationException.html
+  name: OslcCoreMissingNamespaceDeclarationException
+  nameWithType: OslcCoreMissingNamespaceDeclarationException
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreMissingNamespaceDeclarationException
+- uid: OSLC4Net.Core.Exceptions.OslcCoreMissingNamespacePrefixException
+  commentId: T:OSLC4Net.Core.Exceptions.OslcCoreMissingNamespacePrefixException
+  href: OSLC4Net.Core.Exceptions.OslcCoreMissingNamespacePrefixException.html
+  name: OslcCoreMissingNamespacePrefixException
+  nameWithType: OslcCoreMissingNamespacePrefixException
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreMissingNamespacePrefixException
+- uid: OSLC4Net.Core.Exceptions.OslcCoreMissingSetMethodException
+  commentId: T:OSLC4Net.Core.Exceptions.OslcCoreMissingSetMethodException
+  href: OSLC4Net.Core.Exceptions.OslcCoreMissingSetMethodException.html
+  name: OslcCoreMissingSetMethodException
+  nameWithType: OslcCoreMissingSetMethodException
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreMissingSetMethodException
+- uid: OSLC4Net.Core.Exceptions.OslcCoreMisusedOccursException
+  commentId: T:OSLC4Net.Core.Exceptions.OslcCoreMisusedOccursException
+  href: OSLC4Net.Core.Exceptions.OslcCoreMisusedOccursException.html
+  name: OslcCoreMisusedOccursException
+  nameWithType: OslcCoreMisusedOccursException
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreMisusedOccursException
+- uid: OSLC4Net.Core.Exceptions.OslcCoreRegistrationException
+  commentId: T:OSLC4Net.Core.Exceptions.OslcCoreRegistrationException
+  href: OSLC4Net.Core.Exceptions.OslcCoreRegistrationException.html
+  name: OslcCoreRegistrationException
+  nameWithType: OslcCoreRegistrationException
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreRegistrationException
+- uid: OSLC4Net.Core.Exceptions.OslcCoreRelativeURIException
+  commentId: T:OSLC4Net.Core.Exceptions.OslcCoreRelativeURIException
+  href: OSLC4Net.Core.Exceptions.OslcCoreRelativeURIException.html
+  name: OslcCoreRelativeURIException
+  nameWithType: OslcCoreRelativeURIException
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreRelativeURIException
+- uid: OSLC4Net.Core.Exceptions.OslcCoreRequestException
+  commentId: T:OSLC4Net.Core.Exceptions.OslcCoreRequestException
+  parent: OSLC4Net.Core.Exceptions
+  href: OSLC4Net.Core.Exceptions.OslcCoreRequestException.html
+  name: OslcCoreRequestException
+  nameWithType: OslcCoreRequestException
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreRequestException
+- uid: OSLC4Net.Core.Exceptions
+  commentId: N:OSLC4Net.Core.Exceptions
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Exceptions
+  nameWithType: OSLC4Net.Core.Exceptions
+  fullName: OSLC4Net.Core.Exceptions
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Exceptions
+    name: Exceptions
+    href: OSLC4Net.Core.Exceptions.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Exceptions
+    name: Exceptions
+    href: OSLC4Net.Core.Exceptions.html

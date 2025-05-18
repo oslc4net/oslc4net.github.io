@@ -1,0 +1,851 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Client.OslcResponse`1
+  commentId: T:OSLC4Net.Client.OslcResponse`1
+  id: OslcResponse`1
+  parent: OSLC4Net.Client
+  children:
+  - OSLC4Net.Client.OslcResponse`1.ErrorResource
+  - OSLC4Net.Client.OslcResponse`1.Graph
+  - OSLC4Net.Client.OslcResponse`1.Resources
+  - OSLC4Net.Client.OslcResponse`1.ResponseMessage
+  - OSLC4Net.Client.OslcResponse`1.StatusCode
+  - OSLC4Net.Client.OslcResponse`1.WithError(System.Net.Http.HttpResponseMessage,OSLC4Net.Core.Model.Error,VDS.RDF.Graph)
+  - OSLC4Net.Client.OslcResponse`1.WithSuccess(System.Collections.Generic.List{`0},VDS.RDF.Graph,System.Net.Http.HttpResponseMessage)
+  langs:
+  - csharp
+  - vb
+  name: OslcResponse<T>
+  nameWithType: OslcResponse<T>
+  fullName: OSLC4Net.Client.OslcResponse<T>
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcResponse.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OslcResponse
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcResponse.cs
+    startLine: 6
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  syntax:
+    content: 'public sealed class OslcResponse<T> where T : IResource'
+    typeParameters:
+    - id: T
+    content.vb: Public NotInheritable Class OslcResponse(Of T As IResource)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: OslcResponse(Of T)
+  fullName.vb: OSLC4Net.Client.OslcResponse(Of T)
+  name.vb: OslcResponse(Of T)
+- uid: OSLC4Net.Client.OslcResponse`1.Graph
+  commentId: P:OSLC4Net.Client.OslcResponse`1.Graph
+  id: Graph
+  parent: OSLC4Net.Client.OslcResponse`1
+  langs:
+  - csharp
+  - vb
+  name: Graph
+  nameWithType: OslcResponse<T>.Graph
+  fullName: OSLC4Net.Client.OslcResponse<T>.Graph
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcResponse.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Graph
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcResponse.cs
+    startLine: 9
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  syntax:
+    content: public Graph? Graph { get; }
+    parameters: []
+    return:
+      type: VDS.RDF.Graph
+    content.vb: Public Property Graph As Graph
+  overload: OSLC4Net.Client.OslcResponse`1.Graph*
+  nameWithType.vb: OslcResponse(Of T).Graph
+  fullName.vb: OSLC4Net.Client.OslcResponse(Of T).Graph
+- uid: OSLC4Net.Client.OslcResponse`1.Resources
+  commentId: P:OSLC4Net.Client.OslcResponse`1.Resources
+  id: Resources
+  parent: OSLC4Net.Client.OslcResponse`1
+  langs:
+  - csharp
+  - vb
+  name: Resources
+  nameWithType: OslcResponse<T>.Resources
+  fullName: OSLC4Net.Client.OslcResponse<T>.Resources
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcResponse.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Resources
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcResponse.cs
+    startLine: 10
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  syntax:
+    content: public List<T>? Resources { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{{T}}
+    content.vb: Public Property Resources As List(Of T)
+  overload: OSLC4Net.Client.OslcResponse`1.Resources*
+  nameWithType.vb: OslcResponse(Of T).Resources
+  fullName.vb: OSLC4Net.Client.OslcResponse(Of T).Resources
+- uid: OSLC4Net.Client.OslcResponse`1.ErrorResource
+  commentId: P:OSLC4Net.Client.OslcResponse`1.ErrorResource
+  id: ErrorResource
+  parent: OSLC4Net.Client.OslcResponse`1
+  langs:
+  - csharp
+  - vb
+  name: ErrorResource
+  nameWithType: OslcResponse<T>.ErrorResource
+  fullName: OSLC4Net.Client.OslcResponse<T>.ErrorResource
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcResponse.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ErrorResource
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcResponse.cs
+    startLine: 11
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  syntax:
+    content: public Error? ErrorResource { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.Error
+    content.vb: Public Property ErrorResource As [Error]
+  overload: OSLC4Net.Client.OslcResponse`1.ErrorResource*
+  nameWithType.vb: OslcResponse(Of T).ErrorResource
+  fullName.vb: OSLC4Net.Client.OslcResponse(Of T).ErrorResource
+- uid: OSLC4Net.Client.OslcResponse`1.ResponseMessage
+  commentId: P:OSLC4Net.Client.OslcResponse`1.ResponseMessage
+  id: ResponseMessage
+  parent: OSLC4Net.Client.OslcResponse`1
+  langs:
+  - csharp
+  - vb
+  name: ResponseMessage
+  nameWithType: OslcResponse<T>.ResponseMessage
+  fullName: OSLC4Net.Client.OslcResponse<T>.ResponseMessage
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcResponse.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ResponseMessage
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcResponse.cs
+    startLine: 13
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  syntax:
+    content: public HttpResponseMessage? ResponseMessage { get; }
+    parameters: []
+    return:
+      type: System.Net.Http.HttpResponseMessage
+    content.vb: Public Property ResponseMessage As HttpResponseMessage
+  overload: OSLC4Net.Client.OslcResponse`1.ResponseMessage*
+  nameWithType.vb: OslcResponse(Of T).ResponseMessage
+  fullName.vb: OSLC4Net.Client.OslcResponse(Of T).ResponseMessage
+- uid: OSLC4Net.Client.OslcResponse`1.StatusCode
+  commentId: P:OSLC4Net.Client.OslcResponse`1.StatusCode
+  id: StatusCode
+  parent: OSLC4Net.Client.OslcResponse`1
+  langs:
+  - csharp
+  - vb
+  name: StatusCode
+  nameWithType: OslcResponse<T>.StatusCode
+  fullName: OSLC4Net.Client.OslcResponse<T>.StatusCode
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcResponse.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: StatusCode
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcResponse.cs
+    startLine: 16
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  syntax:
+    content: public HttpStatusCode? StatusCode { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Net.HttpStatusCode}
+    content.vb: Public Property StatusCode As HttpStatusCode?
+  overload: OSLC4Net.Client.OslcResponse`1.StatusCode*
+  nameWithType.vb: OslcResponse(Of T).StatusCode
+  fullName.vb: OSLC4Net.Client.OslcResponse(Of T).StatusCode
+- uid: OSLC4Net.Client.OslcResponse`1.WithSuccess(System.Collections.Generic.List{`0},VDS.RDF.Graph,System.Net.Http.HttpResponseMessage)
+  commentId: M:OSLC4Net.Client.OslcResponse`1.WithSuccess(System.Collections.Generic.List{`0},VDS.RDF.Graph,System.Net.Http.HttpResponseMessage)
+  id: WithSuccess(System.Collections.Generic.List{`0},VDS.RDF.Graph,System.Net.Http.HttpResponseMessage)
+  parent: OSLC4Net.Client.OslcResponse`1
+  langs:
+  - csharp
+  - vb
+  name: WithSuccess(List<T>?, Graph?, HttpResponseMessage?)
+  nameWithType: OslcResponse<T>.WithSuccess(List<T>?, Graph?, HttpResponseMessage?)
+  fullName: OSLC4Net.Client.OslcResponse<T>.WithSuccess(System.Collections.Generic.List<T>?, VDS.RDF.Graph?, System.Net.Http.HttpResponseMessage?)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcResponse.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: WithSuccess
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcResponse.cs
+    startLine: 18
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  syntax:
+    content: public static OslcResponse<T> WithSuccess(List<T>? resources, Graph? g, HttpResponseMessage? responseMessage = null)
+    parameters:
+    - id: resources
+      type: System.Collections.Generic.List{{T}}
+    - id: g
+      type: VDS.RDF.Graph
+    - id: responseMessage
+      type: System.Net.Http.HttpResponseMessage
+    return:
+      type: OSLC4Net.Client.OslcResponse`1
+    content.vb: Public Shared Function WithSuccess(resources As List(Of T), g As Graph, responseMessage As HttpResponseMessage = Nothing) As OslcResponse(Of T)
+  overload: OSLC4Net.Client.OslcResponse`1.WithSuccess*
+  nameWithType.vb: OslcResponse(Of T).WithSuccess(List(Of T), Graph, HttpResponseMessage)
+  fullName.vb: OSLC4Net.Client.OslcResponse(Of T).WithSuccess(System.Collections.Generic.List(Of T), VDS.RDF.Graph, System.Net.Http.HttpResponseMessage)
+  name.vb: WithSuccess(List(Of T), Graph, HttpResponseMessage)
+- uid: OSLC4Net.Client.OslcResponse`1.WithError(System.Net.Http.HttpResponseMessage,OSLC4Net.Core.Model.Error,VDS.RDF.Graph)
+  commentId: M:OSLC4Net.Client.OslcResponse`1.WithError(System.Net.Http.HttpResponseMessage,OSLC4Net.Core.Model.Error,VDS.RDF.Graph)
+  id: WithError(System.Net.Http.HttpResponseMessage,OSLC4Net.Core.Model.Error,VDS.RDF.Graph)
+  parent: OSLC4Net.Client.OslcResponse`1
+  langs:
+  - csharp
+  - vb
+  name: WithError(HttpResponseMessage?, Error?, Graph?)
+  nameWithType: OslcResponse<T>.WithError(HttpResponseMessage?, Error?, Graph?)
+  fullName: OSLC4Net.Client.OslcResponse<T>.WithError(System.Net.Http.HttpResponseMessage?, OSLC4Net.Core.Model.Error?, VDS.RDF.Graph?)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcResponse.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: WithError
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcResponse.cs
+    startLine: 31
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  syntax:
+    content: public static OslcResponse<T> WithError(HttpResponseMessage? responseMessage = null, Error? errorResource = null, Graph? g = null)
+    parameters:
+    - id: responseMessage
+      type: System.Net.Http.HttpResponseMessage
+    - id: errorResource
+      type: OSLC4Net.Core.Model.Error
+    - id: g
+      type: VDS.RDF.Graph
+    return:
+      type: OSLC4Net.Client.OslcResponse`1
+    content.vb: Public Shared Function WithError(responseMessage As HttpResponseMessage = Nothing, errorResource As [Error] = Nothing, g As Graph = Nothing) As OslcResponse(Of T)
+  overload: OSLC4Net.Client.OslcResponse`1.WithError*
+  nameWithType.vb: OslcResponse(Of T).WithError(HttpResponseMessage, Error, Graph)
+  fullName.vb: OSLC4Net.Client.OslcResponse(Of T).WithError(System.Net.Http.HttpResponseMessage, OSLC4Net.Core.Model.Error, VDS.RDF.Graph)
+  name.vb: WithError(HttpResponseMessage, Error, Graph)
+references:
+- uid: OSLC4Net.Client
+  commentId: N:OSLC4Net.Client
+  href: OSLC4Net.html
+  name: OSLC4Net.Client
+  nameWithType: OSLC4Net.Client
+  fullName: OSLC4Net.Client
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Client
+    name: Client
+    href: OSLC4Net.Client.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Client
+    name: Client
+    href: OSLC4Net.Client.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OSLC4Net.Client.OslcResponse`1.Graph*
+  commentId: Overload:OSLC4Net.Client.OslcResponse`1.Graph
+  href: OSLC4Net.Client.OslcResponse-1.html#OSLC4Net_Client_OslcResponse_1_Graph
+  name: Graph
+  nameWithType: OslcResponse<T>.Graph
+  fullName: OSLC4Net.Client.OslcResponse<T>.Graph
+  nameWithType.vb: OslcResponse(Of T).Graph
+  fullName.vb: OSLC4Net.Client.OslcResponse(Of T).Graph
+- uid: VDS.RDF.Graph
+  commentId: T:VDS.RDF.Graph
+  parent: VDS.RDF
+  isExternal: true
+  name: Graph
+  nameWithType: Graph
+  fullName: VDS.RDF.Graph
+- uid: VDS.RDF
+  commentId: N:VDS.RDF
+  isExternal: true
+  name: VDS.RDF
+  nameWithType: VDS.RDF
+  fullName: VDS.RDF
+  spec.csharp:
+  - uid: VDS
+    name: VDS
+    isExternal: true
+  - name: .
+  - uid: VDS.RDF
+    name: RDF
+    isExternal: true
+  spec.vb:
+  - uid: VDS
+    name: VDS
+    isExternal: true
+  - name: .
+  - uid: VDS.RDF
+    name: RDF
+    isExternal: true
+- uid: OSLC4Net.Client.OslcResponse`1.Resources*
+  commentId: Overload:OSLC4Net.Client.OslcResponse`1.Resources
+  href: OSLC4Net.Client.OslcResponse-1.html#OSLC4Net_Client_OslcResponse_1_Resources
+  name: Resources
+  nameWithType: OslcResponse<T>.Resources
+  fullName: OSLC4Net.Client.OslcResponse<T>.Resources
+  nameWithType.vb: OslcResponse(Of T).Resources
+  fullName.vb: OSLC4Net.Client.OslcResponse(Of T).Resources
+- uid: System.Collections.Generic.List{{T}}
+  commentId: T:System.Collections.Generic.List{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: OSLC4Net.Client.OslcResponse`1.ErrorResource*
+  commentId: Overload:OSLC4Net.Client.OslcResponse`1.ErrorResource
+  href: OSLC4Net.Client.OslcResponse-1.html#OSLC4Net_Client_OslcResponse_1_ErrorResource
+  name: ErrorResource
+  nameWithType: OslcResponse<T>.ErrorResource
+  fullName: OSLC4Net.Client.OslcResponse<T>.ErrorResource
+  nameWithType.vb: OslcResponse(Of T).ErrorResource
+  fullName.vb: OSLC4Net.Client.OslcResponse(Of T).ErrorResource
+- uid: OSLC4Net.Core.Model.Error
+  commentId: T:OSLC4Net.Core.Model.Error
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.Error.html
+  name: Error
+  nameWithType: Error
+  fullName: OSLC4Net.Core.Model.Error
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+- uid: OSLC4Net.Client.OslcResponse`1.ResponseMessage*
+  commentId: Overload:OSLC4Net.Client.OslcResponse`1.ResponseMessage
+  href: OSLC4Net.Client.OslcResponse-1.html#OSLC4Net_Client_OslcResponse_1_ResponseMessage
+  name: ResponseMessage
+  nameWithType: OslcResponse<T>.ResponseMessage
+  fullName: OSLC4Net.Client.OslcResponse<T>.ResponseMessage
+  nameWithType.vb: OslcResponse(Of T).ResponseMessage
+  fullName.vb: OSLC4Net.Client.OslcResponse(Of T).ResponseMessage
+- uid: System.Net.Http.HttpResponseMessage
+  commentId: T:System.Net.Http.HttpResponseMessage
+  parent: System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
+  name: HttpResponseMessage
+  nameWithType: HttpResponseMessage
+  fullName: System.Net.Http.HttpResponseMessage
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+- uid: OSLC4Net.Client.OslcResponse`1.StatusCode*
+  commentId: Overload:OSLC4Net.Client.OslcResponse`1.StatusCode
+  href: OSLC4Net.Client.OslcResponse-1.html#OSLC4Net_Client_OslcResponse_1_StatusCode
+  name: StatusCode
+  nameWithType: OslcResponse<T>.StatusCode
+  fullName: OSLC4Net.Client.OslcResponse<T>.StatusCode
+  nameWithType.vb: OslcResponse(Of T).StatusCode
+  fullName.vb: OSLC4Net.Client.OslcResponse(Of T).StatusCode
+- uid: System.Nullable{System.Net.HttpStatusCode}
+  commentId: T:System.Nullable{System.Net.HttpStatusCode}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.net.httpstatuscode
+  name: HttpStatusCode?
+  nameWithType: HttpStatusCode?
+  fullName: System.Net.HttpStatusCode?
+  spec.csharp:
+  - uid: System.Net.HttpStatusCode
+    name: HttpStatusCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.httpstatuscode
+  - name: '?'
+  spec.vb:
+  - uid: System.Net.HttpStatusCode
+    name: HttpStatusCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.httpstatuscode
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: OSLC4Net.Client.OslcResponse`1.WithSuccess*
+  commentId: Overload:OSLC4Net.Client.OslcResponse`1.WithSuccess
+  href: OSLC4Net.Client.OslcResponse-1.html#OSLC4Net_Client_OslcResponse_1_WithSuccess_System_Collections_Generic_List__0__VDS_RDF_Graph_System_Net_Http_HttpResponseMessage_
+  name: WithSuccess
+  nameWithType: OslcResponse<T>.WithSuccess
+  fullName: OSLC4Net.Client.OslcResponse<T>.WithSuccess
+  nameWithType.vb: OslcResponse(Of T).WithSuccess
+  fullName.vb: OSLC4Net.Client.OslcResponse(Of T).WithSuccess
+- uid: OSLC4Net.Client.OslcResponse`1
+  commentId: T:OSLC4Net.Client.OslcResponse`1
+  parent: OSLC4Net.Client
+  href: OSLC4Net.Client.OslcResponse-1.html
+  name: OslcResponse<T>
+  nameWithType: OslcResponse<T>
+  fullName: OSLC4Net.Client.OslcResponse<T>
+  nameWithType.vb: OslcResponse(Of T)
+  fullName.vb: OSLC4Net.Client.OslcResponse(Of T)
+  name.vb: OslcResponse(Of T)
+  spec.csharp:
+  - uid: OSLC4Net.Client.OslcResponse`1
+    name: OslcResponse
+    href: OSLC4Net.Client.OslcResponse-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: OSLC4Net.Client.OslcResponse`1
+    name: OslcResponse
+    href: OSLC4Net.Client.OslcResponse-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: OSLC4Net.Client.OslcResponse`1.WithError*
+  commentId: Overload:OSLC4Net.Client.OslcResponse`1.WithError
+  href: OSLC4Net.Client.OslcResponse-1.html#OSLC4Net_Client_OslcResponse_1_WithError_System_Net_Http_HttpResponseMessage_OSLC4Net_Core_Model_Error_VDS_RDF_Graph_
+  name: WithError
+  nameWithType: OslcResponse<T>.WithError
+  fullName: OSLC4Net.Client.OslcResponse<T>.WithError
+  nameWithType.vb: OslcResponse(Of T).WithError
+  fullName.vb: OSLC4Net.Client.OslcResponse(Of T).WithError

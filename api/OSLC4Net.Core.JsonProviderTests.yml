@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.JsonProviderTests
+  commentId: N:OSLC4Net.Core.JsonProviderTests
+  id: OSLC4Net.Core.JsonProviderTests
+  children:
+  - OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests
+  langs:
+  - csharp
+  - vb
+  name: OSLC4Net.Core.JsonProviderTests
+  nameWithType: OSLC4Net.Core.JsonProviderTests
+  fullName: OSLC4Net.Core.JsonProviderTests
+  type: Namespace
+  assemblies:
+  - OSLC4Net.Core.JsonProviderTests
+references:
+- uid: OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests
+  commentId: T:OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests
+  href: OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests.html
+  name: JsonMediaTypeFormatterTests
+  nameWithType: JsonMediaTypeFormatterTests
+  fullName: OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests

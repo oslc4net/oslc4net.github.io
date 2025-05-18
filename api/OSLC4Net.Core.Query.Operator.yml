@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Query.Operator
+  commentId: T:OSLC4Net.Core.Query.Operator
+  id: Operator
+  parent: OSLC4Net.Core.Query
+  children:
+  - OSLC4Net.Core.Query.Operator.EQUALS
+  - OSLC4Net.Core.Query.Operator.GREATER_EQUALS
+  - OSLC4Net.Core.Query.Operator.GREATER_THAN
+  - OSLC4Net.Core.Query.Operator.LESS_EQUALS
+  - OSLC4Net.Core.Query.Operator.LESS_THAN
+  - OSLC4Net.Core.Query.Operator.NOT_EQUALS
+  langs:
+  - csharp
+  - vb
+  name: Operator
+  nameWithType: Operator
+  fullName: OSLC4Net.Core.Query.Operator
+  type: Enum
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/ComparisonTerm.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Operator
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/ComparisonTerm.cs
+    startLine: 17
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: public enum Operator
+    content.vb: Public Enum [Operator]
+- uid: OSLC4Net.Core.Query.Operator.EQUALS
+  commentId: F:OSLC4Net.Core.Query.Operator.EQUALS
+  id: EQUALS
+  parent: OSLC4Net.Core.Query.Operator
+  langs:
+  - csharp
+  - vb
+  name: EQUALS
+  nameWithType: Operator.EQUALS
+  fullName: OSLC4Net.Core.Query.Operator.EQUALS
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/ComparisonTerm.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: EQUALS
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/ComparisonTerm.cs
+    startLine: 19
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: EQUALS = 0
+    return:
+      type: OSLC4Net.Core.Query.Operator
+- uid: OSLC4Net.Core.Query.Operator.NOT_EQUALS
+  commentId: F:OSLC4Net.Core.Query.Operator.NOT_EQUALS
+  id: NOT_EQUALS
+  parent: OSLC4Net.Core.Query.Operator
+  langs:
+  - csharp
+  - vb
+  name: NOT_EQUALS
+  nameWithType: Operator.NOT_EQUALS
+  fullName: OSLC4Net.Core.Query.Operator.NOT_EQUALS
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/ComparisonTerm.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: NOT_EQUALS
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/ComparisonTerm.cs
+    startLine: 20
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: NOT_EQUALS = 1
+    return:
+      type: OSLC4Net.Core.Query.Operator
+- uid: OSLC4Net.Core.Query.Operator.LESS_THAN
+  commentId: F:OSLC4Net.Core.Query.Operator.LESS_THAN
+  id: LESS_THAN
+  parent: OSLC4Net.Core.Query.Operator
+  langs:
+  - csharp
+  - vb
+  name: LESS_THAN
+  nameWithType: Operator.LESS_THAN
+  fullName: OSLC4Net.Core.Query.Operator.LESS_THAN
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/ComparisonTerm.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: LESS_THAN
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/ComparisonTerm.cs
+    startLine: 21
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: LESS_THAN = 2
+    return:
+      type: OSLC4Net.Core.Query.Operator
+- uid: OSLC4Net.Core.Query.Operator.GREATER_THAN
+  commentId: F:OSLC4Net.Core.Query.Operator.GREATER_THAN
+  id: GREATER_THAN
+  parent: OSLC4Net.Core.Query.Operator
+  langs:
+  - csharp
+  - vb
+  name: GREATER_THAN
+  nameWithType: Operator.GREATER_THAN
+  fullName: OSLC4Net.Core.Query.Operator.GREATER_THAN
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/ComparisonTerm.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GREATER_THAN
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/ComparisonTerm.cs
+    startLine: 22
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: GREATER_THAN = 3
+    return:
+      type: OSLC4Net.Core.Query.Operator
+- uid: OSLC4Net.Core.Query.Operator.LESS_EQUALS
+  commentId: F:OSLC4Net.Core.Query.Operator.LESS_EQUALS
+  id: LESS_EQUALS
+  parent: OSLC4Net.Core.Query.Operator
+  langs:
+  - csharp
+  - vb
+  name: LESS_EQUALS
+  nameWithType: Operator.LESS_EQUALS
+  fullName: OSLC4Net.Core.Query.Operator.LESS_EQUALS
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/ComparisonTerm.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: LESS_EQUALS
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/ComparisonTerm.cs
+    startLine: 23
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: LESS_EQUALS = 4
+    return:
+      type: OSLC4Net.Core.Query.Operator
+- uid: OSLC4Net.Core.Query.Operator.GREATER_EQUALS
+  commentId: F:OSLC4Net.Core.Query.Operator.GREATER_EQUALS
+  id: GREATER_EQUALS
+  parent: OSLC4Net.Core.Query.Operator
+  langs:
+  - csharp
+  - vb
+  name: GREATER_EQUALS
+  nameWithType: Operator.GREATER_EQUALS
+  fullName: OSLC4Net.Core.Query.Operator.GREATER_EQUALS
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/ComparisonTerm.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GREATER_EQUALS
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/ComparisonTerm.cs
+    startLine: 24
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: GREATER_EQUALS = 5
+    return:
+      type: OSLC4Net.Core.Query.Operator
+references:
+- uid: OSLC4Net.Core.Query
+  commentId: N:OSLC4Net.Core.Query
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Query
+  nameWithType: OSLC4Net.Core.Query
+  fullName: OSLC4Net.Core.Query
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+- uid: OSLC4Net.Core.Query.Operator
+  commentId: T:OSLC4Net.Core.Query.Operator
+  parent: OSLC4Net.Core.Query
+  href: OSLC4Net.Core.Query.Operator.html
+  name: Operator
+  nameWithType: Operator
+  fullName: OSLC4Net.Core.Query.Operator

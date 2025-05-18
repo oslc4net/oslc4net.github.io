@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.ChangeManagement.Type
+  commentId: T:OSLC4Net.ChangeManagement.Type
+  id: Type
+  parent: OSLC4Net.ChangeManagement
+  children:
+  - OSLC4Net.ChangeManagement.Type.Bug_Report
+  - OSLC4Net.ChangeManagement.Type.Defect
+  - OSLC4Net.ChangeManagement.Type.Feature_Request
+  - OSLC4Net.ChangeManagement.Type.Story
+  - OSLC4Net.ChangeManagement.Type.Task
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Type
+  fullName: OSLC4Net.ChangeManagement.Type
+  type: Enum
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.ChangeManagement/Type.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Type
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.ChangeManagement/Type.cs
+    startLine: 17
+  assemblies:
+  - OSLC4Net.ChangeManagementCommon
+  namespace: OSLC4Net.ChangeManagement
+  syntax:
+    content: public enum Type
+    content.vb: Public Enum Type
+- uid: OSLC4Net.ChangeManagement.Type.Defect
+  commentId: F:OSLC4Net.ChangeManagement.Type.Defect
+  id: Defect
+  parent: OSLC4Net.ChangeManagement.Type
+  langs:
+  - csharp
+  - vb
+  name: Defect
+  nameWithType: Type.Defect
+  fullName: OSLC4Net.ChangeManagement.Type.Defect
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.ChangeManagement/Type.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Defect
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.ChangeManagement/Type.cs
+    startLine: 19
+  assemblies:
+  - OSLC4Net.ChangeManagementCommon
+  namespace: OSLC4Net.ChangeManagement
+  syntax:
+    content: Defect = 0
+    return:
+      type: OSLC4Net.ChangeManagement.Type
+- uid: OSLC4Net.ChangeManagement.Type.Task
+  commentId: F:OSLC4Net.ChangeManagement.Type.Task
+  id: Task
+  parent: OSLC4Net.ChangeManagement.Type
+  langs:
+  - csharp
+  - vb
+  name: Task
+  nameWithType: Type.Task
+  fullName: OSLC4Net.ChangeManagement.Type.Task
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.ChangeManagement/Type.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Task
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.ChangeManagement/Type.cs
+    startLine: 21
+  assemblies:
+  - OSLC4Net.ChangeManagementCommon
+  namespace: OSLC4Net.ChangeManagement
+  syntax:
+    content: Task = 1
+    return:
+      type: OSLC4Net.ChangeManagement.Type
+- uid: OSLC4Net.ChangeManagement.Type.Story
+  commentId: F:OSLC4Net.ChangeManagement.Type.Story
+  id: Story
+  parent: OSLC4Net.ChangeManagement.Type
+  langs:
+  - csharp
+  - vb
+  name: Story
+  nameWithType: Type.Story
+  fullName: OSLC4Net.ChangeManagement.Type.Story
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.ChangeManagement/Type.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Story
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.ChangeManagement/Type.cs
+    startLine: 23
+  assemblies:
+  - OSLC4Net.ChangeManagementCommon
+  namespace: OSLC4Net.ChangeManagement
+  syntax:
+    content: Story = 2
+    return:
+      type: OSLC4Net.ChangeManagement.Type
+- uid: OSLC4Net.ChangeManagement.Type.Bug_Report
+  commentId: F:OSLC4Net.ChangeManagement.Type.Bug_Report
+  id: Bug_Report
+  parent: OSLC4Net.ChangeManagement.Type
+  langs:
+  - csharp
+  - vb
+  name: Bug_Report
+  nameWithType: Type.Bug_Report
+  fullName: OSLC4Net.ChangeManagement.Type.Bug_Report
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.ChangeManagement/Type.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Bug_Report
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.ChangeManagement/Type.cs
+    startLine: 27
+  assemblies:
+  - OSLC4Net.ChangeManagementCommon
+  namespace: OSLC4Net.ChangeManagement
+  syntax:
+    content: Bug_Report = 3
+    return:
+      type: OSLC4Net.ChangeManagement.Type
+- uid: OSLC4Net.ChangeManagement.Type.Feature_Request
+  commentId: F:OSLC4Net.ChangeManagement.Type.Feature_Request
+  id: Feature_Request
+  parent: OSLC4Net.ChangeManagement.Type
+  langs:
+  - csharp
+  - vb
+  name: Feature_Request
+  nameWithType: Type.Feature_Request
+  fullName: OSLC4Net.ChangeManagement.Type.Feature_Request
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.ChangeManagement/Type.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Feature_Request
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.ChangeManagement/Type.cs
+    startLine: 29
+  assemblies:
+  - OSLC4Net.ChangeManagementCommon
+  namespace: OSLC4Net.ChangeManagement
+  syntax:
+    content: Feature_Request = 4
+    return:
+      type: OSLC4Net.ChangeManagement.Type
+references:
+- uid: OSLC4Net.ChangeManagement
+  commentId: N:OSLC4Net.ChangeManagement
+  href: OSLC4Net.html
+  name: OSLC4Net.ChangeManagement
+  nameWithType: OSLC4Net.ChangeManagement
+  fullName: OSLC4Net.ChangeManagement
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.ChangeManagement
+    name: ChangeManagement
+    href: OSLC4Net.ChangeManagement.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.ChangeManagement
+    name: ChangeManagement
+    href: OSLC4Net.ChangeManagement.html
+- uid: OSLC4Net.ChangeManagement.Type
+  commentId: T:OSLC4Net.ChangeManagement.Type
+  parent: OSLC4Net.ChangeManagement
+  href: OSLC4Net.ChangeManagement.Type.html
+  name: Type
+  nameWithType: Type
+  fullName: OSLC4Net.ChangeManagement.Type

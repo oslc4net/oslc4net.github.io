@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Client
+  commentId: N:OSLC4Net.Client
+  id: OSLC4Net.Client
+  children:
+  - OSLC4Net.Client.OslcResponse`1
+  - OSLC4Net.Client.OslcRestClient
+  - OSLC4Net.Client.ServiceProviderRegistryClient
+  - OSLC4Net.Client.ServiceProviderRegistryURIs
+  langs:
+  - csharp
+  - vb
+  name: OSLC4Net.Client
+  nameWithType: OSLC4Net.Client
+  fullName: OSLC4Net.Client
+  type: Namespace
+  assemblies:
+  - OSLC4Net.Client
+references:
+- uid: OSLC4Net.Client.OslcResponse`1
+  commentId: T:OSLC4Net.Client.OslcResponse`1
+  parent: OSLC4Net.Client
+  href: OSLC4Net.Client.OslcResponse-1.html
+  name: OslcResponse<T>
+  nameWithType: OslcResponse<T>
+  fullName: OSLC4Net.Client.OslcResponse<T>
+  nameWithType.vb: OslcResponse(Of T)
+  fullName.vb: OSLC4Net.Client.OslcResponse(Of T)
+  name.vb: OslcResponse(Of T)
+  spec.csharp:
+  - uid: OSLC4Net.Client.OslcResponse`1
+    name: OslcResponse
+    href: OSLC4Net.Client.OslcResponse-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: OSLC4Net.Client.OslcResponse`1
+    name: OslcResponse
+    href: OSLC4Net.Client.OslcResponse-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: OSLC4Net.Client.OslcRestClient
+  commentId: T:OSLC4Net.Client.OslcRestClient
+  href: OSLC4Net.Client.OslcRestClient.html
+  name: OslcRestClient
+  nameWithType: OslcRestClient
+  fullName: OSLC4Net.Client.OslcRestClient
+- uid: OSLC4Net.Client.ServiceProviderRegistryClient
+  commentId: T:OSLC4Net.Client.ServiceProviderRegistryClient
+  parent: OSLC4Net.Client
+  href: OSLC4Net.Client.ServiceProviderRegistryClient.html
+  name: ServiceProviderRegistryClient
+  nameWithType: ServiceProviderRegistryClient
+  fullName: OSLC4Net.Client.ServiceProviderRegistryClient
+- uid: OSLC4Net.Client.ServiceProviderRegistryURIs
+  commentId: T:OSLC4Net.Client.ServiceProviderRegistryURIs
+  href: OSLC4Net.Client.ServiceProviderRegistryURIs.html
+  name: ServiceProviderRegistryURIs
+  nameWithType: ServiceProviderRegistryURIs
+  fullName: OSLC4Net.Client.ServiceProviderRegistryURIs
+- uid: OSLC4Net.Client
+  commentId: N:OSLC4Net.Client
+  href: OSLC4Net.html
+  name: OSLC4Net.Client
+  nameWithType: OSLC4Net.Client
+  fullName: OSLC4Net.Client
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Client
+    name: Client
+    href: OSLC4Net.Client.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Client
+    name: Client
+    href: OSLC4Net.Client.html

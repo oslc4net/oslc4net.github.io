@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core
+  commentId: N:OSLC4Net.Core
+  id: OSLC4Net.Core
+  children:
+  - OSLC4Net.Core.NestedWildcardProperties
+  - OSLC4Net.Core.OSLC4NetConstants
+  - OSLC4Net.Core.SingletonWildcardProperties
+  langs:
+  - csharp
+  - vb
+  name: OSLC4Net.Core
+  nameWithType: OSLC4Net.Core
+  fullName: OSLC4Net.Core
+  type: Namespace
+  assemblies:
+  - OSLC4Net.Core
+references:
+- uid: OSLC4Net.Core.NestedWildcardProperties
+  commentId: T:OSLC4Net.Core.NestedWildcardProperties
+  href: OSLC4Net.Core.NestedWildcardProperties.html
+  name: NestedWildcardProperties
+  nameWithType: NestedWildcardProperties
+  fullName: OSLC4Net.Core.NestedWildcardProperties
+- uid: OSLC4Net.Core.OSLC4NetConstants
+  commentId: T:OSLC4Net.Core.OSLC4NetConstants
+  href: OSLC4Net.Core.OSLC4NetConstants.html
+  name: OSLC4NetConstants
+  nameWithType: OSLC4NetConstants
+  fullName: OSLC4Net.Core.OSLC4NetConstants
+- uid: OSLC4Net.Core.SingletonWildcardProperties
+  commentId: T:OSLC4Net.Core.SingletonWildcardProperties
+  href: OSLC4Net.Core.SingletonWildcardProperties.html
+  name: SingletonWildcardProperties
+  nameWithType: SingletonWildcardProperties
+  fullName: OSLC4Net.Core.SingletonWildcardProperties

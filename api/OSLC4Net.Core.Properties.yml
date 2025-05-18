@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Properties
+  commentId: N:OSLC4Net.Core.Properties
+  id: OSLC4Net.Core.Properties
+  children:
+  - OSLC4Net.Core.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: OSLC4Net.Core.Properties
+  nameWithType: OSLC4Net.Core.Properties
+  fullName: OSLC4Net.Core.Properties
+  type: Namespace
+  assemblies:
+  - OSLC4Net.Core
+references:
+- uid: OSLC4Net.Core.Properties.Resources
+  commentId: T:OSLC4Net.Core.Properties.Resources
+  href: OSLC4Net.Core.Properties.Resources.html
+  name: Resources
+  nameWithType: Resources
+  fullName: OSLC4Net.Core.Properties.Resources

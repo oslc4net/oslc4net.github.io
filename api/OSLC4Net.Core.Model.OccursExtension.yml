@@ -1,0 +1,448 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Model.OccursExtension
+  commentId: T:OSLC4Net.Core.Model.OccursExtension
+  id: OccursExtension
+  parent: OSLC4Net.Core.Model
+  children:
+  - OSLC4Net.Core.Model.OccursExtension.FromString(System.String)
+  - OSLC4Net.Core.Model.OccursExtension.FromURI(OSLC4Net.Core.Model.URI)
+  - OSLC4Net.Core.Model.OccursExtension.ToString(OSLC4Net.Core.Model.Occurs)
+  langs:
+  - csharp
+  - vb
+  name: OccursExtension
+  nameWithType: OccursExtension
+  fullName: OSLC4Net.Core.Model.OccursExtension
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Occurs.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OccursExtension
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Occurs.cs
+    startLine: 37
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static class OccursExtension
+    content.vb: Public Module OccursExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: OSLC4Net.Core.Model.OccursExtension.ToString(OSLC4Net.Core.Model.Occurs)
+  commentId: M:OSLC4Net.Core.Model.OccursExtension.ToString(OSLC4Net.Core.Model.Occurs)
+  id: ToString(OSLC4Net.Core.Model.Occurs)
+  parent: OSLC4Net.Core.Model.OccursExtension
+  langs:
+  - csharp
+  - vb
+  name: ToString(Occurs)
+  nameWithType: OccursExtension.ToString(Occurs)
+  fullName: OSLC4Net.Core.Model.OccursExtension.ToString(OSLC4Net.Core.Model.Occurs)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Occurs.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ToString
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Occurs.cs
+    startLine: 39
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static string ToString(Occurs occurs)
+    parameters:
+    - id: occurs
+      type: OSLC4Net.Core.Model.Occurs
+    return:
+      type: System.String
+    content.vb: Public Shared Function ToString(occurs As Occurs) As String
+  overload: OSLC4Net.Core.Model.OccursExtension.ToString*
+- uid: OSLC4Net.Core.Model.OccursExtension.FromString(System.String)
+  commentId: M:OSLC4Net.Core.Model.OccursExtension.FromString(System.String)
+  id: FromString(System.String)
+  parent: OSLC4Net.Core.Model.OccursExtension
+  langs:
+  - csharp
+  - vb
+  name: FromString(string)
+  nameWithType: OccursExtension.FromString(string)
+  fullName: OSLC4Net.Core.Model.OccursExtension.FromString(string)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Occurs.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: FromString
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Occurs.cs
+    startLine: 47
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static Occurs FromString(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: OSLC4Net.Core.Model.Occurs
+    content.vb: Public Shared Function FromString(value As String) As Occurs
+  overload: OSLC4Net.Core.Model.OccursExtension.FromString*
+  nameWithType.vb: OccursExtension.FromString(String)
+  fullName.vb: OSLC4Net.Core.Model.OccursExtension.FromString(String)
+  name.vb: FromString(String)
+- uid: OSLC4Net.Core.Model.OccursExtension.FromURI(OSLC4Net.Core.Model.URI)
+  commentId: M:OSLC4Net.Core.Model.OccursExtension.FromURI(OSLC4Net.Core.Model.URI)
+  id: FromURI(OSLC4Net.Core.Model.URI)
+  parent: OSLC4Net.Core.Model.OccursExtension
+  langs:
+  - csharp
+  - vb
+  name: FromURI(URI)
+  nameWithType: OccursExtension.FromURI(URI)
+  fullName: OSLC4Net.Core.Model.OccursExtension.FromURI(OSLC4Net.Core.Model.URI)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Occurs.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: FromURI
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Occurs.cs
+    startLine: 62
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static Occurs FromURI(URI uri)
+    parameters:
+    - id: uri
+      type: OSLC4Net.Core.Model.URI
+    return:
+      type: OSLC4Net.Core.Model.Occurs
+    content.vb: Public Shared Function FromURI(uri As URI) As Occurs
+  overload: OSLC4Net.Core.Model.OccursExtension.FromURI*
+references:
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OSLC4Net.Core.Model.OccursExtension.ToString*
+  commentId: Overload:OSLC4Net.Core.Model.OccursExtension.ToString
+  href: OSLC4Net.Core.Model.OccursExtension.html#OSLC4Net_Core_Model_OccursExtension_ToString_OSLC4Net_Core_Model_Occurs_
+  name: ToString
+  nameWithType: OccursExtension.ToString
+  fullName: OSLC4Net.Core.Model.OccursExtension.ToString
+- uid: OSLC4Net.Core.Model.Occurs
+  commentId: T:OSLC4Net.Core.Model.Occurs
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.Occurs.html
+  name: Occurs
+  nameWithType: Occurs
+  fullName: OSLC4Net.Core.Model.Occurs
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: OSLC4Net.Core.Model.OccursExtension.FromString*
+  commentId: Overload:OSLC4Net.Core.Model.OccursExtension.FromString
+  href: OSLC4Net.Core.Model.OccursExtension.html#OSLC4Net_Core_Model_OccursExtension_FromString_System_String_
+  name: FromString
+  nameWithType: OccursExtension.FromString
+  fullName: OSLC4Net.Core.Model.OccursExtension.FromString
+- uid: OSLC4Net.Core.Model.OccursExtension.FromURI*
+  commentId: Overload:OSLC4Net.Core.Model.OccursExtension.FromURI
+  href: OSLC4Net.Core.Model.OccursExtension.html#OSLC4Net_Core_Model_OccursExtension_FromURI_OSLC4Net_Core_Model_URI_
+  name: FromURI
+  nameWithType: OccursExtension.FromURI
+  fullName: OSLC4Net.Core.Model.OccursExtension.FromURI
+- uid: OSLC4Net.Core.Model.URI
+  commentId: T:OSLC4Net.Core.Model.URI
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.URI.html
+  name: URI
+  nameWithType: URI
+  fullName: OSLC4Net.Core.Model.URI

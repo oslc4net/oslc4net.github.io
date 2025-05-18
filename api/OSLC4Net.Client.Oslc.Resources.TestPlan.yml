@@ -1,0 +1,2268 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan
+  commentId: T:OSLC4Net.Client.Oslc.Resources.TestPlan
+  id: TestPlan
+  parent: OSLC4Net.Client.Oslc.Resources
+  children:
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.#ctor
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.AddContributor(System.Uri)
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.AddCreator(System.Uri)
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.AddRelatedChangeRequest(OSLC4Net.Core.Model.Link)
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.AddSubject(System.String)
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.AddUsesTestCase(OSLC4Net.Core.Model.Link)
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.AddValidatesRequirementCollection(OSLC4Net.Core.Model.Link)
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.GetContributors
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.GetCreators
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.GetDescription
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.GetRdfType
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.GetRelatedChangeRequests
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.GetSubjects
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.GetUsesTestCases
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.GetValidatesRequirementCollections
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.SetContributors(System.Uri[])
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.SetCreators(System.Uri[])
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.SetDescription(System.String)
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.SetRelatedChangeRequests(OSLC4Net.Core.Model.Link[])
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.SetSubjects(System.String[])
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.SetUsesTestCases(OSLC4Net.Core.Model.Link[])
+  - OSLC4Net.Client.Oslc.Resources.TestPlan.SetValidatesRequirementCollections(OSLC4Net.Core.Model.Link[])
+  langs:
+  - csharp
+  - vb
+  name: TestPlan
+  nameWithType: TestPlan
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: TestPlan
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 24
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  summary: http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestPlan
+  example: []
+  syntax:
+    content: >-
+      [OslcNamespace("http://open-services.net/ns/qm#")]
+
+      public class TestPlan : QmResource, IExtendedResource, IResource
+    content.vb: >-
+      <OslcNamespace("http://open-services.net/ns/qm#")>
+
+      Public Class TestPlan Inherits QmResource Implements IExtendedResource, IResource
+  inheritance:
+  - System.Object
+  - OSLC4Net.Core.Model.AbstractResource
+  - OSLC4Net.Client.Oslc.Resources.QmResource
+  implements:
+  - OSLC4Net.Core.Model.IExtendedResource
+  - OSLC4Net.Core.Model.IResource
+  inheritedMembers:
+  - OSLC4Net.Client.Oslc.Resources.QmResource.AddRdfType(System.Uri)
+  - OSLC4Net.Client.Oslc.Resources.QmResource.GetCreated
+  - OSLC4Net.Client.Oslc.Resources.QmResource.GetIdentifier
+  - OSLC4Net.Client.Oslc.Resources.QmResource.GetInstanceShape
+  - OSLC4Net.Client.Oslc.Resources.QmResource.GetModified
+  - OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfTypes
+  - OSLC4Net.Client.Oslc.Resources.QmResource.GetServiceProvider
+  - OSLC4Net.Client.Oslc.Resources.QmResource.GetTitle
+  - OSLC4Net.Client.Oslc.Resources.QmResource.SetCreated(System.Nullable{System.DateTime})
+  - OSLC4Net.Client.Oslc.Resources.QmResource.SetIdentifier(System.String)
+  - OSLC4Net.Client.Oslc.Resources.QmResource.SetInstanceShape(System.Uri)
+  - OSLC4Net.Client.Oslc.Resources.QmResource.SetModified(System.Nullable{System.DateTime})
+  - OSLC4Net.Client.Oslc.Resources.QmResource.SetRdfTypes(System.Uri[])
+  - OSLC4Net.Client.Oslc.Resources.QmResource.SetServiceProvider(System.Uri)
+  - OSLC4Net.Client.Oslc.Resources.QmResource.SetTitle(System.String)
+  - OSLC4Net.Core.Model.AbstractResource.About
+  - OSLC4Net.Core.Model.AbstractResource.GetAbout
+  - OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+  - OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+  - OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties
+  - OSLC4Net.Core.Model.AbstractResource.GetTypes
+  - OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+  - OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcNamespace
+    ctor: OSLC4Net.Core.Attribute.OslcNamespace.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/qm#
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.#ctor
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.#ctor
+  id: '#ctor'
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: TestPlan()
+  nameWithType: TestPlan.TestPlan()
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.TestPlan()
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 38
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public TestPlan()
+    content.vb: Public Sub New()
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.#ctor*
+  nameWithType.vb: TestPlan.New()
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.TestPlan.New()
+  name.vb: New()
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.GetRdfType
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.GetRdfType
+  id: GetRdfType
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: GetRdfType()
+  nameWithType: TestPlan.GetRdfType()
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.GetRdfType()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetRdfType
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 42
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  example: []
+  syntax:
+    content: protected override Uri GetRdfType()
+    return:
+      type: System.Uri
+    content.vb: Protected Overrides Function GetRdfType() As Uri
+  overridden: OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfType
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.GetRdfType*
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.AddContributor(System.Uri)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.AddContributor(System.Uri)
+  id: AddContributor(System.Uri)
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: AddContributor(Uri)
+  nameWithType: TestPlan.AddContributor(Uri)
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.AddContributor(System.Uri)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AddContributor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 47
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void AddContributor(Uri contributor)
+    parameters:
+    - id: contributor
+      type: System.Uri
+    content.vb: Public Sub AddContributor(contributor As Uri)
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.AddContributor*
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.AddCreator(System.Uri)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.AddCreator(System.Uri)
+  id: AddCreator(System.Uri)
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: AddCreator(Uri)
+  nameWithType: TestPlan.AddCreator(Uri)
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.AddCreator(System.Uri)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AddCreator
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 52
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void AddCreator(Uri creator)
+    parameters:
+    - id: creator
+      type: System.Uri
+    content.vb: Public Sub AddCreator(creator As Uri)
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.AddCreator*
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.AddRelatedChangeRequest(OSLC4Net.Core.Model.Link)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.AddRelatedChangeRequest(OSLC4Net.Core.Model.Link)
+  id: AddRelatedChangeRequest(OSLC4Net.Core.Model.Link)
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: AddRelatedChangeRequest(Link)
+  nameWithType: TestPlan.AddRelatedChangeRequest(Link)
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.AddRelatedChangeRequest(OSLC4Net.Core.Model.Link)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AddRelatedChangeRequest
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 57
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void AddRelatedChangeRequest(Link relatedChangeRequest)
+    parameters:
+    - id: relatedChangeRequest
+      type: OSLC4Net.Core.Model.Link
+    content.vb: Public Sub AddRelatedChangeRequest(relatedChangeRequest As Link)
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.AddRelatedChangeRequest*
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.AddSubject(System.String)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.AddSubject(System.String)
+  id: AddSubject(System.String)
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: AddSubject(string)
+  nameWithType: TestPlan.AddSubject(string)
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.AddSubject(string)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AddSubject
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 62
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void AddSubject(string subject)
+    parameters:
+    - id: subject
+      type: System.String
+    content.vb: Public Sub AddSubject(subject As String)
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.AddSubject*
+  nameWithType.vb: TestPlan.AddSubject(String)
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.TestPlan.AddSubject(String)
+  name.vb: AddSubject(String)
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.AddUsesTestCase(OSLC4Net.Core.Model.Link)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.AddUsesTestCase(OSLC4Net.Core.Model.Link)
+  id: AddUsesTestCase(OSLC4Net.Core.Model.Link)
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: AddUsesTestCase(Link)
+  nameWithType: TestPlan.AddUsesTestCase(Link)
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.AddUsesTestCase(OSLC4Net.Core.Model.Link)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AddUsesTestCase
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 67
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void AddUsesTestCase(Link testcase)
+    parameters:
+    - id: testcase
+      type: OSLC4Net.Core.Model.Link
+    content.vb: Public Sub AddUsesTestCase(testcase As Link)
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.AddUsesTestCase*
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.AddValidatesRequirementCollection(OSLC4Net.Core.Model.Link)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.AddValidatesRequirementCollection(OSLC4Net.Core.Model.Link)
+  id: AddValidatesRequirementCollection(OSLC4Net.Core.Model.Link)
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: AddValidatesRequirementCollection(Link)
+  nameWithType: TestPlan.AddValidatesRequirementCollection(Link)
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.AddValidatesRequirementCollection(OSLC4Net.Core.Model.Link)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AddValidatesRequirementCollection
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 72
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void AddValidatesRequirementCollection(Link requirementCollection)
+    parameters:
+    - id: requirementCollection
+      type: OSLC4Net.Core.Model.Link
+    content.vb: Public Sub AddValidatesRequirementCollection(requirementCollection As Link)
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.AddValidatesRequirementCollection*
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.GetContributors
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.GetContributors
+  id: GetContributors
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: GetContributors()
+  nameWithType: TestPlan.GetContributors()
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.GetContributors()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetContributors
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 77
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: >-
+      [OslcDescription("The person(s) who are responsible for the work needed to complete the change request.")]
+
+      [OslcName("contributor")]
+
+      [OslcPropertyDefinition("http://purl.org/dc/terms/contributor")]
+
+      [OslcRange(new string[] { "http://xmlns.com/foaf/0.1/Person" })]
+
+      [OslcTitle("Contributors")]
+
+      public Uri[] GetContributors()
+    return:
+      type: System.Uri[]
+    content.vb: >-
+      <OslcDescription("The person(s) who are responsible for the work needed to complete the change request.")>
+
+      <OslcName("contributor")>
+
+      <OslcPropertyDefinition("http://purl.org/dc/terms/contributor")>
+
+      <OslcRange(New String() { "http://xmlns.com/foaf/0.1/Person" })>
+
+      <OslcTitle("Contributors")>
+
+      Public Function GetContributors() As Uri()
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.GetContributors*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: The person(s) who are responsible for the work needed to complete the change request.
+  - type: OSLC4Net.Core.Attribute.OslcName
+    ctor: OSLC4Net.Core.Attribute.OslcName.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: contributor
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://purl.org/dc/terms/contributor
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Contributors
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.GetCreators
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.GetCreators
+  id: GetCreators
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: GetCreators()
+  nameWithType: TestPlan.GetCreators()
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.GetCreators()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetCreators
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 87
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: >-
+      [OslcDescription("Creator or creators of resource.")]
+
+      [OslcName("creator")]
+
+      [OslcPropertyDefinition("http://purl.org/dc/terms/creator")]
+
+      [OslcRange(new string[] { "http://xmlns.com/foaf/0.1/Person" })]
+
+      [OslcTitle("Creators")]
+
+      public Uri[] GetCreators()
+    return:
+      type: System.Uri[]
+    content.vb: >-
+      <OslcDescription("Creator or creators of resource.")>
+
+      <OslcName("creator")>
+
+      <OslcPropertyDefinition("http://purl.org/dc/terms/creator")>
+
+      <OslcRange(New String() { "http://xmlns.com/foaf/0.1/Person" })>
+
+      <OslcTitle("Creators")>
+
+      Public Function GetCreators() As Uri()
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.GetCreators*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Creator or creators of resource.
+  - type: OSLC4Net.Core.Attribute.OslcName
+    ctor: OSLC4Net.Core.Attribute.OslcName.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: creator
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://purl.org/dc/terms/creator
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Creators
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.GetDescription
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.GetDescription
+  id: GetDescription
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: GetDescription()
+  nameWithType: TestPlan.GetDescription()
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.GetDescription()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetDescription
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 97
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: >-
+      [OslcDescription("Descriptive text (reference: Dublin Core) about resource represented as rich text in XHTML content.")]
+
+      [OslcPropertyDefinition("http://purl.org/dc/terms/description")]
+
+      [OslcTitle("Description")]
+
+      [OslcValueType(ValueType.XMLLiteral)]
+
+      public string GetDescription()
+    return:
+      type: System.String
+    content.vb: >-
+      <OslcDescription("Descriptive text (reference: Dublin Core) about resource represented as rich text in XHTML content.")>
+
+      <OslcPropertyDefinition("http://purl.org/dc/terms/description")>
+
+      <OslcTitle("Description")>
+
+      <OslcValueType(ValueType.XMLLiteral)>
+
+      Public Function GetDescription() As String
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.GetDescription*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 'Descriptive text (reference: Dublin Core) about resource represented as rich text in XHTML content.'
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://purl.org/dc/terms/description
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Description
+  - type: OSLC4Net.Core.Attribute.OslcValueType
+    ctor: OSLC4Net.Core.Attribute.OslcValueType.#ctor(OSLC4Net.Core.Model.ValueType)
+    arguments:
+    - type: OSLC4Net.Core.Model.ValueType
+      value: 7
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.GetRelatedChangeRequests
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.GetRelatedChangeRequests
+  id: GetRelatedChangeRequests
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: GetRelatedChangeRequests()
+  nameWithType: TestPlan.GetRelatedChangeRequests()
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.GetRelatedChangeRequests()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetRelatedChangeRequests
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 107
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: >-
+      [OslcDescription("A related change request.")]
+
+      [OslcName("relatedChangeRequest")]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/qm#relatedChangeRequest")]
+
+      [OslcRange(new string[] { "http://open-services.net/ns/cm#ChangeRequest" })]
+
+      [OslcReadOnly(false)]
+
+      [OslcTitle("Related Change Requests")]
+
+      public Link[] GetRelatedChangeRequests()
+    return:
+      type: OSLC4Net.Core.Model.Link[]
+    content.vb: >-
+      <OslcDescription("A related change request.")>
+
+      <OslcName("relatedChangeRequest")>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/qm#relatedChangeRequest")>
+
+      <OslcRange(New String() { "http://open-services.net/ns/cm#ChangeRequest" })>
+
+      <OslcReadOnly(False)>
+
+      <OslcTitle("Related Change Requests")>
+
+      Public Function GetRelatedChangeRequests() As Link()
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.GetRelatedChangeRequests*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: A related change request.
+  - type: OSLC4Net.Core.Attribute.OslcName
+    ctor: OSLC4Net.Core.Attribute.OslcName.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: relatedChangeRequest
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/qm#relatedChangeRequest
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: false
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Related Change Requests
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.GetSubjects
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.GetSubjects
+  id: GetSubjects
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: GetSubjects()
+  nameWithType: TestPlan.GetSubjects()
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.GetSubjects()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetSubjects
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 118
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: >-
+      [OslcDescription("Tag or keyword for a resource. Each occurrence of a dcterms:subject property denotes an additional tag for the resource.")]
+
+      [OslcName("subject")]
+
+      [OslcPropertyDefinition("http://purl.org/dc/terms/subject")]
+
+      [OslcReadOnly(false)]
+
+      [OslcTitle("Subjects")]
+
+      public string[] GetSubjects()
+    return:
+      type: System.String[]
+    content.vb: >-
+      <OslcDescription("Tag or keyword for a resource. Each occurrence of a dcterms:subject property denotes an additional tag for the resource.")>
+
+      <OslcName("subject")>
+
+      <OslcPropertyDefinition("http://purl.org/dc/terms/subject")>
+
+      <OslcReadOnly(False)>
+
+      <OslcTitle("Subjects")>
+
+      Public Function GetSubjects() As String()
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.GetSubjects*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Tag or keyword for a resource. Each occurrence of a dcterms:subject property denotes an additional tag for the resource.
+  - type: OSLC4Net.Core.Attribute.OslcName
+    ctor: OSLC4Net.Core.Attribute.OslcName.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: subject
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://purl.org/dc/terms/subject
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: false
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Subjects
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.GetUsesTestCases
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.GetUsesTestCases
+  id: GetUsesTestCases
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: GetUsesTestCases()
+  nameWithType: TestPlan.GetUsesTestCases()
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.GetUsesTestCases()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetUsesTestCases
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 129
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: >-
+      [OslcDescription("Test Case used by the Test Plan.")]
+
+      [OslcName("usesTestCase")]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/qm#usesTestCase")]
+
+      [OslcRange(new string[] { "http://open-services.net/ns/qm#TestCase" })]
+
+      [OslcReadOnly(false)]
+
+      [OslcTitle("Uses Test Case")]
+
+      public Link[] GetUsesTestCases()
+    return:
+      type: OSLC4Net.Core.Model.Link[]
+    content.vb: >-
+      <OslcDescription("Test Case used by the Test Plan.")>
+
+      <OslcName("usesTestCase")>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/qm#usesTestCase")>
+
+      <OslcRange(New String() { "http://open-services.net/ns/qm#TestCase" })>
+
+      <OslcReadOnly(False)>
+
+      <OslcTitle("Uses Test Case")>
+
+      Public Function GetUsesTestCases() As Link()
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.GetUsesTestCases*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Test Case used by the Test Plan.
+  - type: OSLC4Net.Core.Attribute.OslcName
+    ctor: OSLC4Net.Core.Attribute.OslcName.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: usesTestCase
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/qm#usesTestCase
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: false
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Uses Test Case
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.GetValidatesRequirementCollections
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.GetValidatesRequirementCollections
+  id: GetValidatesRequirementCollections
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: GetValidatesRequirementCollections()
+  nameWithType: TestPlan.GetValidatesRequirementCollections()
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.GetValidatesRequirementCollections()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetValidatesRequirementCollections
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 140
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: >-
+      [OslcDescription("Requirement Collection that is validated by the Test Plan.")]
+
+      [OslcName("validatesRequirementCollection")]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/qm#validatesRequirementCollection")]
+
+      [OslcRange(new string[] { "http://open-services.net/ns/rm#RequirementCollection" })]
+
+      [OslcReadOnly(false)]
+
+      [OslcTitle("Validates Requirement Collection")]
+
+      public Link[] GetValidatesRequirementCollections()
+    return:
+      type: OSLC4Net.Core.Model.Link[]
+    content.vb: >-
+      <OslcDescription("Requirement Collection that is validated by the Test Plan.")>
+
+      <OslcName("validatesRequirementCollection")>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/qm#validatesRequirementCollection")>
+
+      <OslcRange(New String() { "http://open-services.net/ns/rm#RequirementCollection" })>
+
+      <OslcReadOnly(False)>
+
+      <OslcTitle("Validates Requirement Collection")>
+
+      Public Function GetValidatesRequirementCollections() As Link()
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.GetValidatesRequirementCollections*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Requirement Collection that is validated by the Test Plan.
+  - type: OSLC4Net.Core.Attribute.OslcName
+    ctor: OSLC4Net.Core.Attribute.OslcName.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: validatesRequirementCollection
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/qm#validatesRequirementCollection
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: false
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Validates Requirement Collection
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.SetContributors(System.Uri[])
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.SetContributors(System.Uri[])
+  id: SetContributors(System.Uri[])
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: SetContributors(Uri[])
+  nameWithType: TestPlan.SetContributors(Uri[])
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.SetContributors(System.Uri[])
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetContributors
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 151
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void SetContributors(Uri[] contributors)
+    parameters:
+    - id: contributors
+      type: System.Uri[]
+    content.vb: Public Sub SetContributors(contributors As Uri())
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.SetContributors*
+  nameWithType.vb: TestPlan.SetContributors(Uri())
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.TestPlan.SetContributors(System.Uri())
+  name.vb: SetContributors(Uri())
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.SetCreators(System.Uri[])
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.SetCreators(System.Uri[])
+  id: SetCreators(System.Uri[])
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: SetCreators(Uri[])
+  nameWithType: TestPlan.SetCreators(Uri[])
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.SetCreators(System.Uri[])
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetCreators
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 158
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void SetCreators(Uri[] creators)
+    parameters:
+    - id: creators
+      type: System.Uri[]
+    content.vb: Public Sub SetCreators(creators As Uri())
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.SetCreators*
+  nameWithType.vb: TestPlan.SetCreators(Uri())
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.TestPlan.SetCreators(System.Uri())
+  name.vb: SetCreators(Uri())
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.SetDescription(System.String)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.SetDescription(System.String)
+  id: SetDescription(System.String)
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: SetDescription(string)
+  nameWithType: TestPlan.SetDescription(string)
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.SetDescription(string)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetDescription
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 165
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void SetDescription(string description)
+    parameters:
+    - id: description
+      type: System.String
+    content.vb: Public Sub SetDescription(description As String)
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.SetDescription*
+  nameWithType.vb: TestPlan.SetDescription(String)
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.TestPlan.SetDescription(String)
+  name.vb: SetDescription(String)
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.SetRelatedChangeRequests(OSLC4Net.Core.Model.Link[])
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.SetRelatedChangeRequests(OSLC4Net.Core.Model.Link[])
+  id: SetRelatedChangeRequests(OSLC4Net.Core.Model.Link[])
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: SetRelatedChangeRequests(Link[])
+  nameWithType: TestPlan.SetRelatedChangeRequests(Link[])
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.SetRelatedChangeRequests(OSLC4Net.Core.Model.Link[])
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetRelatedChangeRequests
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 170
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void SetRelatedChangeRequests(Link[] relatedChangeRequests)
+    parameters:
+    - id: relatedChangeRequests
+      type: OSLC4Net.Core.Model.Link[]
+    content.vb: Public Sub SetRelatedChangeRequests(relatedChangeRequests As Link())
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.SetRelatedChangeRequests*
+  nameWithType.vb: TestPlan.SetRelatedChangeRequests(Link())
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.TestPlan.SetRelatedChangeRequests(OSLC4Net.Core.Model.Link())
+  name.vb: SetRelatedChangeRequests(Link())
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.SetSubjects(System.String[])
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.SetSubjects(System.String[])
+  id: SetSubjects(System.String[])
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: SetSubjects(string[])
+  nameWithType: TestPlan.SetSubjects(string[])
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.SetSubjects(string[])
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetSubjects
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 177
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void SetSubjects(string[] subjects)
+    parameters:
+    - id: subjects
+      type: System.String[]
+    content.vb: Public Sub SetSubjects(subjects As String())
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.SetSubjects*
+  nameWithType.vb: TestPlan.SetSubjects(String())
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.TestPlan.SetSubjects(String())
+  name.vb: SetSubjects(String())
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.SetUsesTestCases(OSLC4Net.Core.Model.Link[])
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.SetUsesTestCases(OSLC4Net.Core.Model.Link[])
+  id: SetUsesTestCases(OSLC4Net.Core.Model.Link[])
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: SetUsesTestCases(Link[])
+  nameWithType: TestPlan.SetUsesTestCases(Link[])
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.SetUsesTestCases(OSLC4Net.Core.Model.Link[])
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetUsesTestCases
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 184
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void SetUsesTestCases(Link[] usesTestCases)
+    parameters:
+    - id: usesTestCases
+      type: OSLC4Net.Core.Model.Link[]
+    content.vb: Public Sub SetUsesTestCases(usesTestCases As Link())
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.SetUsesTestCases*
+  nameWithType.vb: TestPlan.SetUsesTestCases(Link())
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.TestPlan.SetUsesTestCases(OSLC4Net.Core.Model.Link())
+  name.vb: SetUsesTestCases(Link())
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.SetValidatesRequirementCollections(OSLC4Net.Core.Model.Link[])
+  commentId: M:OSLC4Net.Client.Oslc.Resources.TestPlan.SetValidatesRequirementCollections(OSLC4Net.Core.Model.Link[])
+  id: SetValidatesRequirementCollections(OSLC4Net.Core.Model.Link[])
+  parent: OSLC4Net.Client.Oslc.Resources.TestPlan
+  langs:
+  - csharp
+  - vb
+  name: SetValidatesRequirementCollections(Link[])
+  nameWithType: TestPlan.SetValidatesRequirementCollections(Link[])
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.SetValidatesRequirementCollections(OSLC4Net.Core.Model.Link[])
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetValidatesRequirementCollections
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestPlan.cs
+    startLine: 191
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client.Oslc.Resources
+  syntax:
+    content: public void SetValidatesRequirementCollections(Link[] validatesRequirementCollections)
+    parameters:
+    - id: validatesRequirementCollections
+      type: OSLC4Net.Core.Model.Link[]
+    content.vb: Public Sub SetValidatesRequirementCollections(validatesRequirementCollections As Link())
+  overload: OSLC4Net.Client.Oslc.Resources.TestPlan.SetValidatesRequirementCollections*
+  nameWithType.vb: TestPlan.SetValidatesRequirementCollections(Link())
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.TestPlan.SetValidatesRequirementCollections(OSLC4Net.Core.Model.Link())
+  name.vb: SetValidatesRequirementCollections(Link())
+references:
+- uid: OSLC4Net.Client.Oslc.Resources
+  commentId: N:OSLC4Net.Client.Oslc.Resources
+  href: OSLC4Net.html
+  name: OSLC4Net.Client.Oslc.Resources
+  nameWithType: OSLC4Net.Client.Oslc.Resources
+  fullName: OSLC4Net.Client.Oslc.Resources
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Client
+    name: Client
+    href: OSLC4Net.Client.html
+  - name: .
+  - uid: OSLC4Net.Client.Oslc
+    name: Oslc
+    href: OSLC4Net.Client.Oslc.html
+  - name: .
+  - uid: OSLC4Net.Client.Oslc.Resources
+    name: Resources
+    href: OSLC4Net.Client.Oslc.Resources.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Client
+    name: Client
+    href: OSLC4Net.Client.html
+  - name: .
+  - uid: OSLC4Net.Client.Oslc
+    name: Oslc
+    href: OSLC4Net.Client.Oslc.html
+  - name: .
+  - uid: OSLC4Net.Client.Oslc.Resources
+    name: Resources
+    href: OSLC4Net.Client.Oslc.Resources.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: OSLC4Net.Core.Model.AbstractResource
+  commentId: T:OSLC4Net.Core.Model.AbstractResource
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.AbstractResource.html
+  name: AbstractResource
+  nameWithType: AbstractResource
+  fullName: OSLC4Net.Core.Model.AbstractResource
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource
+  commentId: T:OSLC4Net.Client.Oslc.Resources.QmResource
+  parent: OSLC4Net.Client.Oslc.Resources
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html
+  name: QmResource
+  nameWithType: QmResource
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource
+- uid: OSLC4Net.Core.Model.IExtendedResource
+  commentId: T:OSLC4Net.Core.Model.IExtendedResource
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.IExtendedResource.html
+  name: IExtendedResource
+  nameWithType: IExtendedResource
+  fullName: OSLC4Net.Core.Model.IExtendedResource
+- uid: OSLC4Net.Core.Model.IResource
+  commentId: T:OSLC4Net.Core.Model.IResource
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.IResource.html
+  name: IResource
+  nameWithType: IResource
+  fullName: OSLC4Net.Core.Model.IResource
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.AddRdfType(System.Uri)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.AddRdfType(System.Uri)
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  isExternal: true
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_AddRdfType_System_Uri_
+  name: AddRdfType(Uri)
+  nameWithType: QmResource.AddRdfType(Uri)
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.AddRdfType(System.Uri)
+  spec.csharp:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.AddRdfType(System.Uri)
+    name: AddRdfType
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_AddRdfType_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.AddRdfType(System.Uri)
+    name: AddRdfType
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_AddRdfType_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetCreated
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.GetCreated
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetCreated
+  name: GetCreated()
+  nameWithType: QmResource.GetCreated()
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetCreated()
+  spec.csharp:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetCreated
+    name: GetCreated
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetCreated
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetCreated
+    name: GetCreated
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetCreated
+  - name: (
+  - name: )
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetIdentifier
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.GetIdentifier
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetIdentifier
+  name: GetIdentifier()
+  nameWithType: QmResource.GetIdentifier()
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetIdentifier()
+  spec.csharp:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetIdentifier
+    name: GetIdentifier
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetIdentifier
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetIdentifier
+    name: GetIdentifier
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetIdentifier
+  - name: (
+  - name: )
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetInstanceShape
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.GetInstanceShape
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetInstanceShape
+  name: GetInstanceShape()
+  nameWithType: QmResource.GetInstanceShape()
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetInstanceShape()
+  spec.csharp:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetInstanceShape
+    name: GetInstanceShape
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetInstanceShape
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetInstanceShape
+    name: GetInstanceShape
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetInstanceShape
+  - name: (
+  - name: )
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetModified
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.GetModified
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetModified
+  name: GetModified()
+  nameWithType: QmResource.GetModified()
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetModified()
+  spec.csharp:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetModified
+    name: GetModified
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetModified
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetModified
+    name: GetModified
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetModified
+  - name: (
+  - name: )
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfTypes
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfTypes
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetRdfTypes
+  name: GetRdfTypes()
+  nameWithType: QmResource.GetRdfTypes()
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfTypes()
+  spec.csharp:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfTypes
+    name: GetRdfTypes
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetRdfTypes
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfTypes
+    name: GetRdfTypes
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetRdfTypes
+  - name: (
+  - name: )
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetServiceProvider
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.GetServiceProvider
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetServiceProvider
+  name: GetServiceProvider()
+  nameWithType: QmResource.GetServiceProvider()
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetServiceProvider()
+  spec.csharp:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetServiceProvider
+    name: GetServiceProvider
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetServiceProvider
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetServiceProvider
+    name: GetServiceProvider
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetServiceProvider
+  - name: (
+  - name: )
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetTitle
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.GetTitle
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetTitle
+  name: GetTitle()
+  nameWithType: QmResource.GetTitle()
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetTitle()
+  spec.csharp:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetTitle
+    name: GetTitle
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetTitle
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetTitle
+    name: GetTitle
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetTitle
+  - name: (
+  - name: )
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetCreated(System.Nullable{System.DateTime})
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.SetCreated(System.Nullable{System.DateTime})
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  isExternal: true
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetCreated_System_Nullable_System_DateTime__
+  name: SetCreated(DateTime?)
+  nameWithType: QmResource.SetCreated(DateTime?)
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetCreated(System.DateTime?)
+  nameWithType.vb: QmResource.SetCreated(Date?)
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.QmResource.SetCreated(Date?)
+  name.vb: SetCreated(Date?)
+  spec.csharp:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetCreated(System.Nullable{System.DateTime})
+    name: SetCreated
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetCreated_System_Nullable_System_DateTime__
+  - name: (
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetCreated(System.Nullable{System.DateTime})
+    name: SetCreated
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetCreated_System_Nullable_System_DateTime__
+  - name: (
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '?'
+  - name: )
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetIdentifier(System.String)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.SetIdentifier(System.String)
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  isExternal: true
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetIdentifier_System_String_
+  name: SetIdentifier(string)
+  nameWithType: QmResource.SetIdentifier(string)
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetIdentifier(string)
+  nameWithType.vb: QmResource.SetIdentifier(String)
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.QmResource.SetIdentifier(String)
+  name.vb: SetIdentifier(String)
+  spec.csharp:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetIdentifier(System.String)
+    name: SetIdentifier
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetIdentifier_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetIdentifier(System.String)
+    name: SetIdentifier
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetIdentifier_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetInstanceShape(System.Uri)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.SetInstanceShape(System.Uri)
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  isExternal: true
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetInstanceShape_System_Uri_
+  name: SetInstanceShape(Uri)
+  nameWithType: QmResource.SetInstanceShape(Uri)
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetInstanceShape(System.Uri)
+  spec.csharp:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetInstanceShape(System.Uri)
+    name: SetInstanceShape
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetInstanceShape_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetInstanceShape(System.Uri)
+    name: SetInstanceShape
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetInstanceShape_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetModified(System.Nullable{System.DateTime})
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.SetModified(System.Nullable{System.DateTime})
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  isExternal: true
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetModified_System_Nullable_System_DateTime__
+  name: SetModified(DateTime?)
+  nameWithType: QmResource.SetModified(DateTime?)
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetModified(System.DateTime?)
+  nameWithType.vb: QmResource.SetModified(Date?)
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.QmResource.SetModified(Date?)
+  name.vb: SetModified(Date?)
+  spec.csharp:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetModified(System.Nullable{System.DateTime})
+    name: SetModified
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetModified_System_Nullable_System_DateTime__
+  - name: (
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetModified(System.Nullable{System.DateTime})
+    name: SetModified
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetModified_System_Nullable_System_DateTime__
+  - name: (
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '?'
+  - name: )
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetRdfTypes(System.Uri[])
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.SetRdfTypes(System.Uri[])
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  isExternal: true
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetRdfTypes_System_Uri___
+  name: SetRdfTypes(Uri[])
+  nameWithType: QmResource.SetRdfTypes(Uri[])
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetRdfTypes(System.Uri[])
+  nameWithType.vb: QmResource.SetRdfTypes(Uri())
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.QmResource.SetRdfTypes(System.Uri())
+  name.vb: SetRdfTypes(Uri())
+  spec.csharp:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetRdfTypes(System.Uri[])
+    name: SetRdfTypes
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetRdfTypes_System_Uri___
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetRdfTypes(System.Uri[])
+    name: SetRdfTypes
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetRdfTypes_System_Uri___
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: (
+  - name: )
+  - name: )
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetServiceProvider(System.Uri)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.SetServiceProvider(System.Uri)
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  isExternal: true
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetServiceProvider_System_Uri_
+  name: SetServiceProvider(Uri)
+  nameWithType: QmResource.SetServiceProvider(Uri)
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetServiceProvider(System.Uri)
+  spec.csharp:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetServiceProvider(System.Uri)
+    name: SetServiceProvider
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetServiceProvider_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetServiceProvider(System.Uri)
+    name: SetServiceProvider
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetServiceProvider_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetTitle(System.String)
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.SetTitle(System.String)
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  isExternal: true
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetTitle_System_String_
+  name: SetTitle(string)
+  nameWithType: QmResource.SetTitle(string)
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.SetTitle(string)
+  nameWithType.vb: QmResource.SetTitle(String)
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.QmResource.SetTitle(String)
+  name.vb: SetTitle(String)
+  spec.csharp:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetTitle(System.String)
+    name: SetTitle
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetTitle_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.SetTitle(System.String)
+    name: SetTitle
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetTitle_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.About
+  commentId: P:OSLC4Net.Core.Model.AbstractResource.About
+  parent: OSLC4Net.Core.Model.AbstractResource
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_About
+  name: About
+  nameWithType: AbstractResource.About
+  fullName: OSLC4Net.Core.Model.AbstractResource.About
+- uid: OSLC4Net.Core.Model.AbstractResource.GetAbout
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.GetAbout
+  parent: OSLC4Net.Core.Model.AbstractResource
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetAbout
+  name: GetAbout()
+  nameWithType: AbstractResource.GetAbout()
+  fullName: OSLC4Net.Core.Model.AbstractResource.GetAbout()
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetAbout
+    name: GetAbout
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetAbout
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetAbout
+    name: GetAbout
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetAbout
+  - name: (
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+  parent: OSLC4Net.Core.Model.AbstractResource
+  isExternal: true
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetAbout_System_Uri_
+  name: SetAbout(Uri)
+  nameWithType: AbstractResource.SetAbout(Uri)
+  fullName: OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+    name: SetAbout
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetAbout_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+    name: SetAbout
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetAbout_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+  parent: OSLC4Net.Core.Model.AbstractResource
+  isExternal: true
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__
+  name: SetExtendedProperties(IDictionary<QName, object>)
+  nameWithType: AbstractResource.SetExtendedProperties(IDictionary<QName, object>)
+  fullName: OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary<OSLC4Net.Core.Model.QName, object>)
+  nameWithType.vb: AbstractResource.SetExtendedProperties(IDictionary(Of QName, Object))
+  fullName.vb: OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary(Of OSLC4Net.Core.Model.QName, Object))
+  name.vb: SetExtendedProperties(IDictionary(Of QName, Object))
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+    name: SetExtendedProperties
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__
+  - name: (
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - uid: OSLC4Net.Core.Model.QName
+    name: QName
+    href: OSLC4Net.Core.Model.QName.html
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+    name: SetExtendedProperties
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__
+  - name: (
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: OSLC4Net.Core.Model.QName
+    name: QName
+    href: OSLC4Net.Core.Model.QName.html
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties
+  parent: OSLC4Net.Core.Model.AbstractResource
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetExtendedProperties
+  name: GetExtendedProperties()
+  nameWithType: AbstractResource.GetExtendedProperties()
+  fullName: OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties()
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties
+    name: GetExtendedProperties
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetExtendedProperties
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties
+    name: GetExtendedProperties
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetExtendedProperties
+  - name: (
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.GetTypes
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.GetTypes
+  parent: OSLC4Net.Core.Model.AbstractResource
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetTypes
+  name: GetTypes()
+  nameWithType: AbstractResource.GetTypes()
+  fullName: OSLC4Net.Core.Model.AbstractResource.GetTypes()
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetTypes
+    name: GetTypes
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetTypes
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetTypes
+    name: GetTypes
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetTypes
+  - name: (
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+  parent: OSLC4Net.Core.Model.AbstractResource
+  isExternal: true
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__
+  name: SetTypes(ICollection<Uri>)
+  nameWithType: AbstractResource.SetTypes(ICollection<Uri>)
+  fullName: OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection<System.Uri>)
+  nameWithType.vb: AbstractResource.SetTypes(ICollection(Of Uri))
+  fullName.vb: OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection(Of System.Uri))
+  name.vb: SetTypes(ICollection(Of Uri))
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+    name: SetTypes
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+    name: SetTypes
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+  parent: OSLC4Net.Core.Model.AbstractResource
+  isExternal: true
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_AddType_System_Uri_
+  name: AddType(Uri)
+  nameWithType: AbstractResource.AddType(Uri)
+  fullName: OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+    name: AddType
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_AddType_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+    name: AddType
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_AddType_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.#ctor*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.#ctor
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan__ctor
+  name: TestPlan
+  nameWithType: TestPlan.TestPlan
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.TestPlan
+  nameWithType.vb: TestPlan.New
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.TestPlan.New
+  name.vb: New
+- uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfType
+  commentId: M:OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfType
+  parent: OSLC4Net.Client.Oslc.Resources.QmResource
+  href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetRdfType
+  name: GetRdfType()
+  nameWithType: QmResource.GetRdfType()
+  fullName: OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfType()
+  spec.csharp:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfType
+    name: GetRdfType
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetRdfType
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Client.Oslc.Resources.QmResource.GetRdfType
+    name: GetRdfType
+    href: OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetRdfType
+  - name: (
+  - name: )
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.GetRdfType*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.GetRdfType
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_GetRdfType
+  name: GetRdfType
+  nameWithType: TestPlan.GetRdfType
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.GetRdfType
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uri
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.AddContributor*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.AddContributor
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_AddContributor_System_Uri_
+  name: AddContributor
+  nameWithType: TestPlan.AddContributor
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.AddContributor
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.AddCreator*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.AddCreator
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_AddCreator_System_Uri_
+  name: AddCreator
+  nameWithType: TestPlan.AddCreator
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.AddCreator
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.AddRelatedChangeRequest*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.AddRelatedChangeRequest
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_AddRelatedChangeRequest_OSLC4Net_Core_Model_Link_
+  name: AddRelatedChangeRequest
+  nameWithType: TestPlan.AddRelatedChangeRequest
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.AddRelatedChangeRequest
+- uid: OSLC4Net.Core.Model.Link
+  commentId: T:OSLC4Net.Core.Model.Link
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.Link.html
+  name: Link
+  nameWithType: Link
+  fullName: OSLC4Net.Core.Model.Link
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.AddSubject*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.AddSubject
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_AddSubject_System_String_
+  name: AddSubject
+  nameWithType: TestPlan.AddSubject
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.AddSubject
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.AddUsesTestCase*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.AddUsesTestCase
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_AddUsesTestCase_OSLC4Net_Core_Model_Link_
+  name: AddUsesTestCase
+  nameWithType: TestPlan.AddUsesTestCase
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.AddUsesTestCase
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.AddValidatesRequirementCollection*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.AddValidatesRequirementCollection
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_AddValidatesRequirementCollection_OSLC4Net_Core_Model_Link_
+  name: AddValidatesRequirementCollection
+  nameWithType: TestPlan.AddValidatesRequirementCollection
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.AddValidatesRequirementCollection
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.GetContributors*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.GetContributors
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_GetContributors
+  name: GetContributors
+  nameWithType: TestPlan.GetContributors
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.GetContributors
+- uid: System.Uri[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uri
+  name: Uri[]
+  nameWithType: Uri[]
+  fullName: System.Uri[]
+  nameWithType.vb: Uri()
+  fullName.vb: System.Uri()
+  name.vb: Uri()
+  spec.csharp:
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: (
+  - name: )
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.GetCreators*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.GetCreators
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_GetCreators
+  name: GetCreators
+  nameWithType: TestPlan.GetCreators
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.GetCreators
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.GetDescription*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.GetDescription
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_GetDescription
+  name: GetDescription
+  nameWithType: TestPlan.GetDescription
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.GetDescription
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.GetRelatedChangeRequests*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.GetRelatedChangeRequests
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_GetRelatedChangeRequests
+  name: GetRelatedChangeRequests
+  nameWithType: TestPlan.GetRelatedChangeRequests
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.GetRelatedChangeRequests
+- uid: OSLC4Net.Core.Model.Link[]
+  isExternal: true
+  href: OSLC4Net.Core.Model.Link.html
+  name: Link[]
+  nameWithType: Link[]
+  fullName: OSLC4Net.Core.Model.Link[]
+  nameWithType.vb: Link()
+  fullName.vb: OSLC4Net.Core.Model.Link()
+  name.vb: Link()
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.Link
+    name: Link
+    href: OSLC4Net.Core.Model.Link.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.Link
+    name: Link
+    href: OSLC4Net.Core.Model.Link.html
+  - name: (
+  - name: )
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.GetSubjects*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.GetSubjects
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_GetSubjects
+  name: GetSubjects
+  nameWithType: TestPlan.GetSubjects
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.GetSubjects
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.GetUsesTestCases*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.GetUsesTestCases
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_GetUsesTestCases
+  name: GetUsesTestCases
+  nameWithType: TestPlan.GetUsesTestCases
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.GetUsesTestCases
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.GetValidatesRequirementCollections*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.GetValidatesRequirementCollections
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_GetValidatesRequirementCollections
+  name: GetValidatesRequirementCollections
+  nameWithType: TestPlan.GetValidatesRequirementCollections
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.GetValidatesRequirementCollections
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.SetContributors*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.SetContributors
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_SetContributors_System_Uri___
+  name: SetContributors
+  nameWithType: TestPlan.SetContributors
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.SetContributors
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.SetCreators*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.SetCreators
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_SetCreators_System_Uri___
+  name: SetCreators
+  nameWithType: TestPlan.SetCreators
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.SetCreators
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.SetDescription*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.SetDescription
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_SetDescription_System_String_
+  name: SetDescription
+  nameWithType: TestPlan.SetDescription
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.SetDescription
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.SetRelatedChangeRequests*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.SetRelatedChangeRequests
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_SetRelatedChangeRequests_OSLC4Net_Core_Model_Link___
+  name: SetRelatedChangeRequests
+  nameWithType: TestPlan.SetRelatedChangeRequests
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.SetRelatedChangeRequests
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.SetSubjects*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.SetSubjects
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_SetSubjects_System_String___
+  name: SetSubjects
+  nameWithType: TestPlan.SetSubjects
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.SetSubjects
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.SetUsesTestCases*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.SetUsesTestCases
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_SetUsesTestCases_OSLC4Net_Core_Model_Link___
+  name: SetUsesTestCases
+  nameWithType: TestPlan.SetUsesTestCases
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.SetUsesTestCases
+- uid: OSLC4Net.Client.Oslc.Resources.TestPlan.SetValidatesRequirementCollections*
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.TestPlan.SetValidatesRequirementCollections
+  href: OSLC4Net.Client.Oslc.Resources.TestPlan.html#OSLC4Net_Client_Oslc_Resources_TestPlan_SetValidatesRequirementCollections_OSLC4Net_Core_Model_Link___
+  name: SetValidatesRequirementCollections
+  nameWithType: TestPlan.SetValidatesRequirementCollections
+  fullName: OSLC4Net.Client.Oslc.Resources.TestPlan.SetValidatesRequirementCollections

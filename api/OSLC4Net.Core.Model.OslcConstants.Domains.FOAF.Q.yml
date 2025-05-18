@@ -1,0 +1,2545 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  id: OslcConstants.Domains.FOAF.Q
+  parent: OSLC4Net.Core.Model
+  children:
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Account
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AccountName
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AccountServiceHomepage
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Age
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AimChatId
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.BasedNear
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Birthday
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.CurrentProject
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Depiction
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Depicts
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.DnaChecksum
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FamilyName
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Family_Name
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FirstName
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Focus
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FundedBy
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Geekcode
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Gender
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.GivenName
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Givenname
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.HoldsAccount
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Homepage
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.IcqChatId
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Img
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Interest
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.IsPrimaryTopicOf
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.JabberId
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Knows
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.LastName
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Logo
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Made
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Maker
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Mbox
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MboxSha1sum
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Member
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MembershipClass
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MsnChatId
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MyersBriggs
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Name
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Nick
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Openid
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Page
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.PastProject
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Phone
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Plan
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.PrimaryTopic
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Publications
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.SchoolHomepage
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Sha1
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.SkypeId
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Status
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Surname
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Theme
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Thumbnail
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Tipjar
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Title
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Topic
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.TopicInterest
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Weblog
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.WorkInfoHomepage
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.WorkplaceHomepage
+  - OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.YahooChatId
+  langs:
+  - csharp
+  - vb
+  name: OslcConstants.Domains.FOAF.Q
+  nameWithType: OslcConstants.Domains.FOAF.Q
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Q
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 83
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static class OslcConstants.Domains.FOAF.Q
+    content.vb: Public Module OslcConstants.Domains.FOAF.Q
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Account
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Account
+  id: Account
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Account
+  nameWithType: OslcConstants.Domains.FOAF.Q.Account
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Account
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Account
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 85
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Account { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Account As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Account*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AccountName
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AccountName
+  id: AccountName
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: AccountName
+  nameWithType: OslcConstants.Domains.FOAF.Q.AccountName
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AccountName
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AccountName
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 86
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName AccountName { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property AccountName As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AccountName*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AccountServiceHomepage
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AccountServiceHomepage
+  id: AccountServiceHomepage
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: AccountServiceHomepage
+  nameWithType: OslcConstants.Domains.FOAF.Q.AccountServiceHomepage
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AccountServiceHomepage
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AccountServiceHomepage
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 87
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName AccountServiceHomepage { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property AccountServiceHomepage As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AccountServiceHomepage*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Age
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Age
+  id: Age
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Age
+  nameWithType: OslcConstants.Domains.FOAF.Q.Age
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Age
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Age
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 88
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Age { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Age As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Age*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AimChatId
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AimChatId
+  id: AimChatId
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: AimChatId
+  nameWithType: OslcConstants.Domains.FOAF.Q.AimChatId
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AimChatId
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AimChatId
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 89
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName AimChatId { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property AimChatId As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AimChatId*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.BasedNear
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.BasedNear
+  id: BasedNear
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: BasedNear
+  nameWithType: OslcConstants.Domains.FOAF.Q.BasedNear
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.BasedNear
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: BasedNear
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 90
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName BasedNear { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property BasedNear As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.BasedNear*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Birthday
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Birthday
+  id: Birthday
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Birthday
+  nameWithType: OslcConstants.Domains.FOAF.Q.Birthday
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Birthday
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Birthday
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 91
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Birthday { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Birthday As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Birthday*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.CurrentProject
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.CurrentProject
+  id: CurrentProject
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: CurrentProject
+  nameWithType: OslcConstants.Domains.FOAF.Q.CurrentProject
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.CurrentProject
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CurrentProject
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 92
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName CurrentProject { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property CurrentProject As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.CurrentProject*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Depiction
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Depiction
+  id: Depiction
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Depiction
+  nameWithType: OslcConstants.Domains.FOAF.Q.Depiction
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Depiction
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Depiction
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 93
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Depiction { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Depiction As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Depiction*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Depicts
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Depicts
+  id: Depicts
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Depicts
+  nameWithType: OslcConstants.Domains.FOAF.Q.Depicts
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Depicts
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Depicts
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 94
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Depicts { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Depicts As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Depicts*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.DnaChecksum
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.DnaChecksum
+  id: DnaChecksum
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: DnaChecksum
+  nameWithType: OslcConstants.Domains.FOAF.Q.DnaChecksum
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.DnaChecksum
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DnaChecksum
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 95
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName DnaChecksum { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property DnaChecksum As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.DnaChecksum*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FamilyName
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FamilyName
+  id: FamilyName
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: FamilyName
+  nameWithType: OslcConstants.Domains.FOAF.Q.FamilyName
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FamilyName
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: FamilyName
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 96
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName FamilyName { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property FamilyName As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FamilyName*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Family_Name
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Family_Name
+  id: Family_Name
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Family_Name
+  nameWithType: OslcConstants.Domains.FOAF.Q.Family_Name
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Family_Name
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Family_Name
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 97
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Family_Name { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Family_Name As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Family_Name*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FirstName
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FirstName
+  id: FirstName
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: OslcConstants.Domains.FOAF.Q.FirstName
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FirstName
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: FirstName
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 98
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName FirstName { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property FirstName As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FirstName*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Focus
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Focus
+  id: Focus
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Focus
+  nameWithType: OslcConstants.Domains.FOAF.Q.Focus
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Focus
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Focus
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 99
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Focus { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Focus As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Focus*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FundedBy
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FundedBy
+  id: FundedBy
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: FundedBy
+  nameWithType: OslcConstants.Domains.FOAF.Q.FundedBy
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FundedBy
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: FundedBy
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 100
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName FundedBy { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property FundedBy As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FundedBy*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Geekcode
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Geekcode
+  id: Geekcode
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Geekcode
+  nameWithType: OslcConstants.Domains.FOAF.Q.Geekcode
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Geekcode
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Geekcode
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 101
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Geekcode { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Geekcode As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Geekcode*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Gender
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Gender
+  id: Gender
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Gender
+  nameWithType: OslcConstants.Domains.FOAF.Q.Gender
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Gender
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Gender
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 102
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Gender { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Gender As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Gender*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.GivenName
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.GivenName
+  id: GivenName
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: GivenName
+  nameWithType: OslcConstants.Domains.FOAF.Q.GivenName
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.GivenName
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GivenName
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 103
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName GivenName { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property GivenName As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.GivenName*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Givenname
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Givenname
+  id: Givenname
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Givenname
+  nameWithType: OslcConstants.Domains.FOAF.Q.Givenname
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Givenname
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Givenname
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 104
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Givenname { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Givenname As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Givenname*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.HoldsAccount
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.HoldsAccount
+  id: HoldsAccount
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: HoldsAccount
+  nameWithType: OslcConstants.Domains.FOAF.Q.HoldsAccount
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.HoldsAccount
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: HoldsAccount
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 105
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName HoldsAccount { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property HoldsAccount As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.HoldsAccount*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Homepage
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Homepage
+  id: Homepage
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Homepage
+  nameWithType: OslcConstants.Domains.FOAF.Q.Homepage
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Homepage
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Homepage
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 106
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Homepage { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Homepage As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Homepage*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.IcqChatId
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.IcqChatId
+  id: IcqChatId
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: IcqChatId
+  nameWithType: OslcConstants.Domains.FOAF.Q.IcqChatId
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.IcqChatId
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: IcqChatId
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 107
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName IcqChatId { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property IcqChatId As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.IcqChatId*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Img
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Img
+  id: Img
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Img
+  nameWithType: OslcConstants.Domains.FOAF.Q.Img
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Img
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Img
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 108
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Img { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Img As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Img*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Interest
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Interest
+  id: Interest
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Interest
+  nameWithType: OslcConstants.Domains.FOAF.Q.Interest
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Interest
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Interest
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 109
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Interest { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Interest As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Interest*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.IsPrimaryTopicOf
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.IsPrimaryTopicOf
+  id: IsPrimaryTopicOf
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: IsPrimaryTopicOf
+  nameWithType: OslcConstants.Domains.FOAF.Q.IsPrimaryTopicOf
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.IsPrimaryTopicOf
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: IsPrimaryTopicOf
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 110
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName IsPrimaryTopicOf { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property IsPrimaryTopicOf As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.IsPrimaryTopicOf*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.JabberId
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.JabberId
+  id: JabberId
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: JabberId
+  nameWithType: OslcConstants.Domains.FOAF.Q.JabberId
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.JabberId
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: JabberId
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 111
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName JabberId { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property JabberId As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.JabberId*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Knows
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Knows
+  id: Knows
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Knows
+  nameWithType: OslcConstants.Domains.FOAF.Q.Knows
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Knows
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Knows
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 112
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Knows { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Knows As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Knows*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.LastName
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.LastName
+  id: LastName
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: LastName
+  nameWithType: OslcConstants.Domains.FOAF.Q.LastName
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.LastName
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: LastName
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 113
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName LastName { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property LastName As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.LastName*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Logo
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Logo
+  id: Logo
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Logo
+  nameWithType: OslcConstants.Domains.FOAF.Q.Logo
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Logo
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Logo
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 114
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Logo { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Logo As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Logo*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Made
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Made
+  id: Made
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Made
+  nameWithType: OslcConstants.Domains.FOAF.Q.Made
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Made
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Made
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 115
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Made { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Made As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Made*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Maker
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Maker
+  id: Maker
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Maker
+  nameWithType: OslcConstants.Domains.FOAF.Q.Maker
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Maker
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Maker
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 116
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Maker { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Maker As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Maker*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Mbox
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Mbox
+  id: Mbox
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Mbox
+  nameWithType: OslcConstants.Domains.FOAF.Q.Mbox
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Mbox
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Mbox
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 117
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Mbox { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Mbox As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Mbox*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MboxSha1sum
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MboxSha1sum
+  id: MboxSha1sum
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: MboxSha1sum
+  nameWithType: OslcConstants.Domains.FOAF.Q.MboxSha1sum
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MboxSha1sum
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: MboxSha1sum
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 118
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName MboxSha1sum { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property MboxSha1sum As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MboxSha1sum*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Member
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Member
+  id: Member
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Member
+  nameWithType: OslcConstants.Domains.FOAF.Q.Member
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Member
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Member
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 119
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Member { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Member As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Member*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MembershipClass
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MembershipClass
+  id: MembershipClass
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: MembershipClass
+  nameWithType: OslcConstants.Domains.FOAF.Q.MembershipClass
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MembershipClass
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: MembershipClass
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 120
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName MembershipClass { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property MembershipClass As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MembershipClass*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MsnChatId
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MsnChatId
+  id: MsnChatId
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: MsnChatId
+  nameWithType: OslcConstants.Domains.FOAF.Q.MsnChatId
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MsnChatId
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: MsnChatId
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 121
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName MsnChatId { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property MsnChatId As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MsnChatId*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MyersBriggs
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MyersBriggs
+  id: MyersBriggs
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: MyersBriggs
+  nameWithType: OslcConstants.Domains.FOAF.Q.MyersBriggs
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MyersBriggs
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: MyersBriggs
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 122
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName MyersBriggs { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property MyersBriggs As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MyersBriggs*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Name
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Name
+  id: Name
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: OslcConstants.Domains.FOAF.Q.Name
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Name
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Name
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 123
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Name { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Name As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Name*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Nick
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Nick
+  id: Nick
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Nick
+  nameWithType: OslcConstants.Domains.FOAF.Q.Nick
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Nick
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Nick
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 124
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Nick { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Nick As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Nick*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Openid
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Openid
+  id: Openid
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Openid
+  nameWithType: OslcConstants.Domains.FOAF.Q.Openid
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Openid
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Openid
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 125
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Openid { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Openid As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Openid*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Page
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Page
+  id: Page
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Page
+  nameWithType: OslcConstants.Domains.FOAF.Q.Page
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Page
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Page
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 126
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Page { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Page As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Page*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.PastProject
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.PastProject
+  id: PastProject
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: PastProject
+  nameWithType: OslcConstants.Domains.FOAF.Q.PastProject
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.PastProject
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: PastProject
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 127
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName PastProject { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property PastProject As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.PastProject*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Phone
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Phone
+  id: Phone
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Phone
+  nameWithType: OslcConstants.Domains.FOAF.Q.Phone
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Phone
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Phone
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 128
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Phone { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Phone As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Phone*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Plan
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Plan
+  id: Plan
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Plan
+  nameWithType: OslcConstants.Domains.FOAF.Q.Plan
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Plan
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Plan
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 129
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Plan { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Plan As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Plan*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.PrimaryTopic
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.PrimaryTopic
+  id: PrimaryTopic
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: PrimaryTopic
+  nameWithType: OslcConstants.Domains.FOAF.Q.PrimaryTopic
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.PrimaryTopic
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: PrimaryTopic
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 130
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName PrimaryTopic { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property PrimaryTopic As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.PrimaryTopic*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Publications
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Publications
+  id: Publications
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Publications
+  nameWithType: OslcConstants.Domains.FOAF.Q.Publications
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Publications
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Publications
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 131
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Publications { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Publications As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Publications*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.SchoolHomepage
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.SchoolHomepage
+  id: SchoolHomepage
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: SchoolHomepage
+  nameWithType: OslcConstants.Domains.FOAF.Q.SchoolHomepage
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.SchoolHomepage
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SchoolHomepage
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 132
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName SchoolHomepage { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property SchoolHomepage As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.SchoolHomepage*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Sha1
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Sha1
+  id: Sha1
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Sha1
+  nameWithType: OslcConstants.Domains.FOAF.Q.Sha1
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Sha1
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Sha1
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 133
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Sha1 { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Sha1 As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Sha1*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.SkypeId
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.SkypeId
+  id: SkypeId
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: SkypeId
+  nameWithType: OslcConstants.Domains.FOAF.Q.SkypeId
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.SkypeId
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SkypeId
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 134
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName SkypeId { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property SkypeId As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.SkypeId*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Status
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Status
+  id: Status
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: OslcConstants.Domains.FOAF.Q.Status
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Status
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Status
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 135
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Status { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Status As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Status*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Surname
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Surname
+  id: Surname
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Surname
+  nameWithType: OslcConstants.Domains.FOAF.Q.Surname
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Surname
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Surname
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 136
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Surname { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Surname As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Surname*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Theme
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Theme
+  id: Theme
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Theme
+  nameWithType: OslcConstants.Domains.FOAF.Q.Theme
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Theme
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Theme
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 137
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Theme { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Theme As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Theme*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Thumbnail
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Thumbnail
+  id: Thumbnail
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Thumbnail
+  nameWithType: OslcConstants.Domains.FOAF.Q.Thumbnail
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Thumbnail
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Thumbnail
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 138
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Thumbnail { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Thumbnail As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Thumbnail*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Tipjar
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Tipjar
+  id: Tipjar
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Tipjar
+  nameWithType: OslcConstants.Domains.FOAF.Q.Tipjar
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Tipjar
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Tipjar
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 139
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Tipjar { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Tipjar As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Tipjar*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Title
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Title
+  id: Title
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: OslcConstants.Domains.FOAF.Q.Title
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Title
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Title
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 140
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Title { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Title As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Title*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Topic
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Topic
+  id: Topic
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Topic
+  nameWithType: OslcConstants.Domains.FOAF.Q.Topic
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Topic
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Topic
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 141
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Topic { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Topic As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Topic*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.TopicInterest
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.TopicInterest
+  id: TopicInterest
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: TopicInterest
+  nameWithType: OslcConstants.Domains.FOAF.Q.TopicInterest
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.TopicInterest
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: TopicInterest
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 142
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName TopicInterest { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property TopicInterest As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.TopicInterest*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Weblog
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Weblog
+  id: Weblog
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: Weblog
+  nameWithType: OslcConstants.Domains.FOAF.Q.Weblog
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Weblog
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Weblog
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 143
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Weblog { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Weblog As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Weblog*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.WorkInfoHomepage
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.WorkInfoHomepage
+  id: WorkInfoHomepage
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: WorkInfoHomepage
+  nameWithType: OslcConstants.Domains.FOAF.Q.WorkInfoHomepage
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.WorkInfoHomepage
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: WorkInfoHomepage
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 144
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName WorkInfoHomepage { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property WorkInfoHomepage As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.WorkInfoHomepage*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.WorkplaceHomepage
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.WorkplaceHomepage
+  id: WorkplaceHomepage
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: WorkplaceHomepage
+  nameWithType: OslcConstants.Domains.FOAF.Q.WorkplaceHomepage
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.WorkplaceHomepage
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: WorkplaceHomepage
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 145
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName WorkplaceHomepage { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property WorkplaceHomepage As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.WorkplaceHomepage*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.YahooChatId
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.YahooChatId
+  id: YahooChatId
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q
+  langs:
+  - csharp
+  - vb
+  name: YahooChatId
+  nameWithType: OslcConstants.Domains.FOAF.Q.YahooChatId
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.YahooChatId
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: YahooChatId
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.FOAF.cs
+    startLine: 146
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName YahooChatId { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property YahooChatId As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.YahooChatId*
+references:
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Account*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Account
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Account
+  name: Account
+  nameWithType: OslcConstants.Domains.FOAF.Q.Account
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Account
+- uid: OSLC4Net.Core.Model.QName
+  commentId: T:OSLC4Net.Core.Model.QName
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.QName.html
+  name: QName
+  nameWithType: QName
+  fullName: OSLC4Net.Core.Model.QName
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AccountName*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AccountName
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_AccountName
+  name: AccountName
+  nameWithType: OslcConstants.Domains.FOAF.Q.AccountName
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AccountName
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AccountServiceHomepage*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AccountServiceHomepage
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_AccountServiceHomepage
+  name: AccountServiceHomepage
+  nameWithType: OslcConstants.Domains.FOAF.Q.AccountServiceHomepage
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AccountServiceHomepage
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Age*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Age
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Age
+  name: Age
+  nameWithType: OslcConstants.Domains.FOAF.Q.Age
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Age
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AimChatId*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AimChatId
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_AimChatId
+  name: AimChatId
+  nameWithType: OslcConstants.Domains.FOAF.Q.AimChatId
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.AimChatId
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.BasedNear*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.BasedNear
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_BasedNear
+  name: BasedNear
+  nameWithType: OslcConstants.Domains.FOAF.Q.BasedNear
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.BasedNear
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Birthday*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Birthday
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Birthday
+  name: Birthday
+  nameWithType: OslcConstants.Domains.FOAF.Q.Birthday
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Birthday
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.CurrentProject*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.CurrentProject
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_CurrentProject
+  name: CurrentProject
+  nameWithType: OslcConstants.Domains.FOAF.Q.CurrentProject
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.CurrentProject
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Depiction*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Depiction
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Depiction
+  name: Depiction
+  nameWithType: OslcConstants.Domains.FOAF.Q.Depiction
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Depiction
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Depicts*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Depicts
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Depicts
+  name: Depicts
+  nameWithType: OslcConstants.Domains.FOAF.Q.Depicts
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Depicts
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.DnaChecksum*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.DnaChecksum
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_DnaChecksum
+  name: DnaChecksum
+  nameWithType: OslcConstants.Domains.FOAF.Q.DnaChecksum
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.DnaChecksum
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FamilyName*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FamilyName
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_FamilyName
+  name: FamilyName
+  nameWithType: OslcConstants.Domains.FOAF.Q.FamilyName
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FamilyName
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Family_Name*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Family_Name
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Family_Name
+  name: Family_Name
+  nameWithType: OslcConstants.Domains.FOAF.Q.Family_Name
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Family_Name
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FirstName*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FirstName
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_FirstName
+  name: FirstName
+  nameWithType: OslcConstants.Domains.FOAF.Q.FirstName
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FirstName
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Focus*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Focus
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Focus
+  name: Focus
+  nameWithType: OslcConstants.Domains.FOAF.Q.Focus
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Focus
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FundedBy*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FundedBy
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_FundedBy
+  name: FundedBy
+  nameWithType: OslcConstants.Domains.FOAF.Q.FundedBy
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.FundedBy
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Geekcode*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Geekcode
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Geekcode
+  name: Geekcode
+  nameWithType: OslcConstants.Domains.FOAF.Q.Geekcode
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Geekcode
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Gender*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Gender
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Gender
+  name: Gender
+  nameWithType: OslcConstants.Domains.FOAF.Q.Gender
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Gender
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.GivenName*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.GivenName
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_GivenName
+  name: GivenName
+  nameWithType: OslcConstants.Domains.FOAF.Q.GivenName
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.GivenName
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Givenname*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Givenname
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Givenname
+  name: Givenname
+  nameWithType: OslcConstants.Domains.FOAF.Q.Givenname
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Givenname
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.HoldsAccount*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.HoldsAccount
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_HoldsAccount
+  name: HoldsAccount
+  nameWithType: OslcConstants.Domains.FOAF.Q.HoldsAccount
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.HoldsAccount
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Homepage*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Homepage
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Homepage
+  name: Homepage
+  nameWithType: OslcConstants.Domains.FOAF.Q.Homepage
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Homepage
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.IcqChatId*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.IcqChatId
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_IcqChatId
+  name: IcqChatId
+  nameWithType: OslcConstants.Domains.FOAF.Q.IcqChatId
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.IcqChatId
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Img*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Img
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Img
+  name: Img
+  nameWithType: OslcConstants.Domains.FOAF.Q.Img
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Img
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Interest*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Interest
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Interest
+  name: Interest
+  nameWithType: OslcConstants.Domains.FOAF.Q.Interest
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Interest
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.IsPrimaryTopicOf*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.IsPrimaryTopicOf
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_IsPrimaryTopicOf
+  name: IsPrimaryTopicOf
+  nameWithType: OslcConstants.Domains.FOAF.Q.IsPrimaryTopicOf
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.IsPrimaryTopicOf
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.JabberId*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.JabberId
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_JabberId
+  name: JabberId
+  nameWithType: OslcConstants.Domains.FOAF.Q.JabberId
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.JabberId
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Knows*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Knows
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Knows
+  name: Knows
+  nameWithType: OslcConstants.Domains.FOAF.Q.Knows
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Knows
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.LastName*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.LastName
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_LastName
+  name: LastName
+  nameWithType: OslcConstants.Domains.FOAF.Q.LastName
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.LastName
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Logo*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Logo
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Logo
+  name: Logo
+  nameWithType: OslcConstants.Domains.FOAF.Q.Logo
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Logo
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Made*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Made
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Made
+  name: Made
+  nameWithType: OslcConstants.Domains.FOAF.Q.Made
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Made
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Maker*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Maker
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Maker
+  name: Maker
+  nameWithType: OslcConstants.Domains.FOAF.Q.Maker
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Maker
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Mbox*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Mbox
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Mbox
+  name: Mbox
+  nameWithType: OslcConstants.Domains.FOAF.Q.Mbox
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Mbox
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MboxSha1sum*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MboxSha1sum
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_MboxSha1sum
+  name: MboxSha1sum
+  nameWithType: OslcConstants.Domains.FOAF.Q.MboxSha1sum
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MboxSha1sum
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Member*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Member
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Member
+  name: Member
+  nameWithType: OslcConstants.Domains.FOAF.Q.Member
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Member
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MembershipClass*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MembershipClass
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_MembershipClass
+  name: MembershipClass
+  nameWithType: OslcConstants.Domains.FOAF.Q.MembershipClass
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MembershipClass
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MsnChatId*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MsnChatId
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_MsnChatId
+  name: MsnChatId
+  nameWithType: OslcConstants.Domains.FOAF.Q.MsnChatId
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MsnChatId
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MyersBriggs*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MyersBriggs
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_MyersBriggs
+  name: MyersBriggs
+  nameWithType: OslcConstants.Domains.FOAF.Q.MyersBriggs
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.MyersBriggs
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Name*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Name
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Name
+  name: Name
+  nameWithType: OslcConstants.Domains.FOAF.Q.Name
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Name
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Nick*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Nick
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Nick
+  name: Nick
+  nameWithType: OslcConstants.Domains.FOAF.Q.Nick
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Nick
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Openid*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Openid
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Openid
+  name: Openid
+  nameWithType: OslcConstants.Domains.FOAF.Q.Openid
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Openid
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Page*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Page
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Page
+  name: Page
+  nameWithType: OslcConstants.Domains.FOAF.Q.Page
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Page
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.PastProject*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.PastProject
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_PastProject
+  name: PastProject
+  nameWithType: OslcConstants.Domains.FOAF.Q.PastProject
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.PastProject
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Phone*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Phone
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Phone
+  name: Phone
+  nameWithType: OslcConstants.Domains.FOAF.Q.Phone
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Phone
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Plan*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Plan
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Plan
+  name: Plan
+  nameWithType: OslcConstants.Domains.FOAF.Q.Plan
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Plan
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.PrimaryTopic*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.PrimaryTopic
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_PrimaryTopic
+  name: PrimaryTopic
+  nameWithType: OslcConstants.Domains.FOAF.Q.PrimaryTopic
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.PrimaryTopic
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Publications*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Publications
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Publications
+  name: Publications
+  nameWithType: OslcConstants.Domains.FOAF.Q.Publications
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Publications
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.SchoolHomepage*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.SchoolHomepage
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_SchoolHomepage
+  name: SchoolHomepage
+  nameWithType: OslcConstants.Domains.FOAF.Q.SchoolHomepage
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.SchoolHomepage
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Sha1*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Sha1
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Sha1
+  name: Sha1
+  nameWithType: OslcConstants.Domains.FOAF.Q.Sha1
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Sha1
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.SkypeId*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.SkypeId
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_SkypeId
+  name: SkypeId
+  nameWithType: OslcConstants.Domains.FOAF.Q.SkypeId
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.SkypeId
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Status*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Status
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Status
+  name: Status
+  nameWithType: OslcConstants.Domains.FOAF.Q.Status
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Status
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Surname*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Surname
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Surname
+  name: Surname
+  nameWithType: OslcConstants.Domains.FOAF.Q.Surname
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Surname
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Theme*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Theme
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Theme
+  name: Theme
+  nameWithType: OslcConstants.Domains.FOAF.Q.Theme
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Theme
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Thumbnail*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Thumbnail
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Thumbnail
+  name: Thumbnail
+  nameWithType: OslcConstants.Domains.FOAF.Q.Thumbnail
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Thumbnail
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Tipjar*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Tipjar
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Tipjar
+  name: Tipjar
+  nameWithType: OslcConstants.Domains.FOAF.Q.Tipjar
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Tipjar
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Title*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Title
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Title
+  name: Title
+  nameWithType: OslcConstants.Domains.FOAF.Q.Title
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Title
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Topic*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Topic
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Topic
+  name: Topic
+  nameWithType: OslcConstants.Domains.FOAF.Q.Topic
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Topic
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.TopicInterest*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.TopicInterest
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_TopicInterest
+  name: TopicInterest
+  nameWithType: OslcConstants.Domains.FOAF.Q.TopicInterest
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.TopicInterest
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Weblog*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Weblog
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_Weblog
+  name: Weblog
+  nameWithType: OslcConstants.Domains.FOAF.Q.Weblog
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.Weblog
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.WorkInfoHomepage*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.WorkInfoHomepage
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_WorkInfoHomepage
+  name: WorkInfoHomepage
+  nameWithType: OslcConstants.Domains.FOAF.Q.WorkInfoHomepage
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.WorkInfoHomepage
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.WorkplaceHomepage*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.WorkplaceHomepage
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_WorkplaceHomepage
+  name: WorkplaceHomepage
+  nameWithType: OslcConstants.Domains.FOAF.Q.WorkplaceHomepage
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.WorkplaceHomepage
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.YahooChatId*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.YahooChatId
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_FOAF_Q_YahooChatId
+  name: YahooChatId
+  nameWithType: OslcConstants.Domains.FOAF.Q.YahooChatId
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.YahooChatId

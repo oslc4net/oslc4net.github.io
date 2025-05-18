@@ -1,0 +1,750 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Model.Link
+  commentId: T:OSLC4Net.Core.Model.Link
+  id: Link
+  parent: OSLC4Net.Core.Model
+  children:
+  - OSLC4Net.Core.Model.Link.#ctor
+  - OSLC4Net.Core.Model.Link.#ctor(System.Uri)
+  - OSLC4Net.Core.Model.Link.#ctor(System.Uri,System.String)
+  - OSLC4Net.Core.Model.Link.GetLabel
+  - OSLC4Net.Core.Model.Link.SetLabel(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Link
+  nameWithType: Link
+  fullName: OSLC4Net.Core.Model.Link
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Link.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Link
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Link.cs
+    startLine: 22
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: An OSLC link - inculdes a Uri and a label.
+  example: []
+  syntax:
+    content: 'public class Link : AbstractReifiedResource<Uri>, IReifiedResource<Uri>'
+    content.vb: Public Class Link Inherits AbstractReifiedResource(Of Uri) Implements IReifiedResource(Of Uri)
+  inheritance:
+  - System.Object
+  - OSLC4Net.Core.Model.AbstractReifiedResource{System.Uri}
+  implements:
+  - OSLC4Net.Core.Model.IReifiedResource{System.Uri}
+  inheritedMembers:
+  - OSLC4Net.Core.Model.AbstractReifiedResource{System.Uri}.GetValue
+  - OSLC4Net.Core.Model.AbstractReifiedResource{System.Uri}.SetValue(System.Uri)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: OSLC4Net.Core.Model.Link.#ctor
+  commentId: M:OSLC4Net.Core.Model.Link.#ctor
+  id: '#ctor'
+  parent: OSLC4Net.Core.Model.Link
+  langs:
+  - csharp
+  - vb
+  name: Link()
+  nameWithType: Link.Link()
+  fullName: OSLC4Net.Core.Model.Link.Link()
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Link.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Link.cs
+    startLine: 26
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public Link()
+    content.vb: Public Sub New()
+  overload: OSLC4Net.Core.Model.Link.#ctor*
+  nameWithType.vb: Link.New()
+  fullName.vb: OSLC4Net.Core.Model.Link.New()
+  name.vb: New()
+- uid: OSLC4Net.Core.Model.Link.#ctor(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.Link.#ctor(System.Uri)
+  id: '#ctor(System.Uri)'
+  parent: OSLC4Net.Core.Model.Link
+  langs:
+  - csharp
+  - vb
+  name: Link(Uri)
+  nameWithType: Link.Link(Uri)
+  fullName: OSLC4Net.Core.Model.Link.Link(System.Uri)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Link.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Link.cs
+    startLine: 30
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public Link(Uri resource)
+    parameters:
+    - id: resource
+      type: System.Uri
+    content.vb: Public Sub New(resource As Uri)
+  overload: OSLC4Net.Core.Model.Link.#ctor*
+  nameWithType.vb: Link.New(Uri)
+  fullName.vb: OSLC4Net.Core.Model.Link.New(System.Uri)
+  name.vb: New(Uri)
+- uid: OSLC4Net.Core.Model.Link.#ctor(System.Uri,System.String)
+  commentId: M:OSLC4Net.Core.Model.Link.#ctor(System.Uri,System.String)
+  id: '#ctor(System.Uri,System.String)'
+  parent: OSLC4Net.Core.Model.Link
+  langs:
+  - csharp
+  - vb
+  name: Link(Uri, string)
+  nameWithType: Link.Link(Uri, string)
+  fullName: OSLC4Net.Core.Model.Link.Link(System.Uri, string)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Link.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Link.cs
+    startLine: 35
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public Link(Uri resource, string label)
+    parameters:
+    - id: resource
+      type: System.Uri
+    - id: label
+      type: System.String
+    content.vb: Public Sub New(resource As Uri, label As String)
+  overload: OSLC4Net.Core.Model.Link.#ctor*
+  nameWithType.vb: Link.New(Uri, String)
+  fullName.vb: OSLC4Net.Core.Model.Link.New(System.Uri, String)
+  name.vb: New(Uri, String)
+- uid: OSLC4Net.Core.Model.Link.GetLabel
+  commentId: M:OSLC4Net.Core.Model.Link.GetLabel
+  id: GetLabel
+  parent: OSLC4Net.Core.Model.Link
+  langs:
+  - csharp
+  - vb
+  name: GetLabel()
+  nameWithType: Link.GetLabel()
+  fullName: OSLC4Net.Core.Model.Link.GetLabel()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Link.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetLabel
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Link.cs
+    startLine: 45
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: Gets the link label.
+  example: []
+  syntax:
+    content: >-
+      [OslcName("title")]
+
+      [OslcPropertyDefinition("http://purl.org/dc/terms/title")]
+
+      public string GetLabel()
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <OslcName("title")>
+
+      <OslcPropertyDefinition("http://purl.org/dc/terms/title")>
+
+      Public Function GetLabel() As String
+  overload: OSLC4Net.Core.Model.Link.GetLabel*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcName
+    ctor: OSLC4Net.Core.Attribute.OslcName.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: title
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://purl.org/dc/terms/title
+- uid: OSLC4Net.Core.Model.Link.SetLabel(System.String)
+  commentId: M:OSLC4Net.Core.Model.Link.SetLabel(System.String)
+  id: SetLabel(System.String)
+  parent: OSLC4Net.Core.Model.Link
+  langs:
+  - csharp
+  - vb
+  name: SetLabel(string)
+  nameWithType: Link.SetLabel(string)
+  fullName: OSLC4Net.Core.Model.Link.SetLabel(string)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Link.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetLabel
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Link.cs
+    startLine: 56
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: Sets the link label.
+  example: []
+  syntax:
+    content: public void SetLabel(string label)
+    parameters:
+    - id: label
+      type: System.String
+      description: ''
+    content.vb: Public Sub SetLabel(label As String)
+  overload: OSLC4Net.Core.Model.Link.SetLabel*
+  nameWithType.vb: Link.SetLabel(String)
+  fullName.vb: OSLC4Net.Core.Model.Link.SetLabel(String)
+  name.vb: SetLabel(String)
+references:
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: OSLC4Net.Core.Model.AbstractReifiedResource{System.Uri}
+  commentId: T:OSLC4Net.Core.Model.AbstractReifiedResource{System.Uri}
+  parent: OSLC4Net.Core.Model
+  definition: OSLC4Net.Core.Model.AbstractReifiedResource`1
+  href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html
+  name: AbstractReifiedResource<Uri>
+  nameWithType: AbstractReifiedResource<Uri>
+  fullName: OSLC4Net.Core.Model.AbstractReifiedResource<System.Uri>
+  nameWithType.vb: AbstractReifiedResource(Of Uri)
+  fullName.vb: OSLC4Net.Core.Model.AbstractReifiedResource(Of System.Uri)
+  name.vb: AbstractReifiedResource(Of Uri)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractReifiedResource`1
+    name: AbstractReifiedResource
+    href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html
+  - name: <
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: '>'
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractReifiedResource`1
+    name: AbstractReifiedResource
+    href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+- uid: OSLC4Net.Core.Model.IReifiedResource{System.Uri}
+  commentId: T:OSLC4Net.Core.Model.IReifiedResource{System.Uri}
+  parent: OSLC4Net.Core.Model
+  definition: OSLC4Net.Core.Model.IReifiedResource`1
+  href: OSLC4Net.Core.Model.IReifiedResource-1.html
+  name: IReifiedResource<Uri>
+  nameWithType: IReifiedResource<Uri>
+  fullName: OSLC4Net.Core.Model.IReifiedResource<System.Uri>
+  nameWithType.vb: IReifiedResource(Of Uri)
+  fullName.vb: OSLC4Net.Core.Model.IReifiedResource(Of System.Uri)
+  name.vb: IReifiedResource(Of Uri)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.IReifiedResource`1
+    name: IReifiedResource
+    href: OSLC4Net.Core.Model.IReifiedResource-1.html
+  - name: <
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: '>'
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.IReifiedResource`1
+    name: IReifiedResource
+    href: OSLC4Net.Core.Model.IReifiedResource-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractReifiedResource{System.Uri}.GetValue
+  commentId: M:OSLC4Net.Core.Model.AbstractReifiedResource{System.Uri}.GetValue
+  parent: OSLC4Net.Core.Model.AbstractReifiedResource{System.Uri}
+  definition: OSLC4Net.Core.Model.AbstractReifiedResource`1.GetValue
+  href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html#OSLC4Net_Core_Model_AbstractReifiedResource_1_GetValue
+  name: GetValue()
+  nameWithType: AbstractReifiedResource<Uri>.GetValue()
+  fullName: OSLC4Net.Core.Model.AbstractReifiedResource<System.Uri>.GetValue()
+  nameWithType.vb: AbstractReifiedResource(Of Uri).GetValue()
+  fullName.vb: OSLC4Net.Core.Model.AbstractReifiedResource(Of System.Uri).GetValue()
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractReifiedResource{System.Uri}.GetValue
+    name: GetValue
+    href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html#OSLC4Net_Core_Model_AbstractReifiedResource_1_GetValue
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractReifiedResource{System.Uri}.GetValue
+    name: GetValue
+    href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html#OSLC4Net_Core_Model_AbstractReifiedResource_1_GetValue
+  - name: (
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractReifiedResource{System.Uri}.SetValue(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.AbstractReifiedResource{System.Uri}.SetValue(System.Uri)
+  parent: OSLC4Net.Core.Model.AbstractReifiedResource{System.Uri}
+  definition: OSLC4Net.Core.Model.AbstractReifiedResource`1.SetValue(`0)
+  href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html#OSLC4Net_Core_Model_AbstractReifiedResource_1_SetValue__0_
+  name: SetValue(Uri)
+  nameWithType: AbstractReifiedResource<Uri>.SetValue(Uri)
+  fullName: OSLC4Net.Core.Model.AbstractReifiedResource<System.Uri>.SetValue(System.Uri)
+  nameWithType.vb: AbstractReifiedResource(Of Uri).SetValue(Uri)
+  fullName.vb: OSLC4Net.Core.Model.AbstractReifiedResource(Of System.Uri).SetValue(System.Uri)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractReifiedResource{System.Uri}.SetValue(System.Uri)
+    name: SetValue
+    href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html#OSLC4Net_Core_Model_AbstractReifiedResource_1_SetValue__0_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractReifiedResource{System.Uri}.SetValue(System.Uri)
+    name: SetValue
+    href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html#OSLC4Net_Core_Model_AbstractReifiedResource_1_SetValue__0_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OSLC4Net.Core.Model.AbstractReifiedResource`1
+  commentId: T:OSLC4Net.Core.Model.AbstractReifiedResource`1
+  href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html
+  name: AbstractReifiedResource<T>
+  nameWithType: AbstractReifiedResource<T>
+  fullName: OSLC4Net.Core.Model.AbstractReifiedResource<T>
+  nameWithType.vb: AbstractReifiedResource(Of T)
+  fullName.vb: OSLC4Net.Core.Model.AbstractReifiedResource(Of T)
+  name.vb: AbstractReifiedResource(Of T)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractReifiedResource`1
+    name: AbstractReifiedResource
+    href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractReifiedResource`1
+    name: AbstractReifiedResource
+    href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: OSLC4Net.Core.Model.IReifiedResource`1
+  commentId: T:OSLC4Net.Core.Model.IReifiedResource`1
+  href: OSLC4Net.Core.Model.IReifiedResource-1.html
+  name: IReifiedResource<T>
+  nameWithType: IReifiedResource<T>
+  fullName: OSLC4Net.Core.Model.IReifiedResource<T>
+  nameWithType.vb: IReifiedResource(Of T)
+  fullName.vb: OSLC4Net.Core.Model.IReifiedResource(Of T)
+  name.vb: IReifiedResource(Of T)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.IReifiedResource`1
+    name: IReifiedResource
+    href: OSLC4Net.Core.Model.IReifiedResource-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.IReifiedResource`1
+    name: IReifiedResource
+    href: OSLC4Net.Core.Model.IReifiedResource-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractReifiedResource`1.GetValue
+  commentId: M:OSLC4Net.Core.Model.AbstractReifiedResource`1.GetValue
+  href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html#OSLC4Net_Core_Model_AbstractReifiedResource_1_GetValue
+  name: GetValue()
+  nameWithType: AbstractReifiedResource<T>.GetValue()
+  fullName: OSLC4Net.Core.Model.AbstractReifiedResource<T>.GetValue()
+  nameWithType.vb: AbstractReifiedResource(Of T).GetValue()
+  fullName.vb: OSLC4Net.Core.Model.AbstractReifiedResource(Of T).GetValue()
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractReifiedResource`1.GetValue
+    name: GetValue
+    href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html#OSLC4Net_Core_Model_AbstractReifiedResource_1_GetValue
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractReifiedResource`1.GetValue
+    name: GetValue
+    href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html#OSLC4Net_Core_Model_AbstractReifiedResource_1_GetValue
+  - name: (
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractReifiedResource`1.SetValue(`0)
+  commentId: M:OSLC4Net.Core.Model.AbstractReifiedResource`1.SetValue(`0)
+  href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html#OSLC4Net_Core_Model_AbstractReifiedResource_1_SetValue__0_
+  name: SetValue(T)
+  nameWithType: AbstractReifiedResource<T>.SetValue(T)
+  fullName: OSLC4Net.Core.Model.AbstractReifiedResource<T>.SetValue(T)
+  nameWithType.vb: AbstractReifiedResource(Of T).SetValue(T)
+  fullName.vb: OSLC4Net.Core.Model.AbstractReifiedResource(Of T).SetValue(T)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractReifiedResource`1.SetValue(`0)
+    name: SetValue
+    href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html#OSLC4Net_Core_Model_AbstractReifiedResource_1_SetValue__0_
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractReifiedResource`1.SetValue(`0)
+    name: SetValue
+    href: OSLC4Net.Core.Model.AbstractReifiedResource-1.html#OSLC4Net_Core_Model_AbstractReifiedResource_1_SetValue__0_
+  - name: (
+  - name: T
+  - name: )
+- uid: OSLC4Net.Core.Model.Link.#ctor*
+  commentId: Overload:OSLC4Net.Core.Model.Link.#ctor
+  href: OSLC4Net.Core.Model.Link.html#OSLC4Net_Core_Model_Link__ctor
+  name: Link
+  nameWithType: Link.Link
+  fullName: OSLC4Net.Core.Model.Link.Link
+  nameWithType.vb: Link.New
+  fullName.vb: OSLC4Net.Core.Model.Link.New
+  name.vb: New
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uri
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: OSLC4Net.Core.Model.Link.GetLabel*
+  commentId: Overload:OSLC4Net.Core.Model.Link.GetLabel
+  href: OSLC4Net.Core.Model.Link.html#OSLC4Net_Core_Model_Link_GetLabel
+  name: GetLabel
+  nameWithType: Link.GetLabel
+  fullName: OSLC4Net.Core.Model.Link.GetLabel
+- uid: OSLC4Net.Core.Model.Link.SetLabel*
+  commentId: Overload:OSLC4Net.Core.Model.Link.SetLabel
+  href: OSLC4Net.Core.Model.Link.html#OSLC4Net_Core_Model_Link_SetLabel_System_String_
+  name: SetLabel
+  nameWithType: Link.SetLabel
+  fullName: OSLC4Net.Core.Model.Link.SetLabel

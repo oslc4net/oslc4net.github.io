@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Query.ValueType
+  commentId: T:OSLC4Net.Core.Query.ValueType
+  id: ValueType
+  parent: OSLC4Net.Core.Query
+  children:
+  - OSLC4Net.Core.Query.ValueType.BOOLEAN
+  - OSLC4Net.Core.Query.ValueType.DECIMAL
+  - OSLC4Net.Core.Query.ValueType.LANGED_STRING
+  - OSLC4Net.Core.Query.ValueType.STRING
+  - OSLC4Net.Core.Query.ValueType.TYPED_STRING
+  - OSLC4Net.Core.Query.ValueType.URI_REF
+  langs:
+  - csharp
+  - vb
+  name: ValueType
+  nameWithType: ValueType
+  fullName: OSLC4Net.Core.Query.ValueType
+  type: Enum
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/Value.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ValueType
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/Value.cs
+    startLine: 17
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: public enum ValueType
+    content.vb: Public Enum ValueType
+- uid: OSLC4Net.Core.Query.ValueType.URI_REF
+  commentId: F:OSLC4Net.Core.Query.ValueType.URI_REF
+  id: URI_REF
+  parent: OSLC4Net.Core.Query.ValueType
+  langs:
+  - csharp
+  - vb
+  name: URI_REF
+  nameWithType: ValueType.URI_REF
+  fullName: OSLC4Net.Core.Query.ValueType.URI_REF
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/Value.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: URI_REF
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/Value.cs
+    startLine: 19
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: URI_REF = 0
+    return:
+      type: OSLC4Net.Core.Query.ValueType
+- uid: OSLC4Net.Core.Query.ValueType.BOOLEAN
+  commentId: F:OSLC4Net.Core.Query.ValueType.BOOLEAN
+  id: BOOLEAN
+  parent: OSLC4Net.Core.Query.ValueType
+  langs:
+  - csharp
+  - vb
+  name: BOOLEAN
+  nameWithType: ValueType.BOOLEAN
+  fullName: OSLC4Net.Core.Query.ValueType.BOOLEAN
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/Value.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: BOOLEAN
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/Value.cs
+    startLine: 20
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: BOOLEAN = 1
+    return:
+      type: OSLC4Net.Core.Query.ValueType
+- uid: OSLC4Net.Core.Query.ValueType.DECIMAL
+  commentId: F:OSLC4Net.Core.Query.ValueType.DECIMAL
+  id: DECIMAL
+  parent: OSLC4Net.Core.Query.ValueType
+  langs:
+  - csharp
+  - vb
+  name: DECIMAL
+  nameWithType: ValueType.DECIMAL
+  fullName: OSLC4Net.Core.Query.ValueType.DECIMAL
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/Value.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DECIMAL
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/Value.cs
+    startLine: 21
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: DECIMAL = 2
+    return:
+      type: OSLC4Net.Core.Query.ValueType
+- uid: OSLC4Net.Core.Query.ValueType.STRING
+  commentId: F:OSLC4Net.Core.Query.ValueType.STRING
+  id: STRING
+  parent: OSLC4Net.Core.Query.ValueType
+  langs:
+  - csharp
+  - vb
+  name: STRING
+  nameWithType: ValueType.STRING
+  fullName: OSLC4Net.Core.Query.ValueType.STRING
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/Value.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: STRING
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/Value.cs
+    startLine: 22
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: STRING = 3
+    return:
+      type: OSLC4Net.Core.Query.ValueType
+- uid: OSLC4Net.Core.Query.ValueType.TYPED_STRING
+  commentId: F:OSLC4Net.Core.Query.ValueType.TYPED_STRING
+  id: TYPED_STRING
+  parent: OSLC4Net.Core.Query.ValueType
+  langs:
+  - csharp
+  - vb
+  name: TYPED_STRING
+  nameWithType: ValueType.TYPED_STRING
+  fullName: OSLC4Net.Core.Query.ValueType.TYPED_STRING
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/Value.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: TYPED_STRING
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/Value.cs
+    startLine: 23
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: TYPED_STRING = 4
+    return:
+      type: OSLC4Net.Core.Query.ValueType
+- uid: OSLC4Net.Core.Query.ValueType.LANGED_STRING
+  commentId: F:OSLC4Net.Core.Query.ValueType.LANGED_STRING
+  id: LANGED_STRING
+  parent: OSLC4Net.Core.Query.ValueType
+  langs:
+  - csharp
+  - vb
+  name: LANGED_STRING
+  nameWithType: ValueType.LANGED_STRING
+  fullName: OSLC4Net.Core.Query.ValueType.LANGED_STRING
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/Value.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: LANGED_STRING
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/Value.cs
+    startLine: 24
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: LANGED_STRING = 5
+    return:
+      type: OSLC4Net.Core.Query.ValueType
+references:
+- uid: OSLC4Net.Core.Query
+  commentId: N:OSLC4Net.Core.Query
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Query
+  nameWithType: OSLC4Net.Core.Query
+  fullName: OSLC4Net.Core.Query
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+- uid: OSLC4Net.Core.Query.ValueType
+  commentId: T:OSLC4Net.Core.Query.ValueType
+  parent: OSLC4Net.Core.Query
+  href: OSLC4Net.Core.Query.ValueType.html
+  name: ValueType
+  nameWithType: ValueType
+  fullName: OSLC4Net.Core.Query.ValueType

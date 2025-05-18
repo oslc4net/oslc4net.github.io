@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Query.PropertiesClause
+  commentId: T:OSLC4Net.Core.Query.PropertiesClause
+  id: PropertiesClause
+  parent: OSLC4Net.Core.Query
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: PropertiesClause
+  nameWithType: PropertiesClause
+  fullName: OSLC4Net.Core.Query.PropertiesClause
+  type: Interface
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/PropertiesClause.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: PropertiesClause
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/PropertiesClause.cs
+    startLine: 20
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  summary: Top-level properties from oslc.Properties clause
+  example: []
+  syntax:
+    content: 'public interface PropertiesClause : Properties'
+    content.vb: Public Interface PropertiesClause Inherits Properties
+  inheritedMembers:
+  - OSLC4Net.Core.Query.Properties.Children
+references:
+- uid: OSLC4Net.Core.Query
+  commentId: N:OSLC4Net.Core.Query
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Query
+  nameWithType: OSLC4Net.Core.Query
+  fullName: OSLC4Net.Core.Query
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+- uid: OSLC4Net.Core.Query.Properties.Children
+  commentId: P:OSLC4Net.Core.Query.Properties.Children
+  parent: OSLC4Net.Core.Query.Properties
+  href: OSLC4Net.Core.Query.Properties.html#OSLC4Net_Core_Query_Properties_Children
+  name: Children
+  nameWithType: Properties.Children
+  fullName: OSLC4Net.Core.Query.Properties.Children
+- uid: OSLC4Net.Core.Query.Properties
+  commentId: T:OSLC4Net.Core.Query.Properties
+  parent: OSLC4Net.Core.Query
+  href: OSLC4Net.Core.Query.Properties.html
+  name: Properties
+  nameWithType: Properties
+  fullName: OSLC4Net.Core.Query.Properties

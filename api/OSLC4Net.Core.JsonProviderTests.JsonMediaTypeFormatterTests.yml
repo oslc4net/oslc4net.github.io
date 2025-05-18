@@ -1,0 +1,449 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests
+  commentId: T:OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests
+  id: JsonMediaTypeFormatterTests
+  parent: OSLC4Net.Core.JsonProviderTests
+  children:
+  - OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests.TestJsonCollectionSerialization
+  - OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests.TestJsonSerialization
+  langs:
+  - csharp
+  - vb
+  name: JsonMediaTypeFormatterTests
+  nameWithType: JsonMediaTypeFormatterTests
+  fullName: OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/Tests/OSLC4Net.Core.JsonProviderTests/JsonMediaTypeFormatterTests.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: JsonMediaTypeFormatterTests
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/Tests/OSLC4Net.Core.JsonProviderTests/JsonMediaTypeFormatterTests.cs
+    startLine: 30
+  assemblies:
+  - OSLC4Net.Core.JsonProviderTests
+  namespace: OSLC4Net.Core.JsonProviderTests
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public class JsonMediaTypeFormatterTests
+    content.vb: >-
+      <Obsolete>
+
+      Public Class JsonMediaTypeFormatterTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests.TestJsonSerialization
+  commentId: M:OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests.TestJsonSerialization
+  id: TestJsonSerialization
+  parent: OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests
+  langs:
+  - csharp
+  - vb
+  name: TestJsonSerialization()
+  nameWithType: JsonMediaTypeFormatterTests.TestJsonSerialization()
+  fullName: OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests.TestJsonSerialization()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/Tests/OSLC4Net.Core.JsonProviderTests/JsonMediaTypeFormatterTests.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: TestJsonSerialization
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/Tests/OSLC4Net.Core.JsonProviderTests/JsonMediaTypeFormatterTests.cs
+    startLine: 33
+  assemblies:
+  - OSLC4Net.Core.JsonProviderTests
+  namespace: OSLC4Net.Core.JsonProviderTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public Task TestJsonSerialization()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <Fact>
+
+      Public Function TestJsonSerialization() As Task
+  overload: OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests.TestJsonSerialization*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests.TestJsonCollectionSerialization
+  commentId: M:OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests.TestJsonCollectionSerialization
+  id: TestJsonCollectionSerialization
+  parent: OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests
+  langs:
+  - csharp
+  - vb
+  name: TestJsonCollectionSerialization()
+  nameWithType: JsonMediaTypeFormatterTests.TestJsonCollectionSerialization()
+  fullName: OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests.TestJsonCollectionSerialization()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/Tests/OSLC4Net.Core.JsonProviderTests/JsonMediaTypeFormatterTests.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: TestJsonCollectionSerialization
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/Tests/OSLC4Net.Core.JsonProviderTests/JsonMediaTypeFormatterTests.cs
+    startLine: 61
+  assemblies:
+  - OSLC4Net.Core.JsonProviderTests
+  namespace: OSLC4Net.Core.JsonProviderTests
+  syntax:
+    content: >-
+      [Fact]
+
+      public void TestJsonCollectionSerialization()
+    content.vb: >-
+      <Fact>
+
+      Public Sub TestJsonCollectionSerialization()
+  overload: OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests.TestJsonCollectionSerialization*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+references:
+- uid: OSLC4Net.Core.JsonProviderTests
+  commentId: N:OSLC4Net.Core.JsonProviderTests
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.JsonProviderTests
+  nameWithType: OSLC4Net.Core.JsonProviderTests
+  fullName: OSLC4Net.Core.JsonProviderTests
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.JsonProviderTests
+    name: JsonProviderTests
+    href: OSLC4Net.Core.JsonProviderTests.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.JsonProviderTests
+    name: JsonProviderTests
+    href: OSLC4Net.Core.JsonProviderTests.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests.TestJsonSerialization*
+  commentId: Overload:OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests.TestJsonSerialization
+  href: OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests.html#OSLC4Net_Core_JsonProviderTests_JsonMediaTypeFormatterTests_TestJsonSerialization
+  name: TestJsonSerialization
+  nameWithType: JsonMediaTypeFormatterTests.TestJsonSerialization
+  fullName: OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests.TestJsonSerialization
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests.TestJsonCollectionSerialization*
+  commentId: Overload:OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests.TestJsonCollectionSerialization
+  href: OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests.html#OSLC4Net_Core_JsonProviderTests_JsonMediaTypeFormatterTests_TestJsonCollectionSerialization
+  name: TestJsonCollectionSerialization
+  nameWithType: JsonMediaTypeFormatterTests.TestJsonCollectionSerialization
+  fullName: OSLC4Net.Core.JsonProviderTests.JsonMediaTypeFormatterTests.TestJsonCollectionSerialization

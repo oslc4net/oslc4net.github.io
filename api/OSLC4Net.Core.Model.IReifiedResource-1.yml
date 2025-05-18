@@ -1,0 +1,185 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Model.IReifiedResource`1
+  commentId: T:OSLC4Net.Core.Model.IReifiedResource`1
+  id: IReifiedResource`1
+  parent: OSLC4Net.Core.Model
+  children:
+  - OSLC4Net.Core.Model.IReifiedResource`1.GetValue
+  - OSLC4Net.Core.Model.IReifiedResource`1.SetValue(`0)
+  langs:
+  - csharp
+  - vb
+  name: IReifiedResource<T>
+  nameWithType: IReifiedResource<T>
+  fullName: OSLC4Net.Core.Model.IReifiedResource<T>
+  type: Interface
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/IReifiedResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: IReifiedResource
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/IReifiedResource.cs
+    startLine: 32
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: >-
+    This interface helps model RDF reified statements in plain old Java objects.
+
+    OSLC commonly uses reification to describe metadata on links, such as labels.
+
+    The  #getValue() and#setValue(Object) methods allow you to
+
+    set the actual object of the triple. All other properties in implementing
+
+    classes are statements about the statement. These additional properties
+
+    should have OslcName and OslcPropertyDefinition annotations.
+
+    See Link for an example.
+
+    Note: The parameterized type T must be an URI to serialize to JSON due
+
+    to current limitations in the OSLC JSON format.
+
+    @see AbstractReifiedResource
+
+    @see <a href="http://www.w3.org/TR/rdf-mt/#Reif">RDF Semantics: Reification</a>
+
+    @see <a href="http://www.w3.org/TR/rdf-primer/#reification">RDF Primer: Reification</a>
+  example: []
+  syntax:
+    content: public interface IReifiedResource<T>
+    typeParameters:
+    - id: T
+      description: ''
+    content.vb: Public Interface IReifiedResource(Of T)
+  nameWithType.vb: IReifiedResource(Of T)
+  fullName.vb: OSLC4Net.Core.Model.IReifiedResource(Of T)
+  name.vb: IReifiedResource(Of T)
+- uid: OSLC4Net.Core.Model.IReifiedResource`1.GetValue
+  commentId: M:OSLC4Net.Core.Model.IReifiedResource`1.GetValue
+  id: GetValue
+  parent: OSLC4Net.Core.Model.IReifiedResource`1
+  langs:
+  - csharp
+  - vb
+  name: GetValue()
+  nameWithType: IReifiedResource<T>.GetValue()
+  fullName: OSLC4Net.Core.Model.IReifiedResource<T>.GetValue()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/IReifiedResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetValue
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/IReifiedResource.cs
+    startLine: 38
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: Gets the object of the reified statement.
+  example: []
+  syntax:
+    content: T GetValue()
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: Function GetValue() As T
+  overload: OSLC4Net.Core.Model.IReifiedResource`1.GetValue*
+  nameWithType.vb: IReifiedResource(Of T).GetValue()
+  fullName.vb: OSLC4Net.Core.Model.IReifiedResource(Of T).GetValue()
+- uid: OSLC4Net.Core.Model.IReifiedResource`1.SetValue(`0)
+  commentId: M:OSLC4Net.Core.Model.IReifiedResource`1.SetValue(`0)
+  id: SetValue(`0)
+  parent: OSLC4Net.Core.Model.IReifiedResource`1
+  langs:
+  - csharp
+  - vb
+  name: SetValue(T)
+  nameWithType: IReifiedResource<T>.SetValue(T)
+  fullName: OSLC4Net.Core.Model.IReifiedResource<T>.SetValue(T)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/IReifiedResource.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetValue
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/IReifiedResource.cs
+    startLine: 44
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: Sets the object of the reified statement.
+  example: []
+  syntax:
+    content: void SetValue(T value)
+    parameters:
+    - id: value
+      type: '{T}'
+      description: ''
+    content.vb: Sub SetValue(value As T)
+  overload: OSLC4Net.Core.Model.IReifiedResource`1.SetValue*
+  nameWithType.vb: IReifiedResource(Of T).SetValue(T)
+  fullName.vb: OSLC4Net.Core.Model.IReifiedResource(Of T).SetValue(T)
+references:
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+- uid: OSLC4Net.Core.Model.IReifiedResource`1.GetValue*
+  commentId: Overload:OSLC4Net.Core.Model.IReifiedResource`1.GetValue
+  href: OSLC4Net.Core.Model.IReifiedResource-1.html#OSLC4Net_Core_Model_IReifiedResource_1_GetValue
+  name: GetValue
+  nameWithType: IReifiedResource<T>.GetValue
+  fullName: OSLC4Net.Core.Model.IReifiedResource<T>.GetValue
+  nameWithType.vb: IReifiedResource(Of T).GetValue
+  fullName.vb: OSLC4Net.Core.Model.IReifiedResource(Of T).GetValue
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: OSLC4Net.Core.Model.IReifiedResource`1.SetValue*
+  commentId: Overload:OSLC4Net.Core.Model.IReifiedResource`1.SetValue
+  href: OSLC4Net.Core.Model.IReifiedResource-1.html#OSLC4Net_Core_Model_IReifiedResource_1_SetValue__0_
+  name: SetValue
+  nameWithType: IReifiedResource<T>.SetValue
+  fullName: OSLC4Net.Core.Model.IReifiedResource<T>.SetValue
+  nameWithType.vb: IReifiedResource(Of T).SetValue
+  fullName.vb: OSLC4Net.Core.Model.IReifiedResource(Of T).SetValue

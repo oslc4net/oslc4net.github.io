@@ -1,0 +1,2933 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Model.Property
+  commentId: T:OSLC4Net.Core.Model.Property
+  id: Property
+  parent: OSLC4Net.Core.Model
+  children:
+  - OSLC4Net.Core.Model.Property.#ctor
+  - OSLC4Net.Core.Model.Property.#ctor(System.String,OSLC4Net.Core.Model.Occurs,System.Uri,OSLC4Net.Core.Model.ValueType)
+  - OSLC4Net.Core.Model.Property.AddAllowedValue(System.String)
+  - OSLC4Net.Core.Model.Property.AddRange(System.Uri)
+  - OSLC4Net.Core.Model.Property.CompareTo(OSLC4Net.Core.Model.Property)
+  - OSLC4Net.Core.Model.Property.GetAllowedValues
+  - OSLC4Net.Core.Model.Property.GetAllowedValuesRef
+  - OSLC4Net.Core.Model.Property.GetDefaultValue
+  - OSLC4Net.Core.Model.Property.GetDescription
+  - OSLC4Net.Core.Model.Property.GetName
+  - OSLC4Net.Core.Model.Property.GetOccurs
+  - OSLC4Net.Core.Model.Property.GetPropertyDefinition
+  - OSLC4Net.Core.Model.Property.GetRange
+  - OSLC4Net.Core.Model.Property.GetRepresentation
+  - OSLC4Net.Core.Model.Property.GetTitle
+  - OSLC4Net.Core.Model.Property.GetValueShape
+  - OSLC4Net.Core.Model.Property.GetValueType
+  - OSLC4Net.Core.Model.Property.IsHidden
+  - OSLC4Net.Core.Model.Property.IsMemberProperty
+  - OSLC4Net.Core.Model.Property.IsReadOnly
+  - OSLC4Net.Core.Model.Property.SetAllowedValues(System.String[])
+  - OSLC4Net.Core.Model.Property.SetAllowedValuesRef(System.Uri)
+  - OSLC4Net.Core.Model.Property.SetDefaultValue(System.String)
+  - OSLC4Net.Core.Model.Property.SetDescription(System.String)
+  - OSLC4Net.Core.Model.Property.SetHidden(System.Boolean)
+  - OSLC4Net.Core.Model.Property.SetMaxSize(System.Int32)
+  - OSLC4Net.Core.Model.Property.SetMemberProperty(System.Boolean)
+  - OSLC4Net.Core.Model.Property.SetName(System.String)
+  - OSLC4Net.Core.Model.Property.SetOccurs(OSLC4Net.Core.Model.Occurs)
+  - OSLC4Net.Core.Model.Property.SetOccurs(System.Uri)
+  - OSLC4Net.Core.Model.Property.SetPropertyDefinition(System.Uri)
+  - OSLC4Net.Core.Model.Property.SetRange(System.Uri[])
+  - OSLC4Net.Core.Model.Property.SetReadOnly(System.Boolean)
+  - OSLC4Net.Core.Model.Property.SetRepresentation(OSLC4Net.Core.Model.Representation)
+  - OSLC4Net.Core.Model.Property.SetRepresentation(System.Uri)
+  - OSLC4Net.Core.Model.Property.SetTitle(System.String)
+  - OSLC4Net.Core.Model.Property.SetValueShape(System.Uri)
+  - OSLC4Net.Core.Model.Property.SetValueType(OSLC4Net.Core.Model.ValueType)
+  - OSLC4Net.Core.Model.Property.SetValueType(System.Uri)
+  - OSLC4Net.Core.Model.Property.getMaxSize
+  langs:
+  - csharp
+  - vb
+  name: Property
+  nameWithType: Property
+  fullName: OSLC4Net.Core.Model.Property
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Property
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 23
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: OSLC Property attributes
+  remarks: See http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA
+  example: []
+  syntax:
+    content: >-
+      [OslcNamespace("http://open-services.net/ns/core#")]
+
+      public sealed class Property : AbstractResource, IExtendedResource, IResource, IComparable<Property>
+    content.vb: >-
+      <OslcNamespace("http://open-services.net/ns/core#")>
+
+      Public NotInheritable Class [Property] Inherits AbstractResource Implements IExtendedResource, IResource, IComparable(Of Property)
+  inheritance:
+  - System.Object
+  - OSLC4Net.Core.Model.AbstractResource
+  implements:
+  - OSLC4Net.Core.Model.IExtendedResource
+  - OSLC4Net.Core.Model.IResource
+  - System.IComparable{OSLC4Net.Core.Model.Property}
+  inheritedMembers:
+  - OSLC4Net.Core.Model.AbstractResource.About
+  - OSLC4Net.Core.Model.AbstractResource.GetAbout
+  - OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+  - OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+  - OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties
+  - OSLC4Net.Core.Model.AbstractResource.GetTypes
+  - OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+  - OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcNamespace
+    ctor: OSLC4Net.Core.Attribute.OslcNamespace.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#
+- uid: OSLC4Net.Core.Model.Property.#ctor
+  commentId: M:OSLC4Net.Core.Model.Property.#ctor
+  id: '#ctor'
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: Property()
+  nameWithType: Property.Property()
+  fullName: OSLC4Net.Core.Model.Property.Property()
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 46
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public Property()
+    content.vb: Public Sub New()
+  overload: OSLC4Net.Core.Model.Property.#ctor*
+  nameWithType.vb: Property.New()
+  fullName.vb: OSLC4Net.Core.Model.Property.New()
+  name.vb: New()
+- uid: OSLC4Net.Core.Model.Property.#ctor(System.String,OSLC4Net.Core.Model.Occurs,System.Uri,OSLC4Net.Core.Model.ValueType)
+  commentId: M:OSLC4Net.Core.Model.Property.#ctor(System.String,OSLC4Net.Core.Model.Occurs,System.Uri,OSLC4Net.Core.Model.ValueType)
+  id: '#ctor(System.String,OSLC4Net.Core.Model.Occurs,System.Uri,OSLC4Net.Core.Model.ValueType)'
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: Property(string, Occurs, Uri, ValueType)
+  nameWithType: Property.Property(string, Occurs, Uri, ValueType)
+  fullName: OSLC4Net.Core.Model.Property.Property(string, OSLC4Net.Core.Model.Occurs, System.Uri, OSLC4Net.Core.Model.ValueType)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 50
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public Property(string name, Occurs occurs, Uri propertyDefinition, ValueType valueType)
+    parameters:
+    - id: name
+      type: System.String
+    - id: occurs
+      type: OSLC4Net.Core.Model.Occurs
+    - id: propertyDefinition
+      type: System.Uri
+    - id: valueType
+      type: OSLC4Net.Core.Model.ValueType
+    content.vb: Public Sub New(name As String, occurs As Occurs, propertyDefinition As Uri, valueType As ValueType)
+  overload: OSLC4Net.Core.Model.Property.#ctor*
+  nameWithType.vb: Property.New(String, Occurs, Uri, ValueType)
+  fullName.vb: OSLC4Net.Core.Model.Property.New(String, OSLC4Net.Core.Model.Occurs, System.Uri, OSLC4Net.Core.Model.ValueType)
+  name.vb: New(String, Occurs, Uri, ValueType)
+- uid: OSLC4Net.Core.Model.Property.CompareTo(OSLC4Net.Core.Model.Property)
+  commentId: M:OSLC4Net.Core.Model.Property.CompareTo(OSLC4Net.Core.Model.Property)
+  id: CompareTo(OSLC4Net.Core.Model.Property)
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(Property)
+  nameWithType: Property.CompareTo(Property)
+  fullName: OSLC4Net.Core.Model.Property.CompareTo(OSLC4Net.Core.Model.Property)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CompareTo
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 61
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  example: []
+  syntax:
+    content: public int CompareTo(Property o)
+    parameters:
+    - id: o
+      type: OSLC4Net.Core.Model.Property
+    return:
+      type: System.Int32
+    content.vb: Public Function CompareTo(o As [Property]) As Integer
+  overload: OSLC4Net.Core.Model.Property.CompareTo*
+  implements:
+  - System.IComparable{OSLC4Net.Core.Model.Property}.CompareTo(OSLC4Net.Core.Model.Property)
+- uid: OSLC4Net.Core.Model.Property.AddAllowedValue(System.String)
+  commentId: M:OSLC4Net.Core.Model.Property.AddAllowedValue(System.String)
+  id: AddAllowedValue(System.String)
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: AddAllowedValue(string)
+  nameWithType: Property.AddAllowedValue(string)
+  fullName: OSLC4Net.Core.Model.Property.AddAllowedValue(string)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AddAllowedValue
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 66
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void AddAllowedValue(string allowedValue)
+    parameters:
+    - id: allowedValue
+      type: System.String
+    content.vb: Public Sub AddAllowedValue(allowedValue As String)
+  overload: OSLC4Net.Core.Model.Property.AddAllowedValue*
+  nameWithType.vb: Property.AddAllowedValue(String)
+  fullName.vb: OSLC4Net.Core.Model.Property.AddAllowedValue(String)
+  name.vb: AddAllowedValue(String)
+- uid: OSLC4Net.Core.Model.Property.AddRange(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.Property.AddRange(System.Uri)
+  id: AddRange(System.Uri)
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: AddRange(Uri)
+  nameWithType: Property.AddRange(Uri)
+  fullName: OSLC4Net.Core.Model.Property.AddRange(System.Uri)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AddRange
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 71
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void AddRange(Uri range)
+    parameters:
+    - id: range
+      type: System.Uri
+    content.vb: Public Sub AddRange(range As Uri)
+  overload: OSLC4Net.Core.Model.Property.AddRange*
+- uid: OSLC4Net.Core.Model.Property.GetAllowedValues
+  commentId: M:OSLC4Net.Core.Model.Property.GetAllowedValues
+  id: GetAllowedValues
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: GetAllowedValues()
+  nameWithType: Property.GetAllowedValues()
+  fullName: OSLC4Net.Core.Model.Property.GetAllowedValues()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetAllowedValues
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 76
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [OslcDescription("A value allowed for property, inlined into property definition. If there are both oslc:allowedValue elements and an oslc:allowedValue resource, then the full-set of allowed values is the union of both")]
+
+      [OslcName("allowedValue")]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/core#allowedValue")]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Allowed Values")]
+
+      public string[] GetAllowedValues()
+    return:
+      type: System.String[]
+    content.vb: >-
+      <OslcDescription("A value allowed for property, inlined into property definition. If there are both oslc:allowedValue elements and an oslc:allowedValue resource, then the full-set of allowed values is the union of both")>
+
+      <OslcName("allowedValue")>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/core#allowedValue")>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Allowed Values")>
+
+      Public Function GetAllowedValues() As String()
+  overload: OSLC4Net.Core.Model.Property.GetAllowedValues*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: A value allowed for property, inlined into property definition. If there are both oslc:allowedValue elements and an oslc:allowedValue resource, then the full-set of allowed values is the union of both
+  - type: OSLC4Net.Core.Attribute.OslcName
+    ctor: OSLC4Net.Core.Attribute.OslcName.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: allowedValue
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#allowedValue
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Allowed Values
+- uid: OSLC4Net.Core.Model.Property.GetAllowedValuesRef
+  commentId: M:OSLC4Net.Core.Model.Property.GetAllowedValuesRef
+  id: GetAllowedValuesRef
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: GetAllowedValuesRef()
+  nameWithType: Property.GetAllowedValuesRef()
+  fullName: OSLC4Net.Core.Model.Property.GetAllowedValuesRef()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetAllowedValuesRef
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 87
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [OslcDescription("Resource with allowed values for the property being defined")]
+
+      [OslcName("allowedValues")]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/core#allowedValues")]
+
+      [OslcRange(new string[] { "http://open-services.net/ns/core#AllowedValues" })]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Allowed Value Reference")]
+
+      [OslcValueShape("resourceShapes/allowedValues")]
+
+      public Uri GetAllowedValuesRef()
+    return:
+      type: System.Uri
+    content.vb: >-
+      <OslcDescription("Resource with allowed values for the property being defined")>
+
+      <OslcName("allowedValues")>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/core#allowedValues")>
+
+      <OslcRange(New String() { "http://open-services.net/ns/core#AllowedValues" })>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Allowed Value Reference")>
+
+      <OslcValueShape("resourceShapes/allowedValues")>
+
+      Public Function GetAllowedValuesRef() As Uri
+  overload: OSLC4Net.Core.Model.Property.GetAllowedValuesRef*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Resource with allowed values for the property being defined
+  - type: OSLC4Net.Core.Attribute.OslcName
+    ctor: OSLC4Net.Core.Attribute.OslcName.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: allowedValues
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#allowedValues
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Allowed Value Reference
+  - type: OSLC4Net.Core.Attribute.OslcValueShape
+    ctor: OSLC4Net.Core.Attribute.OslcValueShape.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: resourceShapes/allowedValues
+- uid: OSLC4Net.Core.Model.Property.GetDefaultValue
+  commentId: M:OSLC4Net.Core.Model.Property.GetDefaultValue
+  id: GetDefaultValue
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultValue()
+  nameWithType: Property.GetDefaultValue()
+  fullName: OSLC4Net.Core.Model.Property.GetDefaultValue()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetDefaultValue
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 99
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [OslcDescription("A default value for property, inlined into property definition")]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/core#defaultValue")]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Default Value")]
+
+      public string GetDefaultValue()
+    return:
+      type: System.String
+    content.vb: >-
+      <OslcDescription("A default value for property, inlined into property definition")>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/core#defaultValue")>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Default Value")>
+
+      Public Function GetDefaultValue() As String
+  overload: OSLC4Net.Core.Model.Property.GetDefaultValue*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: A default value for property, inlined into property definition
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#defaultValue
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Default Value
+- uid: OSLC4Net.Core.Model.Property.GetDescription
+  commentId: M:OSLC4Net.Core.Model.Property.GetDescription
+  id: GetDescription
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: GetDescription()
+  nameWithType: Property.GetDescription()
+  fullName: OSLC4Net.Core.Model.Property.GetDescription()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetDescription
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 108
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [OslcDescription("Description of the property. SHOULD include only content that is valid and suitable inside an XHTML <div> element")]
+
+      [OslcPropertyDefinition("http://purl.org/dc/terms/description")]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Description")]
+
+      [OslcValueType(ValueType.XMLLiteral)]
+
+      public string GetDescription()
+    return:
+      type: System.String
+    content.vb: >-
+      <OslcDescription("Description of the property. SHOULD include only content that is valid and suitable inside an XHTML <div> element")>
+
+      <OslcPropertyDefinition("http://purl.org/dc/terms/description")>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Description")>
+
+      <OslcValueType(ValueType.XMLLiteral)>
+
+      Public Function GetDescription() As String
+  overload: OSLC4Net.Core.Model.Property.GetDescription*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Description of the property. SHOULD include only content that is valid and suitable inside an XHTML <div> element
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://purl.org/dc/terms/description
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Description
+  - type: OSLC4Net.Core.Attribute.OslcValueType
+    ctor: OSLC4Net.Core.Attribute.OslcValueType.#ctor(OSLC4Net.Core.Model.ValueType)
+    arguments:
+    - type: OSLC4Net.Core.Model.ValueType
+      value: 7
+- uid: OSLC4Net.Core.Model.Property.getMaxSize
+  commentId: M:OSLC4Net.Core.Model.Property.getMaxSize
+  id: getMaxSize
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: getMaxSize()
+  nameWithType: Property.getMaxSize()
+  fullName: OSLC4Net.Core.Model.Property.getMaxSize()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: getMaxSize
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 119
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [OslcDescription("For string properties only, specifies maximum characters allowed. If not set, then there is no maximum or maximum is specified elsewhere")]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/core#maxSize")]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Maximum Size")]
+
+      public int getMaxSize()
+    return:
+      type: System.Int32
+    content.vb: >-
+      <OslcDescription("For string properties only, specifies maximum characters allowed. If not set, then there is no maximum or maximum is specified elsewhere")>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/core#maxSize")>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Maximum Size")>
+
+      Public Function getMaxSize() As Integer
+  overload: OSLC4Net.Core.Model.Property.getMaxSize*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: For string properties only, specifies maximum characters allowed. If not set, then there is no maximum or maximum is specified elsewhere
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#maxSize
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Maximum Size
+- uid: OSLC4Net.Core.Model.Property.GetName
+  commentId: M:OSLC4Net.Core.Model.Property.GetName
+  id: GetName
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: GetName()
+  nameWithType: Property.GetName()
+  fullName: OSLC4Net.Core.Model.Property.GetName()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetName
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 129
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [OslcDescription("Name of property being defined, i.e. second part of property's Prefixed Name")]
+
+      [OslcOccurs(Occurs.ExactlyOne)]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/core#name")]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Name")]
+
+      public string GetName()
+    return:
+      type: System.String
+    content.vb: >-
+      <OslcDescription("Name of property being defined, i.e. second part of property's Prefixed Name")>
+
+      <OslcOccurs(Occurs.ExactlyOne)>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/core#name")>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Name")>
+
+      Public Function GetName() As String
+  overload: OSLC4Net.Core.Model.Property.GetName*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Name of property being defined, i.e. second part of property's Prefixed Name
+  - type: OSLC4Net.Core.Attribute.OslcOccurs
+    ctor: OSLC4Net.Core.Attribute.OslcOccurs.#ctor(OSLC4Net.Core.Model.Occurs)
+    arguments:
+    - type: OSLC4Net.Core.Model.Occurs
+      value: 0
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#name
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Name
+- uid: OSLC4Net.Core.Model.Property.GetOccurs
+  commentId: M:OSLC4Net.Core.Model.Property.GetOccurs
+  id: GetOccurs
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: GetOccurs()
+  nameWithType: Property.GetOccurs()
+  fullName: OSLC4Net.Core.Model.Property.GetOccurs()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetOccurs
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 140
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [OslcAllowedValue(new string[] { "http://open-services.net/ns/core#Exactly-one", "http://open-services.net/ns/core#Zero-or-one", "http://open-services.net/ns/core#Zero-or-many", "http://open-services.net/ns/core#One-or-many" })]
+
+      [OslcDescription("MUST be either http://open-services.net/ns/core#Exactly-one, http://open-services.net/ns/core#Zero-or-one, http://open-services.net/ns/core#Zero-or-many or http://open-services.net/ns/core#One-or-many")]
+
+      [OslcOccurs(Occurs.ExactlyOne)]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/core#occurs")]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Occurs")]
+
+      public Uri? GetOccurs()
+    return:
+      type: System.Uri
+    content.vb: >-
+      <OslcAllowedValue(New String() { "http://open-services.net/ns/core#Exactly-one", "http://open-services.net/ns/core#Zero-or-one", "http://open-services.net/ns/core#Zero-or-many", "http://open-services.net/ns/core#One-or-many" })>
+
+      <OslcDescription("MUST be either http://open-services.net/ns/core#Exactly-one, http://open-services.net/ns/core#Zero-or-one, http://open-services.net/ns/core#Zero-or-many or http://open-services.net/ns/core#One-or-many")>
+
+      <OslcOccurs(Occurs.ExactlyOne)>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/core#occurs")>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Occurs")>
+
+      Public Function GetOccurs() As Uri
+  overload: OSLC4Net.Core.Model.Property.GetOccurs*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: MUST be either http://open-services.net/ns/core#Exactly-one, http://open-services.net/ns/core#Zero-or-one, http://open-services.net/ns/core#Zero-or-many or http://open-services.net/ns/core#One-or-many
+  - type: OSLC4Net.Core.Attribute.OslcOccurs
+    ctor: OSLC4Net.Core.Attribute.OslcOccurs.#ctor(OSLC4Net.Core.Model.Occurs)
+    arguments:
+    - type: OSLC4Net.Core.Model.Occurs
+      value: 0
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#occurs
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Occurs
+- uid: OSLC4Net.Core.Model.Property.GetPropertyDefinition
+  commentId: M:OSLC4Net.Core.Model.Property.GetPropertyDefinition
+  id: GetPropertyDefinition
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: GetPropertyDefinition()
+  nameWithType: Property.GetPropertyDefinition()
+  fullName: OSLC4Net.Core.Model.Property.GetPropertyDefinition()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetPropertyDefinition
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 168
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [OslcDescription("Uri of the property whose usage is being described")]
+
+      [OslcOccurs(Occurs.ExactlyOne)]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/core#propertyDefinition")]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Property Definition")]
+
+      public Uri GetPropertyDefinition()
+    return:
+      type: System.Uri
+    content.vb: >-
+      <OslcDescription("Uri of the property whose usage is being described")>
+
+      <OslcOccurs(Occurs.ExactlyOne)>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/core#propertyDefinition")>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Property Definition")>
+
+      Public Function GetPropertyDefinition() As Uri
+  overload: OSLC4Net.Core.Model.Property.GetPropertyDefinition*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Uri of the property whose usage is being described
+  - type: OSLC4Net.Core.Attribute.OslcOccurs
+    ctor: OSLC4Net.Core.Attribute.OslcOccurs.#ctor(OSLC4Net.Core.Model.Occurs)
+    arguments:
+    - type: OSLC4Net.Core.Model.Occurs
+      value: 0
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#propertyDefinition
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Property Definition
+- uid: OSLC4Net.Core.Model.Property.GetRange
+  commentId: M:OSLC4Net.Core.Model.Property.GetRange
+  id: GetRange
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: GetRange()
+  nameWithType: Property.GetRange()
+  fullName: OSLC4Net.Core.Model.Property.GetRange()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetRange
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 178
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [OslcDescription("For properties with a resource value-type, Providers MAY also specify the range of possible resource classes allowed, each specified by Uri. The default range is http://open-services.net/ns/core#Any")]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/core#range")]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Ranges")]
+
+      public Uri[] GetRange()
+    return:
+      type: System.Uri[]
+    content.vb: >-
+      <OslcDescription("For properties with a resource value-type, Providers MAY also specify the range of possible resource classes allowed, each specified by Uri. The default range is http://open-services.net/ns/core#Any")>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/core#range")>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Ranges")>
+
+      Public Function GetRange() As Uri()
+  overload: OSLC4Net.Core.Model.Property.GetRange*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: For properties with a resource value-type, Providers MAY also specify the range of possible resource classes allowed, each specified by Uri. The default range is http://open-services.net/ns/core#Any
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#range
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Ranges
+- uid: OSLC4Net.Core.Model.Property.GetRepresentation
+  commentId: M:OSLC4Net.Core.Model.Property.GetRepresentation
+  id: GetRepresentation
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: GetRepresentation()
+  nameWithType: Property.GetRepresentation()
+  fullName: OSLC4Net.Core.Model.Property.GetRepresentation()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetRepresentation
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 188
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [OslcAllowedValue(new string[] { "http://open-services.net/ns/core#Reference", "http://open-services.net/ns/core#Inline", "http://open-services.net/ns/core#Either" })]
+
+      [OslcDescription("Should be http://open-services.net/ns/core#Reference, http://open-services.net/ns/core#Inline or http://open-services.net/ns/core#Either")]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/core#representation")]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Representation")]
+
+      public Uri? GetRepresentation()
+    return:
+      type: System.Uri
+    content.vb: >-
+      <OslcAllowedValue(New String() { "http://open-services.net/ns/core#Reference", "http://open-services.net/ns/core#Inline", "http://open-services.net/ns/core#Either" })>
+
+      <OslcDescription("Should be http://open-services.net/ns/core#Reference, http://open-services.net/ns/core#Inline or http://open-services.net/ns/core#Either")>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/core#representation")>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Representation")>
+
+      Public Function GetRepresentation() As Uri
+  overload: OSLC4Net.Core.Model.Property.GetRepresentation*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Should be http://open-services.net/ns/core#Reference, http://open-services.net/ns/core#Inline or http://open-services.net/ns/core#Either
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#representation
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Representation
+- uid: OSLC4Net.Core.Model.Property.GetTitle
+  commentId: M:OSLC4Net.Core.Model.Property.GetTitle
+  id: GetTitle
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: GetTitle()
+  nameWithType: Property.GetTitle()
+  fullName: OSLC4Net.Core.Model.Property.GetTitle()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetTitle
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 214
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [OslcDescription("Title of the property. SHOULD include only content that is valid and suitable inside an XHTML <div> element")]
+
+      [OslcPropertyDefinition("http://purl.org/dc/terms/title")]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Title")]
+
+      [OslcValueType(ValueType.XMLLiteral)]
+
+      public string GetTitle()
+    return:
+      type: System.String
+    content.vb: >-
+      <OslcDescription("Title of the property. SHOULD include only content that is valid and suitable inside an XHTML <div> element")>
+
+      <OslcPropertyDefinition("http://purl.org/dc/terms/title")>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Title")>
+
+      <OslcValueType(ValueType.XMLLiteral)>
+
+      Public Function GetTitle() As String
+  overload: OSLC4Net.Core.Model.Property.GetTitle*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Title of the property. SHOULD include only content that is valid and suitable inside an XHTML <div> element
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://purl.org/dc/terms/title
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Title
+  - type: OSLC4Net.Core.Attribute.OslcValueType
+    ctor: OSLC4Net.Core.Attribute.OslcValueType.#ctor(OSLC4Net.Core.Model.ValueType)
+    arguments:
+    - type: OSLC4Net.Core.Model.ValueType
+      value: 7
+- uid: OSLC4Net.Core.Model.Property.GetValueShape
+  commentId: M:OSLC4Net.Core.Model.Property.GetValueShape
+  id: GetValueShape
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: GetValueShape()
+  nameWithType: Property.GetValueShape()
+  fullName: OSLC4Net.Core.Model.Property.GetValueShape()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetValueShape
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 225
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [OslcDescription("if the value-type is a resource type, then Property MAY provide a shape value to indicate the Resource Shape that applies to the resource")]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/core#valueShape")]
+
+      [OslcRange(new string[] { "http://open-services.net/ns/core#ResourceShape" })]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Value Shape")]
+
+      public Uri GetValueShape()
+    return:
+      type: System.Uri
+    content.vb: >-
+      <OslcDescription("if the value-type is a resource type, then Property MAY provide a shape value to indicate the Resource Shape that applies to the resource")>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/core#valueShape")>
+
+      <OslcRange(New String() { "http://open-services.net/ns/core#ResourceShape" })>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Value Shape")>
+
+      Public Function GetValueShape() As Uri
+  overload: OSLC4Net.Core.Model.Property.GetValueShape*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: if the value-type is a resource type, then Property MAY provide a shape value to indicate the Resource Shape that applies to the resource
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#valueShape
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Value Shape
+- uid: OSLC4Net.Core.Model.Property.GetValueType
+  commentId: M:OSLC4Net.Core.Model.Property.GetValueType
+  id: GetValueType
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: GetValueType()
+  nameWithType: Property.GetValueType()
+  fullName: OSLC4Net.Core.Model.Property.GetValueType()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetValueType
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 236
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [OslcAllowedValue(new string[] { "http://www.w3.org/2001/XMLSchema#boolean", "http://www.w3.org/2001/XMLSchema#dateTime", "http://www.w3.org/2001/XMLSchema#decimal", "http://www.w3.org/2001/XMLSchema#double", "http://www.w3.org/2001/XMLSchema#float", "http://www.w3.org/2001/XMLSchema#integer", "http://www.w3.org/2001/XMLSchema#string", "http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral", "http://open-services.net/ns/core#Resource", "http://open-services.net/ns/core#LocalResource", "http://open-services.net/ns/core#AnyResource" })]
+
+      [OslcDescription("See list of allowed values for oslc:valueType")]
+
+      [OslcOccurs(Occurs.ExactlyOne)]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/core#valueType")]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Value Type")]
+
+      public Uri? GetValueType()
+    return:
+      type: System.Uri
+    content.vb: >-
+      <OslcAllowedValue(New String() { "http://www.w3.org/2001/XMLSchema#boolean", "http://www.w3.org/2001/XMLSchema#dateTime", "http://www.w3.org/2001/XMLSchema#decimal", "http://www.w3.org/2001/XMLSchema#double", "http://www.w3.org/2001/XMLSchema#float", "http://www.w3.org/2001/XMLSchema#integer", "http://www.w3.org/2001/XMLSchema#string", "http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral", "http://open-services.net/ns/core#Resource", "http://open-services.net/ns/core#LocalResource", "http://open-services.net/ns/core#AnyResource" })>
+
+      <OslcDescription("See list of allowed values for oslc:valueType")>
+
+      <OslcOccurs(Occurs.ExactlyOne)>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/core#valueType")>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Value Type")>
+
+      Public Function GetValueType() As Uri
+  overload: OSLC4Net.Core.Model.Property.GetValueType*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: See list of allowed values for oslc:valueType
+  - type: OSLC4Net.Core.Attribute.OslcOccurs
+    ctor: OSLC4Net.Core.Attribute.OslcOccurs.#ctor(OSLC4Net.Core.Model.Occurs)
+    arguments:
+    - type: OSLC4Net.Core.Model.Occurs
+      value: 0
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#valueType
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Value Type
+- uid: OSLC4Net.Core.Model.Property.IsHidden
+  commentId: M:OSLC4Net.Core.Model.Property.IsHidden
+  id: IsHidden
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: IsHidden()
+  nameWithType: Property.IsHidden()
+  fullName: OSLC4Net.Core.Model.Property.IsHidden()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: IsHidden
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 270
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [OslcDescription("A hint that indicates that property MAY be hidden when presented in a user interface")]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/core#hidden")]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Hidden")]
+
+      public bool IsHidden()
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <OslcDescription("A hint that indicates that property MAY be hidden when presented in a user interface")>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/core#hidden")>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Hidden")>
+
+      Public Function IsHidden() As Boolean
+  overload: OSLC4Net.Core.Model.Property.IsHidden*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: A hint that indicates that property MAY be hidden when presented in a user interface
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#hidden
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Hidden
+- uid: OSLC4Net.Core.Model.Property.IsMemberProperty
+  commentId: M:OSLC4Net.Core.Model.Property.IsMemberProperty
+  id: IsMemberProperty
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: IsMemberProperty()
+  nameWithType: Property.IsMemberProperty()
+  fullName: OSLC4Net.Core.Model.Property.IsMemberProperty()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: IsMemberProperty
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 280
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [OslcDescription("If set to true, this indicates that the property is a membership property, as described in the Query Syntax Specification: Member List Patterns. This is useful when the resource whose shape is being defined is viewed as a container of other resources. For example, look at the last example in Appendix B's RDF/XML Representation Examples: Specifying the shape of a query result, where blog:comment is defined as a membership property and comment that matches the query is returned as value of that property.")]
+
+      [OslcName("isMemberProperty")]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/core#isMemberProperty")]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Is Member Property")]
+
+      public bool IsMemberProperty()
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <OslcDescription("If set to true, this indicates that the property is a membership property, as described in the Query Syntax Specification: Member List Patterns. This is useful when the resource whose shape is being defined is viewed as a container of other resources. For example, look at the last example in Appendix B's RDF/XML Representation Examples: Specifying the shape of a query result, where blog:comment is defined as a membership property and comment that matches the query is returned as value of that property.")>
+
+      <OslcName("isMemberProperty")>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/core#isMemberProperty")>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Is Member Property")>
+
+      Public Function IsMemberProperty() As Boolean
+  overload: OSLC4Net.Core.Model.Property.IsMemberProperty*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: "If set to true, this indicates that the property is a membership property, as described in the Query Syntax Specification: Member List Patterns. This is useful when the resource whose shape is being defined is viewed as a container of other resources. For example, look at the last example in Appendix B's RDF/XML Representation Examples: Specifying the shape of a query result, where blog:comment is defined as a membership property and comment that matches the query is returned as value of that property."
+  - type: OSLC4Net.Core.Attribute.OslcName
+    ctor: OSLC4Net.Core.Attribute.OslcName.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: isMemberProperty
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#isMemberProperty
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Is Member Property
+- uid: OSLC4Net.Core.Model.Property.IsReadOnly
+  commentId: M:OSLC4Net.Core.Model.Property.IsReadOnly
+  id: IsReadOnly
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: IsReadOnly()
+  nameWithType: Property.IsReadOnly()
+  fullName: OSLC4Net.Core.Model.Property.IsReadOnly()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: IsReadOnly
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 291
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [OslcDescription("true if the property is read-only. If not set, or set to false, then the property is writable. Providers SHOULD declare a property read-only when changes to the value of that property will not be accepted on PUT. Consumers should note that the converse does not apply: Providers MAY reject a change to the value of a writable property.")]
+
+      [OslcPropertyDefinition("http://open-services.net/ns/core#readOnly")]
+
+      [OslcReadOnly]
+
+      [OslcTitle("Read Only")]
+
+      public bool IsReadOnly()
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <OslcDescription("true if the property is read-only. If not set, or set to false, then the property is writable. Providers SHOULD declare a property read-only when changes to the value of that property will not be accepted on PUT. Consumers should note that the converse does not apply: Providers MAY reject a change to the value of a writable property.")>
+
+      <OslcPropertyDefinition("http://open-services.net/ns/core#readOnly")>
+
+      <OslcReadOnly>
+
+      <OslcTitle("Read Only")>
+
+      Public Function IsReadOnly() As Boolean
+  overload: OSLC4Net.Core.Model.Property.IsReadOnly*
+  attributes:
+  - type: OSLC4Net.Core.Attribute.OslcDescription
+    ctor: OSLC4Net.Core.Attribute.OslcDescription.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 'true if the property is read-only. If not set, or set to false, then the property is writable. Providers SHOULD declare a property read-only when changes to the value of that property will not be accepted on PUT. Consumers should note that the converse does not apply: Providers MAY reject a change to the value of a writable property.'
+  - type: OSLC4Net.Core.Attribute.OslcPropertyDefinition
+    ctor: OSLC4Net.Core.Attribute.OslcPropertyDefinition.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#readOnly
+  - type: OSLC4Net.Core.Attribute.OslcReadOnly
+    ctor: OSLC4Net.Core.Attribute.OslcReadOnly.#ctor
+    arguments: []
+  - type: OSLC4Net.Core.Attribute.OslcTitle
+    ctor: OSLC4Net.Core.Attribute.OslcTitle.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Read Only
+- uid: OSLC4Net.Core.Model.Property.SetAllowedValues(System.String[])
+  commentId: M:OSLC4Net.Core.Model.Property.SetAllowedValues(System.String[])
+  id: SetAllowedValues(System.String[])
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: SetAllowedValues(string[])
+  nameWithType: Property.SetAllowedValues(string[])
+  fullName: OSLC4Net.Core.Model.Property.SetAllowedValues(string[])
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetAllowedValues
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 301
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetAllowedValues(string[] allowedValues)
+    parameters:
+    - id: allowedValues
+      type: System.String[]
+    content.vb: Public Sub SetAllowedValues(allowedValues As String())
+  overload: OSLC4Net.Core.Model.Property.SetAllowedValues*
+  nameWithType.vb: Property.SetAllowedValues(String())
+  fullName.vb: OSLC4Net.Core.Model.Property.SetAllowedValues(String())
+  name.vb: SetAllowedValues(String())
+- uid: OSLC4Net.Core.Model.Property.SetAllowedValuesRef(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.Property.SetAllowedValuesRef(System.Uri)
+  id: SetAllowedValuesRef(System.Uri)
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: SetAllowedValuesRef(Uri)
+  nameWithType: Property.SetAllowedValuesRef(Uri)
+  fullName: OSLC4Net.Core.Model.Property.SetAllowedValuesRef(System.Uri)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetAllowedValuesRef
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 313
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetAllowedValuesRef(Uri allowedValuesRef)
+    parameters:
+    - id: allowedValuesRef
+      type: System.Uri
+    content.vb: Public Sub SetAllowedValuesRef(allowedValuesRef As Uri)
+  overload: OSLC4Net.Core.Model.Property.SetAllowedValuesRef*
+- uid: OSLC4Net.Core.Model.Property.SetDefaultValue(System.String)
+  commentId: M:OSLC4Net.Core.Model.Property.SetDefaultValue(System.String)
+  id: SetDefaultValue(System.String)
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: SetDefaultValue(string)
+  nameWithType: Property.SetDefaultValue(string)
+  fullName: OSLC4Net.Core.Model.Property.SetDefaultValue(string)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetDefaultValue
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 325
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetDefaultValue(string defaultValue)
+    parameters:
+    - id: defaultValue
+      type: System.String
+    content.vb: Public Sub SetDefaultValue(defaultValue As String)
+  overload: OSLC4Net.Core.Model.Property.SetDefaultValue*
+  nameWithType.vb: Property.SetDefaultValue(String)
+  fullName.vb: OSLC4Net.Core.Model.Property.SetDefaultValue(String)
+  name.vb: SetDefaultValue(String)
+- uid: OSLC4Net.Core.Model.Property.SetDescription(System.String)
+  commentId: M:OSLC4Net.Core.Model.Property.SetDescription(System.String)
+  id: SetDescription(System.String)
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: SetDescription(string)
+  nameWithType: Property.SetDescription(string)
+  fullName: OSLC4Net.Core.Model.Property.SetDescription(string)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetDescription
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 330
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetDescription(string description)
+    parameters:
+    - id: description
+      type: System.String
+    content.vb: Public Sub SetDescription(description As String)
+  overload: OSLC4Net.Core.Model.Property.SetDescription*
+  nameWithType.vb: Property.SetDescription(String)
+  fullName.vb: OSLC4Net.Core.Model.Property.SetDescription(String)
+  name.vb: SetDescription(String)
+- uid: OSLC4Net.Core.Model.Property.SetHidden(System.Boolean)
+  commentId: M:OSLC4Net.Core.Model.Property.SetHidden(System.Boolean)
+  id: SetHidden(System.Boolean)
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: SetHidden(bool)
+  nameWithType: Property.SetHidden(bool)
+  fullName: OSLC4Net.Core.Model.Property.SetHidden(bool)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetHidden
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 335
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetHidden(bool hidden)
+    parameters:
+    - id: hidden
+      type: System.Boolean
+    content.vb: Public Sub SetHidden(hidden As Boolean)
+  overload: OSLC4Net.Core.Model.Property.SetHidden*
+  nameWithType.vb: Property.SetHidden(Boolean)
+  fullName.vb: OSLC4Net.Core.Model.Property.SetHidden(Boolean)
+  name.vb: SetHidden(Boolean)
+- uid: OSLC4Net.Core.Model.Property.SetMaxSize(System.Int32)
+  commentId: M:OSLC4Net.Core.Model.Property.SetMaxSize(System.Int32)
+  id: SetMaxSize(System.Int32)
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: SetMaxSize(int)
+  nameWithType: Property.SetMaxSize(int)
+  fullName: OSLC4Net.Core.Model.Property.SetMaxSize(int)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetMaxSize
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 340
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetMaxSize(int maxSize)
+    parameters:
+    - id: maxSize
+      type: System.Int32
+    content.vb: Public Sub SetMaxSize(maxSize As Integer)
+  overload: OSLC4Net.Core.Model.Property.SetMaxSize*
+  nameWithType.vb: Property.SetMaxSize(Integer)
+  fullName.vb: OSLC4Net.Core.Model.Property.SetMaxSize(Integer)
+  name.vb: SetMaxSize(Integer)
+- uid: OSLC4Net.Core.Model.Property.SetMemberProperty(System.Boolean)
+  commentId: M:OSLC4Net.Core.Model.Property.SetMemberProperty(System.Boolean)
+  id: SetMemberProperty(System.Boolean)
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: SetMemberProperty(bool)
+  nameWithType: Property.SetMemberProperty(bool)
+  fullName: OSLC4Net.Core.Model.Property.SetMemberProperty(bool)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetMemberProperty
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 345
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetMemberProperty(bool memberProperty)
+    parameters:
+    - id: memberProperty
+      type: System.Boolean
+    content.vb: Public Sub SetMemberProperty(memberProperty As Boolean)
+  overload: OSLC4Net.Core.Model.Property.SetMemberProperty*
+  nameWithType.vb: Property.SetMemberProperty(Boolean)
+  fullName.vb: OSLC4Net.Core.Model.Property.SetMemberProperty(Boolean)
+  name.vb: SetMemberProperty(Boolean)
+- uid: OSLC4Net.Core.Model.Property.SetName(System.String)
+  commentId: M:OSLC4Net.Core.Model.Property.SetName(System.String)
+  id: SetName(System.String)
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: SetName(string)
+  nameWithType: Property.SetName(string)
+  fullName: OSLC4Net.Core.Model.Property.SetName(string)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetName
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 350
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetName(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub SetName(name As String)
+  overload: OSLC4Net.Core.Model.Property.SetName*
+  nameWithType.vb: Property.SetName(String)
+  fullName.vb: OSLC4Net.Core.Model.Property.SetName(String)
+  name.vb: SetName(String)
+- uid: OSLC4Net.Core.Model.Property.SetOccurs(OSLC4Net.Core.Model.Occurs)
+  commentId: M:OSLC4Net.Core.Model.Property.SetOccurs(OSLC4Net.Core.Model.Occurs)
+  id: SetOccurs(OSLC4Net.Core.Model.Occurs)
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: SetOccurs(Occurs)
+  nameWithType: Property.SetOccurs(Occurs)
+  fullName: OSLC4Net.Core.Model.Property.SetOccurs(OSLC4Net.Core.Model.Occurs)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetOccurs
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 355
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetOccurs(Occurs occurs)
+    parameters:
+    - id: occurs
+      type: OSLC4Net.Core.Model.Occurs
+    content.vb: Public Sub SetOccurs(occurs As Occurs)
+  overload: OSLC4Net.Core.Model.Property.SetOccurs*
+- uid: OSLC4Net.Core.Model.Property.SetOccurs(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.Property.SetOccurs(System.Uri)
+  id: SetOccurs(System.Uri)
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: SetOccurs(Uri)
+  nameWithType: Property.SetOccurs(Uri)
+  fullName: OSLC4Net.Core.Model.Property.SetOccurs(System.Uri)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetOccurs
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 360
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetOccurs(Uri occurs)
+    parameters:
+    - id: occurs
+      type: System.Uri
+    content.vb: Public Sub SetOccurs(occurs As Uri)
+  overload: OSLC4Net.Core.Model.Property.SetOccurs*
+- uid: OSLC4Net.Core.Model.Property.SetPropertyDefinition(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.Property.SetPropertyDefinition(System.Uri)
+  id: SetPropertyDefinition(System.Uri)
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: SetPropertyDefinition(Uri)
+  nameWithType: Property.SetPropertyDefinition(Uri)
+  fullName: OSLC4Net.Core.Model.Property.SetPropertyDefinition(System.Uri)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetPropertyDefinition
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 372
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetPropertyDefinition(Uri propertyDefinition)
+    parameters:
+    - id: propertyDefinition
+      type: System.Uri
+    content.vb: Public Sub SetPropertyDefinition(propertyDefinition As Uri)
+  overload: OSLC4Net.Core.Model.Property.SetPropertyDefinition*
+- uid: OSLC4Net.Core.Model.Property.SetRange(System.Uri[])
+  commentId: M:OSLC4Net.Core.Model.Property.SetRange(System.Uri[])
+  id: SetRange(System.Uri[])
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: SetRange(Uri[])
+  nameWithType: Property.SetRange(Uri[])
+  fullName: OSLC4Net.Core.Model.Property.SetRange(System.Uri[])
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetRange
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 377
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetRange(Uri[] ranges)
+    parameters:
+    - id: ranges
+      type: System.Uri[]
+    content.vb: Public Sub SetRange(ranges As Uri())
+  overload: OSLC4Net.Core.Model.Property.SetRange*
+  nameWithType.vb: Property.SetRange(Uri())
+  fullName.vb: OSLC4Net.Core.Model.Property.SetRange(System.Uri())
+  name.vb: SetRange(Uri())
+- uid: OSLC4Net.Core.Model.Property.SetReadOnly(System.Boolean)
+  commentId: M:OSLC4Net.Core.Model.Property.SetReadOnly(System.Boolean)
+  id: SetReadOnly(System.Boolean)
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: SetReadOnly(bool)
+  nameWithType: Property.SetReadOnly(bool)
+  fullName: OSLC4Net.Core.Model.Property.SetReadOnly(bool)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetReadOnly
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 389
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetReadOnly(bool readOnly)
+    parameters:
+    - id: readOnly
+      type: System.Boolean
+    content.vb: Public Sub SetReadOnly([readOnly] As Boolean)
+  overload: OSLC4Net.Core.Model.Property.SetReadOnly*
+  nameWithType.vb: Property.SetReadOnly(Boolean)
+  fullName.vb: OSLC4Net.Core.Model.Property.SetReadOnly(Boolean)
+  name.vb: SetReadOnly(Boolean)
+- uid: OSLC4Net.Core.Model.Property.SetRepresentation(OSLC4Net.Core.Model.Representation)
+  commentId: M:OSLC4Net.Core.Model.Property.SetRepresentation(OSLC4Net.Core.Model.Representation)
+  id: SetRepresentation(OSLC4Net.Core.Model.Representation)
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: SetRepresentation(Representation)
+  nameWithType: Property.SetRepresentation(Representation)
+  fullName: OSLC4Net.Core.Model.Property.SetRepresentation(OSLC4Net.Core.Model.Representation)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetRepresentation
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 394
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetRepresentation(Representation representation)
+    parameters:
+    - id: representation
+      type: OSLC4Net.Core.Model.Representation
+    content.vb: Public Sub SetRepresentation(representation As Representation)
+  overload: OSLC4Net.Core.Model.Property.SetRepresentation*
+- uid: OSLC4Net.Core.Model.Property.SetRepresentation(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.Property.SetRepresentation(System.Uri)
+  id: SetRepresentation(System.Uri)
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: SetRepresentation(Uri)
+  nameWithType: Property.SetRepresentation(Uri)
+  fullName: OSLC4Net.Core.Model.Property.SetRepresentation(System.Uri)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetRepresentation
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 399
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetRepresentation(Uri representation)
+    parameters:
+    - id: representation
+      type: System.Uri
+    content.vb: Public Sub SetRepresentation(representation As Uri)
+  overload: OSLC4Net.Core.Model.Property.SetRepresentation*
+- uid: OSLC4Net.Core.Model.Property.SetTitle(System.String)
+  commentId: M:OSLC4Net.Core.Model.Property.SetTitle(System.String)
+  id: SetTitle(System.String)
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: SetTitle(string)
+  nameWithType: Property.SetTitle(string)
+  fullName: OSLC4Net.Core.Model.Property.SetTitle(string)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetTitle
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 411
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetTitle(string title)
+    parameters:
+    - id: title
+      type: System.String
+    content.vb: Public Sub SetTitle(title As String)
+  overload: OSLC4Net.Core.Model.Property.SetTitle*
+  nameWithType.vb: Property.SetTitle(String)
+  fullName.vb: OSLC4Net.Core.Model.Property.SetTitle(String)
+  name.vb: SetTitle(String)
+- uid: OSLC4Net.Core.Model.Property.SetValueShape(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.Property.SetValueShape(System.Uri)
+  id: SetValueShape(System.Uri)
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: SetValueShape(Uri)
+  nameWithType: Property.SetValueShape(Uri)
+  fullName: OSLC4Net.Core.Model.Property.SetValueShape(System.Uri)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetValueShape
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 416
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetValueShape(Uri valueShape)
+    parameters:
+    - id: valueShape
+      type: System.Uri
+    content.vb: Public Sub SetValueShape(valueShape As Uri)
+  overload: OSLC4Net.Core.Model.Property.SetValueShape*
+- uid: OSLC4Net.Core.Model.Property.SetValueType(OSLC4Net.Core.Model.ValueType)
+  commentId: M:OSLC4Net.Core.Model.Property.SetValueType(OSLC4Net.Core.Model.ValueType)
+  id: SetValueType(OSLC4Net.Core.Model.ValueType)
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: SetValueType(ValueType)
+  nameWithType: Property.SetValueType(ValueType)
+  fullName: OSLC4Net.Core.Model.Property.SetValueType(OSLC4Net.Core.Model.ValueType)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetValueType
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 421
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetValueType(ValueType valueType)
+    parameters:
+    - id: valueType
+      type: OSLC4Net.Core.Model.ValueType
+    content.vb: Public Sub SetValueType(valueType As ValueType)
+  overload: OSLC4Net.Core.Model.Property.SetValueType*
+- uid: OSLC4Net.Core.Model.Property.SetValueType(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.Property.SetValueType(System.Uri)
+  id: SetValueType(System.Uri)
+  parent: OSLC4Net.Core.Model.Property
+  langs:
+  - csharp
+  - vb
+  name: SetValueType(Uri)
+  nameWithType: Property.SetValueType(Uri)
+  fullName: OSLC4Net.Core.Model.Property.SetValueType(System.Uri)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SetValueType
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs
+    startLine: 426
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public void SetValueType(Uri valueType)
+    parameters:
+    - id: valueType
+      type: System.Uri
+    content.vb: Public Sub SetValueType(valueType As Uri)
+  overload: OSLC4Net.Core.Model.Property.SetValueType*
+references:
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: OSLC4Net.Core.Model.AbstractResource
+  commentId: T:OSLC4Net.Core.Model.AbstractResource
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.AbstractResource.html
+  name: AbstractResource
+  nameWithType: AbstractResource
+  fullName: OSLC4Net.Core.Model.AbstractResource
+- uid: OSLC4Net.Core.Model.IExtendedResource
+  commentId: T:OSLC4Net.Core.Model.IExtendedResource
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.IExtendedResource.html
+  name: IExtendedResource
+  nameWithType: IExtendedResource
+  fullName: OSLC4Net.Core.Model.IExtendedResource
+- uid: OSLC4Net.Core.Model.IResource
+  commentId: T:OSLC4Net.Core.Model.IResource
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.IResource.html
+  name: IResource
+  nameWithType: IResource
+  fullName: OSLC4Net.Core.Model.IResource
+- uid: System.IComparable{OSLC4Net.Core.Model.Property}
+  commentId: T:System.IComparable{OSLC4Net.Core.Model.Property}
+  parent: System
+  definition: System.IComparable`1
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  name: IComparable<Property>
+  nameWithType: IComparable<Property>
+  fullName: System.IComparable<OSLC4Net.Core.Model.Property>
+  nameWithType.vb: IComparable(Of Property)
+  fullName.vb: System.IComparable(Of OSLC4Net.Core.Model.Property)
+  name.vb: IComparable(Of Property)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: <
+  - uid: OSLC4Net.Core.Model.Property
+    name: Property
+    href: OSLC4Net.Core.Model.Property.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: OSLC4Net.Core.Model.Property
+    name: Property
+    href: OSLC4Net.Core.Model.Property.html
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.About
+  commentId: P:OSLC4Net.Core.Model.AbstractResource.About
+  parent: OSLC4Net.Core.Model.AbstractResource
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_About
+  name: About
+  nameWithType: AbstractResource.About
+  fullName: OSLC4Net.Core.Model.AbstractResource.About
+- uid: OSLC4Net.Core.Model.AbstractResource.GetAbout
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.GetAbout
+  parent: OSLC4Net.Core.Model.AbstractResource
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetAbout
+  name: GetAbout()
+  nameWithType: AbstractResource.GetAbout()
+  fullName: OSLC4Net.Core.Model.AbstractResource.GetAbout()
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetAbout
+    name: GetAbout
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetAbout
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetAbout
+    name: GetAbout
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetAbout
+  - name: (
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+  parent: OSLC4Net.Core.Model.AbstractResource
+  isExternal: true
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetAbout_System_Uri_
+  name: SetAbout(Uri)
+  nameWithType: AbstractResource.SetAbout(Uri)
+  fullName: OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+    name: SetAbout
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetAbout_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)
+    name: SetAbout
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetAbout_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+  parent: OSLC4Net.Core.Model.AbstractResource
+  isExternal: true
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__
+  name: SetExtendedProperties(IDictionary<QName, object>)
+  nameWithType: AbstractResource.SetExtendedProperties(IDictionary<QName, object>)
+  fullName: OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary<OSLC4Net.Core.Model.QName, object>)
+  nameWithType.vb: AbstractResource.SetExtendedProperties(IDictionary(Of QName, Object))
+  fullName.vb: OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary(Of OSLC4Net.Core.Model.QName, Object))
+  name.vb: SetExtendedProperties(IDictionary(Of QName, Object))
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+    name: SetExtendedProperties
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__
+  - name: (
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - uid: OSLC4Net.Core.Model.QName
+    name: QName
+    href: OSLC4Net.Core.Model.QName.html
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})
+    name: SetExtendedProperties
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__
+  - name: (
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: OSLC4Net.Core.Model.QName
+    name: QName
+    href: OSLC4Net.Core.Model.QName.html
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties
+  parent: OSLC4Net.Core.Model.AbstractResource
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetExtendedProperties
+  name: GetExtendedProperties()
+  nameWithType: AbstractResource.GetExtendedProperties()
+  fullName: OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties()
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties
+    name: GetExtendedProperties
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetExtendedProperties
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties
+    name: GetExtendedProperties
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetExtendedProperties
+  - name: (
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.GetTypes
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.GetTypes
+  parent: OSLC4Net.Core.Model.AbstractResource
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetTypes
+  name: GetTypes()
+  nameWithType: AbstractResource.GetTypes()
+  fullName: OSLC4Net.Core.Model.AbstractResource.GetTypes()
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetTypes
+    name: GetTypes
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetTypes
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.GetTypes
+    name: GetTypes
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetTypes
+  - name: (
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+  parent: OSLC4Net.Core.Model.AbstractResource
+  isExternal: true
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__
+  name: SetTypes(ICollection<Uri>)
+  nameWithType: AbstractResource.SetTypes(ICollection<Uri>)
+  fullName: OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection<System.Uri>)
+  nameWithType.vb: AbstractResource.SetTypes(ICollection(Of Uri))
+  fullName.vb: OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection(Of System.Uri))
+  name.vb: SetTypes(ICollection(Of Uri))
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+    name: SetTypes
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})
+    name: SetTypes
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__
+  - name: (
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+  - name: )
+- uid: OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+  commentId: M:OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+  parent: OSLC4Net.Core.Model.AbstractResource
+  isExternal: true
+  href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_AddType_System_Uri_
+  name: AddType(Uri)
+  nameWithType: AbstractResource.AddType(Uri)
+  fullName: OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+    name: AddType
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_AddType_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)
+    name: AddType
+    href: OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_AddType_System_Uri_
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IComparable`1
+  commentId: T:System.IComparable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  name: IComparable<T>
+  nameWithType: IComparable<T>
+  fullName: System.IComparable<T>
+  nameWithType.vb: IComparable(Of T)
+  fullName.vb: System.IComparable(Of T)
+  name.vb: IComparable(Of T)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: OSLC4Net.Core.Model.Property.#ctor*
+  commentId: Overload:OSLC4Net.Core.Model.Property.#ctor
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property__ctor
+  name: Property
+  nameWithType: Property.Property
+  fullName: OSLC4Net.Core.Model.Property.Property
+  nameWithType.vb: Property.New
+  fullName.vb: OSLC4Net.Core.Model.Property.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: OSLC4Net.Core.Model.Occurs
+  commentId: T:OSLC4Net.Core.Model.Occurs
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.Occurs.html
+  name: Occurs
+  nameWithType: Occurs
+  fullName: OSLC4Net.Core.Model.Occurs
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uri
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
+- uid: OSLC4Net.Core.Model.ValueType
+  commentId: T:OSLC4Net.Core.Model.ValueType
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.ValueType.html
+  name: ValueType
+  nameWithType: ValueType
+  fullName: OSLC4Net.Core.Model.ValueType
+- uid: OSLC4Net.Core.Model.Property.CompareTo*
+  commentId: Overload:OSLC4Net.Core.Model.Property.CompareTo
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_CompareTo_OSLC4Net_Core_Model_Property_
+  name: CompareTo
+  nameWithType: Property.CompareTo
+  fullName: OSLC4Net.Core.Model.Property.CompareTo
+- uid: System.IComparable{OSLC4Net.Core.Model.Property}.CompareTo(OSLC4Net.Core.Model.Property)
+  commentId: M:System.IComparable{OSLC4Net.Core.Model.Property}.CompareTo(OSLC4Net.Core.Model.Property)
+  parent: System.IComparable{OSLC4Net.Core.Model.Property}
+  definition: System.IComparable`1.CompareTo(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  name: CompareTo(Property)
+  nameWithType: IComparable<Property>.CompareTo(Property)
+  fullName: System.IComparable<OSLC4Net.Core.Model.Property>.CompareTo(OSLC4Net.Core.Model.Property)
+  nameWithType.vb: IComparable(Of Property).CompareTo(Property)
+  fullName.vb: System.IComparable(Of OSLC4Net.Core.Model.Property).CompareTo(OSLC4Net.Core.Model.Property)
+  spec.csharp:
+  - uid: System.IComparable{OSLC4Net.Core.Model.Property}.CompareTo(OSLC4Net.Core.Model.Property)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - uid: OSLC4Net.Core.Model.Property
+    name: Property
+    href: OSLC4Net.Core.Model.Property.html
+  - name: )
+  spec.vb:
+  - uid: System.IComparable{OSLC4Net.Core.Model.Property}.CompareTo(OSLC4Net.Core.Model.Property)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - uid: OSLC4Net.Core.Model.Property
+    name: Property
+    href: OSLC4Net.Core.Model.Property.html
+  - name: )
+- uid: OSLC4Net.Core.Model.Property
+  commentId: T:OSLC4Net.Core.Model.Property
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.Property.html
+  name: Property
+  nameWithType: Property
+  fullName: OSLC4Net.Core.Model.Property
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.IComparable`1.CompareTo(`0)
+  commentId: M:System.IComparable`1.CompareTo(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  name: CompareTo(T)
+  nameWithType: IComparable<T>.CompareTo(T)
+  fullName: System.IComparable<T>.CompareTo(T)
+  nameWithType.vb: IComparable(Of T).CompareTo(T)
+  fullName.vb: System.IComparable(Of T).CompareTo(T)
+  spec.csharp:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - name: T
+  - name: )
+- uid: OSLC4Net.Core.Model.Property.AddAllowedValue*
+  commentId: Overload:OSLC4Net.Core.Model.Property.AddAllowedValue
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_AddAllowedValue_System_String_
+  name: AddAllowedValue
+  nameWithType: Property.AddAllowedValue
+  fullName: OSLC4Net.Core.Model.Property.AddAllowedValue
+- uid: OSLC4Net.Core.Model.Property.AddRange*
+  commentId: Overload:OSLC4Net.Core.Model.Property.AddRange
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_AddRange_System_Uri_
+  name: AddRange
+  nameWithType: Property.AddRange
+  fullName: OSLC4Net.Core.Model.Property.AddRange
+- uid: OSLC4Net.Core.Model.Property.GetAllowedValues*
+  commentId: Overload:OSLC4Net.Core.Model.Property.GetAllowedValues
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_GetAllowedValues
+  name: GetAllowedValues
+  nameWithType: Property.GetAllowedValues
+  fullName: OSLC4Net.Core.Model.Property.GetAllowedValues
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: OSLC4Net.Core.Model.Property.GetAllowedValuesRef*
+  commentId: Overload:OSLC4Net.Core.Model.Property.GetAllowedValuesRef
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_GetAllowedValuesRef
+  name: GetAllowedValuesRef
+  nameWithType: Property.GetAllowedValuesRef
+  fullName: OSLC4Net.Core.Model.Property.GetAllowedValuesRef
+- uid: OSLC4Net.Core.Model.Property.GetDefaultValue*
+  commentId: Overload:OSLC4Net.Core.Model.Property.GetDefaultValue
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_GetDefaultValue
+  name: GetDefaultValue
+  nameWithType: Property.GetDefaultValue
+  fullName: OSLC4Net.Core.Model.Property.GetDefaultValue
+- uid: OSLC4Net.Core.Model.Property.GetDescription*
+  commentId: Overload:OSLC4Net.Core.Model.Property.GetDescription
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_GetDescription
+  name: GetDescription
+  nameWithType: Property.GetDescription
+  fullName: OSLC4Net.Core.Model.Property.GetDescription
+- uid: OSLC4Net.Core.Model.Property.getMaxSize*
+  commentId: Overload:OSLC4Net.Core.Model.Property.getMaxSize
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_getMaxSize
+  name: getMaxSize
+  nameWithType: Property.getMaxSize
+  fullName: OSLC4Net.Core.Model.Property.getMaxSize
+- uid: OSLC4Net.Core.Model.Property.GetName*
+  commentId: Overload:OSLC4Net.Core.Model.Property.GetName
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_GetName
+  name: GetName
+  nameWithType: Property.GetName
+  fullName: OSLC4Net.Core.Model.Property.GetName
+- uid: OSLC4Net.Core.Model.Property.GetOccurs*
+  commentId: Overload:OSLC4Net.Core.Model.Property.GetOccurs
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_GetOccurs
+  name: GetOccurs
+  nameWithType: Property.GetOccurs
+  fullName: OSLC4Net.Core.Model.Property.GetOccurs
+- uid: OSLC4Net.Core.Model.Property.GetPropertyDefinition*
+  commentId: Overload:OSLC4Net.Core.Model.Property.GetPropertyDefinition
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_GetPropertyDefinition
+  name: GetPropertyDefinition
+  nameWithType: Property.GetPropertyDefinition
+  fullName: OSLC4Net.Core.Model.Property.GetPropertyDefinition
+- uid: OSLC4Net.Core.Model.Property.GetRange*
+  commentId: Overload:OSLC4Net.Core.Model.Property.GetRange
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_GetRange
+  name: GetRange
+  nameWithType: Property.GetRange
+  fullName: OSLC4Net.Core.Model.Property.GetRange
+- uid: System.Uri[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uri
+  name: Uri[]
+  nameWithType: Uri[]
+  fullName: System.Uri[]
+  nameWithType.vb: Uri()
+  fullName.vb: System.Uri()
+  name.vb: Uri()
+  spec.csharp:
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: (
+  - name: )
+- uid: OSLC4Net.Core.Model.Property.GetRepresentation*
+  commentId: Overload:OSLC4Net.Core.Model.Property.GetRepresentation
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_GetRepresentation
+  name: GetRepresentation
+  nameWithType: Property.GetRepresentation
+  fullName: OSLC4Net.Core.Model.Property.GetRepresentation
+- uid: OSLC4Net.Core.Model.Property.GetTitle*
+  commentId: Overload:OSLC4Net.Core.Model.Property.GetTitle
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_GetTitle
+  name: GetTitle
+  nameWithType: Property.GetTitle
+  fullName: OSLC4Net.Core.Model.Property.GetTitle
+- uid: OSLC4Net.Core.Model.Property.GetValueShape*
+  commentId: Overload:OSLC4Net.Core.Model.Property.GetValueShape
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_GetValueShape
+  name: GetValueShape
+  nameWithType: Property.GetValueShape
+  fullName: OSLC4Net.Core.Model.Property.GetValueShape
+- uid: OSLC4Net.Core.Model.Property.GetValueType*
+  commentId: Overload:OSLC4Net.Core.Model.Property.GetValueType
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_GetValueType
+  name: GetValueType
+  nameWithType: Property.GetValueType
+  fullName: OSLC4Net.Core.Model.Property.GetValueType
+- uid: OSLC4Net.Core.Model.Property.IsHidden*
+  commentId: Overload:OSLC4Net.Core.Model.Property.IsHidden
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_IsHidden
+  name: IsHidden
+  nameWithType: Property.IsHidden
+  fullName: OSLC4Net.Core.Model.Property.IsHidden
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: OSLC4Net.Core.Model.Property.IsMemberProperty*
+  commentId: Overload:OSLC4Net.Core.Model.Property.IsMemberProperty
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_IsMemberProperty
+  name: IsMemberProperty
+  nameWithType: Property.IsMemberProperty
+  fullName: OSLC4Net.Core.Model.Property.IsMemberProperty
+- uid: OSLC4Net.Core.Model.Property.IsReadOnly*
+  commentId: Overload:OSLC4Net.Core.Model.Property.IsReadOnly
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_IsReadOnly
+  name: IsReadOnly
+  nameWithType: Property.IsReadOnly
+  fullName: OSLC4Net.Core.Model.Property.IsReadOnly
+- uid: OSLC4Net.Core.Model.Property.SetAllowedValues*
+  commentId: Overload:OSLC4Net.Core.Model.Property.SetAllowedValues
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_SetAllowedValues_System_String___
+  name: SetAllowedValues
+  nameWithType: Property.SetAllowedValues
+  fullName: OSLC4Net.Core.Model.Property.SetAllowedValues
+- uid: OSLC4Net.Core.Model.Property.SetAllowedValuesRef*
+  commentId: Overload:OSLC4Net.Core.Model.Property.SetAllowedValuesRef
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_SetAllowedValuesRef_System_Uri_
+  name: SetAllowedValuesRef
+  nameWithType: Property.SetAllowedValuesRef
+  fullName: OSLC4Net.Core.Model.Property.SetAllowedValuesRef
+- uid: OSLC4Net.Core.Model.Property.SetDefaultValue*
+  commentId: Overload:OSLC4Net.Core.Model.Property.SetDefaultValue
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_SetDefaultValue_System_String_
+  name: SetDefaultValue
+  nameWithType: Property.SetDefaultValue
+  fullName: OSLC4Net.Core.Model.Property.SetDefaultValue
+- uid: OSLC4Net.Core.Model.Property.SetDescription*
+  commentId: Overload:OSLC4Net.Core.Model.Property.SetDescription
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_SetDescription_System_String_
+  name: SetDescription
+  nameWithType: Property.SetDescription
+  fullName: OSLC4Net.Core.Model.Property.SetDescription
+- uid: OSLC4Net.Core.Model.Property.SetHidden*
+  commentId: Overload:OSLC4Net.Core.Model.Property.SetHidden
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_SetHidden_System_Boolean_
+  name: SetHidden
+  nameWithType: Property.SetHidden
+  fullName: OSLC4Net.Core.Model.Property.SetHidden
+- uid: OSLC4Net.Core.Model.Property.SetMaxSize*
+  commentId: Overload:OSLC4Net.Core.Model.Property.SetMaxSize
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_SetMaxSize_System_Int32_
+  name: SetMaxSize
+  nameWithType: Property.SetMaxSize
+  fullName: OSLC4Net.Core.Model.Property.SetMaxSize
+- uid: OSLC4Net.Core.Model.Property.SetMemberProperty*
+  commentId: Overload:OSLC4Net.Core.Model.Property.SetMemberProperty
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_SetMemberProperty_System_Boolean_
+  name: SetMemberProperty
+  nameWithType: Property.SetMemberProperty
+  fullName: OSLC4Net.Core.Model.Property.SetMemberProperty
+- uid: OSLC4Net.Core.Model.Property.SetName*
+  commentId: Overload:OSLC4Net.Core.Model.Property.SetName
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_SetName_System_String_
+  name: SetName
+  nameWithType: Property.SetName
+  fullName: OSLC4Net.Core.Model.Property.SetName
+- uid: OSLC4Net.Core.Model.Property.SetOccurs*
+  commentId: Overload:OSLC4Net.Core.Model.Property.SetOccurs
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_SetOccurs_OSLC4Net_Core_Model_Occurs_
+  name: SetOccurs
+  nameWithType: Property.SetOccurs
+  fullName: OSLC4Net.Core.Model.Property.SetOccurs
+- uid: OSLC4Net.Core.Model.Property.SetPropertyDefinition*
+  commentId: Overload:OSLC4Net.Core.Model.Property.SetPropertyDefinition
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_SetPropertyDefinition_System_Uri_
+  name: SetPropertyDefinition
+  nameWithType: Property.SetPropertyDefinition
+  fullName: OSLC4Net.Core.Model.Property.SetPropertyDefinition
+- uid: OSLC4Net.Core.Model.Property.SetRange*
+  commentId: Overload:OSLC4Net.Core.Model.Property.SetRange
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_SetRange_System_Uri___
+  name: SetRange
+  nameWithType: Property.SetRange
+  fullName: OSLC4Net.Core.Model.Property.SetRange
+- uid: OSLC4Net.Core.Model.Property.SetReadOnly*
+  commentId: Overload:OSLC4Net.Core.Model.Property.SetReadOnly
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_SetReadOnly_System_Boolean_
+  name: SetReadOnly
+  nameWithType: Property.SetReadOnly
+  fullName: OSLC4Net.Core.Model.Property.SetReadOnly
+- uid: OSLC4Net.Core.Model.Property.SetRepresentation*
+  commentId: Overload:OSLC4Net.Core.Model.Property.SetRepresentation
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_SetRepresentation_OSLC4Net_Core_Model_Representation_
+  name: SetRepresentation
+  nameWithType: Property.SetRepresentation
+  fullName: OSLC4Net.Core.Model.Property.SetRepresentation
+- uid: OSLC4Net.Core.Model.Representation
+  commentId: T:OSLC4Net.Core.Model.Representation
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.Representation.html
+  name: Representation
+  nameWithType: Representation
+  fullName: OSLC4Net.Core.Model.Representation
+- uid: OSLC4Net.Core.Model.Property.SetTitle*
+  commentId: Overload:OSLC4Net.Core.Model.Property.SetTitle
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_SetTitle_System_String_
+  name: SetTitle
+  nameWithType: Property.SetTitle
+  fullName: OSLC4Net.Core.Model.Property.SetTitle
+- uid: OSLC4Net.Core.Model.Property.SetValueShape*
+  commentId: Overload:OSLC4Net.Core.Model.Property.SetValueShape
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_SetValueShape_System_Uri_
+  name: SetValueShape
+  nameWithType: Property.SetValueShape
+  fullName: OSLC4Net.Core.Model.Property.SetValueShape
+- uid: OSLC4Net.Core.Model.Property.SetValueType*
+  commentId: Overload:OSLC4Net.Core.Model.Property.SetValueType
+  href: OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_SetValueType_OSLC4Net_Core_Model_ValueType_
+  name: SetValueType
+  nameWithType: Property.SetValueType
+  fullName: OSLC4Net.Core.Model.Property.SetValueType

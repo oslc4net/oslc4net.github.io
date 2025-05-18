@@ -1,0 +1,107 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Query.Value
+  commentId: T:OSLC4Net.Core.Query.Value
+  id: Value
+  parent: OSLC4Net.Core.Query
+  children:
+  - OSLC4Net.Core.Query.Value.Type
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Value
+  fullName: OSLC4Net.Core.Query.Value
+  type: Interface
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/Value.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Value
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/Value.cs
+    startLine: 31
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  summary: >-
+    Operand from ComparisonTerm or InTerm
+
+    impleTerm from olsc.where clause
+  example: []
+  syntax:
+    content: public interface Value
+    content.vb: Public Interface Value
+- uid: OSLC4Net.Core.Query.Value.Type
+  commentId: P:OSLC4Net.Core.Query.Value.Type
+  id: Type
+  parent: OSLC4Net.Core.Query.Value
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Value.Type
+  fullName: OSLC4Net.Core.Query.Value.Type
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/Value.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Type
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/Value.cs
+    startLine: 33
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: ValueType Type { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Query.ValueType
+    content.vb: ReadOnly Property Type As ValueType
+  overload: OSLC4Net.Core.Query.Value.Type*
+references:
+- uid: OSLC4Net.Core.Query
+  commentId: N:OSLC4Net.Core.Query
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Query
+  nameWithType: OSLC4Net.Core.Query
+  fullName: OSLC4Net.Core.Query
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+- uid: OSLC4Net.Core.Query.Value.Type*
+  commentId: Overload:OSLC4Net.Core.Query.Value.Type
+  href: OSLC4Net.Core.Query.Value.html#OSLC4Net_Core_Query_Value_Type
+  name: Type
+  nameWithType: Value.Type
+  fullName: OSLC4Net.Core.Query.Value.Type
+- uid: OSLC4Net.Core.Query.ValueType
+  commentId: T:OSLC4Net.Core.Query.ValueType
+  parent: OSLC4Net.Core.Query
+  href: OSLC4Net.Core.Query.ValueType.html
+  name: ValueType
+  nameWithType: ValueType
+  fullName: OSLC4Net.Core.Query.ValueType

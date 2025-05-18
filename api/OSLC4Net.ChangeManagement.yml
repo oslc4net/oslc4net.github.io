@@ -1,0 +1,82 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.ChangeManagement
+  commentId: N:OSLC4Net.ChangeManagement
+  id: OSLC4Net.ChangeManagement
+  children:
+  - OSLC4Net.ChangeManagement.ChangeRequest
+  - OSLC4Net.ChangeManagement.Constants
+  - OSLC4Net.ChangeManagement.Severity
+  - OSLC4Net.ChangeManagement.Type
+  - OSLC4Net.ChangeManagement.TypeExtension
+  - OSLC4Net.ChangeManagement.XmlNamespace
+  langs:
+  - csharp
+  - vb
+  name: OSLC4Net.ChangeManagement
+  nameWithType: OSLC4Net.ChangeManagement
+  fullName: OSLC4Net.ChangeManagement
+  type: Namespace
+  assemblies:
+  - OSLC4Net.ChangeManagementCommon
+references:
+- uid: OSLC4Net.ChangeManagement.ChangeRequest
+  commentId: T:OSLC4Net.ChangeManagement.ChangeRequest
+  href: OSLC4Net.ChangeManagement.ChangeRequest.html
+  name: ChangeRequest
+  nameWithType: ChangeRequest
+  fullName: OSLC4Net.ChangeManagement.ChangeRequest
+- uid: OSLC4Net.ChangeManagement.Constants
+  commentId: T:OSLC4Net.ChangeManagement.Constants
+  href: OSLC4Net.ChangeManagement.Constants.html
+  name: Constants
+  nameWithType: Constants
+  fullName: OSLC4Net.ChangeManagement.Constants
+- uid: OSLC4Net.ChangeManagement.Severity
+  commentId: T:OSLC4Net.ChangeManagement.Severity
+  parent: OSLC4Net.ChangeManagement
+  href: OSLC4Net.ChangeManagement.Severity.html
+  name: Severity
+  nameWithType: Severity
+  fullName: OSLC4Net.ChangeManagement.Severity
+- uid: OSLC4Net.ChangeManagement.Type
+  commentId: T:OSLC4Net.ChangeManagement.Type
+  parent: OSLC4Net.ChangeManagement
+  href: OSLC4Net.ChangeManagement.Type.html
+  name: Type
+  nameWithType: Type
+  fullName: OSLC4Net.ChangeManagement.Type
+- uid: OSLC4Net.ChangeManagement.TypeExtension
+  commentId: T:OSLC4Net.ChangeManagement.TypeExtension
+  href: OSLC4Net.ChangeManagement.TypeExtension.html
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: OSLC4Net.ChangeManagement.TypeExtension
+- uid: OSLC4Net.ChangeManagement.XmlNamespace
+  commentId: T:OSLC4Net.ChangeManagement.XmlNamespace
+  href: OSLC4Net.ChangeManagement.XmlNamespace.html
+  name: XmlNamespace
+  nameWithType: XmlNamespace
+  fullName: OSLC4Net.ChangeManagement.XmlNamespace
+- uid: OSLC4Net.ChangeManagement
+  commentId: N:OSLC4Net.ChangeManagement
+  href: OSLC4Net.html
+  name: OSLC4Net.ChangeManagement
+  nameWithType: OSLC4Net.ChangeManagement
+  fullName: OSLC4Net.ChangeManagement
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.ChangeManagement
+    name: ChangeManagement
+    href: OSLC4Net.ChangeManagement.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.ChangeManagement
+    name: ChangeManagement
+    href: OSLC4Net.ChangeManagement.html

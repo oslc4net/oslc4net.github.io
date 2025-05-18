@@ -1,0 +1,801 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Exceptions.OslcCoreRequestException
+  commentId: T:OSLC4Net.Core.Exceptions.OslcCoreRequestException
+  id: OslcCoreRequestException
+  parent: OSLC4Net.Core.Exceptions
+  children:
+  - OSLC4Net.Core.Exceptions.OslcCoreRequestException.#ctor(System.Int32,System.Net.Http.HttpResponseMessage,OSLC4Net.Core.Model.IResource,OSLC4Net.Core.Model.Error)
+  - OSLC4Net.Core.Exceptions.OslcCoreRequestException.ErrorResource
+  - OSLC4Net.Core.Exceptions.OslcCoreRequestException.RequestResource
+  - OSLC4Net.Core.Exceptions.OslcCoreRequestException.ResponseMessage
+  - OSLC4Net.Core.Exceptions.OslcCoreRequestException.StatusCode
+  langs:
+  - csharp
+  - vb
+  name: OslcCoreRequestException
+  nameWithType: OslcCoreRequestException
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreRequestException
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Exceptions/OslcCoreRequestException.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OslcCoreRequestException
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Exceptions/OslcCoreRequestException.cs
+    startLine: 22
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Exceptions
+  summary: OSLC4Net Core exception
+  example: []
+  syntax:
+    content: 'public class OslcCoreRequestException : Exception, ISerializable'
+    content.vb: Public Class OslcCoreRequestException Inherits Exception Implements ISerializable
+  inheritance:
+  - System.Object
+  - System.Exception
+  derivedClasses:
+  - OSLC4Net.Core.Exceptions.OslcCoreRegistrationException
+  implements:
+  - System.Runtime.Serialization.ISerializable
+  inheritedMembers:
+  - System.Exception.GetBaseException
+  - System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Exception.GetType
+  - System.Exception.ToString
+  - System.Exception.Data
+  - System.Exception.HelpLink
+  - System.Exception.HResult
+  - System.Exception.InnerException
+  - System.Exception.Message
+  - System.Exception.Source
+  - System.Exception.StackTrace
+  - System.Exception.TargetSite
+  - System.Exception.SerializeObjectState
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: OSLC4Net.Core.Exceptions.OslcCoreRequestException.#ctor(System.Int32,System.Net.Http.HttpResponseMessage,OSLC4Net.Core.Model.IResource,OSLC4Net.Core.Model.Error)
+  commentId: M:OSLC4Net.Core.Exceptions.OslcCoreRequestException.#ctor(System.Int32,System.Net.Http.HttpResponseMessage,OSLC4Net.Core.Model.IResource,OSLC4Net.Core.Model.Error)
+  id: '#ctor(System.Int32,System.Net.Http.HttpResponseMessage,OSLC4Net.Core.Model.IResource,OSLC4Net.Core.Model.Error)'
+  parent: OSLC4Net.Core.Exceptions.OslcCoreRequestException
+  langs:
+  - csharp
+  - vb
+  name: OslcCoreRequestException(int, HttpResponseMessage?, IResource?, Error?)
+  nameWithType: OslcCoreRequestException.OslcCoreRequestException(int, HttpResponseMessage?, IResource?, Error?)
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreRequestException.OslcCoreRequestException(int, System.Net.Http.HttpResponseMessage?, OSLC4Net.Core.Model.IResource?, OSLC4Net.Core.Model.Error?)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Exceptions/OslcCoreRequestException.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Exceptions/OslcCoreRequestException.cs
+    startLine: 24
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Exceptions
+  syntax:
+    content: public OslcCoreRequestException(int statusCode, HttpResponseMessage? responseMessage, IResource? requestResource = null, Error? errorResource = null)
+    parameters:
+    - id: statusCode
+      type: System.Int32
+    - id: responseMessage
+      type: System.Net.Http.HttpResponseMessage
+    - id: requestResource
+      type: OSLC4Net.Core.Model.IResource
+    - id: errorResource
+      type: OSLC4Net.Core.Model.Error
+    content.vb: Public Sub New(statusCode As Integer, responseMessage As HttpResponseMessage, requestResource As IResource = Nothing, errorResource As [Error] = Nothing)
+  overload: OSLC4Net.Core.Exceptions.OslcCoreRequestException.#ctor*
+  nameWithType.vb: OslcCoreRequestException.New(Integer, HttpResponseMessage, IResource, Error)
+  fullName.vb: OSLC4Net.Core.Exceptions.OslcCoreRequestException.New(Integer, System.Net.Http.HttpResponseMessage, OSLC4Net.Core.Model.IResource, OSLC4Net.Core.Model.Error)
+  name.vb: New(Integer, HttpResponseMessage, IResource, Error)
+- uid: OSLC4Net.Core.Exceptions.OslcCoreRequestException.StatusCode
+  commentId: P:OSLC4Net.Core.Exceptions.OslcCoreRequestException.StatusCode
+  id: StatusCode
+  parent: OSLC4Net.Core.Exceptions.OslcCoreRequestException
+  langs:
+  - csharp
+  - vb
+  name: StatusCode
+  nameWithType: OslcCoreRequestException.StatusCode
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreRequestException.StatusCode
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Exceptions/OslcCoreRequestException.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: StatusCode
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Exceptions/OslcCoreRequestException.cs
+    startLine: 34
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Exceptions
+  syntax:
+    content: public int StatusCode { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property StatusCode As Integer
+  overload: OSLC4Net.Core.Exceptions.OslcCoreRequestException.StatusCode*
+- uid: OSLC4Net.Core.Exceptions.OslcCoreRequestException.ResponseMessage
+  commentId: P:OSLC4Net.Core.Exceptions.OslcCoreRequestException.ResponseMessage
+  id: ResponseMessage
+  parent: OSLC4Net.Core.Exceptions.OslcCoreRequestException
+  langs:
+  - csharp
+  - vb
+  name: ResponseMessage
+  nameWithType: OslcCoreRequestException.ResponseMessage
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreRequestException.ResponseMessage
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Exceptions/OslcCoreRequestException.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ResponseMessage
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Exceptions/OslcCoreRequestException.cs
+    startLine: 35
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Exceptions
+  syntax:
+    content: public HttpResponseMessage? ResponseMessage { get; }
+    parameters: []
+    return:
+      type: System.Net.Http.HttpResponseMessage
+    content.vb: Public ReadOnly Property ResponseMessage As HttpResponseMessage
+  overload: OSLC4Net.Core.Exceptions.OslcCoreRequestException.ResponseMessage*
+- uid: OSLC4Net.Core.Exceptions.OslcCoreRequestException.RequestResource
+  commentId: P:OSLC4Net.Core.Exceptions.OslcCoreRequestException.RequestResource
+  id: RequestResource
+  parent: OSLC4Net.Core.Exceptions.OslcCoreRequestException
+  langs:
+  - csharp
+  - vb
+  name: RequestResource
+  nameWithType: OslcCoreRequestException.RequestResource
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreRequestException.RequestResource
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Exceptions/OslcCoreRequestException.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: RequestResource
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Exceptions/OslcCoreRequestException.cs
+    startLine: 36
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Exceptions
+  syntax:
+    content: public IResource? RequestResource { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.IResource
+    content.vb: Public ReadOnly Property RequestResource As IResource
+  overload: OSLC4Net.Core.Exceptions.OslcCoreRequestException.RequestResource*
+- uid: OSLC4Net.Core.Exceptions.OslcCoreRequestException.ErrorResource
+  commentId: P:OSLC4Net.Core.Exceptions.OslcCoreRequestException.ErrorResource
+  id: ErrorResource
+  parent: OSLC4Net.Core.Exceptions.OslcCoreRequestException
+  langs:
+  - csharp
+  - vb
+  name: ErrorResource
+  nameWithType: OslcCoreRequestException.ErrorResource
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreRequestException.ErrorResource
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Exceptions/OslcCoreRequestException.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ErrorResource
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Exceptions/OslcCoreRequestException.cs
+    startLine: 37
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Exceptions
+  syntax:
+    content: public Error? ErrorResource { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.Error
+    content.vb: Public ReadOnly Property ErrorResource As [Error]
+  overload: OSLC4Net.Core.Exceptions.OslcCoreRequestException.ErrorResource*
+references:
+- uid: OSLC4Net.Core.Exceptions
+  commentId: N:OSLC4Net.Core.Exceptions
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Exceptions
+  nameWithType: OSLC4Net.Core.Exceptions
+  fullName: OSLC4Net.Core.Exceptions
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Exceptions
+    name: Exceptions
+    href: OSLC4Net.Core.Exceptions.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Exceptions
+    name: Exceptions
+    href: OSLC4Net.Core.Exceptions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Runtime.Serialization.ISerializable
+  commentId: T:System.Runtime.Serialization.ISerializable
+  parent: System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable
+  name: ISerializable
+  nameWithType: ISerializable
+  fullName: System.Runtime.Serialization.ISerializable
+- uid: System.Exception.GetBaseException
+  commentId: M:System.Exception.GetBaseException
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception
+  name: GetBaseException()
+  nameWithType: Exception.GetBaseException()
+  fullName: System.Exception.GetBaseException()
+  spec.csharp:
+  - uid: System.Exception.GetBaseException
+    name: GetBaseException
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Exception.GetBaseException
+    name: GetBaseException
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception
+  - name: (
+  - name: )
+- uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.getobjectdata
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  nameWithType: Exception.GetObjectData(SerializationInfo, StreamingContext)
+  fullName: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  spec.csharp:
+  - uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.getobjectdata
+  - name: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  - name: )
+  spec.vb:
+  - uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.getobjectdata
+  - name: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  - name: )
+- uid: System.Exception.GetType
+  commentId: M:System.Exception.GetType
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.gettype
+  name: GetType()
+  nameWithType: Exception.GetType()
+  fullName: System.Exception.GetType()
+  spec.csharp:
+  - uid: System.Exception.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Exception.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.gettype
+  - name: (
+  - name: )
+- uid: System.Exception.ToString
+  commentId: M:System.Exception.ToString
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.tostring
+  name: ToString()
+  nameWithType: Exception.ToString()
+  fullName: System.Exception.ToString()
+  spec.csharp:
+  - uid: System.Exception.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Exception.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.tostring
+  - name: (
+  - name: )
+- uid: System.Exception.Data
+  commentId: P:System.Exception.Data
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.data
+  name: Data
+  nameWithType: Exception.Data
+  fullName: System.Exception.Data
+- uid: System.Exception.HelpLink
+  commentId: P:System.Exception.HelpLink
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.helplink
+  name: HelpLink
+  nameWithType: Exception.HelpLink
+  fullName: System.Exception.HelpLink
+- uid: System.Exception.HResult
+  commentId: P:System.Exception.HResult
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.hresult
+  name: HResult
+  nameWithType: Exception.HResult
+  fullName: System.Exception.HResult
+- uid: System.Exception.InnerException
+  commentId: P:System.Exception.InnerException
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.innerexception
+  name: InnerException
+  nameWithType: Exception.InnerException
+  fullName: System.Exception.InnerException
+- uid: System.Exception.Message
+  commentId: P:System.Exception.Message
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.message
+  name: Message
+  nameWithType: Exception.Message
+  fullName: System.Exception.Message
+- uid: System.Exception.Source
+  commentId: P:System.Exception.Source
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.source
+  name: Source
+  nameWithType: Exception.Source
+  fullName: System.Exception.Source
+- uid: System.Exception.StackTrace
+  commentId: P:System.Exception.StackTrace
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.stacktrace
+  name: StackTrace
+  nameWithType: Exception.StackTrace
+  fullName: System.Exception.StackTrace
+- uid: System.Exception.TargetSite
+  commentId: P:System.Exception.TargetSite
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.targetsite
+  name: TargetSite
+  nameWithType: Exception.TargetSite
+  fullName: System.Exception.TargetSite
+- uid: System.Exception.SerializeObjectState
+  commentId: E:System.Exception.SerializeObjectState
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.serializeobjectstate
+  name: SerializeObjectState
+  nameWithType: Exception.SerializeObjectState
+  fullName: System.Exception.SerializeObjectState
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Runtime.Serialization
+  commentId: N:System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Runtime.Serialization
+  nameWithType: System.Runtime.Serialization
+  fullName: System.Runtime.Serialization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization
+- uid: OSLC4Net.Core.Exceptions.OslcCoreRequestException.#ctor*
+  commentId: Overload:OSLC4Net.Core.Exceptions.OslcCoreRequestException.#ctor
+  href: OSLC4Net.Core.Exceptions.OslcCoreRequestException.html#OSLC4Net_Core_Exceptions_OslcCoreRequestException__ctor_System_Int32_System_Net_Http_HttpResponseMessage_OSLC4Net_Core_Model_IResource_OSLC4Net_Core_Model_Error_
+  name: OslcCoreRequestException
+  nameWithType: OslcCoreRequestException.OslcCoreRequestException
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreRequestException.OslcCoreRequestException
+  nameWithType.vb: OslcCoreRequestException.New
+  fullName.vb: OSLC4Net.Core.Exceptions.OslcCoreRequestException.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Net.Http.HttpResponseMessage
+  commentId: T:System.Net.Http.HttpResponseMessage
+  parent: System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
+  name: HttpResponseMessage
+  nameWithType: HttpResponseMessage
+  fullName: System.Net.Http.HttpResponseMessage
+- uid: OSLC4Net.Core.Model.IResource
+  commentId: T:OSLC4Net.Core.Model.IResource
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.IResource.html
+  name: IResource
+  nameWithType: IResource
+  fullName: OSLC4Net.Core.Model.IResource
+- uid: OSLC4Net.Core.Model.Error
+  commentId: T:OSLC4Net.Core.Model.Error
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.Error.html
+  name: Error
+  nameWithType: Error
+  fullName: OSLC4Net.Core.Model.Error
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+- uid: OSLC4Net.Core.Exceptions.OslcCoreRequestException.StatusCode*
+  commentId: Overload:OSLC4Net.Core.Exceptions.OslcCoreRequestException.StatusCode
+  href: OSLC4Net.Core.Exceptions.OslcCoreRequestException.html#OSLC4Net_Core_Exceptions_OslcCoreRequestException_StatusCode
+  name: StatusCode
+  nameWithType: OslcCoreRequestException.StatusCode
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreRequestException.StatusCode
+- uid: OSLC4Net.Core.Exceptions.OslcCoreRequestException.ResponseMessage*
+  commentId: Overload:OSLC4Net.Core.Exceptions.OslcCoreRequestException.ResponseMessage
+  href: OSLC4Net.Core.Exceptions.OslcCoreRequestException.html#OSLC4Net_Core_Exceptions_OslcCoreRequestException_ResponseMessage
+  name: ResponseMessage
+  nameWithType: OslcCoreRequestException.ResponseMessage
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreRequestException.ResponseMessage
+- uid: OSLC4Net.Core.Exceptions.OslcCoreRequestException.RequestResource*
+  commentId: Overload:OSLC4Net.Core.Exceptions.OslcCoreRequestException.RequestResource
+  href: OSLC4Net.Core.Exceptions.OslcCoreRequestException.html#OSLC4Net_Core_Exceptions_OslcCoreRequestException_RequestResource
+  name: RequestResource
+  nameWithType: OslcCoreRequestException.RequestResource
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreRequestException.RequestResource
+- uid: OSLC4Net.Core.Exceptions.OslcCoreRequestException.ErrorResource*
+  commentId: Overload:OSLC4Net.Core.Exceptions.OslcCoreRequestException.ErrorResource
+  href: OSLC4Net.Core.Exceptions.OslcCoreRequestException.html#OSLC4Net_Core_Exceptions_OslcCoreRequestException_ErrorResource
+  name: ErrorResource
+  nameWithType: OslcCoreRequestException.ErrorResource
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreRequestException.ErrorResource

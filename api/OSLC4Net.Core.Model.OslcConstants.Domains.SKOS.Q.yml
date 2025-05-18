@@ -1,0 +1,1321 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  commentId: T:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  id: OslcConstants.Domains.SKOS.Q
+  parent: OSLC4Net.Core.Model
+  children:
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.AltLabel
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.BroadMatch
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Broader
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.BroaderTransitive
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ChangeNote
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.CloseMatch
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Definition
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.EditorialNote
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ExactMatch
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Example
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HasTopConcept
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HiddenLabel
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HistoryNote
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.InScheme
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.MappingRelation
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Member
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.MemberList
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.NarrowMatch
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Narrower
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.NarrowerTransitive
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Notation
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Note
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.PrefLabel
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Related
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.RelatedMatch
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ScopeNote
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.SemanticRelation
+  - OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.TopConceptOf
+  langs:
+  - csharp
+  - vb
+  name: OslcConstants.Domains.SKOS.Q
+  nameWithType: OslcConstants.Domains.SKOS.Q
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Q
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 49
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static class OslcConstants.Domains.SKOS.Q
+    content.vb: Public Module OslcConstants.Domains.SKOS.Q
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.AltLabel
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.AltLabel
+  id: AltLabel
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: AltLabel
+  nameWithType: OslcConstants.Domains.SKOS.Q.AltLabel
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.AltLabel
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AltLabel
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 51
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName AltLabel { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property AltLabel As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.AltLabel*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.BroadMatch
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.BroadMatch
+  id: BroadMatch
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: BroadMatch
+  nameWithType: OslcConstants.Domains.SKOS.Q.BroadMatch
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.BroadMatch
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: BroadMatch
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 52
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName BroadMatch { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property BroadMatch As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.BroadMatch*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Broader
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Broader
+  id: Broader
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: Broader
+  nameWithType: OslcConstants.Domains.SKOS.Q.Broader
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Broader
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Broader
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 53
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Broader { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Broader As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Broader*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.BroaderTransitive
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.BroaderTransitive
+  id: BroaderTransitive
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: BroaderTransitive
+  nameWithType: OslcConstants.Domains.SKOS.Q.BroaderTransitive
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.BroaderTransitive
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: BroaderTransitive
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 54
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName BroaderTransitive { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property BroaderTransitive As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.BroaderTransitive*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ChangeNote
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ChangeNote
+  id: ChangeNote
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: ChangeNote
+  nameWithType: OslcConstants.Domains.SKOS.Q.ChangeNote
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ChangeNote
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ChangeNote
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 55
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName ChangeNote { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property ChangeNote As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ChangeNote*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.CloseMatch
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.CloseMatch
+  id: CloseMatch
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: CloseMatch
+  nameWithType: OslcConstants.Domains.SKOS.Q.CloseMatch
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.CloseMatch
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: CloseMatch
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 56
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName CloseMatch { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property CloseMatch As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.CloseMatch*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Definition
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Definition
+  id: Definition
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: OslcConstants.Domains.SKOS.Q.Definition
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Definition
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Definition
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 57
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Definition { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Definition As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Definition*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.EditorialNote
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.EditorialNote
+  id: EditorialNote
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: EditorialNote
+  nameWithType: OslcConstants.Domains.SKOS.Q.EditorialNote
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.EditorialNote
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: EditorialNote
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 58
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName EditorialNote { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property EditorialNote As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.EditorialNote*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ExactMatch
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ExactMatch
+  id: ExactMatch
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: ExactMatch
+  nameWithType: OslcConstants.Domains.SKOS.Q.ExactMatch
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ExactMatch
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ExactMatch
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 59
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName ExactMatch { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property ExactMatch As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ExactMatch*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Example
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Example
+  id: Example
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: Example
+  nameWithType: OslcConstants.Domains.SKOS.Q.Example
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Example
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Example
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 60
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Example { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Example As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Example*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HasTopConcept
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HasTopConcept
+  id: HasTopConcept
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: HasTopConcept
+  nameWithType: OslcConstants.Domains.SKOS.Q.HasTopConcept
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HasTopConcept
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: HasTopConcept
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 61
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName HasTopConcept { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property HasTopConcept As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HasTopConcept*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HiddenLabel
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HiddenLabel
+  id: HiddenLabel
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: HiddenLabel
+  nameWithType: OslcConstants.Domains.SKOS.Q.HiddenLabel
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HiddenLabel
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: HiddenLabel
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 62
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName HiddenLabel { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property HiddenLabel As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HiddenLabel*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HistoryNote
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HistoryNote
+  id: HistoryNote
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: HistoryNote
+  nameWithType: OslcConstants.Domains.SKOS.Q.HistoryNote
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HistoryNote
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: HistoryNote
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 63
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName HistoryNote { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property HistoryNote As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HistoryNote*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.InScheme
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.InScheme
+  id: InScheme
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: InScheme
+  nameWithType: OslcConstants.Domains.SKOS.Q.InScheme
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.InScheme
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: InScheme
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 64
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName InScheme { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property InScheme As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.InScheme*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.MappingRelation
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.MappingRelation
+  id: MappingRelation
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: MappingRelation
+  nameWithType: OslcConstants.Domains.SKOS.Q.MappingRelation
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.MappingRelation
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: MappingRelation
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 65
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName MappingRelation { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property MappingRelation As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.MappingRelation*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Member
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Member
+  id: Member
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: Member
+  nameWithType: OslcConstants.Domains.SKOS.Q.Member
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Member
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Member
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 66
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Member { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Member As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Member*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.MemberList
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.MemberList
+  id: MemberList
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: MemberList
+  nameWithType: OslcConstants.Domains.SKOS.Q.MemberList
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.MemberList
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: MemberList
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 67
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName MemberList { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property MemberList As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.MemberList*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.NarrowMatch
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.NarrowMatch
+  id: NarrowMatch
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: NarrowMatch
+  nameWithType: OslcConstants.Domains.SKOS.Q.NarrowMatch
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.NarrowMatch
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: NarrowMatch
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 68
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName NarrowMatch { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property NarrowMatch As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.NarrowMatch*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Narrower
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Narrower
+  id: Narrower
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: Narrower
+  nameWithType: OslcConstants.Domains.SKOS.Q.Narrower
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Narrower
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Narrower
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 69
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Narrower { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Narrower As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Narrower*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.NarrowerTransitive
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.NarrowerTransitive
+  id: NarrowerTransitive
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: NarrowerTransitive
+  nameWithType: OslcConstants.Domains.SKOS.Q.NarrowerTransitive
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.NarrowerTransitive
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: NarrowerTransitive
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 70
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName NarrowerTransitive { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property NarrowerTransitive As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.NarrowerTransitive*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Notation
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Notation
+  id: Notation
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: Notation
+  nameWithType: OslcConstants.Domains.SKOS.Q.Notation
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Notation
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Notation
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 71
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Notation { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Notation As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Notation*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Note
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Note
+  id: Note
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: Note
+  nameWithType: OslcConstants.Domains.SKOS.Q.Note
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Note
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Note
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 72
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Note { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Note As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Note*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.PrefLabel
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.PrefLabel
+  id: PrefLabel
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: PrefLabel
+  nameWithType: OslcConstants.Domains.SKOS.Q.PrefLabel
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.PrefLabel
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: PrefLabel
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 73
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName PrefLabel { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property PrefLabel As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.PrefLabel*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Related
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Related
+  id: Related
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: Related
+  nameWithType: OslcConstants.Domains.SKOS.Q.Related
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Related
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Related
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 74
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName Related { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property Related As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Related*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.RelatedMatch
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.RelatedMatch
+  id: RelatedMatch
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: RelatedMatch
+  nameWithType: OslcConstants.Domains.SKOS.Q.RelatedMatch
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.RelatedMatch
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: RelatedMatch
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 75
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName RelatedMatch { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property RelatedMatch As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.RelatedMatch*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ScopeNote
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ScopeNote
+  id: ScopeNote
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: ScopeNote
+  nameWithType: OslcConstants.Domains.SKOS.Q.ScopeNote
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ScopeNote
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ScopeNote
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 76
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName ScopeNote { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property ScopeNote As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ScopeNote*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.SemanticRelation
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.SemanticRelation
+  id: SemanticRelation
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: SemanticRelation
+  nameWithType: OslcConstants.Domains.SKOS.Q.SemanticRelation
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.SemanticRelation
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SemanticRelation
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 77
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName SemanticRelation { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property SemanticRelation As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.SemanticRelation*
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.TopConceptOf
+  commentId: P:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.TopConceptOf
+  id: TopConceptOf
+  parent: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q
+  langs:
+  - csharp
+  - vb
+  name: TopConceptOf
+  nameWithType: OslcConstants.Domains.SKOS.Q.TopConceptOf
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.TopConceptOf
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: TopConceptOf
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/OslcConstants.SKOS.cs
+    startLine: 78
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: public static QName TopConceptOf { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Model.QName
+    content.vb: Public Shared ReadOnly Property TopConceptOf As QName
+  overload: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.TopConceptOf*
+references:
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.AltLabel*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.AltLabel
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_AltLabel
+  name: AltLabel
+  nameWithType: OslcConstants.Domains.SKOS.Q.AltLabel
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.AltLabel
+- uid: OSLC4Net.Core.Model.QName
+  commentId: T:OSLC4Net.Core.Model.QName
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.QName.html
+  name: QName
+  nameWithType: QName
+  fullName: OSLC4Net.Core.Model.QName
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.BroadMatch*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.BroadMatch
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_BroadMatch
+  name: BroadMatch
+  nameWithType: OslcConstants.Domains.SKOS.Q.BroadMatch
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.BroadMatch
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Broader*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Broader
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_Broader
+  name: Broader
+  nameWithType: OslcConstants.Domains.SKOS.Q.Broader
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Broader
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.BroaderTransitive*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.BroaderTransitive
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_BroaderTransitive
+  name: BroaderTransitive
+  nameWithType: OslcConstants.Domains.SKOS.Q.BroaderTransitive
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.BroaderTransitive
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ChangeNote*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ChangeNote
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_ChangeNote
+  name: ChangeNote
+  nameWithType: OslcConstants.Domains.SKOS.Q.ChangeNote
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ChangeNote
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.CloseMatch*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.CloseMatch
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_CloseMatch
+  name: CloseMatch
+  nameWithType: OslcConstants.Domains.SKOS.Q.CloseMatch
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.CloseMatch
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Definition*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Definition
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_Definition
+  name: Definition
+  nameWithType: OslcConstants.Domains.SKOS.Q.Definition
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Definition
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.EditorialNote*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.EditorialNote
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_EditorialNote
+  name: EditorialNote
+  nameWithType: OslcConstants.Domains.SKOS.Q.EditorialNote
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.EditorialNote
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ExactMatch*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ExactMatch
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_ExactMatch
+  name: ExactMatch
+  nameWithType: OslcConstants.Domains.SKOS.Q.ExactMatch
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ExactMatch
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Example*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Example
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_Example
+  name: Example
+  nameWithType: OslcConstants.Domains.SKOS.Q.Example
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Example
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HasTopConcept*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HasTopConcept
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_HasTopConcept
+  name: HasTopConcept
+  nameWithType: OslcConstants.Domains.SKOS.Q.HasTopConcept
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HasTopConcept
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HiddenLabel*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HiddenLabel
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_HiddenLabel
+  name: HiddenLabel
+  nameWithType: OslcConstants.Domains.SKOS.Q.HiddenLabel
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HiddenLabel
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HistoryNote*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HistoryNote
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_HistoryNote
+  name: HistoryNote
+  nameWithType: OslcConstants.Domains.SKOS.Q.HistoryNote
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.HistoryNote
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.InScheme*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.InScheme
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_InScheme
+  name: InScheme
+  nameWithType: OslcConstants.Domains.SKOS.Q.InScheme
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.InScheme
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.MappingRelation*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.MappingRelation
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_MappingRelation
+  name: MappingRelation
+  nameWithType: OslcConstants.Domains.SKOS.Q.MappingRelation
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.MappingRelation
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Member*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Member
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_Member
+  name: Member
+  nameWithType: OslcConstants.Domains.SKOS.Q.Member
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Member
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.MemberList*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.MemberList
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_MemberList
+  name: MemberList
+  nameWithType: OslcConstants.Domains.SKOS.Q.MemberList
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.MemberList
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.NarrowMatch*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.NarrowMatch
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_NarrowMatch
+  name: NarrowMatch
+  nameWithType: OslcConstants.Domains.SKOS.Q.NarrowMatch
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.NarrowMatch
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Narrower*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Narrower
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_Narrower
+  name: Narrower
+  nameWithType: OslcConstants.Domains.SKOS.Q.Narrower
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Narrower
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.NarrowerTransitive*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.NarrowerTransitive
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_NarrowerTransitive
+  name: NarrowerTransitive
+  nameWithType: OslcConstants.Domains.SKOS.Q.NarrowerTransitive
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.NarrowerTransitive
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Notation*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Notation
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_Notation
+  name: Notation
+  nameWithType: OslcConstants.Domains.SKOS.Q.Notation
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Notation
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Note*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Note
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_Note
+  name: Note
+  nameWithType: OslcConstants.Domains.SKOS.Q.Note
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Note
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.PrefLabel*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.PrefLabel
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_PrefLabel
+  name: PrefLabel
+  nameWithType: OslcConstants.Domains.SKOS.Q.PrefLabel
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.PrefLabel
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Related*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Related
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_Related
+  name: Related
+  nameWithType: OslcConstants.Domains.SKOS.Q.Related
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.Related
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.RelatedMatch*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.RelatedMatch
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_RelatedMatch
+  name: RelatedMatch
+  nameWithType: OslcConstants.Domains.SKOS.Q.RelatedMatch
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.RelatedMatch
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ScopeNote*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ScopeNote
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_ScopeNote
+  name: ScopeNote
+  nameWithType: OslcConstants.Domains.SKOS.Q.ScopeNote
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.ScopeNote
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.SemanticRelation*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.SemanticRelation
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_SemanticRelation
+  name: SemanticRelation
+  nameWithType: OslcConstants.Domains.SKOS.Q.SemanticRelation
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.SemanticRelation
+- uid: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.TopConceptOf*
+  commentId: Overload:OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.TopConceptOf
+  href: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html#OSLC4Net_Core_Model_OslcConstants_Domains_SKOS_Q_TopConceptOf
+  name: TopConceptOf
+  nameWithType: OslcConstants.Domains.SKOS.Q.TopConceptOf
+  fullName: OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.TopConceptOf

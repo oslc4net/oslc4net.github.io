@@ -1,0 +1,1468 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Client.OslcRestClient
+  commentId: T:OSLC4Net.Client.OslcRestClient
+  id: OslcRestClient
+  parent: OSLC4Net.Client
+  children:
+  - OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.String)
+  - OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.String,System.Int32)
+  - OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.String,System.String)
+  - OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.String,System.String,System.Int32)
+  - OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.Uri)
+  - OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.Uri,System.Int32)
+  - OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.Uri,System.String)
+  - OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.Uri,System.String,System.Int32)
+  - OSLC4Net.Client.OslcRestClient.AddOslcResourceAsync``1(``0)
+  - OSLC4Net.Client.OslcRestClient.AddOslcResourceReturnClientResponse(System.Object)
+  - OSLC4Net.Client.OslcRestClient.DEFAULT_FORMATTERS
+  - OSLC4Net.Client.OslcRestClient.DEFAULT_READ_TIMEOUT
+  - OSLC4Net.Client.OslcRestClient.GetClient
+  - OSLC4Net.Client.OslcRestClient.GetFormatters
+  - OSLC4Net.Client.OslcRestClient.GetMediaType
+  - OSLC4Net.Client.OslcRestClient.GetOslcResourceAsync``1
+  - OSLC4Net.Client.OslcRestClient.GetOslcResourcesAsync``1
+  - OSLC4Net.Client.OslcRestClient.GetReadTimeout
+  - OSLC4Net.Client.OslcRestClient.GetUri
+  - OSLC4Net.Client.OslcRestClient.RemoveOslcResourceReturnClientResponse
+  - OSLC4Net.Client.OslcRestClient.UpdateOslcResourceReturnClientResponse(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: OslcRestClient
+  nameWithType: OslcRestClient
+  fullName: OSLC4Net.Client.OslcRestClient
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: OslcRestClient
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 27
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  summary: A class providing client utilities to query/get, create, update and delete OSLC resources
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Use OslcClient instead.")]
+
+      public sealed class OslcRestClient
+    content.vb: >-
+      <Obsolete("Use OslcClient instead.")>
+
+      Public NotInheritable Class OslcRestClient
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use OslcClient instead.
+- uid: OSLC4Net.Client.OslcRestClient.DEFAULT_READ_TIMEOUT
+  commentId: F:OSLC4Net.Client.OslcRestClient.DEFAULT_READ_TIMEOUT
+  id: DEFAULT_READ_TIMEOUT
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: DEFAULT_READ_TIMEOUT
+  nameWithType: OslcRestClient.DEFAULT_READ_TIMEOUT
+  fullName: OSLC4Net.Client.OslcRestClient.DEFAULT_READ_TIMEOUT
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DEFAULT_READ_TIMEOUT
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 33
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  summary: HTTP client timeout, ms
+  example: []
+  syntax:
+    content: public const int DEFAULT_READ_TIMEOUT = 60000
+    return:
+      type: System.Int32
+    content.vb: Public Const DEFAULT_READ_TIMEOUT As Integer = 60000
+- uid: OSLC4Net.Client.OslcRestClient.DEFAULT_FORMATTERS
+  commentId: F:OSLC4Net.Client.OslcRestClient.DEFAULT_FORMATTERS
+  id: DEFAULT_FORMATTERS
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: DEFAULT_FORMATTERS
+  nameWithType: OslcRestClient.DEFAULT_FORMATTERS
+  fullName: OSLC4Net.Client.OslcRestClient.DEFAULT_FORMATTERS
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DEFAULT_FORMATTERS
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 35
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  syntax:
+    content: public static readonly IEnumerable<MediaTypeFormatter> DEFAULT_FORMATTERS
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter}
+    content.vb: Public Shared ReadOnly DEFAULT_FORMATTERS As IEnumerable(Of MediaTypeFormatter)
+- uid: OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.String,System.String,System.Int32)
+  commentId: M:OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.String,System.String,System.Int32)
+  id: '#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.String,System.String,System.Int32)'
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: OslcRestClient(IEnumerable<MediaTypeFormatter>, string, string, int)
+  nameWithType: OslcRestClient.OslcRestClient(IEnumerable<MediaTypeFormatter>, string, string, int)
+  fullName: OSLC4Net.Client.OslcRestClient.OslcRestClient(System.Collections.Generic.IEnumerable<System.Net.Http.Formatting.MediaTypeFormatter>, string, string, int)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 51
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  summary: ''
+  example: []
+  syntax:
+    content: public OslcRestClient(IEnumerable<MediaTypeFormatter> formatters, string uri, string mediaType, int readTimeout)
+    parameters:
+    - id: formatters
+      type: System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter}
+      description: ''
+    - id: uri
+      type: System.String
+      description: ''
+    - id: mediaType
+      type: System.String
+      description: ''
+    - id: readTimeout
+      type: System.Int32
+      description: in milliseconds
+    content.vb: Public Sub New(formatters As IEnumerable(Of MediaTypeFormatter), uri As String, mediaType As String, readTimeout As Integer)
+  overload: OSLC4Net.Client.OslcRestClient.#ctor*
+  nameWithType.vb: OslcRestClient.New(IEnumerable(Of MediaTypeFormatter), String, String, Integer)
+  fullName.vb: OSLC4Net.Client.OslcRestClient.New(System.Collections.Generic.IEnumerable(Of System.Net.Http.Formatting.MediaTypeFormatter), String, String, Integer)
+  name.vb: New(IEnumerable(Of MediaTypeFormatter), String, String, Integer)
+- uid: OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.String,System.String)
+  commentId: M:OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.String,System.String)
+  id: '#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.String,System.String)'
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: OslcRestClient(IEnumerable<MediaTypeFormatter>, string, string)
+  nameWithType: OslcRestClient.OslcRestClient(IEnumerable<MediaTypeFormatter>, string, string)
+  fullName: OSLC4Net.Client.OslcRestClient.OslcRestClient(System.Collections.Generic.IEnumerable<System.Net.Http.Formatting.MediaTypeFormatter>, string, string)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 77
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  summary: ''
+  example: []
+  syntax:
+    content: public OslcRestClient(IEnumerable<MediaTypeFormatter> formatters, string uri, string mediaType)
+    parameters:
+    - id: formatters
+      type: System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter}
+      description: ''
+    - id: uri
+      type: System.String
+      description: ''
+    - id: mediaType
+      type: System.String
+      description: ''
+    content.vb: Public Sub New(formatters As IEnumerable(Of MediaTypeFormatter), uri As String, mediaType As String)
+  overload: OSLC4Net.Client.OslcRestClient.#ctor*
+  nameWithType.vb: OslcRestClient.New(IEnumerable(Of MediaTypeFormatter), String, String)
+  fullName.vb: OSLC4Net.Client.OslcRestClient.New(System.Collections.Generic.IEnumerable(Of System.Net.Http.Formatting.MediaTypeFormatter), String, String)
+  name.vb: New(IEnumerable(Of MediaTypeFormatter), String, String)
+- uid: OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.String,System.Int32)
+  commentId: M:OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.String,System.Int32)
+  id: '#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.String,System.Int32)'
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: OslcRestClient(IEnumerable<MediaTypeFormatter>, string, int)
+  nameWithType: OslcRestClient.OslcRestClient(IEnumerable<MediaTypeFormatter>, string, int)
+  fullName: OSLC4Net.Client.OslcRestClient.OslcRestClient(System.Collections.Generic.IEnumerable<System.Net.Http.Formatting.MediaTypeFormatter>, string, int)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 90
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  summary: ''
+  example: []
+  syntax:
+    content: public OslcRestClient(IEnumerable<MediaTypeFormatter> formatters, string uri, int timeout)
+    parameters:
+    - id: formatters
+      type: System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter}
+      description: ''
+    - id: uri
+      type: System.String
+      description: ''
+    - id: timeout
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub New(formatters As IEnumerable(Of MediaTypeFormatter), uri As String, timeout As Integer)
+  overload: OSLC4Net.Client.OslcRestClient.#ctor*
+  nameWithType.vb: OslcRestClient.New(IEnumerable(Of MediaTypeFormatter), String, Integer)
+  fullName.vb: OSLC4Net.Client.OslcRestClient.New(System.Collections.Generic.IEnumerable(Of System.Net.Http.Formatting.MediaTypeFormatter), String, Integer)
+  name.vb: New(IEnumerable(Of MediaTypeFormatter), String, Integer)
+- uid: OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.String)
+  commentId: M:OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.String)
+  id: '#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.String)'
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: OslcRestClient(IEnumerable<MediaTypeFormatter>, string)
+  nameWithType: OslcRestClient.OslcRestClient(IEnumerable<MediaTypeFormatter>, string)
+  fullName: OSLC4Net.Client.OslcRestClient.OslcRestClient(System.Collections.Generic.IEnumerable<System.Net.Http.Formatting.MediaTypeFormatter>, string)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 102
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  summary: ''
+  example: []
+  syntax:
+    content: public OslcRestClient(IEnumerable<MediaTypeFormatter> formatters, string uri)
+    parameters:
+    - id: formatters
+      type: System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter}
+      description: ''
+    - id: uri
+      type: System.String
+      description: ''
+    content.vb: Public Sub New(formatters As IEnumerable(Of MediaTypeFormatter), uri As String)
+  overload: OSLC4Net.Client.OslcRestClient.#ctor*
+  nameWithType.vb: OslcRestClient.New(IEnumerable(Of MediaTypeFormatter), String)
+  fullName.vb: OSLC4Net.Client.OslcRestClient.New(System.Collections.Generic.IEnumerable(Of System.Net.Http.Formatting.MediaTypeFormatter), String)
+  name.vb: New(IEnumerable(Of MediaTypeFormatter), String)
+- uid: OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.Uri,System.String,System.Int32)
+  commentId: M:OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.Uri,System.String,System.Int32)
+  id: '#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.Uri,System.String,System.Int32)'
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: OslcRestClient(IEnumerable<MediaTypeFormatter>, Uri, string, int)
+  nameWithType: OslcRestClient.OslcRestClient(IEnumerable<MediaTypeFormatter>, Uri, string, int)
+  fullName: OSLC4Net.Client.OslcRestClient.OslcRestClient(System.Collections.Generic.IEnumerable<System.Net.Http.Formatting.MediaTypeFormatter>, System.Uri, string, int)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 115
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  summary: ''
+  example: []
+  syntax:
+    content: public OslcRestClient(IEnumerable<MediaTypeFormatter> formatters, Uri uri, string mediaType, int readTimeout)
+    parameters:
+    - id: formatters
+      type: System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter}
+      description: ''
+    - id: uri
+      type: System.Uri
+      description: ''
+    - id: mediaType
+      type: System.String
+      description: ''
+    - id: readTimeout
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub New(formatters As IEnumerable(Of MediaTypeFormatter), uri As Uri, mediaType As String, readTimeout As Integer)
+  overload: OSLC4Net.Client.OslcRestClient.#ctor*
+  nameWithType.vb: OslcRestClient.New(IEnumerable(Of MediaTypeFormatter), Uri, String, Integer)
+  fullName.vb: OSLC4Net.Client.OslcRestClient.New(System.Collections.Generic.IEnumerable(Of System.Net.Http.Formatting.MediaTypeFormatter), System.Uri, String, Integer)
+  name.vb: New(IEnumerable(Of MediaTypeFormatter), Uri, String, Integer)
+- uid: OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.Uri,System.String)
+  commentId: M:OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.Uri,System.String)
+  id: '#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.Uri,System.String)'
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: OslcRestClient(IEnumerable<MediaTypeFormatter>, Uri, string)
+  nameWithType: OslcRestClient.OslcRestClient(IEnumerable<MediaTypeFormatter>, Uri, string)
+  fullName: OSLC4Net.Client.OslcRestClient.OslcRestClient(System.Collections.Generic.IEnumerable<System.Net.Http.Formatting.MediaTypeFormatter>, System.Uri, string)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 129
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  summary: ''
+  example: []
+  syntax:
+    content: public OslcRestClient(IEnumerable<MediaTypeFormatter> formatters, Uri uri, string mediaType)
+    parameters:
+    - id: formatters
+      type: System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter}
+      description: ''
+    - id: uri
+      type: System.Uri
+      description: ''
+    - id: mediaType
+      type: System.String
+      description: ''
+    content.vb: Public Sub New(formatters As IEnumerable(Of MediaTypeFormatter), uri As Uri, mediaType As String)
+  overload: OSLC4Net.Client.OslcRestClient.#ctor*
+  nameWithType.vb: OslcRestClient.New(IEnumerable(Of MediaTypeFormatter), Uri, String)
+  fullName.vb: OSLC4Net.Client.OslcRestClient.New(System.Collections.Generic.IEnumerable(Of System.Net.Http.Formatting.MediaTypeFormatter), System.Uri, String)
+  name.vb: New(IEnumerable(Of MediaTypeFormatter), Uri, String)
+- uid: OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.Uri,System.Int32)
+  commentId: M:OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.Uri,System.Int32)
+  id: '#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.Uri,System.Int32)'
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: OslcRestClient(IEnumerable<MediaTypeFormatter>, Uri, int)
+  nameWithType: OslcRestClient.OslcRestClient(IEnumerable<MediaTypeFormatter>, Uri, int)
+  fullName: OSLC4Net.Client.OslcRestClient.OslcRestClient(System.Collections.Generic.IEnumerable<System.Net.Http.Formatting.MediaTypeFormatter>, System.Uri, int)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 142
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  summary: ''
+  example: []
+  syntax:
+    content: public OslcRestClient(IEnumerable<MediaTypeFormatter> formatters, Uri uri, int timeout)
+    parameters:
+    - id: formatters
+      type: System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter}
+      description: ''
+    - id: uri
+      type: System.Uri
+      description: ''
+    - id: timeout
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub New(formatters As IEnumerable(Of MediaTypeFormatter), uri As Uri, timeout As Integer)
+  overload: OSLC4Net.Client.OslcRestClient.#ctor*
+  nameWithType.vb: OslcRestClient.New(IEnumerable(Of MediaTypeFormatter), Uri, Integer)
+  fullName.vb: OSLC4Net.Client.OslcRestClient.New(System.Collections.Generic.IEnumerable(Of System.Net.Http.Formatting.MediaTypeFormatter), System.Uri, Integer)
+  name.vb: New(IEnumerable(Of MediaTypeFormatter), Uri, Integer)
+- uid: OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.Uri)
+  commentId: M:OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.Uri)
+  id: '#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.Uri)'
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: OslcRestClient(IEnumerable<MediaTypeFormatter>, Uri)
+  nameWithType: OslcRestClient.OslcRestClient(IEnumerable<MediaTypeFormatter>, Uri)
+  fullName: OSLC4Net.Client.OslcRestClient.OslcRestClient(System.Collections.Generic.IEnumerable<System.Net.Http.Formatting.MediaTypeFormatter>, System.Uri)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 154
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  summary: ''
+  example: []
+  syntax:
+    content: public OslcRestClient(IEnumerable<MediaTypeFormatter> formatters, Uri uri)
+    parameters:
+    - id: formatters
+      type: System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter}
+      description: ''
+    - id: uri
+      type: System.Uri
+      description: ''
+    content.vb: Public Sub New(formatters As IEnumerable(Of MediaTypeFormatter), uri As Uri)
+  overload: OSLC4Net.Client.OslcRestClient.#ctor*
+  nameWithType.vb: OslcRestClient.New(IEnumerable(Of MediaTypeFormatter), Uri)
+  fullName.vb: OSLC4Net.Client.OslcRestClient.New(System.Collections.Generic.IEnumerable(Of System.Net.Http.Formatting.MediaTypeFormatter), System.Uri)
+  name.vb: New(IEnumerable(Of MediaTypeFormatter), Uri)
+- uid: OSLC4Net.Client.OslcRestClient.GetFormatters
+  commentId: M:OSLC4Net.Client.OslcRestClient.GetFormatters
+  id: GetFormatters
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: GetFormatters()
+  nameWithType: OslcRestClient.GetFormatters()
+  fullName: OSLC4Net.Client.OslcRestClient.GetFormatters()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetFormatters
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 164
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  summary: ''
+  example: []
+  syntax:
+    content: public IEnumerable<MediaTypeFormatter> GetFormatters()
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter}
+      description: ''
+    content.vb: Public Function GetFormatters() As IEnumerable(Of MediaTypeFormatter)
+  overload: OSLC4Net.Client.OslcRestClient.GetFormatters*
+- uid: OSLC4Net.Client.OslcRestClient.GetMediaType
+  commentId: M:OSLC4Net.Client.OslcRestClient.GetMediaType
+  id: GetMediaType
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: GetMediaType()
+  nameWithType: OslcRestClient.GetMediaType()
+  fullName: OSLC4Net.Client.OslcRestClient.GetMediaType()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetMediaType
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 169
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  syntax:
+    content: public string GetMediaType()
+    return:
+      type: System.String
+    content.vb: Public Function GetMediaType() As String
+  overload: OSLC4Net.Client.OslcRestClient.GetMediaType*
+- uid: OSLC4Net.Client.OslcRestClient.GetReadTimeout
+  commentId: M:OSLC4Net.Client.OslcRestClient.GetReadTimeout
+  id: GetReadTimeout
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: GetReadTimeout()
+  nameWithType: OslcRestClient.GetReadTimeout()
+  fullName: OSLC4Net.Client.OslcRestClient.GetReadTimeout()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetReadTimeout
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 174
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  syntax:
+    content: public int GetReadTimeout()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetReadTimeout() As Integer
+  overload: OSLC4Net.Client.OslcRestClient.GetReadTimeout*
+- uid: OSLC4Net.Client.OslcRestClient.GetUri
+  commentId: M:OSLC4Net.Client.OslcRestClient.GetUri
+  id: GetUri
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: GetUri()
+  nameWithType: OslcRestClient.GetUri()
+  fullName: OSLC4Net.Client.OslcRestClient.GetUri()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetUri
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 179
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  syntax:
+    content: public string GetUri()
+    return:
+      type: System.String
+    content.vb: Public Function GetUri() As String
+  overload: OSLC4Net.Client.OslcRestClient.GetUri*
+- uid: OSLC4Net.Client.OslcRestClient.GetClient
+  commentId: M:OSLC4Net.Client.OslcRestClient.GetClient
+  id: GetClient
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: GetClient()
+  nameWithType: OslcRestClient.GetClient()
+  fullName: OSLC4Net.Client.OslcRestClient.GetClient()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetClient
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 184
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  syntax:
+    content: public HttpClient GetClient()
+    return:
+      type: System.Net.Http.HttpClient
+    content.vb: Public Function GetClient() As HttpClient
+  overload: OSLC4Net.Client.OslcRestClient.GetClient*
+- uid: OSLC4Net.Client.OslcRestClient.GetOslcResourceAsync``1
+  commentId: M:OSLC4Net.Client.OslcRestClient.GetOslcResourceAsync``1
+  id: GetOslcResourceAsync``1
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: GetOslcResourceAsync<T>()
+  nameWithType: OslcRestClient.GetOslcResourceAsync<T>()
+  fullName: OSLC4Net.Client.OslcRestClient.GetOslcResourceAsync<T>()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetOslcResourceAsync
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 194
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  summary: Retrieve an OSLC resource of the specified type.  The type must have an associated .NET class with OSLC4Net annotations.
+  example: []
+  syntax:
+    content: 'public Task<T?> GetOslcResourceAsync<T>() where T : class, IResource'
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+      description: ''
+    content.vb: Public Function GetOslcResourceAsync(Of T As {Class, IResource})() As Task(Of T)
+  overload: OSLC4Net.Client.OslcRestClient.GetOslcResourceAsync*
+  nameWithType.vb: OslcRestClient.GetOslcResourceAsync(Of T)()
+  fullName.vb: OSLC4Net.Client.OslcRestClient.GetOslcResourceAsync(Of T)()
+  name.vb: GetOslcResourceAsync(Of T)()
+- uid: OSLC4Net.Client.OslcRestClient.GetOslcResourcesAsync``1
+  commentId: M:OSLC4Net.Client.OslcRestClient.GetOslcResourcesAsync``1
+  id: GetOslcResourcesAsync``1
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: GetOslcResourcesAsync<T>()
+  nameWithType: OslcRestClient.GetOslcResourcesAsync<T>()
+  fullName: OSLC4Net.Client.OslcRestClient.GetOslcResourcesAsync<T>()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: GetOslcResourcesAsync
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 216
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  summary: Get an array of OSLC resources of the specified type.  The type must have an associated .NET class with OSLC4Net annotations.
+  example: []
+  syntax:
+    content: public Task<ICollection<T>?> GetOslcResourcesAsync<T>()
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.ICollection{{T}}}
+      description: ''
+    content.vb: Public Function GetOslcResourcesAsync(Of T)() As Task(Of ICollection(Of T))
+  overload: OSLC4Net.Client.OslcRestClient.GetOslcResourcesAsync*
+  nameWithType.vb: OslcRestClient.GetOslcResourcesAsync(Of T)()
+  fullName.vb: OSLC4Net.Client.OslcRestClient.GetOslcResourcesAsync(Of T)()
+  name.vb: GetOslcResourcesAsync(Of T)()
+- uid: OSLC4Net.Client.OslcRestClient.AddOslcResourceAsync``1(``0)
+  commentId: M:OSLC4Net.Client.OslcRestClient.AddOslcResourceAsync``1(``0)
+  id: AddOslcResourceAsync``1(``0)
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: AddOslcResourceAsync<T>(T)
+  nameWithType: OslcRestClient.AddOslcResourceAsync<T>(T)
+  fullName: OSLC4Net.Client.OslcRestClient.AddOslcResourceAsync<T>(T)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AddOslcResourceAsync
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 245
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  summary: Create an OSLC resource of the specified type.  The type must have an associated .NET class with OSLC4Net annotations.
+  example: []
+  syntax:
+    content: 'public Task<T?> AddOslcResourceAsync<T>(T oslcResource) where T : class, IResource'
+    parameters:
+    - id: oslcResource
+      type: '{T}'
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+      description: ''
+    content.vb: Public Function AddOslcResourceAsync(Of T As {Class, IResource})(oslcResource As T) As Task(Of T)
+  overload: OSLC4Net.Client.OslcRestClient.AddOslcResourceAsync*
+  nameWithType.vb: OslcRestClient.AddOslcResourceAsync(Of T)(T)
+  fullName.vb: OSLC4Net.Client.OslcRestClient.AddOslcResourceAsync(Of T)(T)
+  name.vb: AddOslcResourceAsync(Of T)(T)
+- uid: OSLC4Net.Client.OslcRestClient.AddOslcResourceReturnClientResponse(System.Object)
+  commentId: M:OSLC4Net.Client.OslcRestClient.AddOslcResourceReturnClientResponse(System.Object)
+  id: AddOslcResourceReturnClientResponse(System.Object)
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: AddOslcResourceReturnClientResponse(object)
+  nameWithType: OslcRestClient.AddOslcResourceReturnClientResponse(object)
+  fullName: OSLC4Net.Client.OslcRestClient.AddOslcResourceReturnClientResponse(object)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: AddOslcResourceReturnClientResponse
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 288
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  summary: >-
+    Add an OSLC resource of the specified type and return an HttpResponseMessage.
+
+    The type must have an associated .NET class with OSLC4Net annotations.
+  example: []
+  syntax:
+    content: public HttpResponseMessage AddOslcResourceReturnClientResponse(object oslcResource)
+    parameters:
+    - id: oslcResource
+      type: System.Object
+      description: ''
+    return:
+      type: System.Net.Http.HttpResponseMessage
+      description: ''
+    content.vb: Public Function AddOslcResourceReturnClientResponse(oslcResource As Object) As HttpResponseMessage
+  overload: OSLC4Net.Client.OslcRestClient.AddOslcResourceReturnClientResponse*
+  nameWithType.vb: OslcRestClient.AddOslcResourceReturnClientResponse(Object)
+  fullName.vb: OSLC4Net.Client.OslcRestClient.AddOslcResourceReturnClientResponse(Object)
+  name.vb: AddOslcResourceReturnClientResponse(Object)
+- uid: OSLC4Net.Client.OslcRestClient.UpdateOslcResourceReturnClientResponse(System.Object)
+  commentId: M:OSLC4Net.Client.OslcRestClient.UpdateOslcResourceReturnClientResponse(System.Object)
+  id: UpdateOslcResourceReturnClientResponse(System.Object)
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: UpdateOslcResourceReturnClientResponse(object)
+  nameWithType: OslcRestClient.UpdateOslcResourceReturnClientResponse(object)
+  fullName: OSLC4Net.Client.OslcRestClient.UpdateOslcResourceReturnClientResponse(object)
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: UpdateOslcResourceReturnClientResponse
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 320
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  summary: >-
+    Update an OSLC resource of the specified type and return an HttpResponseMessage.
+
+    The type must have an associated .NET class with OSLC4Net annotations.
+  example: []
+  syntax:
+    content: public HttpResponseMessage UpdateOslcResourceReturnClientResponse(object oslcResource)
+    parameters:
+    - id: oslcResource
+      type: System.Object
+      description: ''
+    return:
+      type: System.Net.Http.HttpResponseMessage
+      description: ''
+    content.vb: Public Function UpdateOslcResourceReturnClientResponse(oslcResource As Object) As HttpResponseMessage
+  overload: OSLC4Net.Client.OslcRestClient.UpdateOslcResourceReturnClientResponse*
+  nameWithType.vb: OslcRestClient.UpdateOslcResourceReturnClientResponse(Object)
+  fullName.vb: OSLC4Net.Client.OslcRestClient.UpdateOslcResourceReturnClientResponse(Object)
+  name.vb: UpdateOslcResourceReturnClientResponse(Object)
+- uid: OSLC4Net.Client.OslcRestClient.RemoveOslcResourceReturnClientResponse
+  commentId: M:OSLC4Net.Client.OslcRestClient.RemoveOslcResourceReturnClientResponse
+  id: RemoveOslcResourceReturnClientResponse
+  parent: OSLC4Net.Client.OslcRestClient
+  langs:
+  - csharp
+  - vb
+  name: RemoveOslcResourceReturnClientResponse()
+  nameWithType: OslcRestClient.RemoveOslcResourceReturnClientResponse()
+  fullName: OSLC4Net.Client.OslcRestClient.RemoveOslcResourceReturnClientResponse()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: RemoveOslcResourceReturnClientResponse
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs
+    startLine: 341
+  assemblies:
+  - OSLC4Net.Client
+  namespace: OSLC4Net.Client
+  summary: Remove an OSLC resource
+  example: []
+  syntax:
+    content: public HttpResponseMessage RemoveOslcResourceReturnClientResponse()
+    return:
+      type: System.Net.Http.HttpResponseMessage
+      description: ''
+    content.vb: Public Function RemoveOslcResourceReturnClientResponse() As HttpResponseMessage
+  overload: OSLC4Net.Client.OslcRestClient.RemoveOslcResourceReturnClientResponse*
+references:
+- uid: OSLC4Net.Client
+  commentId: N:OSLC4Net.Client
+  href: OSLC4Net.html
+  name: OSLC4Net.Client
+  nameWithType: OSLC4Net.Client
+  fullName: OSLC4Net.Client
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Client
+    name: Client
+    href: OSLC4Net.Client.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Client
+    name: Client
+    href: OSLC4Net.Client.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<MediaTypeFormatter>
+  nameWithType: IEnumerable<MediaTypeFormatter>
+  fullName: System.Collections.Generic.IEnumerable<System.Net.Http.Formatting.MediaTypeFormatter>
+  nameWithType.vb: IEnumerable(Of MediaTypeFormatter)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Net.Http.Formatting.MediaTypeFormatter)
+  name.vb: IEnumerable(Of MediaTypeFormatter)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter
+    name: MediaTypeFormatter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Net.Http.Formatting.MediaTypeFormatter
+    name: MediaTypeFormatter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: OSLC4Net.Client.OslcRestClient.#ctor*
+  commentId: Overload:OSLC4Net.Client.OslcRestClient.#ctor
+  href: OSLC4Net.Client.OslcRestClient.html#OSLC4Net_Client_OslcRestClient__ctor_System_Collections_Generic_IEnumerable_System_Net_Http_Formatting_MediaTypeFormatter__System_String_System_String_System_Int32_
+  name: OslcRestClient
+  nameWithType: OslcRestClient.OslcRestClient
+  fullName: OSLC4Net.Client.OslcRestClient.OslcRestClient
+  nameWithType.vb: OslcRestClient.New
+  fullName.vb: OSLC4Net.Client.OslcRestClient.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uri
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
+- uid: OSLC4Net.Client.OslcRestClient.GetFormatters*
+  commentId: Overload:OSLC4Net.Client.OslcRestClient.GetFormatters
+  href: OSLC4Net.Client.OslcRestClient.html#OSLC4Net_Client_OslcRestClient_GetFormatters
+  name: GetFormatters
+  nameWithType: OslcRestClient.GetFormatters
+  fullName: OSLC4Net.Client.OslcRestClient.GetFormatters
+- uid: OSLC4Net.Client.OslcRestClient.GetMediaType*
+  commentId: Overload:OSLC4Net.Client.OslcRestClient.GetMediaType
+  href: OSLC4Net.Client.OslcRestClient.html#OSLC4Net_Client_OslcRestClient_GetMediaType
+  name: GetMediaType
+  nameWithType: OslcRestClient.GetMediaType
+  fullName: OSLC4Net.Client.OslcRestClient.GetMediaType
+- uid: OSLC4Net.Client.OslcRestClient.GetReadTimeout*
+  commentId: Overload:OSLC4Net.Client.OslcRestClient.GetReadTimeout
+  href: OSLC4Net.Client.OslcRestClient.html#OSLC4Net_Client_OslcRestClient_GetReadTimeout
+  name: GetReadTimeout
+  nameWithType: OslcRestClient.GetReadTimeout
+  fullName: OSLC4Net.Client.OslcRestClient.GetReadTimeout
+- uid: OSLC4Net.Client.OslcRestClient.GetUri*
+  commentId: Overload:OSLC4Net.Client.OslcRestClient.GetUri
+  href: OSLC4Net.Client.OslcRestClient.html#OSLC4Net_Client_OslcRestClient_GetUri
+  name: GetUri
+  nameWithType: OslcRestClient.GetUri
+  fullName: OSLC4Net.Client.OslcRestClient.GetUri
+- uid: OSLC4Net.Client.OslcRestClient.GetClient*
+  commentId: Overload:OSLC4Net.Client.OslcRestClient.GetClient
+  href: OSLC4Net.Client.OslcRestClient.html#OSLC4Net_Client_OslcRestClient_GetClient
+  name: GetClient
+  nameWithType: OslcRestClient.GetClient
+  fullName: OSLC4Net.Client.OslcRestClient.GetClient
+- uid: System.Net.Http.HttpClient
+  commentId: T:System.Net.Http.HttpClient
+  parent: System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.httpclient
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+- uid: OSLC4Net.Client.OslcRestClient.GetOslcResourceAsync*
+  commentId: Overload:OSLC4Net.Client.OslcRestClient.GetOslcResourceAsync
+  href: OSLC4Net.Client.OslcRestClient.html#OSLC4Net_Client_OslcRestClient_GetOslcResourceAsync__1
+  name: GetOslcResourceAsync
+  nameWithType: OslcRestClient.GetOslcResourceAsync
+  fullName: OSLC4Net.Client.OslcRestClient.GetOslcResourceAsync
+- uid: System.Threading.Tasks.Task{{T}}
+  commentId: T:System.Threading.Tasks.Task{``0}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<T>
+  nameWithType: Task<T>
+  fullName: System.Threading.Tasks.Task<T>
+  nameWithType.vb: Task(Of T)
+  fullName.vb: System.Threading.Tasks.Task(Of T)
+  name.vb: Task(Of T)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: OSLC4Net.Client.OslcRestClient.GetOslcResourcesAsync*
+  commentId: Overload:OSLC4Net.Client.OslcRestClient.GetOslcResourcesAsync
+  href: OSLC4Net.Client.OslcRestClient.html#OSLC4Net_Client_OslcRestClient_GetOslcResourcesAsync__1
+  name: GetOslcResourcesAsync
+  nameWithType: OslcRestClient.GetOslcResourcesAsync
+  fullName: OSLC4Net.Client.OslcRestClient.GetOslcResourcesAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.ICollection{{T}}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.ICollection{``0}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ICollection<T>>
+  nameWithType: Task<ICollection<T>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.ICollection<T>>
+  nameWithType.vb: Task(Of ICollection(Of T))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.ICollection(Of T))
+  name.vb: Task(Of ICollection(Of T))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: OSLC4Net.Client.OslcRestClient.AddOslcResourceAsync*
+  commentId: Overload:OSLC4Net.Client.OslcRestClient.AddOslcResourceAsync
+  href: OSLC4Net.Client.OslcRestClient.html#OSLC4Net_Client_OslcRestClient_AddOslcResourceAsync__1___0_
+  name: AddOslcResourceAsync
+  nameWithType: OslcRestClient.AddOslcResourceAsync
+  fullName: OSLC4Net.Client.OslcRestClient.AddOslcResourceAsync
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: OSLC4Net.Client.OslcRestClient.AddOslcResourceReturnClientResponse*
+  commentId: Overload:OSLC4Net.Client.OslcRestClient.AddOslcResourceReturnClientResponse
+  href: OSLC4Net.Client.OslcRestClient.html#OSLC4Net_Client_OslcRestClient_AddOslcResourceReturnClientResponse_System_Object_
+  name: AddOslcResourceReturnClientResponse
+  nameWithType: OslcRestClient.AddOslcResourceReturnClientResponse
+  fullName: OSLC4Net.Client.OslcRestClient.AddOslcResourceReturnClientResponse
+- uid: System.Net.Http.HttpResponseMessage
+  commentId: T:System.Net.Http.HttpResponseMessage
+  parent: System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
+  name: HttpResponseMessage
+  nameWithType: HttpResponseMessage
+  fullName: System.Net.Http.HttpResponseMessage
+- uid: OSLC4Net.Client.OslcRestClient.UpdateOslcResourceReturnClientResponse*
+  commentId: Overload:OSLC4Net.Client.OslcRestClient.UpdateOslcResourceReturnClientResponse
+  href: OSLC4Net.Client.OslcRestClient.html#OSLC4Net_Client_OslcRestClient_UpdateOslcResourceReturnClientResponse_System_Object_
+  name: UpdateOslcResourceReturnClientResponse
+  nameWithType: OslcRestClient.UpdateOslcResourceReturnClientResponse
+  fullName: OSLC4Net.Client.OslcRestClient.UpdateOslcResourceReturnClientResponse
+- uid: OSLC4Net.Client.OslcRestClient.RemoveOslcResourceReturnClientResponse*
+  commentId: Overload:OSLC4Net.Client.OslcRestClient.RemoveOslcResourceReturnClientResponse
+  href: OSLC4Net.Client.OslcRestClient.html#OSLC4Net_Client_OslcRestClient_RemoveOslcResourceReturnClientResponse
+  name: RemoveOslcResourceReturnClientResponse
+  nameWithType: OslcRestClient.RemoveOslcResourceReturnClientResponse
+  fullName: OSLC4Net.Client.OslcRestClient.RemoveOslcResourceReturnClientResponse

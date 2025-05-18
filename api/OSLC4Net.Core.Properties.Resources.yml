@@ -1,0 +1,1000 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Properties.Resources
+  commentId: T:OSLC4Net.Core.Properties.Resources
+  id: Resources
+  parent: OSLC4Net.Core.Properties
+  children:
+  - OSLC4Net.Core.Properties.Resources.Culture
+  - OSLC4Net.Core.Properties.Resources.DeregistrationException
+  - OSLC4Net.Core.Properties.Resources.DuplicatePropertyDefinitionException
+  - OSLC4Net.Core.Properties.Resources.InvalidOccursException
+  - OSLC4Net.Core.Properties.Resources.InvalidPropertyDefinitionException
+  - OSLC4Net.Core.Properties.Resources.InvalidPropertyTypeException
+  - OSLC4Net.Core.Properties.Resources.InvalidRepresentationException
+  - OSLC4Net.Core.Properties.Resources.InvalidValueTypeException
+  - OSLC4Net.Core.Properties.Resources.MissingAnnotationException
+  - OSLC4Net.Core.Properties.Resources.MissingNamespaceDeclarationException
+  - OSLC4Net.Core.Properties.Resources.MissingNamespacePrefixException
+  - OSLC4Net.Core.Properties.Resources.MissingSetMethodException
+  - OSLC4Net.Core.Properties.Resources.MisusedOccursException
+  - OSLC4Net.Core.Properties.Resources.RegistrationException
+  - OSLC4Net.Core.Properties.Resources.RelativeURIException
+  - OSLC4Net.Core.Properties.Resources.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: Resources
+  nameWithType: Resources
+  fullName: OSLC4Net.Core.Properties.Resources
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Resources
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+    startLine: 20
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Properties
+  summary: A strongly-typed resource class, for looking up localized strings, etc.
+  example: []
+  syntax:
+    content: public class Resources
+    content.vb: Public Class Resources
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: OSLC4Net.Core.Properties.Resources.ResourceManager
+  commentId: P:OSLC4Net.Core.Properties.Resources.ResourceManager
+  id: ResourceManager
+  parent: OSLC4Net.Core.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: ResourceManager
+  nameWithType: Resources.ResourceManager
+  fullName: OSLC4Net.Core.Properties.Resources.ResourceManager
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ResourceManager
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+    startLine: 36
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Properties
+  summary: Returns the cached ResourceManager instance used by this class.
+  example: []
+  syntax:
+    content: public static ResourceManager ResourceManager { get; }
+    parameters: []
+    return:
+      type: System.Resources.ResourceManager
+    content.vb: Public Shared ReadOnly Property ResourceManager As ResourceManager
+  overload: OSLC4Net.Core.Properties.Resources.ResourceManager*
+- uid: OSLC4Net.Core.Properties.Resources.Culture
+  commentId: P:OSLC4Net.Core.Properties.Resources.Culture
+  id: Culture
+  parent: OSLC4Net.Core.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: Resources.Culture
+  fullName: OSLC4Net.Core.Properties.Resources.Culture
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Culture
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+    startLine: 51
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Properties
+  summary: >-
+    Overrides the current thread's CurrentUICulture property for all
+
+    resource lookups using this strongly typed resource class.
+  example: []
+  syntax:
+    content: public static CultureInfo Culture { get; set; }
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+    content.vb: Public Shared Property Culture As CultureInfo
+  overload: OSLC4Net.Core.Properties.Resources.Culture*
+- uid: OSLC4Net.Core.Properties.Resources.DeregistrationException
+  commentId: P:OSLC4Net.Core.Properties.Resources.DeregistrationException
+  id: DeregistrationException
+  parent: OSLC4Net.Core.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: DeregistrationException
+  nameWithType: Resources.DeregistrationException
+  fullName: OSLC4Net.Core.Properties.Resources.DeregistrationException
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DeregistrationException
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+    startLine: 64
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Properties
+  summary: 'Looks up a localized string similar to OSLC001: Error unregistering Service Provider URI {0}. Returned error code is: {1}; error message is: {2}.'
+  example: []
+  syntax:
+    content: public static string DeregistrationException { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DeregistrationException As String
+  overload: OSLC4Net.Core.Properties.Resources.DeregistrationException*
+- uid: OSLC4Net.Core.Properties.Resources.DuplicatePropertyDefinitionException
+  commentId: P:OSLC4Net.Core.Properties.Resources.DuplicatePropertyDefinitionException
+  id: DuplicatePropertyDefinitionException
+  parent: OSLC4Net.Core.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: DuplicatePropertyDefinitionException
+  nameWithType: Resources.DuplicatePropertyDefinitionException
+  fullName: OSLC4Net.Core.Properties.Resources.DuplicatePropertyDefinitionException
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DuplicatePropertyDefinitionException
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+    startLine: 73
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Properties
+  summary: 'Looks up a localized string similar to OSLC002: Duplicate property definition annotation {1} for class {0}.'
+  example: []
+  syntax:
+    content: public static string DuplicatePropertyDefinitionException { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DuplicatePropertyDefinitionException As String
+  overload: OSLC4Net.Core.Properties.Resources.DuplicatePropertyDefinitionException*
+- uid: OSLC4Net.Core.Properties.Resources.InvalidOccursException
+  commentId: P:OSLC4Net.Core.Properties.Resources.InvalidOccursException
+  id: InvalidOccursException
+  parent: OSLC4Net.Core.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: InvalidOccursException
+  nameWithType: Resources.InvalidOccursException
+  fullName: OSLC4Net.Core.Properties.Resources.InvalidOccursException
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: InvalidOccursException
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+    startLine: 82
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Properties
+  summary: Looks up a localized string similar to Invalid occurs annotation {2} for method {1} of class {0}.
+  example: []
+  syntax:
+    content: public static string InvalidOccursException { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property InvalidOccursException As String
+  overload: OSLC4Net.Core.Properties.Resources.InvalidOccursException*
+- uid: OSLC4Net.Core.Properties.Resources.InvalidPropertyDefinitionException
+  commentId: P:OSLC4Net.Core.Properties.Resources.InvalidPropertyDefinitionException
+  id: InvalidPropertyDefinitionException
+  parent: OSLC4Net.Core.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: InvalidPropertyDefinitionException
+  nameWithType: Resources.InvalidPropertyDefinitionException
+  fullName: OSLC4Net.Core.Properties.Resources.InvalidPropertyDefinitionException
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: InvalidPropertyDefinitionException
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+    startLine: 91
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Properties
+  summary: 'Looks up a localized string similar to OSLC004: Invalid property definition annotation {2} for method {1} of class {0}.'
+  example: []
+  syntax:
+    content: public static string InvalidPropertyDefinitionException { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property InvalidPropertyDefinitionException As String
+  overload: OSLC4Net.Core.Properties.Resources.InvalidPropertyDefinitionException*
+- uid: OSLC4Net.Core.Properties.Resources.InvalidPropertyTypeException
+  commentId: P:OSLC4Net.Core.Properties.Resources.InvalidPropertyTypeException
+  id: InvalidPropertyTypeException
+  parent: OSLC4Net.Core.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: InvalidPropertyTypeException
+  nameWithType: Resources.InvalidPropertyTypeException
+  fullName: OSLC4Net.Core.Properties.Resources.InvalidPropertyTypeException
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: InvalidPropertyTypeException
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+    startLine: 100
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Properties
+  summary: 'Looks up a localized string similar to OSLC005: Invalid property type {2} returned by method {1} of class {0}.'
+  example: []
+  syntax:
+    content: public static string InvalidPropertyTypeException { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property InvalidPropertyTypeException As String
+  overload: OSLC4Net.Core.Properties.Resources.InvalidPropertyTypeException*
+- uid: OSLC4Net.Core.Properties.Resources.InvalidRepresentationException
+  commentId: P:OSLC4Net.Core.Properties.Resources.InvalidRepresentationException
+  id: InvalidRepresentationException
+  parent: OSLC4Net.Core.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: InvalidRepresentationException
+  nameWithType: Resources.InvalidRepresentationException
+  fullName: OSLC4Net.Core.Properties.Resources.InvalidRepresentationException
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: InvalidRepresentationException
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+    startLine: 109
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Properties
+  summary: 'Looks up a localized string similar to OSLC006: Invalid representation {2} defined for method {1} of class {0}.'
+  example: []
+  syntax:
+    content: public static string InvalidRepresentationException { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property InvalidRepresentationException As String
+  overload: OSLC4Net.Core.Properties.Resources.InvalidRepresentationException*
+- uid: OSLC4Net.Core.Properties.Resources.InvalidValueTypeException
+  commentId: P:OSLC4Net.Core.Properties.Resources.InvalidValueTypeException
+  id: InvalidValueTypeException
+  parent: OSLC4Net.Core.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: InvalidValueTypeException
+  nameWithType: Resources.InvalidValueTypeException
+  fullName: OSLC4Net.Core.Properties.Resources.InvalidValueTypeException
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: InvalidValueTypeException
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+    startLine: 118
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Properties
+  summary: 'Looks up a localized string similar to OSLC007: Invalid value type {2} defined for method {1} of class {0}.'
+  example: []
+  syntax:
+    content: public static string InvalidValueTypeException { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property InvalidValueTypeException As String
+  overload: OSLC4Net.Core.Properties.Resources.InvalidValueTypeException*
+- uid: OSLC4Net.Core.Properties.Resources.MissingAnnotationException
+  commentId: P:OSLC4Net.Core.Properties.Resources.MissingAnnotationException
+  id: MissingAnnotationException
+  parent: OSLC4Net.Core.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: MissingAnnotationException
+  nameWithType: Resources.MissingAnnotationException
+  fullName: OSLC4Net.Core.Properties.Resources.MissingAnnotationException
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: MissingAnnotationException
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+    startLine: 127
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Properties
+  summary: 'Looks up a localized string similar to OSLC008: Missing mandatory OSLC annotation {1} for class {0}.'
+  example: []
+  syntax:
+    content: public static string MissingAnnotationException { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MissingAnnotationException As String
+  overload: OSLC4Net.Core.Properties.Resources.MissingAnnotationException*
+- uid: OSLC4Net.Core.Properties.Resources.MissingNamespaceDeclarationException
+  commentId: P:OSLC4Net.Core.Properties.Resources.MissingNamespaceDeclarationException
+  id: MissingNamespaceDeclarationException
+  parent: OSLC4Net.Core.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: MissingNamespaceDeclarationException
+  nameWithType: Resources.MissingNamespaceDeclarationException
+  fullName: OSLC4Net.Core.Properties.Resources.MissingNamespaceDeclarationException
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: MissingNamespaceDeclarationException
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+    startLine: 136
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Properties
+  summary: 'Looks up a localized string similar to OSLC009: Namespace declaration not defined for namespace {0}.'
+  example: []
+  syntax:
+    content: public static string MissingNamespaceDeclarationException { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MissingNamespaceDeclarationException As String
+  overload: OSLC4Net.Core.Properties.Resources.MissingNamespaceDeclarationException*
+- uid: OSLC4Net.Core.Properties.Resources.MissingNamespacePrefixException
+  commentId: P:OSLC4Net.Core.Properties.Resources.MissingNamespacePrefixException
+  id: MissingNamespacePrefixException
+  parent: OSLC4Net.Core.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: MissingNamespacePrefixException
+  nameWithType: Resources.MissingNamespacePrefixException
+  fullName: OSLC4Net.Core.Properties.Resources.MissingNamespacePrefixException
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: MissingNamespacePrefixException
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+    startLine: 145
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Properties
+  summary: 'Looks up a localized string similar to OSLC010: Namespace declaration not defined for prefix {0}.'
+  example: []
+  syntax:
+    content: public static string MissingNamespacePrefixException { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MissingNamespacePrefixException As String
+  overload: OSLC4Net.Core.Properties.Resources.MissingNamespacePrefixException*
+- uid: OSLC4Net.Core.Properties.Resources.MissingSetMethodException
+  commentId: P:OSLC4Net.Core.Properties.Resources.MissingSetMethodException
+  id: MissingSetMethodException
+  parent: OSLC4Net.Core.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: MissingSetMethodException
+  nameWithType: Resources.MissingSetMethodException
+  fullName: OSLC4Net.Core.Properties.Resources.MissingSetMethodException
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: MissingSetMethodException
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+    startLine: 154
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Properties
+  summary: 'Looks up a localized string similar to OSLC011: Missing corresponding set method for method {1} of class {0}.'
+  example: []
+  syntax:
+    content: public static string MissingSetMethodException { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MissingSetMethodException As String
+  overload: OSLC4Net.Core.Properties.Resources.MissingSetMethodException*
+- uid: OSLC4Net.Core.Properties.Resources.MisusedOccursException
+  commentId: P:OSLC4Net.Core.Properties.Resources.MisusedOccursException
+  id: MisusedOccursException
+  parent: OSLC4Net.Core.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: MisusedOccursException
+  nameWithType: Resources.MisusedOccursException
+  fullName: OSLC4Net.Core.Properties.Resources.MisusedOccursException
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: MisusedOccursException
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+    startLine: 163
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Properties
+  summary: 'Looks up a localized string similar to OSLC012: Multiple values for method {1} of class {0} that supports at most one value.'
+  example: []
+  syntax:
+    content: public static string MisusedOccursException { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MisusedOccursException As String
+  overload: OSLC4Net.Core.Properties.Resources.MisusedOccursException*
+- uid: OSLC4Net.Core.Properties.Resources.RegistrationException
+  commentId: P:OSLC4Net.Core.Properties.Resources.RegistrationException
+  id: RegistrationException
+  parent: OSLC4Net.Core.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: RegistrationException
+  nameWithType: Resources.RegistrationException
+  fullName: OSLC4Net.Core.Properties.Resources.RegistrationException
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: RegistrationException
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+    startLine: 172
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Properties
+  summary: 'Looks up a localized string similar to OSLC013: Error registering Service Provider {0}. Returned error code is: {1}; error message is: {2}.'
+  example: []
+  syntax:
+    content: public static string RegistrationException { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property RegistrationException As String
+  overload: OSLC4Net.Core.Properties.Resources.RegistrationException*
+- uid: OSLC4Net.Core.Properties.Resources.RelativeURIException
+  commentId: P:OSLC4Net.Core.Properties.Resources.RelativeURIException
+  id: RelativeURIException
+  parent: OSLC4Net.Core.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: RelativeURIException
+  nameWithType: Resources.RelativeURIException
+  fullName: OSLC4Net.Core.Properties.Resources.RelativeURIException
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: RelativeURIException
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Properties/Resources.Designer.cs
+    startLine: 181
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Properties
+  summary: 'Looks up a localized string similar to OSLC014: Relative URI value {2} for method {1} of class {0}.'
+  example: []
+  syntax:
+    content: public static string RelativeURIException { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property RelativeURIException As String
+  overload: OSLC4Net.Core.Properties.Resources.RelativeURIException*
+references:
+- uid: OSLC4Net.Core.Properties
+  commentId: N:OSLC4Net.Core.Properties
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Properties
+  nameWithType: OSLC4Net.Core.Properties
+  fullName: OSLC4Net.Core.Properties
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Properties
+    name: Properties
+    href: OSLC4Net.Core.Properties.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Properties
+    name: Properties
+    href: OSLC4Net.Core.Properties.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OSLC4Net.Core.Properties.Resources.ResourceManager*
+  commentId: Overload:OSLC4Net.Core.Properties.Resources.ResourceManager
+  href: OSLC4Net.Core.Properties.Resources.html#OSLC4Net_Core_Properties_Resources_ResourceManager
+  name: ResourceManager
+  nameWithType: Resources.ResourceManager
+  fullName: OSLC4Net.Core.Properties.Resources.ResourceManager
+- uid: System.Resources.ResourceManager
+  commentId: T:System.Resources.ResourceManager
+  parent: System.Resources
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.resources.resourcemanager
+  name: ResourceManager
+  nameWithType: ResourceManager
+  fullName: System.Resources.ResourceManager
+- uid: System.Resources
+  commentId: N:System.Resources
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Resources
+  nameWithType: System.Resources
+  fullName: System.Resources
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Resources
+    name: Resources
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.resources
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Resources
+    name: Resources
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.resources
+- uid: OSLC4Net.Core.Properties.Resources.Culture*
+  commentId: Overload:OSLC4Net.Core.Properties.Resources.Culture
+  href: OSLC4Net.Core.Properties.Resources.html#OSLC4Net_Core_Properties_Resources_Culture
+  name: Culture
+  nameWithType: Resources.Culture
+  fullName: OSLC4Net.Core.Properties.Resources.Culture
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+- uid: OSLC4Net.Core.Properties.Resources.DeregistrationException*
+  commentId: Overload:OSLC4Net.Core.Properties.Resources.DeregistrationException
+  href: OSLC4Net.Core.Properties.Resources.html#OSLC4Net_Core_Properties_Resources_DeregistrationException
+  name: DeregistrationException
+  nameWithType: Resources.DeregistrationException
+  fullName: OSLC4Net.Core.Properties.Resources.DeregistrationException
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: OSLC4Net.Core.Properties.Resources.DuplicatePropertyDefinitionException*
+  commentId: Overload:OSLC4Net.Core.Properties.Resources.DuplicatePropertyDefinitionException
+  href: OSLC4Net.Core.Properties.Resources.html#OSLC4Net_Core_Properties_Resources_DuplicatePropertyDefinitionException
+  name: DuplicatePropertyDefinitionException
+  nameWithType: Resources.DuplicatePropertyDefinitionException
+  fullName: OSLC4Net.Core.Properties.Resources.DuplicatePropertyDefinitionException
+- uid: OSLC4Net.Core.Properties.Resources.InvalidOccursException*
+  commentId: Overload:OSLC4Net.Core.Properties.Resources.InvalidOccursException
+  href: OSLC4Net.Core.Properties.Resources.html#OSLC4Net_Core_Properties_Resources_InvalidOccursException
+  name: InvalidOccursException
+  nameWithType: Resources.InvalidOccursException
+  fullName: OSLC4Net.Core.Properties.Resources.InvalidOccursException
+- uid: OSLC4Net.Core.Properties.Resources.InvalidPropertyDefinitionException*
+  commentId: Overload:OSLC4Net.Core.Properties.Resources.InvalidPropertyDefinitionException
+  href: OSLC4Net.Core.Properties.Resources.html#OSLC4Net_Core_Properties_Resources_InvalidPropertyDefinitionException
+  name: InvalidPropertyDefinitionException
+  nameWithType: Resources.InvalidPropertyDefinitionException
+  fullName: OSLC4Net.Core.Properties.Resources.InvalidPropertyDefinitionException
+- uid: OSLC4Net.Core.Properties.Resources.InvalidPropertyTypeException*
+  commentId: Overload:OSLC4Net.Core.Properties.Resources.InvalidPropertyTypeException
+  href: OSLC4Net.Core.Properties.Resources.html#OSLC4Net_Core_Properties_Resources_InvalidPropertyTypeException
+  name: InvalidPropertyTypeException
+  nameWithType: Resources.InvalidPropertyTypeException
+  fullName: OSLC4Net.Core.Properties.Resources.InvalidPropertyTypeException
+- uid: OSLC4Net.Core.Properties.Resources.InvalidRepresentationException*
+  commentId: Overload:OSLC4Net.Core.Properties.Resources.InvalidRepresentationException
+  href: OSLC4Net.Core.Properties.Resources.html#OSLC4Net_Core_Properties_Resources_InvalidRepresentationException
+  name: InvalidRepresentationException
+  nameWithType: Resources.InvalidRepresentationException
+  fullName: OSLC4Net.Core.Properties.Resources.InvalidRepresentationException
+- uid: OSLC4Net.Core.Properties.Resources.InvalidValueTypeException*
+  commentId: Overload:OSLC4Net.Core.Properties.Resources.InvalidValueTypeException
+  href: OSLC4Net.Core.Properties.Resources.html#OSLC4Net_Core_Properties_Resources_InvalidValueTypeException
+  name: InvalidValueTypeException
+  nameWithType: Resources.InvalidValueTypeException
+  fullName: OSLC4Net.Core.Properties.Resources.InvalidValueTypeException
+- uid: OSLC4Net.Core.Properties.Resources.MissingAnnotationException*
+  commentId: Overload:OSLC4Net.Core.Properties.Resources.MissingAnnotationException
+  href: OSLC4Net.Core.Properties.Resources.html#OSLC4Net_Core_Properties_Resources_MissingAnnotationException
+  name: MissingAnnotationException
+  nameWithType: Resources.MissingAnnotationException
+  fullName: OSLC4Net.Core.Properties.Resources.MissingAnnotationException
+- uid: OSLC4Net.Core.Properties.Resources.MissingNamespaceDeclarationException*
+  commentId: Overload:OSLC4Net.Core.Properties.Resources.MissingNamespaceDeclarationException
+  href: OSLC4Net.Core.Properties.Resources.html#OSLC4Net_Core_Properties_Resources_MissingNamespaceDeclarationException
+  name: MissingNamespaceDeclarationException
+  nameWithType: Resources.MissingNamespaceDeclarationException
+  fullName: OSLC4Net.Core.Properties.Resources.MissingNamespaceDeclarationException
+- uid: OSLC4Net.Core.Properties.Resources.MissingNamespacePrefixException*
+  commentId: Overload:OSLC4Net.Core.Properties.Resources.MissingNamespacePrefixException
+  href: OSLC4Net.Core.Properties.Resources.html#OSLC4Net_Core_Properties_Resources_MissingNamespacePrefixException
+  name: MissingNamespacePrefixException
+  nameWithType: Resources.MissingNamespacePrefixException
+  fullName: OSLC4Net.Core.Properties.Resources.MissingNamespacePrefixException
+- uid: OSLC4Net.Core.Properties.Resources.MissingSetMethodException*
+  commentId: Overload:OSLC4Net.Core.Properties.Resources.MissingSetMethodException
+  href: OSLC4Net.Core.Properties.Resources.html#OSLC4Net_Core_Properties_Resources_MissingSetMethodException
+  name: MissingSetMethodException
+  nameWithType: Resources.MissingSetMethodException
+  fullName: OSLC4Net.Core.Properties.Resources.MissingSetMethodException
+- uid: OSLC4Net.Core.Properties.Resources.MisusedOccursException*
+  commentId: Overload:OSLC4Net.Core.Properties.Resources.MisusedOccursException
+  href: OSLC4Net.Core.Properties.Resources.html#OSLC4Net_Core_Properties_Resources_MisusedOccursException
+  name: MisusedOccursException
+  nameWithType: Resources.MisusedOccursException
+  fullName: OSLC4Net.Core.Properties.Resources.MisusedOccursException
+- uid: OSLC4Net.Core.Properties.Resources.RegistrationException*
+  commentId: Overload:OSLC4Net.Core.Properties.Resources.RegistrationException
+  href: OSLC4Net.Core.Properties.Resources.html#OSLC4Net_Core_Properties_Resources_RegistrationException
+  name: RegistrationException
+  nameWithType: Resources.RegistrationException
+  fullName: OSLC4Net.Core.Properties.Resources.RegistrationException
+- uid: OSLC4Net.Core.Properties.Resources.RelativeURIException*
+  commentId: Overload:OSLC4Net.Core.Properties.Resources.RelativeURIException
+  href: OSLC4Net.Core.Properties.Resources.html#OSLC4Net_Core_Properties_Resources_RelativeURIException
+  name: RelativeURIException
+  nameWithType: Resources.RelativeURIException
+  fullName: OSLC4Net.Core.Properties.Resources.RelativeURIException

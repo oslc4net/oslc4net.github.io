@@ -1,0 +1,807 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Model.ResponseInfoArray`1
+  commentId: T:OSLC4Net.Core.Model.ResponseInfoArray`1
+  id: ResponseInfoArray`1
+  parent: OSLC4Net.Core.Model
+  children:
+  - OSLC4Net.Core.Model.ResponseInfoArray`1.#ctor(`0[],System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32,System.String)
+  - OSLC4Net.Core.Model.ResponseInfoArray`1.#ctor(`0[],System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32,System.Uri)
+  - OSLC4Net.Core.Model.ResponseInfoArray`1.Array
+  langs:
+  - csharp
+  - vb
+  name: ResponseInfoArray<T>
+  nameWithType: ResponseInfoArray<T>
+  fullName: OSLC4Net.Core.Model.ResponseInfoArray<T>
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/ResponseInfoArray.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ResponseInfoArray
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/ResponseInfoArray.cs
+    startLine: 22
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: An OSLC ResponseInfo resource containing an array of member resources
+  example: []
+  syntax:
+    content: 'public class ResponseInfoArray<T> : ResponseInfo<T[]>'
+    typeParameters:
+    - id: T
+      description: ''
+    content.vb: Public Class ResponseInfoArray(Of T) Inherits ResponseInfo(Of T())
+  inheritance:
+  - System.Object
+  - OSLC4Net.Core.Model.FilteredResource{{T}[]}
+  - OSLC4Net.Core.Model.ResponseInfo{{T}[]}
+  inheritedMembers:
+  - OSLC4Net.Core.Model.ResponseInfo{{T}[]}.TotalCount
+  - OSLC4Net.Core.Model.ResponseInfo{{T}[]}.NextPage
+  - OSLC4Net.Core.Model.FilteredResource{{T}[]}.Resource
+  - OSLC4Net.Core.Model.FilteredResource{{T}[]}.Properties
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: ResponseInfoArray(Of T)
+  fullName.vb: OSLC4Net.Core.Model.ResponseInfoArray(Of T)
+  name.vb: ResponseInfoArray(Of T)
+- uid: OSLC4Net.Core.Model.ResponseInfoArray`1.#ctor(`0[],System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32,System.String)
+  commentId: M:OSLC4Net.Core.Model.ResponseInfoArray`1.#ctor(`0[],System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32,System.String)
+  id: '#ctor(`0[],System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32,System.String)'
+  parent: OSLC4Net.Core.Model.ResponseInfoArray`1
+  langs:
+  - csharp
+  - vb
+  name: ResponseInfoArray(T[], IDictionary<string, object>, int, string)
+  nameWithType: ResponseInfoArray<T>.ResponseInfoArray(T[], IDictionary<string, object>, int, string)
+  fullName: OSLC4Net.Core.Model.ResponseInfoArray<T>.ResponseInfoArray(T[], System.Collections.Generic.IDictionary<string, object>, int, string)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/ResponseInfoArray.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/ResponseInfoArray.cs
+    startLine: 30
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: ''
+  example: []
+  syntax:
+    content: public ResponseInfoArray(T[] array, IDictionary<string, object> properties, int totalCount, string nextPage)
+    parameters:
+    - id: array
+      type: '{T}[]'
+      description: ''
+    - id: properties
+      type: System.Collections.Generic.IDictionary{System.String,System.Object}
+      description: ''
+    - id: totalCount
+      type: System.Int32
+      description: ''
+    - id: nextPage
+      type: System.String
+      description: ''
+    content.vb: Public Sub New(array As T(), properties As IDictionary(Of String, Object), totalCount As Integer, nextPage As String)
+  overload: OSLC4Net.Core.Model.ResponseInfoArray`1.#ctor*
+  nameWithType.vb: ResponseInfoArray(Of T).New(T(), IDictionary(Of String, Object), Integer, String)
+  fullName.vb: OSLC4Net.Core.Model.ResponseInfoArray(Of T).New(T(), System.Collections.Generic.IDictionary(Of String, Object), Integer, String)
+  name.vb: New(T(), IDictionary(Of String, Object), Integer, String)
+- uid: OSLC4Net.Core.Model.ResponseInfoArray`1.#ctor(`0[],System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32,System.Uri)
+  commentId: M:OSLC4Net.Core.Model.ResponseInfoArray`1.#ctor(`0[],System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32,System.Uri)
+  id: '#ctor(`0[],System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32,System.Uri)'
+  parent: OSLC4Net.Core.Model.ResponseInfoArray`1
+  langs:
+  - csharp
+  - vb
+  name: ResponseInfoArray(T[], IDictionary<string, object>, int, Uri)
+  nameWithType: ResponseInfoArray<T>.ResponseInfoArray(T[], IDictionary<string, object>, int, Uri)
+  fullName: OSLC4Net.Core.Model.ResponseInfoArray<T>.ResponseInfoArray(T[], System.Collections.Generic.IDictionary<string, object>, int, System.Uri)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/ResponseInfoArray.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/ResponseInfoArray.cs
+    startLine: 46
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: ''
+  example: []
+  syntax:
+    content: public ResponseInfoArray(T[] array, IDictionary<string, object> properties, int totalCount, Uri nextPage)
+    parameters:
+    - id: array
+      type: '{T}[]'
+      description: ''
+    - id: properties
+      type: System.Collections.Generic.IDictionary{System.String,System.Object}
+      description: ''
+    - id: totalCount
+      type: System.Int32
+      description: ''
+    - id: nextPage
+      type: System.Uri
+      description: ''
+    content.vb: Public Sub New(array As T(), properties As IDictionary(Of String, Object), totalCount As Integer, nextPage As Uri)
+  overload: OSLC4Net.Core.Model.ResponseInfoArray`1.#ctor*
+  nameWithType.vb: ResponseInfoArray(Of T).New(T(), IDictionary(Of String, Object), Integer, Uri)
+  fullName.vb: OSLC4Net.Core.Model.ResponseInfoArray(Of T).New(T(), System.Collections.Generic.IDictionary(Of String, Object), Integer, System.Uri)
+  name.vb: New(T(), IDictionary(Of String, Object), Integer, Uri)
+- uid: OSLC4Net.Core.Model.ResponseInfoArray`1.Array
+  commentId: M:OSLC4Net.Core.Model.ResponseInfoArray`1.Array
+  id: Array
+  parent: OSLC4Net.Core.Model.ResponseInfoArray`1
+  langs:
+  - csharp
+  - vb
+  name: Array()
+  nameWithType: ResponseInfoArray<T>.Array()
+  fullName: OSLC4Net.Core.Model.ResponseInfoArray<T>.Array()
+  type: Method
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/ResponseInfoArray.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Array
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/ResponseInfoArray.cs
+    startLine: 59
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  example: []
+  syntax:
+    content: public T[] Array()
+    return:
+      type: '{T}[]'
+    content.vb: Public Function Array() As T()
+  overload: OSLC4Net.Core.Model.ResponseInfoArray`1.Array*
+  nameWithType.vb: ResponseInfoArray(Of T).Array()
+  fullName.vb: OSLC4Net.Core.Model.ResponseInfoArray(Of T).Array()
+references:
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: OSLC4Net.Core.Model.FilteredResource{{T}[]}
+  commentId: T:OSLC4Net.Core.Model.FilteredResource{`0[]}
+  parent: OSLC4Net.Core.Model
+  definition: OSLC4Net.Core.Model.FilteredResource`1
+  href: OSLC4Net.Core.Model.FilteredResource-1.html
+  name: FilteredResource<T[]>
+  nameWithType: FilteredResource<T[]>
+  fullName: OSLC4Net.Core.Model.FilteredResource<T[]>
+  nameWithType.vb: FilteredResource(Of T())
+  fullName.vb: OSLC4Net.Core.Model.FilteredResource(Of T())
+  name.vb: FilteredResource(Of T())
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.FilteredResource`1
+    name: FilteredResource
+    href: OSLC4Net.Core.Model.FilteredResource-1.html
+  - name: <
+  - name: T
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.FilteredResource`1
+    name: FilteredResource
+    href: OSLC4Net.Core.Model.FilteredResource-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: (
+  - name: )
+  - name: )
+- uid: OSLC4Net.Core.Model.ResponseInfo{{T}[]}
+  commentId: T:OSLC4Net.Core.Model.ResponseInfo{`0[]}
+  parent: OSLC4Net.Core.Model
+  definition: OSLC4Net.Core.Model.ResponseInfo`1
+  href: OSLC4Net.Core.Model.ResponseInfo-1.html
+  name: ResponseInfo<T[]>
+  nameWithType: ResponseInfo<T[]>
+  fullName: OSLC4Net.Core.Model.ResponseInfo<T[]>
+  nameWithType.vb: ResponseInfo(Of T())
+  fullName.vb: OSLC4Net.Core.Model.ResponseInfo(Of T())
+  name.vb: ResponseInfo(Of T())
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.ResponseInfo`1
+    name: ResponseInfo
+    href: OSLC4Net.Core.Model.ResponseInfo-1.html
+  - name: <
+  - name: T
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.ResponseInfo`1
+    name: ResponseInfo
+    href: OSLC4Net.Core.Model.ResponseInfo-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: (
+  - name: )
+  - name: )
+- uid: OSLC4Net.Core.Model.ResponseInfo{{T}[]}.TotalCount
+  commentId: P:OSLC4Net.Core.Model.ResponseInfo{`0[]}.TotalCount
+  parent: OSLC4Net.Core.Model.ResponseInfo{{T}[]}
+  definition: OSLC4Net.Core.Model.ResponseInfo`1.TotalCount
+  href: OSLC4Net.Core.Model.ResponseInfo-1.html#OSLC4Net_Core_Model_ResponseInfo_1_TotalCount
+  name: TotalCount
+  nameWithType: ResponseInfo<T[]>.TotalCount
+  fullName: OSLC4Net.Core.Model.ResponseInfo<T[]>.TotalCount
+  nameWithType.vb: ResponseInfo(Of T()).TotalCount
+  fullName.vb: OSLC4Net.Core.Model.ResponseInfo(Of T()).TotalCount
+- uid: OSLC4Net.Core.Model.ResponseInfo{{T}[]}.NextPage
+  commentId: P:OSLC4Net.Core.Model.ResponseInfo{`0[]}.NextPage
+  parent: OSLC4Net.Core.Model.ResponseInfo{{T}[]}
+  definition: OSLC4Net.Core.Model.ResponseInfo`1.NextPage
+  href: OSLC4Net.Core.Model.ResponseInfo-1.html#OSLC4Net_Core_Model_ResponseInfo_1_NextPage
+  name: NextPage
+  nameWithType: ResponseInfo<T[]>.NextPage
+  fullName: OSLC4Net.Core.Model.ResponseInfo<T[]>.NextPage
+  nameWithType.vb: ResponseInfo(Of T()).NextPage
+  fullName.vb: OSLC4Net.Core.Model.ResponseInfo(Of T()).NextPage
+- uid: OSLC4Net.Core.Model.FilteredResource{{T}[]}.Resource
+  commentId: P:OSLC4Net.Core.Model.FilteredResource{`0[]}.Resource
+  parent: OSLC4Net.Core.Model.FilteredResource{{T}[]}
+  definition: OSLC4Net.Core.Model.FilteredResource`1.Resource
+  href: OSLC4Net.Core.Model.FilteredResource-1.html#OSLC4Net_Core_Model_FilteredResource_1_Resource
+  name: Resource
+  nameWithType: FilteredResource<T[]>.Resource
+  fullName: OSLC4Net.Core.Model.FilteredResource<T[]>.Resource
+  nameWithType.vb: FilteredResource(Of T()).Resource
+  fullName.vb: OSLC4Net.Core.Model.FilteredResource(Of T()).Resource
+- uid: OSLC4Net.Core.Model.FilteredResource{{T}[]}.Properties
+  commentId: P:OSLC4Net.Core.Model.FilteredResource{`0[]}.Properties
+  parent: OSLC4Net.Core.Model.FilteredResource{{T}[]}
+  definition: OSLC4Net.Core.Model.FilteredResource`1.Properties
+  href: OSLC4Net.Core.Model.FilteredResource-1.html#OSLC4Net_Core_Model_FilteredResource_1_Properties
+  name: Properties
+  nameWithType: FilteredResource<T[]>.Properties
+  fullName: OSLC4Net.Core.Model.FilteredResource<T[]>.Properties
+  nameWithType.vb: FilteredResource(Of T()).Properties
+  fullName.vb: OSLC4Net.Core.Model.FilteredResource(Of T()).Properties
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OSLC4Net.Core.Model.FilteredResource`1
+  commentId: T:OSLC4Net.Core.Model.FilteredResource`1
+  href: OSLC4Net.Core.Model.FilteredResource-1.html
+  name: FilteredResource<T>
+  nameWithType: FilteredResource<T>
+  fullName: OSLC4Net.Core.Model.FilteredResource<T>
+  nameWithType.vb: FilteredResource(Of T)
+  fullName.vb: OSLC4Net.Core.Model.FilteredResource(Of T)
+  name.vb: FilteredResource(Of T)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.FilteredResource`1
+    name: FilteredResource
+    href: OSLC4Net.Core.Model.FilteredResource-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.FilteredResource`1
+    name: FilteredResource
+    href: OSLC4Net.Core.Model.FilteredResource-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: OSLC4Net.Core.Model.ResponseInfo`1
+  commentId: T:OSLC4Net.Core.Model.ResponseInfo`1
+  href: OSLC4Net.Core.Model.ResponseInfo-1.html
+  name: ResponseInfo<T>
+  nameWithType: ResponseInfo<T>
+  fullName: OSLC4Net.Core.Model.ResponseInfo<T>
+  nameWithType.vb: ResponseInfo(Of T)
+  fullName.vb: OSLC4Net.Core.Model.ResponseInfo(Of T)
+  name.vb: ResponseInfo(Of T)
+  spec.csharp:
+  - uid: OSLC4Net.Core.Model.ResponseInfo`1
+    name: ResponseInfo
+    href: OSLC4Net.Core.Model.ResponseInfo-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: OSLC4Net.Core.Model.ResponseInfo`1
+    name: ResponseInfo
+    href: OSLC4Net.Core.Model.ResponseInfo-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: OSLC4Net.Core.Model.ResponseInfo`1.TotalCount
+  commentId: P:OSLC4Net.Core.Model.ResponseInfo`1.TotalCount
+  href: OSLC4Net.Core.Model.ResponseInfo-1.html#OSLC4Net_Core_Model_ResponseInfo_1_TotalCount
+  name: TotalCount
+  nameWithType: ResponseInfo<T>.TotalCount
+  fullName: OSLC4Net.Core.Model.ResponseInfo<T>.TotalCount
+  nameWithType.vb: ResponseInfo(Of T).TotalCount
+  fullName.vb: OSLC4Net.Core.Model.ResponseInfo(Of T).TotalCount
+- uid: OSLC4Net.Core.Model.ResponseInfo`1.NextPage
+  commentId: P:OSLC4Net.Core.Model.ResponseInfo`1.NextPage
+  href: OSLC4Net.Core.Model.ResponseInfo-1.html#OSLC4Net_Core_Model_ResponseInfo_1_NextPage
+  name: NextPage
+  nameWithType: ResponseInfo<T>.NextPage
+  fullName: OSLC4Net.Core.Model.ResponseInfo<T>.NextPage
+  nameWithType.vb: ResponseInfo(Of T).NextPage
+  fullName.vb: OSLC4Net.Core.Model.ResponseInfo(Of T).NextPage
+- uid: OSLC4Net.Core.Model.FilteredResource`1.Resource
+  commentId: P:OSLC4Net.Core.Model.FilteredResource`1.Resource
+  href: OSLC4Net.Core.Model.FilteredResource-1.html#OSLC4Net_Core_Model_FilteredResource_1_Resource
+  name: Resource
+  nameWithType: FilteredResource<T>.Resource
+  fullName: OSLC4Net.Core.Model.FilteredResource<T>.Resource
+  nameWithType.vb: FilteredResource(Of T).Resource
+  fullName.vb: OSLC4Net.Core.Model.FilteredResource(Of T).Resource
+- uid: OSLC4Net.Core.Model.FilteredResource`1.Properties
+  commentId: P:OSLC4Net.Core.Model.FilteredResource`1.Properties
+  href: OSLC4Net.Core.Model.FilteredResource-1.html#OSLC4Net_Core_Model_FilteredResource_1_Properties
+  name: Properties
+  nameWithType: FilteredResource<T>.Properties
+  fullName: OSLC4Net.Core.Model.FilteredResource<T>.Properties
+  nameWithType.vb: FilteredResource(Of T).Properties
+  fullName.vb: OSLC4Net.Core.Model.FilteredResource(Of T).Properties
+- uid: OSLC4Net.Core.Model.ResponseInfoArray`1.#ctor*
+  commentId: Overload:OSLC4Net.Core.Model.ResponseInfoArray`1.#ctor
+  href: OSLC4Net.Core.Model.ResponseInfoArray-1.html#OSLC4Net_Core_Model_ResponseInfoArray_1__ctor__0___System_Collections_Generic_IDictionary_System_String_System_Object__System_Int32_System_String_
+  name: ResponseInfoArray
+  nameWithType: ResponseInfoArray<T>.ResponseInfoArray
+  fullName: OSLC4Net.Core.Model.ResponseInfoArray<T>.ResponseInfoArray
+  nameWithType.vb: ResponseInfoArray(Of T).New
+  fullName.vb: OSLC4Net.Core.Model.ResponseInfoArray(Of T).New
+  name.vb: New
+- uid: '{T}[]'
+  isExternal: true
+  name: T[]
+  nameWithType: T[]
+  fullName: T[]
+  nameWithType.vb: T()
+  fullName.vb: T()
+  name.vb: T()
+  spec.csharp:
+  - name: T
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - name: T
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IDictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.IDictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<string, object>
+  nameWithType: IDictionary<string, object>
+  fullName: System.Collections.Generic.IDictionary<string, object>
+  nameWithType.vb: IDictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.IDictionary(Of String, Object)
+  name.vb: IDictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uri
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
+- uid: OSLC4Net.Core.Model.ResponseInfoArray`1.Array*
+  commentId: Overload:OSLC4Net.Core.Model.ResponseInfoArray`1.Array
+  href: OSLC4Net.Core.Model.ResponseInfoArray-1.html#OSLC4Net_Core_Model_ResponseInfoArray_1_Array
+  name: Array
+  nameWithType: ResponseInfoArray<T>.Array
+  fullName: OSLC4Net.Core.Model.ResponseInfoArray<T>.Array
+  nameWithType.vb: ResponseInfoArray(Of T).Array
+  fullName.vb: OSLC4Net.Core.Model.ResponseInfoArray(Of T).Array

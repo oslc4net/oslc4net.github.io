@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.JsonProvider
+  commentId: N:OSLC4Net.Core.JsonProvider
+  id: OSLC4Net.Core.JsonProvider
+  children:
+  - OSLC4Net.Core.JsonProvider.JsonHelper
+  - OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter
+  langs:
+  - csharp
+  - vb
+  name: OSLC4Net.Core.JsonProvider
+  nameWithType: OSLC4Net.Core.JsonProvider
+  fullName: OSLC4Net.Core.JsonProvider
+  type: Namespace
+  assemblies:
+  - OSLC4Net.Core.JsonProvider
+references:
+- uid: OSLC4Net.Core.JsonProvider.JsonHelper
+  commentId: T:OSLC4Net.Core.JsonProvider.JsonHelper
+  href: OSLC4Net.Core.JsonProvider.JsonHelper.html
+  name: JsonHelper
+  nameWithType: JsonHelper
+  fullName: OSLC4Net.Core.JsonProvider.JsonHelper
+- uid: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter
+  commentId: T:OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter
+  href: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter.html
+  name: OslcJsonMediaTypeFormatter
+  nameWithType: OslcJsonMediaTypeFormatter
+  fullName: OSLC4Net.Core.JsonProvider.OslcJsonMediaTypeFormatter

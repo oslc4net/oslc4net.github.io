@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Query.PropertyType
+  commentId: T:OSLC4Net.Core.Query.PropertyType
+  id: PropertyType
+  parent: OSLC4Net.Core.Query
+  children:
+  - OSLC4Net.Core.Query.PropertyType.IDENTIFIER
+  - OSLC4Net.Core.Query.PropertyType.NESTED_PROPERTY
+  langs:
+  - csharp
+  - vb
+  name: PropertyType
+  nameWithType: PropertyType
+  fullName: OSLC4Net.Core.Query.PropertyType
+  type: Enum
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: PropertyType
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/Property.cs
+    startLine: 17
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: public enum PropertyType
+    content.vb: Public Enum PropertyType
+- uid: OSLC4Net.Core.Query.PropertyType.IDENTIFIER
+  commentId: F:OSLC4Net.Core.Query.PropertyType.IDENTIFIER
+  id: IDENTIFIER
+  parent: OSLC4Net.Core.Query.PropertyType
+  langs:
+  - csharp
+  - vb
+  name: IDENTIFIER
+  nameWithType: PropertyType.IDENTIFIER
+  fullName: OSLC4Net.Core.Query.PropertyType.IDENTIFIER
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: IDENTIFIER
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/Property.cs
+    startLine: 19
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: IDENTIFIER = 0
+    return:
+      type: OSLC4Net.Core.Query.PropertyType
+- uid: OSLC4Net.Core.Query.PropertyType.NESTED_PROPERTY
+  commentId: F:OSLC4Net.Core.Query.PropertyType.NESTED_PROPERTY
+  id: NESTED_PROPERTY
+  parent: OSLC4Net.Core.Query.PropertyType
+  langs:
+  - csharp
+  - vb
+  name: NESTED_PROPERTY
+  nameWithType: PropertyType.NESTED_PROPERTY
+  fullName: OSLC4Net.Core.Query.PropertyType.NESTED_PROPERTY
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/Property.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: NESTED_PROPERTY
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/Property.cs
+    startLine: 20
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: NESTED_PROPERTY = 1
+    return:
+      type: OSLC4Net.Core.Query.PropertyType
+references:
+- uid: OSLC4Net.Core.Query
+  commentId: N:OSLC4Net.Core.Query
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Query
+  nameWithType: OSLC4Net.Core.Query
+  fullName: OSLC4Net.Core.Query
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+- uid: OSLC4Net.Core.Query.PropertyType
+  commentId: T:OSLC4Net.Core.Query.PropertyType
+  parent: OSLC4Net.Core.Query
+  href: OSLC4Net.Core.Query.PropertyType.html
+  name: PropertyType
+  nameWithType: PropertyType
+  fullName: OSLC4Net.Core.Query.PropertyType

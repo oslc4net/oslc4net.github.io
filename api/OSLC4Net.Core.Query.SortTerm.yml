@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Query.SortTerm
+  commentId: T:OSLC4Net.Core.Query.SortTerm
+  id: SortTerm
+  parent: OSLC4Net.Core.Query
+  children:
+  - OSLC4Net.Core.Query.SortTerm.Identifier
+  - OSLC4Net.Core.Query.SortTerm.Type
+  langs:
+  - csharp
+  - vb
+  name: SortTerm
+  nameWithType: SortTerm
+  fullName: OSLC4Net.Core.Query.SortTerm
+  type: Interface
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/SortTerm.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: SortTerm
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/SortTerm.cs
+    startLine: 23
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: public interface SortTerm
+    content.vb: Public Interface SortTerm
+- uid: OSLC4Net.Core.Query.SortTerm.Type
+  commentId: P:OSLC4Net.Core.Query.SortTerm.Type
+  id: Type
+  parent: OSLC4Net.Core.Query.SortTerm
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: SortTerm.Type
+  fullName: OSLC4Net.Core.Query.SortTerm.Type
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/SortTerm.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Type
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/SortTerm.cs
+    startLine: 25
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: SortTermType Type { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Query.SortTermType
+    content.vb: ReadOnly Property Type As SortTermType
+  overload: OSLC4Net.Core.Query.SortTerm.Type*
+- uid: OSLC4Net.Core.Query.SortTerm.Identifier
+  commentId: P:OSLC4Net.Core.Query.SortTerm.Identifier
+  id: Identifier
+  parent: OSLC4Net.Core.Query.SortTerm
+  langs:
+  - csharp
+  - vb
+  name: Identifier
+  nameWithType: SortTerm.Identifier
+  fullName: OSLC4Net.Core.Query.SortTerm.Identifier
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/SortTerm.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Identifier
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/SortTerm.cs
+    startLine: 26
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: PName Identifier { get; }
+    parameters: []
+    return:
+      type: OSLC4Net.Core.Query.PName
+    content.vb: ReadOnly Property Identifier As PName
+  overload: OSLC4Net.Core.Query.SortTerm.Identifier*
+references:
+- uid: OSLC4Net.Core.Query
+  commentId: N:OSLC4Net.Core.Query
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Query
+  nameWithType: OSLC4Net.Core.Query
+  fullName: OSLC4Net.Core.Query
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+- uid: OSLC4Net.Core.Query.SortTerm.Type*
+  commentId: Overload:OSLC4Net.Core.Query.SortTerm.Type
+  href: OSLC4Net.Core.Query.SortTerm.html#OSLC4Net_Core_Query_SortTerm_Type
+  name: Type
+  nameWithType: SortTerm.Type
+  fullName: OSLC4Net.Core.Query.SortTerm.Type
+- uid: OSLC4Net.Core.Query.SortTermType
+  commentId: T:OSLC4Net.Core.Query.SortTermType
+  parent: OSLC4Net.Core.Query
+  href: OSLC4Net.Core.Query.SortTermType.html
+  name: SortTermType
+  nameWithType: SortTermType
+  fullName: OSLC4Net.Core.Query.SortTermType
+- uid: OSLC4Net.Core.Query.SortTerm.Identifier*
+  commentId: Overload:OSLC4Net.Core.Query.SortTerm.Identifier
+  href: OSLC4Net.Core.Query.SortTerm.html#OSLC4Net_Core_Query_SortTerm_Identifier
+  name: Identifier
+  nameWithType: SortTerm.Identifier
+  fullName: OSLC4Net.Core.Query.SortTerm.Identifier
+- uid: OSLC4Net.Core.Query.PName
+  commentId: T:OSLC4Net.Core.Query.PName
+  parent: OSLC4Net.Core.Query
+  href: OSLC4Net.Core.Query.PName.html
+  name: PName
+  nameWithType: PName
+  fullName: OSLC4Net.Core.Query.PName

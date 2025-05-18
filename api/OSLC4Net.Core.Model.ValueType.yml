@@ -1,0 +1,509 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Model.ValueType
+  commentId: T:OSLC4Net.Core.Model.ValueType
+  id: ValueType
+  parent: OSLC4Net.Core.Model
+  children:
+  - OSLC4Net.Core.Model.ValueType.Boolean
+  - OSLC4Net.Core.Model.ValueType.DateTime
+  - OSLC4Net.Core.Model.ValueType.Decimal
+  - OSLC4Net.Core.Model.ValueType.Double
+  - OSLC4Net.Core.Model.ValueType.Float
+  - OSLC4Net.Core.Model.ValueType.Integer
+  - OSLC4Net.Core.Model.ValueType.LocalResource
+  - OSLC4Net.Core.Model.ValueType.Resource
+  - OSLC4Net.Core.Model.ValueType.String
+  - OSLC4Net.Core.Model.ValueType.Unknown
+  - OSLC4Net.Core.Model.ValueType.XMLLiteral
+  langs:
+  - csharp
+  - vb
+  name: ValueType
+  nameWithType: ValueType
+  fullName: OSLC4Net.Core.Model.ValueType
+  type: Enum
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ValueType
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+    startLine: 21
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  summary: OSLC ValueType attribute
+  remarks: see http://open-services.net/bin/view/Main/OslcCoreSpecification#OSLC_Defined_Resources
+  example: []
+  syntax:
+    content: public enum ValueType
+    content.vb: Public Enum ValueType
+- uid: OSLC4Net.Core.Model.ValueType.Boolean
+  commentId: F:OSLC4Net.Core.Model.ValueType.Boolean
+  id: Boolean
+  parent: OSLC4Net.Core.Model.ValueType
+  langs:
+  - csharp
+  - vb
+  name: Boolean
+  nameWithType: ValueType.Boolean
+  fullName: OSLC4Net.Core.Model.ValueType.Boolean
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Boolean
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+    startLine: 23
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [URI("http://www.w3.org/2001/XMLSchema#boolean")]
+
+      Boolean = 0
+    return:
+      type: OSLC4Net.Core.Model.ValueType
+    content.vb: >-
+      <URI("http://www.w3.org/2001/XMLSchema#boolean")>
+
+      Boolean = 0
+  attributes:
+  - type: OSLC4Net.Core.Model.URI
+    ctor: OSLC4Net.Core.Model.URI.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://www.w3.org/2001/XMLSchema#boolean
+- uid: OSLC4Net.Core.Model.ValueType.DateTime
+  commentId: F:OSLC4Net.Core.Model.ValueType.DateTime
+  id: DateTime
+  parent: OSLC4Net.Core.Model.ValueType
+  langs:
+  - csharp
+  - vb
+  name: DateTime
+  nameWithType: ValueType.DateTime
+  fullName: OSLC4Net.Core.Model.ValueType.DateTime
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: DateTime
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+    startLine: 26
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [URI("http://www.w3.org/2001/XMLSchema#dateTime")]
+
+      DateTime = 1
+    return:
+      type: OSLC4Net.Core.Model.ValueType
+    content.vb: >-
+      <URI("http://www.w3.org/2001/XMLSchema#dateTime")>
+
+      DateTime = 1
+  attributes:
+  - type: OSLC4Net.Core.Model.URI
+    ctor: OSLC4Net.Core.Model.URI.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://www.w3.org/2001/XMLSchema#dateTime
+- uid: OSLC4Net.Core.Model.ValueType.Decimal
+  commentId: F:OSLC4Net.Core.Model.ValueType.Decimal
+  id: Decimal
+  parent: OSLC4Net.Core.Model.ValueType
+  langs:
+  - csharp
+  - vb
+  name: Decimal
+  nameWithType: ValueType.Decimal
+  fullName: OSLC4Net.Core.Model.ValueType.Decimal
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Decimal
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+    startLine: 29
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [URI("http://www.w3.org/2001/XMLSchema#decimal")]
+
+      Decimal = 2
+    return:
+      type: OSLC4Net.Core.Model.ValueType
+    content.vb: >-
+      <URI("http://www.w3.org/2001/XMLSchema#decimal")>
+
+      Decimal = 2
+  attributes:
+  - type: OSLC4Net.Core.Model.URI
+    ctor: OSLC4Net.Core.Model.URI.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://www.w3.org/2001/XMLSchema#decimal
+- uid: OSLC4Net.Core.Model.ValueType.Double
+  commentId: F:OSLC4Net.Core.Model.ValueType.Double
+  id: Double
+  parent: OSLC4Net.Core.Model.ValueType
+  langs:
+  - csharp
+  - vb
+  name: Double
+  nameWithType: ValueType.Double
+  fullName: OSLC4Net.Core.Model.ValueType.Double
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Double
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+    startLine: 32
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [URI("http://www.w3.org/2001/XMLSchema#double")]
+
+      Double = 3
+    return:
+      type: OSLC4Net.Core.Model.ValueType
+    content.vb: >-
+      <URI("http://www.w3.org/2001/XMLSchema#double")>
+
+      Double = 3
+  attributes:
+  - type: OSLC4Net.Core.Model.URI
+    ctor: OSLC4Net.Core.Model.URI.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://www.w3.org/2001/XMLSchema#double
+- uid: OSLC4Net.Core.Model.ValueType.Float
+  commentId: F:OSLC4Net.Core.Model.ValueType.Float
+  id: Float
+  parent: OSLC4Net.Core.Model.ValueType
+  langs:
+  - csharp
+  - vb
+  name: Float
+  nameWithType: ValueType.Float
+  fullName: OSLC4Net.Core.Model.ValueType.Float
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Float
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+    startLine: 35
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [URI("http://www.w3.org/2001/XMLSchema#float")]
+
+      Float = 4
+    return:
+      type: OSLC4Net.Core.Model.ValueType
+    content.vb: >-
+      <URI("http://www.w3.org/2001/XMLSchema#float")>
+
+      Float = 4
+  attributes:
+  - type: OSLC4Net.Core.Model.URI
+    ctor: OSLC4Net.Core.Model.URI.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://www.w3.org/2001/XMLSchema#float
+- uid: OSLC4Net.Core.Model.ValueType.Integer
+  commentId: F:OSLC4Net.Core.Model.ValueType.Integer
+  id: Integer
+  parent: OSLC4Net.Core.Model.ValueType
+  langs:
+  - csharp
+  - vb
+  name: Integer
+  nameWithType: ValueType.Integer
+  fullName: OSLC4Net.Core.Model.ValueType.Integer
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Integer
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+    startLine: 38
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [URI("http://www.w3.org/2001/XMLSchema#integer")]
+
+      Integer = 5
+    return:
+      type: OSLC4Net.Core.Model.ValueType
+    content.vb: >-
+      <URI("http://www.w3.org/2001/XMLSchema#integer")>
+
+      Integer = 5
+  attributes:
+  - type: OSLC4Net.Core.Model.URI
+    ctor: OSLC4Net.Core.Model.URI.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://www.w3.org/2001/XMLSchema#integer
+- uid: OSLC4Net.Core.Model.ValueType.String
+  commentId: F:OSLC4Net.Core.Model.ValueType.String
+  id: String
+  parent: OSLC4Net.Core.Model.ValueType
+  langs:
+  - csharp
+  - vb
+  name: String
+  nameWithType: ValueType.String
+  fullName: OSLC4Net.Core.Model.ValueType.String
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: String
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+    startLine: 41
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [URI("http://www.w3.org/2001/XMLSchema#string")]
+
+      String = 6
+    return:
+      type: OSLC4Net.Core.Model.ValueType
+    content.vb: >-
+      <URI("http://www.w3.org/2001/XMLSchema#string")>
+
+      String = 6
+  attributes:
+  - type: OSLC4Net.Core.Model.URI
+    ctor: OSLC4Net.Core.Model.URI.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://www.w3.org/2001/XMLSchema#string
+- uid: OSLC4Net.Core.Model.ValueType.XMLLiteral
+  commentId: F:OSLC4Net.Core.Model.ValueType.XMLLiteral
+  id: XMLLiteral
+  parent: OSLC4Net.Core.Model.ValueType
+  langs:
+  - csharp
+  - vb
+  name: XMLLiteral
+  nameWithType: ValueType.XMLLiteral
+  fullName: OSLC4Net.Core.Model.ValueType.XMLLiteral
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: XMLLiteral
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+    startLine: 44
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [URI("http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral")]
+
+      XMLLiteral = 7
+    return:
+      type: OSLC4Net.Core.Model.ValueType
+    content.vb: >-
+      <URI("http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral")>
+
+      XMLLiteral = 7
+  attributes:
+  - type: OSLC4Net.Core.Model.URI
+    ctor: OSLC4Net.Core.Model.URI.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral
+- uid: OSLC4Net.Core.Model.ValueType.Resource
+  commentId: F:OSLC4Net.Core.Model.ValueType.Resource
+  id: Resource
+  parent: OSLC4Net.Core.Model.ValueType
+  langs:
+  - csharp
+  - vb
+  name: Resource
+  nameWithType: ValueType.Resource
+  fullName: OSLC4Net.Core.Model.ValueType.Resource
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Resource
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+    startLine: 47
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [URI("http://open-services.net/ns/core#Resource")]
+
+      Resource = 8
+    return:
+      type: OSLC4Net.Core.Model.ValueType
+    content.vb: >-
+      <URI("http://open-services.net/ns/core#Resource")>
+
+      Resource = 8
+  attributes:
+  - type: OSLC4Net.Core.Model.URI
+    ctor: OSLC4Net.Core.Model.URI.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#Resource
+- uid: OSLC4Net.Core.Model.ValueType.LocalResource
+  commentId: F:OSLC4Net.Core.Model.ValueType.LocalResource
+  id: LocalResource
+  parent: OSLC4Net.Core.Model.ValueType
+  langs:
+  - csharp
+  - vb
+  name: LocalResource
+  nameWithType: ValueType.LocalResource
+  fullName: OSLC4Net.Core.Model.ValueType.LocalResource
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: LocalResource
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+    startLine: 50
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [URI("http://open-services.net/ns/core#LocalResource")]
+
+      LocalResource = 9
+    return:
+      type: OSLC4Net.Core.Model.ValueType
+    content.vb: >-
+      <URI("http://open-services.net/ns/core#LocalResource")>
+
+      LocalResource = 9
+  attributes:
+  - type: OSLC4Net.Core.Model.URI
+    ctor: OSLC4Net.Core.Model.URI.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: http://open-services.net/ns/core#LocalResource
+- uid: OSLC4Net.Core.Model.ValueType.Unknown
+  commentId: F:OSLC4Net.Core.Model.ValueType.Unknown
+  id: Unknown
+  parent: OSLC4Net.Core.Model.ValueType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: ValueType.Unknown
+  fullName: OSLC4Net.Core.Model.ValueType.Unknown
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Unknown
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core/Model/ValueType.cs
+    startLine: 53
+  assemblies:
+  - OSLC4Net.Core
+  namespace: OSLC4Net.Core.Model
+  syntax:
+    content: >-
+      [URI("")]
+
+      Unknown = 10
+    return:
+      type: OSLC4Net.Core.Model.ValueType
+    content.vb: >-
+      <URI("")>
+
+      Unknown = 10
+  attributes:
+  - type: OSLC4Net.Core.Model.URI
+    ctor: OSLC4Net.Core.Model.URI.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ''
+references:
+- uid: OSLC4Net.Core.Model
+  commentId: N:OSLC4Net.Core.Model
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Model
+  nameWithType: OSLC4Net.Core.Model
+  fullName: OSLC4Net.Core.Model
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Model
+    name: Model
+    href: OSLC4Net.Core.Model.html
+- uid: OSLC4Net.Core.Model.ValueType
+  commentId: T:OSLC4Net.Core.Model.ValueType
+  parent: OSLC4Net.Core.Model
+  href: OSLC4Net.Core.Model.ValueType.html
+  name: ValueType
+  nameWithType: ValueType
+  fullName: OSLC4Net.Core.Model.ValueType

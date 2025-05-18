@@ -1,0 +1,174 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.Query.TermType
+  commentId: T:OSLC4Net.Core.Query.TermType
+  id: TermType
+  parent: OSLC4Net.Core.Query
+  children:
+  - OSLC4Net.Core.Query.TermType.COMPARISON
+  - OSLC4Net.Core.Query.TermType.IN_TERM
+  - OSLC4Net.Core.Query.TermType.NESTED
+  - OSLC4Net.Core.Query.TermType.TOP_LEVEL
+  langs:
+  - csharp
+  - vb
+  name: TermType
+  nameWithType: TermType
+  fullName: OSLC4Net.Core.Query.TermType
+  type: Enum
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/SimpleTerm.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: TermType
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/SimpleTerm.cs
+    startLine: 17
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: public enum TermType
+    content.vb: Public Enum TermType
+- uid: OSLC4Net.Core.Query.TermType.COMPARISON
+  commentId: F:OSLC4Net.Core.Query.TermType.COMPARISON
+  id: COMPARISON
+  parent: OSLC4Net.Core.Query.TermType
+  langs:
+  - csharp
+  - vb
+  name: COMPARISON
+  nameWithType: TermType.COMPARISON
+  fullName: OSLC4Net.Core.Query.TermType.COMPARISON
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/SimpleTerm.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: COMPARISON
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/SimpleTerm.cs
+    startLine: 19
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: COMPARISON = 0
+    return:
+      type: OSLC4Net.Core.Query.TermType
+- uid: OSLC4Net.Core.Query.TermType.IN_TERM
+  commentId: F:OSLC4Net.Core.Query.TermType.IN_TERM
+  id: IN_TERM
+  parent: OSLC4Net.Core.Query.TermType
+  langs:
+  - csharp
+  - vb
+  name: IN_TERM
+  nameWithType: TermType.IN_TERM
+  fullName: OSLC4Net.Core.Query.TermType.IN_TERM
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/SimpleTerm.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: IN_TERM
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/SimpleTerm.cs
+    startLine: 20
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: IN_TERM = 1
+    return:
+      type: OSLC4Net.Core.Query.TermType
+- uid: OSLC4Net.Core.Query.TermType.NESTED
+  commentId: F:OSLC4Net.Core.Query.TermType.NESTED
+  id: NESTED
+  parent: OSLC4Net.Core.Query.TermType
+  langs:
+  - csharp
+  - vb
+  name: NESTED
+  nameWithType: TermType.NESTED
+  fullName: OSLC4Net.Core.Query.TermType.NESTED
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/SimpleTerm.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: NESTED
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/SimpleTerm.cs
+    startLine: 21
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: NESTED = 2
+    return:
+      type: OSLC4Net.Core.Query.TermType
+- uid: OSLC4Net.Core.Query.TermType.TOP_LEVEL
+  commentId: F:OSLC4Net.Core.Query.TermType.TOP_LEVEL
+  id: TOP_LEVEL
+  parent: OSLC4Net.Core.Query.TermType
+  langs:
+  - csharp
+  - vb
+  name: TOP_LEVEL
+  nameWithType: TermType.TOP_LEVEL
+  fullName: OSLC4Net.Core.Query.TermType.TOP_LEVEL
+  type: Field
+  source:
+    remote:
+      path: OSLC4Net_SDK/OSLC4Net.Core.Query/SimpleTerm.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: TOP_LEVEL
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/OSLC4Net.Core.Query/SimpleTerm.cs
+    startLine: 22
+  assemblies:
+  - OSLC4Net.Core.Query
+  namespace: OSLC4Net.Core.Query
+  syntax:
+    content: TOP_LEVEL = 3
+    return:
+      type: OSLC4Net.Core.Query.TermType
+references:
+- uid: OSLC4Net.Core.Query
+  commentId: N:OSLC4Net.Core.Query
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.Query
+  nameWithType: OSLC4Net.Core.Query
+  fullName: OSLC4Net.Core.Query
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.Query
+    name: Query
+    href: OSLC4Net.Core.Query.html
+- uid: OSLC4Net.Core.Query.TermType
+  commentId: T:OSLC4Net.Core.Query.TermType
+  parent: OSLC4Net.Core.Query
+  href: OSLC4Net.Core.Query.TermType.html
+  name: TermType
+  nameWithType: TermType
+  fullName: OSLC4Net.Core.Query.TermType

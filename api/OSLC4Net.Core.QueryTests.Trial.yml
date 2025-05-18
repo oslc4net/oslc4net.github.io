@@ -1,0 +1,444 @@
+### YamlMime:ManagedReference
+items:
+- uid: OSLC4Net.Core.QueryTests.Trial
+  commentId: T:OSLC4Net.Core.QueryTests.Trial
+  id: Trial
+  parent: OSLC4Net.Core.QueryTests
+  children:
+  - OSLC4Net.Core.QueryTests.Trial.#ctor(System.String,System.Boolean)
+  - OSLC4Net.Core.QueryTests.Trial.Expression
+  - OSLC4Net.Core.QueryTests.Trial.ShouldSucceed
+  langs:
+  - csharp
+  - vb
+  name: Trial
+  nameWithType: Trial
+  fullName: OSLC4Net.Core.QueryTests.Trial
+  type: Class
+  source:
+    remote:
+      path: OSLC4Net_SDK/Tests/OSLC4Net.Core.QueryTests/QueryBasicTest.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Trial
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/Tests/OSLC4Net.Core.QueryTests/QueryBasicTest.cs
+    startLine: 270
+  assemblies:
+  - OSLC4Net.Core.QueryTests
+  namespace: OSLC4Net.Core.QueryTests
+  syntax:
+    content: public class Trial
+    content.vb: Public Class Trial
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: OSLC4Net.Core.QueryTests.Trial.#ctor(System.String,System.Boolean)
+  commentId: M:OSLC4Net.Core.QueryTests.Trial.#ctor(System.String,System.Boolean)
+  id: '#ctor(System.String,System.Boolean)'
+  parent: OSLC4Net.Core.QueryTests.Trial
+  langs:
+  - csharp
+  - vb
+  name: Trial(string, bool)
+  nameWithType: Trial.Trial(string, bool)
+  fullName: OSLC4Net.Core.QueryTests.Trial.Trial(string, bool)
+  type: Constructor
+  source:
+    remote:
+      path: OSLC4Net_SDK/Tests/OSLC4Net.Core.QueryTests/QueryBasicTest.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: .ctor
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/Tests/OSLC4Net.Core.QueryTests/QueryBasicTest.cs
+    startLine: 272
+  assemblies:
+  - OSLC4Net.Core.QueryTests
+  namespace: OSLC4Net.Core.QueryTests
+  syntax:
+    content: public Trial(string expression, bool shouldSucceed)
+    parameters:
+    - id: expression
+      type: System.String
+    - id: shouldSucceed
+      type: System.Boolean
+    content.vb: Public Sub New(expression As String, shouldSucceed As Boolean)
+  overload: OSLC4Net.Core.QueryTests.Trial.#ctor*
+  nameWithType.vb: Trial.New(String, Boolean)
+  fullName.vb: OSLC4Net.Core.QueryTests.Trial.New(String, Boolean)
+  name.vb: New(String, Boolean)
+- uid: OSLC4Net.Core.QueryTests.Trial.Expression
+  commentId: P:OSLC4Net.Core.QueryTests.Trial.Expression
+  id: Expression
+  parent: OSLC4Net.Core.QueryTests.Trial
+  langs:
+  - csharp
+  - vb
+  name: Expression
+  nameWithType: Trial.Expression
+  fullName: OSLC4Net.Core.QueryTests.Trial.Expression
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/Tests/OSLC4Net.Core.QueryTests/QueryBasicTest.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: Expression
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/Tests/OSLC4Net.Core.QueryTests/QueryBasicTest.cs
+    startLine: 281
+  assemblies:
+  - OSLC4Net.Core.QueryTests
+  namespace: OSLC4Net.Core.QueryTests
+  syntax:
+    content: public string Expression { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Expression As String
+  overload: OSLC4Net.Core.QueryTests.Trial.Expression*
+- uid: OSLC4Net.Core.QueryTests.Trial.ShouldSucceed
+  commentId: P:OSLC4Net.Core.QueryTests.Trial.ShouldSucceed
+  id: ShouldSucceed
+  parent: OSLC4Net.Core.QueryTests.Trial
+  langs:
+  - csharp
+  - vb
+  name: ShouldSucceed
+  nameWithType: Trial.ShouldSucceed
+  fullName: OSLC4Net.Core.QueryTests.Trial.ShouldSucceed
+  type: Property
+  source:
+    remote:
+      path: OSLC4Net_SDK/Tests/OSLC4Net.Core.QueryTests/QueryBasicTest.cs
+      branch: dependabot/github_actions/step-security/harden-runner-2.12.0
+      repo: git@github.com:OSLC/oslc4net.git
+    id: ShouldSucceed
+    path: ../../p/oslc/oslc4net/OSLC4Net_SDK/Tests/OSLC4Net.Core.QueryTests/QueryBasicTest.cs
+    startLine: 285
+  assemblies:
+  - OSLC4Net.Core.QueryTests
+  namespace: OSLC4Net.Core.QueryTests
+  syntax:
+    content: public bool ShouldSucceed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property ShouldSucceed As Boolean
+  overload: OSLC4Net.Core.QueryTests.Trial.ShouldSucceed*
+references:
+- uid: OSLC4Net.Core.QueryTests
+  commentId: N:OSLC4Net.Core.QueryTests
+  href: OSLC4Net.html
+  name: OSLC4Net.Core.QueryTests
+  nameWithType: OSLC4Net.Core.QueryTests
+  fullName: OSLC4Net.Core.QueryTests
+  spec.csharp:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.QueryTests
+    name: QueryTests
+    href: OSLC4Net.Core.QueryTests.html
+  spec.vb:
+  - uid: OSLC4Net
+    name: OSLC4Net
+    href: OSLC4Net.html
+  - name: .
+  - uid: OSLC4Net.Core
+    name: Core
+    href: OSLC4Net.Core.html
+  - name: .
+  - uid: OSLC4Net.Core.QueryTests
+    name: QueryTests
+    href: OSLC4Net.Core.QueryTests.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OSLC4Net.Core.QueryTests.Trial.#ctor*
+  commentId: Overload:OSLC4Net.Core.QueryTests.Trial.#ctor
+  href: OSLC4Net.Core.QueryTests.Trial.html#OSLC4Net_Core_QueryTests_Trial__ctor_System_String_System_Boolean_
+  name: Trial
+  nameWithType: Trial.Trial
+  fullName: OSLC4Net.Core.QueryTests.Trial.Trial
+  nameWithType.vb: Trial.New
+  fullName.vb: OSLC4Net.Core.QueryTests.Trial.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: OSLC4Net.Core.QueryTests.Trial.Expression*
+  commentId: Overload:OSLC4Net.Core.QueryTests.Trial.Expression
+  href: OSLC4Net.Core.QueryTests.Trial.html#OSLC4Net_Core_QueryTests_Trial_Expression
+  name: Expression
+  nameWithType: Trial.Expression
+  fullName: OSLC4Net.Core.QueryTests.Trial.Expression
+- uid: OSLC4Net.Core.QueryTests.Trial.ShouldSucceed*
+  commentId: Overload:OSLC4Net.Core.QueryTests.Trial.ShouldSucceed
+  href: OSLC4Net.Core.QueryTests.Trial.html#OSLC4Net_Core_QueryTests_Trial_ShouldSucceed
+  name: ShouldSucceed
+  nameWithType: Trial.ShouldSucceed
+  fullName: OSLC4Net.Core.QueryTests.Trial.ShouldSucceed
