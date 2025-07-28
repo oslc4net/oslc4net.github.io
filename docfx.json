@@ -42,6 +42,7 @@
       "_appTitle": "OSLC4Net",
       "_appLogoPath": "images/logo_docfx.png",
       "_appFaviconPath": "images/favicon.ico",
+      "_appFooter": "<script defer src=\"https://umami.open-services.net/script.js\" data-website-id=\"058571d1-b69b-4b21-a24a-2cc26e4eb3e1\"></script>",
       "_enableSearch": true,
       "pdf": false
     }
