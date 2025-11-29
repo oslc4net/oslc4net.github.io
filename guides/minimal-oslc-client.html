@@ -96,27 +96,34 @@
 </ul>
 <pre><code class="lang-csharp">OslcClient oslcClient = OslcClient.ForBasicAuth(username, password, logger);
 </code></pre>
-<h2 id="root-services-discovery">Root Services Discovery</h2>
-<p>OSLC discovery begins at <code>/.well-known/oslc/rootservices.xml</code>.</p>
-<p>Steps:</p>
+<h3 id="root-services-discovery">Root Services Discovery</h3>
+<p>OSLC servers may expose the Root Services document in two locations:</p>
 <ul>
-<li>GET the document.</li>
-<li>Parse for domain-specific service provider links (e.g. <code>oslc_cm:cmServiceProviders</code>, <code>oslc_rm:rmServiceProviders</code>).</li>
+<li>Well-known path: <code>{host}/.well-known/oslc/rootservices.xml</code> (OSLC standard)</li>
+<li>Application path: <code>{baseUrl}/rootservices</code> (e.g., <code>https://server:9443/ccm/rootservices</code> or <code>https://server:9443/services/rootservices</code>)</li>
 </ul>
-<p>Pseudo-code:</p>
-<pre><code class="lang-csharp">string rootServicesUri = $&quot;{baseUrl}/.well-known/oslc/rootservices.xml&quot;;
-// For root services there is no dedicated typed resource class yet.
-// Using HttpClient here is acceptable; avoid it for catalog &amp; providers.
-HttpClient httpClient = new HttpClient();
-string rootServicesXml = await httpClient.GetStringAsync(rootServicesUri);
-// Extract the catalog URL by parsing RDF/XML for the desired property.
-string catalogUrl = ExtractCatalogUrl(rootServicesXml, &quot;http://open-services.net/xmlns/cm/1.0/&quot;, &quot;cmServiceProviders&quot;);
+<p>The client helper tries both paths in order, preferring the well-known location when available and gracefully falling back to appending <code>/rootservices</code> to your base URL. If your base URL already ends with <code>/rootservices</code> or <code>/rootservices.xml</code>, it uses that directly. Provide your base application URL (for example, <code>https://server:9443/ccm</code> or <code>https://server:9443/services</code>) and the OSLC catalog property you want to extract (typically <code>rmServiceProviders</code>, <code>cmServiceProviders</code>, or the generic <code>serviceProviderCatalog</code>).</p>
+<p>Example:</p>
+<pre><code class="lang-csharp">var helper = new RootServicesHelper(
+    baseUrl: &quot;https://server:9443/ccm&quot;,
+    catalogNamespace: &quot;http://open-services.net/xmlns/cm/1.0/&quot;,
+    catalogProperty: &quot;cmServiceProviders&quot;);
+
+using var http = new HttpClient();
+var rootServices = await helper.DiscoverAsync(http);
+
+// Access the service provider catalog
+Console.WriteLine($&quot;Catalog: {rootServices.ServiceProviderCatalog}&quot;);
+
+// Access OAuth configuration if present
+if (rootServices.OAuth != null)
+{
+    Console.WriteLine($&quot;OAuth Request Token: {rootServices.OAuth.RequestTokenUrl}&quot;);
+    Console.WriteLine($&quot;OAuth Authorization: {rootServices.OAuth.AuthorizationUrl}&quot;);
+    Console.WriteLine($&quot;OAuth Access Token: {rootServices.OAuth.AccessTokenUrl}&quot;);
+}
 </code></pre>
-<p>Keep the parsing simple initially; then move to a proper RDF parser if needed.</p>
-<div class="NOTE">
-<h5>Note</h5>
-<p>JazzRootServicesHelper has not yet been migrated to .NET 10.</p>
-</div>
+<p>This resolves to a <code>RootServicesDocument</code> containing the service provider catalog URL and optional OAuth configuration. The helper also automatically falls back to the generic <code>oslc:serviceProviderCatalog</code> property if the domain-specific property is not found.</p>
 <h2 id="service-provider-catalog">Service Provider Catalog</h2>
 <p>the <code>OslcClient</code> provides lookup helpers that fetch and scan the catalog in one step:</p>
 <pre><code class="lang-csharp">// Given a catalog URL and known Service Provider title

@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class RmUtil | OSLC4Net </title>
+      <title>Class RootServicesHelper | OSLC4Net </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class RmUtil | OSLC4Net ">
+      <meta name="title" content="Class RootServicesHelper | OSLC4Net ">
       
-      
+      <meta name="description" content="Helper for OSLC rootservices discovery (Jazz/OSLC servers). Checks both $base/rootservices and host($base)/.well-known/oslc/rootservices.xml.">
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_Client_Oslc_Resources_RmUtil.md&amp;value=---%0Auid%3A%20OSLC4Net.Client.Oslc.Resources.RmUtil%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_Client_Oslc_Helpers_RootServicesHelper.md&amp;value=---%0Auid%3A%20OSLC4Net.Client.Oslc.Helpers.RootServicesHelper%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,24 +84,26 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="OSLC4Net.Client.Oslc.Resources.RmUtil">
+        <article data-uid="OSLC4Net.Client.Oslc.Helpers.RootServicesHelper">
 
 
 
-  <h1 id="OSLC4Net_Client_Oslc_Resources_RmUtil" data-uid="OSLC4Net.Client.Oslc.Resources.RmUtil" class="text-break">
-Class RmUtil  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/RmUtil.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <h1 id="OSLC4Net_Client_Oslc_Helpers_RootServicesHelper" data-uid="OSLC4Net.Client.Oslc.Helpers.RootServicesHelper" class="text-break">
+Class RootServicesHelper  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Helpers/RootServicesHelper.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="OSLC4Net.html">OSLC4Net</a>.<a class="xref" href="OSLC4Net.Client.html">Client</a>.<a class="xref" href="OSLC4Net.Client.Oslc.html">Oslc</a>.<a class="xref" href="OSLC4Net.Client.Oslc.Resources.html">Resources</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="OSLC4Net.html">OSLC4Net</a>.<a class="xref" href="OSLC4Net.Client.html">Client</a>.<a class="xref" href="OSLC4Net.Client.Oslc.html">Oslc</a>.<a class="xref" href="OSLC4Net.Client.Oslc.Helpers.html">Helpers</a></dd></dl>
   <dl><dt>Assembly</dt><dd>OSLC4Net.Client.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Helper for OSLC rootservices discovery (Jazz/OSLC servers).
+Checks both $base/rootservices and host($base)/.well-known/oslc/rootservices.xml.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class RmUtil</code></pre>
+    <pre><code class="lang-csharp hljs">public class RootServicesHelper</code></pre>
   </div>
 
 
@@ -111,7 +113,7 @@ Class RmUtil  <a class="header-action link-secondary" title="View source" href="
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">RmUtil</span></div>
+      <div><span class="xref">RootServicesHelper</span></div>
     </dd>
   </dl>
 
@@ -148,77 +150,109 @@ Class RmUtil  <a class="header-action link-secondary" title="View source" href="
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Client_Oslc_Helpers_RootServicesHelper__ctor_" data-uid="OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Helpers_RootServicesHelper__ctor_System_String_System_String_System_String_" data-uid="OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.#ctor(System.String,System.String,System.String)">
+  RootServicesHelper(string, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Helpers/RootServicesHelper.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.html">RootServicesHelper</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RootServicesHelper(string baseUrl, string catalogNamespace = &quot;http://open-services.net/xmlns/oslc/&quot;, string catalogProperty = &quot;serviceProviderCatalog&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>baseUrl</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The base URL of the OSLC server.</p>
+</dd>
+    <dt><code>catalogNamespace</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The namespace of the OSLC domain.</p>
+</dd>
+    <dt><code>catalogProperty</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The property name for the catalog in the rootservices doc.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="OSLC4Net_Client_Oslc_Resources_RmUtil_ConvertStringToHTML_" data-uid="OSLC4Net.Client.Oslc.Resources.RmUtil.ConvertStringToHTML*"></a>
+  <a id="OSLC4Net_Client_Oslc_Helpers_RootServicesHelper_DiscoverAsync_" data-uid="OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.DiscoverAsync*"></a>
 
-  <h3 id="OSLC4Net_Client_Oslc_Resources_RmUtil_ConvertStringToHTML_System_String_" data-uid="OSLC4Net.Client.Oslc.Resources.RmUtil.ConvertStringToHTML(System.String)">
-  ConvertStringToHTML(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/RmUtil.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  <h3 id="OSLC4Net_Client_Oslc_Helpers_RootServicesHelper_DiscoverAsync" data-uid="OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.DiscoverAsync">
+  DiscoverAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Helpers/RootServicesHelper.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Attempts to discover the rootservices document and parse it into a strongly-typed object.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static XElement ConvertStringToHTML(string text)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;RootServicesDocument&gt; DiscoverAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="OSLC4Net.Client.Oslc.RootServicesDocument.html">RootServicesDocument</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Helpers_RootServicesHelper_DiscoverAsync_" data-uid="OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.DiscoverAsync*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Helpers_RootServicesHelper_DiscoverAsync_System_Net_Http_HttpClient_" data-uid="OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.DiscoverAsync(System.Net.Http.HttpClient)">
+  DiscoverAsync(HttpClient)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Helpers/RootServicesHelper.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Attempts to discover the rootservices document using the provided HttpClient and parse it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RootServicesDocument&gt; DiscoverAsync(HttpClient httpClient)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>httpClient</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.linq.xelement">XElement</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="OSLC4Net_Client_Oslc_Resources_RmUtil_LookupRequirementsInstanceShapesAsync_" data-uid="OSLC4Net.Client.Oslc.Resources.RmUtil.LookupRequirementsInstanceShapesAsync*"></a>
-
-  <h3 id="OSLC4Net_Client_Oslc_Resources_RmUtil_LookupRequirementsInstanceShapesAsync_System_String_System_String_System_String_OSLC4Net_Client_Oslc_OslcClient_System_String_" data-uid="OSLC4Net.Client.Oslc.Resources.RmUtil.LookupRequirementsInstanceShapesAsync(System.String,System.String,System.String,OSLC4Net.Client.Oslc.OslcClient,System.String)">
-  LookupRequirementsInstanceShapesAsync(string, string, string, OslcClient, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/RmUtil.cs/#L24"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task&lt;ResourceShape?&gt; LookupRequirementsInstanceShapesAsync(string serviceProviderUrl, string oslcDomain, string oslcResourceType, OslcClient client, string requiredInstanceShape)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>serviceProviderUrl</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-    <dt><code>oslcDomain</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-    <dt><code>oslcResourceType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-    <dt><code>client</code> <a class="xref" href="OSLC4Net.Client.Oslc.OslcClient.html">OslcClient</a></dt>
-    <dd></dd>
-    <dt><code>requiredInstanceShape</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="OSLC4Net.Core.Model.ResourceShape.html">ResourceShape</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="OSLC4Net.Client.Oslc.RootServicesDocument.html">RootServicesDocument</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -236,7 +270,7 @@ Class RmUtil  <a class="header-action link-secondary" title="View source" href="
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/RmUtil.cs/#L22" class="edit-link">Edit this page</a>
+          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Helpers/RootServicesHelper.cs/#L17" class="edit-link">Edit this page</a>
         </div>
 
 

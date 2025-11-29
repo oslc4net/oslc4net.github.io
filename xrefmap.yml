@@ -2011,6 +2011,56 @@ references:
   isSpec: "True"
   fullName: OSLC4Net.Client.Oslc.ConsumeContentExtension.ConsumeContent
   nameWithType: ConsumeContentExtension.ConsumeContent
+- uid: OSLC4Net.Client.Oslc.Helpers
+  name: OSLC4Net.Client.Oslc.Helpers
+  href: api/OSLC4Net.Client.Oslc.Helpers.html
+  commentId: N:OSLC4Net.Client.Oslc.Helpers
+  fullName: OSLC4Net.Client.Oslc.Helpers
+  nameWithType: OSLC4Net.Client.Oslc.Helpers
+- uid: OSLC4Net.Client.Oslc.Helpers.RootServicesHelper
+  name: RootServicesHelper
+  href: api/OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.html
+  commentId: T:OSLC4Net.Client.Oslc.Helpers.RootServicesHelper
+  fullName: OSLC4Net.Client.Oslc.Helpers.RootServicesHelper
+  nameWithType: RootServicesHelper
+- uid: OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.#ctor(System.String,System.String,System.String)
+  name: RootServicesHelper(string, string, string)
+  href: api/OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.html#OSLC4Net_Client_Oslc_Helpers_RootServicesHelper__ctor_System_String_System_String_System_String_
+  commentId: M:OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.RootServicesHelper(string, string, string)
+  fullName.vb: OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.New(String, String, String)
+  nameWithType: RootServicesHelper.RootServicesHelper(string, string, string)
+  nameWithType.vb: RootServicesHelper.New(String, String, String)
+- uid: OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.#ctor*
+  name: RootServicesHelper
+  href: api/OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.html#OSLC4Net_Client_Oslc_Helpers_RootServicesHelper__ctor_
+  commentId: Overload:OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.RootServicesHelper
+  fullName.vb: OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.New
+  nameWithType: RootServicesHelper.RootServicesHelper
+  nameWithType.vb: RootServicesHelper.New
+- uid: OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.DiscoverAsync
+  name: DiscoverAsync()
+  href: api/OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.html#OSLC4Net_Client_Oslc_Helpers_RootServicesHelper_DiscoverAsync
+  commentId: M:OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.DiscoverAsync
+  fullName: OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.DiscoverAsync()
+  nameWithType: RootServicesHelper.DiscoverAsync()
+- uid: OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.DiscoverAsync(System.Net.Http.HttpClient)
+  name: DiscoverAsync(HttpClient)
+  href: api/OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.html#OSLC4Net_Client_Oslc_Helpers_RootServicesHelper_DiscoverAsync_System_Net_Http_HttpClient_
+  commentId: M:OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.DiscoverAsync(System.Net.Http.HttpClient)
+  fullName: OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.DiscoverAsync(System.Net.Http.HttpClient)
+  nameWithType: RootServicesHelper.DiscoverAsync(HttpClient)
+- uid: OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.DiscoverAsync*
+  name: DiscoverAsync
+  href: api/OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.html#OSLC4Net_Client_Oslc_Helpers_RootServicesHelper_DiscoverAsync_
+  commentId: Overload:OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.DiscoverAsync
+  isSpec: "True"
+  fullName: OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.DiscoverAsync
+  nameWithType: RootServicesHelper.DiscoverAsync
 - uid: OSLC4Net.Client.Oslc.OSLCConstants
   name: OSLCConstants
   href: api/OSLC4Net.Client.Oslc.OSLCConstants.html
@@ -10981,6 +11031,173 @@ references:
   isSpec: "True"
   fullName: OSLC4Net.Client.Oslc.Resources.TestScript.setValidatesRequirements
   nameWithType: TestScript.setValidatesRequirements
+- uid: OSLC4Net.Client.Oslc.RootServicesDocument
+  name: RootServicesDocument
+  href: api/OSLC4Net.Client.Oslc.RootServicesDocument.html
+  commentId: T:OSLC4Net.Client.Oslc.RootServicesDocument
+  fullName: OSLC4Net.Client.Oslc.RootServicesDocument
+  nameWithType: RootServicesDocument
+- uid: OSLC4Net.Client.Oslc.RootServicesDocument.#ctor(System.String,OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument,System.String)
+  name: RootServicesDocument(string, RootServicesOAuth10aDocument?, string?)
+  href: api/OSLC4Net.Client.Oslc.RootServicesDocument.html#OSLC4Net_Client_Oslc_RootServicesDocument__ctor_System_String_OSLC4Net_Client_Oslc_RootServicesOAuth10aDocument_System_String_
+  commentId: M:OSLC4Net.Client.Oslc.RootServicesDocument.#ctor(System.String,OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument,System.String)
+  name.vb: New(String, RootServicesOAuth10aDocument, String)
+  fullName: OSLC4Net.Client.Oslc.RootServicesDocument.RootServicesDocument(string, OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument?, string?)
+  fullName.vb: OSLC4Net.Client.Oslc.RootServicesDocument.New(String, OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument, String)
+  nameWithType: RootServicesDocument.RootServicesDocument(string, RootServicesOAuth10aDocument?, string?)
+  nameWithType.vb: RootServicesDocument.New(String, RootServicesOAuth10aDocument, String)
+- uid: OSLC4Net.Client.Oslc.RootServicesDocument.#ctor*
+  name: RootServicesDocument
+  href: api/OSLC4Net.Client.Oslc.RootServicesDocument.html#OSLC4Net_Client_Oslc_RootServicesDocument__ctor_
+  commentId: Overload:OSLC4Net.Client.Oslc.RootServicesDocument.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: OSLC4Net.Client.Oslc.RootServicesDocument.RootServicesDocument
+  fullName.vb: OSLC4Net.Client.Oslc.RootServicesDocument.New
+  nameWithType: RootServicesDocument.RootServicesDocument
+  nameWithType.vb: RootServicesDocument.New
+- uid: OSLC4Net.Client.Oslc.RootServicesDocument.OAuth
+  name: OAuth
+  href: api/OSLC4Net.Client.Oslc.RootServicesDocument.html#OSLC4Net_Client_Oslc_RootServicesDocument_OAuth
+  commentId: P:OSLC4Net.Client.Oslc.RootServicesDocument.OAuth
+  fullName: OSLC4Net.Client.Oslc.RootServicesDocument.OAuth
+  nameWithType: RootServicesDocument.OAuth
+- uid: OSLC4Net.Client.Oslc.RootServicesDocument.OAuth*
+  name: OAuth
+  href: api/OSLC4Net.Client.Oslc.RootServicesDocument.html#OSLC4Net_Client_Oslc_RootServicesDocument_OAuth_
+  commentId: Overload:OSLC4Net.Client.Oslc.RootServicesDocument.OAuth
+  isSpec: "True"
+  fullName: OSLC4Net.Client.Oslc.RootServicesDocument.OAuth
+  nameWithType: RootServicesDocument.OAuth
+- uid: OSLC4Net.Client.Oslc.RootServicesDocument.ServiceProviderCatalog
+  name: ServiceProviderCatalog
+  href: api/OSLC4Net.Client.Oslc.RootServicesDocument.html#OSLC4Net_Client_Oslc_RootServicesDocument_ServiceProviderCatalog
+  commentId: P:OSLC4Net.Client.Oslc.RootServicesDocument.ServiceProviderCatalog
+  fullName: OSLC4Net.Client.Oslc.RootServicesDocument.ServiceProviderCatalog
+  nameWithType: RootServicesDocument.ServiceProviderCatalog
+- uid: OSLC4Net.Client.Oslc.RootServicesDocument.ServiceProviderCatalog*
+  name: ServiceProviderCatalog
+  href: api/OSLC4Net.Client.Oslc.RootServicesDocument.html#OSLC4Net_Client_Oslc_RootServicesDocument_ServiceProviderCatalog_
+  commentId: Overload:OSLC4Net.Client.Oslc.RootServicesDocument.ServiceProviderCatalog
+  isSpec: "True"
+  fullName: OSLC4Net.Client.Oslc.RootServicesDocument.ServiceProviderCatalog
+  nameWithType: RootServicesDocument.ServiceProviderCatalog
+- uid: OSLC4Net.Client.Oslc.RootServicesDocument.Title
+  name: Title
+  href: api/OSLC4Net.Client.Oslc.RootServicesDocument.html#OSLC4Net_Client_Oslc_RootServicesDocument_Title
+  commentId: P:OSLC4Net.Client.Oslc.RootServicesDocument.Title
+  fullName: OSLC4Net.Client.Oslc.RootServicesDocument.Title
+  nameWithType: RootServicesDocument.Title
+- uid: OSLC4Net.Client.Oslc.RootServicesDocument.Title*
+  name: Title
+  href: api/OSLC4Net.Client.Oslc.RootServicesDocument.html#OSLC4Net_Client_Oslc_RootServicesDocument_Title_
+  commentId: Overload:OSLC4Net.Client.Oslc.RootServicesDocument.Title
+  isSpec: "True"
+  fullName: OSLC4Net.Client.Oslc.RootServicesDocument.Title
+  nameWithType: RootServicesDocument.Title
+- uid: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument
+  name: RootServicesOAuth10aDocument
+  href: api/OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.html
+  commentId: T:OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument
+  fullName: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument
+  nameWithType: RootServicesOAuth10aDocument
+- uid: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.#ctor(System.String,System.String,System.String,System.String,System.String,System.String)
+  name: RootServicesOAuth10aDocument(string?, string?, string?, string?, string?, string?)
+  href: api/OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.html#OSLC4Net_Client_Oslc_RootServicesOAuth10aDocument__ctor_System_String_System_String_System_String_System_String_System_String_System_String_
+  commentId: M:OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.#ctor(System.String,System.String,System.String,System.String,System.String,System.String)
+  name.vb: New(String, String, String, String, String, String)
+  fullName: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.RootServicesOAuth10aDocument(string?, string?, string?, string?, string?, string?)
+  fullName.vb: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.New(String, String, String, String, String, String)
+  nameWithType: RootServicesOAuth10aDocument.RootServicesOAuth10aDocument(string?, string?, string?, string?, string?, string?)
+  nameWithType.vb: RootServicesOAuth10aDocument.New(String, String, String, String, String, String)
+- uid: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.#ctor*
+  name: RootServicesOAuth10aDocument
+  href: api/OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.html#OSLC4Net_Client_Oslc_RootServicesOAuth10aDocument__ctor_
+  commentId: Overload:OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.RootServicesOAuth10aDocument
+  fullName.vb: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.New
+  nameWithType: RootServicesOAuth10aDocument.RootServicesOAuth10aDocument
+  nameWithType.vb: RootServicesOAuth10aDocument.New
+- uid: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.AccessTokenUrl
+  name: AccessTokenUrl
+  href: api/OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.html#OSLC4Net_Client_Oslc_RootServicesOAuth10aDocument_AccessTokenUrl
+  commentId: P:OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.AccessTokenUrl
+  fullName: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.AccessTokenUrl
+  nameWithType: RootServicesOAuth10aDocument.AccessTokenUrl
+- uid: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.AccessTokenUrl*
+  name: AccessTokenUrl
+  href: api/OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.html#OSLC4Net_Client_Oslc_RootServicesOAuth10aDocument_AccessTokenUrl_
+  commentId: Overload:OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.AccessTokenUrl
+  isSpec: "True"
+  fullName: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.AccessTokenUrl
+  nameWithType: RootServicesOAuth10aDocument.AccessTokenUrl
+- uid: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.ApprovalUrl
+  name: ApprovalUrl
+  href: api/OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.html#OSLC4Net_Client_Oslc_RootServicesOAuth10aDocument_ApprovalUrl
+  commentId: P:OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.ApprovalUrl
+  fullName: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.ApprovalUrl
+  nameWithType: RootServicesOAuth10aDocument.ApprovalUrl
+- uid: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.ApprovalUrl*
+  name: ApprovalUrl
+  href: api/OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.html#OSLC4Net_Client_Oslc_RootServicesOAuth10aDocument_ApprovalUrl_
+  commentId: Overload:OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.ApprovalUrl
+  isSpec: "True"
+  fullName: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.ApprovalUrl
+  nameWithType: RootServicesOAuth10aDocument.ApprovalUrl
+- uid: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.AuthorizationUrl
+  name: AuthorizationUrl
+  href: api/OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.html#OSLC4Net_Client_Oslc_RootServicesOAuth10aDocument_AuthorizationUrl
+  commentId: P:OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.AuthorizationUrl
+  fullName: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.AuthorizationUrl
+  nameWithType: RootServicesOAuth10aDocument.AuthorizationUrl
+- uid: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.AuthorizationUrl*
+  name: AuthorizationUrl
+  href: api/OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.html#OSLC4Net_Client_Oslc_RootServicesOAuth10aDocument_AuthorizationUrl_
+  commentId: Overload:OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.AuthorizationUrl
+  isSpec: "True"
+  fullName: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.AuthorizationUrl
+  nameWithType: RootServicesOAuth10aDocument.AuthorizationUrl
+- uid: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.Realm
+  name: Realm
+  href: api/OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.html#OSLC4Net_Client_Oslc_RootServicesOAuth10aDocument_Realm
+  commentId: P:OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.Realm
+  fullName: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.Realm
+  nameWithType: RootServicesOAuth10aDocument.Realm
+- uid: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.Realm*
+  name: Realm
+  href: api/OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.html#OSLC4Net_Client_Oslc_RootServicesOAuth10aDocument_Realm_
+  commentId: Overload:OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.Realm
+  isSpec: "True"
+  fullName: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.Realm
+  nameWithType: RootServicesOAuth10aDocument.Realm
+- uid: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.RequestConsumerKeyUrl
+  name: RequestConsumerKeyUrl
+  href: api/OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.html#OSLC4Net_Client_Oslc_RootServicesOAuth10aDocument_RequestConsumerKeyUrl
+  commentId: P:OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.RequestConsumerKeyUrl
+  fullName: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.RequestConsumerKeyUrl
+  nameWithType: RootServicesOAuth10aDocument.RequestConsumerKeyUrl
+- uid: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.RequestConsumerKeyUrl*
+  name: RequestConsumerKeyUrl
+  href: api/OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.html#OSLC4Net_Client_Oslc_RootServicesOAuth10aDocument_RequestConsumerKeyUrl_
+  commentId: Overload:OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.RequestConsumerKeyUrl
+  isSpec: "True"
+  fullName: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.RequestConsumerKeyUrl
+  nameWithType: RootServicesOAuth10aDocument.RequestConsumerKeyUrl
+- uid: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.RequestTokenUrl
+  name: RequestTokenUrl
+  href: api/OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.html#OSLC4Net_Client_Oslc_RootServicesOAuth10aDocument_RequestTokenUrl
+  commentId: P:OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.RequestTokenUrl
+  fullName: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.RequestTokenUrl
+  nameWithType: RootServicesOAuth10aDocument.RequestTokenUrl
+- uid: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.RequestTokenUrl*
+  name: RequestTokenUrl
+  href: api/OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.html#OSLC4Net_Client_Oslc_RootServicesOAuth10aDocument_RequestTokenUrl_
+  commentId: Overload:OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.RequestTokenUrl
+  isSpec: "True"
+  fullName: OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.RequestTokenUrl
+  nameWithType: RootServicesOAuth10aDocument.RequestTokenUrl
 - uid: OSLC4Net.Client.OslcResponse`1
   name: OslcResponse<T>
   href: api/OSLC4Net.Client.OslcResponse-1.html

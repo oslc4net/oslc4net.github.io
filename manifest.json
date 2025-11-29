@@ -242,6 +242,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Helpers.RootServicesHelper",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Helpers.RootServicesHelper.yml\" sourcestartlinenumber=\"1\">Helper for OSLC rootservices discovery (Jazz/OSLC servers).\nChecks both $base/rootservices and host($base)/.well-known/oslc/rootservices.xml.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Helpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Helpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OSLC4Net.Client.Oslc.OSLCConstants.yml",
       "output": {
         ".html": {
@@ -631,6 +659,34 @@
       "IsMRef": true,
       "Title": "OSLC4Net.Client.Oslc.Resources",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.RootServicesDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.RootServicesDocument.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.RootServicesDocument",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.RootServicesDocument.yml\" sourcestartlinenumber=\"1\">Represents an OSLC Root Services document with service provider catalog and optional OAuth configuration.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.RootServicesOAuth10aDocument.yml\" sourcestartlinenumber=\"1\">Represents OAuth 1.0a configuration from an OSLC Root Services document.</p>\n"
     },
     {
       "type": "ManagedReference",
