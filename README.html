@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>OSLC4Net Documentation | OSLC4Net </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="OSLC4Net Documentation | OSLC4Net ">
+      
+      
+      <link rel="icon" href="images/favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/blob/main/docs/README.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="images/logo_docfx.png" alt="OSLC4Net">
+            OSLC4Net
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="oslc4net-documentation">OSLC4Net Documentation</h1>
+
+<p>This directory contains the source files for the OSLC4Net documentation site, which is published to <a href="https://oslc4net.github.io">oslc4net.github.io</a>.</p>
+<h2 id="structure">Structure</h2>
+<pre><code>docs/
+├── docfx.json          # DocFX configuration
+├── index.md            # Documentation home page
+├── toc.yml             # Top-level table of contents
+├── articles/           # Documentation articles
+│   ├── toc.yml
+│   └── getting-started.md
+├── images/             # Images and assets
+├── template/           # Custom DocFX template
+│   └── public/
+│       └── main.js
+└── .nojekyll           # Prevents Jekyll processing on GitHub Pages
+</code></pre>
+<h2 id="building-locally">Building Locally</h2>
+<p>To build the documentation locally:</p>
+<pre><code class="lang-bash"># Install DocFX (if not already installed)
+dotnet tool install -g docfx
+
+# Build the documentation
+cd docs
+docfx docfx.json
+
+# Serve locally (with live reload)
+docfx docfx.json --serve
+</code></pre>
+<p>The documentation will be available at http://localhost:8080</p>
+<h2 id="cicd">CI/CD</h2>
+<p>The documentation is automatically built and deployed when changes are pushed to the <code>main</code> branch:</p>
+<ol>
+<li><strong>Build trigger</strong>: Changes to <code>docs/**</code>, <code>OSLC4Net_SDK/**/*.cs</code>, or <code>OSLC4Net_SDK/**/*.csproj</code></li>
+<li><strong>Workflow</strong>: <code>.github/workflows/docs.yml</code></li>
+<li><strong>Deployment</strong>: Built site is pushed to the <a href="https://github.com/oslc4net/oslc4net.github.io">oslc4net.github.io</a> repository</li>
+<li><strong>Requirements</strong>: <code>DOCS_DEPLOY_TOKEN</code> secret must be configured with write access to oslc4net.github.io</li>
+</ol>
+<h2 id="adding-content">Adding Content</h2>
+<h3 id="new-articles">New Articles</h3>
+<ol>
+<li>Create a new <code>.md</code> file in the <code>articles/</code> directory</li>
+<li>Add an entry to <code>articles/toc.yml</code></li>
+<li>Commit and push to trigger the build</li>
+</ol>
+<h3 id="api-documentation">API Documentation</h3>
+<p>API documentation is automatically generated from XML documentation comments in the source code. To improve API docs:</p>
+<ol>
+<li>Add XML documentation comments to public APIs in <code>OSLC4Net_SDK/</code></li>
+<li>Build will automatically include updated API reference</li>
+</ol>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<h3 id="build-fails-with-destination-already-exists">Build fails with &quot;destination already exists&quot;</h3>
+<p>Clear the <code>_site</code> directory:</p>
+<pre><code class="lang-bash">rm -rf docs/_site
+</code></pre>
+<h3 id="changes-not-appearing-on-the-site">Changes not appearing on the site</h3>
+<ol>
+<li>Check the GitHub Actions workflow status</li>
+<li>Verify the <code>DOCS_DEPLOY_TOKEN</code> is valid and has write permissions</li>
+<li>Check the oslc4net.github.io repository for the deployment commit</li>
+</ol>
+<h2 id="more-information">More Information</h2>
+<ul>
+<li><a href="https://dotnet.github.io/docfx/">DocFX documentation</a></li>
+<li><a href="https://open-services.net/specifications/">OSLC specifications</a></li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/OSLC/oslc4net/blob/main/docs/README.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <script defer src="https://umami.open-services.net/script.js" data-website-id="058571d1-b69b-4b21-a24a-2cc26e4eb3e1"></script>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

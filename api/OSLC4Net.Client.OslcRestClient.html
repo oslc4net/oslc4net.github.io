@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class OslcRestClient | OSLC4Net </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class OslcRestClient | OSLC4Net ">
+      
+      <meta name="description" content="A class providing client utilities to query/get, create, update and delete OSLC resources">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_Client_OslcRestClient.md&amp;value=---%0Auid%3A%20OSLC4Net.Client.OslcRestClient%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo_docfx.png" alt="OSLC4Net">
+            OSLC4Net
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="OSLC4Net.Client.OslcRestClient">
+
+
+
+  <h1 id="OSLC4Net_Client_OslcRestClient" data-uid="OSLC4Net.Client.OslcRestClient" class="text-break">
+Class OslcRestClient  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="OSLC4Net.html">OSLC4Net</a>.<a class="xref" href="OSLC4Net.Client.html">Client</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>OSLC4Net.Client.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A class providing client utilities to query/get, create, update and delete OSLC resources</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use OslcClient instead.&quot;)]
+public sealed class OslcRestClient</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">OslcRestClient</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Client_OslcRestClient__ctor_" data-uid="OSLC4Net.Client.OslcRestClient.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Client_OslcRestClient__ctor_System_Collections_Generic_IEnumerable_System_Net_Http_Formatting_MediaTypeFormatter__System_String_" data-uid="OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.String)">
+  OslcRestClient(IEnumerable&lt;MediaTypeFormatter&gt;, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OslcRestClient(IEnumerable&lt;MediaTypeFormatter&gt; formatters, string uri)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>formatters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter">MediaTypeFormatter</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_OslcRestClient__ctor_" data-uid="OSLC4Net.Client.OslcRestClient.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Client_OslcRestClient__ctor_System_Collections_Generic_IEnumerable_System_Net_Http_Formatting_MediaTypeFormatter__System_String_System_Int32_" data-uid="OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.String,System.Int32)">
+  OslcRestClient(IEnumerable&lt;MediaTypeFormatter&gt;, string, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OslcRestClient(IEnumerable&lt;MediaTypeFormatter&gt; formatters, string uri, int timeout)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>formatters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter">MediaTypeFormatter</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>timeout</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_OslcRestClient__ctor_" data-uid="OSLC4Net.Client.OslcRestClient.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Client_OslcRestClient__ctor_System_Collections_Generic_IEnumerable_System_Net_Http_Formatting_MediaTypeFormatter__System_String_System_String_" data-uid="OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.String,System.String)">
+  OslcRestClient(IEnumerable&lt;MediaTypeFormatter&gt;, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OslcRestClient(IEnumerable&lt;MediaTypeFormatter&gt; formatters, string uri, string mediaType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>formatters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter">MediaTypeFormatter</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>mediaType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_OslcRestClient__ctor_" data-uid="OSLC4Net.Client.OslcRestClient.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Client_OslcRestClient__ctor_System_Collections_Generic_IEnumerable_System_Net_Http_Formatting_MediaTypeFormatter__System_String_System_String_System_Int32_" data-uid="OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.String,System.String,System.Int32)">
+  OslcRestClient(IEnumerable&lt;MediaTypeFormatter&gt;, string, string, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OslcRestClient(IEnumerable&lt;MediaTypeFormatter&gt; formatters, string uri, string mediaType, int readTimeout)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>formatters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter">MediaTypeFormatter</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>mediaType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>readTimeout</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>in milliseconds</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_OslcRestClient__ctor_" data-uid="OSLC4Net.Client.OslcRestClient.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Client_OslcRestClient__ctor_System_Collections_Generic_IEnumerable_System_Net_Http_Formatting_MediaTypeFormatter__System_Uri_" data-uid="OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.Uri)">
+  OslcRestClient(IEnumerable&lt;MediaTypeFormatter&gt;, Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OslcRestClient(IEnumerable&lt;MediaTypeFormatter&gt; formatters, Uri uri)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>formatters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter">MediaTypeFormatter</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_OslcRestClient__ctor_" data-uid="OSLC4Net.Client.OslcRestClient.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Client_OslcRestClient__ctor_System_Collections_Generic_IEnumerable_System_Net_Http_Formatting_MediaTypeFormatter__System_Uri_System_Int32_" data-uid="OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.Uri,System.Int32)">
+  OslcRestClient(IEnumerable&lt;MediaTypeFormatter&gt;, Uri, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OslcRestClient(IEnumerable&lt;MediaTypeFormatter&gt; formatters, Uri uri, int timeout)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>formatters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter">MediaTypeFormatter</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+    <dt><code>timeout</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_OslcRestClient__ctor_" data-uid="OSLC4Net.Client.OslcRestClient.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Client_OslcRestClient__ctor_System_Collections_Generic_IEnumerable_System_Net_Http_Formatting_MediaTypeFormatter__System_Uri_System_String_" data-uid="OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.Uri,System.String)">
+  OslcRestClient(IEnumerable&lt;MediaTypeFormatter&gt;, Uri, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OslcRestClient(IEnumerable&lt;MediaTypeFormatter&gt; formatters, Uri uri, string mediaType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>formatters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter">MediaTypeFormatter</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+    <dt><code>mediaType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_OslcRestClient__ctor_" data-uid="OSLC4Net.Client.OslcRestClient.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Client_OslcRestClient__ctor_System_Collections_Generic_IEnumerable_System_Net_Http_Formatting_MediaTypeFormatter__System_Uri_System_String_System_Int32_" data-uid="OSLC4Net.Client.OslcRestClient.#ctor(System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter},System.Uri,System.String,System.Int32)">
+  OslcRestClient(IEnumerable&lt;MediaTypeFormatter&gt;, Uri, string, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OslcRestClient(IEnumerable&lt;MediaTypeFormatter&gt; formatters, Uri uri, string mediaType, int readTimeout)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>formatters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter">MediaTypeFormatter</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+    <dt><code>mediaType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>readTimeout</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_OslcRestClient__ctor_" data-uid="OSLC4Net.Client.OslcRestClient.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Client_OslcRestClient__ctor_System_String_OSLC4Net_Core_DotNetRdfProvider_DotNetRdfHelper_System_String_System_Nullable_System_Int32__" data-uid="OSLC4Net.Client.OslcRestClient.#ctor(System.String,OSLC4Net.Core.DotNetRdfProvider.DotNetRdfHelper,System.String,System.Nullable{System.Int32})">
+  OslcRestClient(string, DotNetRdfHelper, string?, int?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OslcRestClient(string uri, DotNetRdfHelper rdfHelper, string? mediaType = null, int? readTimeout = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rdfHelper</code> <a class="xref" href="OSLC4Net.Core.DotNetRdfProvider.DotNetRdfHelper.html">DotNetRdfHelper</a></dt>
+    <dd></dd>
+    <dt><code>mediaType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>readTimeout</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="OSLC4Net_Client_OslcRestClient_DEFAULT_READ_TIMEOUT" data-uid="OSLC4Net.Client.OslcRestClient.DEFAULT_READ_TIMEOUT">
+  DEFAULT_READ_TIMEOUT
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HTTP client timeout, ms</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DEFAULT_READ_TIMEOUT = 60000</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="OSLC4Net_Client_OslcRestClient_Formatters_" data-uid="OSLC4Net.Client.OslcRestClient.Formatters*"></a>
+
+  <h3 id="OSLC4Net_Client_OslcRestClient_Formatters" data-uid="OSLC4Net.Client.OslcRestClient.Formatters">
+  Formatters
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;MediaTypeFormatter&gt; Formatters { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter">MediaTypeFormatter</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="OSLC4Net_Client_OslcRestClient_AddOslcResourceAsync_" data-uid="OSLC4Net.Client.OslcRestClient.AddOslcResourceAsync*"></a>
+
+  <h3 id="OSLC4Net_Client_OslcRestClient_AddOslcResourceAsync__1___0_" data-uid="OSLC4Net.Client.OslcRestClient.AddOslcResourceAsync``1(``0)">
+  AddOslcResourceAsync&lt;T&gt;(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L261"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create an OSLC resource of the specified type.  The type must have an associated .NET class with OSLC4Net annotations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;T?&gt; AddOslcResourceAsync&lt;T&gt;(T oslcResource) where T : class, IResource</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>oslcResource</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_OslcRestClient_AddOslcResourceReturnClientResponse_" data-uid="OSLC4Net.Client.OslcRestClient.AddOslcResourceReturnClientResponse*"></a>
+
+  <h3 id="OSLC4Net_Client_OslcRestClient_AddOslcResourceReturnClientResponse_System_Object_" data-uid="OSLC4Net.Client.OslcRestClient.AddOslcResourceReturnClientResponse(System.Object)">
+  AddOslcResourceReturnClientResponse(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L304"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add an OSLC resource of the specified type and return an HttpResponseMessage.
+The type must have an associated .NET class with OSLC4Net annotations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpResponseMessage AddOslcResourceReturnClientResponse(object oslcResource)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>oslcResource</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage">HttpResponseMessage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_OslcRestClient_GetClient_" data-uid="OSLC4Net.Client.OslcRestClient.GetClient*"></a>
+
+  <h3 id="OSLC4Net_Client_OslcRestClient_GetClient" data-uid="OSLC4Net.Client.OslcRestClient.GetClient">
+  GetClient()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpClient GetClient()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_OslcRestClient_GetMediaType_" data-uid="OSLC4Net.Client.OslcRestClient.GetMediaType*"></a>
+
+  <h3 id="OSLC4Net_Client_OslcRestClient_GetMediaType" data-uid="OSLC4Net.Client.OslcRestClient.GetMediaType">
+  GetMediaType()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetMediaType()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_OslcRestClient_GetOslcResourceAsync_" data-uid="OSLC4Net.Client.OslcRestClient.GetOslcResourceAsync*"></a>
+
+  <h3 id="OSLC4Net_Client_OslcRestClient_GetOslcResourceAsync__1" data-uid="OSLC4Net.Client.OslcRestClient.GetOslcResourceAsync``1">
+  GetOslcResourceAsync&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieve an OSLC resource of the specified type.  The type must have an associated .NET class with OSLC4Net annotations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;T?&gt; GetOslcResourceAsync&lt;T&gt;() where T : class, IResource</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_OslcRestClient_GetOslcResourcesAsync_" data-uid="OSLC4Net.Client.OslcRestClient.GetOslcResourcesAsync*"></a>
+
+  <h3 id="OSLC4Net_Client_OslcRestClient_GetOslcResourcesAsync__1" data-uid="OSLC4Net.Client.OslcRestClient.GetOslcResourcesAsync``1">
+  GetOslcResourcesAsync&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get an array of OSLC resources of the specified type.  The type must have an associated .NET class with OSLC4Net annotations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;ICollection&lt;T&gt;?&gt; GetOslcResourcesAsync&lt;T&gt;()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;T&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_OslcRestClient_GetReadTimeout_" data-uid="OSLC4Net.Client.OslcRestClient.GetReadTimeout*"></a>
+
+  <h3 id="OSLC4Net_Client_OslcRestClient_GetReadTimeout" data-uid="OSLC4Net.Client.OslcRestClient.GetReadTimeout">
+  GetReadTimeout()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L188"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetReadTimeout()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_OslcRestClient_GetUri_" data-uid="OSLC4Net.Client.OslcRestClient.GetUri*"></a>
+
+  <h3 id="OSLC4Net_Client_OslcRestClient_GetUri" data-uid="OSLC4Net.Client.OslcRestClient.GetUri">
+  GetUri()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetUri()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_OslcRestClient_RemoveOslcResourceReturnClientResponse_" data-uid="OSLC4Net.Client.OslcRestClient.RemoveOslcResourceReturnClientResponse*"></a>
+
+  <h3 id="OSLC4Net_Client_OslcRestClient_RemoveOslcResourceReturnClientResponse" data-uid="OSLC4Net.Client.OslcRestClient.RemoveOslcResourceReturnClientResponse">
+  RemoveOslcResourceReturnClientResponse()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L357"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Remove an OSLC resource</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpResponseMessage RemoveOslcResourceReturnClientResponse()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage">HttpResponseMessage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_OslcRestClient_UpdateOslcResourceReturnClientResponse_" data-uid="OSLC4Net.Client.OslcRestClient.UpdateOslcResourceReturnClientResponse*"></a>
+
+  <h3 id="OSLC4Net_Client_OslcRestClient_UpdateOslcResourceReturnClientResponse_System_Object_" data-uid="OSLC4Net.Client.OslcRestClient.UpdateOslcResourceReturnClientResponse(System.Object)">
+  UpdateOslcResourceReturnClientResponse(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L336"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update an OSLC resource of the specified type and return an HttpResponseMessage.
+The type must have an associated .NET class with OSLC4Net annotations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpResponseMessage UpdateOslcResourceReturnClientResponse(object oslcResource)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>oslcResource</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage">HttpResponseMessage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/OslcRestClient.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <script defer src="https://umami.open-services.net/script.js" data-website-id="058571d1-b69b-4b21-a24a-2cc26e4eb3e1"></script>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class OslcSearchTermsParser | OSLC4Net </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class OslcSearchTermsParser | OSLC4Net ">
+      
+      
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_Core_Query_Impl_OslcSearchTermsParser.md&amp;value=---%0Auid%3A%20OSLC4Net.Core.Query.Impl.OslcSearchTermsParser%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo_docfx.png" alt="OSLC4Net">
+            OSLC4Net
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser">
+
+
+
+  <h1 id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser" class="text-break">
+Class OslcSearchTermsParser  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.Query/Impl/OslcSearchTermsParser.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="OSLC4Net.html">OSLC4Net</a>.<a class="xref" href="OSLC4Net.Core.html">Core</a>.<a class="xref" href="OSLC4Net.Core.Query.html">Query</a>.<a class="xref" href="OSLC4Net.Core.Query.Impl.html">Impl</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>OSLC4Net.Core.Query.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[CLSCompliant(false)]
+public class OslcSearchTermsParser : Parser</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">BaseRecognizer</span></div>
+      <div><span class="xref">Parser</span></div>
+      <div><span class="xref">OslcSearchTermsParser</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <span class="xref">Parser.input</span>
+    </div>
+    <div>
+      <span class="xref">Parser.Reset()</span>
+    </div>
+    <div>
+      <span class="xref">Parser.GetCurrentInputSymbol(IIntStream)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Parser.GetMissingSymbol(IIntStream, RecognitionException, int, BitSet)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Parser.TraceIn(string, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Parser.TraceOut(string, int)</a>
+    </div>
+    <div>
+      <span class="xref">Parser.TokenStream</span>
+    </div>
+    <div>
+      <span class="xref">Parser.SourceName</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.MemoRuleFailed</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.MemoRuleUnknown</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.InitialFollowStackSize</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.DefaultTokenChannel</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.Hidden</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.NextTokenRuleName</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.state</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.SetState(RecognizerSharedState)</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.InitDFAs()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">BaseRecognizer.Match(IIntStream, int, BitSet)</a>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.MatchAny(IIntStream)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">BaseRecognizer.MismatchIsUnwantedToken(IIntStream, int)</a>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.MismatchIsMissingToken(IIntStream, BitSet)</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.ReportError(RecognitionException)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">BaseRecognizer.DisplayRecognitionError(string[], RecognitionException)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">BaseRecognizer.GetErrorMessage(RecognitionException, string[])</a>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.GetErrorHeader(RecognitionException)</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.GetTokenErrorDisplay(IToken)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">BaseRecognizer.EmitErrorMessage(string)</a>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.Recover(IIntStream, RecognitionException)</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.BeginResync()</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.EndResync()</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.ComputeErrorRecoverySet()</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.ComputeContextSensitiveRuleFOLLOW()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">BaseRecognizer.CombineFollows(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">BaseRecognizer.RecoverFromMismatchedToken(IIntStream, int, BitSet)</a>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.RecoverFromMismatchedSet(IIntStream, RecognitionException, BitSet)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">BaseRecognizer.ConsumeUntil(IIntStream, int)</a>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.ConsumeUntil(IIntStream, BitSet)</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.PushFollow(BitSet)</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.PopFollow()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">BaseRecognizer.ToStrings(ICollection&lt;IToken&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">BaseRecognizer.GetRuleMemoization(int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">BaseRecognizer.AlreadyParsedRule(IIntStream, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">BaseRecognizer.Memoize(IIntStream, int, int)</a>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.GetRuleMemoizationCacheSize()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">BaseRecognizer.TraceIn(string, int, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">BaseRecognizer.TraceOut(string, int, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">BaseRecognizer.DebugEnterRule(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">BaseRecognizer.DebugExitRule(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">BaseRecognizer.DebugEnterSubRule(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">BaseRecognizer.DebugExitSubRule(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">BaseRecognizer.DebugEnterAlt(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">BaseRecognizer.DebugEnterDecision(int, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">BaseRecognizer.DebugExitDecision(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">BaseRecognizer.DebugLocation(int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">BaseRecognizer.DebugSemanticPredicate(bool, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">BaseRecognizer.DebugBeginBacktrack(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">BaseRecognizer.DebugEndBacktrack(int, bool)</a>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.DebugRecognitionException(RecognitionException)</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.TraceDestination</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.NumberOfSyntaxErrors</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.BacktrackingLevel</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.Failed</span>
+    </div>
+    <div>
+      <span class="xref">BaseRecognizer.DebugListener</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser__ctor_" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser__ctor_Antlr_Runtime_ITokenStream_" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.#ctor(Antlr.Runtime.ITokenStream)">
+  OslcSearchTermsParser(ITokenStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.Query/Impl/OslcSearchTermsParser.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OslcSearchTermsParser(ITokenStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">ITokenStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser__ctor_" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser__ctor_Antlr_Runtime_ITokenStream_Antlr_Runtime_RecognizerSharedState_" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.#ctor(Antlr.Runtime.ITokenStream,Antlr.Runtime.RecognizerSharedState)">
+  OslcSearchTermsParser(ITokenStream, RecognizerSharedState)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.Query/Impl/OslcSearchTermsParser.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OslcSearchTermsParser(ITokenStream input, RecognizerSharedState state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">ITokenStream</span></dt>
+    <dd></dd>
+    <dt><code>state</code> <span class="xref">RecognizerSharedState</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser__ctor_" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser__ctor_System_String_" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.#ctor(System.String)">
+  OslcSearchTermsParser(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.Query/Impl/OslcSearchTermsParser.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OslcSearchTermsParser(string searcTerms)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>searcTerms</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser_COMMA" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.COMMA">
+  COMMA
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.Query/Impl/OslcSearchTermsParser.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int COMMA = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser_ECHAR" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.ECHAR">
+  ECHAR
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.Query/Impl/OslcSearchTermsParser.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ECHAR = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser_EOF" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.EOF">
+  EOF
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.Query/Impl/OslcSearchTermsParser.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EOF = -1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser_EOL" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.EOL">
+  EOL
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.Query/Impl/OslcSearchTermsParser.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EOL = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser_STRING_LIST" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.STRING_LIST">
+  STRING_LIST
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.Query/Impl/OslcSearchTermsParser.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int STRING_LIST = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser_STRING_LITERAL" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.STRING_LITERAL">
+  STRING_LITERAL
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.Query/Impl/OslcSearchTermsParser.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int STRING_LITERAL = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser_WS" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.WS">
+  WS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.Query/Impl/OslcSearchTermsParser.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int WS = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser_GrammarFileName_" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.GrammarFileName*"></a>
+
+  <h3 id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser_GrammarFileName" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.GrammarFileName">
+  GrammarFileName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.Query/Impl/OslcSearchTermsParser.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>For debugging and other purposes, might want the grammar name.
+Have ANTLR generate an implementation for this method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string GrammarFileName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser_Result_" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.Result*"></a>
+
+  <h3 id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser_Result" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.Result">
+  Result
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.Query/Impl/OslcSearchTermsParser.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Result { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser_TokenNames_" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.TokenNames*"></a>
+
+  <h3 id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser_TokenNames" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.TokenNames">
+  TokenNames
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.Query/Impl/OslcSearchTermsParser.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Used to print out token names like ID during debugging and
+error reporting.  The generated parsers implement a method
+that overrides this to point to their String[] tokenNames.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string[] TokenNames { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser_TreeAdaptor_" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.TreeAdaptor*"></a>
+
+  <h3 id="OSLC4Net_Core_Query_Impl_OslcSearchTermsParser_TreeAdaptor" data-uid="OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.TreeAdaptor">
+  TreeAdaptor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.Query/Impl/OslcSearchTermsParser.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITreeAdaptor TreeAdaptor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITreeAdaptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.Query/Impl/OslcSearchTermsParser.cs/#L48" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <script defer src="https://umami.open-services.net/script.js" data-website-id="058571d1-b69b-4b21-a24a-2cc26e4eb3e1"></script>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

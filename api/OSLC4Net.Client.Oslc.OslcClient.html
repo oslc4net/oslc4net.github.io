@@ -1,0 +1,1407 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class OslcClient | OSLC4Net </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class OslcClient | OSLC4Net ">
+      
+      <meta name="description" content="An OSLC Client.">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_Client_Oslc_OslcClient.md&amp;value=---%0Auid%3A%20OSLC4Net.Client.Oslc.OslcClient%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo_docfx.png" alt="OSLC4Net">
+            OSLC4Net
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="OSLC4Net.Client.Oslc.OslcClient">
+
+
+
+  <h1 id="OSLC4Net_Client_Oslc_OslcClient" data-uid="OSLC4Net.Client.Oslc.OslcClient" class="text-break">
+Class OslcClient  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="OSLC4Net.html">OSLC4Net</a>.<a class="xref" href="OSLC4Net.Client.html">Client</a>.<a class="xref" href="OSLC4Net.Client.Oslc.html">Oslc</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>OSLC4Net.Client.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>An OSLC Client.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class OslcClient : IDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">OslcClient</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient__ctor_" data-uid="OSLC4Net.Client.Oslc.OslcClient.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient__ctor_Microsoft_Extensions_Logging_ILogger_OSLC4Net_Client_Oslc_OslcClient__" data-uid="OSLC4Net.Client.Oslc.OslcClient.#ctor(Microsoft.Extensions.Logging.ILogger{OSLC4Net.Client.Oslc.OslcClient})">
+  OslcClient(ILogger&lt;OslcClient&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize a new OslcClient.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OslcClient(ILogger&lt;OslcClient&gt; logger)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>logger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;<a class="xref" href="OSLC4Net.Client.Oslc.OslcClient.html">OslcClient</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient__ctor_" data-uid="OSLC4Net.Client.Oslc.OslcClient.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient__ctor_System_Func_System_Net_Http_HttpRequestMessage_System_Security_Cryptography_X509Certificates_X509Certificate2_System_Security_Cryptography_X509Certificates_X509Chain_System_Net_Security_SslPolicyErrors_System_Boolean__Microsoft_Extensions_Logging_ILogger_OSLC4Net_Client_Oslc_OslcClient__" data-uid="OSLC4Net.Client.Oslc.OslcClient.#ctor(System.Func{System.Net.Http.HttpRequestMessage,System.Security.Cryptography.X509Certificates.X509Certificate2,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors,System.Boolean},Microsoft.Extensions.Logging.ILogger{OSLC4Net.Client.Oslc.OslcClient})">
+  OslcClient(Func&lt;HttpRequestMessage, X509Certificate2, X509Chain, SslPolicyErrors, bool&gt;, ILogger&lt;OslcClient&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize a new OslcClient.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public OslcClient(Func&lt;HttpRequestMessage, X509Certificate2, X509Chain, SslPolicyErrors, bool&gt; certCallback, ILogger&lt;OslcClient&gt; logger)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>certCallback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-5">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage">HttpRequestMessage</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.security.cryptography.x509certificates.x509certificate2">X509Certificate2</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.security.cryptography.x509certificates.x509chain">X509Chain</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.security.sslpolicyerrors">SslPolicyErrors</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>optionally control SSL certificate management
+(null will not replace the default validation callback)</p>
+</dd>
+    <dt><code>logger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;<a class="xref" href="OSLC4Net.Client.Oslc.OslcClient.html">OslcClient</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient__ctor_" data-uid="OSLC4Net.Client.Oslc.OslcClient.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient__ctor_System_Func_System_Net_Http_HttpRequestMessage_System_Security_Cryptography_X509Certificates_X509Certificate2_System_Security_Cryptography_X509Certificates_X509Chain_System_Net_Security_SslPolicyErrors_System_Boolean__System_Net_Http_HttpMessageHandler_Microsoft_Extensions_Logging_ILogger_OSLC4Net_Client_Oslc_OslcClient__" data-uid="OSLC4Net.Client.Oslc.OslcClient.#ctor(System.Func{System.Net.Http.HttpRequestMessage,System.Security.Cryptography.X509Certificates.X509Certificate2,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors,System.Boolean},System.Net.Http.HttpMessageHandler,Microsoft.Extensions.Logging.ILogger{OSLC4Net.Client.Oslc.OslcClient})">
+  OslcClient(Func&lt;HttpRequestMessage, X509Certificate2, X509Chain, SslPolicyErrors, bool&gt;, HttpMessageHandler, ILogger&lt;OslcClient&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize a new OslcClient</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+protected OslcClient(Func&lt;HttpRequestMessage, X509Certificate2, X509Chain, SslPolicyErrors, bool&gt; certCallback, HttpMessageHandler userHttpMessageHandler, ILogger&lt;OslcClient&gt; logger)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>certCallback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-5">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage">HttpRequestMessage</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.security.cryptography.x509certificates.x509certificate2">X509Certificate2</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.security.cryptography.x509certificates.x509chain">X509Chain</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.security.sslpolicyerrors">SslPolicyErrors</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>optionally control SSL certificate management
+(null will not replace the default validation callback)</p>
+</dd>
+    <dt><code>userHttpMessageHandler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpmessagehandler">HttpMessageHandler</a></dt>
+    <dd><p>optionally use OAuth</p>
+</dd>
+    <dt><code>logger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;<a class="xref" href="OSLC4Net.Client.Oslc.OslcClient.html">OslcClient</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient__ctor_" data-uid="OSLC4Net.Client.Oslc.OslcClient.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient__ctor_System_Net_Http_HttpClient_Microsoft_Extensions_Logging_ILogger_OSLC4Net_Client_Oslc_OslcClient__" data-uid="OSLC4Net.Client.Oslc.OslcClient.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger{OSLC4Net.Client.Oslc.OslcClient})">
+  OslcClient(HttpClient, ILogger&lt;OslcClient&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize a new OslcClient using an externally managed HttpClient (e.g. with resilience policies).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OslcClient(HttpClient client, ILogger&lt;OslcClient&gt; logger)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>client</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a></dt>
+    <dd><p>Pre-configured HttpClient instance (lifetime managed by caller).</p>
+</dd>
+    <dt><code>logger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;<a class="xref" href="OSLC4Net.Client.Oslc.OslcClient.html">OslcClient</a>&gt;</dt>
+    <dd><p>Logger instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient__client" data-uid="OSLC4Net.Client.Oslc.OslcClient._client">
+  _client
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly HttpClient _client</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient__formatters" data-uid="OSLC4Net.Client.Oslc.OslcClient._formatters">
+  _formatters
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly ISet&lt;MediaTypeFormatter&gt; _formatters</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1">ISet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter">MediaTypeFormatter</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_AcceptHeader_" data-uid="OSLC4Net.Client.Oslc.OslcClient.AcceptHeader*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_AcceptHeader" data-uid="OSLC4Net.Client.Oslc.OslcClient.AcceptHeader">
+  AcceptHeader
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string AcceptHeader { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_AcceptAllServerCertificates_" data-uid="OSLC4Net.Client.Oslc.OslcClient.AcceptAllServerCertificates*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_AcceptAllServerCertificates_System_Object_System_Security_Cryptography_X509Certificates_X509Certificate_System_Security_Cryptography_X509Certificates_X509Chain_System_Net_Security_SslPolicyErrors_" data-uid="OSLC4Net.Client.Oslc.OslcClient.AcceptAllServerCertificates(System.Object,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)">
+  AcceptAllServerCertificates(object, X509Certificate, X509Chain, SslPolicyErrors)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L832"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Handle SSL server certificate processing, accepting all certificates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public static bool AcceptAllServerCertificates(object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors errors)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sender</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>certificate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.security.cryptography.x509certificates.x509certificate">X509Certificate</a></dt>
+    <dd></dd>
+    <dt><code>chain</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.security.cryptography.x509certificates.x509chain">X509Chain</a></dt>
+    <dd></dd>
+    <dt><code>errors</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.security.sslpolicyerrors">SslPolicyErrors</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_CreateResourceAsync_" data-uid="OSLC4Net.Client.Oslc.OslcClient.CreateResourceAsync*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_CreateResourceAsync__1_System_String___0_System_String_" data-uid="OSLC4Net.Client.Oslc.OslcClient.CreateResourceAsync``1(System.String,``0,System.String)">
+  CreateResourceAsync&lt;T&gt;(string, T, string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L384"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;OslcResponse&lt;T&gt;&gt; CreateResourceAsync&lt;T&gt;(string url, T artifact, string? mediaType = null) where T : IExtendedResource, new()</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>artifact</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>mediaType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="OSLC4Net.Client.OslcResponse-1.html">OslcResponse</a>&lt;T&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_CreateResourceRawAsync_" data-uid="OSLC4Net.Client.Oslc.OslcClient.CreateResourceRawAsync*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_CreateResourceRawAsync_System_String_OSLC4Net_Core_Model_IResource_System_String_" data-uid="OSLC4Net.Client.Oslc.OslcClient.CreateResourceRawAsync(System.String,OSLC4Net.Core.Model.IResource,System.String)">
+  CreateResourceRawAsync(string, IResource, string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L413"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create (POST) an artifact to a URL - usually an OSLC Creation Factory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;HttpResponseMessage&gt; CreateResourceRawAsync(string url, IResource artifact, string? mediaType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>artifact</code> <a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></dt>
+    <dd></dd>
+    <dt><code>mediaType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage">HttpResponseMessage</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_CreateResourceRawAsync_" data-uid="OSLC4Net.Client.Oslc.OslcClient.CreateResourceRawAsync*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_CreateResourceRawAsync_System_String_OSLC4Net_Core_Model_IResource_System_String_System_String_" data-uid="OSLC4Net.Client.Oslc.OslcClient.CreateResourceRawAsync(System.String,OSLC4Net.Core.Model.IResource,System.String,System.String)">
+  CreateResourceRawAsync(string, IResource, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L432"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create (POST) an artifact to a URL - usually an OSLC Creation Factory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;HttpResponseMessage&gt; CreateResourceRawAsync(string url, IResource artifact, string mediaType, string acceptType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>artifact</code> <a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></dt>
+    <dd></dd>
+    <dt><code>mediaType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>acceptType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage">HttpResponseMessage</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_CreateResourceRawAsync_" data-uid="OSLC4Net.Client.Oslc.OslcClient.CreateResourceRawAsync*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_CreateResourceRawAsync_System_Uri_OSLC4Net_Core_Model_IResource_System_String_" data-uid="OSLC4Net.Client.Oslc.OslcClient.CreateResourceRawAsync(System.Uri,OSLC4Net.Core.Model.IResource,System.String)">
+  CreateResourceRawAsync(Uri, IResource, string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L419"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;HttpResponseMessage&gt; CreateResourceRawAsync(Uri uri, IResource artifact, string? mediaType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+    <dt><code>artifact</code> <a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></dt>
+    <dd></dd>
+    <dt><code>mediaType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage">HttpResponseMessage</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_DeleteResource_" data-uid="OSLC4Net.Client.Oslc.OslcClient.DeleteResource*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_DeleteResource_System_String_" data-uid="OSLC4Net.Client.Oslc.OslcClient.DeleteResource(System.String)">
+  DeleteResource(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L303"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete an OSLC resource and return a HttpResponseMessage</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public HttpResponseMessage DeleteResource(string url)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage">HttpResponseMessage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_DeleteResourceAsync_" data-uid="OSLC4Net.Client.Oslc.OslcClient.DeleteResourceAsync*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_DeleteResourceAsync_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="OSLC4Net.Client.Oslc.OslcClient.DeleteResourceAsync(System.String,System.Nullable{System.Threading.CancellationToken})">
+  DeleteResourceAsync(string, CancellationToken?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L349"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete an OSLC resource and return a HttpResponseMessage</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;HttpResponseMessage&gt; DeleteResourceAsync(string url, CancellationToken? ct = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>ct</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a>?</dt>
+    <dd><p>Cancellation token</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage">HttpResponseMessage</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_DeleteResourceAsync_" data-uid="OSLC4Net.Client.Oslc.OslcClient.DeleteResourceAsync*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_DeleteResourceAsync_System_Uri_System_Nullable_System_Threading_CancellationToken__" data-uid="OSLC4Net.Client.Oslc.OslcClient.DeleteResourceAsync(System.Uri,System.Nullable{System.Threading.CancellationToken})">
+  DeleteResourceAsync(Uri, CancellationToken?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L338"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete an OSLC resource and return a HttpResponseMessage</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;HttpResponseMessage&gt; DeleteResourceAsync(Uri url, CancellationToken? ct = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+    <dt><code>ct</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a>?</dt>
+    <dd><p>Cancellation token</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage">HttpResponseMessage</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_Dispose_" data-uid="OSLC4Net.Client.Oslc.OslcClient.Dispose*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_Dispose" data-uid="OSLC4Net.Client.Oslc.OslcClient.Dispose">
+  Dispose()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L856"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_ForBasicAuth_" data-uid="OSLC4Net.Client.Oslc.OslcClient.ForBasicAuth*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_ForBasicAuth_System_Net_Http_HttpClient_System_String_System_String_Microsoft_Extensions_Logging_ILogger_OSLC4Net_Client_Oslc_OslcClient__" data-uid="OSLC4Net.Client.Oslc.OslcClient.ForBasicAuth(System.Net.Http.HttpClient,System.String,System.String,Microsoft.Extensions.Logging.ILogger{OSLC4Net.Client.Oslc.OslcClient})">
+  ForBasicAuth(HttpClient, string, string, ILogger&lt;OslcClient&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create an OslcClient for Basic Auth using a pre-configured HttpClient (e.g. with resilience policies).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static OslcClient ForBasicAuth(HttpClient httpClient, string username, string password, ILogger&lt;OslcClient&gt; logger)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>httpClient</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a></dt>
+    <dd></dd>
+    <dt><code>username</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>password</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>logger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;<a class="xref" href="OSLC4Net.Client.Oslc.OslcClient.html">OslcClient</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Client.Oslc.OslcClient.html">OslcClient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_ForBasicAuth_" data-uid="OSLC4Net.Client.Oslc.OslcClient.ForBasicAuth*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_ForBasicAuth_System_String_System_String_Microsoft_Extensions_Logging_ILogger_OSLC4Net_Client_Oslc_OslcClient__System_Net_Http_HttpClientHandler_" data-uid="OSLC4Net.Client.Oslc.OslcClient.ForBasicAuth(System.String,System.String,Microsoft.Extensions.Logging.ILogger{OSLC4Net.Client.Oslc.OslcClient},System.Net.Http.HttpClientHandler)">
+  ForBasicAuth(string, string, ILogger&lt;OslcClient&gt;, HttpClientHandler)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static OslcClient ForBasicAuth(string username, string password, ILogger&lt;OslcClient&gt; logger, HttpClientHandler handler = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>username</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>password</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>logger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;<a class="xref" href="OSLC4Net.Client.Oslc.OslcClient.html">OslcClient</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>handler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpclienthandler">HttpClientHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Client.Oslc.OslcClient.html">OslcClient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_GetFormatters_" data-uid="OSLC4Net.Client.Oslc.OslcClient.GetFormatters*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_GetFormatters" data-uid="OSLC4Net.Client.Oslc.OslcClient.GetFormatters">
+  GetFormatters()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L819"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISet&lt;MediaTypeFormatter&gt; GetFormatters()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1">ISet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.formatting.mediatypeformatter">MediaTypeFormatter</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_GetHttpClient_" data-uid="OSLC4Net.Client.Oslc.OslcClient.GetHttpClient*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_GetHttpClient" data-uid="OSLC4Net.Client.Oslc.OslcClient.GetHttpClient">
+  GetHttpClient()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the HTTP client associated with this OSLC Client</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpClient GetHttpClient()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a></dt>
+    <dd><p>the HTTP client</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_GetResourceAsync_" data-uid="OSLC4Net.Client.Oslc.OslcClient.GetResourceAsync*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_GetResourceAsync__1_System_String_" data-uid="OSLC4Net.Client.Oslc.OslcClient.GetResourceAsync``1(System.String)">
+  GetResourceAsync&lt;T&gt;(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;OslcResponse&lt;T&gt;&gt; GetResourceAsync&lt;T&gt;(string resourceUri) where T : IExtendedResource, new()</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>resourceUri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="OSLC4Net.Client.OslcResponse-1.html">OslcResponse</a>&lt;T&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_GetResourceAsync_" data-uid="OSLC4Net.Client.Oslc.OslcClient.GetResourceAsync*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_GetResourceAsync__1_System_String_System_String_" data-uid="OSLC4Net.Client.Oslc.OslcClient.GetResourceAsync``1(System.String,System.String)">
+  GetResourceAsync&lt;T&gt;(string, string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;OslcResponse&lt;T&gt;&gt; GetResourceAsync&lt;T&gt;(string resourceUri, string? mediaType) where T : IExtendedResource, new()</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>resourceUri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>mediaType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="OSLC4Net.Client.OslcResponse-1.html">OslcResponse</a>&lt;T&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_GetResourceAsync_" data-uid="OSLC4Net.Client.Oslc.OslcClient.GetResourceAsync*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_GetResourceAsync__1_System_Uri_" data-uid="OSLC4Net.Client.Oslc.OslcClient.GetResourceAsync``1(System.Uri)">
+  GetResourceAsync&lt;T&gt;(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L244"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;OslcResponse&lt;T&gt;&gt; GetResourceAsync&lt;T&gt;(Uri typeURI) where T : IExtendedResource, new()</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>typeURI</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="OSLC4Net.Client.OslcResponse-1.html">OslcResponse</a>&lt;T&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_GetResourceRawAsync_" data-uid="OSLC4Net.Client.Oslc.OslcClient.GetResourceRawAsync*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_GetResourceRawAsync_System_String_System_String_" data-uid="OSLC4Net.Client.Oslc.OslcClient.GetResourceRawAsync(System.String,System.String)">
+  GetResourceRawAsync(string, string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Consider using <a class="xref" href="OSLC4Net.Client.Oslc.OslcClient.html#OSLC4Net_Client_Oslc_OslcClient_GetResourceAsync__1_System_String_System_String_">GetResourceAsync&lt;T&gt;(string, string?)</a> instead.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;HttpResponseMessage&gt; GetResourceRawAsync(string url, string? mediaType = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>mediaType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage">HttpResponseMessage</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_LookupCreationFactoryAsync_" data-uid="OSLC4Net.Client.Oslc.OslcClient.LookupCreationFactoryAsync*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_LookupCreationFactoryAsync_System_String_System_String_System_String_" data-uid="OSLC4Net.Client.Oslc.OslcClient.LookupCreationFactoryAsync(System.String,System.String,System.String)">
+  LookupCreationFactoryAsync(string, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L749"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Find the OSLC Creation Factory URL for a given OSLC resource type.  If no resource type is given, returns
+the default Creation Factory, if it exists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; LookupCreationFactoryAsync(string serviceProviderUrl, string oslcDomain, string oslcResourceType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>serviceProviderUrl</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>oslcDomain</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>oslcResourceType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>the resource type of the desired query capability.   This may differ from the OSLC artifact type.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>URL of requested Creation Factory or null if not found.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_LookupQueryCapabilityAsync_" data-uid="OSLC4Net.Client.Oslc.OslcClient.LookupQueryCapabilityAsync*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_LookupQueryCapabilityAsync_System_String_System_String_System_String_" data-uid="OSLC4Net.Client.Oslc.OslcClient.LookupQueryCapabilityAsync(System.String,System.String,System.String)">
+  LookupQueryCapabilityAsync(string, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L670"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Find the OSLC Query Capability URL for a given OSLC resource type.  If no resource type is given, returns
+the default Query Capability, if it exists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; LookupQueryCapabilityAsync(string serviceProviderUrl, string oslcDomain, string oslcResourceType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>serviceProviderUrl</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>oslcDomain</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>oslcResourceType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>the resource type of the desired query capability.   This may differ from the OSLC artifact type.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>URL of requested Query Capability or null if not found.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_LookupServiceProviderUrl_" data-uid="OSLC4Net.Client.Oslc.OslcClient.LookupServiceProviderUrl*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_LookupServiceProviderUrl_System_String_System_String_" data-uid="OSLC4Net.Client.Oslc.OslcClient.LookupServiceProviderUrl(System.String,System.String)">
+  LookupServiceProviderUrl(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L628"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Lookup the URL of a specific OSLC Service Provider in an OSLC Catalog using the service provider's title</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; LookupServiceProviderUrl(string catalogUrl, string serviceProviderTitle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>catalogUrl</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>serviceProviderTitle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_UpdateResource_" data-uid="OSLC4Net.Client.Oslc.OslcClient.UpdateResource*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_UpdateResource_System_String_System_Object_System_String_" data-uid="OSLC4Net.Client.Oslc.OslcClient.UpdateResource(System.String,System.Object,System.String)">
+  UpdateResource(string, object, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L522"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update (PUT) an artifact to a URL - usually the URL for an existing OSLC artifact</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public HttpResponseMessage UpdateResource(string url, object artifact, string mediaType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>artifact</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>mediaType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage">HttpResponseMessage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_UpdateResource_" data-uid="OSLC4Net.Client.Oslc.OslcClient.UpdateResource*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_UpdateResource_System_String_System_Object_System_String_System_String_" data-uid="OSLC4Net.Client.Oslc.OslcClient.UpdateResource(System.String,System.Object,System.String,System.String)">
+  UpdateResource(string, object, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L536"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update (PUT) an artifact to a URL - usually the URL for an existing OSLC artifact</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public HttpResponseMessage UpdateResource(string url, object artifact, string mediaType, string acceptType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>artifact</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>mediaType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>acceptType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage">HttpResponseMessage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_UpdateResource_" data-uid="OSLC4Net.Client.Oslc.OslcClient.UpdateResource*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_UpdateResource_System_String_System_Object_System_String_System_String_System_String_" data-uid="OSLC4Net.Client.Oslc.OslcClient.UpdateResource(System.String,System.Object,System.String,System.String,System.String)">
+  UpdateResource(string, object, string, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L583"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update (PUT) an artifact to a URL - usually the URL for an existing OSLC artifact</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public HttpResponseMessage UpdateResource(string url, object artifact, string mediaType, string acceptType, string ifMatch)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>artifact</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>mediaType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>acceptType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>ifMatch</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage">HttpResponseMessage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_OslcClient_UpdateResourceRawAsync_" data-uid="OSLC4Net.Client.Oslc.OslcClient.UpdateResourceRawAsync*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_OslcClient_UpdateResourceRawAsync_System_Uri_OSLC4Net_Core_Model_IResource_System_String_System_String_" data-uid="OSLC4Net.Client.Oslc.OslcClient.UpdateResourceRawAsync(System.Uri,OSLC4Net.Core.Model.IResource,System.String,System.String)">
+  UpdateResourceRawAsync(Uri, IResource, string, string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L473"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;HttpResponseMessage&gt; UpdateResourceRawAsync(Uri uri, IResource artifact, string mediaType = &quot;application/rdf+xml&quot;, string? acceptType = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+    <dt><code>artifact</code> <a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></dt>
+    <dd></dd>
+    <dt><code>mediaType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>acceptType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage">HttpResponseMessage</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/OslcClient.cs/#L35" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <script defer src="https://umami.open-services.net/script.js" data-website-id="058571d1-b69b-4b21-a24a-2cc26e4eb3e1"></script>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,3436 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ChangeRequest | OSLC4Net </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ChangeRequest | OSLC4Net ">
+      
+      <meta name="description" content="OSLC Change Management resource">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_ChangeManagement_ChangeRequest.md&amp;value=---%0Auid%3A%20OSLC4Net.ChangeManagement.ChangeRequest%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo_docfx.png" alt="OSLC4Net">
+            OSLC4Net
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="OSLC4Net.ChangeManagement.ChangeRequest">
+
+
+
+  <h1 id="OSLC4Net_ChangeManagement_ChangeRequest" data-uid="OSLC4Net.ChangeManagement.ChangeRequest" class="text-break">
+Class ChangeRequest  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="OSLC4Net.html">OSLC4Net</a>.<a class="xref" href="OSLC4Net.ChangeManagement.html">ChangeManagement</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>OSLC4Net.ChangeManagementCommon.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>OSLC Change Management resource</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcNamespace(&quot;http://open-services.net/ns/cm#&quot;)]
+public class ChangeRequest : AbstractResource, IExtendedResource, IResource</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html">AbstractResource</a></div>
+      <div><span class="xref">ChangeRequest</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IExtendedResource.html">IExtendedResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_About">AbstractResource.About</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetAbout">AbstractResource.GetAbout()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetAbout_System_Uri_">AbstractResource.SetAbout(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__">AbstractResource.SetExtendedProperties(IDictionary&lt;QName, object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetExtendedProperties">AbstractResource.GetExtendedProperties()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetTypes">AbstractResource.GetTypes()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__">AbstractResource.SetTypes(ICollection&lt;Uri&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_AddType_System_Uri_">AbstractResource.AddType(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest__ctor_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.#ctor*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest__ctor" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.#ctor">
+  ChangeRequest()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChangeRequest()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest__ctor_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.#ctor*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest__ctor_System_Uri_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.#ctor(System.Uri)">
+  ChangeRequest(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChangeRequest(Uri about)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>about</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_AddAffectedByDefect_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddAffectedByDefect*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_AddAffectedByDefect_OSLC4Net_Core_Model_Link_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddAffectedByDefect(OSLC4Net.Core.Model.Link)">
+  AddAffectedByDefect(Link)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddAffectedByDefect(Link affectedByDefect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>affectedByDefect</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_AddAffectsPlanItem_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddAffectsPlanItem*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_AddAffectsPlanItem_OSLC4Net_Core_Model_Link_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddAffectsPlanItem(OSLC4Net.Core.Model.Link)">
+  AddAffectsPlanItem(Link)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddAffectsPlanItem(Link affectsPlanItem)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>affectsPlanItem</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_AddAffectsRequirement_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddAffectsRequirement*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_AddAffectsRequirement_OSLC4Net_Core_Model_Link_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddAffectsRequirement(OSLC4Net.Core.Model.Link)">
+  AddAffectsRequirement(Link)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddAffectsRequirement(Link affectsRequirement)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>affectsRequirement</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_AddAffectsTestResult_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddAffectsTestResult*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_AddAffectsTestResult_OSLC4Net_Core_Model_Link_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddAffectsTestResult(OSLC4Net.Core.Model.Link)">
+  AddAffectsTestResult(Link)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddAffectsTestResult(Link affectsTestResult)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>affectsTestResult</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_AddBlocksTestExecutionRecord_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddBlocksTestExecutionRecord*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_AddBlocksTestExecutionRecord_OSLC4Net_Core_Model_Link_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddBlocksTestExecutionRecord(OSLC4Net.Core.Model.Link)">
+  AddBlocksTestExecutionRecord(Link)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddBlocksTestExecutionRecord(Link blocksTestExecutionRecord)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>blocksTestExecutionRecord</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_AddContributor_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddContributor*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_AddContributor_System_Uri_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddContributor(System.Uri)">
+  AddContributor(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddContributor(Uri contributor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contributor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_AddCreator_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddCreator*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_AddCreator_System_Uri_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddCreator(System.Uri)">
+  AddCreator(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddCreator(Uri creator)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>creator</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_AddDctermsType_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddDctermsType*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_AddDctermsType_System_String_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddDctermsType(System.String)">
+  AddDctermsType(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddDctermsType(string dctermsType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dctermsType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_AddImplementsRequirement_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddImplementsRequirement*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_AddImplementsRequirement_OSLC4Net_Core_Model_Link_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddImplementsRequirement(OSLC4Net.Core.Model.Link)">
+  AddImplementsRequirement(Link)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddImplementsRequirement(Link implementsRequirement)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>implementsRequirement</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_AddRdfType_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddRdfType*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_AddRdfType_System_Uri_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddRdfType(System.Uri)">
+  AddRdfType(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddRdfType(Uri rdfType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rdfType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_AddRelatedChangeRequest_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddRelatedChangeRequest*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_AddRelatedChangeRequest_OSLC4Net_Core_Model_Link_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddRelatedChangeRequest(OSLC4Net.Core.Model.Link)">
+  AddRelatedChangeRequest(Link)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddRelatedChangeRequest(Link relatedChangeRequest)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>relatedChangeRequest</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_AddRelatedResource_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddRelatedResource*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_AddRelatedResource_OSLC4Net_Core_Model_Link_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddRelatedResource(OSLC4Net.Core.Model.Link)">
+  AddRelatedResource(Link)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddRelatedResource(Link relatedResource)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>relatedResource</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_AddRelatedTestCase_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddRelatedTestCase*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_AddRelatedTestCase_OSLC4Net_Core_Model_Link_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddRelatedTestCase(OSLC4Net.Core.Model.Link)">
+  AddRelatedTestCase(Link)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddRelatedTestCase(Link relatedTestCase)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>relatedTestCase</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_AddRelatedTestExecutionRecord_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddRelatedTestExecutionRecord*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_AddRelatedTestExecutionRecord_OSLC4Net_Core_Model_Link_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddRelatedTestExecutionRecord(OSLC4Net.Core.Model.Link)">
+  AddRelatedTestExecutionRecord(Link)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddRelatedTestExecutionRecord(Link relatedTestExecutionRecord)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>relatedTestExecutionRecord</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_AddRelatedTestPlan_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddRelatedTestPlan*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_AddRelatedTestPlan_OSLC4Net_Core_Model_Link_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddRelatedTestPlan(OSLC4Net.Core.Model.Link)">
+  AddRelatedTestPlan(Link)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddRelatedTestPlan(Link relatedTestPlan)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>relatedTestPlan</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_AddRelatedTestScript_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddRelatedTestScript*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_AddRelatedTestScript_OSLC4Net_Core_Model_Link_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddRelatedTestScript(OSLC4Net.Core.Model.Link)">
+  AddRelatedTestScript(Link)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddRelatedTestScript(Link relatedTestScript)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>relatedTestScript</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_AddSubject_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddSubject*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_AddSubject_System_String_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddSubject(System.String)">
+  AddSubject(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddSubject(string subject)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>subject</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_AddTestedByTestCase_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddTestedByTestCase*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_AddTestedByTestCase_OSLC4Net_Core_Model_Link_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddTestedByTestCase(OSLC4Net.Core.Model.Link)">
+  AddTestedByTestCase(Link)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddTestedByTestCase(Link testedByTestCase)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>testedByTestCase</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_AddTracksChangeSet_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddTracksChangeSet*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_AddTracksChangeSet_OSLC4Net_Core_Model_Link_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddTracksChangeSet(OSLC4Net.Core.Model.Link)">
+  AddTracksChangeSet(Link)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddTracksChangeSet(Link tracksChangeSet)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tracksChangeSet</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_AddTracksRequirement_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddTracksRequirement*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_AddTracksRequirement_OSLC4Net_Core_Model_Link_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.AddTracksRequirement(OSLC4Net.Core.Model.Link)">
+  AddTracksRequirement(Link)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddTracksRequirement(Link tracksRequirement)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tracksRequirement</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetAffectedByDefects_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetAffectedByDefects*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetAffectedByDefects" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetAffectedByDefects">
+  GetAffectedByDefects()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Change request is affected by a reported defect.&quot;)]
+[OslcName(&quot;affectedByDefect&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#affectedByDefect&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/cm#ChangeRequest&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Affected By Defects&quot;)]
+public Link[] GetAffectedByDefects()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetAffectsPlanItems_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetAffectsPlanItems*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetAffectsPlanItems" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetAffectsPlanItems">
+  GetAffectsPlanItems()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Change request affects a plan item. &quot;)]
+[OslcName(&quot;affectsPlanItem&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#affectsPlanItem&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/cm#ChangeRequest&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Affects Plan Items&quot;)]
+public Link[] GetAffectsPlanItems()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetAffectsRequirements_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetAffectsRequirements*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetAffectsRequirements" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetAffectsRequirements">
+  GetAffectsRequirements()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L203"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Change request affecting a Requirement.&quot;)]
+[OslcName(&quot;affectsRequirement&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#affectsRequirement&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/rm#Requirement&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Affects Requirements&quot;)]
+public Link[] GetAffectsRequirements()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetAffectsTestResults_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetAffectsTestResults*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetAffectsTestResults" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetAffectsTestResults">
+  GetAffectsTestResults()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Associated QM resource that is affected by this Change Request.&quot;)]
+[OslcName(&quot;affectsTestResult&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#affectsTestResult&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/qm#TestResult&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Affects Test Results&quot;)]
+public Link[] GetAffectsTestResults()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetBlocksTestExecutionRecords_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetBlocksTestExecutionRecords*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetBlocksTestExecutionRecords" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetBlocksTestExecutionRecords">
+  GetBlocksTestExecutionRecords()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L225"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Associated QM resource that is blocked by this Change Request.&quot;)]
+[OslcName(&quot;blocksTestExecutionRecord&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#blocksTestExecutionRecord&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/qm#TestExecutionRecord&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Blocks Test Execution Records&quot;)]
+public Link[] GetBlocksTestExecutionRecords()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetCloseDate_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetCloseDate*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetCloseDate" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetCloseDate">
+  GetCloseDate()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L236"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The date at which no further activity or work is intended to be conducted. &quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#closeDate&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Close DateTime?&quot;)]
+public DateTime? GetCloseDate()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetContributors_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetContributors*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetContributors" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetContributors">
+  GetContributors()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L245"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The person(s) who are responsible for the work needed to complete the change request.&quot;)]
+[OslcName(&quot;contributor&quot;)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/contributor&quot;)]
+[OslcRange(new string[] { &quot;http://xmlns.com/foaf/0.1/Person&quot; })]
+[OslcTitle(&quot;Contributors&quot;)]
+public Uri[] GetContributors()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetCreated_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetCreated*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetCreated" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetCreated">
+  GetCreated()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Timestamp of resource creation.&quot;)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/created&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Created&quot;)]
+public DateTime? GetCreated()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetCreators_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetCreators*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetCreators" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetCreators">
+  GetCreators()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L264"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Creator or creators of resource.&quot;)]
+[OslcName(&quot;creator&quot;)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/creator&quot;)]
+[OslcRange(new string[] { &quot;http://xmlns.com/foaf/0.1/Person&quot; })]
+[OslcTitle(&quot;Creators&quot;)]
+public Uri[] GetCreators()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetDctermsTypes_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetDctermsTypes*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetDctermsTypes" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetDctermsTypes">
+  GetDctermsTypes()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L274"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcAllowedValue(new string[] { &quot;Defect&quot;, &quot;Task&quot;, &quot;Story&quot;, &quot;Bug Report&quot;, &quot;Feature Request&quot; })]
+[OslcDescription(&quot;A short string representation for the type, example &#39;Defect&#39;.&quot;)]
+[OslcName(&quot;type&quot;)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/type&quot;)]
+[OslcTitle(&quot;Types&quot;)]
+public string[] GetDctermsTypes()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetDescription_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetDescription*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetDescription" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetDescription">
+  GetDescription()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L293"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Descriptive text (reference: Dublin Core) about resource represented as rich text in XHTML content.&quot;)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/description&quot;)]
+[OslcTitle(&quot;Description&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+public string GetDescription()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetDiscussedBy_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetDiscussedBy*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetDiscussedBy" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetDiscussedBy">
+  GetDiscussedBy()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L302"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A series of notes and comments about this change request.&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#discussedBy&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Discussion&quot; })]
+[OslcTitle(&quot;Discussed By&quot;)]
+public Uri GetDiscussedBy()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetIdentifier_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetIdentifier*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetIdentifier" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetIdentifier">
+  GetIdentifier()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L311"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A unique identifier for a resource. Assigned by the service provider when a resource is created. Not intended for end-user display.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/identifier&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Identifier&quot;)]
+public string GetIdentifier()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetImplementsRequirements_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetImplementsRequirements*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetImplementsRequirements" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetImplementsRequirements">
+  GetImplementsRequirements()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L321"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Implements associated Requirement.&quot;)]
+[OslcName(&quot;implementsRequirement&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#implementsRequirement&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/rm#Requirement&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Implements Requirements&quot;)]
+public Link[] GetImplementsRequirements()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetInstanceShape_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetInstanceShape*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetInstanceShape" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetInstanceShape">
+  GetInstanceShape()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L332"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Resource Shape that provides hints as to resource property value-types and allowed values. &quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#instanceShape&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#ResourceShape&quot; })]
+[OslcTitle(&quot;Instance Shape&quot;)]
+public Uri GetInstanceShape()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetModified_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetModified*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetModified" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetModified">
+  GetModified()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L341"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Timestamp last latest resource modification.&quot;)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/modified&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Modified&quot;)]
+public DateTime? GetModified()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetRdfTypes_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetRdfTypes*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetRdfTypes" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetRdfTypes">
+  GetRdfTypes()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L354"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public Uri[] GetRdfTypes()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetRelatedChangeRequests_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetRelatedChangeRequests*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetRelatedChangeRequests" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetRelatedChangeRequests">
+  GetRelatedChangeRequests()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L360"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;This relationship is loosely coupled and has no specific meaning.&quot;)]
+[OslcName(&quot;relatedChangeRequest&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#relatedChangeRequest&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/cm#ChangeRequest&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Related Change Requests&quot;)]
+public Link[] GetRelatedChangeRequests()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetRelatedResources_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetRelatedResources*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetRelatedResources" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetRelatedResources">
+  GetRelatedResources()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L371"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Related OSLC resources of any type.&quot;)]
+[OslcName(&quot;relatedResource&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#relatedResource&quot;)]
+[OslcTitle(&quot;Related Resources&quot;)]
+public Link[] GetRelatedResources()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetRelatedTestCases_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetRelatedTestCases*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetRelatedTestCases" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetRelatedTestCases">
+  GetRelatedTestCases()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L380"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Related QM test case resource.&quot;)]
+[OslcName(&quot;relatedTestCase&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#relatedTestCase&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/qm#TestCase&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Related Test Cases&quot;)]
+public Link[] GetRelatedTestCases()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetRelatedTestExecutionRecords_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetRelatedTestExecutionRecords*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetRelatedTestExecutionRecords" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetRelatedTestExecutionRecords">
+  GetRelatedTestExecutionRecords()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L391"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Related to a QM test execution resource.&quot;)]
+[OslcName(&quot;relatedTestExecutionRecord&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#relatedTestExecutionRecord&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/qm#TestExecutionRecord&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Related Test Execution Records&quot;)]
+public Link[] GetRelatedTestExecutionRecords()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetRelatedTestPlans_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetRelatedTestPlans*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetRelatedTestPlans" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetRelatedTestPlans">
+  GetRelatedTestPlans()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L402"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Related QM test plan resource.&quot;)]
+[OslcName(&quot;relatedTestPlan&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#relatedTestPlan&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/qm#TestPlan&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Related Test Plans&quot;)]
+public Link[] GetRelatedTestPlans()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetRelatedTestScripts_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetRelatedTestScripts*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetRelatedTestScripts" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetRelatedTestScripts">
+  GetRelatedTestScripts()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L413"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Related QM test script resource.&quot;)]
+[OslcName(&quot;relatedTestScript&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#relatedTestScript&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/qm#TestScript&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Related Test Scripts&quot;)]
+public Link[] GetRelatedTestScripts()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetServiceProvider_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetServiceProvider*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetServiceProvider" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetServiceProvider">
+  GetServiceProvider()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L424"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The scope of a resource is a Uri for the resource&#39;s OSLC Service Provider.&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#serviceProvider&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#ServiceProvider&quot; })]
+[OslcTitle(&quot;Service Provider&quot;)]
+public Uri GetServiceProvider()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetSeverity_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetSeverity*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetSeverity" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetSeverity">
+  GetSeverity()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L433"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcAllowedValue(new string[] { &quot;Unclassified&quot;, &quot;Minor&quot;, &quot;Normal&quot;, &quot;Major&quot;, &quot;Critical&quot;, &quot;Blocker&quot; })]
+[OslcDescription(&quot;Severity of change request.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#severity&quot;)]
+[OslcTitle(&quot;Severity&quot;)]
+public string GetSeverity()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetShortTitle_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetShortTitle*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetShortTitle" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetShortTitle">
+  GetShortTitle()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L443"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Short name identifying a resource, often used as an abbreviated identifier for presentation to end-users.&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#shortTitle&quot;)]
+[OslcTitle(&quot;Short Title&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+public string GetShortTitle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetStatus_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetStatus*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetStatus" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetStatus">
+  GetStatus()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L452"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Used to indicate the status of the change request based on values defined by the service provider. Most often a read-only property. Some possible values may include: &#39;Submitted&#39;, &#39;Done&#39;, &#39;InProgress&#39;, etc.&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#status&quot;)]
+[OslcTitle(&quot;Status&quot;)]
+public string GetStatus()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetSubjects_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetSubjects*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetSubjects" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetSubjects">
+  GetSubjects()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L460"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Tag or keyword for a resource. Each occurrence of a dcterms:subject property denotes an additional tag for the resource.&quot;)]
+[OslcName(&quot;subject&quot;)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/subject&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Subjects&quot;)]
+public string[] GetSubjects()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetTestedByTestCases_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetTestedByTestCases*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetTestedByTestCases" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetTestedByTestCases">
+  GetTestedByTestCases()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L470"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Test case by which this change request is tested.&quot;)]
+[OslcName(&quot;testedByTestCase&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#testedByTestCase&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/qm#TestCase&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Tested by Test Cases&quot;)]
+public Link[] GetTestedByTestCases()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetTitle_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetTitle*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetTitle" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetTitle">
+  GetTitle()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L481"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Title (reference: Dublin Core) or often a single line summary of the resource represented as rich text in XHTML content.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/title&quot;)]
+[OslcTitle(&quot;Title&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+public string GetTitle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetTracksChangeSets_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetTracksChangeSets*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetTracksChangeSets" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetTracksChangeSets">
+  GetTracksChangeSets()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L491"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Tracks SCM change set resource.&quot;)]
+[OslcName(&quot;tracksChangeSet&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#tracksChangeSet&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/scm#ChangeSet&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Tracks Change Sets&quot;)]
+public Link[] GetTracksChangeSets()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_GetTracksRequirements_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetTracksRequirements*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_GetTracksRequirements" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.GetTracksRequirements">
+  GetTracksRequirements()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L502"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Tracks the associated Requirement or Requirement ChangeSet resources.&quot;)]
+[OslcName(&quot;tracksRequirement&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#tracksRequirement&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/rm#Requirement&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Tracks Requirements&quot;)]
+public Link[] GetTracksRequirements()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_IsApproved_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.IsApproved*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_IsApproved" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.IsApproved">
+  IsApproved()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L513"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether or not the Change Request has been approved.&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#approved&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Approved&quot;)]
+public bool? IsApproved()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_IsClosed_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.IsClosed*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_IsClosed" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.IsClosed">
+  IsClosed()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L522"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether or not the Change Request is completely done, no further fixes or fix verification is needed.&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#closed&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Closed&quot;)]
+public bool? IsClosed()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_IsFixed_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.IsFixed*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_IsFixed" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.IsFixed">
+  IsFixed()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L531"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether or not the Change Request has been fixed.&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#fixed&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Fixed&quot;)]
+public bool? IsFixed()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_IsInProgress_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.IsInProgress*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_IsInProgress" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.IsInProgress">
+  IsInProgress()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L540"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether or not the Change Request in a state indicating that active work is occurring. If oslc_cm:inprogress is true, then oslc_cm:fixed and oslc_cm:closed must also be false.&quot;)]
+[OslcName(&quot;inprogress&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#inprogress&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;In] Progress&quot;)]
+public bool? IsInProgress()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_IsReviewed_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.IsReviewed*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_IsReviewed" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.IsReviewed">
+  IsReviewed()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L550"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether or not the Change Request has been reviewed.&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#reviewed&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Reviewed&quot;)]
+public bool? IsReviewed()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_IsVerified_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.IsVerified*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_IsVerified" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.IsVerified">
+  IsVerified()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L559"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether or not the resolution or fix of the Change Request has been verified.&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#verified&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Verified&quot;)]
+public bool? IsVerified()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetAffectedByDefects_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetAffectedByDefects*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetAffectedByDefects_OSLC4Net_Core_Model_Link___" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetAffectedByDefects(OSLC4Net.Core.Model.Link[])">
+  SetAffectedByDefects(Link[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L568"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAffectedByDefects(Link[] affectedByDefects)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>affectedByDefects</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetAffectsPlanItems_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetAffectsPlanItems*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetAffectsPlanItems_OSLC4Net_Core_Model_Link___" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetAffectsPlanItems(OSLC4Net.Core.Model.Link[])">
+  SetAffectsPlanItems(Link[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L578"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAffectsPlanItems(Link[] affectsPlanItems)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>affectsPlanItems</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetAffectsRequirements_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetAffectsRequirements*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetAffectsRequirements_OSLC4Net_Core_Model_Link___" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetAffectsRequirements(OSLC4Net.Core.Model.Link[])">
+  SetAffectsRequirements(Link[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L588"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAffectsRequirements(Link[] affectsRequirements)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>affectsRequirements</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetAffectsTestResults_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetAffectsTestResults*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetAffectsTestResults_OSLC4Net_Core_Model_Link___" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetAffectsTestResults(OSLC4Net.Core.Model.Link[])">
+  SetAffectsTestResults(Link[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L598"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAffectsTestResults(Link[] affectsTestResults)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>affectsTestResults</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetApproved_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetApproved*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetApproved_System_Nullable_System_Boolean__" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetApproved(System.Nullable{System.Boolean})">
+  SetApproved(bool?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L608"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetApproved(bool? approved)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>approved</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetBlocksTestExecutionRecords_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetBlocksTestExecutionRecords*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetBlocksTestExecutionRecords_OSLC4Net_Core_Model_Link___" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetBlocksTestExecutionRecords(OSLC4Net.Core.Model.Link[])">
+  SetBlocksTestExecutionRecords(Link[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L613"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBlocksTestExecutionRecords(Link[] blocksTestExecutionRecords)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>blocksTestExecutionRecords</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetCloseDate_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetCloseDate*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetCloseDate_System_Nullable_System_DateTime__" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetCloseDate(System.Nullable{System.DateTime})">
+  SetCloseDate(DateTime?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L628"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCloseDate(DateTime? closeDate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>closeDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetClosed_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetClosed*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetClosed_System_Nullable_System_Boolean__" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetClosed(System.Nullable{System.Boolean})">
+  SetClosed(bool?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L623"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetClosed(bool? closed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>closed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetContributors_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetContributors*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetContributors_System_Uri___" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetContributors(System.Uri[])">
+  SetContributors(Uri[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L633"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetContributors(Uri[] contributors)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contributors</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetCreated_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetCreated*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetCreated_System_Nullable_System_DateTime__" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetCreated(System.Nullable{System.DateTime})">
+  SetCreated(DateTime?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L643"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCreated(DateTime? created)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>created</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetCreators_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetCreators*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetCreators_System_Uri___" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetCreators(System.Uri[])">
+  SetCreators(Uri[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L648"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCreators(Uri[] creators)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>creators</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetDctermsTypes_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetDctermsTypes*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetDctermsTypes_System_String___" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetDctermsTypes(System.String[])">
+  SetDctermsTypes(string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L658"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDctermsTypes(string[] dctermsTypes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dctermsTypes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetDescription_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetDescription*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetDescription_System_String_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetDescription(System.String)">
+  SetDescription(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L671"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDescription(string description)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>description</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetDiscussedBy_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetDiscussedBy*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetDiscussedBy_System_Uri_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetDiscussedBy(System.Uri)">
+  SetDiscussedBy(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L676"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDiscussedBy(Uri discussedBy)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>discussedBy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetFixed_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetFixed*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetFixed_System_Nullable_System_Boolean__" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetFixed(System.Nullable{System.Boolean})">
+  SetFixed(bool?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L681"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFixed(bool? isFixed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>isFixed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetIdentifier_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetIdentifier*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetIdentifier_System_String_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetIdentifier(System.String)">
+  SetIdentifier(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L686"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetIdentifier(string identifier)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>identifier</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetImplementsRequirements_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetImplementsRequirements*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetImplementsRequirements_OSLC4Net_Core_Model_Link___" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetImplementsRequirements(OSLC4Net.Core.Model.Link[])">
+  SetImplementsRequirements(Link[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L691"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetImplementsRequirements(Link[] implementsRequirements)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>implementsRequirements</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetInProgress_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetInProgress*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetInProgress_System_Nullable_System_Boolean__" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetInProgress(System.Nullable{System.Boolean})">
+  SetInProgress(bool?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L701"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetInProgress(bool? inProgress)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inProgress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetInstanceShape_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetInstanceShape*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetInstanceShape_System_Uri_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetInstanceShape(System.Uri)">
+  SetInstanceShape(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L706"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetInstanceShape(Uri instanceShape)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instanceShape</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetModified_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetModified*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetModified_System_Nullable_System_DateTime__" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetModified(System.Nullable{System.DateTime})">
+  SetModified(DateTime?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L711"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetModified(DateTime? modified)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>modified</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetRdfTypes_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetRdfTypes*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetRdfTypes_System_Uri___" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetRdfTypes(System.Uri[])">
+  SetRdfTypes(Uri[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L716"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void SetRdfTypes(Uri[] rdfTypes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rdfTypes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetRelatedChangeRequests_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetRelatedChangeRequests*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetRelatedChangeRequests_OSLC4Net_Core_Model_Link___" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetRelatedChangeRequests(OSLC4Net.Core.Model.Link[])">
+  SetRelatedChangeRequests(Link[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L722"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRelatedChangeRequests(Link[] relatedChangeRequests)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>relatedChangeRequests</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetRelatedResources_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetRelatedResources*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetRelatedResources_OSLC4Net_Core_Model_Link___" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetRelatedResources(OSLC4Net.Core.Model.Link[])">
+  SetRelatedResources(Link[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L732"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRelatedResources(Link[] relatedResources)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>relatedResources</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetRelatedTestCases_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetRelatedTestCases*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetRelatedTestCases_OSLC4Net_Core_Model_Link___" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetRelatedTestCases(OSLC4Net.Core.Model.Link[])">
+  SetRelatedTestCases(Link[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L742"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRelatedTestCases(Link[] relatedTestCases)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>relatedTestCases</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetRelatedTestExecutionRecords_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetRelatedTestExecutionRecords*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetRelatedTestExecutionRecords_OSLC4Net_Core_Model_Link___" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetRelatedTestExecutionRecords(OSLC4Net.Core.Model.Link[])">
+  SetRelatedTestExecutionRecords(Link[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L752"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRelatedTestExecutionRecords(Link[] relatedTestExecutionRecords)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>relatedTestExecutionRecords</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetRelatedTestPlans_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetRelatedTestPlans*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetRelatedTestPlans_OSLC4Net_Core_Model_Link___" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetRelatedTestPlans(OSLC4Net.Core.Model.Link[])">
+  SetRelatedTestPlans(Link[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L762"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRelatedTestPlans(Link[] relatedTestPlans)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>relatedTestPlans</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetRelatedTestScripts_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetRelatedTestScripts*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetRelatedTestScripts_OSLC4Net_Core_Model_Link___" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetRelatedTestScripts(OSLC4Net.Core.Model.Link[])">
+  SetRelatedTestScripts(Link[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L772"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRelatedTestScripts(Link[] relatedTestScripts)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>relatedTestScripts</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetReviewed_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetReviewed*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetReviewed_System_Nullable_System_Boolean__" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetReviewed(System.Nullable{System.Boolean})">
+  SetReviewed(bool?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L782"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetReviewed(bool? reviewed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reviewed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetServiceProvider_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetServiceProvider*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetServiceProvider_System_Uri_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetServiceProvider(System.Uri)">
+  SetServiceProvider(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L787"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetServiceProvider(Uri serviceProvider)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>serviceProvider</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetSeverity_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetSeverity*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetSeverity_System_String_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetSeverity(System.String)">
+  SetSeverity(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L792"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSeverity(string severity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>severity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetShortTitle_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetShortTitle*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetShortTitle_System_String_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetShortTitle(System.String)">
+  SetShortTitle(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L797"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetShortTitle(string shortTitle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>shortTitle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetStatus_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetStatus*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetStatus_System_String_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetStatus(System.String)">
+  SetStatus(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L802"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetStatus(string status)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>status</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetSubjects_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetSubjects*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetSubjects_System_String___" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetSubjects(System.String[])">
+  SetSubjects(string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L807"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSubjects(string[] subjects)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>subjects</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetTestedByTestCases_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetTestedByTestCases*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetTestedByTestCases_OSLC4Net_Core_Model_Link___" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetTestedByTestCases(OSLC4Net.Core.Model.Link[])">
+  SetTestedByTestCases(Link[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L817"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTestedByTestCases(Link[] testedByTestCases)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>testedByTestCases</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetTitle_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetTitle*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetTitle_System_String_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetTitle(System.String)">
+  SetTitle(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L827"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTitle(string title)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetTracksChangeSets_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetTracksChangeSets*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetTracksChangeSets_OSLC4Net_Core_Model_Link___" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetTracksChangeSets(OSLC4Net.Core.Model.Link[])">
+  SetTracksChangeSets(Link[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L832"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTracksChangeSets(Link[] tracksChangeSets)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tracksChangeSets</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetTracksRequirements_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetTracksRequirements*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetTracksRequirements_OSLC4Net_Core_Model_Link___" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetTracksRequirements(OSLC4Net.Core.Model.Link[])">
+  SetTracksRequirements(Link[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L842"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTracksRequirements(Link[] tracksRequirements)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tracksRequirements</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_ChangeManagement_ChangeRequest_SetVerified_" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetVerified*"></a>
+
+  <h3 id="OSLC4Net_ChangeManagement_ChangeRequest_SetVerified_System_Nullable_System_Boolean__" data-uid="OSLC4Net.ChangeManagement.ChangeRequest.SetVerified(System.Nullable{System.Boolean})">
+  SetVerified(bool?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L852"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetVerified(bool? verified)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>verified</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.ChangeManagement/ChangeRequest.cs/#L25" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <script defer src="https://umami.open-services.net/script.js" data-website-id="058571d1-b69b-4b21-a24a-2cc26e4eb3e1"></script>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

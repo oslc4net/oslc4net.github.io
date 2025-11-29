@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AbstractResource | OSLC4Net </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AbstractResource | OSLC4Net ">
+      
+      <meta name="description" content="This class represents and abstract OSLC resource.  It is normally the parent class for concrete OSLC resource types. See the ChangeMangement.cs objec in the ChangeManagementCommon project">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_Core_Model_AbstractResource.md&amp;value=---%0Auid%3A%20OSLC4Net.Core.Model.AbstractResource%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo_docfx.png" alt="OSLC4Net">
+            OSLC4Net
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="OSLC4Net.Core.Model.AbstractResource">
+
+
+
+  <h1 id="OSLC4Net_Core_Model_AbstractResource" data-uid="OSLC4Net.Core.Model.AbstractResource" class="text-break">
+Class AbstractResource  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AbstractResource.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="OSLC4Net.html">OSLC4Net</a>.<a class="xref" href="OSLC4Net.Core.html">Core</a>.<a class="xref" href="OSLC4Net.Core.Model.html">Model</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>OSLC4Net.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>This class represents and abstract OSLC resource.  It is normally the parent class for concrete
+OSLC resource types.
+See the ChangeMangement.cs objec in the ChangeManagementCommon project</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class AbstractResource : IExtendedResource, IResource</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">AbstractResource</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IExtendedResource.html">IExtendedResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="OSLC4Net.ChangeManagement.ChangeRequest.html">ChangeRequest</a></div>
+      <div><a class="xref" href="OSLC4Net.Client.Oslc.Resources.ArchitectureLinkType.html">ArchitectureLinkType</a></div>
+      <div><a class="xref" href="OSLC4Net.Client.Oslc.Resources.ArchitectureResource.html">ArchitectureResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Client.Oslc.Resources.AutomationPlan.html">AutomationPlan</a></div>
+      <div><a class="xref" href="OSLC4Net.Client.Oslc.Resources.AutomationRequest.html">AutomationRequest</a></div>
+      <div><a class="xref" href="OSLC4Net.Client.Oslc.Resources.AutomationResult.html">AutomationResult</a></div>
+      <div><a class="xref" href="OSLC4Net.Client.Oslc.Resources.ChangeRequest.html">ChangeRequest</a></div>
+      <div><a class="xref" href="OSLC4Net.Client.Oslc.Resources.ParameterInstance.html">ParameterInstance</a></div>
+      <div><a class="xref" href="OSLC4Net.Client.Oslc.Resources.QmResource.html">QmResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html">RequirementBase</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.AnyResource.html">AnyResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.Compact.html">Compact</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.CreationFactory.html">CreationFactory</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.Dialog.html">Dialog</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.OAuthConfiguration.html">OAuthConfiguration</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.PrefixDefinition.html">PrefixDefinition</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.Preview.html">Preview</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.Property.html">Property</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.Publisher.html">Publisher</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.QueryCapability.html">QueryCapability</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.ResourceShape.html">ResourceShape</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.Service.html">Service</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.ServiceProvider.html">ServiceProvider</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.ServiceProviderCatalog.html">ServiceProviderCatalog</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Core_Model_AbstractResource__ctor_" data-uid="OSLC4Net.Core.Model.AbstractResource.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_AbstractResource__ctor" data-uid="OSLC4Net.Core.Model.AbstractResource.#ctor">
+  AbstractResource()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AbstractResource.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AbstractResource()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_AbstractResource__ctor_" data-uid="OSLC4Net.Core.Model.AbstractResource.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_AbstractResource__ctor_System_Uri_" data-uid="OSLC4Net.Core.Model.AbstractResource.#ctor(System.Uri)">
+  AbstractResource(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AbstractResource.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AbstractResource(Uri about)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>about</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="OSLC4Net_Core_Model_AbstractResource_About_" data-uid="OSLC4Net.Core.Model.AbstractResource.About*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_AbstractResource_About" data-uid="OSLC4Net.Core.Model.AbstractResource.About">
+  About
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AbstractResource.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Uri About { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="OSLC4Net_Core_Model_AbstractResource_AddType_" data-uid="OSLC4Net.Core.Model.AbstractResource.AddType*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_AbstractResource_AddType_System_Uri_" data-uid="OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)">
+  AddType(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AbstractResource.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add an additional RDF type</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddType(Uri type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_AbstractResource_GetAbout_" data-uid="OSLC4Net.Core.Model.AbstractResource.GetAbout*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_AbstractResource_GetAbout" data-uid="OSLC4Net.Core.Model.AbstractResource.GetAbout">
+  GetAbout()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AbstractResource.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get the subject URI</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Uri GetAbout()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_AbstractResource_GetExtendedProperties_" data-uid="OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_AbstractResource_GetExtendedProperties" data-uid="OSLC4Net.Core.Model.AbstractResource.GetExtendedProperties">
+  GetExtendedProperties()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AbstractResource.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get all extended properties</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDictionary&lt;QName, object&gt; GetExtendedProperties()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="OSLC4Net.Core.Model.QName.html">QName</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_AbstractResource_GetTypes_" data-uid="OSLC4Net.Core.Model.AbstractResource.GetTypes*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_AbstractResource_GetTypes" data-uid="OSLC4Net.Core.Model.AbstractResource.GetTypes">
+  GetTypes()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AbstractResource.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get the RDF types</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The resource type URIs.&quot;)]
+[OslcName(&quot;type&quot;)]
+[OslcPropertyDefinition(&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&quot;)]
+[OslcTitle(&quot;Types&quot;)]
+public ICollection&lt;Uri&gt; GetTypes()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_AbstractResource_SetAbout_" data-uid="OSLC4Net.Core.Model.AbstractResource.SetAbout*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_AbstractResource_SetAbout_System_Uri_" data-uid="OSLC4Net.Core.Model.AbstractResource.SetAbout(System.Uri)">
+  SetAbout(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AbstractResource.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set the subject URI</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAbout(Uri about)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>about</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_AbstractResource_SetExtendedProperties_" data-uid="OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_AbstractResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__" data-uid="OSLC4Net.Core.Model.AbstractResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})">
+  SetExtendedProperties(IDictionary&lt;QName, object&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AbstractResource.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetExtendedProperties(IDictionary&lt;QName, object&gt; properties)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>properties</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="OSLC4Net.Core.Model.QName.html">QName</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_AbstractResource_SetTypes_" data-uid="OSLC4Net.Core.Model.AbstractResource.SetTypes*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_AbstractResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__" data-uid="OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})">
+  SetTypes(ICollection&lt;Uri&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AbstractResource.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set the RDF types</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTypes(ICollection&lt;Uri&gt; types)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>types</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AbstractResource.cs/#L25" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <script defer src="https://umami.open-services.net/script.js" data-website-id="058571d1-b69b-4b21-a24a-2cc26e4eb3e1"></script>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

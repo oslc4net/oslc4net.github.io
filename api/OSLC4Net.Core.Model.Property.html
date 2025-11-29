@@ -1,0 +1,1544 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Property | OSLC4Net </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Property | OSLC4Net ">
+      
+      <meta name="description" content="OSLC Property attributes">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_Core_Model_Property.md&amp;value=---%0Auid%3A%20OSLC4Net.Core.Model.Property%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo_docfx.png" alt="OSLC4Net">
+            OSLC4Net
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="OSLC4Net.Core.Model.Property">
+
+
+
+  <h1 id="OSLC4Net_Core_Model_Property" data-uid="OSLC4Net.Core.Model.Property" class="text-break">
+Class Property  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="OSLC4Net.html">OSLC4Net</a>.<a class="xref" href="OSLC4Net.Core.html">Core</a>.<a class="xref" href="OSLC4Net.Core.Model.html">Model</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>OSLC4Net.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>OSLC Property attributes</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcNamespace(&quot;http://open-services.net/ns/core#&quot;)]
+public sealed class Property : AbstractResource, IExtendedResource, IResource, IComparable&lt;Property&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html">AbstractResource</a></div>
+      <div><span class="xref">Property</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IExtendedResource.html">IExtendedResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icomparable-1">IComparable</a>&lt;<a class="xref" href="OSLC4Net.Core.Model.Property.html">Property</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_About">AbstractResource.About</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetAbout">AbstractResource.GetAbout()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetAbout_System_Uri_">AbstractResource.SetAbout(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__">AbstractResource.SetExtendedProperties(IDictionary&lt;QName, object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetExtendedProperties">AbstractResource.GetExtendedProperties()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetTypes">AbstractResource.GetTypes()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__">AbstractResource.SetTypes(ICollection&lt;Uri&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_AddType_System_Uri_">AbstractResource.AddType(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="OSLC4Net_Core_Model_Property_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>See <a href="http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA">http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA</a></p>
+</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Core_Model_Property__ctor_" data-uid="OSLC4Net.Core.Model.Property.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property__ctor" data-uid="OSLC4Net.Core.Model.Property.#ctor">
+  Property()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Property()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property__ctor_" data-uid="OSLC4Net.Core.Model.Property.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property__ctor_System_String_OSLC4Net_Core_Model_Occurs_System_Uri_OSLC4Net_Core_Model_ValueType_" data-uid="OSLC4Net.Core.Model.Property.#ctor(System.String,OSLC4Net.Core.Model.Occurs,System.Uri,OSLC4Net.Core.Model.ValueType)">
+  Property(string, Occurs, Uri, ValueType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Property(string name, Occurs occurs, Uri propertyDefinition, ValueType valueType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>occurs</code> <a class="xref" href="OSLC4Net.Core.Model.Occurs.html">Occurs</a></dt>
+    <dd></dd>
+    <dt><code>propertyDefinition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+    <dt><code>valueType</code> <a class="xref" href="OSLC4Net.Core.Model.ValueType.html">ValueType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="OSLC4Net_Core_Model_Property_AddAllowedValue_" data-uid="OSLC4Net.Core.Model.Property.AddAllowedValue*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_AddAllowedValue_System_String_" data-uid="OSLC4Net.Core.Model.Property.AddAllowedValue(System.String)">
+  AddAllowedValue(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddAllowedValue(string allowedValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>allowedValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_AddRange_" data-uid="OSLC4Net.Core.Model.Property.AddRange*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_AddRange_System_Uri_" data-uid="OSLC4Net.Core.Model.Property.AddRange(System.Uri)">
+  AddRange(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddRange(Uri range)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_CompareTo_" data-uid="OSLC4Net.Core.Model.Property.CompareTo*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_CompareTo_OSLC4Net_Core_Model_Property_" data-uid="OSLC4Net.Core.Model.Property.CompareTo(OSLC4Net.Core.Model.Property)">
+  CompareTo(Property)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CompareTo(Property o)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>o</code> <a class="xref" href="OSLC4Net.Core.Model.Property.html">Property</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_GetAllowedValues_" data-uid="OSLC4Net.Core.Model.Property.GetAllowedValues*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_GetAllowedValues" data-uid="OSLC4Net.Core.Model.Property.GetAllowedValues">
+  GetAllowedValues()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A value allowed for property, inlined into property definition. If there are both oslc:allowedValue elements and an oslc:allowedValue resource, then the full-set of allowed values is the union of both&quot;)]
+[OslcName(&quot;allowedValue&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#allowedValue&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Allowed Values&quot;)]
+public string[] GetAllowedValues()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_GetAllowedValuesRef_" data-uid="OSLC4Net.Core.Model.Property.GetAllowedValuesRef*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_GetAllowedValuesRef" data-uid="OSLC4Net.Core.Model.Property.GetAllowedValuesRef">
+  GetAllowedValuesRef()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Resource with allowed values for the property being defined&quot;)]
+[OslcName(&quot;allowedValues&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#allowedValues&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#AllowedValues&quot; })]
+[OslcReadOnly]
+[OslcTitle(&quot;Allowed Value Reference&quot;)]
+[OslcValueShape(&quot;resourceShapes/allowedValues&quot;)]
+public Uri GetAllowedValuesRef()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_GetDefaultValue_" data-uid="OSLC4Net.Core.Model.Property.GetDefaultValue*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_GetDefaultValue" data-uid="OSLC4Net.Core.Model.Property.GetDefaultValue">
+  GetDefaultValue()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A default value for property, inlined into property definition&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#defaultValue&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Default Value&quot;)]
+public string GetDefaultValue()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_GetDescription_" data-uid="OSLC4Net.Core.Model.Property.GetDescription*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_GetDescription" data-uid="OSLC4Net.Core.Model.Property.GetDescription">
+  GetDescription()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Description of the property. SHOULD include only content that is valid and suitable inside an XHTML &lt;div&gt; element&quot;)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/description&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Description&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+public string GetDescription()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_GetName_" data-uid="OSLC4Net.Core.Model.Property.GetName*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_GetName" data-uid="OSLC4Net.Core.Model.Property.GetName">
+  GetName()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Name of property being defined, i.e. second part of property&#39;s Prefixed Name&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#name&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Name&quot;)]
+public string GetName()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_GetOccurs_" data-uid="OSLC4Net.Core.Model.Property.GetOccurs*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_GetOccurs" data-uid="OSLC4Net.Core.Model.Property.GetOccurs">
+  GetOccurs()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcAllowedValue(new string[] { &quot;http://open-services.net/ns/core#Exactly-one&quot;, &quot;http://open-services.net/ns/core#Zero-or-one&quot;, &quot;http://open-services.net/ns/core#Zero-or-many&quot;, &quot;http://open-services.net/ns/core#One-or-many&quot; })]
+[OslcDescription(&quot;MUST be either http://open-services.net/ns/core#Exactly-one, http://open-services.net/ns/core#Zero-or-one, http://open-services.net/ns/core#Zero-or-many or http://open-services.net/ns/core#One-or-many&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#occurs&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Occurs&quot;)]
+public Uri? GetOccurs()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_GetPropertyDefinition_" data-uid="OSLC4Net.Core.Model.Property.GetPropertyDefinition*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_GetPropertyDefinition" data-uid="OSLC4Net.Core.Model.Property.GetPropertyDefinition">
+  GetPropertyDefinition()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Uri of the property whose usage is being described&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#propertyDefinition&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Property Definition&quot;)]
+public Uri GetPropertyDefinition()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_GetRange_" data-uid="OSLC4Net.Core.Model.Property.GetRange*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_GetRange" data-uid="OSLC4Net.Core.Model.Property.GetRange">
+  GetRange()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;For properties with a resource value-type, Providers MAY also specify the range of possible resource classes allowed, each specified by Uri. The default range is http://open-services.net/ns/core#Any&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#range&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Ranges&quot;)]
+public Uri[] GetRange()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_GetRepresentation_" data-uid="OSLC4Net.Core.Model.Property.GetRepresentation*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_GetRepresentation" data-uid="OSLC4Net.Core.Model.Property.GetRepresentation">
+  GetRepresentation()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcAllowedValue(new string[] { &quot;http://open-services.net/ns/core#Reference&quot;, &quot;http://open-services.net/ns/core#Inline&quot;, &quot;http://open-services.net/ns/core#Either&quot; })]
+[OslcDescription(&quot;Should be http://open-services.net/ns/core#Reference, http://open-services.net/ns/core#Inline or http://open-services.net/ns/core#Either&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#representation&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Representation&quot;)]
+public Uri? GetRepresentation()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_GetTitle_" data-uid="OSLC4Net.Core.Model.Property.GetTitle*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_GetTitle" data-uid="OSLC4Net.Core.Model.Property.GetTitle">
+  GetTitle()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L215"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Title of the property. SHOULD include only content that is valid and suitable inside an XHTML &lt;div&gt; element&quot;)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/title&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Title&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+public string GetTitle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_GetValueShape_" data-uid="OSLC4Net.Core.Model.Property.GetValueShape*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_GetValueShape" data-uid="OSLC4Net.Core.Model.Property.GetValueShape">
+  GetValueShape()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;if the value-type is a resource type, then Property MAY provide a shape value to indicate the Resource Shape that applies to the resource&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#valueShape&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#ResourceShape&quot; })]
+[OslcReadOnly]
+[OslcTitle(&quot;Value Shape&quot;)]
+public Uri GetValueShape()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_GetValueType_" data-uid="OSLC4Net.Core.Model.Property.GetValueType*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_GetValueType" data-uid="OSLC4Net.Core.Model.Property.GetValueType">
+  GetValueType()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L237"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcAllowedValue(new string[] { &quot;http://www.w3.org/2001/XMLSchema#boolean&quot;, &quot;http://www.w3.org/2001/XMLSchema#dateTime&quot;, &quot;http://www.w3.org/2001/XMLSchema#decimal&quot;, &quot;http://www.w3.org/2001/XMLSchema#double&quot;, &quot;http://www.w3.org/2001/XMLSchema#float&quot;, &quot;http://www.w3.org/2001/XMLSchema#integer&quot;, &quot;http://www.w3.org/2001/XMLSchema#string&quot;, &quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral&quot;, &quot;http://open-services.net/ns/core#Resource&quot;, &quot;http://open-services.net/ns/core#LocalResource&quot;, &quot;http://open-services.net/ns/core#AnyResource&quot; })]
+[OslcDescription(&quot;See list of allowed values for oslc:valueType&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#valueType&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Value Type&quot;)]
+public Uri? GetValueType()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_IsHidden_" data-uid="OSLC4Net.Core.Model.Property.IsHidden*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_IsHidden" data-uid="OSLC4Net.Core.Model.Property.IsHidden">
+  IsHidden()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L271"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A hint that indicates that property MAY be hidden when presented in a user interface&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#hidden&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Hidden&quot;)]
+public bool IsHidden()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_IsMemberProperty_" data-uid="OSLC4Net.Core.Model.Property.IsMemberProperty*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_IsMemberProperty" data-uid="OSLC4Net.Core.Model.Property.IsMemberProperty">
+  IsMemberProperty()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L281"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;If set to true, this indicates that the property is a membership property, as described in the Query Syntax Specification: Member List Patterns. This is useful when the resource whose shape is being defined is viewed as a container of other resources. For example, look at the last example in Appendix B&#39;s RDF/XML Representation Examples: Specifying the shape of a query result, where blog:comment is defined as a membership property and comment that matches the query is returned as value of that property.&quot;)]
+[OslcName(&quot;isMemberProperty&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#isMemberProperty&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Is Member Property&quot;)]
+public bool IsMemberProperty()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_IsReadOnly_" data-uid="OSLC4Net.Core.Model.Property.IsReadOnly*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_IsReadOnly" data-uid="OSLC4Net.Core.Model.Property.IsReadOnly">
+  IsReadOnly()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L292"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;true if the property is read-only. If not set, or set to false, then the property is writable. Providers SHOULD declare a property read-only when changes to the value of that property will not be accepted on PUT. Consumers should note that the converse does not apply: Providers MAY reject a change to the value of a writable property.&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#readOnly&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Read Only&quot;)]
+public bool IsReadOnly()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_SetAllowedValues_" data-uid="OSLC4Net.Core.Model.Property.SetAllowedValues*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_SetAllowedValues_System_String___" data-uid="OSLC4Net.Core.Model.Property.SetAllowedValues(System.String[])">
+  SetAllowedValues(string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L302"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAllowedValues(string[] allowedValues)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>allowedValues</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_SetAllowedValuesRef_" data-uid="OSLC4Net.Core.Model.Property.SetAllowedValuesRef*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_SetAllowedValuesRef_System_Uri_" data-uid="OSLC4Net.Core.Model.Property.SetAllowedValuesRef(System.Uri)">
+  SetAllowedValuesRef(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L314"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAllowedValuesRef(Uri allowedValuesRef)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>allowedValuesRef</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_SetDefaultValue_" data-uid="OSLC4Net.Core.Model.Property.SetDefaultValue*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_SetDefaultValue_System_String_" data-uid="OSLC4Net.Core.Model.Property.SetDefaultValue(System.String)">
+  SetDefaultValue(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L326"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDefaultValue(string defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_SetDescription_" data-uid="OSLC4Net.Core.Model.Property.SetDescription*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_SetDescription_System_String_" data-uid="OSLC4Net.Core.Model.Property.SetDescription(System.String)">
+  SetDescription(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L331"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDescription(string description)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>description</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_SetHidden_" data-uid="OSLC4Net.Core.Model.Property.SetHidden*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_SetHidden_System_Boolean_" data-uid="OSLC4Net.Core.Model.Property.SetHidden(System.Boolean)">
+  SetHidden(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L336"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetHidden(bool hidden)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hidden</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_SetMaxSize_" data-uid="OSLC4Net.Core.Model.Property.SetMaxSize*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_SetMaxSize_System_Int32_" data-uid="OSLC4Net.Core.Model.Property.SetMaxSize(System.Int32)">
+  SetMaxSize(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L341"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMaxSize(int maxSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>maxSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_SetMemberProperty_" data-uid="OSLC4Net.Core.Model.Property.SetMemberProperty*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_SetMemberProperty_System_Boolean_" data-uid="OSLC4Net.Core.Model.Property.SetMemberProperty(System.Boolean)">
+  SetMemberProperty(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L346"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMemberProperty(bool memberProperty)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>memberProperty</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_SetName_" data-uid="OSLC4Net.Core.Model.Property.SetName*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_SetName_System_String_" data-uid="OSLC4Net.Core.Model.Property.SetName(System.String)">
+  SetName(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L351"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetName(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_SetOccurs_" data-uid="OSLC4Net.Core.Model.Property.SetOccurs*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_SetOccurs_OSLC4Net_Core_Model_Occurs_" data-uid="OSLC4Net.Core.Model.Property.SetOccurs(OSLC4Net.Core.Model.Occurs)">
+  SetOccurs(Occurs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L356"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetOccurs(Occurs occurs)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>occurs</code> <a class="xref" href="OSLC4Net.Core.Model.Occurs.html">Occurs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_SetOccurs_" data-uid="OSLC4Net.Core.Model.Property.SetOccurs*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_SetOccurs_System_Uri_" data-uid="OSLC4Net.Core.Model.Property.SetOccurs(System.Uri)">
+  SetOccurs(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L361"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetOccurs(Uri occurs)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>occurs</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_SetPropertyDefinition_" data-uid="OSLC4Net.Core.Model.Property.SetPropertyDefinition*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_SetPropertyDefinition_System_Uri_" data-uid="OSLC4Net.Core.Model.Property.SetPropertyDefinition(System.Uri)">
+  SetPropertyDefinition(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L373"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPropertyDefinition(Uri propertyDefinition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>propertyDefinition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_SetRange_" data-uid="OSLC4Net.Core.Model.Property.SetRange*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_SetRange_System_Uri___" data-uid="OSLC4Net.Core.Model.Property.SetRange(System.Uri[])">
+  SetRange(Uri[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L378"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRange(Uri[] ranges)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ranges</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_SetReadOnly_" data-uid="OSLC4Net.Core.Model.Property.SetReadOnly*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_SetReadOnly_System_Boolean_" data-uid="OSLC4Net.Core.Model.Property.SetReadOnly(System.Boolean)">
+  SetReadOnly(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L390"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetReadOnly(bool readOnly)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>readOnly</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_SetRepresentation_" data-uid="OSLC4Net.Core.Model.Property.SetRepresentation*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_SetRepresentation_OSLC4Net_Core_Model_Representation_" data-uid="OSLC4Net.Core.Model.Property.SetRepresentation(OSLC4Net.Core.Model.Representation)">
+  SetRepresentation(Representation)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L395"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRepresentation(Representation representation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>representation</code> <a class="xref" href="OSLC4Net.Core.Model.Representation.html">Representation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_SetRepresentation_" data-uid="OSLC4Net.Core.Model.Property.SetRepresentation*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_SetRepresentation_System_Uri_" data-uid="OSLC4Net.Core.Model.Property.SetRepresentation(System.Uri)">
+  SetRepresentation(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L400"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRepresentation(Uri representation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>representation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_SetTitle_" data-uid="OSLC4Net.Core.Model.Property.SetTitle*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_SetTitle_System_String_" data-uid="OSLC4Net.Core.Model.Property.SetTitle(System.String)">
+  SetTitle(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L412"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTitle(string title)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_SetValueShape_" data-uid="OSLC4Net.Core.Model.Property.SetValueShape*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_SetValueShape_System_Uri_" data-uid="OSLC4Net.Core.Model.Property.SetValueShape(System.Uri)">
+  SetValueShape(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L417"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetValueShape(Uri valueShape)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>valueShape</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_SetValueType_" data-uid="OSLC4Net.Core.Model.Property.SetValueType*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_SetValueType_OSLC4Net_Core_Model_ValueType_" data-uid="OSLC4Net.Core.Model.Property.SetValueType(OSLC4Net.Core.Model.ValueType)">
+  SetValueType(ValueType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L422"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetValueType(ValueType valueType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>valueType</code> <a class="xref" href="OSLC4Net.Core.Model.ValueType.html">ValueType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_SetValueType_" data-uid="OSLC4Net.Core.Model.Property.SetValueType*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_SetValueType_System_Uri_" data-uid="OSLC4Net.Core.Model.Property.SetValueType(System.Uri)">
+  SetValueType(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L427"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetValueType(Uri valueType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>valueType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Property_getMaxSize_" data-uid="OSLC4Net.Core.Model.Property.getMaxSize*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Property_getMaxSize" data-uid="OSLC4Net.Core.Model.Property.getMaxSize">
+  getMaxSize()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;For string properties only, specifies maximum characters allowed. If not set, then there is no maximum or maximum is specified elsewhere&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#maxSize&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Maximum Size&quot;)]
+public int getMaxSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L24" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <script defer src="https://umami.open-services.net/script.js" data-website-id="058571d1-b69b-4b21-a24a-2cc26e4eb3e1"></script>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

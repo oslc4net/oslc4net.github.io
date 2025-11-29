@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class TestCase | OSLC4Net </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class TestCase | OSLC4Net ">
+      
+      <meta name="description" content="http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestCase">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_Client_Oslc_Resources_TestCase.md&amp;value=---%0Auid%3A%20OSLC4Net.Client.Oslc.Resources.TestCase%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo_docfx.png" alt="OSLC4Net">
+            OSLC4Net
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="OSLC4Net.Client.Oslc.Resources.TestCase">
+
+
+
+  <h1 id="OSLC4Net_Client_Oslc_Resources_TestCase" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase" class="text-break">
+Class TestCase  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="OSLC4Net.html">OSLC4Net</a>.<a class="xref" href="OSLC4Net.Client.html">Client</a>.<a class="xref" href="OSLC4Net.Client.Oslc.html">Oslc</a>.<a class="xref" href="OSLC4Net.Client.Oslc.Resources.html">Resources</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>OSLC4Net.Client.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p><a href="http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestCase">http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestCase</a></p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcNamespace(&quot;http://open-services.net/ns/qm#&quot;)]
+public class TestCase : QmResource, IExtendedResource, IResource</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html">AbstractResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Client.Oslc.Resources.QmResource.html">QmResource</a></div>
+      <div><span class="xref">TestCase</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IExtendedResource.html">IExtendedResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_AddRdfType_System_Uri_">QmResource.AddRdfType(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetCreated">QmResource.GetCreated()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetIdentifier">QmResource.GetIdentifier()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetInstanceShape">QmResource.GetInstanceShape()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetModified">QmResource.GetModified()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetRdfTypes">QmResource.GetRdfTypes()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetServiceProvider">QmResource.GetServiceProvider()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_GetTitle">QmResource.GetTitle()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetCreated_System_Nullable_System_DateTime__">QmResource.SetCreated(DateTime?)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetIdentifier_System_String_">QmResource.SetIdentifier(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetInstanceShape_System_Uri_">QmResource.SetInstanceShape(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetModified_System_Nullable_System_DateTime__">QmResource.SetModified(DateTime?)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetRdfTypes_System_Uri___">QmResource.SetRdfTypes(Uri[])</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetServiceProvider_System_Uri_">QmResource.SetServiceProvider(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.QmResource.html#OSLC4Net_Client_Oslc_Resources_QmResource_SetTitle_System_String_">QmResource.SetTitle(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_About">AbstractResource.About</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetAbout">AbstractResource.GetAbout()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetAbout_System_Uri_">AbstractResource.SetAbout(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__">AbstractResource.SetExtendedProperties(IDictionary&lt;QName, object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetExtendedProperties">AbstractResource.GetExtendedProperties()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetTypes">AbstractResource.GetTypes()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__">AbstractResource.SetTypes(ICollection&lt;Uri&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_AddType_System_Uri_">AbstractResource.AddType(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase__ctor_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase__ctor" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.#ctor">
+  TestCase()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TestCase()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_AddContributor_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.AddContributor*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_AddContributor_System_Uri_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.AddContributor(System.Uri)">
+  AddContributor(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddContributor(Uri contributor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contributor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_AddCreator_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.AddCreator*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_AddCreator_System_Uri_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.AddCreator(System.Uri)">
+  AddCreator(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddCreator(Uri creator)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>creator</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_AddRelatedChangeRequest_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.AddRelatedChangeRequest*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_AddRelatedChangeRequest_OSLC4Net_Core_Model_Link_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.AddRelatedChangeRequest(OSLC4Net.Core.Model.Link)">
+  AddRelatedChangeRequest(Link)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddRelatedChangeRequest(Link relatedChangeRequest)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>relatedChangeRequest</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_AddSubject_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.AddSubject*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_AddSubject_System_String_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.AddSubject(System.String)">
+  AddSubject(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddSubject(string subject)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>subject</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_AddTestsChangeRequest_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.AddTestsChangeRequest*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_AddTestsChangeRequest_OSLC4Net_Core_Model_Link_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.AddTestsChangeRequest(OSLC4Net.Core.Model.Link)">
+  AddTestsChangeRequest(Link)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddTestsChangeRequest(Link changeRequest)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>changeRequest</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_AddUsesTestScript_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.AddUsesTestScript*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_AddUsesTestScript_OSLC4Net_Core_Model_Link_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.AddUsesTestScript(OSLC4Net.Core.Model.Link)">
+  AddUsesTestScript(Link)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddUsesTestScript(Link testscript)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>testscript</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_AddValidatesRequirement_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.AddValidatesRequirement*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_AddValidatesRequirement_OSLC4Net_Core_Model_Link_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.AddValidatesRequirement(OSLC4Net.Core.Model.Link)">
+  AddValidatesRequirement(Link)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddValidatesRequirement(Link requirement)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requirement</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_GetContributors_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.GetContributors*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_GetContributors" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.GetContributors">
+  GetContributors()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The person(s) who are responsible for the work needed to complete the test case.&quot;)]
+[OslcName(&quot;contributor&quot;)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/contributor&quot;)]
+[OslcRange(new string[] { &quot;http://xmlns.com/foaf/0.1/Person&quot; })]
+[OslcTitle(&quot;Contributors&quot;)]
+public Uri[] GetContributors()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_GetCreators_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.GetCreators*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_GetCreators" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.GetCreators">
+  GetCreators()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Creator or creators of resource.&quot;)]
+[OslcName(&quot;creator&quot;)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/creator&quot;)]
+[OslcRange(new string[] { &quot;http://xmlns.com/foaf/0.1/Person&quot; })]
+[OslcTitle(&quot;Creators&quot;)]
+public Uri[] GetCreators()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_GetDescription_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.GetDescription*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_GetDescription" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.GetDescription">
+  GetDescription()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Descriptive text (reference: Dublin Core) about resource represented as rich text in XHTML content.&quot;)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/description&quot;)]
+[OslcTitle(&quot;Description&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+public string GetDescription()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_GetRdfType_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.GetRdfType*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_GetRdfType" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.GetRdfType">
+  GetRdfType()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override Uri GetRdfType()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_GetRelatedChangeRequests_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.GetRelatedChangeRequests*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_GetRelatedChangeRequests" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.GetRelatedChangeRequests">
+  GetRelatedChangeRequests()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A related change request.&quot;)]
+[OslcName(&quot;relatedChangeRequest&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/qm#relatedChangeRequest&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/cm#ChangeRequest&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Related Change Requests&quot;)]
+public Link[] GetRelatedChangeRequests()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_GetSubjects_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.GetSubjects*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_GetSubjects" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.GetSubjects">
+  GetSubjects()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Tag or keyword for a resource. Each occurrence of a dcterms:subject property denotes an additional tag for the resource.&quot;)]
+[OslcName(&quot;subject&quot;)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/subject&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Subjects&quot;)]
+public string[] GetSubjects()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_GetTestsChangeRequests_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.GetTestsChangeRequests*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_GetTestsChangeRequests" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.GetTestsChangeRequests">
+  GetTestsChangeRequests()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Change Request tested by the Test Case.&quot;)]
+[OslcName(&quot;testsChangeRequest&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/qm#testsChangeRequest&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/cm#ChangeRequest&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Tests Change Request&quot;)]
+public Link[] GetTestsChangeRequests()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_GetUsesTestScripts_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.GetUsesTestScripts*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_GetUsesTestScripts" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.GetUsesTestScripts">
+  GetUsesTestScripts()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Test Script used by the Test Case.&quot;)]
+[OslcName(&quot;usesTestScript&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/qm#usesTestScript&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/qm#TestScript&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Uses Test Script&quot;)]
+public Link[] GetUsesTestScripts()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_GetValidatesRequirements_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.GetValidatesRequirements*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_GetValidatesRequirements" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.GetValidatesRequirements">
+  GetValidatesRequirements()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Requirement that is validated by the Test Case.&quot;)]
+[OslcName(&quot;validatesRequirement&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/qm#validatesRequirement&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/rm#Requirement&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Validates Requirement&quot;)]
+public Link[] GetValidatesRequirements()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_SetContributors_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.SetContributors*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_SetContributors_System_Uri___" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.SetContributors(System.Uri[])">
+  SetContributors(Uri[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetContributors(Uri[] contributors)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contributors</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_SetCreators_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.SetCreators*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_SetCreators_System_Uri___" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.SetCreators(System.Uri[])">
+  SetCreators(Uri[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCreators(Uri[] creators)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>creators</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_SetDescription_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.SetDescription*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_SetDescription_System_String_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.SetDescription(System.String)">
+  SetDescription(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDescription(string description)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>description</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_SetRelatedChangeRequests_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.SetRelatedChangeRequests*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_SetRelatedChangeRequests_OSLC4Net_Core_Model_Link___" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.SetRelatedChangeRequests(OSLC4Net.Core.Model.Link[])">
+  SetRelatedChangeRequests(Link[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRelatedChangeRequests(Link[] relatedChangeRequests)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>relatedChangeRequests</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_SetSubjects_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.SetSubjects*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_SetSubjects_System_String___" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.SetSubjects(System.String[])">
+  SetSubjects(string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L204"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSubjects(string[] subjects)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>subjects</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_SetTestsChangeRequests_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.SetTestsChangeRequests*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_SetTestsChangeRequests_OSLC4Net_Core_Model_Link___" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.SetTestsChangeRequests(OSLC4Net.Core.Model.Link[])">
+  SetTestsChangeRequests(Link[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTestsChangeRequests(Link[] testsChangeRequests)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>testsChangeRequests</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_SetUsesTestScripts_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.SetUsesTestScripts*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_SetUsesTestScripts_OSLC4Net_Core_Model_Link___" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.SetUsesTestScripts(OSLC4Net.Core.Model.Link[])">
+  SetUsesTestScripts(Link[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L224"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetUsesTestScripts(Link[] usesTestScripts)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>usesTestScripts</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_TestCase_SetValidatesRequirements_" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.SetValidatesRequirements*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_TestCase_SetValidatesRequirements_OSLC4Net_Core_Model_Link___" data-uid="OSLC4Net.Client.Oslc.Resources.TestCase.SetValidatesRequirements(OSLC4Net.Core.Model.Link[])">
+  SetValidatesRequirements(Link[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetValidatesRequirements(Link[] validatesRequirements)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>validatesRequirements</code> <a class="xref" href="OSLC4Net.Core.Model.Link.html">Link</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/TestCase.cs/#L25" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <script defer src="https://umami.open-services.net/script.js" data-website-id="058571d1-b69b-4b21-a24a-2cc26e4eb3e1"></script>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

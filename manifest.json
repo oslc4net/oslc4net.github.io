@@ -1,0 +1,3360 @@
+{
+  "source_base_path": "/home/runner/work/oslc4net/oslc4net/main/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "DEPLOYMENT.md",
+      "output": {
+        ".html": {
+          "relative_path": "DEPLOYMENT.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.ChangeManagement.ChangeRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.ChangeManagement.ChangeRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.ChangeManagement.ChangeRequest",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.ChangeManagement.ChangeRequest.yml\" sourcestartlinenumber=\"1\">OSLC Change Management resource</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.ChangeManagement.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.ChangeManagement.Constants.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.ChangeManagement.Constants",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.ChangeManagement.Constants.yml\" sourcestartlinenumber=\"1\">OSLC ChangeManagement specific constants</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.ChangeManagement.Severity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.ChangeManagement.Severity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.ChangeManagement.Severity",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.ChangeManagement.Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.ChangeManagement.Type.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.ChangeManagement.Type",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.ChangeManagement.TypeExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.ChangeManagement.TypeExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.ChangeManagement.TypeExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.ChangeManagement.XmlNamespace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.ChangeManagement.XmlNamespace.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.ChangeManagement.XmlNamespace",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.ChangeManagement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.ChangeManagement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.ChangeManagement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Exceptions.JazzAuthErrorException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Exceptions.JazzAuthErrorException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Exceptions.JazzAuthErrorException",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Exceptions.JazzAuthErrorException.yml\" sourcestartlinenumber=\"1\">Exceptions indicating a Jazz authentication or credentials problem</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Exceptions.JazzAuthFailedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Exceptions.JazzAuthFailedException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Exceptions.JazzAuthFailedException",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Exceptions.JazzAuthFailedException.yml\" sourcestartlinenumber=\"1\">Exceptions indicating a Jazz authentication or credentials problem</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Exceptions.OslcClientApplicationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Exceptions.OslcClientApplicationException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Exceptions.OslcClientApplicationException",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Exceptions.OslcClientApplicationException.yml\" sourcestartlinenumber=\"1\">Base class for all application exceptions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Exceptions.OslcRdfTypeMismatchException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Exceptions.OslcRdfTypeMismatchException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Exceptions.OslcRdfTypeMismatchException",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Exceptions.OslcRdfTypeMismatchException.yml\" sourcestartlinenumber=\"1\">Exception thrown when there is an RDF type mismatch.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Exceptions.ResourceNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Exceptions.ResourceNotFoundException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Exceptions.ResourceNotFoundException",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Exceptions.ResourceNotFoundException.yml\" sourcestartlinenumber=\"1\">Exception thrown when a requested resource could not be found.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Exceptions.RootServicesException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Exceptions.RootServicesException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Exceptions.RootServicesException",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Exceptions.RootServicesException.yml\" sourcestartlinenumber=\"1\">Exception thrown when an error occurs processing the root services document.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Exceptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Exceptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.ConsumeContentExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.ConsumeContentExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.ConsumeContentExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.OSLCConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.OSLCConstants.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.OSLCConstants",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.OSLCConstants.yml\" sourcestartlinenumber=\"1\">General OSLC constants</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.OslcClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.OslcClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.OslcClient",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.OslcClient.yml\" sourcestartlinenumber=\"1\">An OSLC Client.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.ArchitectureConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.ArchitectureConstants.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.ArchitectureConstants",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.ArchitectureLinkType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.ArchitectureLinkType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.ArchitectureLinkType",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.ArchitectureLinkType.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/wiki/architecture-management/OSLC-Architecture-Management-Specification-Version-2.0/\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.ArchitectureLinkType.yml\" sourcestartlinenumber=\"1\">http://open-services.net/wiki/architecture-management/OSLC-Architecture-Management-Specification-Version-2.0/</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.ArchitectureResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.ArchitectureResource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.ArchitectureResource",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.ArchitectureResource.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/wiki/architecture-management/OSLC-Architecture-Management-Specification-Version-2.0/\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.ArchitectureResource.yml\" sourcestartlinenumber=\"1\">http://open-services.net/wiki/architecture-management/OSLC-Architecture-Management-Specification-Version-2.0/</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.AutomationConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.AutomationConstants.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.AutomationConstants",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.AutomationPlan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.AutomationPlan.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.AutomationPlan",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.AutomationPlan.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/#Resource_AutomationPlan\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.AutomationPlan.yml\" sourcestartlinenumber=\"1\">http://open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/#Resource_AutomationPlan</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.AutomationRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.AutomationRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.AutomationRequest",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.AutomationRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/#Resource_AutomationRequest\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.AutomationRequest.yml\" sourcestartlinenumber=\"1\">http://open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/#Resource_AutomationRequest</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.AutomationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.AutomationResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.AutomationResult",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.AutomationResult.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/#Resource_AutomationResult\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.AutomationResult.yml\" sourcestartlinenumber=\"1\">http://open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/#Resource_AutomationResult</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.ChangeRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.ChangeRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.ChangeRequest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.CmConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.CmConstants.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.CmConstants",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.OslcQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.OslcQuery.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.OslcQuery",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.OslcQuery.yml\" sourcestartlinenumber=\"1\">Represents an OSLC query (HTTP GET) request to be made of a remote system.\nImmutable.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.OslcQueryParameters",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.yml\" sourcestartlinenumber=\"1\">A container for OSLC Query parameters which can be associated with an OslcQuery object.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.OslcQueryResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.OslcQueryResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.OslcQueryResult",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.OslcQueryResult.yml\" sourcestartlinenumber=\"1\">The results of an OSLC query. If the query was paged, subsequent pages can be retrieved using\nthe Iterator interface.\nThis class is not currently thread safe.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.ParameterInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.ParameterInstance.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.ParameterInstance",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.ParameterInstance.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/#Resource_ParameterInstance\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.ParameterInstance.yml\" sourcestartlinenumber=\"1\">http://open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/#Resource_ParameterInstance</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.QmConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.QmConstants.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.QmConstants",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.QmResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.QmResource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.QmResource",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.QmResource.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/bin/view/Main/QmSpecificationV2\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.QmResource.yml\" sourcestartlinenumber=\"1\">http://open-services.net/bin/view/Main/QmSpecificationV2</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.Requirement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.Requirement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.Requirement",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.Requirement.yml\" sourcestartlinenumber=\"1\">OSLC shape for <code>oslc_rm:Requirement</code></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.RequirementBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.RequirementBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.RequirementBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.RequirementCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.RequirementCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.RequirementCollection",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.RequirementCollection.yml\" sourcestartlinenumber=\"1\">OSLC shape for <code>oslc_rm:RequirementCollection</code></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.RmConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.RmConstants.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.RmConstants",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.RmUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.RmUtil.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.RmUtil",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.TestCase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.TestCase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.TestCase",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestCase.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestCase\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestCase.yml\" sourcestartlinenumber=\"1\">http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestCase</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.TestExecutionRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.TestExecutionRecord.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.TestExecutionRecord",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestExecutionRecord.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestExecutionRecord\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestExecutionRecord.yml\" sourcestartlinenumber=\"1\">http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestExecutionRecord</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.TestPlan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.TestPlan.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.TestPlan",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestPlan.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestPlan\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestPlan.yml\" sourcestartlinenumber=\"1\">http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestPlan</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.TestResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.TestResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.TestResult",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestResult.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestResult\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestResult.yml\" sourcestartlinenumber=\"1\">http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestResult</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.TestScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.TestScript.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources.TestScript",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestScript.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestScript\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestScript.yml\" sourcestartlinenumber=\"1\">http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestScript</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.Resources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.Resources.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc.Resources",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.Oslc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.Oslc.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.Oslc",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.OslcResponse-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.OslcResponse-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.OslcResponse<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.OslcRestClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.OslcRestClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.OslcRestClient",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.OslcRestClient.yml\" sourcestartlinenumber=\"1\">A class providing client utilities to query/get, create, update and delete OSLC resources</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.ServiceProviderRegistryClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.ServiceProviderRegistryClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client.ServiceProviderRegistryClient",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.ServiceProviderRegistryClient.yml\" sourcestartlinenumber=\"1\">This class provides methods to register and deregister with an OSLC ServiceProvider Registry (not yet\nimplemented in OSLC4Net - see Eclipse Lyo for a Java implementation)</p>\n<p sourcefile=\"api/OSLC4Net.Client.ServiceProviderRegistryClient.yml\" sourcestartlinenumber=\"4\">It also provides methods to get a ServiceProviderCatalog and retrieve the ServiceProviders</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Client.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Client",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcAllowedValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcAllowedValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcAllowedValue",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcAllowedValue.yml\" sourcestartlinenumber=\"1\">OSLC AllowedValue attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcAllowedValues.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcAllowedValues.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcAllowedValues",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcAllowedValues.yml\" sourcestartlinenumber=\"1\">OSLC AllowedValues (enumeration) attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcCreationFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcCreationFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcCreationFactory",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcCreationFactory.yml\" sourcestartlinenumber=\"1\">OSLC CreationFactory attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcDefaultValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcDefaultValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcDefaultValue",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcDefaultValue.yml\" sourcestartlinenumber=\"1\">OSLC DefaultValue attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcDescription.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcDescription",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcDescription.yml\" sourcestartlinenumber=\"1\">OSLC Description attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcDialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcDialog.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcDialog",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcDialog.yml\" sourcestartlinenumber=\"1\">OSLC Dialog attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcDialogs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcDialogs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcDialogs",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcDialogs.yml\" sourcestartlinenumber=\"1\">OSLC Dialogs attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcHidden.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcHidden.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcHidden",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcHidden.yml\" sourcestartlinenumber=\"1\">OSLC Hidden attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcMaxSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcMaxSize.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcMaxSize",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcMaxSize.yml\" sourcestartlinenumber=\"1\">OSLC MaxSize attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcMemberProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcMemberProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcMemberProperty",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcMemberProperty.yml\" sourcestartlinenumber=\"1\">OSLC Members attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcName",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcName.yml\" sourcestartlinenumber=\"1\">OSLC Name attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcNamespace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcNamespace.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcNamespace",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcNamespaceDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcNamespaceDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcNamespaceDefinition",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcNamespaceDefinition.yml\" sourcestartlinenumber=\"1\">The definition of an OSLC namespace attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcOccurs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcOccurs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcOccurs",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcOccurs.yml\" sourcestartlinenumber=\"1\">OSLC Occurs attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcPropertyDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcPropertyDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcPropertyDefinition",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcPropertyDefinition.yml\" sourcestartlinenumber=\"1\">OSLC PropertyDefinition attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcQueryCapability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcQueryCapability.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcQueryCapability",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcQueryCapability.yml\" sourcestartlinenumber=\"1\">OSLC QueryCapability attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcRange.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcRange",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcRange.yml\" sourcestartlinenumber=\"1\">OSLC Range attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcRdfCollectionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcRdfCollectionType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcRdfCollectionType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcReadOnly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcReadOnly.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcReadOnly",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcReadOnly.yml\" sourcestartlinenumber=\"1\">OSLC ReadOnly attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcRepresentation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcRepresentation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcRepresentation",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcRepresentation.yml\" sourcestartlinenumber=\"1\">OSLC Representation attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcResourceShape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcResourceShape.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcResourceShape",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcResourceShape.yml\" sourcestartlinenumber=\"1\">OSLC Resource Shape attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcSchema.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcSchema",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcSchema.yml\" sourcestartlinenumber=\"1\">Describe the assembley schema</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcService",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcService.yml\" sourcestartlinenumber=\"1\">OSLC Service attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcTitle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcTitle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcTitle",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcTitle.yml\" sourcestartlinenumber=\"1\">OSLC Title attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcValueShape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcValueShape.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcValueShape",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcValueShape.yml\" sourcestartlinenumber=\"1\">OSLC ValueShape attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcValueType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.OslcValueType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute.OslcValueType",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Attribute.OslcValueType.yml\" sourcestartlinenumber=\"1\">OSLC ValueType attribue</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Attribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Attribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Attribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.DotNetRdfProvider.DotNetRdfHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.DotNetRdfProvider.DotNetRdfHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.DotNetRdfProvider.DotNetRdfHelper",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.DotNetRdfProvider.DotNetRdfHelper.yml\" sourcestartlinenumber=\"1\">A class to assist with serialization and de-serialization of RDF/XML from/to .NET objects</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.DotNetRdfProvider.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.DotNetRdfProvider.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.DotNetRdfProvider.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.NonClosingStreamWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.NonClosingStreamWriter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.NonClosingStreamWriter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.yml\" sourcestartlinenumber=\"1\">A class to</p>\n<ul sourcefile=\"api/OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.yml\" sourcestartlinenumber=\"2\">\n<li sourcefile=\"api/OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.yml\" sourcestartlinenumber=\"2\">read RDF/XML from an input stream and create .NET objects.</li>\n<li sourcefile=\"api/OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.yml\" sourcestartlinenumber=\"3\">write .NET objects to an output stream as RDF/XML</li>\n</ul>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.DotNetRdfProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.DotNetRdfProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.DotNetRdfProvider",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreApplicationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreApplicationException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Exceptions.OslcCoreApplicationException",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Exceptions.OslcCoreApplicationException.yml\" sourcestartlinenumber=\"1\">OSLC4Net Core exception</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreDeregistrationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreDeregistrationException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Exceptions.OslcCoreDeregistrationException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreDuplicatePropertyDefinitionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreDuplicatePropertyDefinitionException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Exceptions.OslcCoreDuplicatePropertyDefinitionException",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Exceptions.OslcCoreDuplicatePropertyDefinitionException.yml\" sourcestartlinenumber=\"1\">Exception thrown when a property is defined more than once</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreInvalidAttributeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreInvalidAttributeException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Exceptions.OslcCoreInvalidAttributeException",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Exceptions.OslcCoreInvalidAttributeException.yml\" sourcestartlinenumber=\"1\">Exception thrown when a required OSLC attribute definition is missing.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyDefinitionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyDefinitionException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyDefinitionException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException.yml\" sourcestartlinenumber=\"1\">Exception thrown for an invalid property type</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreMissingAttributeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreMissingAttributeException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Exceptions.OslcCoreMissingAttributeException",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Exceptions.OslcCoreMissingAttributeException.yml\" sourcestartlinenumber=\"1\">Exception thrown when a required OSLC attribute definition is missing.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreMissingNamespaceDeclarationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreMissingNamespaceDeclarationException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Exceptions.OslcCoreMissingNamespaceDeclarationException",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Exceptions.OslcCoreMissingNamespaceDeclarationException.yml\" sourcestartlinenumber=\"1\">Exception thrown when a required OSLC attribute definition is missing.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreMissingNamespacePrefixException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreMissingNamespacePrefixException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Exceptions.OslcCoreMissingNamespacePrefixException",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Exceptions.OslcCoreMissingNamespacePrefixException.yml\" sourcestartlinenumber=\"1\">Exception thrown when a required OSLC attribute definition is missing.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreMissingSetMethodException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreMissingSetMethodException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Exceptions.OslcCoreMissingSetMethodException",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Exceptions.OslcCoreMissingSetMethodException.yml\" sourcestartlinenumber=\"1\">Exception thrown for beans without required setters</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreMisusedOccursException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreMisusedOccursException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Exceptions.OslcCoreMisusedOccursException",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Exceptions.OslcCoreMisusedOccursException.yml\" sourcestartlinenumber=\"1\">Exception thrown for an incorrect use of the OSLC Occurs attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreRegistrationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreRegistrationException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Exceptions.OslcCoreRegistrationException",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Exceptions.OslcCoreRegistrationException.yml\" sourcestartlinenumber=\"1\">Exception thrown for a service provider registration failure</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreRelativeURIException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreRelativeURIException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Exceptions.OslcCoreRelativeURIException",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Exceptions.OslcCoreRelativeURIException.yml\" sourcestartlinenumber=\"1\">Exception thrown when relative URIs are encountered in an RDF model</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreRequestException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Exceptions.OslcCoreRequestException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Exceptions.OslcCoreRequestException",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Exceptions.OslcCoreRequestException.yml\" sourcestartlinenumber=\"1\">OSLC4Net Core exception</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Exceptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Exceptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.AbstractReifiedResource-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.AbstractReifiedResource-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.AbstractReifiedResource<T>",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.AbstractReifiedResource-1.yml\" sourcestartlinenumber=\"1\">An OSLC reified resource</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.AbstractResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.AbstractResource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.AbstractResource",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.AbstractResource.yml\" sourcestartlinenumber=\"1\">This class represents and abstract OSLC resource.  It is normally the parent class for concrete\nOSLC resource types.\nSee the ChangeMangement.cs objec in the ChangeManagementCommon project</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.AbstractResourceRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.AbstractResourceRecord.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.AbstractResourceRecord",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.AddAllExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.AddAllExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.AddAllExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.AnyResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.AnyResource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.AnyResource",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.AnyResource.yml\" sourcestartlinenumber=\"1\">Represents a resource of any (unknown) type, usually the object of a\nstatement in anIExtendedResource.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.Compact.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.Compact.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.Compact",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.Compact.yml\" sourcestartlinenumber=\"1\">OSLC Compact resource representation</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.CreationFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.CreationFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.CreationFactory",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.CreationFactory.yml\" sourcestartlinenumber=\"1\">OSLC Resource Shape resource</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.Dialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.Dialog.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.Dialog",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.Dialog.yml\" sourcestartlinenumber=\"1\">OSLC Dialog resource</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.EnumerableWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.EnumerableWrapper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.EnumerableWrapper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.Error.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.Error.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.Error",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.ExtendedError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.ExtendedError.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.ExtendedError",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.FilteredResource-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.FilteredResource-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.FilteredResource<T>",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.FilteredResource-1.yml\" sourcestartlinenumber=\"1\">Class representing a filtered OSLC resource.  That is, a representation of resource where some\nof the\nattributes are not present (filtered using oslc.select or oslc.properties)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.IExtendedResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.IExtendedResource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.IExtendedResource",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.IExtendedResource.yml\" sourcestartlinenumber=\"1\">A resource that can hold unknown properties and content. If a setter is not\nfound for a property when reading a resource, it is added as an extended\nproperty. These extended properties are preserved when writing the resource\nback out, for instance on a PUT request. In OSLC, clients MUST preserve\nunknown content when performing updates of resources.\nsee\n<a href=\"http://open-services.net/bin/view/Main/OslcCoreSpecification?sortcol=table;up=#Unknown_properties_and_content\">\nOSLC\nCore 2.0: Unknown properties and content\n</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.IReifiedResource-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.IReifiedResource-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.IReifiedResource<T>",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.IReifiedResource-1.yml\" sourcestartlinenumber=\"1\">This interface helps model RDF reified statements in plain old Java objects.\nOSLC commonly uses reification to describe metadata on links, such as labels.\nThe  #getValue() and#setValue(Object) methods allow you to\nset the actual object of the triple. All other properties in implementing\nclasses are statements about the statement. These additional properties\nshould have OslcName and OslcPropertyDefinition annotations.\nSee Link for an example.\nNote: The parameterized type T must be an URI to serialize to JSON due\nto current limitations in the OSLC JSON format.\n<xref href=\"see\" data-throw-if-not-resolved=\"False\" data-raw-source=\"@see\" sourcefile=\"api/OSLC4Net.Core.Model.IReifiedResource-1.yml\" sourcestartlinenumber=\"10\"></xref> AbstractReifiedResource\n<xref href=\"see\" data-throw-if-not-resolved=\"False\" data-raw-source=\"@see\" sourcefile=\"api/OSLC4Net.Core.Model.IReifiedResource-1.yml\" sourcestartlinenumber=\"11\"></xref> <a href=\"http://www.w3.org/TR/rdf-mt/#Reif\">RDF Semantics: Reification</a>\n<xref href=\"see\" data-throw-if-not-resolved=\"False\" data-raw-source=\"@see\" sourcefile=\"api/OSLC4Net.Core.Model.IReifiedResource-1.yml\" sourcestartlinenumber=\"12\"></xref> <a href=\"http://www.w3.org/TR/rdf-primer/#reification\">RDF Primer: Reification</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.IResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.IResource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.IResource",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.IResource.yml\" sourcestartlinenumber=\"1\">Interface to represent an OSLC resource.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.InheritedGenericInterfacesHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.InheritedGenericInterfacesHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.InheritedGenericInterfacesHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.InheritedMethodAttributeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.InheritedMethodAttributeHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.InheritedMethodAttributeHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.Link.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.Link",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.Link.yml\" sourcestartlinenumber=\"1\">An OSLC link - inculdes a Uri and a label.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OAuthConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OAuthConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OAuthConfiguration",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.OAuthConfiguration.yml\" sourcestartlinenumber=\"1\">An OSLC OAuth configuration resource</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.Occurs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.Occurs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.Occurs",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.Occurs.yml\" sourcestartlinenumber=\"1\">OSLC Occurs attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OccursExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OccursExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OccursExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.DCElements",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.OslcConstants.Domains.DCElements.yml\" sourcestartlinenumber=\"1\">DC Elements (ISO 15836-1:2017). Consider using <xref href=\"OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms\" data-throw-if-not-resolved=\"false\"></xref> where possible.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.OslcConstants.Domains.DCTerms.yml\" sourcestartlinenumber=\"1\">DC Terms (ISO 15836-2:2019)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.FOAF.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.FOAF",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.LDP.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.LDP.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.LDP.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.LDP.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.LDP.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.LDP.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.LDP.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.LDP.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.LDP",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.PROV.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.PROV.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.PROV.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.PROV.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.PROV.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.PROV.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.PROV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.PROV.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.PROV",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.QUDT.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.QUDT",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.RDF.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.RDF.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.RDF.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.RDF.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.RDF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.RDF.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.RDF",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.RDFS.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.RDFS",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.SKOS.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains.SKOS",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.Domains.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants.Domains",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcConstants.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcConstants",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.OslcConstants.yml\" sourcestartlinenumber=\"1\">General purpose OSLC constants</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.OslcMediaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.OslcMediaType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.OslcMediaType",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.OslcMediaType.yml\" sourcestartlinenumber=\"1\">Constant strings and static MediaTypeHeaderValue representing OSLC media types</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.PrefixDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.PrefixDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.PrefixDefinition",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.PrefixDefinition.yml\" sourcestartlinenumber=\"1\">OSLC PrefixDefinition resource</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.Preview.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.Preview.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.Preview",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.Preview.yml\" sourcestartlinenumber=\"1\">OSLC Preview attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.Property.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.Property.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.Property",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.Property.yml\" sourcestartlinenumber=\"1\">OSLC Property attributes</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.Publisher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.Publisher.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.Publisher",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.Publisher.yml\" sourcestartlinenumber=\"1\">OSLC Publisher resource</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.QName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.QName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.QName",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.QName.yml\" sourcestartlinenumber=\"1\">Class representing namespace-qualified names</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.QueryCapability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.QueryCapability.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.QueryCapability",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.QueryCapability.yml\" sourcestartlinenumber=\"1\">OSLC QueryCapability resource</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.Representation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.Representation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.Representation",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.Representation.yml\" sourcestartlinenumber=\"1\">OSLC Representation attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.RepresentationExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.RepresentationExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.RepresentationExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.ResourceShape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.ResourceShape.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.ResourceShape",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.ResourceShape.yml\" sourcestartlinenumber=\"1\">OSLC ResourceShape resource</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.ResourceShapeFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.ResourceShapeFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.ResourceShapeFactory",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.ResourceShapeFactory.yml\" sourcestartlinenumber=\"1\">Factory for creating ResourceShape resources</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.ResponseInfo-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.ResponseInfo-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.ResponseInfo<T>",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.ResponseInfo-1.yml\" sourcestartlinenumber=\"1\">An OSLC ResponseInfo resource containg a single member resource</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.ResponseInfoArray-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.ResponseInfoArray-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.ResponseInfoArray<T>",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.ResponseInfoArray-1.yml\" sourcestartlinenumber=\"1\">An OSLC ResponseInfo resource containing an array of member resources</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.ResponseInfoCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.ResponseInfoCollection-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.ResponseInfoCollection<T>",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.ResponseInfoCollection-1.yml\" sourcestartlinenumber=\"1\">An OSLC ResponseInfo resource containg an IEnumerable collection of member resources</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.Service.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.Service",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.Service.yml\" sourcestartlinenumber=\"1\">OSLC Service attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.ServiceProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.ServiceProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.ServiceProvider",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.ServiceProvider.yml\" sourcestartlinenumber=\"1\">OSLC ServiceProvider resource</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.ServiceProviderCatalog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.ServiceProviderCatalog.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.ServiceProviderCatalog",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.ServiceProviderCatalog.yml\" sourcestartlinenumber=\"1\">OSLC Service Provider Catalog resource</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.ServiceProviderFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.ServiceProviderFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.ServiceProviderFactory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.TypeFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.TypeFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.TypeFactory",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.TypeFactory.yml\" sourcestartlinenumber=\"1\">Static utilities to return the qualified name of a type</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.URI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.URI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.URI",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.URI.yml\" sourcestartlinenumber=\"1\">A wrapper for a URI</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.ValueType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.ValueType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.ValueType",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.ValueType.yml\" sourcestartlinenumber=\"1\">OSLC ValueType attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.ValueTypeExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.ValueTypeExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.ValueTypeExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.XmlNamespace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.XmlNamespace.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.XmlNamespace",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.XmlNamespace.yml\" sourcestartlinenumber=\"1\">Predefined OSLC namespaces</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.NestedWildcardProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.NestedWildcardProperties.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.NestedWildcardProperties",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.NestedWildcardProperties.yml\" sourcestartlinenumber=\"1\">Marker interface applied to a Map(String, Object&gt; to\nindicate that when selecting properties for output all immediate,\nresource properties of the resource should be output with entries\nin the {<xref href=\"link\" data-throw-if-not-resolved=\"False\" data-raw-source=\"@link\" sourcefile=\"api/OSLC4Net.Core.NestedWildcardProperties.yml\" sourcestartlinenumber=\"4\"></xref> NestedWildcardProperties#commonNestedProperties()</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.OSLC4NetConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.OSLC4NetConstants.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.OSLC4NetConstants",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.OSLC4NetConstants.yml\" sourcestartlinenumber=\"1\">Constants specific to OSLC4Net</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.BooleanValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.BooleanValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.BooleanValue",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Query.BooleanValue.yml\" sourcestartlinenumber=\"1\">Boolean literal operand from olsc.where clause</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.ComparisonTerm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.ComparisonTerm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.ComparisonTerm",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Query.ComparisonTerm.yml\" sourcestartlinenumber=\"1\">Simple comparison term from oslc.where clause</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.CompoundTerm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.CompoundTerm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.CompoundTerm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.DecimalValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.DecimalValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.DecimalValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.Impl.OslcOrderByParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.Impl.OslcOrderByParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.Impl.OslcOrderByParser",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.Impl.OslcPrefixParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.Impl.OslcPrefixParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.Impl.OslcPrefixParser",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.Impl.OslcSearchTermsParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.Impl.OslcSearchTermsParser",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.Impl.OslcSelectParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.Impl.OslcSelectParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.Impl.OslcSelectParser",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.Impl.OslcWhereParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.Impl.OslcWhereParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.Impl.OslcWhereParser",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.Impl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.Impl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.Impl",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.InTerm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.InTerm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.InTerm",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Query.InTerm.yml\" sourcestartlinenumber=\"1\"><i>in</i> operator simple term from olsc.where clause</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.LangedStringValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.LangedStringValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.LangedStringValue",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Query.LangedStringValue.yml\" sourcestartlinenumber=\"1\">Language specified string value operand from oslc.where clause</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.NestedProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.NestedProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.NestedProperty",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Query.NestedProperty.yml\" sourcestartlinenumber=\"1\">Nested property from olsc.select of oslc.properties clause</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.Operator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.Operator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.Operator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.OrderByClause.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.OrderByClause.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.OrderByClause",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.PName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.PName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.PName",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.ParseException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.ParseException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.ParseException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.Properties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.Properties.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.Properties",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Query.Properties.yml\" sourcestartlinenumber=\"1\">Properties from olsc.select of oslc.properties clause</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.PropertiesClause.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.PropertiesClause.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.PropertiesClause",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Query.PropertiesClause.yml\" sourcestartlinenumber=\"1\">Top-level properties from oslc.Properties clause</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.Property.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.Property.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.Property",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Query.Property.yml\" sourcestartlinenumber=\"1\">Property list element from olsc.select of oslc.properties clause</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.PropertyType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.PropertyType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.PropertyType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.QueryUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.QueryUtils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.QueryUtils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.ScopedSortTerm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.ScopedSortTerm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.ScopedSortTerm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.SearchTermsClause.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.SearchTermsClause.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.SearchTermsClause",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Query.SearchTermsClause.yml\" sourcestartlinenumber=\"1\">String list from oslc.searchTerms clause</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.SelectClause.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.SelectClause.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.SelectClause",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Query.SelectClause.yml\" sourcestartlinenumber=\"1\">Top level select clause from olsc.select</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.SimpleSortTerm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.SimpleSortTerm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.SimpleSortTerm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.SimpleTerm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.SimpleTerm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.SimpleTerm",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Query.SimpleTerm.yml\" sourcestartlinenumber=\"1\">Simple term from oslc.where clause</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.SortTerm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.SortTerm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.SortTerm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.SortTermType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.SortTermType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.SortTermType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.SortTerms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.SortTerms.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.SortTerms",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.StringValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.StringValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.StringValue",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Query.StringValue.yml\" sourcestartlinenumber=\"1\">String literal operand from oslc.where clause</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.TermType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.TermType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.TermType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.TypedValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.TypedValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.TypedValue",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Query.TypedValue.yml\" sourcestartlinenumber=\"1\">yped value operand from oslc.where clause</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.UriRefValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.UriRefValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.UriRefValue",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Query.UriRefValue.yml\" sourcestartlinenumber=\"1\">URI_REF operand from oslc.where clause</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.Value.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.Value.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.Value",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Query.Value.yml\" sourcestartlinenumber=\"1\">Operand from ComparisonTerm or InTerm\nimpleTerm from olsc.where clause</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.ValueType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.ValueType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.ValueType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.WhereClause.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.WhereClause.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.WhereClause",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Query.WhereClause.yml\" sourcestartlinenumber=\"1\">Top-level CompoundTerm from olsc.where clause</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.Wildcard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.Wildcard.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query.Wildcard",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Query.Wildcard.yml\" sourcestartlinenumber=\"1\">Wildcard property from olsc.select of oslc.properties clause</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Query.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Query",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.SingletonWildcardProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.SingletonWildcardProperties.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.SingletonWildcardProperties",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.SingletonWildcardProperties.yml\" sourcestartlinenumber=\"1\">Marker interface applied to {<xref href=\"link\" data-throw-if-not-resolved=\"False\" data-raw-source=\"@link\" sourcefile=\"api/OSLC4Net.Core.SingletonWildcardProperties.yml\" sourcestartlinenumber=\"1\"></xref> Map}(String, Object&gt; to\nindicate that when selecting properties for output all immediate,\nproperties of the resource should be output</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Domains.RequirementsManagement.Constants.Domains.RM.yml\" sourcestartlinenumber=\"1\">OSLC Requirements Management specific constants</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.RequirementsManagement.Constants.Domains.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.RequirementsManagement.Constants.Domains.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.RequirementsManagement.Constants.Domains",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.RequirementsManagement.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.RequirementsManagement.Constants.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.RequirementsManagement.Constants",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.RequirementsManagement.Requirement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.RequirementsManagement.Requirement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.RequirementsManagement.Requirement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.RequirementsManagement.RequirementCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.RequirementsManagement.RequirementCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.RequirementsManagement.RequirementCollection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.RequirementsManagement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.RequirementsManagement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.RequirementsManagement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Server.Providers.OslcOutputFormatConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Server.Providers.OslcOutputFormatConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Server.Providers.OslcOutputFormatConfig",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Server.Providers.OslcRdfInputFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Server.Providers.OslcRdfInputFormatter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Server.Providers.OslcRdfInputFormatter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Server.Providers.OslcRdfOutputFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Server.Providers.OslcRdfOutputFormatter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Server.Providers.OslcRdfOutputFormatter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Server.Providers.RdfFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Server.Providers.RdfFormat.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Server.Providers.RdfFormat",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Server.Providers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Server.Providers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Server.Providers",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon-16.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon-16.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon-32.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon-32.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon-64.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon-64.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo_docfx.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo_docfx.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

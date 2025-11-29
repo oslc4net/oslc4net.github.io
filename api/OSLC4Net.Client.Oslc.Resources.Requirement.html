@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Requirement | OSLC4Net </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Requirement | OSLC4Net ">
+      
+      <meta name="description" content="OSLC shape for oslc_rm:Requirement">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_Client_Oslc_Resources_Requirement.md&amp;value=---%0Auid%3A%20OSLC4Net.Client.Oslc.Resources.Requirement%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo_docfx.png" alt="OSLC4Net">
+            OSLC4Net
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="OSLC4Net.Client.Oslc.Resources.Requirement">
+
+
+
+  <h1 id="OSLC4Net_Client_Oslc_Resources_Requirement" data-uid="OSLC4Net.Client.Oslc.Resources.Requirement" class="text-break">
+Class Requirement  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/Requirement.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="OSLC4Net.html">OSLC4Net</a>.<a class="xref" href="OSLC4Net.Client.html">Client</a>.<a class="xref" href="OSLC4Net.Client.Oslc.html">Oslc</a>.<a class="xref" href="OSLC4Net.Client.Oslc.Resources.html">Resources</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>OSLC4Net.Client.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>OSLC shape for <code>oslc_rm:Requirement</code></p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcNamespace(&quot;http://open-services.net/ns/rm#&quot;)]
+[Obsolete(&quot;See OSLC4Net.Domains.RequirementsManagement&quot;)]
+public class Requirement : RequirementBase, IExtendedResource, IResource</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html">AbstractResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html">RequirementBase</a></div>
+      <div><span class="xref">Requirement</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IExtendedResource.html">IExtendedResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_RdfTypes">RequirementBase.RdfTypes</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_AddSubject_System_String_">RequirementBase.AddSubject(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_AddConstrains_OSLC4Net_Core_Model_Link_">RequirementBase.AddConstrains(Link)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_AddConstrainedBy_OSLC4Net_Core_Model_Link_">RequirementBase.AddConstrainedBy(Link)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_AddDecomposes_OSLC4Net_Core_Model_Link_">RequirementBase.AddDecomposes(Link)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_AddDecomposedBy_OSLC4Net_Core_Model_Link_">RequirementBase.AddDecomposedBy(Link)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_AddSatisfies_OSLC4Net_Core_Model_Link_">RequirementBase.AddSatisfies(Link)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_AddSatisfiedBy_OSLC4Net_Core_Model_Link_">RequirementBase.AddSatisfiedBy(Link)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_AddValidatedBy_OSLC4Net_Core_Model_Link_">RequirementBase.AddValidatedBy(Link)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_AddTrackedBy_OSLC4Net_Core_Model_Link_">RequirementBase.AddTrackedBy(Link)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_AddImplementedBy_OSLC4Net_Core_Model_Link_">RequirementBase.AddImplementedBy(Link)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_AddAffectedBy_OSLC4Net_Core_Model_Link_">RequirementBase.AddAffectedBy(Link)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_AddElaboratedBy_OSLC4Net_Core_Model_Link_">RequirementBase.AddElaboratedBy(Link)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_AddElaborates_OSLC4Net_Core_Model_Link_">RequirementBase.AddElaborates(Link)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_AddSpecifiedBy_OSLC4Net_Core_Model_Link_">RequirementBase.AddSpecifiedBy(Link)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_AddSpecifies_OSLC4Net_Core_Model_Link_">RequirementBase.AddSpecifies(Link)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_AddContributor_System_Uri_">RequirementBase.AddContributor(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_AddCreator_System_Uri_">RequirementBase.AddCreator(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_AddRdfType_System_Uri_">RequirementBase.AddRdfType(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetSubjects">RequirementBase.GetSubjects()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetElaboratedBy">RequirementBase.GetElaboratedBy()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetElaborates">RequirementBase.GetElaborates()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetSpecifiedBy">RequirementBase.GetSpecifiedBy()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetSpecifies">RequirementBase.GetSpecifies()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetImplementedBy">RequirementBase.GetImplementedBy()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetAffectedBy">RequirementBase.GetAffectedBy()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetTrackedBy">RequirementBase.GetTrackedBy()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetValidatedBy">RequirementBase.GetValidatedBy()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetSatisfiedBy">RequirementBase.GetSatisfiedBy()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetSatisfies">RequirementBase.GetSatisfies()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetDecomposedBy">RequirementBase.GetDecomposedBy()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetDecomposes">RequirementBase.GetDecomposes()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetConstrainedBy">RequirementBase.GetConstrainedBy()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetConstrains">RequirementBase.GetConstrains()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetContributors">RequirementBase.GetContributors()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetCreated">RequirementBase.GetCreated()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetCreators">RequirementBase.GetCreators()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetDescription">RequirementBase.GetDescription()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetIdentifier">RequirementBase.GetIdentifier()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetInstanceShape">RequirementBase.GetInstanceShape()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetModified">RequirementBase.GetModified()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetRdfTypes">RequirementBase.GetRdfTypes()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetServiceProvider">RequirementBase.GetServiceProvider()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetShortTitle">RequirementBase.GetShortTitle()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_GetTitle">RequirementBase.GetTitle()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetConstrains_OSLC4Net_Core_Model_Link___">RequirementBase.SetConstrains(Link[])</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetConstrainedBy_OSLC4Net_Core_Model_Link___">RequirementBase.SetConstrainedBy(Link[])</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetDecomposes_OSLC4Net_Core_Model_Link___">RequirementBase.SetDecomposes(Link[])</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetDecomposedBy_OSLC4Net_Core_Model_Link___">RequirementBase.SetDecomposedBy(Link[])</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetSatisfies_OSLC4Net_Core_Model_Link___">RequirementBase.SetSatisfies(Link[])</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetSatisfiedBy_OSLC4Net_Core_Model_Link___">RequirementBase.SetSatisfiedBy(Link[])</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetValidatedBy_OSLC4Net_Core_Model_Link___">RequirementBase.SetValidatedBy(Link[])</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetTrackedBy_OSLC4Net_Core_Model_Link___">RequirementBase.SetTrackedBy(Link[])</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetAffectedBy_OSLC4Net_Core_Model_Link___">RequirementBase.SetAffectedBy(Link[])</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetImplementedBy_OSLC4Net_Core_Model_Link___">RequirementBase.SetImplementedBy(Link[])</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetElaboratedBy_OSLC4Net_Core_Model_Link___">RequirementBase.SetElaboratedBy(Link[])</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetElaborates_OSLC4Net_Core_Model_Link___">RequirementBase.SetElaborates(Link[])</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetSpecifiedBy_OSLC4Net_Core_Model_Link___">RequirementBase.SetSpecifiedBy(Link[])</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetSpecifies_OSLC4Net_Core_Model_Link___">RequirementBase.SetSpecifies(Link[])</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetContributors_System_Uri___">RequirementBase.SetContributors(Uri[])</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetCreated_System_Nullable_System_DateTime__">RequirementBase.SetCreated(DateTime?)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetCreators_System_Uri___">RequirementBase.SetCreators(Uri[])</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetDescription_System_String_">RequirementBase.SetDescription(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetIdentifier_System_String_">RequirementBase.SetIdentifier(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetInstanceShape_System_Uri_">RequirementBase.SetInstanceShape(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetModified_System_Nullable_System_DateTime__">RequirementBase.SetModified(DateTime?)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetRdfTypes_System_Uri___">RequirementBase.SetRdfTypes(Uri[])</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetServiceProvider_System_Uri_">RequirementBase.SetServiceProvider(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetShortTitle_System_String_">RequirementBase.SetShortTitle(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetTitle_System_String_">RequirementBase.SetTitle(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Client.Oslc.Resources.RequirementBase.html#OSLC4Net_Client_Oslc_Resources_RequirementBase_SetSubjects_System_String___">RequirementBase.SetSubjects(string[])</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_About">AbstractResource.About</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetAbout">AbstractResource.GetAbout()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetAbout_System_Uri_">AbstractResource.SetAbout(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__">AbstractResource.SetExtendedProperties(IDictionary&lt;QName, object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetExtendedProperties">AbstractResource.GetExtendedProperties()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetTypes">AbstractResource.GetTypes()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__">AbstractResource.SetTypes(ICollection&lt;Uri&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_AddType_System_Uri_">AbstractResource.AddType(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_Requirement__ctor_" data-uid="OSLC4Net.Client.Oslc.Resources.Requirement.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_Requirement__ctor" data-uid="OSLC4Net.Client.Oslc.Resources.Requirement.#ctor">
+  Requirement()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/Requirement.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Requirement()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Client_Oslc_Resources_Requirement__ctor_" data-uid="OSLC4Net.Client.Oslc.Resources.Requirement.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Client_Oslc_Resources_Requirement__ctor_System_Uri_" data-uid="OSLC4Net.Client.Oslc.Resources.Requirement.#ctor(System.Uri)">
+  Requirement(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/Requirement.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Requirement(Uri about)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>about</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Client/Oslc/Resources/Requirement.cs/#L25" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <script defer src="https://umami.open-services.net/script.js" data-website-id="058571d1-b69b-4b21-a24a-2cc26e4eb3e1"></script>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

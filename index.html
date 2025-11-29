@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>OSLC4Net documentation | OSLC4Net </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="OSLC4Net documentation | OSLC4Net ">
+      
+      
+      <link rel="icon" href="images/favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="articles/toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/blob/main/docs/index.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="images/logo_docfx.png" alt="OSLC4Net">
+            OSLC4Net
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="oslc4net-documentation">OSLC4Net documentation</h1>
+
+<p><a href="https://www.nuget.org/packages/OSLC4Net.Core#versions-body-tab"><img src="https://img.shields.io/nuget/v/OSLC4Net.Core" alt="NuGet Version"></a>
+<a href="https://github.com/OSLC/oslc4net/discussions"><img src="https://img.shields.io/github/discussions/oslc/oslc4net" alt="GitHub Discussions"></a>
+<a href="https://forum.open-services.net/c/sdks/oslc4net/10"><img src="https://img.shields.io/discourse/users?color=28bd84&amp;server=https%3A%2F%2Fforum.open-services.net%2F" alt="Discourse forum"></a></p>
+<h2 id="oslc4net-an-oslc-sdk-for-dotnet">OSLC4Net, an OSLC SDK for dotnet</h2>
+<p><strong>OSLC4Net</strong> is an SDK and sample applications that help the .NET community
+adopt Open Services for Lifecycle Collaboration (OSLC,
+<a href="http://open-services.net">homepage</a>) and build OSLC-conformant tools.</p>
+<p>The SDK allows developers to create OSLC servers and clients by adding OSLC
+annotations to .NET objects to represent them as OSLC resources. It includes a
+library based on the <a href="https://dotnetrdf.org/">dotNetRDF</a> package, which assists
+with representing these resources as RDF and helps parse Turle, RDF/XML, and
+JSON-LD documents into OSLC .NET objects.</p>
+<p>The <a href="https://www.nuget.org/packages/OSLC4Net.Client/">OSLC4Net.Client package</a>
+can be used to help create consumer REST requests. On the server side, the
+project offers an RDF-specific <code>MediaTypeFormatter</code> that can help process OSLC
+REST requests within an ASP.NET MVC 5 API (ASP.NET Core 8+ migration is
+<a href="https://github.com/OSLC/oslc4net/issues/218">ongoing</a>).</p>
+<h2 id="getting-started">Getting started</h2>
+<p>If you do not have a .NET development environment, start by downloading VS Code
+<a href="https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit">C# Dev
+Kit</a>.
+Make sure to install .NET 8 SDK for development. Libraries target NETStandard
+2.0/2.1 and should run on .NET 6+.</p>
+<h3 id="a-simple-oslc-client">A simple OSLC Client</h3>
+<p>Create a new console application targeting .NET 8+, add a NuGet dependency to
+<code>OSLC4Net.Client</code> and add the following code:</p>
+<pre><code class="lang-csharp">var oslcClient = OslcClient.ForBasicAuth(username, password, loggerFactory.CreateLogger&lt;OslcClient&gt;());
+
+var resourceUri =
+    &quot;https://jazz.net/sandbox01-ccm/resource/itemName/com.ibm.team.workitem.WorkItem/1300&quot;;
+OslcResponse&lt;ChangeRequest&gt; response = await oslcClient.GetResourceAsync&lt;ChangeRequest&gt;(resourceUri);
+if (response.Resources?.SingleOrDefault() is not null)
+{
+    var changeRequestResource = response.Resources.Single();
+    logger.LogInformation(
+        &quot;{shortTitle} {title}&quot;, changeRequestResource.GetShortTitle(),
+        changeRequestResource.GetTitle());
+}
+else
+{
+    var responseStatusCode = response.StatusCode is null ? -1 : (int)response.StatusCode;
+    logger.LogError(&quot;Something went wrong: {} {}&quot;, responseStatusCode,
+        response.ResponseMessage?.ReasonPhrase);
+}
+</code></pre>
+<p>Replace <code>resourceUri</code> with a valid OSLC resource URI. This should give you a
+valid response. See <a href="./OSLC4Net_SDK/Examples/Oslc4NetExamples.Client/">full example
+project</a> for more details.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Use <a href="https://github.com/oslc-op/refimpl">https://github.com/oslc-op/refimpl</a> to quickly run a few conformant OSLC
+servers.</p>
+</div>
+<h2 id="oslc-server-support">OSLC Server support</h2>
+<p>Server parts of the SDK have not yet been migrated from .NET Framework to .NET
+8+.</p>
+<h2 id="contributing">Contributing</h2>
+<p>If you would like to contribute to the docs, submit a PR to this repo (or click
+&quot;Edit this page&quot; on the page you wish to modify).</p>
+<p>If you wish to file an issue, please do it on the main
+<a href="https://github.com/OSLC/oslc4net">OSLC4Net</a> repository.</p>
+<h2 id="more-information-on-oslc">More information on OSLC</h2>
+<ul>
+<li>See the <a href="http://open-services.net/">OSLC</a> site for more details on OSLC
+specifications and community activities.</li>
+<li>See the <a href="http://eclipse.org/lyo">Eclipse Lyo</a> site for information on OSLC
+SDKs and samples for other technologies.</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/OSLC/oslc4net/blob/main/docs/index.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <script defer src="https://umami.open-services.net/script.js" data-website-id="058571d1-b69b-4b21-a24a-2cc26e4eb3e1"></script>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ServiceProviderCatalog | OSLC4Net </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ServiceProviderCatalog | OSLC4Net ">
+      
+      <meta name="description" content="OSLC Service Provider Catalog resource">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_Core_Model_ServiceProviderCatalog.md&amp;value=---%0Auid%3A%20OSLC4Net.Core.Model.ServiceProviderCatalog%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo_docfx.png" alt="OSLC4Net">
+            OSLC4Net
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog">
+
+
+
+  <h1 id="OSLC4Net_Core_Model_ServiceProviderCatalog" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog" class="text-break">
+Class ServiceProviderCatalog  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="OSLC4Net.html">OSLC4Net</a>.<a class="xref" href="OSLC4Net.Core.html">Core</a>.<a class="xref" href="OSLC4Net.Core.Model.html">Model</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>OSLC4Net.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>OSLC Service Provider Catalog resource</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcNamespace(&quot;http://open-services.net/ns/core#&quot;)]
+public class ServiceProviderCatalog : AbstractResource, IExtendedResource, IResource</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html">AbstractResource</a></div>
+      <div><span class="xref">ServiceProviderCatalog</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IExtendedResource.html">IExtendedResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_About">AbstractResource.About</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetAbout">AbstractResource.GetAbout()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetAbout_System_Uri_">AbstractResource.SetAbout(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__">AbstractResource.SetExtendedProperties(IDictionary&lt;QName, object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetExtendedProperties">AbstractResource.GetExtendedProperties()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetTypes">AbstractResource.GetTypes()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__">AbstractResource.SetTypes(ICollection&lt;Uri&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_AddType_System_Uri_">AbstractResource.AddType(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="OSLC4Net_Core_Model_ServiceProviderCatalog_AddDomain_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.AddDomain*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_ServiceProviderCatalog_AddDomain_System_Uri_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.AddDomain(System.Uri)">
+  AddDomain(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddDomain(Uri domain)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>domain</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_ServiceProviderCatalog_AddDomains_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.AddDomains*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_ServiceProviderCatalog_AddDomains_System_Collections_Generic_ICollection_System_Uri__" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.AddDomains(System.Collections.Generic.ICollection{System.Uri})">
+  AddDomains(ICollection&lt;Uri&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddDomains(ICollection&lt;Uri&gt; domains)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>domains</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_ServiceProviderCatalog_AddServiceProvider_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.AddServiceProvider*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_ServiceProviderCatalog_AddServiceProvider_OSLC4Net_Core_Model_ServiceProvider_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.AddServiceProvider(OSLC4Net.Core.Model.ServiceProvider)">
+  AddServiceProvider(ServiceProvider)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddServiceProvider(ServiceProvider serviceProvider)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>serviceProvider</code> <a class="xref" href="OSLC4Net.Core.Model.ServiceProvider.html">ServiceProvider</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_ServiceProviderCatalog_GetDescription_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.GetDescription*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_ServiceProviderCatalog_GetDescription" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.GetDescription">
+  GetDescription()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Description of the service provider catalog&quot;)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/description&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Description&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+public string GetDescription()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_ServiceProviderCatalog_GetDomains_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.GetDomains*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_ServiceProviderCatalog_GetDomains" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.GetDomains">
+  GetDomains()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;URIs of the OSLC domain specifications that may be implemented by referenced services&quot;)]
+[OslcName(&quot;domain&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#domain&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Domains&quot;)]
+public Uri[] GetDomains()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_ServiceProviderCatalog_GetOauthConfiguration_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.GetOauthConfiguration*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_ServiceProviderCatalog_GetOauthConfiguration" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.GetOauthConfiguration">
+  GetOauthConfiguration()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Defines the three OAuth URIs required for a client to act as an OAuth consumer&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#oauthConfiguration&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#OAuthConfiguration&quot; })]
+[OslcReadOnly]
+[OslcRepresentation(Representation.Inline)]
+[OslcTitle(&quot;OAuth URIs&quot;)]
+[OslcValueShape(&quot;resourceShapes/oauthConfiguration&quot;)]
+[OslcValueType(ValueType.LocalResource)]
+public OAuthConfiguration GetOauthConfiguration()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.OAuthConfiguration.html">OAuthConfiguration</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_ServiceProviderCatalog_GetPublisher_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.GetPublisher*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_ServiceProviderCatalog_GetPublisher" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.GetPublisher">
+  GetPublisher()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Describes the software product that provides the implementation&quot;)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/publisher&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Publisher&quot; })]
+[OslcReadOnly]
+[OslcRepresentation(Representation.Inline)]
+[OslcTitle(&quot;Publisher&quot;)]
+[OslcValueShape(&quot;resourceShapes/publisher&quot;)]
+[OslcValueType(ValueType.LocalResource)]
+public Publisher GetPublisher()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Publisher.html">Publisher</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_ServiceProviderCatalog_GetReferencedServiceProviderCatalogs_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.GetReferencedServiceProviderCatalogs*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_ServiceProviderCatalog_GetReferencedServiceProviderCatalogs" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.GetReferencedServiceProviderCatalogs">
+  GetReferencedServiceProviderCatalogs()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Additional service provider catalogs&quot;)]
+[OslcName(&quot;serviceProviderCatalog&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#serviceProviderCatalog&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#ServiceProviderCatalog&quot; })]
+[OslcReadOnly]
+[OslcTitle(&quot;Additional Service Provider Catalogs&quot;)]
+[OslcValueShape(&quot;resourceShapes/serviceProviderCatalog&quot;)]
+public Uri[] GetReferencedServiceProviderCatalogs()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_ServiceProviderCatalog_GetServiceProviders_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.GetServiceProviders*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_ServiceProviderCatalog_GetServiceProviders" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.GetServiceProviders">
+  GetServiceProviders()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Service providers&quot;)]
+[OslcName(&quot;serviceProvider&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#serviceProvider&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#ServiceProvider&quot; })]
+[OslcReadOnly]
+[OslcRepresentation(Representation.Inline)]
+[OslcTitle(&quot;Service Providers&quot;)]
+[OslcValueShape(&quot;resourceShapes/serviceProvider&quot;)]
+[OslcValueType(ValueType.LocalResource)]
+public ServiceProvider[] GetServiceProviders()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.ServiceProvider.html">ServiceProvider</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_ServiceProviderCatalog_GetTitle_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.GetTitle*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_ServiceProviderCatalog_GetTitle" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.GetTitle">
+  GetTitle()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Title of the service provider catalog&quot;)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/title&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Title&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+public string GetTitle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_ServiceProviderCatalog_RemoveDomain_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.RemoveDomain*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_ServiceProviderCatalog_RemoveDomain_System_Uri_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.RemoveDomain(System.Uri)">
+  RemoveDomain(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveDomain(Uri domain)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>domain</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_ServiceProviderCatalog_RemoveDomains_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.RemoveDomains*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_ServiceProviderCatalog_RemoveDomains_System_Collections_Generic_ICollection_System_Uri__" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.RemoveDomains(System.Collections.Generic.ICollection{System.Uri})">
+  RemoveDomains(ICollection&lt;Uri&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveDomains(ICollection&lt;Uri&gt; domains)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>domains</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_ServiceProviderCatalog_RemoveServiceProvider_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.RemoveServiceProvider*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_ServiceProviderCatalog_RemoveServiceProvider_OSLC4Net_Core_Model_ServiceProvider_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.RemoveServiceProvider(OSLC4Net.Core.Model.ServiceProvider)">
+  RemoveServiceProvider(ServiceProvider)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveServiceProvider(ServiceProvider serviceProvider)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>serviceProvider</code> <a class="xref" href="OSLC4Net.Core.Model.ServiceProvider.html">ServiceProvider</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_ServiceProviderCatalog_SetDescription_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.SetDescription*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_ServiceProviderCatalog_SetDescription_System_String_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.SetDescription(System.String)">
+  SetDescription(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDescription(string description)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>description</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_ServiceProviderCatalog_SetDomains_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.SetDomains*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_ServiceProviderCatalog_SetDomains_System_Uri___" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.SetDomains(System.Uri[])">
+  SetDomains(Uri[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDomains(Uri[] domains)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>domains</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_ServiceProviderCatalog_SetOauthConfiguration_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.SetOauthConfiguration*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_ServiceProviderCatalog_SetOauthConfiguration_OSLC4Net_Core_Model_OAuthConfiguration_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.SetOauthConfiguration(OSLC4Net.Core.Model.OAuthConfiguration)">
+  SetOauthConfiguration(OAuthConfiguration)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetOauthConfiguration(OAuthConfiguration oauthConfiguration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>oauthConfiguration</code> <a class="xref" href="OSLC4Net.Core.Model.OAuthConfiguration.html">OAuthConfiguration</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_ServiceProviderCatalog_SetPublisher_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.SetPublisher*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_ServiceProviderCatalog_SetPublisher_OSLC4Net_Core_Model_Publisher_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.SetPublisher(OSLC4Net.Core.Model.Publisher)">
+  SetPublisher(Publisher)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPublisher(Publisher publisher)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>publisher</code> <a class="xref" href="OSLC4Net.Core.Model.Publisher.html">Publisher</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_ServiceProviderCatalog_SetReferencedServiceProviderCatalogs_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.SetReferencedServiceProviderCatalogs*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_ServiceProviderCatalog_SetReferencedServiceProviderCatalogs_System_Uri___" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.SetReferencedServiceProviderCatalogs(System.Uri[])">
+  SetReferencedServiceProviderCatalogs(Uri[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetReferencedServiceProviderCatalogs(Uri[] referencedServiceProviderCatalogs)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>referencedServiceProviderCatalogs</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_ServiceProviderCatalog_SetServiceProviders_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.SetServiceProviders*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_ServiceProviderCatalog_SetServiceProviders_OSLC4Net_Core_Model_ServiceProvider___" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.SetServiceProviders(OSLC4Net.Core.Model.ServiceProvider[])">
+  SetServiceProviders(ServiceProvider[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetServiceProviders(ServiceProvider[] serviceProviders)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>serviceProviders</code> <a class="xref" href="OSLC4Net.Core.Model.ServiceProvider.html">ServiceProvider</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_ServiceProviderCatalog_SetTitle_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.SetTitle*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_ServiceProviderCatalog_SetTitle_System_String_" data-uid="OSLC4Net.Core.Model.ServiceProviderCatalog.SetTitle(System.String)">
+  SetTitle(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTitle(string title)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/ServiceProviderCatalog.cs/#L23" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <script defer src="https://umami.open-services.net/script.js" data-website-id="058571d1-b69b-4b21-a24a-2cc26e4eb3e1"></script>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

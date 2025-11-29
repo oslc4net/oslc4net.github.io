@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Service | OSLC4Net </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Service | OSLC4Net ">
+      
+      <meta name="description" content="OSLC Service attribute">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_Core_Model_Service.md&amp;value=---%0Auid%3A%20OSLC4Net.Core.Model.Service%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo_docfx.png" alt="OSLC4Net">
+            OSLC4Net
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="OSLC4Net.Core.Model.Service">
+
+
+
+  <h1 id="OSLC4Net_Core_Model_Service" data-uid="OSLC4Net.Core.Model.Service" class="text-break">
+Class Service  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Service.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="OSLC4Net.html">OSLC4Net</a>.<a class="xref" href="OSLC4Net.Core.html">Core</a>.<a class="xref" href="OSLC4Net.Core.Model.html">Model</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>OSLC4Net.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>OSLC Service attribute</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcNamespace(&quot;http://open-services.net/ns/core#&quot;)]
+public class Service : AbstractResource, IExtendedResource, IResource</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html">AbstractResource</a></div>
+      <div><span class="xref">Service</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IExtendedResource.html">IExtendedResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_About">AbstractResource.About</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetAbout">AbstractResource.GetAbout()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetAbout_System_Uri_">AbstractResource.SetAbout(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__">AbstractResource.SetExtendedProperties(IDictionary&lt;QName, object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetExtendedProperties">AbstractResource.GetExtendedProperties()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_GetTypes">AbstractResource.GetTypes()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__">AbstractResource.SetTypes(ICollection&lt;Uri&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_AddType_System_Uri_">AbstractResource.AddType(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Core_Model_Service__ctor_" data-uid="OSLC4Net.Core.Model.Service.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Service__ctor" data-uid="OSLC4Net.Core.Model.Service.#ctor">
+  Service()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Service.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Service()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Service__ctor_" data-uid="OSLC4Net.Core.Model.Service.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Service__ctor_System_Uri_" data-uid="OSLC4Net.Core.Model.Service.#ctor(System.Uri)">
+  Service(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Service.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Service(Uri domain)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>domain</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="OSLC4Net_Core_Model_Service_AddCreationDialog_" data-uid="OSLC4Net.Core.Model.Service.AddCreationDialog*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Service_AddCreationDialog_OSLC4Net_Core_Model_Dialog_" data-uid="OSLC4Net.Core.Model.Service.AddCreationDialog(OSLC4Net.Core.Model.Dialog)">
+  AddCreationDialog(Dialog)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Service.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddCreationDialog(Dialog dialog)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dialog</code> <a class="xref" href="OSLC4Net.Core.Model.Dialog.html">Dialog</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Service_AddCreationFactory_" data-uid="OSLC4Net.Core.Model.Service.AddCreationFactory*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Service_AddCreationFactory_OSLC4Net_Core_Model_CreationFactory_" data-uid="OSLC4Net.Core.Model.Service.AddCreationFactory(OSLC4Net.Core.Model.CreationFactory)">
+  AddCreationFactory(CreationFactory)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Service.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddCreationFactory(CreationFactory creationFactory)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>creationFactory</code> <a class="xref" href="OSLC4Net.Core.Model.CreationFactory.html">CreationFactory</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Service_AddQueryCapability_" data-uid="OSLC4Net.Core.Model.Service.AddQueryCapability*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Service_AddQueryCapability_OSLC4Net_Core_Model_QueryCapability_" data-uid="OSLC4Net.Core.Model.Service.AddQueryCapability(OSLC4Net.Core.Model.QueryCapability)">
+  AddQueryCapability(QueryCapability)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Service.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddQueryCapability(QueryCapability queryCapability)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>queryCapability</code> <a class="xref" href="OSLC4Net.Core.Model.QueryCapability.html">QueryCapability</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Service_AddSelectionDialog_" data-uid="OSLC4Net.Core.Model.Service.AddSelectionDialog*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Service_AddSelectionDialog_OSLC4Net_Core_Model_Dialog_" data-uid="OSLC4Net.Core.Model.Service.AddSelectionDialog(OSLC4Net.Core.Model.Dialog)">
+  AddSelectionDialog(Dialog)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Service.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddSelectionDialog(Dialog dialog)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dialog</code> <a class="xref" href="OSLC4Net.Core.Model.Dialog.html">Dialog</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Service_GetCreationDialogs_" data-uid="OSLC4Net.Core.Model.Service.GetCreationDialogs*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Service_GetCreationDialogs" data-uid="OSLC4Net.Core.Model.Service.GetCreationDialogs">
+  GetCreationDialogs()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Service.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Enables clients to create a resource via UI&quot;)]
+[OslcName(&quot;creationDialog&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#creationDialog&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Dialog&quot; })]
+[OslcReadOnly]
+[OslcRepresentation(Representation.Inline)]
+[OslcTitle(&quot;Creation Dialogs&quot;)]
+[OslcValueShape(&quot;resourceShapes/dialog&quot;)]
+[OslcValueType(ValueType.LocalResource)]
+public Dialog[] GetCreationDialogs()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Dialog.html">Dialog</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Service_GetCreationFactories_" data-uid="OSLC4Net.Core.Model.Service.GetCreationFactories*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Service_GetCreationFactories" data-uid="OSLC4Net.Core.Model.Service.GetCreationFactories">
+  GetCreationFactories()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Service.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Enables clients to create new resources&quot;)]
+[OslcName(&quot;creationFactory&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#creationFactory&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#CreationFactory&quot; })]
+[OslcReadOnly]
+[OslcRepresentation(Representation.Inline)]
+[OslcTitle(&quot;Creation Factories&quot;)]
+[OslcValueShape(&quot;resourceShapes/creationFactory&quot;)]
+[OslcValueType(ValueType.LocalResource)]
+public CreationFactory[] GetCreationFactories()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.CreationFactory.html">CreationFactory</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Service_GetDomain_" data-uid="OSLC4Net.Core.Model.Service.GetDomain*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Service_GetDomain" data-uid="OSLC4Net.Core.Model.Service.GetDomain">
+  GetDomain()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Service.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Namespace Uri of the OSLC domain specification that is implemented by this service&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#domain&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Domain&quot;)]
+public Uri GetDomain()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Service_GetQueryCapabilities_" data-uid="OSLC4Net.Core.Model.Service.GetQueryCapabilities*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Service_GetQueryCapabilities" data-uid="OSLC4Net.Core.Model.Service.GetQueryCapabilities">
+  GetQueryCapabilities()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Service.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Enables clients query across a collection of resources&quot;)]
+[OslcName(&quot;queryCapability&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#queryCapability&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#QueryCapability&quot; })]
+[OslcReadOnly]
+[OslcRepresentation(Representation.Inline)]
+[OslcTitle(&quot;Query Capabilities&quot;)]
+[OslcValueShape(&quot;resourceShapes/queryCapability&quot;)]
+[OslcValueType(ValueType.LocalResource)]
+public QueryCapability[] GetQueryCapabilities()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.QueryCapability.html">QueryCapability</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Service_GetSelectionDialogs_" data-uid="OSLC4Net.Core.Model.Service.GetSelectionDialogs*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Service_GetSelectionDialogs" data-uid="OSLC4Net.Core.Model.Service.GetSelectionDialogs">
+  GetSelectionDialogs()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Service.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Enables clients to select a resource via UI&quot;)]
+[OslcName(&quot;selectionDialog&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#selectionDialog&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Dialog&quot; })]
+[OslcReadOnly]
+[OslcRepresentation(Representation.Inline)]
+[OslcTitle(&quot;Selection Dialogs&quot;)]
+[OslcValueShape(&quot;resourceShapes/dialog&quot;)]
+[OslcValueType(ValueType.LocalResource)]
+public Dialog[] GetSelectionDialogs()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Dialog.html">Dialog</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Service_SetCreationDialogs_" data-uid="OSLC4Net.Core.Model.Service.SetCreationDialogs*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Service_SetCreationDialogs_OSLC4Net_Core_Model_Dialog___" data-uid="OSLC4Net.Core.Model.Service.SetCreationDialogs(OSLC4Net.Core.Model.Dialog[])">
+  SetCreationDialogs(Dialog[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Service.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCreationDialogs(Dialog[] creationDialogs)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>creationDialogs</code> <a class="xref" href="OSLC4Net.Core.Model.Dialog.html">Dialog</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Service_SetCreationFactories_" data-uid="OSLC4Net.Core.Model.Service.SetCreationFactories*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Service_SetCreationFactories_OSLC4Net_Core_Model_CreationFactory___" data-uid="OSLC4Net.Core.Model.Service.SetCreationFactories(OSLC4Net.Core.Model.CreationFactory[])">
+  SetCreationFactories(CreationFactory[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Service.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCreationFactories(CreationFactory[] creationFactories)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>creationFactories</code> <a class="xref" href="OSLC4Net.Core.Model.CreationFactory.html">CreationFactory</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Service_SetDomain_" data-uid="OSLC4Net.Core.Model.Service.SetDomain*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Service_SetDomain_System_Uri_" data-uid="OSLC4Net.Core.Model.Service.SetDomain(System.Uri)">
+  SetDomain(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Service.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDomain(Uri domain)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>domain</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Service_SetQueryCapabilities_" data-uid="OSLC4Net.Core.Model.Service.SetQueryCapabilities*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Service_SetQueryCapabilities_OSLC4Net_Core_Model_QueryCapability___" data-uid="OSLC4Net.Core.Model.Service.SetQueryCapabilities(OSLC4Net.Core.Model.QueryCapability[])">
+  SetQueryCapabilities(QueryCapability[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Service.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetQueryCapabilities(QueryCapability[] queryCapabilities)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>queryCapabilities</code> <a class="xref" href="OSLC4Net.Core.Model.QueryCapability.html">QueryCapability</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Service_SetSelectionDialogs_" data-uid="OSLC4Net.Core.Model.Service.SetSelectionDialogs*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Service_SetSelectionDialogs_OSLC4Net_Core_Model_Dialog___" data-uid="OSLC4Net.Core.Model.Service.SetSelectionDialogs(OSLC4Net.Core.Model.Dialog[])">
+  SetSelectionDialogs(Dialog[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Service.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSelectionDialogs(Dialog[] selectionDialogs)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>selectionDialogs</code> <a class="xref" href="OSLC4Net.Core.Model.Dialog.html">Dialog</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Service.cs/#L23" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <script defer src="https://umami.open-services.net/script.js" data-website-id="058571d1-b69b-4b21-a24a-2cc26e4eb3e1"></script>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
