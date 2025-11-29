@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Getting Started | OSLC4Net </title>
+      <title>OSLC4Net Architecture Overview | OSLC4Net </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Getting Started | OSLC4Net ">
+      <meta name="title" content="OSLC4Net Architecture Overview | OSLC4Net ">
       
-      
+      <meta name="description" content="High-level structure of the OSLC4Net framework for building OSLC servers and clients.">
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/blob/main/docs/articles/getting-started.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/blob/main/docs/guides/oslc4net-architecture-overview.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,33 +85,44 @@
         </div>
 
         <article data-uid="">
-<h1 id="getting-started">Getting Started</h1>
+<h1 id="oslc4net-architecture-overview">OSLC4Net Architecture Overview</h1>
 
-<h2 id="installation">Installation</h2>
-<p>OSLC4Net is available as NuGet packages. The main packages are:</p>
+<p>OSLC4Net provides a focused set of building blocks for implementing OSLC providers and consumers on .NET.</p>
+<h2 id="layers">Layers</h2>
 <ul>
-<li><strong>OSLC4Net.Core</strong> - Core OSLC functionality and annotations</li>
-<li><strong>OSLC4Net.Client</strong> - Client library for consuming OSLC resources</li>
-<li><strong>OSLC4Net.Core.DotNetRdfProvider</strong> - RDF provider using dotNetRDF</li>
-<li><strong>OSLC4Net.Core.JsonProvider</strong> - JSON-LD provider</li>
+<li>Domain Models: <code>ChangeRequest</code>, <code>Requirement</code>, dialogs, previews – represent OSLC resources.</li>
+<li>Serialization / Formatters: RDF output formatter integrates with ASP.NET Core to emit RDF/XML, Turtle, JSON-LD.</li>
+<li>Provider Assembly: Controllers define REST endpoints mapping application data → OSLC resources.</li>
+<li>Client Library: <code>OslcClient</code> handles authenticated retrieval and wraps responses in <code>OslcResponse&lt;T&gt;</code>.</li>
 </ul>
-<h3 id="installing-via-nuget">Installing via NuGet</h3>
-<pre><code class="lang-bash">dotnet add package OSLC4Net.Client
-</code></pre>
-<p>Or via Package Manager Console:</p>
-<pre><code class="lang-powershell">Install-Package OSLC4Net.Client
-</code></pre>
-<h2 id="prerequisites">Prerequisites</h2>
+<h2 id="discovery-flow-server-side">Discovery Flow (Server Side)</h2>
+<ol>
+<li>OSLC Root Services document. It provides authentication and OSLC service provider catalog links.</li>
+<li>Catalog lists Service Providers.</li>
+<li>Service Provider defines services, such as query capabilities, dialogs.</li>
+<li>Individual services expose the capabilities you are after (search, preview, creation, etc.).</li>
+</ol>
+<h2 id="resource-representation">Resource Representation</h2>
 <ul>
-<li>.NET 10 SDK</li>
+<li>Each resource carries an &quot;about&quot; URI (stable identity, not merely a URL link) and core properties (title, description, additional identifiers besides the URI).</li>
+<li>A subset of properties that are commonly used on given resource types are mapped to C# properties. The remaining properties attach are exposed via &quot;extended properties&quot; found on most resources.</li>
 </ul>
-<h2 id="next-steps">Next Steps</h2>
-<p>Check out the <a href="https://github.com/OSLC/oslc4net/tree/main/OSLC4Net_SDK/Examples">examples</a> in the repository to see OSLC4Net in action.</p>
+<h2 id="delegated-ui--preview">Delegated UI &amp; Preview</h2>
+<ul>
+<li>Selection Dialog: iframe-friendly HTML endpoint.</li>
+<li>Compact Resource: lightweight metadata + small/large preview pointers.</li>
+<li>Link header ties full resource to its Compact representation.</li>
+</ul>
+<h2 id="extensibility">Extensibility</h2>
+<ul>
+<li>Add new domain resources by creating mapping classes and endpoints.</li>
+<li>Introduce additional dialogs (creation, selection) following existing patterns.</li>
+</ul>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/OSLC/oslc4net/blob/main/docs/articles/getting-started.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/OSLC/oslc4net/blob/main/docs/guides/oslc4net-architecture-overview.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

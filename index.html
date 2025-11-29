@@ -11,7 +11,7 @@
       <link rel="stylesheet" href="public/docfx.min.css">
       <link rel="stylesheet" href="public/main.css">
       <meta name="docfx:navrel" content="toc.html">
-      <meta name="docfx:tocrel" content="articles/toc.html">
+      <meta name="docfx:tocrel" content="guides/toc.html">
       
       <meta name="docfx:rel" content="">
       
@@ -105,13 +105,15 @@ project offers an RDF-specific <code>MediaTypeFormatter</code> that can help pro
 REST requests within an ASP.NET MVC 5 API (ASP.NET Core 8+ migration is
 <a href="https://github.com/OSLC/oslc4net/issues/218">ongoing</a>).</p>
 <h2 id="getting-started">Getting started</h2>
-<p>If you do not have a .NET development environment, start by downloading VS Code
+<h3 id="prerequisites">Prerequisites</h3>
+<ul>
+<li>.NET 10 SDK</li>
+<li>Dev environment, e.g. VS Code
 <a href="https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit">C# Dev
-Kit</a>.
-Make sure to install .NET 8 SDK for development. Libraries target NETStandard
-2.0/2.1 and should run on .NET 6+.</p>
+Kit</a></li>
+</ul>
 <h3 id="a-simple-oslc-client">A simple OSLC Client</h3>
-<p>Create a new console application targeting .NET 8+, add a NuGet dependency to
+<p>Create a new console application targeting .NET 10, add a NuGet dependency to
 <code>OSLC4Net.Client</code> and add the following code:</p>
 <pre><code class="lang-csharp">var oslcClient = OslcClient.ForBasicAuth(username, password, loggerFactory.CreateLogger&lt;OslcClient&gt;());
 
@@ -140,9 +142,8 @@ project</a> for more details.</p>
 <p>Use <a href="https://github.com/oslc-op/refimpl">https://github.com/oslc-op/refimpl</a> to quickly run a few conformant OSLC
 servers.</p>
 </div>
-<h2 id="oslc-server-support">OSLC Server support</h2>
-<p>Server parts of the SDK have not yet been migrated from .NET Framework to .NET
-8+.</p>
+<h2 id="next-steps">Next steps</h2>
+<p>Check out the Guides in the table of contents.</p>
 <h2 id="contributing">Contributing</h2>
 <p>If you would like to contribute to the docs, submit a PR to this repo (or click
 &quot;Edit this page&quot; on the page you wish to modify).</p>
