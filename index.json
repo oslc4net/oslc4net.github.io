@@ -1152,7 +1152,7 @@
   "articles/getting-started.html": {
     "href": "articles/getting-started.html",
     "title": "Getting Started | OSLC4Net",
-    "summary": "Getting Started Installation OSLC4Net is available as NuGet packages. The main packages are: OSLC4Net.Core - Core OSLC functionality and annotations OSLC4Net.Client - Client library for consuming OSLC resources OSLC4Net.Core.DotNetRdfProvider - RDF provider using dotNetRDF OSLC4Net.Core.JsonProvider - JSON-LD provider Installing via NuGet dotnet add package OSLC4Net.Client Or via Package Manager Console: Install-Package OSLC4Net.Client Prerequisites .NET 6 or later runtime For development: .NET 8 SDK or later Libraries target .NET Standard 2.0/2.1 Next Steps Check out the examples in the repository to see OSLC4Net in action."
+    "summary": "Getting Started Installation OSLC4Net is available as NuGet packages. The main packages are: OSLC4Net.Core - Core OSLC functionality and annotations OSLC4Net.Client - Client library for consuming OSLC resources OSLC4Net.Core.DotNetRdfProvider - RDF provider using dotNetRDF OSLC4Net.Core.JsonProvider - JSON-LD provider Installing via NuGet dotnet add package OSLC4Net.Client Or via Package Manager Console: Install-Package OSLC4Net.Client Prerequisites .NET 10 SDK Next Steps Check out the examples in the repository to see OSLC4Net in action."
   },
   "index.html": {
     "href": "index.html",
