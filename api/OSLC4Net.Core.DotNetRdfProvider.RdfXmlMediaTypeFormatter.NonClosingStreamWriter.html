@@ -101,7 +101,7 @@ Class RdfXmlMediaTypeFormatter.NonClosingStreamWriter  <a class="header-action l
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RdfXmlMediaTypeFormatter.NonClosingStreamWriter : StreamWriter, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public class RdfXmlMediaTypeFormatter.NonClosingStreamWriter : StreamWriter, IAsyncDisposable, IDisposable</code></pre>
   </div>
 
 
@@ -121,6 +121,7 @@ Class RdfXmlMediaTypeFormatter.NonClosingStreamWriter  <a class="header-action l
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iasyncdisposable">IAsyncDisposable</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
     </dd>
   </dl>
@@ -136,10 +137,16 @@ Class RdfXmlMediaTypeFormatter.NonClosingStreamWriter  <a class="header-action l
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.dispose">StreamWriter.Dispose(bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.disposeasync">StreamWriter.DisposeAsync()</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.flush">StreamWriter.Flush()</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.flushasync">StreamWriter.FlushAsync()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.flushasync#system-io-streamwriter-flushasync">StreamWriter.FlushAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.flushasync#system-io-streamwriter-flushasync(system-threading-cancellationtoken)">StreamWriter.FlushAsync(CancellationToken)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.write#system-io-streamwriter-write(system-char)">StreamWriter.Write(char)</a>
@@ -151,7 +158,25 @@ Class RdfXmlMediaTypeFormatter.NonClosingStreamWriter  <a class="header-action l
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.write#system-io-streamwriter-write(system-char()-system-int32-system-int32)">StreamWriter.Write(char[], int, int)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.write#system-io-streamwriter-write(system-readonlyspan((system-char)))">StreamWriter.Write(ReadOnlySpan&lt;char&gt;)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.write#system-io-streamwriter-write(system-string)">StreamWriter.Write(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.write#system-io-streamwriter-write(system-string-system-object)">StreamWriter.Write(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.write#system-io-streamwriter-write(system-string-system-object-system-object)">StreamWriter.Write(string, object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.write#system-io-streamwriter-write(system-string-system-object-system-object-system-object)">StreamWriter.Write(string, object, object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.write#system-io-streamwriter-write(system-string-system-object())">StreamWriter.Write(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.write#system-io-streamwriter-write(system-string-system-readonlyspan((system-object)))">StreamWriter.Write(string, params ReadOnlySpan&lt;object&gt;)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.writeasync#system-io-streamwriter-writeasync(system-char)">StreamWriter.WriteAsync(char)</a>
@@ -160,7 +185,31 @@ Class RdfXmlMediaTypeFormatter.NonClosingStreamWriter  <a class="header-action l
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.writeasync#system-io-streamwriter-writeasync(system-char()-system-int32-system-int32)">StreamWriter.WriteAsync(char[], int, int)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.writeasync#system-io-streamwriter-writeasync(system-readonlymemory((system-char))-system-threading-cancellationtoken)">StreamWriter.WriteAsync(ReadOnlyMemory&lt;char&gt;, CancellationToken)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.writeasync#system-io-streamwriter-writeasync(system-string)">StreamWriter.WriteAsync(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.writeline#system-io-streamwriter-writeline(system-readonlyspan((system-char)))">StreamWriter.WriteLine(ReadOnlySpan&lt;char&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.writeline#system-io-streamwriter-writeline(system-string)">StreamWriter.WriteLine(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.writeline#system-io-streamwriter-writeline(system-string-system-object)">StreamWriter.WriteLine(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.writeline#system-io-streamwriter-writeline(system-string-system-object-system-object)">StreamWriter.WriteLine(string, object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.writeline#system-io-streamwriter-writeline(system-string-system-object-system-object-system-object)">StreamWriter.WriteLine(string, object, object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.writeline#system-io-streamwriter-writeline(system-string-system-object())">StreamWriter.WriteLine(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.writeline#system-io-streamwriter-writeline(system-string-system-readonlyspan((system-object)))">StreamWriter.WriteLine(string, params ReadOnlySpan&lt;object&gt;)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.writelineasync#system-io-streamwriter-writelineasync">StreamWriter.WriteLineAsync()</a>
@@ -170,6 +219,9 @@ Class RdfXmlMediaTypeFormatter.NonClosingStreamWriter  <a class="header-action l
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.writelineasync#system-io-streamwriter-writelineasync(system-char()-system-int32-system-int32)">StreamWriter.WriteLineAsync(char[], int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.writelineasync#system-io-streamwriter-writelineasync(system-readonlymemory((system-char))-system-threading-cancellationtoken)">StreamWriter.WriteLineAsync(ReadOnlyMemory&lt;char&gt;, CancellationToken)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamwriter.writelineasync#system-io-streamwriter-writelineasync(system-string)">StreamWriter.WriteLineAsync(string)</a>
@@ -185,6 +237,9 @@ Class RdfXmlMediaTypeFormatter.NonClosingStreamWriter  <a class="header-action l
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.corenewline">TextWriter.CoreNewLine</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.createbroadcasting">TextWriter.CreateBroadcasting(params TextWriter[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.dispose#system-io-textwriter-dispose">TextWriter.Dispose()</a>
@@ -214,16 +269,7 @@ Class RdfXmlMediaTypeFormatter.NonClosingStreamWriter  <a class="header-action l
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-single)">TextWriter.Write(float)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-string-system-object)">TextWriter.Write(string, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-string-system-object-system-object)">TextWriter.Write(string, object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-string-system-object-system-object-system-object)">TextWriter.Write(string, object, object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-string-system-object())">TextWriter.Write(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-text-stringbuilder)">TextWriter.Write(StringBuilder)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.write#system-io-textwriter-write(system-uint32)">TextWriter.Write(uint)</a>
@@ -233,6 +279,9 @@ Class RdfXmlMediaTypeFormatter.NonClosingStreamWriter  <a class="header-action l
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeasync#system-io-textwriter-writeasync(system-char())">TextWriter.WriteAsync(char[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeasync#system-io-textwriter-writeasync(system-text-stringbuilder-system-threading-cancellationtoken)">TextWriter.WriteAsync(StringBuilder, CancellationToken)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline">TextWriter.WriteLine()</a>
@@ -268,19 +317,7 @@ Class RdfXmlMediaTypeFormatter.NonClosingStreamWriter  <a class="header-action l
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-single)">TextWriter.WriteLine(float)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-string)">TextWriter.WriteLine(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-string-system-object)">TextWriter.WriteLine(string, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-string-system-object-system-object)">TextWriter.WriteLine(string, object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-string-system-object-system-object-system-object)">TextWriter.WriteLine(string, object, object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-string-system-object())">TextWriter.WriteLine(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-text-stringbuilder)">TextWriter.WriteLine(StringBuilder)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.writeline#system-io-textwriter-writeline(system-uint32)">TextWriter.WriteLine(uint)</a>
@@ -290,6 +327,9 @@ Class RdfXmlMediaTypeFormatter.NonClosingStreamWriter  <a class="header-action l
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.writelineasync#system-io-textwriter-writelineasync(system-char())">TextWriter.WriteLineAsync(char[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.writelineasync#system-io-textwriter-writelineasync(system-text-stringbuilder-system-threading-cancellationtoken)">TextWriter.WriteLineAsync(StringBuilder, CancellationToken)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter.formatprovider">TextWriter.FormatProvider</a>
@@ -380,7 +420,8 @@ Class RdfXmlMediaTypeFormatter.NonClosingStreamWriter  <a class="header-action l
   <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.DotNetRdfProvider/RdfXmlMediaTypeFormatter.cs/#L587"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Closes the current <code>StreamWriter</code> object and the underlying stream.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -396,6 +437,12 @@ Class RdfXmlMediaTypeFormatter.NonClosingStreamWriter  <a class="header-action l
 
 
 
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.encoderfallbackexception">EncoderFallbackException</a></dt>
+    <dd><p>The current encoding does not support displaying half of a Unicode surrogate pair.</p>
+</dd>
+  </dl>
 
 
 

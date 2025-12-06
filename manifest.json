@@ -1516,6 +1516,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.AllowedValues.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.AllowedValues.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.AllowedValues",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OSLC4Net.Core.Model.AnyResource.yml",
       "output": {
         ".html": {

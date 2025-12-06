@@ -12674,13 +12674,13 @@ references:
   nameWithType: DotNetRdfHelper.CreateDotNetRdfGraph(IEnumerable<object>)
   nameWithType.vb: DotNetRdfHelper.CreateDotNetRdfGraph(IEnumerable(Of Object))
 - uid: OSLC4Net.Core.DotNetRdfProvider.DotNetRdfHelper.CreateDotNetRdfGraph(System.String,System.String,System.String,System.Nullable{System.Int64},System.Collections.Generic.IEnumerable{System.Object},System.Collections.Generic.IDictionary{System.String,System.Object})
-  name: CreateDotNetRdfGraph(string, string, string, long?, IEnumerable<object>, IDictionary<string, object>)
+  name: CreateDotNetRdfGraph(string?, string?, string?, long?, IEnumerable<object>?, IDictionary<string, object>?)
   href: api/OSLC4Net.Core.DotNetRdfProvider.DotNetRdfHelper.html#OSLC4Net_Core_DotNetRdfProvider_DotNetRdfHelper_CreateDotNetRdfGraph_System_String_System_String_System_String_System_Nullable_System_Int64__System_Collections_Generic_IEnumerable_System_Object__System_Collections_Generic_IDictionary_System_String_System_Object__
   commentId: M:OSLC4Net.Core.DotNetRdfProvider.DotNetRdfHelper.CreateDotNetRdfGraph(System.String,System.String,System.String,System.Nullable{System.Int64},System.Collections.Generic.IEnumerable{System.Object},System.Collections.Generic.IDictionary{System.String,System.Object})
   name.vb: CreateDotNetRdfGraph(String, String, String, Long?, IEnumerable(Of Object), IDictionary(Of String, Object))
-  fullName: OSLC4Net.Core.DotNetRdfProvider.DotNetRdfHelper.CreateDotNetRdfGraph(string, string, string, long?, System.Collections.Generic.IEnumerable<object>, System.Collections.Generic.IDictionary<string, object>)
+  fullName: OSLC4Net.Core.DotNetRdfProvider.DotNetRdfHelper.CreateDotNetRdfGraph(string?, string?, string?, long?, System.Collections.Generic.IEnumerable<object>?, System.Collections.Generic.IDictionary<string, object>?)
   fullName.vb: OSLC4Net.Core.DotNetRdfProvider.DotNetRdfHelper.CreateDotNetRdfGraph(String, String, String, Long?, System.Collections.Generic.IEnumerable(Of Object), System.Collections.Generic.IDictionary(Of String, Object))
-  nameWithType: DotNetRdfHelper.CreateDotNetRdfGraph(string, string, string, long?, IEnumerable<object>, IDictionary<string, object>)
+  nameWithType: DotNetRdfHelper.CreateDotNetRdfGraph(string?, string?, string?, long?, IEnumerable<object>?, IDictionary<string, object>?)
   nameWithType.vb: DotNetRdfHelper.CreateDotNetRdfGraph(String, String, String, Long?, IEnumerable(Of Object), IDictionary(Of String, Object))
 - uid: OSLC4Net.Core.DotNetRdfProvider.DotNetRdfHelper.CreateDotNetRdfGraph*
   name: CreateDotNetRdfGraph
@@ -12866,19 +12866,22 @@ references:
   fullName: OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.Graph
   nameWithType: RdfXmlMediaTypeFormatter.Graph
 - uid: OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.ImplementsGenericType(System.Type,System.Type)
-  name: ImplementsGenericType(Type, Type)
+  name: ImplementsGenericType(Type, Type?)
   href: api/OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.html#OSLC4Net_Core_DotNetRdfProvider_RdfXmlMediaTypeFormatter_ImplementsGenericType_System_Type_System_Type_
   commentId: M:OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.ImplementsGenericType(System.Type,System.Type)
-  fullName: OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.ImplementsGenericType(System.Type, System.Type)
-  nameWithType: RdfXmlMediaTypeFormatter.ImplementsGenericType(Type, Type)
+  name.vb: ImplementsGenericType(Type, Type)
+  fullName: OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.ImplementsGenericType(System.Type, System.Type?)
+  fullName.vb: OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.ImplementsGenericType(System.Type, System.Type)
+  nameWithType: RdfXmlMediaTypeFormatter.ImplementsGenericType(Type, Type?)
+  nameWithType.vb: RdfXmlMediaTypeFormatter.ImplementsGenericType(Type, Type)
 - uid: OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.ImplementsGenericType(System.Type,System.Type,System.Boolean)
-  name: ImplementsGenericType(Type, Type, bool)
+  name: ImplementsGenericType(Type, Type?, bool)
   href: api/OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.html#OSLC4Net_Core_DotNetRdfProvider_RdfXmlMediaTypeFormatter_ImplementsGenericType_System_Type_System_Type_System_Boolean_
   commentId: M:OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.ImplementsGenericType(System.Type,System.Type,System.Boolean)
   name.vb: ImplementsGenericType(Type, Type, Boolean)
-  fullName: OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.ImplementsGenericType(System.Type, System.Type, bool)
+  fullName: OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.ImplementsGenericType(System.Type, System.Type?, bool)
   fullName.vb: OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.ImplementsGenericType(System.Type, System.Type, Boolean)
-  nameWithType: RdfXmlMediaTypeFormatter.ImplementsGenericType(Type, Type, bool)
+  nameWithType: RdfXmlMediaTypeFormatter.ImplementsGenericType(Type, Type?, bool)
   nameWithType.vb: RdfXmlMediaTypeFormatter.ImplementsGenericType(Type, Type, Boolean)
 - uid: OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.ImplementsGenericType*
   name: ImplementsGenericType
@@ -14340,6 +14343,96 @@ references:
   fullName.vb: OSLC4Net.Core.Model.AddAllExtension.AddAll(Of T)(System.Collections.Generic.ICollection(Of T), System.Collections.Generic.IEnumerable(Of T))
   nameWithType: AddAllExtension.AddAll<T>(ICollection<T>, IEnumerable<T>)
   nameWithType.vb: AddAllExtension.AddAll(Of T)(ICollection(Of T), IEnumerable(Of T))
+- uid: OSLC4Net.Core.Model.AllowedValues
+  name: AllowedValues
+  href: api/OSLC4Net.Core.Model.AllowedValues.html
+  commentId: T:OSLC4Net.Core.Model.AllowedValues
+  fullName: OSLC4Net.Core.Model.AllowedValues
+  nameWithType: AllowedValues
+- uid: OSLC4Net.Core.Model.AllowedValues.About
+  name: About
+  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_About
+  commentId: P:OSLC4Net.Core.Model.AllowedValues.About
+  fullName: OSLC4Net.Core.Model.AllowedValues.About
+  nameWithType: AllowedValues.About
+- uid: OSLC4Net.Core.Model.AllowedValues.About*
+  name: About
+  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_About_
+  commentId: Overload:OSLC4Net.Core.Model.AllowedValues.About
+  isSpec: "True"
+  fullName: OSLC4Net.Core.Model.AllowedValues.About
+  nameWithType: AllowedValues.About
+- uid: OSLC4Net.Core.Model.AllowedValues.AddAllowedValue(System.String)
+  name: AddAllowedValue(string)
+  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_AddAllowedValue_System_String_
+  commentId: M:OSLC4Net.Core.Model.AllowedValues.AddAllowedValue(System.String)
+  name.vb: AddAllowedValue(String)
+  fullName: OSLC4Net.Core.Model.AllowedValues.AddAllowedValue(string)
+  fullName.vb: OSLC4Net.Core.Model.AllowedValues.AddAllowedValue(String)
+  nameWithType: AllowedValues.AddAllowedValue(string)
+  nameWithType.vb: AllowedValues.AddAllowedValue(String)
+- uid: OSLC4Net.Core.Model.AllowedValues.AddAllowedValue*
+  name: AddAllowedValue
+  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_AddAllowedValue_
+  commentId: Overload:OSLC4Net.Core.Model.AllowedValues.AddAllowedValue
+  isSpec: "True"
+  fullName: OSLC4Net.Core.Model.AllowedValues.AddAllowedValue
+  nameWithType: AllowedValues.AddAllowedValue
+- uid: OSLC4Net.Core.Model.AllowedValues.GetAbout
+  name: GetAbout()
+  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_GetAbout
+  commentId: M:OSLC4Net.Core.Model.AllowedValues.GetAbout
+  fullName: OSLC4Net.Core.Model.AllowedValues.GetAbout()
+  nameWithType: AllowedValues.GetAbout()
+- uid: OSLC4Net.Core.Model.AllowedValues.GetAbout*
+  name: GetAbout
+  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_GetAbout_
+  commentId: Overload:OSLC4Net.Core.Model.AllowedValues.GetAbout
+  isSpec: "True"
+  fullName: OSLC4Net.Core.Model.AllowedValues.GetAbout
+  nameWithType: AllowedValues.GetAbout
+- uid: OSLC4Net.Core.Model.AllowedValues.GetAllowedValues
+  name: GetAllowedValues()
+  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_GetAllowedValues
+  commentId: M:OSLC4Net.Core.Model.AllowedValues.GetAllowedValues
+  fullName: OSLC4Net.Core.Model.AllowedValues.GetAllowedValues()
+  nameWithType: AllowedValues.GetAllowedValues()
+- uid: OSLC4Net.Core.Model.AllowedValues.GetAllowedValues*
+  name: GetAllowedValues
+  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_GetAllowedValues_
+  commentId: Overload:OSLC4Net.Core.Model.AllowedValues.GetAllowedValues
+  isSpec: "True"
+  fullName: OSLC4Net.Core.Model.AllowedValues.GetAllowedValues
+  nameWithType: AllowedValues.GetAllowedValues
+- uid: OSLC4Net.Core.Model.AllowedValues.SetAbout(System.Uri)
+  name: SetAbout(Uri)
+  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_SetAbout_System_Uri_
+  commentId: M:OSLC4Net.Core.Model.AllowedValues.SetAbout(System.Uri)
+  fullName: OSLC4Net.Core.Model.AllowedValues.SetAbout(System.Uri)
+  nameWithType: AllowedValues.SetAbout(Uri)
+- uid: OSLC4Net.Core.Model.AllowedValues.SetAbout*
+  name: SetAbout
+  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_SetAbout_
+  commentId: Overload:OSLC4Net.Core.Model.AllowedValues.SetAbout
+  isSpec: "True"
+  fullName: OSLC4Net.Core.Model.AllowedValues.SetAbout
+  nameWithType: AllowedValues.SetAbout
+- uid: OSLC4Net.Core.Model.AllowedValues.SetAllowedValues(System.String[])
+  name: SetAllowedValues(string[])
+  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_SetAllowedValues_System_String___
+  commentId: M:OSLC4Net.Core.Model.AllowedValues.SetAllowedValues(System.String[])
+  name.vb: SetAllowedValues(String())
+  fullName: OSLC4Net.Core.Model.AllowedValues.SetAllowedValues(string[])
+  fullName.vb: OSLC4Net.Core.Model.AllowedValues.SetAllowedValues(String())
+  nameWithType: AllowedValues.SetAllowedValues(string[])
+  nameWithType.vb: AllowedValues.SetAllowedValues(String())
+- uid: OSLC4Net.Core.Model.AllowedValues.SetAllowedValues*
+  name: SetAllowedValues
+  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_SetAllowedValues_
+  commentId: Overload:OSLC4Net.Core.Model.AllowedValues.SetAllowedValues
+  isSpec: "True"
+  fullName: OSLC4Net.Core.Model.AllowedValues.SetAllowedValues
+  nameWithType: AllowedValues.SetAllowedValues
 - uid: OSLC4Net.Core.Model.AnyResource
   name: AnyResource
   href: api/OSLC4Net.Core.Model.AnyResource.html
