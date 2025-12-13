@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class AllowedValues | OSLC4Net </title>
+      <title>Class AllowedValuesResource&lt;T&gt; | OSLC4Net </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class AllowedValues | OSLC4Net ">
+      <meta name="title" content="Class AllowedValuesResource&lt;T&gt; | OSLC4Net ">
       
       
       <link rel="icon" href="../images/favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_Core_Model_AllowedValues.md&amp;value=---%0Auid%3A%20OSLC4Net.Core.Model.AllowedValues%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_Core_Model_AllowedValuesResource_1.md&amp;value=---%0Auid%3A%20OSLC4Net.Core.Model.AllowedValuesResource%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="OSLC4Net.Core.Model.AllowedValues">
+        <article data-uid="OSLC4Net.Core.Model.AllowedValuesResource`1">
 
 
 
-  <h1 id="OSLC4Net_Core_Model_AllowedValues" data-uid="OSLC4Net.Core.Model.AllowedValues" class="text-break">
-Class AllowedValues  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AllowedValues.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <h1 id="OSLC4Net_Core_Model_AllowedValuesResource_1" data-uid="OSLC4Net.Core.Model.AllowedValuesResource`1" class="text-break">
+Class AllowedValuesResource&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AllowedValuesResource.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -103,17 +103,23 @@ Class AllowedValues  <a class="header-action link-secondary" title="View source"
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Experimental(&quot;OSLCEXP001&quot;, Message = &quot;This class may change or be removed in future releases after [OslcAllowedValues] attribute support is fully implemented and verified.&quot;)]
 [OslcNamespace(&quot;http://open-services.net/ns/core#&quot;)]
-public sealed class AllowedValues : IResource</code></pre>
+[OslcName(&quot;AllowedValues&quot;)]
+public sealed class AllowedValuesResource&lt;T&gt; : IResource</code></pre>
   </div>
 
 
 
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
 
   <dl class="typelist inheritance">
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">AllowedValues</span></div>
+      <div><span class="xref">AllowedValuesResource&lt;T&gt;</span></div>
     </dd>
   </dl>
 
@@ -157,11 +163,11 @@ public sealed class AllowedValues : IResource</code></pre>
 </h2>
 
 
-  <a id="OSLC4Net_Core_Model_AllowedValues_About_" data-uid="OSLC4Net.Core.Model.AllowedValues.About*"></a>
+  <a id="OSLC4Net_Core_Model_AllowedValuesResource_1_About_" data-uid="OSLC4Net.Core.Model.AllowedValuesResource`1.About*"></a>
 
-  <h3 id="OSLC4Net_Core_Model_AllowedValues_About" data-uid="OSLC4Net.Core.Model.AllowedValues.About">
+  <h3 id="OSLC4Net_Core_Model_AllowedValuesResource_1_About" data-uid="OSLC4Net.Core.Model.AllowedValuesResource`1.About">
   About
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AllowedValues.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AllowedValuesResource.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -188,27 +194,63 @@ public sealed class AllowedValues : IResource</code></pre>
 
 
 
-  <h2 class="section" id="methods">Methods
-</h2>
+  <a id="OSLC4Net_Core_Model_AllowedValuesResource_1_AllowedValues_" data-uid="OSLC4Net.Core.Model.AllowedValuesResource`1.AllowedValues*"></a>
 
-
-  <a id="OSLC4Net_Core_Model_AllowedValues_AddAllowedValue_" data-uid="OSLC4Net.Core.Model.AllowedValues.AddAllowedValue*"></a>
-
-  <h3 id="OSLC4Net_Core_Model_AllowedValues_AddAllowedValue_System_String_" data-uid="OSLC4Net.Core.Model.AllowedValues.AddAllowedValue(System.String)">
-  AddAllowedValue(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AllowedValues.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <h3 id="OSLC4Net_Core_Model_AllowedValuesResource_1_AllowedValues" data-uid="OSLC4Net.Core.Model.AllowedValuesResource`1.AllowedValues">
+  AllowedValues
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AllowedValuesResource.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddAllowedValue(string allowedValue)</code></pre>
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Value allowed for a property&quot;)]
+[OslcName(&quot;allowedValue&quot;)]
+[OslcOccurs(Occurs.OneOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#allowedValue&quot;)]
+[OslcTitle(&quot;Allowed Values&quot;)]
+public ICollection&lt;T&gt; AllowedValues { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="OSLC4Net_Core_Model_AllowedValuesResource_1_AddAllowedValue_" data-uid="OSLC4Net.Core.Model.AllowedValuesResource`1.AddAllowedValue*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_AllowedValuesResource_1_AddAllowedValue__0_" data-uid="OSLC4Net.Core.Model.AllowedValuesResource`1.AddAllowedValue(`0)">
+  AddAllowedValue(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AllowedValuesResource.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddAllowedValue(T allowedValue)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>allowedValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>allowedValue</code> <span class="xref">T</span></dt>
     <dd></dd>
   </dl>
 
@@ -223,11 +265,11 @@ public sealed class AllowedValues : IResource</code></pre>
 
 
 
-  <a id="OSLC4Net_Core_Model_AllowedValues_GetAbout_" data-uid="OSLC4Net.Core.Model.AllowedValues.GetAbout*"></a>
+  <a id="OSLC4Net_Core_Model_AllowedValuesResource_1_GetAbout_" data-uid="OSLC4Net.Core.Model.AllowedValuesResource`1.GetAbout*"></a>
 
-  <h3 id="OSLC4Net_Core_Model_AllowedValues_GetAbout" data-uid="OSLC4Net.Core.Model.AllowedValues.GetAbout">
+  <h3 id="OSLC4Net_Core_Model_AllowedValuesResource_1_GetAbout" data-uid="OSLC4Net.Core.Model.AllowedValuesResource`1.GetAbout">
   GetAbout()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AllowedValues.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AllowedValuesResource.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -254,48 +296,11 @@ public sealed class AllowedValues : IResource</code></pre>
 
 
 
-  <a id="OSLC4Net_Core_Model_AllowedValues_GetAllowedValues_" data-uid="OSLC4Net.Core.Model.AllowedValues.GetAllowedValues*"></a>
+  <a id="OSLC4Net_Core_Model_AllowedValuesResource_1_SetAbout_" data-uid="OSLC4Net.Core.Model.AllowedValuesResource`1.SetAbout*"></a>
 
-  <h3 id="OSLC4Net_Core_Model_AllowedValues_GetAllowedValues" data-uid="OSLC4Net.Core.Model.AllowedValues.GetAllowedValues">
-  GetAllowedValues()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AllowedValues.cs/#L23"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Value allowed for a property&quot;)]
-[OslcName(&quot;allowedValue&quot;)]
-[OslcOccurs(Occurs.OneOrMany)]
-[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#allowedValue&quot;)]
-[OslcReadOnly]
-[OslcTitle(&quot;Allowed Values&quot;)]
-public string[] GetAllowedValues()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="OSLC4Net_Core_Model_AllowedValues_SetAbout_" data-uid="OSLC4Net.Core.Model.AllowedValues.SetAbout*"></a>
-
-  <h3 id="OSLC4Net_Core_Model_AllowedValues_SetAbout_System_Uri_" data-uid="OSLC4Net.Core.Model.AllowedValues.SetAbout(System.Uri)">
+  <h3 id="OSLC4Net_Core_Model_AllowedValuesResource_1_SetAbout_System_Uri_" data-uid="OSLC4Net.Core.Model.AllowedValuesResource`1.SetAbout(System.Uri)">
   SetAbout(Uri)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AllowedValues.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AllowedValuesResource.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -322,42 +327,11 @@ public string[] GetAllowedValues()</code></pre>
 
 
 
-  <a id="OSLC4Net_Core_Model_AllowedValues_SetAllowedValues_" data-uid="OSLC4Net.Core.Model.AllowedValues.SetAllowedValues*"></a>
-
-  <h3 id="OSLC4Net_Core_Model_AllowedValues_SetAllowedValues_System_String___" data-uid="OSLC4Net.Core.Model.AllowedValues.SetAllowedValues(System.String[])">
-  SetAllowedValues(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AllowedValues.cs/#L39"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetAllowedValues(string[] allowedValues)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>allowedValues</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AllowedValues.cs/#L6" class="edit-link">Edit this page</a>
+          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AllowedValuesResource.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
 

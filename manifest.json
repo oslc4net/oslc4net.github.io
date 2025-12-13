@@ -1516,16 +1516,16 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/OSLC4Net.Core.Model.AllowedValues.yml",
+      "source_relative_path": "api/OSLC4Net.Core.Model.AllowedValuesResource-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/OSLC4Net.Core.Model.AllowedValues.html"
+          "relative_path": "api/OSLC4Net.Core.Model.AllowedValuesResource-1.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "OSLC4Net.Core.Model.AllowedValues",
+      "Title": "OSLC4Net.Core.Model.AllowedValuesResource<T>",
       "Summary": null
     },
     {

@@ -14343,96 +14343,100 @@ references:
   fullName.vb: OSLC4Net.Core.Model.AddAllExtension.AddAll(Of T)(System.Collections.Generic.ICollection(Of T), System.Collections.Generic.IEnumerable(Of T))
   nameWithType: AddAllExtension.AddAll<T>(ICollection<T>, IEnumerable<T>)
   nameWithType.vb: AddAllExtension.AddAll(Of T)(ICollection(Of T), IEnumerable(Of T))
-- uid: OSLC4Net.Core.Model.AllowedValues
-  name: AllowedValues
-  href: api/OSLC4Net.Core.Model.AllowedValues.html
-  commentId: T:OSLC4Net.Core.Model.AllowedValues
-  fullName: OSLC4Net.Core.Model.AllowedValues
-  nameWithType: AllowedValues
-- uid: OSLC4Net.Core.Model.AllowedValues.About
+- uid: OSLC4Net.Core.Model.AllowedValuesResource`1
+  name: AllowedValuesResource<T>
+  href: api/OSLC4Net.Core.Model.AllowedValuesResource-1.html
+  commentId: T:OSLC4Net.Core.Model.AllowedValuesResource`1
+  name.vb: AllowedValuesResource(Of T)
+  fullName: OSLC4Net.Core.Model.AllowedValuesResource<T>
+  fullName.vb: OSLC4Net.Core.Model.AllowedValuesResource(Of T)
+  nameWithType: AllowedValuesResource<T>
+  nameWithType.vb: AllowedValuesResource(Of T)
+- uid: OSLC4Net.Core.Model.AllowedValuesResource`1.About
   name: About
-  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_About
-  commentId: P:OSLC4Net.Core.Model.AllowedValues.About
-  fullName: OSLC4Net.Core.Model.AllowedValues.About
-  nameWithType: AllowedValues.About
-- uid: OSLC4Net.Core.Model.AllowedValues.About*
+  href: api/OSLC4Net.Core.Model.AllowedValuesResource-1.html#OSLC4Net_Core_Model_AllowedValuesResource_1_About
+  commentId: P:OSLC4Net.Core.Model.AllowedValuesResource`1.About
+  fullName: OSLC4Net.Core.Model.AllowedValuesResource<T>.About
+  fullName.vb: OSLC4Net.Core.Model.AllowedValuesResource(Of T).About
+  nameWithType: AllowedValuesResource<T>.About
+  nameWithType.vb: AllowedValuesResource(Of T).About
+- uid: OSLC4Net.Core.Model.AllowedValuesResource`1.About*
   name: About
-  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_About_
-  commentId: Overload:OSLC4Net.Core.Model.AllowedValues.About
+  href: api/OSLC4Net.Core.Model.AllowedValuesResource-1.html#OSLC4Net_Core_Model_AllowedValuesResource_1_About_
+  commentId: Overload:OSLC4Net.Core.Model.AllowedValuesResource`1.About
   isSpec: "True"
-  fullName: OSLC4Net.Core.Model.AllowedValues.About
-  nameWithType: AllowedValues.About
-- uid: OSLC4Net.Core.Model.AllowedValues.AddAllowedValue(System.String)
-  name: AddAllowedValue(string)
-  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_AddAllowedValue_System_String_
-  commentId: M:OSLC4Net.Core.Model.AllowedValues.AddAllowedValue(System.String)
-  name.vb: AddAllowedValue(String)
-  fullName: OSLC4Net.Core.Model.AllowedValues.AddAllowedValue(string)
-  fullName.vb: OSLC4Net.Core.Model.AllowedValues.AddAllowedValue(String)
-  nameWithType: AllowedValues.AddAllowedValue(string)
-  nameWithType.vb: AllowedValues.AddAllowedValue(String)
-- uid: OSLC4Net.Core.Model.AllowedValues.AddAllowedValue*
+  fullName: OSLC4Net.Core.Model.AllowedValuesResource<T>.About
+  fullName.vb: OSLC4Net.Core.Model.AllowedValuesResource(Of T).About
+  nameWithType: AllowedValuesResource<T>.About
+  nameWithType.vb: AllowedValuesResource(Of T).About
+- uid: OSLC4Net.Core.Model.AllowedValuesResource`1.AddAllowedValue(`0)
+  name: AddAllowedValue(T)
+  href: api/OSLC4Net.Core.Model.AllowedValuesResource-1.html#OSLC4Net_Core_Model_AllowedValuesResource_1_AddAllowedValue__0_
+  commentId: M:OSLC4Net.Core.Model.AllowedValuesResource`1.AddAllowedValue(`0)
+  fullName: OSLC4Net.Core.Model.AllowedValuesResource<T>.AddAllowedValue(T)
+  fullName.vb: OSLC4Net.Core.Model.AllowedValuesResource(Of T).AddAllowedValue(T)
+  nameWithType: AllowedValuesResource<T>.AddAllowedValue(T)
+  nameWithType.vb: AllowedValuesResource(Of T).AddAllowedValue(T)
+- uid: OSLC4Net.Core.Model.AllowedValuesResource`1.AddAllowedValue*
   name: AddAllowedValue
-  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_AddAllowedValue_
-  commentId: Overload:OSLC4Net.Core.Model.AllowedValues.AddAllowedValue
+  href: api/OSLC4Net.Core.Model.AllowedValuesResource-1.html#OSLC4Net_Core_Model_AllowedValuesResource_1_AddAllowedValue_
+  commentId: Overload:OSLC4Net.Core.Model.AllowedValuesResource`1.AddAllowedValue
   isSpec: "True"
-  fullName: OSLC4Net.Core.Model.AllowedValues.AddAllowedValue
-  nameWithType: AllowedValues.AddAllowedValue
-- uid: OSLC4Net.Core.Model.AllowedValues.GetAbout
+  fullName: OSLC4Net.Core.Model.AllowedValuesResource<T>.AddAllowedValue
+  fullName.vb: OSLC4Net.Core.Model.AllowedValuesResource(Of T).AddAllowedValue
+  nameWithType: AllowedValuesResource<T>.AddAllowedValue
+  nameWithType.vb: AllowedValuesResource(Of T).AddAllowedValue
+- uid: OSLC4Net.Core.Model.AllowedValuesResource`1.AllowedValues
+  name: AllowedValues
+  href: api/OSLC4Net.Core.Model.AllowedValuesResource-1.html#OSLC4Net_Core_Model_AllowedValuesResource_1_AllowedValues
+  commentId: P:OSLC4Net.Core.Model.AllowedValuesResource`1.AllowedValues
+  fullName: OSLC4Net.Core.Model.AllowedValuesResource<T>.AllowedValues
+  fullName.vb: OSLC4Net.Core.Model.AllowedValuesResource(Of T).AllowedValues
+  nameWithType: AllowedValuesResource<T>.AllowedValues
+  nameWithType.vb: AllowedValuesResource(Of T).AllowedValues
+- uid: OSLC4Net.Core.Model.AllowedValuesResource`1.AllowedValues*
+  name: AllowedValues
+  href: api/OSLC4Net.Core.Model.AllowedValuesResource-1.html#OSLC4Net_Core_Model_AllowedValuesResource_1_AllowedValues_
+  commentId: Overload:OSLC4Net.Core.Model.AllowedValuesResource`1.AllowedValues
+  isSpec: "True"
+  fullName: OSLC4Net.Core.Model.AllowedValuesResource<T>.AllowedValues
+  fullName.vb: OSLC4Net.Core.Model.AllowedValuesResource(Of T).AllowedValues
+  nameWithType: AllowedValuesResource<T>.AllowedValues
+  nameWithType.vb: AllowedValuesResource(Of T).AllowedValues
+- uid: OSLC4Net.Core.Model.AllowedValuesResource`1.GetAbout
   name: GetAbout()
-  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_GetAbout
-  commentId: M:OSLC4Net.Core.Model.AllowedValues.GetAbout
-  fullName: OSLC4Net.Core.Model.AllowedValues.GetAbout()
-  nameWithType: AllowedValues.GetAbout()
-- uid: OSLC4Net.Core.Model.AllowedValues.GetAbout*
+  href: api/OSLC4Net.Core.Model.AllowedValuesResource-1.html#OSLC4Net_Core_Model_AllowedValuesResource_1_GetAbout
+  commentId: M:OSLC4Net.Core.Model.AllowedValuesResource`1.GetAbout
+  fullName: OSLC4Net.Core.Model.AllowedValuesResource<T>.GetAbout()
+  fullName.vb: OSLC4Net.Core.Model.AllowedValuesResource(Of T).GetAbout()
+  nameWithType: AllowedValuesResource<T>.GetAbout()
+  nameWithType.vb: AllowedValuesResource(Of T).GetAbout()
+- uid: OSLC4Net.Core.Model.AllowedValuesResource`1.GetAbout*
   name: GetAbout
-  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_GetAbout_
-  commentId: Overload:OSLC4Net.Core.Model.AllowedValues.GetAbout
+  href: api/OSLC4Net.Core.Model.AllowedValuesResource-1.html#OSLC4Net_Core_Model_AllowedValuesResource_1_GetAbout_
+  commentId: Overload:OSLC4Net.Core.Model.AllowedValuesResource`1.GetAbout
   isSpec: "True"
-  fullName: OSLC4Net.Core.Model.AllowedValues.GetAbout
-  nameWithType: AllowedValues.GetAbout
-- uid: OSLC4Net.Core.Model.AllowedValues.GetAllowedValues
-  name: GetAllowedValues()
-  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_GetAllowedValues
-  commentId: M:OSLC4Net.Core.Model.AllowedValues.GetAllowedValues
-  fullName: OSLC4Net.Core.Model.AllowedValues.GetAllowedValues()
-  nameWithType: AllowedValues.GetAllowedValues()
-- uid: OSLC4Net.Core.Model.AllowedValues.GetAllowedValues*
-  name: GetAllowedValues
-  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_GetAllowedValues_
-  commentId: Overload:OSLC4Net.Core.Model.AllowedValues.GetAllowedValues
-  isSpec: "True"
-  fullName: OSLC4Net.Core.Model.AllowedValues.GetAllowedValues
-  nameWithType: AllowedValues.GetAllowedValues
-- uid: OSLC4Net.Core.Model.AllowedValues.SetAbout(System.Uri)
+  fullName: OSLC4Net.Core.Model.AllowedValuesResource<T>.GetAbout
+  fullName.vb: OSLC4Net.Core.Model.AllowedValuesResource(Of T).GetAbout
+  nameWithType: AllowedValuesResource<T>.GetAbout
+  nameWithType.vb: AllowedValuesResource(Of T).GetAbout
+- uid: OSLC4Net.Core.Model.AllowedValuesResource`1.SetAbout(System.Uri)
   name: SetAbout(Uri)
-  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_SetAbout_System_Uri_
-  commentId: M:OSLC4Net.Core.Model.AllowedValues.SetAbout(System.Uri)
-  fullName: OSLC4Net.Core.Model.AllowedValues.SetAbout(System.Uri)
-  nameWithType: AllowedValues.SetAbout(Uri)
-- uid: OSLC4Net.Core.Model.AllowedValues.SetAbout*
+  href: api/OSLC4Net.Core.Model.AllowedValuesResource-1.html#OSLC4Net_Core_Model_AllowedValuesResource_1_SetAbout_System_Uri_
+  commentId: M:OSLC4Net.Core.Model.AllowedValuesResource`1.SetAbout(System.Uri)
+  fullName: OSLC4Net.Core.Model.AllowedValuesResource<T>.SetAbout(System.Uri)
+  fullName.vb: OSLC4Net.Core.Model.AllowedValuesResource(Of T).SetAbout(System.Uri)
+  nameWithType: AllowedValuesResource<T>.SetAbout(Uri)
+  nameWithType.vb: AllowedValuesResource(Of T).SetAbout(Uri)
+- uid: OSLC4Net.Core.Model.AllowedValuesResource`1.SetAbout*
   name: SetAbout
-  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_SetAbout_
-  commentId: Overload:OSLC4Net.Core.Model.AllowedValues.SetAbout
+  href: api/OSLC4Net.Core.Model.AllowedValuesResource-1.html#OSLC4Net_Core_Model_AllowedValuesResource_1_SetAbout_
+  commentId: Overload:OSLC4Net.Core.Model.AllowedValuesResource`1.SetAbout
   isSpec: "True"
-  fullName: OSLC4Net.Core.Model.AllowedValues.SetAbout
-  nameWithType: AllowedValues.SetAbout
-- uid: OSLC4Net.Core.Model.AllowedValues.SetAllowedValues(System.String[])
-  name: SetAllowedValues(string[])
-  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_SetAllowedValues_System_String___
-  commentId: M:OSLC4Net.Core.Model.AllowedValues.SetAllowedValues(System.String[])
-  name.vb: SetAllowedValues(String())
-  fullName: OSLC4Net.Core.Model.AllowedValues.SetAllowedValues(string[])
-  fullName.vb: OSLC4Net.Core.Model.AllowedValues.SetAllowedValues(String())
-  nameWithType: AllowedValues.SetAllowedValues(string[])
-  nameWithType.vb: AllowedValues.SetAllowedValues(String())
-- uid: OSLC4Net.Core.Model.AllowedValues.SetAllowedValues*
-  name: SetAllowedValues
-  href: api/OSLC4Net.Core.Model.AllowedValues.html#OSLC4Net_Core_Model_AllowedValues_SetAllowedValues_
-  commentId: Overload:OSLC4Net.Core.Model.AllowedValues.SetAllowedValues
-  isSpec: "True"
-  fullName: OSLC4Net.Core.Model.AllowedValues.SetAllowedValues
-  nameWithType: AllowedValues.SetAllowedValues
+  fullName: OSLC4Net.Core.Model.AllowedValuesResource<T>.SetAbout
+  fullName.vb: OSLC4Net.Core.Model.AllowedValuesResource(Of T).SetAbout
+  nameWithType: AllowedValuesResource<T>.SetAbout
+  nameWithType.vb: AllowedValuesResource(Of T).SetAbout
 - uid: OSLC4Net.Core.Model.AnyResource
   name: AnyResource
   href: api/OSLC4Net.Core.Model.AnyResource.html
