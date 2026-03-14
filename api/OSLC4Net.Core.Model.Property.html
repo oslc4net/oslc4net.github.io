@@ -179,7 +179,7 @@ public sealed class Property : AbstractResource, IExtendedResource, IResource, I
 
 
   <h2 id="OSLC4Net_Core_Model_Property_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>See <a href="http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA">http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA</a></p>
+  <div class="markdown level0 remarks"><p>See <a href="https://docs.oasis-open-projects.org/oslc-op/core/v3.0/os/core-vocab.html">https://docs.oasis-open-projects.org/oslc-op/core/v3.0/os/core-vocab.html</a></p>
 </div>
 
 
@@ -359,10 +359,11 @@ public sealed class Property : AbstractResource, IExtendedResource, IResource, I
 
   <h3 id="OSLC4Net_Core_Model_Property_GetAllowedValues" data-uid="OSLC4Net.Core.Model.Property.GetAllowedValues">
   GetAllowedValues()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L80"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A value allowed for property, inlined into property definition. If there are both oslc:allowedValue elements and an oslc:allowedValue resource, then the full-set of allowed values is the union of both</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -395,10 +396,11 @@ public string[] GetAllowedValues()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_GetAllowedValuesRef" data-uid="OSLC4Net.Core.Model.Property.GetAllowedValuesRef">
   GetAllowedValuesRef()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L94"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Resource with allowed values for the property being defined</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -433,10 +435,11 @@ public Uri GetAllowedValuesRef()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_GetDefaultValue" data-uid="OSLC4Net.Core.Model.Property.GetDefaultValue">
   GetDefaultValue()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L109"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A default value for property, inlined into property definition</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -468,10 +471,11 @@ public string GetDefaultValue()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_GetDescription" data-uid="OSLC4Net.Core.Model.Property.GetDescription">
   GetDescription()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L121"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Description of the property. SHOULD include only content that is valid and suitable inside an XHTML &lt;div&gt; element</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -504,10 +508,11 @@ public string GetDescription()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_GetName" data-uid="OSLC4Net.Core.Model.Property.GetName">
   GetName()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L148"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Name of property being defined, i.e. second part of property's Prefixed Name</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -540,10 +545,11 @@ public string GetName()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_GetOccurs" data-uid="OSLC4Net.Core.Model.Property.GetOccurs">
   GetOccurs()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L162"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>MUST be either <a href="http://open-services.net/ns/core#Exactly-one">http://open-services.net/ns/core#Exactly-one</a>, <a href="http://open-services.net/ns/core#Zero-or-one">http://open-services.net/ns/core#Zero-or-one</a>, <a href="http://open-services.net/ns/core#Zero-or-many">http://open-services.net/ns/core#Zero-or-many</a> or <a href="http://open-services.net/ns/core#One-or-many">http://open-services.net/ns/core#One-or-many</a></p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -577,10 +583,11 @@ public Uri? GetOccurs()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_GetPropertyDefinition" data-uid="OSLC4Net.Core.Model.Property.GetPropertyDefinition">
   GetPropertyDefinition()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L193"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Uri of the property whose usage is being described</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -613,10 +620,11 @@ public Uri GetPropertyDefinition()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_GetRange" data-uid="OSLC4Net.Core.Model.Property.GetRange">
   GetRange()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L206"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>For properties with a resource value-type, Providers MAY also specify the range of possible resource classes allowed, each specified by Uri. The default range is <a href="http://open-services.net/ns/core#Any">http://open-services.net/ns/core#Any</a></p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -648,10 +656,11 @@ public Uri[] GetRange()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_GetRepresentation" data-uid="OSLC4Net.Core.Model.Property.GetRepresentation">
   GetRepresentation()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L219"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Should be <a href="http://open-services.net/ns/core#Reference">http://open-services.net/ns/core#Reference</a>, <a href="http://open-services.net/ns/core#Inline">http://open-services.net/ns/core#Inline</a> or <a href="http://open-services.net/ns/core#Either">http://open-services.net/ns/core#Either</a></p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -684,10 +693,11 @@ public Uri? GetRepresentation()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_GetTitle" data-uid="OSLC4Net.Core.Model.Property.GetTitle">
   GetTitle()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L215"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L248"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Title of the property. SHOULD include only content that is valid and suitable inside an XHTML &lt;div&gt; element</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -720,10 +730,11 @@ public string GetTitle()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_GetValueShape" data-uid="OSLC4Net.Core.Model.Property.GetValueShape">
   GetValueShape()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L262"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>if the value-type is a resource type, then Property MAY provide a shape value to indicate the Resource Shape that applies to the resource</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -756,10 +767,11 @@ public Uri GetValueShape()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_GetValueType" data-uid="OSLC4Net.Core.Model.Property.GetValueType">
   GetValueType()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L237"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L276"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>See list of allowed values for oslc:valueType</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -793,10 +805,11 @@ public Uri? GetValueType()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_IsHidden" data-uid="OSLC4Net.Core.Model.Property.IsHidden">
   IsHidden()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L271"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L313"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A hint that indicates that property MAY be hidden when presented in a user interface</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -828,10 +841,11 @@ public bool IsHidden()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_IsMemberProperty" data-uid="OSLC4Net.Core.Model.Property.IsMemberProperty">
   IsMemberProperty()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L281"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L326"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>If set to true, this indicates that the property is a membership property, as described in the Query Syntax Specification: Member List Patterns. This is useful when the resource whose shape is being defined is viewed as a container of other resources. For example, look at the last example in Appendix B's RDF/XML Representation Examples: Specifying the shape of a query result, where blog:comment is defined as a membership property and comment that matches the query is returned as value of that property.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -864,10 +878,11 @@ public bool IsMemberProperty()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_IsReadOnly" data-uid="OSLC4Net.Core.Model.Property.IsReadOnly">
   IsReadOnly()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L292"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L340"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>true if the property is read-only. If not set, or set to false, then the property is writable. Providers SHOULD declare a property read-only when changes to the value of that property will not be accepted on PUT. Consumers should note that the converse does not apply: Providers MAY reject a change to the value of a writable property.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -899,7 +914,7 @@ public bool IsReadOnly()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_SetAllowedValues_System_String___" data-uid="OSLC4Net.Core.Model.Property.SetAllowedValues(System.String[])">
   SetAllowedValues(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L302"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L350"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -930,7 +945,7 @@ public bool IsReadOnly()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_SetAllowedValuesRef_System_Uri_" data-uid="OSLC4Net.Core.Model.Property.SetAllowedValuesRef(System.Uri)">
   SetAllowedValuesRef(Uri)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L314"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L362"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -961,7 +976,7 @@ public bool IsReadOnly()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_SetDefaultValue_System_String_" data-uid="OSLC4Net.Core.Model.Property.SetDefaultValue(System.String)">
   SetDefaultValue(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L326"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L374"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -992,7 +1007,7 @@ public bool IsReadOnly()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_SetDescription_System_String_" data-uid="OSLC4Net.Core.Model.Property.SetDescription(System.String)">
   SetDescription(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L331"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L379"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1023,7 +1038,7 @@ public bool IsReadOnly()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_SetHidden_System_Boolean_" data-uid="OSLC4Net.Core.Model.Property.SetHidden(System.Boolean)">
   SetHidden(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L336"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L384"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1054,7 +1069,7 @@ public bool IsReadOnly()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_SetMaxSize_System_Int32_" data-uid="OSLC4Net.Core.Model.Property.SetMaxSize(System.Int32)">
   SetMaxSize(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L341"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L389"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1085,7 +1100,7 @@ public bool IsReadOnly()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_SetMemberProperty_System_Boolean_" data-uid="OSLC4Net.Core.Model.Property.SetMemberProperty(System.Boolean)">
   SetMemberProperty(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L346"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L394"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1116,7 +1131,7 @@ public bool IsReadOnly()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_SetName_System_String_" data-uid="OSLC4Net.Core.Model.Property.SetName(System.String)">
   SetName(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L351"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L399"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1147,7 +1162,7 @@ public bool IsReadOnly()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_SetOccurs_OSLC4Net_Core_Model_Occurs_" data-uid="OSLC4Net.Core.Model.Property.SetOccurs(OSLC4Net.Core.Model.Occurs)">
   SetOccurs(Occurs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L356"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L404"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1178,7 +1193,7 @@ public bool IsReadOnly()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_SetOccurs_System_Uri_" data-uid="OSLC4Net.Core.Model.Property.SetOccurs(System.Uri)">
   SetOccurs(Uri)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L361"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L409"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1209,7 +1224,7 @@ public bool IsReadOnly()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_SetPropertyDefinition_System_Uri_" data-uid="OSLC4Net.Core.Model.Property.SetPropertyDefinition(System.Uri)">
   SetPropertyDefinition(Uri)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L373"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L421"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1240,7 +1255,7 @@ public bool IsReadOnly()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_SetRange_System_Uri___" data-uid="OSLC4Net.Core.Model.Property.SetRange(System.Uri[])">
   SetRange(Uri[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L378"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L426"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1271,7 +1286,7 @@ public bool IsReadOnly()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_SetReadOnly_System_Boolean_" data-uid="OSLC4Net.Core.Model.Property.SetReadOnly(System.Boolean)">
   SetReadOnly(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L390"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L438"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1302,7 +1317,7 @@ public bool IsReadOnly()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_SetRepresentation_OSLC4Net_Core_Model_Representation_" data-uid="OSLC4Net.Core.Model.Property.SetRepresentation(OSLC4Net.Core.Model.Representation)">
   SetRepresentation(Representation)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L395"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L443"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1333,7 +1348,7 @@ public bool IsReadOnly()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_SetRepresentation_System_Uri_" data-uid="OSLC4Net.Core.Model.Property.SetRepresentation(System.Uri)">
   SetRepresentation(Uri)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L400"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L448"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1364,7 +1379,7 @@ public bool IsReadOnly()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_SetTitle_System_String_" data-uid="OSLC4Net.Core.Model.Property.SetTitle(System.String)">
   SetTitle(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L412"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L460"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1395,7 +1410,7 @@ public bool IsReadOnly()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_SetValueShape_System_Uri_" data-uid="OSLC4Net.Core.Model.Property.SetValueShape(System.Uri)">
   SetValueShape(Uri)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L417"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L465"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1426,7 +1441,7 @@ public bool IsReadOnly()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_SetValueType_OSLC4Net_Core_Model_ValueType_" data-uid="OSLC4Net.Core.Model.Property.SetValueType(OSLC4Net.Core.Model.ValueType)">
   SetValueType(ValueType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L422"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L470"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1457,7 +1472,7 @@ public bool IsReadOnly()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_SetValueType_System_Uri_" data-uid="OSLC4Net.Core.Model.Property.SetValueType(System.Uri)">
   SetValueType(Uri)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L427"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L475"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1488,10 +1503,11 @@ public bool IsReadOnly()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Property_getMaxSize" data-uid="OSLC4Net.Core.Model.Property.getMaxSize">
   getMaxSize()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Property.cs/#L135"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>For string properties only, specifies maximum characters allowed. If not set, then there is no maximum or maximum is specified elsewhere</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">

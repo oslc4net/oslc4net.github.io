@@ -315,10 +315,11 @@ public class QueryCapability : AbstractResource, IExtendedResource, IResource</c
 
   <h3 id="OSLC4Net_Core_Model_QueryCapability_GetLabel" data-uid="OSLC4Net.Core.Model.QueryCapability.GetLabel">
   GetLabel()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Very short label for use in menu items</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -350,10 +351,11 @@ public string GetLabel()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_QueryCapability_GetQueryBase" data-uid="OSLC4Net.Core.Model.QueryCapability.GetQueryBase">
   GetQueryBase()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L77"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The base Uri to use for queries. Queries are invoked via HTTP GET on a query Uri formed by appending a key=value pair to the base Uri, as described in Query Capabilities section</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -386,10 +388,11 @@ public Uri GetQueryBase()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_QueryCapability_GetResourceShape" data-uid="OSLC4Net.Core.Model.QueryCapability.GetResourceShape">
   GetResourceShape()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L91"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The Query Capability SHOULD provide a Resource Shape that describes the query base Uri</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -424,10 +427,11 @@ public Uri GetResourceShape()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_QueryCapability_GetResourceTypes" data-uid="OSLC4Net.Core.Model.QueryCapability.GetResourceTypes">
   GetResourceTypes()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L107"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The expected resource type Uri that will be returned with this query capability. These would be the URIs found in the result resource's rdf:type property</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -460,10 +464,11 @@ public Uri[] GetResourceTypes()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_QueryCapability_GetTitle" data-uid="OSLC4Net.Core.Model.QueryCapability.GetTitle">
   GetTitle()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L121"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Title string that could be used for display</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -497,14 +502,15 @@ public string GetTitle()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_QueryCapability_GetUsages" data-uid="OSLC4Net.Core.Model.QueryCapability.GetUsages">
   GetUsages()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L135"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>An identifier Uri for the domain specified usage of this query capability. If a service provides multiple query capabilities, it may designate the primary or default one that should be used with a property value of <a href="http://open-services.net/ns/core#default">http://open-services.net/ns/core#default</a></p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;An identifier Uri for the domain specified usage of this query capability. If a service provides multiple query capabilities, it may designate the primary or default one that should be used with a property value of http://open-services/ns/core#default&quot;)]
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;An identifier Uri for the domain specified usage of this query capability. If a service provides multiple query capabilities, it may designate the primary or default one that should be used with a property value of http://open-services.net/ns/core#default&quot;)]
 [OslcName(&quot;usage&quot;)]
 [OslcPropertyDefinition(&quot;http://open-services.net/ns/core#usage&quot;)]
 [OslcReadOnly]
@@ -533,7 +539,7 @@ public Uri[] GetUsages()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_QueryCapability_SetLabel_System_String_" data-uid="OSLC4Net.Core.Model.QueryCapability.SetLabel(System.String)">
   SetLabel(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L146"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -564,7 +570,7 @@ public Uri[] GetUsages()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_QueryCapability_SetQueryBase_System_Uri_" data-uid="OSLC4Net.Core.Model.QueryCapability.SetQueryBase(System.Uri)">
   SetQueryBase(Uri)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L151"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -595,7 +601,7 @@ public Uri[] GetUsages()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_QueryCapability_SetResourceShape_System_Uri_" data-uid="OSLC4Net.Core.Model.QueryCapability.SetResourceShape(System.Uri)">
   SetResourceShape(Uri)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L156"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -626,7 +632,7 @@ public Uri[] GetUsages()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_QueryCapability_SetResourceTypes_System_Uri___" data-uid="OSLC4Net.Core.Model.QueryCapability.SetResourceTypes(System.Uri[])">
   SetResourceTypes(Uri[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L161"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -657,7 +663,7 @@ public Uri[] GetUsages()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_QueryCapability_SetTitle_System_String_" data-uid="OSLC4Net.Core.Model.QueryCapability.SetTitle(System.String)">
   SetTitle(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L170"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -688,7 +694,7 @@ public Uri[] GetUsages()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_QueryCapability_SetUsages_System_Uri___" data-uid="OSLC4Net.Core.Model.QueryCapability.SetUsages(System.Uri[])">
   SetUsages(Uri[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/QueryCapability.cs/#L175"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

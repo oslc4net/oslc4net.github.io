@@ -322,7 +322,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Client.Oslc.Resources.ArchitectureLinkType",
-      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.ArchitectureLinkType.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/wiki/architecture-management/OSLC-Architecture-Management-Specification-Version-2.0/\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.ArchitectureLinkType.yml\" sourcestartlinenumber=\"1\">http://open-services.net/wiki/architecture-management/OSLC-Architecture-Management-Specification-Version-2.0/</a></p>\n"
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.ArchitectureLinkType.yml\" sourcestartlinenumber=\"1\"><a href=\"https://docs.oasis-open-projects.org/oslc-op/am/v3.0/os/architecture-management-spec.html\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.ArchitectureLinkType.yml\" sourcestartlinenumber=\"1\">https://docs.oasis-open-projects.org/oslc-op/am/v3.0/os/architecture-management-spec.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -336,7 +336,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Client.Oslc.Resources.ArchitectureResource",
-      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.ArchitectureResource.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/wiki/architecture-management/OSLC-Architecture-Management-Specification-Version-2.0/\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.ArchitectureResource.yml\" sourcestartlinenumber=\"1\">http://open-services.net/wiki/architecture-management/OSLC-Architecture-Management-Specification-Version-2.0/</a></p>\n"
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.ArchitectureResource.yml\" sourcestartlinenumber=\"1\"><a href=\"https://docs.oasis-open-projects.org/oslc-op/am/v3.0/os/architecture-management-spec.html\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.ArchitectureResource.yml\" sourcestartlinenumber=\"1\">https://docs.oasis-open-projects.org/oslc-op/am/v3.0/os/architecture-management-spec.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -364,7 +364,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Client.Oslc.Resources.AutomationPlan",
-      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.AutomationPlan.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/#Resource_AutomationPlan\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.AutomationPlan.yml\" sourcestartlinenumber=\"1\">http://open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/#Resource_AutomationPlan</a></p>\n"
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.AutomationPlan.yml\" sourcestartlinenumber=\"1\"><a href=\"https://archive.open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/index.html#Resource_AutomationPlan\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.AutomationPlan.yml\" sourcestartlinenumber=\"1\">https://archive.open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/index.html#Resource_AutomationPlan</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -378,7 +378,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Client.Oslc.Resources.AutomationRequest",
-      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.AutomationRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/#Resource_AutomationRequest\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.AutomationRequest.yml\" sourcestartlinenumber=\"1\">http://open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/#Resource_AutomationRequest</a></p>\n"
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.AutomationRequest.yml\" sourcestartlinenumber=\"1\"><a href=\"https://archive.open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/index.html#Resource_AutomationRequest\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.AutomationRequest.yml\" sourcestartlinenumber=\"1\">https://archive.open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/index.html#Resource_AutomationRequest</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -392,7 +392,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Client.Oslc.Resources.AutomationResult",
-      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.AutomationResult.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/#Resource_AutomationResult\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.AutomationResult.yml\" sourcestartlinenumber=\"1\">http://open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/#Resource_AutomationResult</a></p>\n"
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.AutomationResult.yml\" sourcestartlinenumber=\"1\"><a href=\"https://archive.open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/index.html#Resource_AutomationResult\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.AutomationResult.yml\" sourcestartlinenumber=\"1\">https://archive.open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/index.html#Resource_AutomationResult</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -476,7 +476,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Client.Oslc.Resources.ParameterInstance",
-      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.ParameterInstance.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/#Resource_ParameterInstance\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.ParameterInstance.yml\" sourcestartlinenumber=\"1\">http://open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/#Resource_ParameterInstance</a></p>\n"
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.ParameterInstance.yml\" sourcestartlinenumber=\"1\"><a href=\"https://archive.open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/index.html#Resource_ParameterInstance\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.ParameterInstance.yml\" sourcestartlinenumber=\"1\">https://archive.open-services.net/wiki/automation/OSLC-Automation-Specification-Version-2.0/index.html#Resource_ParameterInstance</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -504,7 +504,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Client.Oslc.Resources.QmResource",
-      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.QmResource.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/bin/view/Main/QmSpecificationV2\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.QmResource.yml\" sourcestartlinenumber=\"1\">http://open-services.net/bin/view/Main/QmSpecificationV2</a></p>\n"
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.QmResource.yml\" sourcestartlinenumber=\"1\"><a href=\"https://docs.oasis-open-projects.org/oslc-op/qm/v2.1/os/quality-management-spec.html\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.QmResource.yml\" sourcestartlinenumber=\"1\">https://docs.oasis-open-projects.org/oslc-op/qm/v2.1/os/quality-management-spec.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -588,7 +588,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Client.Oslc.Resources.TestCase",
-      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestCase.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestCase\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestCase.yml\" sourcestartlinenumber=\"1\">http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestCase</a></p>\n"
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestCase.yml\" sourcestartlinenumber=\"1\"><a href=\"https://docs.oasis-open-projects.org/oslc-op/qm/v2.1/os/quality-management-shapes.html#TestCaseShape\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestCase.yml\" sourcestartlinenumber=\"1\">https://docs.oasis-open-projects.org/oslc-op/qm/v2.1/os/quality-management-shapes.html#TestCaseShape</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -602,7 +602,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Client.Oslc.Resources.TestExecutionRecord",
-      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestExecutionRecord.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestExecutionRecord\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestExecutionRecord.yml\" sourcestartlinenumber=\"1\">http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestExecutionRecord</a></p>\n"
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestExecutionRecord.yml\" sourcestartlinenumber=\"1\"><a href=\"https://docs.oasis-open-projects.org/oslc-op/qm/v2.1/os/quality-management-shapes.html#TestExecutionRecordShape\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestExecutionRecord.yml\" sourcestartlinenumber=\"1\">https://docs.oasis-open-projects.org/oslc-op/qm/v2.1/os/quality-management-shapes.html#TestExecutionRecordShape</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -616,7 +616,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Client.Oslc.Resources.TestPlan",
-      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestPlan.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestPlan\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestPlan.yml\" sourcestartlinenumber=\"1\">http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestPlan</a></p>\n"
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestPlan.yml\" sourcestartlinenumber=\"1\"><a href=\"https://docs.oasis-open-projects.org/oslc-op/qm/v2.1/os/quality-management-shapes.html#TestPlanShape\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestPlan.yml\" sourcestartlinenumber=\"1\">https://docs.oasis-open-projects.org/oslc-op/qm/v2.1/os/quality-management-shapes.html#TestPlanShape</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -630,7 +630,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Client.Oslc.Resources.TestResult",
-      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestResult.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestResult\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestResult.yml\" sourcestartlinenumber=\"1\">http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestResult</a></p>\n"
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestResult.yml\" sourcestartlinenumber=\"1\"><a href=\"https://docs.oasis-open-projects.org/oslc-op/qm/v2.1/os/quality-management-shapes.html#TestResultShape\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestResult.yml\" sourcestartlinenumber=\"1\">https://docs.oasis-open-projects.org/oslc-op/qm/v2.1/os/quality-management-shapes.html#TestResultShape</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -644,7 +644,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Client.Oslc.Resources.TestScript",
-      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestScript.yml\" sourcestartlinenumber=\"1\"><a href=\"http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestScript\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestScript.yml\" sourcestartlinenumber=\"1\">http://open-services.net/bin/view/Main/QmSpecificationV2#Resource_TestScript</a></p>\n"
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestScript.yml\" sourcestartlinenumber=\"1\"><a href=\"https://docs.oasis-open-projects.org/oslc-op/qm/v2.1/os/quality-management-shapes.html#TestScriptShape\" sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.TestScript.yml\" sourcestartlinenumber=\"1\">https://docs.oasis-open-projects.org/oslc-op/qm/v2.1/os/quality-management-shapes.html#TestScriptShape</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1652,7 +1652,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Core.Model.IExtendedResource",
-      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.IExtendedResource.yml\" sourcestartlinenumber=\"1\">A resource that can hold unknown properties and content. If a setter is not\nfound for a property when reading a resource, it is added as an extended\nproperty. These extended properties are preserved when writing the resource\nback out, for instance on a PUT request. In OSLC, clients MUST preserve\nunknown content when performing updates of resources.\nsee\n<a href=\"http://open-services.net/bin/view/Main/OslcCoreSpecification?sortcol=table;up=#Unknown_properties_and_content\">\nOSLC\nCore 2.0: Unknown properties and content\n</a></p>\n"
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.IExtendedResource.yml\" sourcestartlinenumber=\"1\">A resource that can hold unknown properties and content. If a setter is not\nfound for a property when reading a resource, it is added as an extended\nproperty. These extended properties are preserved when writing the resource\nback out, for instance on a PUT request. In OSLC, clients MUST preserve\nunknown content when performing updates of resources.\nsee\n<a href=\"https://docs.oasis-open-projects.org/oslc-op/core/v3.0/os/oslc-core.html\">\nOSLC\nCore 3.0: Unknown properties and content\n</a></p>\n"
     },
     {
       "type": "ManagedReference",

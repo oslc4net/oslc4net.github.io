@@ -159,21 +159,26 @@ Class QueryUtils  <a class="header-action link-secondary" title="View source" hr
   <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.Query/QueryUtils.cs/#L227"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Create a map representation of the Properties returned
-from parsing oslc.properties or olsc.select URL query
-parameters suitable for generating a property result from an
-HTTP GET request.<p></p>
-<p>The map keys are the property names; i.e. the local name of the
-property concatenated to the XML namespace of the property.  The
-values of the map are:<p></p>
-<ul>
-<li> OSLC4NetConstants.OSLC4NET_PROPERTY_WILDCARD - if all
-properties at this level are to be output.  No recursion
-below this level is to be done.</li>
-<li> OSLC4NetConstants.OSLC4NET_PROPERTY_SINGLETON - if only
-the named property is to be output, without recursion</li>
-<li> a nested property list to recurse through</li>
-</ul>
+  <div class="markdown level1 summary"><pre><code> Create a map representation of the Properties returned
+ from parsing oslc.properties or olsc.select URL query
+ parameters suitable for generating a property result from an
+ HTTP GET request.
+</code></pre>
+<p></p>
+<pre><code> The map keys are the property names; i.e. the local name of the
+ property concatenated to the XML namespace of the property.  The
+ values of the map are:
+</code></pre>
+<p></p>
+<pre><code> &lt;ul&gt;
+ &lt;li&gt; OSLC4NetConstants.OSLC4NET_PROPERTY_WILDCARD - if all
+ properties at this level are to be output.  No recursion
+ below this level is to be done.&lt;/li&gt;
+ &lt;li&gt; OSLC4NetConstants.OSLC4NET_PROPERTY_SINGLETON - if only
+ the named property is to be output, without recursion&lt;/li&gt;
+ &lt;li&gt; a nested property list to recurse through&lt;/li&gt;
+ &lt;/ul&gt;
+</code></pre>
 </div>
   <div class="markdown level1 conceptual"></div>
 
