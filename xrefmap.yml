@@ -13195,15 +13195,15 @@ references:
   commentId: T:OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException
   fullName: OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException
   nameWithType: OslcCoreInvalidOccursException
-- uid: OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException.#ctor(System.Type,System.Reflection.MethodInfo,OSLC4Net.Core.Attribute.OslcOccurs)
-  name: OslcCoreInvalidOccursException(Type, MethodInfo, OslcOccurs)
-  href: api/OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException.html#OSLC4Net_Core_Exceptions_OslcCoreInvalidOccursException__ctor_System_Type_System_Reflection_MethodInfo_OSLC4Net_Core_Attribute_OslcOccurs_
-  commentId: M:OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException.#ctor(System.Type,System.Reflection.MethodInfo,OSLC4Net.Core.Attribute.OslcOccurs)
-  name.vb: New(Type, MethodInfo, OslcOccurs)
-  fullName: OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException.OslcCoreInvalidOccursException(System.Type, System.Reflection.MethodInfo, OSLC4Net.Core.Attribute.OslcOccurs)
-  fullName.vb: OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException.New(System.Type, System.Reflection.MethodInfo, OSLC4Net.Core.Attribute.OslcOccurs)
-  nameWithType: OslcCoreInvalidOccursException.OslcCoreInvalidOccursException(Type, MethodInfo, OslcOccurs)
-  nameWithType.vb: OslcCoreInvalidOccursException.New(Type, MethodInfo, OslcOccurs)
+- uid: OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException.#ctor(System.Type,System.Reflection.MemberInfo,OSLC4Net.Core.Attribute.OslcOccurs)
+  name: OslcCoreInvalidOccursException(Type, MemberInfo, OslcOccurs)
+  href: api/OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException.html#OSLC4Net_Core_Exceptions_OslcCoreInvalidOccursException__ctor_System_Type_System_Reflection_MemberInfo_OSLC4Net_Core_Attribute_OslcOccurs_
+  commentId: M:OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException.#ctor(System.Type,System.Reflection.MemberInfo,OSLC4Net.Core.Attribute.OslcOccurs)
+  name.vb: New(Type, MemberInfo, OslcOccurs)
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException.OslcCoreInvalidOccursException(System.Type, System.Reflection.MemberInfo, OSLC4Net.Core.Attribute.OslcOccurs)
+  fullName.vb: OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException.New(System.Type, System.Reflection.MemberInfo, OSLC4Net.Core.Attribute.OslcOccurs)
+  nameWithType: OslcCoreInvalidOccursException.OslcCoreInvalidOccursException(Type, MemberInfo, OslcOccurs)
+  nameWithType.vb: OslcCoreInvalidOccursException.New(Type, MemberInfo, OslcOccurs)
 - uid: OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException.#ctor*
   name: OslcCoreInvalidOccursException
   href: api/OSLC4Net.Core.Exceptions.OslcCoreInvalidOccursException.html#OSLC4Net_Core_Exceptions_OslcCoreInvalidOccursException__ctor_
@@ -13323,15 +13323,15 @@ references:
   commentId: T:OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException
   fullName: OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException
   nameWithType: OslcCoreInvalidPropertyTypeException
-- uid: OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException.#ctor(System.Type,System.Reflection.MethodInfo,System.Type)
-  name: OslcCoreInvalidPropertyTypeException(Type, MethodInfo, Type)
-  href: api/OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException.html#OSLC4Net_Core_Exceptions_OslcCoreInvalidPropertyTypeException__ctor_System_Type_System_Reflection_MethodInfo_System_Type_
-  commentId: M:OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException.#ctor(System.Type,System.Reflection.MethodInfo,System.Type)
-  name.vb: New(Type, MethodInfo, Type)
-  fullName: OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException.OslcCoreInvalidPropertyTypeException(System.Type, System.Reflection.MethodInfo, System.Type)
-  fullName.vb: OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException.New(System.Type, System.Reflection.MethodInfo, System.Type)
-  nameWithType: OslcCoreInvalidPropertyTypeException.OslcCoreInvalidPropertyTypeException(Type, MethodInfo, Type)
-  nameWithType.vb: OslcCoreInvalidPropertyTypeException.New(Type, MethodInfo, Type)
+- uid: OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException.#ctor(System.Type,System.Reflection.MemberInfo,System.Type)
+  name: OslcCoreInvalidPropertyTypeException(Type, MemberInfo, Type)
+  href: api/OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException.html#OSLC4Net_Core_Exceptions_OslcCoreInvalidPropertyTypeException__ctor_System_Type_System_Reflection_MemberInfo_System_Type_
+  commentId: M:OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException.#ctor(System.Type,System.Reflection.MemberInfo,System.Type)
+  name.vb: New(Type, MemberInfo, Type)
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException.OslcCoreInvalidPropertyTypeException(System.Type, System.Reflection.MemberInfo, System.Type)
+  fullName.vb: OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException.New(System.Type, System.Reflection.MemberInfo, System.Type)
+  nameWithType: OslcCoreInvalidPropertyTypeException.OslcCoreInvalidPropertyTypeException(Type, MemberInfo, Type)
+  nameWithType.vb: OslcCoreInvalidPropertyTypeException.New(Type, MemberInfo, Type)
 - uid: OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException.#ctor*
   name: OslcCoreInvalidPropertyTypeException
   href: api/OSLC4Net.Core.Exceptions.OslcCoreInvalidPropertyTypeException.html#OSLC4Net_Core_Exceptions_OslcCoreInvalidPropertyTypeException__ctor_
@@ -13387,15 +13387,15 @@ references:
   commentId: T:OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException
   fullName: OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException
   nameWithType: OslcCoreInvalidRepresentationException
-- uid: OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException.#ctor(System.Type,System.Reflection.MethodInfo,OSLC4Net.Core.Model.Representation)
-  name: OslcCoreInvalidRepresentationException(Type, MethodInfo, Representation)
-  href: api/OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException.html#OSLC4Net_Core_Exceptions_OslcCoreInvalidRepresentationException__ctor_System_Type_System_Reflection_MethodInfo_OSLC4Net_Core_Model_Representation_
-  commentId: M:OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException.#ctor(System.Type,System.Reflection.MethodInfo,OSLC4Net.Core.Model.Representation)
-  name.vb: New(Type, MethodInfo, Representation)
-  fullName: OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException.OslcCoreInvalidRepresentationException(System.Type, System.Reflection.MethodInfo, OSLC4Net.Core.Model.Representation)
-  fullName.vb: OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException.New(System.Type, System.Reflection.MethodInfo, OSLC4Net.Core.Model.Representation)
-  nameWithType: OslcCoreInvalidRepresentationException.OslcCoreInvalidRepresentationException(Type, MethodInfo, Representation)
-  nameWithType.vb: OslcCoreInvalidRepresentationException.New(Type, MethodInfo, Representation)
+- uid: OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException.#ctor(System.Type,System.Reflection.MemberInfo,OSLC4Net.Core.Model.Representation)
+  name: OslcCoreInvalidRepresentationException(Type, MemberInfo, Representation)
+  href: api/OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException.html#OSLC4Net_Core_Exceptions_OslcCoreInvalidRepresentationException__ctor_System_Type_System_Reflection_MemberInfo_OSLC4Net_Core_Model_Representation_
+  commentId: M:OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException.#ctor(System.Type,System.Reflection.MemberInfo,OSLC4Net.Core.Model.Representation)
+  name.vb: New(Type, MemberInfo, Representation)
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException.OslcCoreInvalidRepresentationException(System.Type, System.Reflection.MemberInfo, OSLC4Net.Core.Model.Representation)
+  fullName.vb: OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException.New(System.Type, System.Reflection.MemberInfo, OSLC4Net.Core.Model.Representation)
+  nameWithType: OslcCoreInvalidRepresentationException.OslcCoreInvalidRepresentationException(Type, MemberInfo, Representation)
+  nameWithType.vb: OslcCoreInvalidRepresentationException.New(Type, MemberInfo, Representation)
 - uid: OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException.#ctor*
   name: OslcCoreInvalidRepresentationException
   href: api/OSLC4Net.Core.Exceptions.OslcCoreInvalidRepresentationException.html#OSLC4Net_Core_Exceptions_OslcCoreInvalidRepresentationException__ctor_
@@ -13451,15 +13451,15 @@ references:
   commentId: T:OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException
   fullName: OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException
   nameWithType: OslcCoreInvalidValueTypeException
-- uid: OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException.#ctor(System.Type,System.Reflection.MethodInfo,OSLC4Net.Core.Model.ValueType)
-  name: OslcCoreInvalidValueTypeException(Type, MethodInfo, ValueType)
-  href: api/OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException.html#OSLC4Net_Core_Exceptions_OslcCoreInvalidValueTypeException__ctor_System_Type_System_Reflection_MethodInfo_OSLC4Net_Core_Model_ValueType_
-  commentId: M:OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException.#ctor(System.Type,System.Reflection.MethodInfo,OSLC4Net.Core.Model.ValueType)
-  name.vb: New(Type, MethodInfo, ValueType)
-  fullName: OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException.OslcCoreInvalidValueTypeException(System.Type, System.Reflection.MethodInfo, OSLC4Net.Core.Model.ValueType)
-  fullName.vb: OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException.New(System.Type, System.Reflection.MethodInfo, OSLC4Net.Core.Model.ValueType)
-  nameWithType: OslcCoreInvalidValueTypeException.OslcCoreInvalidValueTypeException(Type, MethodInfo, ValueType)
-  nameWithType.vb: OslcCoreInvalidValueTypeException.New(Type, MethodInfo, ValueType)
+- uid: OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException.#ctor(System.Type,System.Reflection.MemberInfo,OSLC4Net.Core.Model.ValueType)
+  name: OslcCoreInvalidValueTypeException(Type, MemberInfo, ValueType)
+  href: api/OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException.html#OSLC4Net_Core_Exceptions_OslcCoreInvalidValueTypeException__ctor_System_Type_System_Reflection_MemberInfo_OSLC4Net_Core_Model_ValueType_
+  commentId: M:OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException.#ctor(System.Type,System.Reflection.MemberInfo,OSLC4Net.Core.Model.ValueType)
+  name.vb: New(Type, MemberInfo, ValueType)
+  fullName: OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException.OslcCoreInvalidValueTypeException(System.Type, System.Reflection.MemberInfo, OSLC4Net.Core.Model.ValueType)
+  fullName.vb: OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException.New(System.Type, System.Reflection.MemberInfo, OSLC4Net.Core.Model.ValueType)
+  nameWithType: OslcCoreInvalidValueTypeException.OslcCoreInvalidValueTypeException(Type, MemberInfo, ValueType)
+  nameWithType.vb: OslcCoreInvalidValueTypeException.New(Type, MemberInfo, ValueType)
 - uid: OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException.#ctor*
   name: OslcCoreInvalidValueTypeException
   href: api/OSLC4Net.Core.Exceptions.OslcCoreInvalidValueTypeException.html#OSLC4Net_Core_Exceptions_OslcCoreInvalidValueTypeException__ctor_
@@ -14151,6 +14151,19 @@ references:
   isSpec: "True"
   fullName: OSLC4Net.Core.Model.AbstractResource.SetTypes
   nameWithType: AbstractResource.SetTypes
+- uid: OSLC4Net.Core.Model.AbstractResource.Types
+  name: Types
+  href: api/OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_Types
+  commentId: P:OSLC4Net.Core.Model.AbstractResource.Types
+  fullName: OSLC4Net.Core.Model.AbstractResource.Types
+  nameWithType: AbstractResource.Types
+- uid: OSLC4Net.Core.Model.AbstractResource.Types*
+  name: Types
+  href: api/OSLC4Net.Core.Model.AbstractResource.html#OSLC4Net_Core_Model_AbstractResource_Types_
+  commentId: Overload:OSLC4Net.Core.Model.AbstractResource.Types
+  isSpec: "True"
+  fullName: OSLC4Net.Core.Model.AbstractResource.Types
+  nameWithType: AbstractResource.Types
 - uid: OSLC4Net.Core.Model.AbstractResourceRecord
   name: AbstractResourceRecord
   href: api/OSLC4Net.Core.Model.AbstractResourceRecord.html
@@ -15542,6 +15555,19 @@ references:
   isSpec: "True"
   fullName: OSLC4Net.Core.Model.IExtendedResource.SetTypes
   nameWithType: IExtendedResource.SetTypes
+- uid: OSLC4Net.Core.Model.IExtendedResource.Types
+  name: Types
+  href: api/OSLC4Net.Core.Model.IExtendedResource.html#OSLC4Net_Core_Model_IExtendedResource_Types
+  commentId: P:OSLC4Net.Core.Model.IExtendedResource.Types
+  fullName: OSLC4Net.Core.Model.IExtendedResource.Types
+  nameWithType: IExtendedResource.Types
+- uid: OSLC4Net.Core.Model.IExtendedResource.Types*
+  name: Types
+  href: api/OSLC4Net.Core.Model.IExtendedResource.html#OSLC4Net_Core_Model_IExtendedResource_Types_
+  commentId: Overload:OSLC4Net.Core.Model.IExtendedResource.Types
+  isSpec: "True"
+  fullName: OSLC4Net.Core.Model.IExtendedResource.Types
+  nameWithType: IExtendedResource.Types
 - uid: OSLC4Net.Core.Model.IReifiedResource`1
   name: IReifiedResource<T>
   href: api/OSLC4Net.Core.Model.IReifiedResource-1.html
@@ -25266,11 +25292,14 @@ references:
   fullName: OSLC4Net.Core.Model.Property.AddRange
   nameWithType: Property.AddRange
 - uid: OSLC4Net.Core.Model.Property.CompareTo(OSLC4Net.Core.Model.Property)
-  name: CompareTo(Property)
+  name: CompareTo(Property?)
   href: api/OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_CompareTo_OSLC4Net_Core_Model_Property_
   commentId: M:OSLC4Net.Core.Model.Property.CompareTo(OSLC4Net.Core.Model.Property)
-  fullName: OSLC4Net.Core.Model.Property.CompareTo(OSLC4Net.Core.Model.Property)
-  nameWithType: Property.CompareTo(Property)
+  name.vb: CompareTo(Property)
+  fullName: OSLC4Net.Core.Model.Property.CompareTo(OSLC4Net.Core.Model.Property?)
+  fullName.vb: OSLC4Net.Core.Model.Property.CompareTo(OSLC4Net.Core.Model.Property)
+  nameWithType: Property.CompareTo(Property?)
+  nameWithType.vb: Property.CompareTo(Property)
 - uid: OSLC4Net.Core.Model.Property.CompareTo*
   name: CompareTo
   href: api/OSLC4Net.Core.Model.Property.html#OSLC4Net_Core_Model_Property_CompareTo_

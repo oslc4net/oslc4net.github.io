@@ -139,6 +139,48 @@ Core 3.0: Unknown properties and content
 
 
 
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="OSLC4Net_Core_Model_IExtendedResource_Types_" data-uid="OSLC4Net.Core.Model.IExtendedResource.Types*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_IExtendedResource_Types" data-uid="OSLC4Net.Core.Model.IExtendedResource.Types">
+  Types
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the RDF types of this resource. These types will be added to the
+serialization of the resource in addition to the
+OslcResourceShape#describes() annotation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The resource type URIs.&quot;)]
+[OslcName(&quot;type&quot;)]
+[OslcPropertyDefinition(&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&quot;)]
+[OslcTitle(&quot;Types&quot;)]
+ICollection&lt;Uri&gt; Types { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -147,7 +189,7 @@ Core 3.0: Unknown properties and content
 
   <h3 id="OSLC4Net_Core_Model_IExtendedResource_AddType_System_Uri_" data-uid="OSLC4Net.Core.Model.IExtendedResource.AddType(System.Uri)">
   AddType(Uri)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Adds an RDF type to this resource. These types will be added to the
@@ -181,7 +223,7 @@ OslcResourceShape#describes() annotation.</p>
 
   <h3 id="OSLC4Net_Core_Model_IExtendedResource_GetExtendedProperties" data-uid="OSLC4Net.Core.Model.IExtendedResource.GetExtendedProperties">
   GetExtendedProperties()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs/#L82"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets back the list of extended properties not defined in this bean.</p>
@@ -223,10 +265,7 @@ OslcResourceShape#describes() annotation</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The resource type URIs.&quot;)]
-[OslcName(&quot;type&quot;)]
-[OslcPropertyDefinition(&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&quot;)]
-[OslcTitle(&quot;Types&quot;)]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use .Types property instead&quot;)]
 ICollection&lt;Uri&gt; GetTypes()</code></pre>
   </div>
 
@@ -251,7 +290,7 @@ ICollection&lt;Uri&gt; GetTypes()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_IExtendedResource_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__" data-uid="OSLC4Net.Core.Model.IExtendedResource.SetExtendedProperties(System.Collections.Generic.IDictionary{OSLC4Net.Core.Model.QName,System.Object})">
   SetExtendedProperties(IDictionary&lt;QName, object&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets extended properties not defined in the bean.</p>
@@ -283,7 +322,7 @@ ICollection&lt;Uri&gt; GetTypes()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_IExtendedResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__" data-uid="OSLC4Net.Core.Model.IExtendedResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})">
   SetTypes(ICollection&lt;Uri&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/IExtendedResource.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets the RDF types of this resource. These types will be added to the
@@ -293,7 +332,8 @@ OslcResourceShape#describes() annotation.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SetTypes(ICollection&lt;Uri&gt; types)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use .Types property instead&quot;)]
+void SetTypes(ICollection&lt;Uri&gt; types)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

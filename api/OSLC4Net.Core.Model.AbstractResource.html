@@ -283,6 +283,44 @@ See the ChangeMangement.cs objec in the ChangeManagementCommon project</p>
 
 
 
+  <a id="OSLC4Net_Core_Model_AbstractResource_Types_" data-uid="OSLC4Net.Core.Model.AbstractResource.Types*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_AbstractResource_Types" data-uid="OSLC4Net.Core.Model.AbstractResource.Types">
+  Types
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AbstractResource.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the RDF types of this resource. These types will be added to the
+serialization of the resource in addition to the
+OslcResourceShape#describes() annotation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The resource type URIs.&quot;)]
+[OslcName(&quot;type&quot;)]
+[OslcPropertyDefinition(&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&quot;)]
+[OslcTitle(&quot;Types&quot;)]
+public ICollection&lt;Uri&gt; Types { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -291,7 +329,7 @@ See the ChangeMangement.cs objec in the ChangeManagementCommon project</p>
 
   <h3 id="OSLC4Net_Core_Model_AbstractResource_AddType_System_Uri_" data-uid="OSLC4Net.Core.Model.AbstractResource.AddType(System.Uri)">
   AddType(Uri)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AbstractResource.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AbstractResource.cs/#L109"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Add an additional RDF type</p>
@@ -395,10 +433,7 @@ See the ChangeMangement.cs objec in the ChangeManagementCommon project</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The resource type URIs.&quot;)]
-[OslcName(&quot;type&quot;)]
-[OslcPropertyDefinition(&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&quot;)]
-[OslcTitle(&quot;Types&quot;)]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use .Types property instead&quot;)]
 public ICollection&lt;Uri&gt; GetTypes()</code></pre>
   </div>
 
@@ -486,7 +521,7 @@ public ICollection&lt;Uri&gt; GetTypes()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_AbstractResource_SetTypes_System_Collections_Generic_ICollection_System_Uri__" data-uid="OSLC4Net.Core.Model.AbstractResource.SetTypes(System.Collections.Generic.ICollection{System.Uri})">
   SetTypes(ICollection&lt;Uri&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AbstractResource.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/AbstractResource.cs/#L88"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set the RDF types</p>
@@ -494,7 +529,8 @@ public ICollection&lt;Uri&gt; GetTypes()</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetTypes(ICollection&lt;Uri&gt; types)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use .Types property instead&quot;)]
+public void SetTypes(ICollection&lt;Uri&gt; types)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
