@@ -434,7 +434,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Client.Oslc.Resources.OslcQuery",
-      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.OslcQuery.yml\" sourcestartlinenumber=\"1\">Represents an OSLC query (HTTP GET) request to be made of a remote system.\nImmutable.</p>\n"
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Client.Oslc.Resources.OslcQuery.yml\" sourcestartlinenumber=\"1\">Represents an OSLC query request to be made of a remote system.\nImmutable.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3296,11 +3296,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "api/toc.json"
-        },
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -3359,11 +3359,11 @@
       "type": "Toc",
       "source_relative_path": "guides/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "guides/toc.json"
-        },
         ".html": {
           "relative_path": "guides/toc.html"
+        },
+        ".json": {
+          "relative_path": "guides/toc.json"
         }
       },
       "version": ""
@@ -3452,11 +3452,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""

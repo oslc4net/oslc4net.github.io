@@ -89,7 +89,7 @@
 
 
   <h1 id="OSLC4Net_Core_DotNetRdfProvider_Extensions" data-uid="OSLC4Net.Core.DotNetRdfProvider.Extensions" class="text-break">
-Class Extensions  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.DotNetRdfProvider/Extensions.cs/#L7"><i class="bi bi-code-slash"></i></a>
+Class Extensions  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.DotNetRdfProvider/Extensions.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -156,7 +156,7 @@ Class Extensions  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="OSLC4Net_Core_DotNetRdfProvider_Extensions_GetMemberType_System_Type_" data-uid="OSLC4Net.Core.DotNetRdfProvider.Extensions.GetMemberType(System.Type)">
   GetMemberType(Type)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.DotNetRdfProvider/Extensions.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.DotNetRdfProvider/Extensions.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -192,7 +192,7 @@ Class Extensions  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="OSLC4Net_Core_DotNetRdfProvider_Extensions_IsOslcSingleton_System_Type_" data-uid="OSLC4Net.Core.DotNetRdfProvider.Extensions.IsOslcSingleton(System.Type)">
   IsOslcSingleton(Type)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.DotNetRdfProvider/Extensions.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.DotNetRdfProvider/Extensions.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -228,7 +228,7 @@ Class Extensions  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="OSLC4Net_Core_DotNetRdfProvider_Extensions_ToOslcExceptionAsync_System_Net_Http_HttpResponseMessage_OSLC4Net_Core_Model_IResource_" data-uid="OSLC4Net.Core.DotNetRdfProvider.Extensions.ToOslcExceptionAsync(System.Net.Http.HttpResponseMessage,OSLC4Net.Core.Model.IResource)">
   ToOslcExceptionAsync(HttpResponseMessage, IResource?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.DotNetRdfProvider/Extensions.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.DotNetRdfProvider/Extensions.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -262,11 +262,55 @@ Class Extensions  <a class="header-action link-secondary" title="View source" hr
 
 
 
+  <a id="OSLC4Net_Core_DotNetRdfProvider_Extensions_TryGetPrefix_" data-uid="OSLC4Net.Core.DotNetRdfProvider.Extensions.TryGetPrefix*"></a>
+
+  <h3 id="OSLC4Net_Core_DotNetRdfProvider_Extensions_TryGetPrefix_VDS_RDF_INamespaceMapper_System_Uri_System_String__" data-uid="OSLC4Net.Core.DotNetRdfProvider.Extensions.TryGetPrefix(VDS.RDF.INamespaceMapper,System.Uri,System.String@)">
+  TryGetPrefix(INamespaceMapper, Uri, out string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.DotNetRdfProvider/Extensions.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Non-throwing alternative to <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">GetPrefix(Uri)</a>, which throws
+<code>RdfException</code> when the namespace URI is not mapped.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryGetPrefix(this INamespaceMapper namespaceMappings, Uri uri, out string? prefix)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>namespaceMappings</code> <span class="xref">INamespaceMapper</span></dt>
+    <dd></dd>
+    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+    <dt><code>prefix</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> when <code class="paramref">uri</code> is mapped, with the
+matching prefix in <code class="paramref">prefix</code>; otherwise <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.DotNetRdfProvider/Extensions.cs/#L7" class="edit-link">Edit this page</a>
+          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core.DotNetRdfProvider/Extensions.cs/#L8" class="edit-link">Edit this page</a>
         </div>
 
 

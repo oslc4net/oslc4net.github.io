@@ -7698,6 +7698,15 @@ references:
   fullName.vb: OSLC4Net.Client.Oslc.Resources.OslcQuery.New(OSLC4Net.Client.Oslc.OslcClient, String, Integer, OSLC4Net.Client.Oslc.Resources.OslcQueryParameters)
   nameWithType: OslcQuery.OslcQuery(OslcClient, string, int, OslcQueryParameters)
   nameWithType.vb: OslcQuery.New(OslcClient, String, Integer, OslcQueryParameters)
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQuery.#ctor(OSLC4Net.Client.Oslc.OslcClient,System.String,System.Int32,OSLC4Net.Client.Oslc.Resources.OslcQueryParameters,System.Uri)
+  name: OslcQuery(OslcClient, string, int, OslcQueryParameters, Uri)
+  href: api/OSLC4Net.Client.Oslc.Resources.OslcQuery.html#OSLC4Net_Client_Oslc_Resources_OslcQuery__ctor_OSLC4Net_Client_Oslc_OslcClient_System_String_System_Int32_OSLC4Net_Client_Oslc_Resources_OslcQueryParameters_System_Uri_
+  commentId: M:OSLC4Net.Client.Oslc.Resources.OslcQuery.#ctor(OSLC4Net.Client.Oslc.OslcClient,System.String,System.Int32,OSLC4Net.Client.Oslc.Resources.OslcQueryParameters,System.Uri)
+  name.vb: New(OslcClient, String, Integer, OslcQueryParameters, Uri)
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQuery.OslcQuery(OSLC4Net.Client.Oslc.OslcClient, string, int, OSLC4Net.Client.Oslc.Resources.OslcQueryParameters, System.Uri)
+  fullName.vb: OSLC4Net.Client.Oslc.Resources.OslcQuery.New(OSLC4Net.Client.Oslc.OslcClient, String, Integer, OSLC4Net.Client.Oslc.Resources.OslcQueryParameters, System.Uri)
+  nameWithType: OslcQuery.OslcQuery(OslcClient, string, int, OslcQueryParameters, Uri)
+  nameWithType.vb: OslcQuery.New(OslcClient, String, Integer, OslcQueryParameters, Uri)
 - uid: OSLC4Net.Client.Oslc.Resources.OslcQuery.#ctor*
   name: OslcQuery
   href: api/OSLC4Net.Client.Oslc.Resources.OslcQuery.html#OSLC4Net_Client_Oslc_Resources_OslcQuery__ctor_
@@ -7786,6 +7795,19 @@ references:
   isSpec: "True"
   fullName: OSLC4Net.Client.Oslc.Resources.OslcQuery.Submit
   nameWithType: OslcQuery.Submit
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQuery.SubmitPost
+  name: SubmitPost()
+  href: api/OSLC4Net.Client.Oslc.Resources.OslcQuery.html#OSLC4Net_Client_Oslc_Resources_OslcQuery_SubmitPost
+  commentId: M:OSLC4Net.Client.Oslc.Resources.OslcQuery.SubmitPost
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQuery.SubmitPost()
+  nameWithType: OslcQuery.SubmitPost()
+- uid: OSLC4Net.Client.Oslc.Resources.OslcQuery.SubmitPost*
+  name: SubmitPost
+  href: api/OSLC4Net.Client.Oslc.Resources.OslcQuery.html#OSLC4Net_Client_Oslc_Resources_OslcQuery_SubmitPost_
+  commentId: Overload:OSLC4Net.Client.Oslc.Resources.OslcQuery.SubmitPost
+  isSpec: "True"
+  fullName: OSLC4Net.Client.Oslc.Resources.OslcQuery.SubmitPost
+  nameWithType: OslcQuery.SubmitPost
 - uid: OSLC4Net.Client.Oslc.Resources.OslcQueryParameters
   name: OslcQueryParameters
   href: api/OSLC4Net.Client.Oslc.Resources.OslcQueryParameters.html
@@ -13247,6 +13269,22 @@ references:
   isSpec: "True"
   fullName: OSLC4Net.Core.DotNetRdfProvider.Extensions.ToOslcExceptionAsync
   nameWithType: Extensions.ToOslcExceptionAsync
+- uid: OSLC4Net.Core.DotNetRdfProvider.Extensions.TryGetPrefix(VDS.RDF.INamespaceMapper,System.Uri,System.String@)
+  name: TryGetPrefix(INamespaceMapper, Uri, out string?)
+  href: api/OSLC4Net.Core.DotNetRdfProvider.Extensions.html#OSLC4Net_Core_DotNetRdfProvider_Extensions_TryGetPrefix_VDS_RDF_INamespaceMapper_System_Uri_System_String__
+  commentId: M:OSLC4Net.Core.DotNetRdfProvider.Extensions.TryGetPrefix(VDS.RDF.INamespaceMapper,System.Uri,System.String@)
+  name.vb: TryGetPrefix(INamespaceMapper, Uri, String)
+  fullName: OSLC4Net.Core.DotNetRdfProvider.Extensions.TryGetPrefix(VDS.RDF.INamespaceMapper, System.Uri, out string?)
+  fullName.vb: OSLC4Net.Core.DotNetRdfProvider.Extensions.TryGetPrefix(VDS.RDF.INamespaceMapper, System.Uri, String)
+  nameWithType: Extensions.TryGetPrefix(INamespaceMapper, Uri, out string?)
+  nameWithType.vb: Extensions.TryGetPrefix(INamespaceMapper, Uri, String)
+- uid: OSLC4Net.Core.DotNetRdfProvider.Extensions.TryGetPrefix*
+  name: TryGetPrefix
+  href: api/OSLC4Net.Core.DotNetRdfProvider.Extensions.html#OSLC4Net_Core_DotNetRdfProvider_Extensions_TryGetPrefix_
+  commentId: Overload:OSLC4Net.Core.DotNetRdfProvider.Extensions.TryGetPrefix
+  isSpec: "True"
+  fullName: OSLC4Net.Core.DotNetRdfProvider.Extensions.TryGetPrefix
+  nameWithType: Extensions.TryGetPrefix
 - uid: OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter
   name: RdfXmlMediaTypeFormatter
   href: api/OSLC4Net.Core.DotNetRdfProvider.RdfXmlMediaTypeFormatter.html
