@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_Domains_ConfigurationManagement_Baseline.md&amp;value=---%0Auid%3A%20OSLC4Net.Domains.ConfigurationManagement.Baseline%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="OSLC4Net_Domains_ConfigurationManagement_Baseline" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline" class="text-break">
-Class Baseline  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/ConfigurationManagementDomain.cs/#L21"><i class="bi bi-code-slash"></i></a>
+Class Baseline  
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,8 @@ Class Baseline  <a class="header-action link-secondary" title="View source" href
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[OslcShape(&quot;http://open-services.net/ns/config/shapes/1.0/#BaselineShape&quot;)]
-public record Baseline : IEquatable&lt;Baseline&gt;</code></pre>
+[OslcNamespace(&quot;http://open-services.net/ns/config#&quot;)]
+public record Baseline : AbstractResourceRecord, IEquatable&lt;AbstractResourceRecord&gt;, IBaseline, IExtendedResource, IResource, IEquatable&lt;Baseline&gt;</code></pre>
   </div>
 
 
@@ -112,6 +113,7 @@ public record Baseline : IEquatable&lt;Baseline&gt;</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a></div>
       <div><span class="xref">Baseline</span></div>
     </dd>
   </dl>
@@ -119,6 +121,10 @@ public record Baseline : IEquatable&lt;Baseline&gt;</code></pre>
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a>&gt;</div>
+      <div><a class="xref" href="OSLC4Net.Domains.ConfigurationManagement.IBaseline.html">IBaseline</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IExtendedResource.html">IExtendedResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.ConfigurationManagement.Baseline.html">Baseline</a>&gt;</div>
     </dd>
   </dl>
@@ -127,6 +133,36 @@ public record Baseline : IEquatable&lt;Baseline&gt;</code></pre>
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_About">AbstractResourceRecord.About</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_Types">AbstractResourceRecord.Types</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_ExtendedProperties">AbstractResourceRecord.ExtendedProperties</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetAbout">AbstractResourceRecord.GetAbout()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetAbout_System_Uri_">AbstractResourceRecord.SetAbout(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetTypes">AbstractResourceRecord.GetTypes()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetTypes_System_Collections_Generic_ICollection_System_Uri__">AbstractResourceRecord.SetTypes(ICollection&lt;Uri&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_AddType_System_Uri_">AbstractResourceRecord.AddType(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__">AbstractResourceRecord.SetExtendedProperties(IDictionary&lt;QName, object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetExtendedProperties">AbstractResourceRecord.GetExtendedProperties()</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -155,11 +191,1089 @@ public record Baseline : IEquatable&lt;Baseline&gt;</code></pre>
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline__ctor_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline__ctor" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.#ctor">
+  Baseline()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Baseline()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline__ctor_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline__ctor_System_Uri_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.#ctor(System.Uri)">
+  Baseline(Uri)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Baseline(Uri about)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>about</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_AcceptedBy_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.AcceptedBy*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_AcceptedBy" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.AcceptedBy">
+  AcceptedBy
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A type of configuration that &lt;a href=\&quot;config-resources.html#matching_contribs\&quot;&gt;accepts&lt;/a&gt; this configuration as a contribution.\n{{A configuration with no value for `oslc_config:acceptedBy` MUST NOT be used as a contribution to any other configuration}} -\nthat is, it can only be a root of a configuration hierarchy\n(or a stand-alone configuration if there is also no value for `oslc_config:accepts`). Such configurations should be rare.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/config#acceptedBy&quot;)]
+[OslcName(&quot;acceptedBy&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://www.w3.org/2000/01/rdf-schema#Class&quot; })]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;acceptedBy&quot;)]
+public HashSet&lt;Uri&gt; AcceptedBy { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Archived_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Archived*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Archived" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Archived">
+  Archived
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Indicates whether the subject has been marked as archived, no longer an active resource.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#archived&quot;)]
+[OslcName(&quot;archived&quot;)]
+[OslcValueType(ValueType.Boolean)]
+[OslcTitle(&quot;archived&quot;)]
+public bool? Archived { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_BaselineOfStream_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.BaselineOfStream*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_BaselineOfStream" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.BaselineOfStream">
+  BaselineOfStream
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Indicates the stream of which this is a baseline.\nNote that the referenced resource might no longer exist (streams are mutable so can be deleted),\nbut this property remains valuable to relate all baselines of the same stream.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/config#baselineOfStream&quot;)]
+[OslcName(&quot;baselineOfStream&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/config#Configuration&quot; })]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;baselineOfStream&quot;)]
+public Uri BaselineOfStream { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Branch_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Branch*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Branch" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Branch">
+  Branch
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;An indicator of the intended purpose of the baseline.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/config#branch&quot;)]
+[OslcName(&quot;branch&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;branch&quot;)]
+public Uri? Branch { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Committed_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Committed*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Committed" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Committed">
+  Committed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Date and time this configuration was committed as a baseline.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/config#committed&quot;)]
+[OslcName(&quot;committed&quot;)]
+[OslcValueType(ValueType.DateTime)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;committed&quot;)]
+public DateTimeOffset? Committed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Committer_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Committer*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Committer" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Committer">
+  Committer
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The entity that committed this configuration as a baseline.\nThe link target is usually a `foaf:Person` or `foaf:Agent`, but could be any type.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/config#committer&quot;)]
+[OslcName(&quot;committer&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://xmlns.com/foaf/0.1/Agent&quot;, &quot;http://xmlns.com/foaf/0.1/Person&quot; })]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;committer&quot;)]
+public HashSet&lt;Uri&gt; Committer { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Component_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Component*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Component" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Component">
+  Component
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The component of which this is a configuration, and from which the configuration selects versions of resources in the component.\nThe component is an invariant relating the different configurations of the same &#39;thing&#39;.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/config#component&quot;)]
+[OslcName(&quot;component&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/config#Component&quot; })]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;component&quot;)]
+public Uri Component { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Contribution_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Contribution*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Contribution" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Contribution">
+  Contribution
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A contribution to this baseline.\nThe set of resource versions identified by this baseline is the union of the set determined by the\n`oslc_config:selections` resources and each of the sets of resource versions identified by the contributed baselines.\n{{The target MUST be of type `oslc_config:Contribution`}}.\n{{Contribution resources MUST be returned inline with the baseline resource}}.\n{{In the set of Contribution resources for a single parent baseline,\nthere MUST be only one Contribution resource for a given contributed baseline}}.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/config#contribution&quot;)]
+[OslcName(&quot;contribution&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Inline)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/config#Contribution&quot; })]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;contribution&quot;)]
+public HashSet&lt;Uri&gt; Contribution { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Contributor_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Contributor*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Contributor" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Contributor">
+  Contributor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Contributor or contributors to the resource.\nThe link target is usually a `foaf:Person` or `foaf:Agent`, but could be any type.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/contributor&quot;)]
+[OslcName(&quot;contributor&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://xmlns.com/foaf/0.1/Agent&quot;, &quot;http://xmlns.com/foaf/0.1/Person&quot; })]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;contributor&quot;)]
+public HashSet&lt;Uri&gt; Contributor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Created_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Created*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Created" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Created">
+  Created
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Timestamp of resource creation. {{Each resource SHOULD have one instance of the `dcterms:created` property}}.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/created&quot;)]
+[OslcName(&quot;created&quot;)]
+[OslcValueType(ValueType.DateTime)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;created&quot;)]
+public DateTimeOffset? Created { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Creator_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Creator*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Creator" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Creator">
+  Creator
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Creator or creators of the resource.\nThe link target is usually a `foaf:Person` or `foaf:Agent`, but could be any type.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/creator&quot;)]
+[OslcName(&quot;creator&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://xmlns.com/foaf/0.1/Agent&quot;, &quot;http://xmlns.com/foaf/0.1/Person&quot; })]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;creator&quot;)]
+public HashSet&lt;Uri&gt; Creator { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Description_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Description*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Description" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Description">
+  Description
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Descriptive text about the resource, represented as rich text in XHTML content.\n{{The description of a baseline MAY be modifiable}}.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/description&quot;)]
+[OslcName(&quot;description&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+[OslcTitle(&quot;description&quot;)]
+public string? Description { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Identifier_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Identifier*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Identifier" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Identifier">
+  Identifier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A unique identifier for this resource.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/identifier&quot;)]
+[OslcName(&quot;identifier&quot;)]
+[OslcValueType(ValueType.String)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;identifier&quot;)]
+public string? Identifier { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_InstanceShape_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.InstanceShape*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_InstanceShape" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.InstanceShape">
+  InstanceShape
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The URI of a Resource Shape that describes the possible properties, occurrence, value types, allowed values and labels.\nThis shape information is useful in displaying the subject resource as well as guiding clients in performing modifications.\nInstance shapes may be specific to the authenticated user associated with the request that retrieved the resource,\nthe current state of the resource, and other factors, so {{instance shapes SHOULD NOT be cached}}.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#instanceShape&quot;)]
+[OslcName(&quot;instanceShape&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#ResourceShape&quot; })]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;instanceShape&quot;)]
+public Uri? InstanceShape { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Modified_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Modified*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Modified" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Modified">
+  Modified
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Timestamp of latest resource modification. {{Each resource SHOULD have one instance of the `dcterms:modified` property}}.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/modified&quot;)]
+[OslcName(&quot;modified&quot;)]
+[OslcValueType(ValueType.DateTime)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;modified&quot;)]
+public DateTimeOffset? Modified { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_ModifiedBy_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.ModifiedBy*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_ModifiedBy" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.ModifiedBy">
+  ModifiedBy
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The entity that most recently modified the subject resource.\nThe link target is usually a `foaf:Person` or `foaf:Agent`, but could be any type.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#modifiedBy&quot;)]
+[OslcName(&quot;modifiedBy&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://xmlns.com/foaf/0.1/Agent&quot;, &quot;http://xmlns.com/foaf/0.1/Person&quot; })]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;modifiedBy&quot;)]
+public HashSet&lt;Uri&gt; ModifiedBy { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_PreviousBaseline_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.PreviousBaseline*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_PreviousBaseline" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.PreviousBaseline">
+  PreviousBaseline
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A reference to the immediately preceding baseline of the same stream.\nMultiple instances of this property imply the stream was merged from one or more baselines before this baseline was taken.\n{{This property MAY be updated by the server to refer to earlier baselines when intermediate baselines are deleted}}.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/config#previousBaseline&quot;)]
+[OslcName(&quot;previousBaseline&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/config#Baseline&quot; })]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;previousBaseline&quot;)]
+public HashSet&lt;Uri&gt; PreviousBaseline { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Release_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Release*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Release" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Release">
+  Release
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A link to a resource indicating a target release for the artifacts selected by this configuration.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#release&quot;)]
+[OslcName(&quot;release&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;release&quot;)]
+public HashSet&lt;Uri&gt; Release { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Selections_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Selections*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Selections" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Selections">
+  Selections
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A reference to a resource identifying immutable versions of the resources (configuration items) in the configuration.\nThe set of version resources identified is the union of the sets in all the selections resources.\nSince selections properties are not ordered, there is no defined meaning to a selection that appears in two or more different selections properties;\n{{servers MAY treat such multiple occurrences of selections as an error}}.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/config#selections&quot;)]
+[OslcName(&quot;selections&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/config#Selections&quot; })]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;selections&quot;)]
+public HashSet&lt;Uri&gt; Selections { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_ServiceProvider_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.ServiceProvider*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_ServiceProvider" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.ServiceProvider">
+  ServiceProvider
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A link to the resource&#39;s OSLC Service Provider.\nIf the subject resource is available from an application that implements multiple domain specifications, there can be multiple values for this property.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#serviceProvider&quot;)]
+[OslcName(&quot;serviceProvider&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#ServiceProvider&quot; })]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;serviceProvider&quot;)]
+public HashSet&lt;Uri&gt; ServiceProvider { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_ShortId_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.ShortId*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_ShortId" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.ShortId">
+  ShortId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A short and human-readable identifier for the resource, such as a number.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#shortId&quot;)]
+[OslcName(&quot;shortId&quot;)]
+[OslcValueType(ValueType.String)]
+[OslcTitle(&quot;shortId&quot;)]
+public string? ShortId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_ShortTitle_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.ShortTitle*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_ShortTitle" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.ShortTitle">
+  ShortTitle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A short title for the resource, represented as rich text in XHTML content.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#shortTitle&quot;)]
+[OslcName(&quot;shortTitle&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+[OslcTitle(&quot;shortTitle&quot;)]
+public string? ShortTitle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Streams_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Streams*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Streams" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Streams">
+  Streams
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;a href=\&quot;http://www.w3.org/TR/ldp/#ldpc\&quot;&gt;Linked Data Platform Container&lt;/a&gt;\nthat contains all the streams derived from this baseline.\nA new stream derived from this baseline is created by a POST to this container;\n{{a `previousBaseline` property of the new stream MUST be set to refer to this baseline}}.\nNote that the `streams` property itself is immutable,\nbut the container referenced by the property is not.\n{{The container MAY have an `oslc:resourceShape` property referencing a resource shape that describes the container}}.\n{{If a container resource shape is specified, it should have a property describing the membership of the container with a\n``oslc:valueShape`` referencing a resource shape that describes the shapes of streams that may be created}}.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/config#streams&quot;)]
+[OslcName(&quot;streams&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://www.w3.org/ns/ldp#Container&quot; })]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;streams&quot;)]
+public Uri Streams { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Subject_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Subject*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Subject" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Subject">
+  Subject
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Tag or keyword for a resource.\nEach occurrence of a `dcterms:subject` property denotes an additional tag for the resource.\n{{Tags on baselines MUST be modifiable}}.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/subject&quot;)]
+[OslcName(&quot;subject&quot;)]
+[OslcValueType(ValueType.String)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;subject&quot;)]
+public HashSet&lt;string&gt; Subject { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Title_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Title*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_Title" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.Title">
+  Title
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Title of the resource, represented as rich text in XHTML content.\n{{The title of a baseline SHOULD be modifiable}}.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/title&quot;)]
+[OslcName(&quot;title&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;title&quot;)]
+public string? Title { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Baseline_WasDerivedFrom_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.WasDerivedFrom*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Baseline_WasDerivedFrom" data-uid="OSLC4Net.Domains.ConfigurationManagement.Baseline.WasDerivedFrom">
+  WasDerivedFrom
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A stream or baseline from which this stream was first copied.\nThis property can be absent for streams created as new empty streams.\nMultiple instances of this property imply the stream was initially formed from a merge from one or more baselines.\n{{The `prov:wasDerivedFrom` property is undefined for baselines; it MAY be absent, or it MAY have the same value as `oslc_config:baselineOfStream`}}.\nIf this property is present on multiple change sets overriding the same base configuration, it implies a partial ordering of those change sets,\nidentifying change sets derived from earlier change sets on the same base.\n{{Servers SHOULD treat this property as read-only after initial creation}}.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://www.w3.org/ns/prov#wasDerivedFrom&quot;)]
+[OslcName(&quot;wasDerivedFrom&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/config#Configuration&quot; })]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;wasDerivedFrom&quot;)]
+public HashSet&lt;Uri&gt; WasDerivedFrom { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/ConfigurationManagementDomain.cs/#L21" class="edit-link">Edit this page</a>
         </div>
 
 

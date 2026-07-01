@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_Domains_TrackedResourceSet_DeletionEvent.md&amp;value=---%0Auid%3A%20OSLC4Net.Domains.TrackedResourceSet.DeletionEvent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="OSLC4Net_Domains_TrackedResourceSet_DeletionEvent" data-uid="OSLC4Net.Domains.TrackedResourceSet.DeletionEvent" class="text-break">
-Class DeletionEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.TrackedResourceSet/TrackedResourceSetDomain.cs/#L27"><i class="bi bi-code-slash"></i></a>
+Class DeletionEvent  
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,8 @@ Class DeletionEvent  <a class="header-action link-secondary" title="View source"
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[OslcShape(&quot;http://open-services.net/ns/trs/shapes/3.0#DeletionEventShape&quot;)]
-public record DeletionEvent : IEquatable&lt;DeletionEvent&gt;</code></pre>
+[OslcNamespace(&quot;http://open-services.net/ns/core/trs#&quot;)]
+public record DeletionEvent : AbstractResourceRecord, IEquatable&lt;AbstractResourceRecord&gt;, IDeletionEvent, IExtendedResource, IResource, IEquatable&lt;DeletionEvent&gt;</code></pre>
   </div>
 
 
@@ -112,6 +113,7 @@ public record DeletionEvent : IEquatable&lt;DeletionEvent&gt;</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a></div>
       <div><span class="xref">DeletionEvent</span></div>
     </dd>
   </dl>
@@ -119,6 +121,10 @@ public record DeletionEvent : IEquatable&lt;DeletionEvent&gt;</code></pre>
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a>&gt;</div>
+      <div><a class="xref" href="OSLC4Net.Domains.TrackedResourceSet.IDeletionEvent.html">IDeletionEvent</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IExtendedResource.html">IExtendedResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.TrackedResourceSet.DeletionEvent.html">DeletionEvent</a>&gt;</div>
     </dd>
   </dl>
@@ -127,6 +133,36 @@ public record DeletionEvent : IEquatable&lt;DeletionEvent&gt;</code></pre>
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_About">AbstractResourceRecord.About</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_Types">AbstractResourceRecord.Types</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_ExtendedProperties">AbstractResourceRecord.ExtendedProperties</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetAbout">AbstractResourceRecord.GetAbout()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetAbout_System_Uri_">AbstractResourceRecord.SetAbout(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetTypes">AbstractResourceRecord.GetTypes()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetTypes_System_Collections_Generic_ICollection_System_Uri__">AbstractResourceRecord.SetTypes(ICollection&lt;Uri&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_AddType_System_Uri_">AbstractResourceRecord.AddType(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__">AbstractResourceRecord.SetExtendedProperties(IDictionary&lt;QName, object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetExtendedProperties">AbstractResourceRecord.GetExtendedProperties()</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -155,11 +191,152 @@ public record DeletionEvent : IEquatable&lt;DeletionEvent&gt;</code></pre>
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Domains_TrackedResourceSet_DeletionEvent__ctor_" data-uid="OSLC4Net.Domains.TrackedResourceSet.DeletionEvent.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_TrackedResourceSet_DeletionEvent__ctor" data-uid="OSLC4Net.Domains.TrackedResourceSet.DeletionEvent.#ctor">
+  DeletionEvent()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DeletionEvent()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_TrackedResourceSet_DeletionEvent__ctor_" data-uid="OSLC4Net.Domains.TrackedResourceSet.DeletionEvent.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_TrackedResourceSet_DeletionEvent__ctor_System_Uri_" data-uid="OSLC4Net.Domains.TrackedResourceSet.DeletionEvent.#ctor(System.Uri)">
+  DeletionEvent(Uri)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DeletionEvent(Uri about)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>about</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="OSLC4Net_Domains_TrackedResourceSet_DeletionEvent_Changed_" data-uid="OSLC4Net.Domains.TrackedResourceSet.DeletionEvent.Changed*"></a>
+
+  <h3 id="OSLC4Net_Domains_TrackedResourceSet_DeletionEvent_Changed" data-uid="OSLC4Net.Domains.TrackedResourceSet.DeletionEvent.Changed">
+  Changed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The resource that has been created, modified, or deleted.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core/trs#changed&quot;)]
+[OslcName(&quot;changed&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;changed&quot;)]
+public Uri Changed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_TrackedResourceSet_DeletionEvent_Order_" data-uid="OSLC4Net.Domains.TrackedResourceSet.DeletionEvent.Order*"></a>
+
+  <h3 id="OSLC4Net_Domains_TrackedResourceSet_DeletionEvent_Order" data-uid="OSLC4Net.Domains.TrackedResourceSet.DeletionEvent.Order">
+  Order
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A non-negative integer number indicating the sequence in time of the Change Event.}} {{There MAY be gaps in the sequence}}, but {{a more recently available Change Event MUST have a larger number than any previously avalable Change Event as accessed by GET on the change log}}.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core/trs#order&quot;)]
+[OslcName(&quot;order&quot;)]
+[OslcValueType(ValueType.Integer)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;order&quot;)]
+public long Order { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.TrackedResourceSet/TrackedResourceSetDomain.cs/#L27" class="edit-link">Edit this page</a>
         </div>
 
 

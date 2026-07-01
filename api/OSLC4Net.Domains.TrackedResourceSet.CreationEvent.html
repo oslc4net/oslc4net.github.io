@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_Domains_TrackedResourceSet_CreationEvent.md&amp;value=---%0Auid%3A%20OSLC4Net.Domains.TrackedResourceSet.CreationEvent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="OSLC4Net_Domains_TrackedResourceSet_CreationEvent" data-uid="OSLC4Net.Domains.TrackedResourceSet.CreationEvent" class="text-break">
-Class CreationEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.TrackedResourceSet/TrackedResourceSetDomain.cs/#L24"><i class="bi bi-code-slash"></i></a>
+Class CreationEvent  
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,8 @@ Class CreationEvent  <a class="header-action link-secondary" title="View source"
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[OslcShape(&quot;http://open-services.net/ns/trs/shapes/3.0#CreationEventShape&quot;)]
-public record CreationEvent : IEquatable&lt;CreationEvent&gt;</code></pre>
+[OslcNamespace(&quot;http://open-services.net/ns/core/trs#&quot;)]
+public record CreationEvent : AbstractResourceRecord, IEquatable&lt;AbstractResourceRecord&gt;, ICreationEvent, IExtendedResource, IResource, IEquatable&lt;CreationEvent&gt;</code></pre>
   </div>
 
 
@@ -112,6 +113,7 @@ public record CreationEvent : IEquatable&lt;CreationEvent&gt;</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a></div>
       <div><span class="xref">CreationEvent</span></div>
     </dd>
   </dl>
@@ -119,6 +121,10 @@ public record CreationEvent : IEquatable&lt;CreationEvent&gt;</code></pre>
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a>&gt;</div>
+      <div><a class="xref" href="OSLC4Net.Domains.TrackedResourceSet.ICreationEvent.html">ICreationEvent</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IExtendedResource.html">IExtendedResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.TrackedResourceSet.CreationEvent.html">CreationEvent</a>&gt;</div>
     </dd>
   </dl>
@@ -127,6 +133,36 @@ public record CreationEvent : IEquatable&lt;CreationEvent&gt;</code></pre>
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_About">AbstractResourceRecord.About</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_Types">AbstractResourceRecord.Types</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_ExtendedProperties">AbstractResourceRecord.ExtendedProperties</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetAbout">AbstractResourceRecord.GetAbout()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetAbout_System_Uri_">AbstractResourceRecord.SetAbout(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetTypes">AbstractResourceRecord.GetTypes()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetTypes_System_Collections_Generic_ICollection_System_Uri__">AbstractResourceRecord.SetTypes(ICollection&lt;Uri&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_AddType_System_Uri_">AbstractResourceRecord.AddType(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__">AbstractResourceRecord.SetExtendedProperties(IDictionary&lt;QName, object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetExtendedProperties">AbstractResourceRecord.GetExtendedProperties()</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -155,11 +191,305 @@ public record CreationEvent : IEquatable&lt;CreationEvent&gt;</code></pre>
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Domains_TrackedResourceSet_CreationEvent__ctor_" data-uid="OSLC4Net.Domains.TrackedResourceSet.CreationEvent.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_TrackedResourceSet_CreationEvent__ctor" data-uid="OSLC4Net.Domains.TrackedResourceSet.CreationEvent.#ctor">
+  CreationEvent()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CreationEvent()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_TrackedResourceSet_CreationEvent__ctor_" data-uid="OSLC4Net.Domains.TrackedResourceSet.CreationEvent.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_TrackedResourceSet_CreationEvent__ctor_System_Uri_" data-uid="OSLC4Net.Domains.TrackedResourceSet.CreationEvent.#ctor(System.Uri)">
+  CreationEvent(Uri)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CreationEvent(Uri about)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>about</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="OSLC4Net_Domains_TrackedResourceSet_CreationEvent_AfterETag_" data-uid="OSLC4Net.Domains.TrackedResourceSet.CreationEvent.AfterETag*"></a>
+
+  <h3 id="OSLC4Net_Domains_TrackedResourceSet_CreationEvent_AfterETag" data-uid="OSLC4Net.Domains.TrackedResourceSet.CreationEvent.AfterETag">
+  AfterETag
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;This property, when present, gives the final HTTP entity tag of the resource referenced in the &lt;code&gt;trs:changed property&lt;/code&gt; - the entity-tag value that would have been returned in the HTTP ETag response header if the resource had been retrieved immediately after the change.\nClients can use this as the expected &lt;code&gt;trspatch:beforeETag&lt;/code&gt; value in a chain of patch events for a tracked resource.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core/trspatch#afterETag&quot;)]
+[OslcName(&quot;afterETag&quot;)]
+[OslcValueType(ValueType.String)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;afterETag&quot;)]
+public string? AfterETag { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_TrackedResourceSet_CreationEvent_BeforeETag_" data-uid="OSLC4Net.Domains.TrackedResourceSet.CreationEvent.BeforeETag*"></a>
+
+  <h3 id="OSLC4Net_Domains_TrackedResourceSet_CreationEvent_BeforeETag" data-uid="OSLC4Net.Domains.TrackedResourceSet.CreationEvent.BeforeETag">
+  BeforeETag
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;This property, when present, gives the initial HTTP entity tag of the antecedent resource for a patch event. This is the entity-tag value that would be returned in the HTTP ETag response header if the antecedent resource had been retrieved immediately before the change.\nIf this property is missing, or if the entity-tag value does not match the current state of the antecedent resource, the patch should be ignored and the event treated as a normal modification event.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core/trspatch#beforeETag&quot;)]
+[OslcName(&quot;beforeETag&quot;)]
+[OslcValueType(ValueType.String)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;beforeETag&quot;)]
+public string? BeforeETag { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_TrackedResourceSet_CreationEvent_Changed_" data-uid="OSLC4Net.Domains.TrackedResourceSet.CreationEvent.Changed*"></a>
+
+  <h3 id="OSLC4Net_Domains_TrackedResourceSet_CreationEvent_Changed" data-uid="OSLC4Net.Domains.TrackedResourceSet.CreationEvent.Changed">
+  Changed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The resource that has been created, modified, or deleted.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core/trs#changed&quot;)]
+[OslcName(&quot;changed&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;changed&quot;)]
+public Uri Changed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_TrackedResourceSet_CreationEvent_CreatedFrom_" data-uid="OSLC4Net.Domains.TrackedResourceSet.CreationEvent.CreatedFrom*"></a>
+
+  <h3 id="OSLC4Net_Domains_TrackedResourceSet_CreationEvent_CreatedFrom" data-uid="OSLC4Net.Domains.TrackedResourceSet.CreationEvent.CreatedFrom">
+  CreatedFrom
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;{{This property MUST NOT be present unless the &lt;code&gt;trspatch:rdfPatch&lt;/code&gt; property is also present}}, indicating this change event is annotated with a patch.\nThis property, when present, identifies the antecedent resource to be used to define the \&quot;before\&quot; state of the patch. If omitted, the antecedent resource is the resource referenced in the &lt;code&gt;trs:changed&lt;/code&gt; property.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core/trspatch#createdFrom&quot;)]
+[OslcName(&quot;createdFrom&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;createdFrom&quot;)]
+public Uri? CreatedFrom { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_TrackedResourceSet_CreationEvent_Order_" data-uid="OSLC4Net.Domains.TrackedResourceSet.CreationEvent.Order*"></a>
+
+  <h3 id="OSLC4Net_Domains_TrackedResourceSet_CreationEvent_Order" data-uid="OSLC4Net.Domains.TrackedResourceSet.CreationEvent.Order">
+  Order
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A non-negative integer number indicating the sequence in time of the Change Event.}} {{There MAY be gaps in the sequence}}, but {{a more recently available Change Event MUST have a larger number than any previously avalable Change Event as accessed by GET on the change log}}.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core/trs#order&quot;)]
+[OslcName(&quot;order&quot;)]
+[OslcValueType(ValueType.Integer)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;order&quot;)]
+public long Order { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_TrackedResourceSet_CreationEvent_RdfPatch_" data-uid="OSLC4Net.Domains.TrackedResourceSet.CreationEvent.RdfPatch*"></a>
+
+  <h3 id="OSLC4Net_Domains_TrackedResourceSet_CreationEvent_RdfPatch" data-uid="OSLC4Net.Domains.TrackedResourceSet.CreationEvent.RdfPatch">
+  RdfPatch
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;This property, when present, describes a patch to be applied to the antecedent resource’s RDF representation. A patch cannot describe a change to the non-RDF contents of a resource.\nThe result of applying the patch describes the representation of the resource referenced in the &lt;code&gt;trs:changed&lt;/code&gt; property immediately after this change event.\nThis property is used with &lt;code&gt;trs:Modification&lt;/code&gt; and &lt;code&gt;trs:Creation Change Events&lt;/code&gt;; it is not meaningful for &lt;code&gt;trs:Deletion&lt;/code&gt; Change Events. The format of the patch property is defined at &lt;a href=\&quot;tracked-resource-set.html#trs-patch\&quot;&gt;TRS Patch&lt;/a&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core/trspatch#rdfPatch&quot;)]
+[OslcName(&quot;rdfPatch&quot;)]
+[OslcValueType(ValueType.String)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;rdfPatch&quot;)]
+public string? RdfPatch { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.TrackedResourceSet/TrackedResourceSetDomain.cs/#L24" class="edit-link">Edit this page</a>
         </div>
 
 

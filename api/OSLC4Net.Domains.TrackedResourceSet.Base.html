@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_Domains_TrackedResourceSet_Base.md&amp;value=---%0Auid%3A%20OSLC4Net.Domains.TrackedResourceSet.Base%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="OSLC4Net_Domains_TrackedResourceSet_Base" data-uid="OSLC4Net.Domains.TrackedResourceSet.Base" class="text-break">
-Class Base  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.TrackedResourceSet/TrackedResourceSetDomain.cs/#L18"><i class="bi bi-code-slash"></i></a>
+Class Base  
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,8 @@ Class Base  <a class="header-action link-secondary" title="View source" href="ht
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[OslcShape(&quot;http://open-services.net/ns/trs/shapes/3.0#BaseShape&quot;)]
-public record Base : IEquatable&lt;Base&gt;</code></pre>
+[OslcNamespace(&quot;http://open-services.net/ns/core/trs#&quot;)]
+public record Base : AbstractResourceRecord, IEquatable&lt;AbstractResourceRecord&gt;, IBase, IExtendedResource, IResource, IEquatable&lt;Base&gt;</code></pre>
   </div>
 
 
@@ -112,6 +113,7 @@ public record Base : IEquatable&lt;Base&gt;</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a></div>
       <div><span class="xref">Base</span></div>
     </dd>
   </dl>
@@ -119,6 +121,10 @@ public record Base : IEquatable&lt;Base&gt;</code></pre>
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a>&gt;</div>
+      <div><a class="xref" href="OSLC4Net.Domains.TrackedResourceSet.IBase.html">IBase</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IExtendedResource.html">IExtendedResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.TrackedResourceSet.Base.html">Base</a>&gt;</div>
     </dd>
   </dl>
@@ -127,6 +133,36 @@ public record Base : IEquatable&lt;Base&gt;</code></pre>
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_About">AbstractResourceRecord.About</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_Types">AbstractResourceRecord.Types</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_ExtendedProperties">AbstractResourceRecord.ExtendedProperties</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetAbout">AbstractResourceRecord.GetAbout()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetAbout_System_Uri_">AbstractResourceRecord.SetAbout(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetTypes">AbstractResourceRecord.GetTypes()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetTypes_System_Collections_Generic_ICollection_System_Uri__">AbstractResourceRecord.SetTypes(ICollection&lt;Uri&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_AddType_System_Uri_">AbstractResourceRecord.AddType(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__">AbstractResourceRecord.SetExtendedProperties(IDictionary&lt;QName, object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetExtendedProperties">AbstractResourceRecord.GetExtendedProperties()</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -155,11 +191,193 @@ public record Base : IEquatable&lt;Base&gt;</code></pre>
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Domains_TrackedResourceSet_Base__ctor_" data-uid="OSLC4Net.Domains.TrackedResourceSet.Base.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_TrackedResourceSet_Base__ctor" data-uid="OSLC4Net.Domains.TrackedResourceSet.Base.#ctor">
+  Base()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Base()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_TrackedResourceSet_Base__ctor_" data-uid="OSLC4Net.Domains.TrackedResourceSet.Base.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_TrackedResourceSet_Base__ctor_System_Uri_" data-uid="OSLC4Net.Domains.TrackedResourceSet.Base.#ctor(System.Uri)">
+  Base(Uri)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Base(Uri about)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>about</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="OSLC4Net_Domains_TrackedResourceSet_Base_CutoffEvent_" data-uid="OSLC4Net.Domains.TrackedResourceSet.Base.CutoffEvent*"></a>
+
+  <h3 id="OSLC4Net_Domains_TrackedResourceSet_Base_CutoffEvent" data-uid="OSLC4Net.Domains.TrackedResourceSet.Base.CutoffEvent">
+  CutoffEvent
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The URI of an entry in the Change Log at and after which all changes have already been included in the Base.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core/trs#cutoffEvent&quot;)]
+[OslcName(&quot;cutoffEvent&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core/trs#Creation&quot;, &quot;http://open-services.net/ns/core/trs#Deletion&quot;, &quot;http://open-services.net/ns/core/trs#Modification&quot; })]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;cutoffEvent&quot;)]
+public Uri CutoffEvent { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_TrackedResourceSet_Base_HasMemberRelation_" data-uid="OSLC4Net.Domains.TrackedResourceSet.Base.HasMemberRelation*"></a>
+
+  <h3 id="OSLC4Net_Domains_TrackedResourceSet_Base_HasMemberRelation" data-uid="OSLC4Net.Domains.TrackedResourceSet.Base.HasMemberRelation">
+  HasMemberRelation
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The membership predicate for this Base container.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://www.w3.org/ns/ldp#hasMemberRelation&quot;)]
+[OslcName(&quot;hasMemberRelation&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;hasMemberRelation&quot;)]
+public Uri HasMemberRelation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_TrackedResourceSet_Base_Member_" data-uid="OSLC4Net.Domains.TrackedResourceSet.Base.Member*"></a>
+
+  <h3 id="OSLC4Net_Domains_TrackedResourceSet_Base_Member" data-uid="OSLC4Net.Domains.TrackedResourceSet.Base.Member">
+  Member
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A Tracked Resource that is a member of the Tracked Resource Set.\n&lt;code&gt;ldp:member&lt;/code&gt; is the preferred predicate,\nbut the actual predicate is indicated by &lt;code&gt;ldp:hasMemberRelation&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://www.w3.org/ns/ldp#member&quot;)]
+[OslcName(&quot;member&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;member&quot;)]
+public HashSet&lt;Uri&gt; Member { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.TrackedResourceSet/TrackedResourceSetDomain.cs/#L18" class="edit-link">Edit this page</a>
         </div>
 
 

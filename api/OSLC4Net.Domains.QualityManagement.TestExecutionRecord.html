@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_Domains_QualityManagement_TestExecutionRecord.md&amp;value=---%0Auid%3A%20OSLC4Net.Domains.QualityManagement.TestExecutionRecord%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord" class="text-break">
-Class TestExecutionRecord  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.QualityManagement/QualityManagementDomain.cs/#L27"><i class="bi bi-code-slash"></i></a>
+Class TestExecutionRecord  
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,8 @@ Class TestExecutionRecord  <a class="header-action link-secondary" title="View s
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[OslcShape(&quot;https://open-services.net/ns/qm/shapes/2.1/#TestExecutionRecordShape&quot;)]
-public record TestExecutionRecord : IEquatable&lt;TestExecutionRecord&gt;</code></pre>
+[OslcNamespace(&quot;http://open-services.net/ns/qm#&quot;)]
+public record TestExecutionRecord : AbstractResourceRecord, IEquatable&lt;AbstractResourceRecord&gt;, ITestExecutionRecord, IExtendedResource, IResource, IEquatable&lt;TestExecutionRecord&gt;</code></pre>
   </div>
 
 
@@ -112,6 +113,7 @@ public record TestExecutionRecord : IEquatable&lt;TestExecutionRecord&gt;</code>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a></div>
       <div><span class="xref">TestExecutionRecord</span></div>
     </dd>
   </dl>
@@ -119,6 +121,10 @@ public record TestExecutionRecord : IEquatable&lt;TestExecutionRecord&gt;</code>
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a>&gt;</div>
+      <div><a class="xref" href="OSLC4Net.Domains.QualityManagement.ITestExecutionRecord.html">ITestExecutionRecord</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IExtendedResource.html">IExtendedResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.html">TestExecutionRecord</a>&gt;</div>
     </dd>
   </dl>
@@ -127,6 +133,36 @@ public record TestExecutionRecord : IEquatable&lt;TestExecutionRecord&gt;</code>
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_About">AbstractResourceRecord.About</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_Types">AbstractResourceRecord.Types</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_ExtendedProperties">AbstractResourceRecord.ExtendedProperties</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetAbout">AbstractResourceRecord.GetAbout()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetAbout_System_Uri_">AbstractResourceRecord.SetAbout(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetTypes">AbstractResourceRecord.GetTypes()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetTypes_System_Collections_Generic_ICollection_System_Uri__">AbstractResourceRecord.SetTypes(ICollection&lt;Uri&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_AddType_System_Uri_">AbstractResourceRecord.AddType(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__">AbstractResourceRecord.SetExtendedProperties(IDictionary&lt;QName, object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetExtendedProperties">AbstractResourceRecord.GetExtendedProperties()</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -155,11 +191,742 @@ public record TestExecutionRecord : IEquatable&lt;TestExecutionRecord&gt;</code>
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord__ctor_" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord__ctor" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.#ctor">
+  TestExecutionRecord()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TestExecutionRecord()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord__ctor_" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord__ctor_System_Uri_" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.#ctor(System.Uri)">
+  TestExecutionRecord(Uri)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TestExecutionRecord(Uri about)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>about</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_BlockedByChangeRequest_" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.BlockedByChangeRequest*"></a>
+
+  <h3 id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_BlockedByChangeRequest" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.BlockedByChangeRequest">
+  BlockedByChangeRequest
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Change Request that prevents execution of the Test Execution Record. It is likely that the target resource will be an oslc_cm:ChangeRequest but that is not necessarily the case.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/qm#blockedByChangeRequest&quot;)]
+[OslcName(&quot;blockedByChangeRequest&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/cm#ChangeRequest&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Blocked by Change Request&quot;)]
+public HashSet&lt;Uri&gt; BlockedByChangeRequest { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_Contributor_" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.Contributor*"></a>
+
+  <h3 id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_Contributor" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.Contributor">
+  Contributor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Contributor or contributors to resource (reference: Dublin Core). It is likely that the target resource will be an foaf:Person but that is not necessarily the case.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/contributor&quot;)]
+[OslcName(&quot;contributor&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://xmlns.com/foaf/0.1/Person&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Contributor&quot;)]
+public HashSet&lt;Uri&gt; Contributor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_Created_" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.Created*"></a>
+
+  <h3 id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_Created" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.Created">
+  Created
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Timestamp of resource creation (reference: Dublin Core).&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/created&quot;)]
+[OslcName(&quot;created&quot;)]
+[OslcValueType(ValueType.DateTime)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;Created&quot;)]
+public DateTimeOffset? Created { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_Creator_" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.Creator*"></a>
+
+  <h3 id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_Creator" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.Creator">
+  Creator
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Creator or creators of resource (reference: Dublin Core). It is likely that the target resource will be an foaf:Person but that is not necessarily the case.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/creator&quot;)]
+[OslcName(&quot;creator&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://xmlns.com/foaf/0.1/Person&quot; })]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;Creator&quot;)]
+public HashSet&lt;Uri&gt; Creator { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_Description_" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.Description*"></a>
+
+  <h3 id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_Description" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.Description">
+  Description
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Descriptive text (reference: Dublin Core) about resource represented as rich text in XHTML content. SHOULD include only content that is valid and suitable inside an XHTML &lt;div&gt; element.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/description&quot;)]
+[OslcName(&quot;description&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Description&quot;)]
+public string? Description { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_ExecutesTestScript_" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.ExecutesTestScript*"></a>
+
+  <h3 id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_ExecutesTestScript" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.ExecutesTestScript">
+  ExecutesTestScript
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Test Script executed by the Test Execution Record. It is likely that the target resource will be an oslc_qm:TestScript but that is not necessarily the case.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/qm#executesTestScript&quot;)]
+[OslcName(&quot;executesTestScript&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/qm#TestScript&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Executes Test Script&quot;)]
+public Uri? ExecutesTestScript { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_Identifier_" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.Identifier*"></a>
+
+  <h3 id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_Identifier" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.Identifier">
+  Identifier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A unique identifier for a resource. Assigned by the service provider when a resource is created. Not intended for end-user display.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/identifier&quot;)]
+[OslcName(&quot;identifier&quot;)]
+[OslcValueType(ValueType.String)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;Identifier&quot;)]
+public string Identifier { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_InstanceShape_" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.InstanceShape*"></a>
+
+  <h3 id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_InstanceShape" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.InstanceShape">
+  InstanceShape
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Resource Shape that provides hints as to resource property value-types and allowed values.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#instanceShape&quot;)]
+[OslcName(&quot;instanceShape&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#ResourceShape&quot; })]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;Instance Shape&quot;)]
+public Uri? InstanceShape { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_Modified_" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.Modified*"></a>
+
+  <h3 id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_Modified" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.Modified">
+  Modified
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Timestamp of latest resource modification (reference: Dublin Core).&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/modified&quot;)]
+[OslcName(&quot;modified&quot;)]
+[OslcValueType(ValueType.DateTime)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;Modified&quot;)]
+public DateTimeOffset? Modified { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_RelatedChangeRequest_" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.RelatedChangeRequest*"></a>
+
+  <h3 id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_RelatedChangeRequest" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.RelatedChangeRequest">
+  RelatedChangeRequest
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A related change request. It is likely that the target resource will be an oslc_cm:ChangeRequest but that is not necessarily the case.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/qm#relatedChangeRequest&quot;)]
+[OslcName(&quot;relatedChangeRequest&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/cm#ChangeRequest&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Related Change Request&quot;)]
+public HashSet&lt;Uri&gt; RelatedChangeRequest { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_Relation_" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.Relation*"></a>
+
+  <h3 id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_Relation" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.Relation">
+  Relation
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Related resource or resources to the resource.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/relation&quot;)]
+[OslcName(&quot;relation&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;Relation&quot;)]
+public HashSet&lt;Uri&gt; Relation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_ReportsOnTestPlan_" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.ReportsOnTestPlan*"></a>
+
+  <h3 id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_ReportsOnTestPlan" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.ReportsOnTestPlan">
+  ReportsOnTestPlan
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Test Plan that the Test Execution Record reports on. It is likely that the target resource will be an oslc_qm:TestPlan but that is not necessarily the case.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/qm#reportsOnTestPlan&quot;)]
+[OslcName(&quot;reportsOnTestPlan&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/qm#TestPlan&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Reports on Test Plan&quot;)]
+public Uri? ReportsOnTestPlan { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_RunsOnTestEnvironment_" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.RunsOnTestEnvironment*"></a>
+
+  <h3 id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_RunsOnTestEnvironment" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.RunsOnTestEnvironment">
+  RunsOnTestEnvironment
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Indicates the environment details of the test case for this execution record.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/qm#runsOnTestEnvironment&quot;)]
+[OslcName(&quot;runsOnTestEnvironment&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/qm#TestExecutionRecord&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Runs on Test Environment&quot;)]
+public Uri? RunsOnTestEnvironment { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_RunsTestCase_" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.RunsTestCase*"></a>
+
+  <h3 id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_RunsTestCase" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.RunsTestCase">
+  RunsTestCase
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Test Case run by the Test Execution Record. It is likely that the target resource will be an oslc_qm:TestCase but that is not necessarily the case.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/qm#runsTestCase&quot;)]
+[OslcName(&quot;runsTestCase&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/qm#TestCase&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Runs Test Case&quot;)]
+public Uri RunsTestCase { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_ServiceProvider_" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.ServiceProvider*"></a>
+
+  <h3 id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_ServiceProvider" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.ServiceProvider">
+  ServiceProvider
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The scope of a resource is a link to the resource&#39;s OSLC Service Provider.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#serviceProvider&quot;)]
+[OslcName(&quot;serviceProvider&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#ServiceProvider&quot; })]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;Service Provider&quot;)]
+public HashSet&lt;Uri&gt; ServiceProvider { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_ShortId_" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.ShortId*"></a>
+
+  <h3 id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_ShortId" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.ShortId">
+  ShortId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A short identifier for the resource.  Typically the integer shown in the web UI.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#shortId&quot;)]
+[OslcName(&quot;shortId&quot;)]
+[OslcValueType(ValueType.Integer)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;Short id&quot;)]
+public long ShortId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_Title_" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.Title*"></a>
+
+  <h3 id="OSLC4Net_Domains_QualityManagement_TestExecutionRecord_Title" data-uid="OSLC4Net.Domains.QualityManagement.TestExecutionRecord.Title">
+  Title
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Title (reference: Dublin Core) of the resource represented as rich text in XHTML content. SHOULD include only content that is valid inside an XHTML &lt;span&gt; element.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/title&quot;)]
+[OslcName(&quot;title&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;Title&quot;)]
+public string Title { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.QualityManagement/QualityManagementDomain.cs/#L27" class="edit-link">Edit this page</a>
         </div>
 
 
