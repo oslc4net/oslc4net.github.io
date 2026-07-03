@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_Domains_ConfigurationManagement_Activity.md&amp;value=---%0Auid%3A%20OSLC4Net.Domains.ConfigurationManagement.Activity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="OSLC4Net_Domains_ConfigurationManagement_Activity" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity" class="text-break">
-Class Activity  
+Class Activity  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/ConfigurationManagementDomain.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,8 +102,7 @@ Class Activity
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[OslcShape(&quot;http://open-services.net/ns/config/shapes/1.0/#ActivityShape&quot;)]
-[OslcNamespace(&quot;http://open-services.net/ns/config#&quot;)]
-public record Activity : AbstractResourceRecord, IEquatable&lt;AbstractResourceRecord&gt;, IActivity, IExtendedResource, IResource, IEquatable&lt;Activity&gt;</code></pre>
+public record Activity : IEquatable&lt;Activity&gt;</code></pre>
   </div>
 
 
@@ -113,7 +112,6 @@ public record Activity : AbstractResourceRecord, IEquatable&lt;AbstractResourceR
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a></div>
       <div><span class="xref">Activity</span></div>
     </dd>
   </dl>
@@ -121,10 +119,6 @@ public record Activity : AbstractResourceRecord, IEquatable&lt;AbstractResourceR
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a>&gt;</div>
-      <div><a class="xref" href="OSLC4Net.Domains.ConfigurationManagement.IActivity.html">IActivity</a></div>
-      <div><a class="xref" href="OSLC4Net.Core.Model.IExtendedResource.html">IExtendedResource</a></div>
-      <div><a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.ConfigurationManagement.Activity.html">Activity</a>&gt;</div>
     </dd>
   </dl>
@@ -133,36 +127,6 @@ public record Activity : AbstractResourceRecord, IEquatable&lt;AbstractResourceR
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_About">AbstractResourceRecord.About</a>
-    </div>
-    <div>
-      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_Types">AbstractResourceRecord.Types</a>
-    </div>
-    <div>
-      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_ExtendedProperties">AbstractResourceRecord.ExtendedProperties</a>
-    </div>
-    <div>
-      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetAbout">AbstractResourceRecord.GetAbout()</a>
-    </div>
-    <div>
-      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetAbout_System_Uri_">AbstractResourceRecord.SetAbout(Uri)</a>
-    </div>
-    <div>
-      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetTypes">AbstractResourceRecord.GetTypes()</a>
-    </div>
-    <div>
-      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetTypes_System_Collections_Generic_ICollection_System_Uri__">AbstractResourceRecord.SetTypes(ICollection&lt;Uri&gt;)</a>
-    </div>
-    <div>
-      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_AddType_System_Uri_">AbstractResourceRecord.AddType(Uri)</a>
-    </div>
-    <div>
-      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__">AbstractResourceRecord.SetExtendedProperties(IDictionary&lt;QName, object&gt;)</a>
-    </div>
-    <div>
-      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetExtendedProperties">AbstractResourceRecord.GetExtendedProperties()</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -191,462 +155,11 @@ public record Activity : AbstractResourceRecord, IEquatable&lt;AbstractResourceR
 
 
 
-  <h2 class="section" id="constructors">Constructors
-</h2>
-
-
-  <a id="OSLC4Net_Domains_ConfigurationManagement_Activity__ctor_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.#ctor*"></a>
-
-  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Activity__ctor" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.#ctor">
-  Activity()
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Activity()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="OSLC4Net_Domains_ConfigurationManagement_Activity__ctor_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.#ctor*"></a>
-
-  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Activity__ctor_System_Uri_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.#ctor(System.Uri)">
-  Activity(Uri)
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Activity(Uri about)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>about</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
-  <a id="OSLC4Net_Domains_ConfigurationManagement_Activity_Created_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.Created*"></a>
-
-  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Activity_Created" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.Created">
-  Created
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Timestamp of resource creation. {{Each resource SHOULD have one instance of the `dcterms:created` property}}.&quot;)]
-[OslcOccurs(Occurs.ZeroOrOne)]
-[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/created&quot;)]
-[OslcName(&quot;created&quot;)]
-[OslcValueType(ValueType.DateTime)]
-[OslcReadOnly(true)]
-[OslcTitle(&quot;created&quot;)]
-public DateTimeOffset? Created { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="OSLC4Net_Domains_ConfigurationManagement_Activity_Creator_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.Creator*"></a>
-
-  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Activity_Creator" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.Creator">
-  Creator
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Creator or creators of the resource.\nThe link target is usually a `foaf:Person` or `foaf:Agent`, but could be any type.&quot;)]
-[OslcOccurs(Occurs.ZeroOrMany)]
-[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/creator&quot;)]
-[OslcName(&quot;creator&quot;)]
-[OslcValueType(ValueType.AnyResource)]
-[OslcRepresentation(Representation.Either)]
-[OslcRange(new string[] { &quot;http://xmlns.com/foaf/0.1/Agent&quot;, &quot;http://xmlns.com/foaf/0.1/Person&quot; })]
-[OslcReadOnly(true)]
-[OslcTitle(&quot;creator&quot;)]
-public HashSet&lt;Uri&gt; Creator { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="OSLC4Net_Domains_ConfigurationManagement_Activity_Error_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.Error*"></a>
-
-  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Activity_Error" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.Error">
-  Error
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A warning or error issued by the activity.\n{{Instances of this property MAY appear at any time during the execution of the activity, or MAY be returned only after the activity is complete}}.&quot;)]
-[OslcOccurs(Occurs.ZeroOrMany)]
-[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#error&quot;)]
-[OslcName(&quot;error&quot;)]
-[OslcValueType(ValueType.AnyResource)]
-[OslcRepresentation(Representation.Either)]
-[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Error&quot; })]
-[OslcReadOnly(true)]
-[OslcTitle(&quot;error&quot;)]
-public HashSet&lt;Uri&gt; Error { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="OSLC4Net_Domains_ConfigurationManagement_Activity_Modified_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.Modified*"></a>
-
-  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Activity_Modified" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.Modified">
-  Modified
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Timestamp of the last change of status.\nIf this property is missing, the time of creation can be taken to be the same as the last change of status.&quot;)]
-[OslcOccurs(Occurs.ZeroOrOne)]
-[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/modified&quot;)]
-[OslcName(&quot;modified&quot;)]
-[OslcValueType(ValueType.DateTime)]
-[OslcReadOnly(true)]
-[OslcTitle(&quot;modified&quot;)]
-public DateTimeOffset? Modified { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="OSLC4Net_Domains_ConfigurationManagement_Activity_Progress_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.Progress*"></a>
-
-  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Activity_Progress" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.Progress">
-  Progress
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The percentage (0-100) of completion, if known.&quot;)]
-[OslcOccurs(Occurs.ZeroOrOne)]
-[OslcPropertyDefinition(&quot;http://open-services.net/ns/auto#progress&quot;)]
-[OslcName(&quot;progress&quot;)]
-[OslcValueType(ValueType.Integer)]
-[OslcReadOnly(true)]
-[OslcTitle(&quot;progress&quot;)]
-public long? Progress { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="OSLC4Net_Domains_ConfigurationManagement_Activity_ProgressMessage_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.ProgressMessage*"></a>
-
-  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Activity_ProgressMessage" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.ProgressMessage">
-  ProgressMessage
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Descriptive text about the progress of the activity, represented as rich text in XHTML content.&quot;)]
-[OslcOccurs(Occurs.ZeroOrOne)]
-[OslcPropertyDefinition(&quot;http://open-services.net/ns/config#progressMessage&quot;)]
-[OslcName(&quot;progressMessage&quot;)]
-[OslcValueType(ValueType.XMLLiteral)]
-[OslcReadOnly(true)]
-[OslcTitle(&quot;progressMessage&quot;)]
-public string? ProgressMessage { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="OSLC4Net_Domains_ConfigurationManagement_Activity_References_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.References*"></a>
-
-  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Activity_References" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.References">
-  References
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A reference to a resource providing more details about the progress or result of the activity.\nFor successful or partially successful operations, {{the `dcterms:references` property MUST be present, providing a link to the primary resource created or affected by the operation}}.\nFor completely unsuccessful activities, this property may be missing.\n{{For activities still in progress, this MAY be a reference to a resource providing further information; which MAY be provided inline}}.&quot;)]
-[OslcOccurs(Occurs.ZeroOrOne)]
-[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/references&quot;)]
-[OslcName(&quot;references&quot;)]
-[OslcValueType(ValueType.AnyResource)]
-[OslcRepresentation(Representation.Either)]
-[OslcReadOnly(true)]
-[OslcTitle(&quot;references&quot;)]
-public Uri? References { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="OSLC4Net_Domains_ConfigurationManagement_Activity_State_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.State*"></a>
-
-  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Activity_State" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.State">
-  State
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The state of the activity, as defined by OSLC Automation states.&quot;)]
-[OslcOccurs(Occurs.ExactlyOne)]
-[OslcPropertyDefinition(&quot;http://open-services.net/ns/auto#state&quot;)]
-[OslcName(&quot;state&quot;)]
-[OslcValueType(ValueType.Resource)]
-[OslcRepresentation(Representation.Reference)]
-[OslcReadOnly(true)]
-[OslcTitle(&quot;state&quot;)]
-public Uri State { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="OSLC4Net_Domains_ConfigurationManagement_Activity_Title_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.Title*"></a>
-
-  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Activity_Title" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.Title">
-  Title
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A name for the activity, or current phase of the activity.&quot;)]
-[OslcOccurs(Occurs.ExactlyOne)]
-[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/title&quot;)]
-[OslcName(&quot;title&quot;)]
-[OslcValueType(ValueType.XMLLiteral)]
-[OslcReadOnly(true)]
-[OslcTitle(&quot;title&quot;)]
-public string Title { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="OSLC4Net_Domains_ConfigurationManagement_Activity_Verdict_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.Verdict*"></a>
-
-  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Activity_Verdict" data-uid="OSLC4Net.Domains.ConfigurationManagement.Activity.Verdict">
-  Verdict
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The result of the activity, as defined by OSLC Automation verdicts.&quot;)]
-[OslcOccurs(Occurs.ExactlyOne)]
-[OslcPropertyDefinition(&quot;http://open-services.net/ns/auto#verdict&quot;)]
-[OslcName(&quot;verdict&quot;)]
-[OslcValueType(ValueType.Resource)]
-[OslcRepresentation(Representation.Reference)]
-[OslcReadOnly(true)]
-[OslcTitle(&quot;verdict&quot;)]
-public Uri Verdict { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
 
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/ConfigurationManagementDomain.cs/#L18" class="edit-link">Edit this page</a>
         </div>
 
 

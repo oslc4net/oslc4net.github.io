@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/OSLC/oslc4net/new/main/apiSpec/new?filename=OSLC4Net_Domains_Automation_ParameterInstance.md&amp;value=---%0Auid%3A%20OSLC4Net.Domains.Automation.ParameterInstance%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="OSLC4Net_Domains_Automation_ParameterInstance" data-uid="OSLC4Net.Domains.Automation.ParameterInstance" class="text-break">
-Class ParameterInstance  
+Class ParameterInstance  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.Automation/AutomationDomain.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,8 +102,7 @@ Class ParameterInstance
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[OslcShape(&quot;http://open-services.net/ns/auto/shapes/2.1#ParameterInstanceShape&quot;)]
-[OslcNamespace(&quot;http://open-services.net/ns/auto#&quot;)]
-public record ParameterInstance : AbstractResourceRecord, IEquatable&lt;AbstractResourceRecord&gt;, IParameterInstance, IExtendedResource, IResource, IEquatable&lt;ParameterInstance&gt;</code></pre>
+public record ParameterInstance : IEquatable&lt;ParameterInstance&gt;</code></pre>
   </div>
 
 
@@ -113,7 +112,6 @@ public record ParameterInstance : AbstractResourceRecord, IEquatable&lt;Abstract
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a></div>
       <div><span class="xref">ParameterInstance</span></div>
     </dd>
   </dl>
@@ -121,10 +119,6 @@ public record ParameterInstance : AbstractResourceRecord, IEquatable&lt;Abstract
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a>&gt;</div>
-      <div><a class="xref" href="OSLC4Net.Domains.Automation.IParameterInstance.html">IParameterInstance</a></div>
-      <div><a class="xref" href="OSLC4Net.Core.Model.IExtendedResource.html">IExtendedResource</a></div>
-      <div><a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.Automation.ParameterInstance.html">ParameterInstance</a>&gt;</div>
     </dd>
   </dl>
@@ -133,36 +127,6 @@ public record ParameterInstance : AbstractResourceRecord, IEquatable&lt;Abstract
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_About">AbstractResourceRecord.About</a>
-    </div>
-    <div>
-      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_Types">AbstractResourceRecord.Types</a>
-    </div>
-    <div>
-      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_ExtendedProperties">AbstractResourceRecord.ExtendedProperties</a>
-    </div>
-    <div>
-      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetAbout">AbstractResourceRecord.GetAbout()</a>
-    </div>
-    <div>
-      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetAbout_System_Uri_">AbstractResourceRecord.SetAbout(Uri)</a>
-    </div>
-    <div>
-      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetTypes">AbstractResourceRecord.GetTypes()</a>
-    </div>
-    <div>
-      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetTypes_System_Collections_Generic_ICollection_System_Uri__">AbstractResourceRecord.SetTypes(ICollection&lt;Uri&gt;)</a>
-    </div>
-    <div>
-      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_AddType_System_Uri_">AbstractResourceRecord.AddType(Uri)</a>
-    </div>
-    <div>
-      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__">AbstractResourceRecord.SetExtendedProperties(IDictionary&lt;QName, object&gt;)</a>
-    </div>
-    <div>
-      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetExtendedProperties">AbstractResourceRecord.GetExtendedProperties()</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -191,265 +155,11 @@ public record ParameterInstance : AbstractResourceRecord, IEquatable&lt;Abstract
 
 
 
-  <h2 class="section" id="constructors">Constructors
-</h2>
-
-
-  <a id="OSLC4Net_Domains_Automation_ParameterInstance__ctor_" data-uid="OSLC4Net.Domains.Automation.ParameterInstance.#ctor*"></a>
-
-  <h3 id="OSLC4Net_Domains_Automation_ParameterInstance__ctor" data-uid="OSLC4Net.Domains.Automation.ParameterInstance.#ctor">
-  ParameterInstance()
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ParameterInstance()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="OSLC4Net_Domains_Automation_ParameterInstance__ctor_" data-uid="OSLC4Net.Domains.Automation.ParameterInstance.#ctor*"></a>
-
-  <h3 id="OSLC4Net_Domains_Automation_ParameterInstance__ctor_System_Uri_" data-uid="OSLC4Net.Domains.Automation.ParameterInstance.#ctor(System.Uri)">
-  ParameterInstance(Uri)
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ParameterInstance(Uri about)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>about</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
-  <a id="OSLC4Net_Domains_Automation_ParameterInstance_Description_" data-uid="OSLC4Net.Domains.Automation.ParameterInstance.Description*"></a>
-
-  <h3 id="OSLC4Net_Domains_Automation_ParameterInstance_Description" data-uid="OSLC4Net.Domains.Automation.ParameterInstance.Description">
-  Description
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Descriptive text about resource represented as rich text in XHTML content.&quot;)]
-[OslcOccurs(Occurs.ZeroOrOne)]
-[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/description&quot;)]
-[OslcName(&quot;description&quot;)]
-[OslcValueType(ValueType.XMLLiteral)]
-[OslcTitle(&quot;description&quot;)]
-public string? Description { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="OSLC4Net_Domains_Automation_ParameterInstance_InstanceShape_" data-uid="OSLC4Net.Domains.Automation.ParameterInstance.InstanceShape*"></a>
-
-  <h3 id="OSLC4Net_Domains_Automation_ParameterInstance_InstanceShape" data-uid="OSLC4Net.Domains.Automation.ParameterInstance.InstanceShape">
-  InstanceShape
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Resource Shape that provides hints as to resource property value-types and allowed values.&quot;)]
-[OslcOccurs(Occurs.ZeroOrOne)]
-[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#instanceShape&quot;)]
-[OslcName(&quot;instanceShape&quot;)]
-[OslcValueType(ValueType.Resource)]
-[OslcRepresentation(Representation.Reference)]
-[OslcRange(new string[] { &quot;http://open-services.net/ns/core#ResourceShape&quot; })]
-[OslcReadOnly(true)]
-[OslcTitle(&quot;instanceShape&quot;)]
-public Uri? InstanceShape { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="OSLC4Net_Domains_Automation_ParameterInstance_Name_" data-uid="OSLC4Net.Domains.Automation.ParameterInstance.Name*"></a>
-
-  <h3 id="OSLC4Net_Domains_Automation_ParameterInstance_Name" data-uid="OSLC4Net.Domains.Automation.ParameterInstance.Name">
-  Name
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The name of the parameter instance.&quot;)]
-[OslcOccurs(Occurs.ExactlyOne)]
-[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#name&quot;)]
-[OslcName(&quot;name&quot;)]
-[OslcValueType(ValueType.String)]
-[OslcTitle(&quot;name&quot;)]
-public string Name { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="OSLC4Net_Domains_Automation_ParameterInstance_ServiceProvider_" data-uid="OSLC4Net.Domains.Automation.ParameterInstance.ServiceProvider*"></a>
-
-  <h3 id="OSLC4Net_Domains_Automation_ParameterInstance_ServiceProvider" data-uid="OSLC4Net.Domains.Automation.ParameterInstance.ServiceProvider">
-  ServiceProvider
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The scope of a resource is a link to the resource’s OSLC Service Provider.&quot;)]
-[OslcOccurs(Occurs.ZeroOrMany)]
-[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#serviceProvider&quot;)]
-[OslcName(&quot;serviceProvider&quot;)]
-[OslcValueType(ValueType.Resource)]
-[OslcRepresentation(Representation.Reference)]
-[OslcRange(new string[] { &quot;http://open-services.net/ns/core#serviceProvider&quot; })]
-[OslcReadOnly(true)]
-[OslcTitle(&quot;serviceProvider&quot;)]
-public HashSet&lt;Uri&gt; ServiceProvider { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="OSLC4Net_Domains_Automation_ParameterInstance_Value_" data-uid="OSLC4Net.Domains.Automation.ParameterInstance.Value*"></a>
-
-  <h3 id="OSLC4Net_Domains_Automation_ParameterInstance_Value" data-uid="OSLC4Net.Domains.Automation.ParameterInstance.Value">
-  Value
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The value of the parameter. The value may be an RDF literal or a resource. If the value is an RDF literal, then it SHOULD be an RDF typed literal.&quot;)]
-[OslcOccurs(Occurs.ZeroOrOne)]
-[OslcPropertyDefinition(&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#value&quot;)]
-[OslcName(&quot;value&quot;)]
-[OslcTitle(&quot;value&quot;)]
-public string? Value { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
 
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.Automation/AutomationDomain.cs/#L27" class="edit-link">Edit this page</a>
         </div>
 
 
