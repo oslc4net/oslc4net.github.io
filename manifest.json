@@ -3150,7 +3150,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Domains.ArchitectureManagement.AM",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Domains.ArchitectureManagement.AM.yml\" sourcestartlinenumber=\"1\">All vocabulary URIs defined in the OSLC Architecture Management (AM) namespace.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3262,7 +3262,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Domains.Automation.Auto",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Domains.Automation.Auto.yml\" sourcestartlinenumber=\"1\">All vocabulary URIs defined in the OSLC Automation namespace.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3430,7 +3430,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Domains.ChangeManagement.CM",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Domains.ChangeManagement.CM.yml\" sourcestartlinenumber=\"1\">All vocabulary URIs defined in the OSLC Change Management (CM) namespace.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3724,7 +3724,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Domains.ConfigurationManagement.Config",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Domains.ConfigurationManagement.Config.yml\" sourcestartlinenumber=\"1\">The OSLC Configuration Management vocabulary defines terms for versioned resources and configurations of those versioned resources.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5698,7 +5698,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Domains.KerML.KerMLVocabulary",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Domains.KerML.KerMLVocabulary.yml\" sourcestartlinenumber=\"1\">All vocabulary URIs defined in the OSLC KerML namespace.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -6384,7 +6384,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Domains.QualityManagement.QM",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Domains.QualityManagement.QM.yml\" sourcestartlinenumber=\"1\">All vocabulary URIs defined in the OSLC Quality Management (QM) namespace.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -6608,7 +6608,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Domains.RequirementsManagement.RM",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Domains.RequirementsManagement.RM.yml\" sourcestartlinenumber=\"1\">All vocabulary URIs defined in the OSLC Requirements Management (RM) namespace.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -11928,7 +11928,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Domains.SysMLV2.SysMLVocabulary",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Domains.SysMLV2.SysMLVocabulary.yml\" sourcestartlinenumber=\"1\">All vocabulary URIs defined in the OSLC SysML v2 namespace.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -12404,7 +12404,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Domains.TrackedResourceSet.TRS",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Domains.TrackedResourceSet.TRS.yml\" sourcestartlinenumber=\"1\">The OSLC Core Tracked Resource Set vocabulary defines terms used in describing Tracked Resource Sets.</p>\n"
     },
     {
       "type": "ManagedReference",
