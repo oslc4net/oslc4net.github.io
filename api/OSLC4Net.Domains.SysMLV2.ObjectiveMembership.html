@@ -101,8 +101,9 @@ Class ObjectiveMembership  <a class="header-action link-secondary" title="View s
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcShape(&quot;https://www.omg.org/spec/SysML/20250201/shapes/ObjectiveMembershipShape&quot;)]
-public record ObjectiveMembership : IEquatable&lt;ObjectiveMembership&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">[OslcNamespace(&quot;https://www.omg.org/spec/sysml/vocabulary#&quot;)]
+[OslcShape(&quot;https://www.omg.org/spec/SysML/20250201/shapes/ObjectiveMembershipShape&quot;)]
+public record ObjectiveMembership : FeatureMembership, IEquatable&lt;AbstractResourceRecord&gt;, IEquatable&lt;Element&gt;, IEquatable&lt;Relationship&gt;, IEquatable&lt;Membership&gt;, IEquatable&lt;OwningMembership&gt;, IEquatable&lt;FeatureMembership&gt;, IObjectiveMembership, IFeatureMembership, IOwningMembership, IMembership, IRelationship, IElement, IExtendedResource, IResource, IEquatable&lt;ObjectiveMembership&gt;</code></pre>
   </div>
 
 
@@ -112,6 +113,12 @@ public record ObjectiveMembership : IEquatable&lt;ObjectiveMembership&gt;</code>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.Element.html">Element</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.Relationship.html">Relationship</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.Membership.html">Membership</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.OwningMembership.html">OwningMembership</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.FeatureMembership.html">FeatureMembership</a></div>
       <div><span class="xref">ObjectiveMembership</span></div>
     </dd>
   </dl>
@@ -119,6 +126,20 @@ public record ObjectiveMembership : IEquatable&lt;ObjectiveMembership&gt;</code>
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.SysMLV2.Element.html">Element</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.SysMLV2.Relationship.html">Relationship</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.SysMLV2.Membership.html">Membership</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.SysMLV2.OwningMembership.html">OwningMembership</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.SysMLV2.FeatureMembership.html">FeatureMembership</a>&gt;</div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.IObjectiveMembership.html">IObjectiveMembership</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.IFeatureMembership.html">IFeatureMembership</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.IOwningMembership.html">IOwningMembership</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.IMembership.html">IMembership</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.IRelationship.html">IRelationship</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.IElement.html">IElement</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IExtendedResource.html">IExtendedResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.html">ObjectiveMembership</a>&gt;</div>
     </dd>
   </dl>
@@ -127,6 +148,39 @@ public record ObjectiveMembership : IEquatable&lt;ObjectiveMembership&gt;</code>
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="OSLC4Net.Domains.SysMLV2.OwningMembership.html#OSLC4Net_Domains_SysMLV2_OwningMembership_OwningMembership2">OwningMembership.OwningMembership2</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_About">AbstractResourceRecord.About</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_Types">AbstractResourceRecord.Types</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_ExtendedProperties">AbstractResourceRecord.ExtendedProperties</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetAbout">AbstractResourceRecord.GetAbout()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetAbout_System_Uri_">AbstractResourceRecord.SetAbout(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetTypes">AbstractResourceRecord.GetTypes()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetTypes_System_Collections_Generic_ICollection_System_Uri__">AbstractResourceRecord.SetTypes(ICollection&lt;Uri&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_AddType_System_Uri_">AbstractResourceRecord.AddType(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__">AbstractResourceRecord.SetExtendedProperties(IDictionary&lt;QName, object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetExtendedProperties">AbstractResourceRecord.GetExtendedProperties()</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -149,6 +203,2206 @@ public record ObjectiveMembership : IEquatable&lt;ObjectiveMembership&gt;</code>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership__ctor_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership__ctor" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.#ctor">
+  ObjectiveMembership()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObjectiveMembership()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership__ctor_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership__ctor_System_Uri_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.#ctor(System.Uri)">
+  ObjectiveMembership(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObjectiveMembership(Uri about)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>about</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_AliasIds_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.AliasIds*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_AliasIds" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.AliasIds">
+  AliasIds
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Various alternative identifiers for this Element. Generally, these will be set by tools.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#aliasIds&quot;)]
+[OslcName(&quot;aliasIds&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;aliasIds&quot;)]
+public HashSet&lt;string&gt; AliasIds { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Contributor_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Contributor*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Contributor" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Contributor">
+  Contributor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Contributor or contributors to the resource. It is likely that the target resource will be a foaf:Person but that is not necessarily the case.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/contributor&quot;)]
+[OslcName(&quot;contributor&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;contributor&quot;)]
+public HashSet&lt;Uri&gt; Contributor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Created_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Created*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Created" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Created">
+  Created
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Timestamp of resource creation.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/created&quot;)]
+[OslcName(&quot;created&quot;)]
+[OslcValueType(ValueType.DateTime)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;created&quot;)]
+public DateTimeOffset? Created { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Creator_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Creator*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Creator" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Creator">
+  Creator
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Creator or creators of the resource. It is likely that the target resource will be a foaf:Person but that is not necessarily the case.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/creator&quot;)]
+[OslcName(&quot;creator&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;creator&quot;)]
+public HashSet&lt;Uri&gt; Creator { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Dctype_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Dctype*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Dctype" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Dctype">
+  Dctype
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A short string representation for the type, for example ‘Car’.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/type&quot;)]
+[OslcName(&quot;dctype&quot;)]
+[OslcValueType(ValueType.String)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;dctype&quot;)]
+public HashSet&lt;string&gt; Dctype { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_DeclaredName_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.DeclaredName*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_DeclaredName" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.DeclaredName">
+  DeclaredName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The declared name of this &lt;code&gt;Element&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#declaredName&quot;)]
+[OslcName(&quot;declaredName&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;declaredName&quot;)]
+public string? DeclaredName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_DeclaredShortName_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.DeclaredShortName*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_DeclaredShortName" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.DeclaredShortName">
+  DeclaredShortName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;An optional alternative name for the &lt;code&gt;Element&lt;/code&gt; that is intended to be shorter or in some way more succinct than its primary &lt;code&gt;name&lt;/code&gt;. It may act as a modeler-specified identifier for the &lt;code&gt;Element&lt;/code&gt;, though it is then the responsibility of the modeler to maintain the uniqueness of this identifier within a model or relative to some other context.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#declaredShortName&quot;)]
+[OslcName(&quot;declaredShortName&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;declaredShortName&quot;)]
+public string? DeclaredShortName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Derives_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Derives*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Derives" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Derives">
+  Derives
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The resource that derives from another resource originated from or is\nsignificantly influenced by the referenced resource. For example a model element derives from a\nrequirement.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://jazz.net/ns/dm/linktypes#derives&quot;)]
+[OslcName(&quot;derives&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;derives&quot;)]
+public HashSet&lt;Uri&gt; Derives { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Description_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Description*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Description" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Description">
+  Description
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Descriptive text about resource represented as rich text in XHTML content.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/description&quot;)]
+[OslcName(&quot;description&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;description&quot;)]
+public string? Description { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Documentation_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Documentation*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Documentation" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Documentation">
+  Documentation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The Documentation owned by this Element.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#documentation&quot;)]
+[OslcName(&quot;documentation&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Documentation&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;documentation&quot;)]
+public HashSet&lt;Uri&gt; Documentation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Elaborates_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Elaborates*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Elaborates" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Elaborates">
+  Elaborates
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;This resource elaborates the referenced resource.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://jazz.net/ns/dm/linktypes#elaborates&quot;)]
+[OslcName(&quot;elaborates&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;elaborates&quot;)]
+public HashSet&lt;Uri&gt; Elaborates { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_ElementId_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.ElementId*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_ElementId" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.ElementId">
+  ElementId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The globally unique identifier for this Element. This is intended to be set by tooling, and it must not change during the lifetime of the Element.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#elementId&quot;)]
+[OslcName(&quot;elementId&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;elementId&quot;)]
+public string ElementId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_External_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.External*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_External" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.External">
+  External
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A generic link from a resource to an external web page.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://jazz.net/ns/dm/linktypes#external&quot;)]
+[OslcName(&quot;external&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;external&quot;)]
+public HashSet&lt;Uri&gt; External { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Identifier_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Identifier*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Identifier" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Identifier">
+  Identifier
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A unique identifier for a resource. Typically read-only and assigned by the\nservice provider when a resource is created. Not typically intended for end-user display.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/identifier&quot;)]
+[OslcName(&quot;identifier&quot;)]
+[OslcValueType(ValueType.String)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;identifier&quot;)]
+public string Identifier { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_InstanceShape_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.InstanceShape*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_InstanceShape" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.InstanceShape">
+  InstanceShape
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The URI of a Resource Shape that describes the possible properties, occurrence,\nvalue types, allowed values and labels. This shape information is useful in displaying the subject\nresource as well as guiding clients in performing modifications. Instance shapes may be specific\nto the authenticated user associated with the request that retrieved the resource, the current\nstate of the resource and other factors and thus should not be cached.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#instanceShape&quot;)]
+[OslcName(&quot;instanceShape&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#ResourceShape&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;instanceShape&quot;)]
+public Uri? InstanceShape { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_IsImplied_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.IsImplied*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_IsImplied" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.IsImplied">
+  IsImplied
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether this Relationship was generated by tooling to meet semantic rules, rather than being directly created by a modeler.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#isImplied&quot;)]
+[OslcName(&quot;isImplied&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isImplied&quot;)]
+public string IsImplied { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_IsImpliedIncluded_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.IsImpliedIncluded*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_IsImpliedIncluded" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.IsImpliedIncluded">
+  IsImpliedIncluded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether all necessary implied Relationships have been included in the &lt;code&gt;ownedRelationships&lt;/code&gt; of this Element. This property may be true, even if there are not actually any &lt;code&gt;ownedRelationships&lt;/code&gt; with &lt;code&gt;isImplied = true&lt;/code&gt;, meaning that no such Relationships are actually implied for this Element. However, if it is false, then &lt;code&gt;ownedRelationships&lt;/code&gt; may &lt;em&gt;not&lt;/em&gt; contain any implied Relationships. That is, either &lt;em&gt;all&lt;/em&gt; required implied Relationships must be included, or none of them.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#isImpliedIncluded&quot;)]
+[OslcName(&quot;isImpliedIncluded&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isImpliedIncluded&quot;)]
+public string IsImpliedIncluded { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_IsLibraryElement_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.IsLibraryElement*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_IsLibraryElement" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.IsLibraryElement">
+  IsLibraryElement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether this Element is contained in the ownership tree of a library model.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#isLibraryElement&quot;)]
+[OslcName(&quot;isLibraryElement&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isLibraryElement&quot;)]
+public string IsLibraryElement { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_MemberElement_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.MemberElement*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_MemberElement" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.MemberElement">
+  MemberElement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;Element&lt;/code&gt; that becomes a &lt;code&gt;member&lt;/code&gt; of the &lt;code&gt;membershipOwningNamespace&lt;/code&gt; due to this &lt;code&gt;Membership&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#memberElement&quot;)]
+[OslcName(&quot;memberElement&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Element&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;memberElement&quot;)]
+public Uri MemberElement { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_MemberElementId_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.MemberElementId*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_MemberElementId" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.MemberElementId">
+  MemberElementId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;elementId&lt;/code&gt; of the &lt;code&gt;memberElement&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#memberElementId&quot;)]
+[OslcName(&quot;memberElementId&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;memberElementId&quot;)]
+public string MemberElementId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_MemberName_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.MemberName*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_MemberName" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.MemberName">
+  MemberName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The name of the &lt;code&gt;memberElement&lt;/code&gt; relative to the &lt;code&gt;membershipOwningNamespace&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#memberName&quot;)]
+[OslcName(&quot;memberName&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;memberName&quot;)]
+public string? MemberName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_MemberShortName_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.MemberShortName*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_MemberShortName" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.MemberShortName">
+  MemberShortName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L240"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The short name of the &lt;code&gt;memberElement&lt;/code&gt; relative to the &lt;code&gt;membershipOwningNamespace&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#memberShortName&quot;)]
+[OslcName(&quot;memberShortName&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;memberShortName&quot;)]
+public string? MemberShortName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_MembershipOwningNamespace_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.MembershipOwningNamespace*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_MembershipOwningNamespace" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.MembershipOwningNamespace">
+  MembershipOwningNamespace
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L249"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;Namespace&lt;/code&gt; of which the &lt;code&gt;memberElement&lt;/code&gt; becomes a &lt;code&gt;member&lt;/code&gt; due to this &lt;code&gt;Membership&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#membershipOwningNamespace&quot;)]
+[OslcName(&quot;membershipOwningNamespace&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Namespace&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;membershipOwningNamespace&quot;)]
+public Uri MembershipOwningNamespace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Modified_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Modified*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Modified" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Modified">
+  Modified
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L261"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Timestamp of latest resource modification.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/modified&quot;)]
+[OslcName(&quot;modified&quot;)]
+[OslcValueType(ValueType.DateTime)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;modified&quot;)]
+public DateTimeOffset? Modified { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Name_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Name*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Name" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L271"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The name to be used for this &lt;code&gt;Element&lt;/code&gt; during name resolution within its &lt;code&gt;owningNamespace&lt;/code&gt;. This is derived using the &lt;code&gt;effectiveName()&lt;/code&gt; operation. By default, it is the same as the &lt;code&gt;declaredName&lt;/code&gt;, but this is overridden for certain kinds of &lt;code&gt;Elements&lt;/code&gt; to compute a &lt;code&gt;name&lt;/code&gt; even when the &lt;code&gt;declaredName&lt;/code&gt; is null.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#name&quot;)]
+[OslcName(&quot;name&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;name&quot;)]
+public string? Name { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwnedAnnotation_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwnedAnnotation*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwnedAnnotation" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwnedAnnotation">
+  OwnedAnnotation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L280"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedRelationships&lt;/code&gt; of this &lt;code&gt;Element&lt;/code&gt; that are &lt;code&gt;Annotations&lt;/code&gt;, for which this &lt;code&gt;Element&lt;/code&gt; is the &lt;code&gt;annotatedElement&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedAnnotation&quot;)]
+[OslcName(&quot;ownedAnnotation&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Annotation&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedAnnotation&quot;)]
+public HashSet&lt;Uri&gt; OwnedAnnotation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwnedElement_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwnedElement*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwnedElement" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwnedElement">
+  OwnedElement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L292"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The Elements owned by this Element, derived as the &lt;tt&gt;ownedRelatedElements&lt;/tt&gt; of the &lt;tt&gt;ownedRelationships&lt;/tt&gt; of this Element.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedElement&quot;)]
+[OslcName(&quot;ownedElement&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Element&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedElement&quot;)]
+public HashSet&lt;Uri&gt; OwnedElement { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwnedMemberElement_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwnedMemberElement*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwnedMemberElement" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwnedMemberElement">
+  OwnedMemberElement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L304"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;Element&lt;/code&gt; that becomes an &lt;code&gt;ownedMember&lt;/code&gt; of the &lt;code&gt;membershipOwningNamespace&lt;/code&gt; due to this &lt;code&gt;OwningMembership&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedMemberElement&quot;)]
+[OslcName(&quot;ownedMemberElement&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Element&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedMemberElement&quot;)]
+public Uri OwnedMemberElement { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwnedMemberElementId_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwnedMemberElementId*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwnedMemberElementId" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwnedMemberElementId">
+  OwnedMemberElementId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L316"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;elementId&lt;/code&gt; of the &lt;code&gt;ownedMemberElement&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedMemberElementId&quot;)]
+[OslcName(&quot;ownedMemberElementId&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedMemberElementId&quot;)]
+public string OwnedMemberElementId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwnedMemberFeature_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwnedMemberFeature*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwnedMemberFeature" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwnedMemberFeature">
+  OwnedMemberFeature
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L325"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;Feature&lt;/code&gt; that this &lt;code&gt;FeatureMembership&lt;/code&gt; relates to its &lt;code&gt;owningType&lt;/code&gt;, making it an &lt;code&gt;ownedFeature&lt;/code&gt; of the &lt;code&gt;owningType&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedMemberFeature&quot;)]
+[OslcName(&quot;ownedMemberFeature&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedMemberFeature&quot;)]
+public Uri OwnedMemberFeature { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwnedMemberName_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwnedMemberName*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwnedMemberName" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwnedMemberName">
+  OwnedMemberName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L337"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;name&lt;/code&gt; of the &lt;code&gt;ownedMemberElement&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedMemberName&quot;)]
+[OslcName(&quot;ownedMemberName&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedMemberName&quot;)]
+public string? OwnedMemberName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwnedMemberShortName_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwnedMemberShortName*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwnedMemberShortName" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwnedMemberShortName">
+  OwnedMemberShortName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L346"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;shortName&lt;/code&gt; of the &lt;code&gt;ownedMemberElement&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedMemberShortName&quot;)]
+[OslcName(&quot;ownedMemberShortName&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedMemberShortName&quot;)]
+public string? OwnedMemberShortName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwnedObjectiveRequirement_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwnedObjectiveRequirement*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwnedObjectiveRequirement" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwnedObjectiveRequirement">
+  OwnedObjectiveRequirement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L355"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The RequirementUsage that is the &lt;code&gt;ownedMemberFeature&lt;/code&gt; of this RequirementUsage.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedObjectiveRequirement&quot;)]
+[OslcName(&quot;ownedObjectiveRequirement&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#RequirementUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedObjectiveRequirement&quot;)]
+public Uri OwnedObjectiveRequirement { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwnedRelatedElement_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwnedRelatedElement*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwnedRelatedElement" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwnedRelatedElement">
+  OwnedRelatedElement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L367"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;tt&gt;relatedElements&lt;/tt&gt; of this Relationship that are owned by the Relationship.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedRelatedElement&quot;)]
+[OslcName(&quot;ownedRelatedElement&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Element&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedRelatedElement&quot;)]
+public HashSet&lt;Uri&gt; OwnedRelatedElement { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwnedRelationship_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwnedRelationship*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwnedRelationship" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwnedRelationship">
+  OwnedRelationship
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L379"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The Relationships for which this Element is the &lt;tt&gt;owningRelatedElement&lt;/tt&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedRelationship&quot;)]
+[OslcName(&quot;ownedRelationship&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Relationship&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedRelationship&quot;)]
+public HashSet&lt;Uri&gt; OwnedRelationship { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Owner_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Owner*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Owner" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Owner">
+  Owner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L391"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The owner of this Element, derived as the &lt;code&gt;owningRelatedElement&lt;/code&gt; of the &lt;code&gt;owningRelationship&lt;/code&gt; of this Element, if any.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#owner&quot;)]
+[OslcName(&quot;owner&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Element&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;owner&quot;)]
+public Uri? Owner { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwningMembership_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwningMembership*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwningMembership" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwningMembership">
+  OwningMembership
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L403"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;owningRelationship&lt;/code&gt; of this &lt;code&gt;Element&lt;/code&gt;, if that &lt;code&gt;Relationship&lt;/code&gt; is a &lt;code&gt;Membership&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#owningMembership&quot;)]
+[OslcName(&quot;owningMembership&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#OwningMembership&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;owningMembership&quot;)]
+public Uri? OwningMembership { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwningNamespace_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwningNamespace*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwningNamespace" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwningNamespace">
+  OwningNamespace
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L415"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;Namespace&lt;/code&gt; that owns this &lt;code&gt;Element&lt;/code&gt;, which is the &lt;code&gt;membershipOwningNamespace&lt;/code&gt; of the &lt;code&gt;owningMembership&lt;/code&gt; of this &lt;code&gt;Element&lt;/code&gt;, if any.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#owningNamespace&quot;)]
+[OslcName(&quot;owningNamespace&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Namespace&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;owningNamespace&quot;)]
+public Uri? OwningNamespace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwningRelatedElement_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwningRelatedElement*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwningRelatedElement" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwningRelatedElement">
+  OwningRelatedElement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L427"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;tt&gt;relatedElement&lt;/tt&gt; of this Relationship that owns the Relationship, if any.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#owningRelatedElement&quot;)]
+[OslcName(&quot;owningRelatedElement&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Element&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;owningRelatedElement&quot;)]
+public Uri? OwningRelatedElement { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwningRelationship_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwningRelationship*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwningRelationship" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwningRelationship">
+  OwningRelationship
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L439"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The Relationship for which this Element is an &lt;tt&gt;ownedRelatedElement&lt;/tt&gt;, if any.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#owningRelationship&quot;)]
+[OslcName(&quot;owningRelationship&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Relationship&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;owningRelationship&quot;)]
+public Uri? OwningRelationship { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwningType_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwningType*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_OwningType" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.OwningType">
+  OwningType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L451"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;Type&lt;/code&gt; that owns this &lt;code&gt;FeatureMembership&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#owningType&quot;)]
+[OslcName(&quot;owningType&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Type&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;owningType&quot;)]
+public Uri OwningType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_QualifiedName_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.QualifiedName*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_QualifiedName" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.QualifiedName">
+  QualifiedName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L463"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The full ownership-qualified name of this &lt;code&gt;Element&lt;/code&gt;, represented in a form that is valid according to the KerML textual concrete syntax for qualified names (including use of unrestricted name notation and escaped characters, as necessary). The &lt;code&gt;qualifiedName&lt;/code&gt; is null if this &lt;code&gt;Element&lt;/code&gt; has no &lt;code&gt;owningNamespace&lt;/code&gt; or if there is not a complete ownership chain of named &lt;code&gt;Namespaces&lt;/code&gt; from a root &lt;code&gt;Namespace&lt;/code&gt; to this &lt;code&gt;Element&lt;/code&gt;. If the &lt;code&gt;owningNamespace&lt;/code&gt; has other &lt;code&gt;Elements&lt;/code&gt; with the same name as this one, then the &lt;code&gt;qualifiedName&lt;/code&gt; is null for all such &lt;code&gt;Elements&lt;/code&gt; other than the first.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#qualifiedName&quot;)]
+[OslcName(&quot;qualifiedName&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;qualifiedName&quot;)]
+public string? QualifiedName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Refine_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Refine*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Refine" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Refine">
+  Refine
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L472"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The target is a refinement of the source. (e.g. a use case scenario\nmight be a refinement of a textual requirement that describes the interaction).&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://jazz.net/ns/dm/linktypes#refine&quot;)]
+[OslcName(&quot;refine&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;refine&quot;)]
+public HashSet&lt;Uri&gt; Refine { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_RelatedElement_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.RelatedElement*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_RelatedElement" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.RelatedElement">
+  RelatedElement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L484"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The Elements that are related by this Relationship, derived as the union of the &lt;code&gt;source&lt;/code&gt; and &lt;code&gt;target&lt;/code&gt; Elements of the Relationship.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#relatedElement&quot;)]
+[OslcName(&quot;relatedElement&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Element&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;relatedElement&quot;)]
+public HashSet&lt;Uri&gt; RelatedElement { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Satisfy_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Satisfy*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Satisfy" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Satisfy">
+  Satisfy
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L496"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The model element satisfies the requirement (e.g. The use case\nsatisfies a functional requirement).&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://jazz.net/ns/dm/linktypes#satisfy&quot;)]
+[OslcName(&quot;satisfy&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;satisfy&quot;)]
+public HashSet&lt;Uri&gt; Satisfy { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_ServiceProvider_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.ServiceProvider*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_ServiceProvider" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.ServiceProvider">
+  ServiceProvider
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L508"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A link to the resource&#39;s OSLC Service Provider. There may be cases when the\nsubject resource is available from a service provider that implements multiple domain\nspecifications, which could result in multiple values for this property.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#serviceProvider&quot;)]
+[OslcName(&quot;serviceProvider&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#ServiceProvider&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;serviceProvider&quot;)]
+public HashSet&lt;Uri&gt; ServiceProvider { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_ShortName_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.ShortName*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_ShortName" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.ShortName">
+  ShortName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L520"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The short name to be used for this &lt;code&gt;Element&lt;/code&gt; during name resolution within its &lt;code&gt;owningNamespace&lt;/code&gt;. This is derived using the &lt;code&gt;effectiveShortName()&lt;/code&gt; operation. By default, it is the same as the &lt;code&gt;declaredShortName&lt;/code&gt;, but this is overridden for certain kinds of &lt;code&gt;Elements&lt;/code&gt; to compute a &lt;code&gt;shortName&lt;/code&gt; even when the &lt;code&gt;declaredName&lt;/code&gt; is null.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#shortName&quot;)]
+[OslcName(&quot;shortName&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;shortName&quot;)]
+public string? ShortName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_ShortTitle_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.ShortTitle*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_ShortTitle" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.ShortTitle">
+  ShortTitle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L529"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;{{Short name identifying a resource, often used as an abbreviated identifier for presentation to end-users. SHOULD include only content that is valid inside an XHTML &amp;lt;span&amp;gt; element}}.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#shortTitle&quot;)]
+[OslcName(&quot;shortTitle&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;shortTitle&quot;)]
+public string? ShortTitle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Source_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Source*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Source" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Source">
+  Source
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L539"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The resource URI a client can perform a get on to obtain the original non-OSLC AM formatted resource that was used to create this resource. The source resource is usually a binary or proprietary format that the service provider can consume and convert into an OSLC AM format. The service may use content negotiation with the Accept header to obtain the desired content type.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/source&quot;)]
+[OslcName(&quot;source&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;source&quot;)]
+public Uri? Source { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Source2_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Source2*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Source2" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Source2">
+  Source2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L551"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;relatedElements from which this Relationship is considered to be directed.&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#source&quot;)]
+[OslcName(&quot;source&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Element&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;source&quot;)]
+public HashSet&lt;Uri&gt; Source2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Target_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Target*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Target" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Target">
+  Target
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L563"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;relatedElements&lt;/code&gt; to which this Relationship is considered to be directed.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#target&quot;)]
+[OslcName(&quot;target&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Element&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;target&quot;)]
+public HashSet&lt;Uri&gt; Target { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_TextualRepresentation_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.TextualRepresentation*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_TextualRepresentation" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.TextualRepresentation">
+  TextualRepresentation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L575"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;TextualRepresentations&lt;/code&gt; that annotate this &lt;code&gt;Element&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#textualRepresentation&quot;)]
+[OslcName(&quot;textualRepresentation&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#TextualRepresentation&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;textualRepresentation&quot;)]
+public HashSet&lt;Uri&gt; TextualRepresentation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Title_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Title*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Title" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Title">
+  Title
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L587"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Title of the resource represented as rich text in XHTML content.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/title&quot;)]
+[OslcName(&quot;title&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;title&quot;)]
+public string Title { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Trace_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Trace*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Trace" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Trace">
+  Trace
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L597"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The model element has a trace to the requirement (e.g. An attribute\nor its value are traced to a requirement).&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://jazz.net/ns/dm/linktypes#trace&quot;)]
+[OslcName(&quot;trace&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;trace&quot;)]
+public HashSet&lt;Uri&gt; Trace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Visibility_" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Visibility*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_ObjectiveMembership_Visibility" data-uid="OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Visibility">
+  Visibility
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.ObjectiveMembership.Shape.g.cs/#L609"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether or not the &lt;code&gt;Membership&lt;/code&gt; of the &lt;code&gt;memberElement&lt;/code&gt; in the &lt;code&gt;membershipOwningNamespace&lt;/code&gt; is publicly visible outside that &lt;code&gt;Namespace&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#visibility&quot;)]
+[OslcName(&quot;visibility&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;visibility&quot;)]
+public string Visibility { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
 
 
 

@@ -89,7 +89,7 @@
 
 
   <h1 id="OSLC4Net_Domains_ConfigurationManagement_Contribution" data-uid="OSLC4Net.Domains.ConfigurationManagement.Contribution" class="text-break">
-Class Contribution  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/ConfigurationManagementDomain.cs/#L30"><i class="bi bi-code-slash"></i></a>
+Class Contribution  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ConfigurationManagement.Contribution.Shape.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,8 @@ Class Contribution  <a class="header-action link-secondary" title="View source" 
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[OslcShape(&quot;http://open-services.net/ns/config/shapes/1.0/#ContributionShape&quot;)]
-public record Contribution : IEquatable&lt;Contribution&gt;</code></pre>
+[OslcNamespace(&quot;http://open-services.net/ns/config#&quot;)]
+public record Contribution : AbstractResourceRecord, IEquatable&lt;AbstractResourceRecord&gt;, IContribution, IExtendedResource, IResource, IEquatable&lt;Contribution&gt;</code></pre>
   </div>
 
 
@@ -112,6 +113,7 @@ public record Contribution : IEquatable&lt;Contribution&gt;</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a></div>
       <div><span class="xref">Contribution</span></div>
     </dd>
   </dl>
@@ -119,6 +121,10 @@ public record Contribution : IEquatable&lt;Contribution&gt;</code></pre>
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a>&gt;</div>
+      <div><a class="xref" href="OSLC4Net.Domains.ConfigurationManagement.IContribution.html">IContribution</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IExtendedResource.html">IExtendedResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.ConfigurationManagement.Contribution.html">Contribution</a>&gt;</div>
     </dd>
   </dl>
@@ -127,6 +133,36 @@ public record Contribution : IEquatable&lt;Contribution&gt;</code></pre>
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_About">AbstractResourceRecord.About</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_Types">AbstractResourceRecord.Types</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_ExtendedProperties">AbstractResourceRecord.ExtendedProperties</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetAbout">AbstractResourceRecord.GetAbout()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetAbout_System_Uri_">AbstractResourceRecord.SetAbout(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetTypes">AbstractResourceRecord.GetTypes()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetTypes_System_Collections_Generic_ICollection_System_Uri__">AbstractResourceRecord.SetTypes(ICollection&lt;Uri&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_AddType_System_Uri_">AbstractResourceRecord.AddType(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__">AbstractResourceRecord.SetExtendedProperties(IDictionary&lt;QName, object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetExtendedProperties">AbstractResourceRecord.GetExtendedProperties()</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -155,11 +191,229 @@ public record Contribution : IEquatable&lt;Contribution&gt;</code></pre>
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Contribution__ctor_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Contribution.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Contribution__ctor" data-uid="OSLC4Net.Domains.ConfigurationManagement.Contribution.#ctor">
+  Contribution()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ConfigurationManagement.Contribution.Shape.g.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Contribution()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Contribution__ctor_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Contribution.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Contribution__ctor_System_Uri_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Contribution.#ctor(System.Uri)">
+  Contribution(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ConfigurationManagement.Contribution.Shape.g.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Contribution(Uri about)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>about</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Contribution_Configuration_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Contribution.Configuration*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Contribution_Configuration" data-uid="OSLC4Net.Domains.ConfigurationManagement.Contribution.Configuration">
+  Configuration
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ConfigurationManagement.Contribution.Shape.g.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The contributed configuration.\nThis property is read-only for contributions to a baseline, and modifiable for contributions to a stream.\n{{On a PUT or POST of a Stream resource and its Contributions, this contributed configuration SHOULD be unique amongst the set of configurations contributed to a given parent configuration}}.\n{{a server MAY collapse multiple contributions for the same configuration to a single contribution}}.\nDuring such a reduction of multiple Contribution resources to a single Contribution resource, this specification does not define the contributionOrder value in the merged result.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/config#configuration&quot;)]
+[OslcName(&quot;configuration&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/config#Configuration&quot; })]
+[OslcTitle(&quot;configuration&quot;)]
+public Uri Configuration { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Contribution_ContributionOrder_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Contribution.ContributionOrder*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Contribution_ContributionOrder" data-uid="OSLC4Net.Domains.ConfigurationManagement.Contribution.ContributionOrder">
+  ContributionOrder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ConfigurationManagement.Contribution.Shape.g.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;An indication of the order of the contribution, relative to other contributions.\nContributions are sorted lexicographically on the Unicode code points of this value to resolve component skew.\nTo ensure predictable sorting regardless of implementation and locale, {{the `oslc_config:contributionOrder` string SHOULD be restricted to ASCII characters}}.\n{{Servers MUST support at least 64 characters in this string}}.\nThis property is read-only for contributions to a baseline, and modifiable for contributions to a stream.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/config#contributionOrder&quot;)]
+[OslcName(&quot;contributionOrder&quot;)]
+[OslcValueType(ValueType.String)]
+[OslcTitle(&quot;contributionOrder&quot;)]
+public string ContributionOrder { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Contribution_Modified_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Contribution.Modified*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Contribution_Modified" data-uid="OSLC4Net.Domains.ConfigurationManagement.Contribution.Modified">
+  Modified
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ConfigurationManagement.Contribution.Shape.g.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Timestamp of latest resource modification. {{Each resource SHOULD have one instance of the `dcterms:modified` property}}.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/modified&quot;)]
+[OslcName(&quot;modified&quot;)]
+[OslcValueType(ValueType.DateTime)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;modified&quot;)]
+public DateTimeOffset? Modified { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Contribution_Overrides_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Contribution.Overrides*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Contribution_Overrides" data-uid="OSLC4Net.Domains.ConfigurationManagement.Contribution.Overrides">
+  Overrides
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ConfigurationManagement.Contribution.Shape.g.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A reference to a configuration overridden by the configuration of this contribution.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/config#overrides&quot;)]
+[OslcName(&quot;overrides&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/config#Configuration&quot; })]
+[OslcTitle(&quot;overrides&quot;)]
+public Uri Overrides { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/ConfigurationManagementDomain.cs/#L30" class="edit-link">Edit this page</a>
+          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ConfigurationManagement.Contribution.Shape.g.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 

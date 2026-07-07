@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class Preview | OSLC4Net ">
       
-      <meta name="description" content="OSLC Preview attribute">
+      <meta name="description" content="OSLC Preview resource representation">
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="OSLC4Net_Core_Model_Preview" data-uid="OSLC4Net.Core.Model.Preview" class="text-break">
-Class Preview  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L23"><i class="bi bi-code-slash"></i></a>
+Class Preview  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Class Preview  <a class="header-action link-secondary" title="View source" href=
   <dl><dt>Assembly</dt><dd>OSLC4Net.Core.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>OSLC Preview attribute</p>
+  <div class="markdown summary"><p>OSLC Preview resource representation</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -185,6 +185,215 @@ public class Preview : AbstractResource, IExtendedResource, IResource</code></pr
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Core_Model_Preview__ctor_" data-uid="OSLC4Net.Core.Model.Preview.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Preview__ctor" data-uid="OSLC4Net.Core.Model.Preview.#ctor">
+  Preview()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Preview()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Preview__ctor_" data-uid="OSLC4Net.Core.Model.Preview.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Preview__ctor_System_Uri_" data-uid="OSLC4Net.Core.Model.Preview.#ctor(System.Uri)">
+  Preview(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Preview(Uri about)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>about</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="OSLC4Net_Core_Model_Preview_Document_" data-uid="OSLC4Net.Core.Model.Preview.Document*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Preview_Document" data-uid="OSLC4Net.Core.Model.Preview.Document">
+  Document
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The Uri of an HTML document to be used for the preview.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The Uri of an HTML document to be used for the preview&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#document&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Document&quot;)]
+public Uri? Document { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Preview_HintHeight_" data-uid="OSLC4Net.Core.Model.Preview.HintHeight*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Preview_HintHeight" data-uid="OSLC4Net.Core.Model.Preview.HintHeight">
+  HintHeight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Recommended height of the preview. Values MUST be expressed in relative length units as defined in the W3C Cascading Style Sheets Specification (CSS 2.1). Em and ex units are interpreted relative to the default system font (at 100% size).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Recommended height of the preview. Values MUST be expressed in relative length units as defined in the W3C Cascading Style Sheets Specification (CSS 2.1). Em and ex units are interpreted relative to the default system font (at 100% size).&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#hintHeight&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Hint Height&quot;)]
+public string? HintHeight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Preview_HintWidth_" data-uid="OSLC4Net.Core.Model.Preview.HintWidth*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Preview_HintWidth" data-uid="OSLC4Net.Core.Model.Preview.HintWidth">
+  HintWidth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Recommended width of the preview. Values MUST be expressed in relative length units as defined in the W3C Cascading Style Sheets Specification (CSS 2.1). Em and ex units are interpreted relative to the default system font (at 100% size).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Recommended width of the preview. Values MUST be expressed in relative length units as defined in the W3C Cascading Style Sheets Specification (CSS 2.1). Em and ex units are interpreted relative to the default system font (at 100% size).&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#hintWidth&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Hint Width&quot;)]
+public string? HintWidth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Preview_InitialHeight_" data-uid="OSLC4Net.Core.Model.Preview.InitialHeight*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Preview_InitialHeight" data-uid="OSLC4Net.Core.Model.Preview.InitialHeight">
+  InitialHeight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Recommended initial height of the preview. The presence of this property indicates that the preview supports dynamically computing its size. Values MUST be expressed in relative length units as defined in the W3C Cascading Style Sheets Specification (CSS 2.1). Em and ex units are interpreted relative to the default system font (at 100% size).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Recommended initial height of the preview. The presence of this property indicates that the preview supports dynamically computing its size. Values MUST be expressed in relative length units as defined in the W3C Cascading Style Sheets Specification (CSS 2.1). Em and ex units are interpreted relative to the default system font (at 100% size).&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#initialHeight&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Initial Height&quot;)]
+public string? InitialHeight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -193,17 +402,15 @@ public class Preview : AbstractResource, IExtendedResource, IResource</code></pr
 
   <h3 id="OSLC4Net_Core_Model_Preview_GetDocument" data-uid="OSLC4Net.Core.Model.Preview.GetDocument">
   GetDocument()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L104"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The Uri of an HTML document to be used for the preview.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The Uri of an HTML document to be used for the preview&quot;)]
-[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#document&quot;)]
-[OslcReadOnly]
-[OslcTitle(&quot;Document&quot;)]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Document property instead&quot;)]
 public Uri GetDocument()</code></pre>
   </div>
 
@@ -228,17 +435,15 @@ public Uri GetDocument()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Preview_GetHintHeight" data-uid="OSLC4Net.Core.Model.Preview.GetHintHeight">
   GetHintHeight()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L113"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Recommended height of the preview.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Recommended height of the preview. Values MUST be expressed in relative length units as defined in the W3C Cascading Style Sheets Specification (CSS 2.1). Em and ex units are interpreted relative to the default system font (at 100% size).&quot;)]
-[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#hintHeight&quot;)]
-[OslcReadOnly]
-[OslcTitle(&quot;Hint Height&quot;)]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use HintHeight property instead&quot;)]
 public string GetHintHeight()</code></pre>
   </div>
 
@@ -263,17 +468,15 @@ public string GetHintHeight()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Preview_GetHintWidth" data-uid="OSLC4Net.Core.Model.Preview.GetHintWidth">
   GetHintWidth()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L122"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Recommended width of the preview.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Recommended width of the preview. Values MUST be expressed in relative length units as defined in the W3C Cascading Style Sheets Specification (CSS 2.1). Em and ex units are interpreted relative to the default system font (at 100% size).&quot;)]
-[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#hintWidth&quot;)]
-[OslcReadOnly]
-[OslcTitle(&quot;Hint Width&quot;)]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use HintWidth property instead&quot;)]
 public string GetHintWidth()</code></pre>
   </div>
 
@@ -298,17 +501,15 @@ public string GetHintWidth()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Preview_GetInitialHeight" data-uid="OSLC4Net.Core.Model.Preview.GetInitialHeight">
   GetInitialHeight()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L131"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Recommended initial height of the preview.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Recommended initial height of the preview. The presence of this property indicates that the preview supports dynamically computing its size. Values MUST be expressed in relative length units as defined in the W3C Cascading Style Sheets Specification (CSS 2.1). Em and ex units are interpreted relative to the default system font (at 100% size).&quot;)]
-[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#initialHeight&quot;)]
-[OslcReadOnly]
-[OslcTitle(&quot;Initial Height&quot;)]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use InitialHeight property instead&quot;)]
 public string GetInitialHeight()</code></pre>
   </div>
 
@@ -333,14 +534,16 @@ public string GetInitialHeight()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Preview_SetDocument_System_Uri_" data-uid="OSLC4Net.Core.Model.Preview.SetDocument(System.Uri)">
   SetDocument(Uri)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L140"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The Uri of an HTML document to be used for the preview.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetDocument(Uri document)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Document property instead&quot;)]
+public void SetDocument(Uri document)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -364,14 +567,16 @@ public string GetInitialHeight()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Preview_SetHintHeight_System_String_" data-uid="OSLC4Net.Core.Model.Preview.SetHintHeight(System.String)">
   SetHintHeight(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L149"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Recommended height of the preview.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetHintHeight(string hintHeight)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use HintHeight property instead&quot;)]
+public void SetHintHeight(string hintHeight)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -395,14 +600,16 @@ public string GetInitialHeight()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Preview_SetHintWidth_System_String_" data-uid="OSLC4Net.Core.Model.Preview.SetHintWidth(System.String)">
   SetHintWidth(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L158"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Recommended width of the preview.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetHintWidth(string hintWidth)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use HintWidth property instead&quot;)]
+public void SetHintWidth(string hintWidth)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -426,14 +633,16 @@ public string GetInitialHeight()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Preview_SetInitialHeight_System_String_" data-uid="OSLC4Net.Core.Model.Preview.SetInitialHeight(System.String)">
   SetInitialHeight(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L167"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Recommended initial height of the preview.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetInitialHeight(string initialHeight)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use InitialHeight property instead&quot;)]
+public void SetInitialHeight(string initialHeight)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -457,7 +666,7 @@ public string GetInitialHeight()</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L23" class="edit-link">Edit this page</a>
+          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Preview.cs/#L24" class="edit-link">Edit this page</a>
         </div>
 
 

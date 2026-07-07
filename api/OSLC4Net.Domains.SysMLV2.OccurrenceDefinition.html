@@ -101,8 +101,9 @@ Class OccurrenceDefinition  <a class="header-action link-secondary" title="View 
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcShape(&quot;https://www.omg.org/spec/SysML/20250201/shapes/OccurrenceDefinitionShape&quot;)]
-public record OccurrenceDefinition : IEquatable&lt;OccurrenceDefinition&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">[OslcNamespace(&quot;https://www.omg.org/spec/sysml/vocabulary#&quot;)]
+[OslcShape(&quot;https://www.omg.org/spec/SysML/20250201/shapes/OccurrenceDefinitionShape&quot;)]
+public record OccurrenceDefinition : Class, IEquatable&lt;AbstractResourceRecord&gt;, IEquatable&lt;Element&gt;, IEquatable&lt;Namespace&gt;, IEquatable&lt;SType&gt;, IEquatable&lt;Classifier&gt;, IEquatable&lt;Class&gt;, IOccurrenceDefinition, IClass, IDefinition, IClassifier, ISType, INamespace, IElement, IExtendedResource, IResource, IEquatable&lt;OccurrenceDefinition&gt;</code></pre>
   </div>
 
 
@@ -112,6 +113,12 @@ public record OccurrenceDefinition : IEquatable&lt;OccurrenceDefinition&gt;</cod
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.Element.html">Element</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.Namespace.html">Namespace</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.SType.html">SType</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.Classifier.html">Classifier</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.Class.html">Class</a></div>
       <div><span class="xref">OccurrenceDefinition</span></div>
     </dd>
   </dl>
@@ -119,14 +126,67 @@ public record OccurrenceDefinition : IEquatable&lt;OccurrenceDefinition&gt;</cod
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.SysMLV2.Element.html">Element</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.SysMLV2.Namespace.html">Namespace</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.SysMLV2.SType.html">SType</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.SysMLV2.Classifier.html">Classifier</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.SysMLV2.Class.html">Class</a>&gt;</div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.IOccurrenceDefinition.html">IOccurrenceDefinition</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.IClass.html">IClass</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.IDefinition.html">IDefinition</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.IClassifier.html">IClassifier</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.ISType.html">ISType</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.INamespace.html">INamespace</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.IElement.html">IElement</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IExtendedResource.html">IExtendedResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.html">OccurrenceDefinition</a>&gt;</div>
     </dd>
   </dl>
 
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.ConstraintDefinition.html">ConstraintDefinition</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.ItemDefinition.html">ItemDefinition</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.SysMLV2.PortDefinition.html">PortDefinition</a></div>
+    </dd>
+  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_About">AbstractResourceRecord.About</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_Types">AbstractResourceRecord.Types</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_ExtendedProperties">AbstractResourceRecord.ExtendedProperties</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetAbout">AbstractResourceRecord.GetAbout()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetAbout_System_Uri_">AbstractResourceRecord.SetAbout(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetTypes">AbstractResourceRecord.GetTypes()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetTypes_System_Collections_Generic_ICollection_System_Uri__">AbstractResourceRecord.SetTypes(ICollection&lt;Uri&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_AddType_System_Uri_">AbstractResourceRecord.AddType(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__">AbstractResourceRecord.SetExtendedProperties(IDictionary&lt;QName, object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetExtendedProperties">AbstractResourceRecord.GetExtendedProperties()</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -149,6 +209,4015 @@ public record OccurrenceDefinition : IEquatable&lt;OccurrenceDefinition&gt;</cod
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition__ctor_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition__ctor" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.#ctor">
+  OccurrenceDefinition()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OccurrenceDefinition()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition__ctor_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition__ctor_System_Uri_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.#ctor(System.Uri)">
+  OccurrenceDefinition(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OccurrenceDefinition(Uri about)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>about</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_AliasIds_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.AliasIds*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_AliasIds" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.AliasIds">
+  AliasIds
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Various alternative identifiers for this Element. Generally, these will be set by tools.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#aliasIds&quot;)]
+[OslcName(&quot;aliasIds&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;aliasIds&quot;)]
+public HashSet&lt;string&gt; AliasIds { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Contributor_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Contributor*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Contributor" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Contributor">
+  Contributor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Contributor or contributors to the resource. It is likely that the target resource will be a foaf:Person but that is not necessarily the case.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/contributor&quot;)]
+[OslcName(&quot;contributor&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;contributor&quot;)]
+public HashSet&lt;Uri&gt; Contributor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Created_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Created*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Created" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Created">
+  Created
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Timestamp of resource creation.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/created&quot;)]
+[OslcName(&quot;created&quot;)]
+[OslcValueType(ValueType.DateTime)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;created&quot;)]
+public DateTimeOffset? Created { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Creator_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Creator*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Creator" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Creator">
+  Creator
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Creator or creators of the resource. It is likely that the target resource will be a foaf:Person but that is not necessarily the case.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/creator&quot;)]
+[OslcName(&quot;creator&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;creator&quot;)]
+public HashSet&lt;Uri&gt; Creator { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Dctype_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Dctype*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Dctype" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Dctype">
+  Dctype
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A short string representation for the type, for example ‘Car’.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/type&quot;)]
+[OslcName(&quot;dctype&quot;)]
+[OslcValueType(ValueType.String)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;dctype&quot;)]
+public HashSet&lt;string&gt; Dctype { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_DeclaredName_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.DeclaredName*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_DeclaredName" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.DeclaredName">
+  DeclaredName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The declared name of this &lt;code&gt;Element&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#declaredName&quot;)]
+[OslcName(&quot;declaredName&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;declaredName&quot;)]
+public string? DeclaredName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_DeclaredShortName_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.DeclaredShortName*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_DeclaredShortName" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.DeclaredShortName">
+  DeclaredShortName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;An optional alternative name for the &lt;code&gt;Element&lt;/code&gt; that is intended to be shorter or in some way more succinct than its primary &lt;code&gt;name&lt;/code&gt;. It may act as a modeler-specified identifier for the &lt;code&gt;Element&lt;/code&gt;, though it is then the responsibility of the modeler to maintain the uniqueness of this identifier within a model or relative to some other context.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#declaredShortName&quot;)]
+[OslcName(&quot;declaredShortName&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;declaredShortName&quot;)]
+public string? DeclaredShortName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Derives_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Derives*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Derives" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Derives">
+  Derives
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The resource that derives from another resource originated from or is\nsignificantly influenced by the referenced resource. For example a model element derives from a\nrequirement.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://jazz.net/ns/dm/linktypes#derives&quot;)]
+[OslcName(&quot;derives&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;derives&quot;)]
+public HashSet&lt;Uri&gt; Derives { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Description_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Description*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Description" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Description">
+  Description
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Descriptive text about resource represented as rich text in XHTML content.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/description&quot;)]
+[OslcName(&quot;description&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;description&quot;)]
+public string? Description { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_DifferencingType_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.DifferencingType*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_DifferencingType" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.DifferencingType">
+  DifferencingType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The interpretations of a &lt;code&gt;Type&lt;/code&gt; with &lt;code&gt;differencingTypes&lt;/code&gt; are asserted to be those of the first of those &lt;code&gt;Types&lt;/code&gt;, but not including those of the remaining &lt;code&gt;Types&lt;/code&gt;. For example, a &lt;code&gt;Classifier&lt;/code&gt; might be the difference of a &lt;code&gt;Classifier&lt;/code&gt; for people and another for people of a particular nationality, leaving people who are not of that nationality. Similarly, a feature of people might be the difference between a feature for their children and a &lt;code&gt;Classifier&lt;/code&gt; for people of a particular sex, identifying their children not of that sex (because the interpretations of the children &lt;code&gt;Feature&lt;/code&gt; that identify those of that sex are also interpretations of the &lt;code&gt;Classifier&lt;/code&gt; for that sex).&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#differencingType&quot;)]
+[OslcName(&quot;differencingType&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Type&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;differencingType&quot;)]
+public HashSet&lt;Uri&gt; DifferencingType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_DirectedFeature_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.DirectedFeature*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_DirectedFeature" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.DirectedFeature">
+  DirectedFeature
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;features&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; that have a non-null &lt;code&gt;direction&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#directedFeature&quot;)]
+[OslcName(&quot;directedFeature&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;directedFeature&quot;)]
+public HashSet&lt;Uri&gt; DirectedFeature { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_DirectedUsage_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.DirectedUsage*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_DirectedUsage" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.DirectedUsage">
+  DirectedUsage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;usages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt; that are &lt;code&gt;directedFeatures&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#directedUsage&quot;)]
+[OslcName(&quot;directedUsage&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Usage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;directedUsage&quot;)]
+public HashSet&lt;Uri&gt; DirectedUsage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Documentation_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Documentation*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Documentation" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Documentation">
+  Documentation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The Documentation owned by this Element.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#documentation&quot;)]
+[OslcName(&quot;documentation&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Documentation&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;documentation&quot;)]
+public HashSet&lt;Uri&gt; Documentation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Elaborates_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Elaborates*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Elaborates" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Elaborates">
+  Elaborates
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;This resource elaborates the referenced resource.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://jazz.net/ns/dm/linktypes#elaborates&quot;)]
+[OslcName(&quot;elaborates&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;elaborates&quot;)]
+public HashSet&lt;Uri&gt; Elaborates { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_ElementId_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.ElementId*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_ElementId" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.ElementId">
+  ElementId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The globally unique identifier for this Element. This is intended to be set by tooling, and it must not change during the lifetime of the Element.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#elementId&quot;)]
+[OslcName(&quot;elementId&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;elementId&quot;)]
+public string ElementId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_EndFeature_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.EndFeature*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_EndFeature" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.EndFeature">
+  EndFeature
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;All &lt;code&gt;features&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; with &lt;code&gt;isEnd = true&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#endFeature&quot;)]
+[OslcName(&quot;endFeature&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;endFeature&quot;)]
+public HashSet&lt;Uri&gt; EndFeature { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_External_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.External*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_External" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.External">
+  External
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A generic link from a resource to an external web page.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://jazz.net/ns/dm/linktypes#external&quot;)]
+[OslcName(&quot;external&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;external&quot;)]
+public HashSet&lt;Uri&gt; External { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Feature_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Feature*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Feature" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Feature">
+  Feature
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L209"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedMemberFeatures&lt;/code&gt; of the &lt;code&gt;featureMemberships&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#feature&quot;)]
+[OslcName(&quot;feature&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;feature&quot;)]
+public HashSet&lt;Uri&gt; Feature { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_FeatureMembership_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.FeatureMembership*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_FeatureMembership" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.FeatureMembership">
+  FeatureMembership
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;FeatureMemberships&lt;/code&gt; for &lt;code&gt;features&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt;, which include all &lt;code&gt;ownedFeatureMemberships&lt;/code&gt; and those &lt;code&gt;inheritedMemberships&lt;/code&gt; that are &lt;code&gt;FeatureMemberships&lt;/code&gt; (but does &lt;em&gt;not&lt;/em&gt; include any &lt;code&gt;importedMemberships&lt;/code&gt;).&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#featureMembership&quot;)]
+[OslcName(&quot;featureMembership&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#FeatureMembership&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;featureMembership&quot;)]
+public HashSet&lt;Uri&gt; FeatureMembership { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Identifier_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Identifier*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Identifier" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Identifier">
+  Identifier
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L233"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A unique identifier for a resource. Typically read-only and assigned by the\nservice provider when a resource is created. Not typically intended for end-user display.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/identifier&quot;)]
+[OslcName(&quot;identifier&quot;)]
+[OslcValueType(ValueType.String)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;identifier&quot;)]
+public string Identifier { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_ImportedMembership_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.ImportedMembership*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_ImportedMembership" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.ImportedMembership">
+  ImportedMembership
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L243"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;Memberships&lt;/code&gt; in this &lt;code&gt;Namespace&lt;/code&gt; that result from the &lt;code&gt;ownedImports&lt;/code&gt; of this &lt;code&gt;Namespace&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#importedMembership&quot;)]
+[OslcName(&quot;importedMembership&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Membership&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;importedMembership&quot;)]
+public HashSet&lt;Uri&gt; ImportedMembership { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_InheritedFeature_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.InheritedFeature*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_InheritedFeature" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.InheritedFeature">
+  InheritedFeature
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;All the &lt;code&gt;memberFeatures&lt;/code&gt; of the &lt;code&gt;inheritedMemberships&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; that are &lt;code&gt;FeatureMemberships&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#inheritedFeature&quot;)]
+[OslcName(&quot;inheritedFeature&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;inheritedFeature&quot;)]
+public HashSet&lt;Uri&gt; InheritedFeature { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_InheritedMembership_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.InheritedMembership*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_InheritedMembership" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.InheritedMembership">
+  InheritedMembership
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L267"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;All &lt;code&gt;Memberships&lt;/code&gt; inherited by this &lt;code&gt;Type&lt;/code&gt; via &lt;code&gt;Specialization&lt;/code&gt; or &lt;code&gt;Conjugation&lt;/code&gt;. These are included in the derived union for the &lt;code&gt;memberships&lt;/code&gt; of the &lt;code&gt;Type&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#inheritedMembership&quot;)]
+[OslcName(&quot;inheritedMembership&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Membership&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;inheritedMembership&quot;)]
+public HashSet&lt;Uri&gt; InheritedMembership { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Input_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Input*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Input" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Input">
+  Input
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L279"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;All &lt;code&gt;features&lt;/code&gt; related to this &lt;code&gt;Type&lt;/code&gt; by &lt;code&gt;FeatureMemberships&lt;/code&gt; that have &lt;code&gt;direction&lt;/code&gt; &lt;code&gt;in&lt;/code&gt; or &lt;code&gt;inout&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#input&quot;)]
+[OslcName(&quot;input&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;input&quot;)]
+public HashSet&lt;Uri&gt; Input { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_InstanceShape_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.InstanceShape*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_InstanceShape" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.InstanceShape">
+  InstanceShape
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L291"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The URI of a Resource Shape that describes the possible properties, occurrence,\nvalue types, allowed values and labels. This shape information is useful in displaying the subject\nresource as well as guiding clients in performing modifications. Instance shapes may be specific\nto the authenticated user associated with the request that retrieved the resource, the current\nstate of the resource and other factors and thus should not be cached.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#instanceShape&quot;)]
+[OslcName(&quot;instanceShape&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#ResourceShape&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;instanceShape&quot;)]
+public Uri? InstanceShape { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_IntersectingType_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.IntersectingType*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_IntersectingType" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.IntersectingType">
+  IntersectingType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L303"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The interpretations of a &lt;code&gt;Type&lt;/code&gt; with &lt;code&gt;intersectingTypes&lt;/code&gt; are asserted to be those in common among the &lt;code&gt;intersectingTypes&lt;/code&gt;, which are the &lt;code&gt;Types&lt;/code&gt; derived from the &lt;code&gt;intersectingType&lt;/code&gt; of the &lt;code&gt;ownedIntersectings&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt;. For example, a &lt;code&gt;Classifier&lt;/code&gt; might be an intersection of &lt;code&gt;Classifiers&lt;/code&gt; for people of a particular sex and of a particular nationality. Similarly, a feature for people&#39;s children of a particular sex might be the intersection of a &lt;code&gt;Feature&lt;/code&gt; for their children and a &lt;code&gt;Classifier&lt;/code&gt; for people of that sex (because the interpretations of the children &lt;code&gt;Feature&lt;/code&gt; that identify those of that sex are also interpretations of the Classifier for that sex).&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#intersectingType&quot;)]
+[OslcName(&quot;intersectingType&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Type&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;intersectingType&quot;)]
+public HashSet&lt;Uri&gt; IntersectingType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_IsAbstract_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.IsAbstract*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_IsAbstract" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.IsAbstract">
+  IsAbstract
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L315"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Indicates whether instances of this &lt;code&gt;Type&lt;/code&gt; must also be instances of at least one of its specialized &lt;code&gt;Types&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#isAbstract&quot;)]
+[OslcName(&quot;isAbstract&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isAbstract&quot;)]
+public string IsAbstract { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_IsConjugated_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.IsConjugated*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_IsConjugated" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.IsConjugated">
+  IsConjugated
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L324"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Indicates whether this &lt;code&gt;Type&lt;/code&gt; has an &lt;code&gt;ownedConjugator&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#isConjugated&quot;)]
+[OslcName(&quot;isConjugated&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isConjugated&quot;)]
+public string IsConjugated { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_IsImpliedIncluded_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.IsImpliedIncluded*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_IsImpliedIncluded" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.IsImpliedIncluded">
+  IsImpliedIncluded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L333"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether all necessary implied Relationships have been included in the &lt;code&gt;ownedRelationships&lt;/code&gt; of this Element. This property may be true, even if there are not actually any &lt;code&gt;ownedRelationships&lt;/code&gt; with &lt;code&gt;isImplied = true&lt;/code&gt;, meaning that no such Relationships are actually implied for this Element. However, if it is false, then &lt;code&gt;ownedRelationships&lt;/code&gt; may &lt;em&gt;not&lt;/em&gt; contain any implied Relationships. That is, either &lt;em&gt;all&lt;/em&gt; required implied Relationships must be included, or none of them.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#isImpliedIncluded&quot;)]
+[OslcName(&quot;isImpliedIncluded&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isImpliedIncluded&quot;)]
+public string IsImpliedIncluded { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_IsIndividual_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.IsIndividual*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_IsIndividual" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.IsIndividual">
+  IsIndividual
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L342"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether this &lt;code&gt;OccurrenceDefinition&lt;/code&gt; is constrained to represent at most one thing.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#isIndividual&quot;)]
+[OslcName(&quot;isIndividual&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isIndividual&quot;)]
+public string IsIndividual { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_IsLibraryElement_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.IsLibraryElement*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_IsLibraryElement" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.IsLibraryElement">
+  IsLibraryElement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L351"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether this Element is contained in the ownership tree of a library model.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#isLibraryElement&quot;)]
+[OslcName(&quot;isLibraryElement&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isLibraryElement&quot;)]
+public string IsLibraryElement { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_IsSufficient_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.IsSufficient*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_IsSufficient" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.IsSufficient">
+  IsSufficient
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L360"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether all things that meet the classification conditions of this &lt;code&gt;Type&lt;/code&gt; must be classified by the &lt;code&gt;Type&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#isSufficient&quot;)]
+[OslcName(&quot;isSufficient&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isSufficient&quot;)]
+public string IsSufficient { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_IsVariation_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.IsVariation*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_IsVariation" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.IsVariation">
+  IsVariation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L369"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether this &lt;code&gt;Definition&lt;/code&gt; is for a variation point or not. If true, then all the &lt;code&gt;memberships&lt;/code&gt; of the &lt;code&gt;Definition&lt;/code&gt; must be &lt;code&gt;VariantMemberships&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#isVariation&quot;)]
+[OslcName(&quot;isVariation&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isVariation&quot;)]
+public string IsVariation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Member_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Member*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Member" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Member">
+  Member
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L378"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The set of all member &lt;code&gt;Elements&lt;/code&gt; of this &lt;code&gt;Namespace&lt;/code&gt;, which are the &lt;code&gt;memberElements&lt;/code&gt; of all &lt;code&gt;memberships&lt;/code&gt; of the &lt;code&gt;Namespace&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#member&quot;)]
+[OslcName(&quot;member&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Element&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;member&quot;)]
+public HashSet&lt;Uri&gt; Member { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Membership_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Membership*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Membership" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Membership">
+  Membership
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L390"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;All &lt;code&gt;Memberships&lt;/code&gt; in this &lt;code&gt;Namespace&lt;/code&gt;, including (at least) the union of &lt;code&gt;ownedMemberships&lt;/code&gt; and &lt;code&gt;importedMemberships&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#membership&quot;)]
+[OslcName(&quot;membership&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Membership&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;membership&quot;)]
+public HashSet&lt;Uri&gt; Membership { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Modified_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Modified*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Modified" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Modified">
+  Modified
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L402"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Timestamp of latest resource modification.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/modified&quot;)]
+[OslcName(&quot;modified&quot;)]
+[OslcValueType(ValueType.DateTime)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;modified&quot;)]
+public DateTimeOffset? Modified { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Multiplicity_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Multiplicity*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Multiplicity" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Multiplicity">
+  Multiplicity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L412"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;An &lt;code&gt;ownedMember&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; that is a &lt;code&gt;Multiplicity&lt;/code&gt;, which constraints the cardinality of the &lt;code&gt;Type&lt;/code&gt;. If there is no such &lt;code&gt;ownedMember&lt;/code&gt;, then the cardinality of this &lt;code&gt;Type&lt;/code&gt; is constrained by all the &lt;code&gt;Multiplicity&lt;/code&gt; constraints applicable to any direct supertypes.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#multiplicity&quot;)]
+[OslcName(&quot;multiplicity&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Multiplicity&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;multiplicity&quot;)]
+public Uri? Multiplicity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Name_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Name*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Name" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L424"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The name to be used for this &lt;code&gt;Element&lt;/code&gt; during name resolution within its &lt;code&gt;owningNamespace&lt;/code&gt;. This is derived using the &lt;code&gt;effectiveName()&lt;/code&gt; operation. By default, it is the same as the &lt;code&gt;declaredName&lt;/code&gt;, but this is overridden for certain kinds of &lt;code&gt;Elements&lt;/code&gt; to compute a &lt;code&gt;name&lt;/code&gt; even when the &lt;code&gt;declaredName&lt;/code&gt; is null.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#name&quot;)]
+[OslcName(&quot;name&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;name&quot;)]
+public string? Name { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Output_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Output*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Output" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Output">
+  Output
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L433"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;All &lt;code&gt;features&lt;/code&gt; related to this &lt;code&gt;Type&lt;/code&gt; by &lt;code&gt;FeatureMemberships&lt;/code&gt; that have &lt;code&gt;direction&lt;/code&gt; &lt;code&gt;out&lt;/code&gt; or &lt;code&gt;inout&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#output&quot;)]
+[OslcName(&quot;output&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;output&quot;)]
+public HashSet&lt;Uri&gt; Output { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedAction_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedAction*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedAction" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedAction">
+  OwnedAction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L445"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ActionUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedAction&quot;)]
+[OslcName(&quot;ownedAction&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#ActionUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedAction&quot;)]
+public HashSet&lt;Uri&gt; OwnedAction { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedAllocation_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedAllocation*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedAllocation" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedAllocation">
+  OwnedAllocation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L457"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;AllocationUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedAllocation&quot;)]
+[OslcName(&quot;ownedAllocation&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#AllocationUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedAllocation&quot;)]
+public HashSet&lt;Uri&gt; OwnedAllocation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedAnalysisCase_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedAnalysisCase*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedAnalysisCase" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedAnalysisCase">
+  OwnedAnalysisCase
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L469"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;AnalysisCaseUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedAnalysisCase&quot;)]
+[OslcName(&quot;ownedAnalysisCase&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#AnalysisCaseUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedAnalysisCase&quot;)]
+public HashSet&lt;Uri&gt; OwnedAnalysisCase { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedAnnotation_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedAnnotation*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedAnnotation" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedAnnotation">
+  OwnedAnnotation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L481"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedRelationships&lt;/code&gt; of this &lt;code&gt;Element&lt;/code&gt; that are &lt;code&gt;Annotations&lt;/code&gt;, for which this &lt;code&gt;Element&lt;/code&gt; is the &lt;code&gt;annotatedElement&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedAnnotation&quot;)]
+[OslcName(&quot;ownedAnnotation&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Annotation&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedAnnotation&quot;)]
+public HashSet&lt;Uri&gt; OwnedAnnotation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedAttribute_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedAttribute*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedAttribute" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedAttribute">
+  OwnedAttribute
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L493"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;AttributeUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedAttribute&quot;)]
+[OslcName(&quot;ownedAttribute&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#AttributeUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedAttribute&quot;)]
+public HashSet&lt;Uri&gt; OwnedAttribute { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedCalculation_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedCalculation*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedCalculation" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedCalculation">
+  OwnedCalculation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L505"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;CalculationUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedCalculation&quot;)]
+[OslcName(&quot;ownedCalculation&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#CalculationUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedCalculation&quot;)]
+public HashSet&lt;Uri&gt; OwnedCalculation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedCase_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedCase*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedCase" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedCase">
+  OwnedCase
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L517"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The code&amp;gt;CaseUsages that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedCase&quot;)]
+[OslcName(&quot;ownedCase&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#CaseUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedCase&quot;)]
+public HashSet&lt;Uri&gt; OwnedCase { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedConcern_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedConcern*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedConcern" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedConcern">
+  OwnedConcern
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L529"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ConcernUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedConcern&quot;)]
+[OslcName(&quot;ownedConcern&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#ConcernUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedConcern&quot;)]
+public HashSet&lt;Uri&gt; OwnedConcern { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedConjugator_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedConjugator*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedConjugator" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedConjugator">
+  OwnedConjugator
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L541"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A &lt;code&gt;Conjugation&lt;/code&gt; owned by this &lt;code&gt;Type&lt;/code&gt; for which the &lt;code&gt;Type&lt;/code&gt; is the &lt;code&gt;originalType&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedConjugator&quot;)]
+[OslcName(&quot;ownedConjugator&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Conjugation&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedConjugator&quot;)]
+public Uri? OwnedConjugator { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedConnection_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedConnection*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedConnection" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedConnection">
+  OwnedConnection
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L553"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ConnectorAsUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;. Note that this list includes &lt;code&gt;BindingConnectorAsUsages&lt;/code&gt;, &lt;code&gt;SuccessionAsUsages&lt;/code&gt;, and &lt;code&gt;FlowUsages&lt;/code&gt; because these are &lt;code&gt;ConnectorAsUsages&lt;/code&gt; even though they are not &lt;code&gt;ConnectionUsages&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedConnection&quot;)]
+[OslcName(&quot;ownedConnection&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#ConnectorAsUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedConnection&quot;)]
+public HashSet&lt;Uri&gt; OwnedConnection { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedConstraint_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedConstraint*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedConstraint" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedConstraint">
+  OwnedConstraint
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L565"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ConstraintUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedConstraint&quot;)]
+[OslcName(&quot;ownedConstraint&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#ConstraintUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedConstraint&quot;)]
+public HashSet&lt;Uri&gt; OwnedConstraint { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedDifferencing_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedDifferencing*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedDifferencing" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedDifferencing">
+  OwnedDifferencing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L577"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedRelationships&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; that are &lt;code&gt;Differencings&lt;/code&gt;, having this &lt;code&gt;Type&lt;/code&gt; as their &lt;code&gt;typeDifferenced&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedDifferencing&quot;)]
+[OslcName(&quot;ownedDifferencing&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Differencing&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedDifferencing&quot;)]
+public HashSet&lt;Uri&gt; OwnedDifferencing { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedDisjoining_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedDisjoining*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedDisjoining" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedDisjoining">
+  OwnedDisjoining
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L589"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedRelationships&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; that are &lt;code&gt;Disjoinings&lt;/code&gt;, for which the &lt;code&gt;Type&lt;/code&gt; is the &lt;code&gt;typeDisjoined&lt;/code&gt; &lt;code&gt;Type&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedDisjoining&quot;)]
+[OslcName(&quot;ownedDisjoining&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Disjoining&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedDisjoining&quot;)]
+public HashSet&lt;Uri&gt; OwnedDisjoining { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedElement_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedElement*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedElement" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedElement">
+  OwnedElement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L601"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The Elements owned by this Element, derived as the &lt;tt&gt;ownedRelatedElements&lt;/tt&gt; of the &lt;tt&gt;ownedRelationships&lt;/tt&gt; of this Element.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedElement&quot;)]
+[OslcName(&quot;ownedElement&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Element&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedElement&quot;)]
+public HashSet&lt;Uri&gt; OwnedElement { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedEndFeature_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedEndFeature*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedEndFeature" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedEndFeature">
+  OwnedEndFeature
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L613"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;All &lt;code&gt;endFeatures&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; that are &lt;code&gt;ownedFeatures&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedEndFeature&quot;)]
+[OslcName(&quot;ownedEndFeature&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedEndFeature&quot;)]
+public HashSet&lt;Uri&gt; OwnedEndFeature { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedEnumeration_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedEnumeration*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedEnumeration" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedEnumeration">
+  OwnedEnumeration
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L625"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;EnumerationUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedEnumeration&quot;)]
+[OslcName(&quot;ownedEnumeration&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#EnumerationUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedEnumeration&quot;)]
+public HashSet&lt;Uri&gt; OwnedEnumeration { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedFeature_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedFeature*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedFeature" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedFeature">
+  OwnedFeature
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L637"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedMemberFeatures&lt;/code&gt; of the &lt;code&gt;ownedFeatureMemberships&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedFeature&quot;)]
+[OslcName(&quot;ownedFeature&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedFeature&quot;)]
+public HashSet&lt;Uri&gt; OwnedFeature { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedFeatureMembership_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedFeatureMembership*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedFeatureMembership" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedFeatureMembership">
+  OwnedFeatureMembership
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L649"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedMemberships&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; that are &lt;code&gt;FeatureMemberships&lt;/code&gt;, for which the &lt;code&gt;Type&lt;/code&gt; is the &lt;code&gt;owningType&lt;/code&gt;. Each such &lt;code&gt;FeatureMembership&lt;/code&gt; identifies an &lt;code&gt;ownedFeature&lt;/code&gt; of the &lt;code&gt;Type&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedFeatureMembership&quot;)]
+[OslcName(&quot;ownedFeatureMembership&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#FeatureMembership&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedFeatureMembership&quot;)]
+public HashSet&lt;Uri&gt; OwnedFeatureMembership { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedFlow_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedFlow*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedFlow" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedFlow">
+  OwnedFlow
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L661"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;FlowUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedFlow&quot;)]
+[OslcName(&quot;ownedFlow&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#FlowUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedFlow&quot;)]
+public HashSet&lt;Uri&gt; OwnedFlow { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedImport_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedImport*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedImport" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedImport">
+  OwnedImport
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L673"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedRelationships&lt;/code&gt; of this &lt;code&gt;Namespace&lt;/code&gt; that are &lt;code&gt;Imports&lt;/code&gt;, for which the &lt;code&gt;Namespace&lt;/code&gt; is the &lt;code&gt;importOwningNamespace&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedImport&quot;)]
+[OslcName(&quot;ownedImport&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Import&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedImport&quot;)]
+public HashSet&lt;Uri&gt; OwnedImport { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedInterface_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedInterface*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedInterface" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedInterface">
+  OwnedInterface
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L685"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;InterfaceUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedInterface&quot;)]
+[OslcName(&quot;ownedInterface&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#InterfaceUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedInterface&quot;)]
+public HashSet&lt;Uri&gt; OwnedInterface { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedIntersecting_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedIntersecting*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedIntersecting" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedIntersecting">
+  OwnedIntersecting
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L697"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedRelationships&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; that are &lt;code&gt;Intersectings&lt;/code&gt;, have the &lt;code&gt;Type&lt;/code&gt; as their &lt;code&gt;typeIntersected&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedIntersecting&quot;)]
+[OslcName(&quot;ownedIntersecting&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Intersecting&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedIntersecting&quot;)]
+public HashSet&lt;Uri&gt; OwnedIntersecting { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedItem_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedItem*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedItem" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedItem">
+  OwnedItem
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L709"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ItemUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedItem&quot;)]
+[OslcName(&quot;ownedItem&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#ItemUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedItem&quot;)]
+public HashSet&lt;Uri&gt; OwnedItem { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedMember_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedMember*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedMember" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedMember">
+  OwnedMember
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L721"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The owned &lt;code&gt;members&lt;/code&gt; of this &lt;code&gt;Namespace&lt;/code&gt;, which are the &lt;cpde&gt;&lt;code&gt;ownedMemberElements&lt;/code&gt; of the &lt;code&gt;ownedMemberships&lt;/code&gt; of the &lt;code&gt;Namespace&lt;/code&gt;.&lt;/cpde&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedMember&quot;)]
+[OslcName(&quot;ownedMember&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Element&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedMember&quot;)]
+public HashSet&lt;Uri&gt; OwnedMember { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedMembership_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedMembership*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedMembership" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedMembership">
+  OwnedMembership
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L733"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedRelationships&lt;/code&gt; of this &lt;code&gt;Namespace&lt;/code&gt; that are &lt;code&gt;Memberships&lt;/code&gt;, for which the &lt;code&gt;Namespace&lt;/code&gt; is the &lt;code&gt;membershipOwningNamespace&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedMembership&quot;)]
+[OslcName(&quot;ownedMembership&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Membership&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedMembership&quot;)]
+public HashSet&lt;Uri&gt; OwnedMembership { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedMetadata_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedMetadata*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedMetadata" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedMetadata">
+  OwnedMetadata
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L745"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;MetadataUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedMetadata&quot;)]
+[OslcName(&quot;ownedMetadata&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#MetadataUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedMetadata&quot;)]
+public HashSet&lt;Uri&gt; OwnedMetadata { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedOccurrence_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedOccurrence*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedOccurrence" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedOccurrence">
+  OwnedOccurrence
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L757"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;OccurrenceUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedOccurrence&quot;)]
+[OslcName(&quot;ownedOccurrence&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#OccurrenceUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedOccurrence&quot;)]
+public HashSet&lt;Uri&gt; OwnedOccurrence { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedPart_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedPart*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedPart" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedPart">
+  OwnedPart
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L769"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;PartUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedPart&quot;)]
+[OslcName(&quot;ownedPart&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#PartUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedPart&quot;)]
+public HashSet&lt;Uri&gt; OwnedPart { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedPort_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedPort*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedPort" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedPort">
+  OwnedPort
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L781"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;PortUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedPort&quot;)]
+[OslcName(&quot;ownedPort&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#PortUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedPort&quot;)]
+public HashSet&lt;Uri&gt; OwnedPort { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedReference_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedReference*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedReference" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedReference">
+  OwnedReference
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L793"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ReferenceUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedReference&quot;)]
+[OslcName(&quot;ownedReference&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#ReferenceUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedReference&quot;)]
+public HashSet&lt;Uri&gt; OwnedReference { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedRelationship_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedRelationship*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedRelationship" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedRelationship">
+  OwnedRelationship
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L805"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The Relationships for which this Element is the &lt;tt&gt;owningRelatedElement&lt;/tt&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedRelationship&quot;)]
+[OslcName(&quot;ownedRelationship&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Relationship&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedRelationship&quot;)]
+public HashSet&lt;Uri&gt; OwnedRelationship { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedRendering_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedRendering*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedRendering" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedRendering">
+  OwnedRendering
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L817"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;RenderingUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedRendering&quot;)]
+[OslcName(&quot;ownedRendering&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#RenderingUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedRendering&quot;)]
+public HashSet&lt;Uri&gt; OwnedRendering { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedRequirement_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedRequirement*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedRequirement" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedRequirement">
+  OwnedRequirement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L829"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;RequirementUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedRequirement&quot;)]
+[OslcName(&quot;ownedRequirement&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#RequirementUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedRequirement&quot;)]
+public HashSet&lt;Uri&gt; OwnedRequirement { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedSpecialization_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedSpecialization*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedSpecialization" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedSpecialization">
+  OwnedSpecialization
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L841"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedRelationships&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; that are &lt;code&gt;Specializations&lt;/code&gt;, for which the &lt;code&gt;Type&lt;/code&gt; is the &lt;code&gt;specific&lt;/code&gt; &lt;code&gt;Type&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedSpecialization&quot;)]
+[OslcName(&quot;ownedSpecialization&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Specialization&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedSpecialization&quot;)]
+public HashSet&lt;Uri&gt; OwnedSpecialization { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedState_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedState*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedState" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedState">
+  OwnedState
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L853"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;StateUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedState&quot;)]
+[OslcName(&quot;ownedState&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#StateUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedState&quot;)]
+public HashSet&lt;Uri&gt; OwnedState { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedSubclassification_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedSubclassification*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedSubclassification" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedSubclassification">
+  OwnedSubclassification
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L865"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedSpecializations&lt;/code&gt; of this &lt;code&gt;Classifier&lt;/code&gt; that are &lt;code&gt;Subclassifications&lt;/code&gt;, for which this &lt;code&gt;Classifier&lt;/code&gt; is the &lt;code&gt;subclassifier&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedSubclassification&quot;)]
+[OslcName(&quot;ownedSubclassification&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Subclassification&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedSubclassification&quot;)]
+public HashSet&lt;Uri&gt; OwnedSubclassification { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedTransition_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedTransition*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedTransition" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedTransition">
+  OwnedTransition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L877"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;TransitionUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedTransition&quot;)]
+[OslcName(&quot;ownedTransition&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#TransitionUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedTransition&quot;)]
+public HashSet&lt;Uri&gt; OwnedTransition { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedUnioning_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedUnioning*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedUnioning" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedUnioning">
+  OwnedUnioning
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L889"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedRelationships&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; that are &lt;code&gt;Unionings&lt;/code&gt;, having the &lt;code&gt;Type&lt;/code&gt; as their &lt;code&gt;typeUnioned&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedUnioning&quot;)]
+[OslcName(&quot;ownedUnioning&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Unioning&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedUnioning&quot;)]
+public HashSet&lt;Uri&gt; OwnedUnioning { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedUsage_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedUsage*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedUsage" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedUsage">
+  OwnedUsage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L901"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;Usages&lt;/code&gt; that are &lt;code&gt;ownedFeatures&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedUsage&quot;)]
+[OslcName(&quot;ownedUsage&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Usage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedUsage&quot;)]
+public HashSet&lt;Uri&gt; OwnedUsage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedUseCase_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedUseCase*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedUseCase" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedUseCase">
+  OwnedUseCase
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L913"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;UseCaseUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedUseCase&quot;)]
+[OslcName(&quot;ownedUseCase&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#UseCaseUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedUseCase&quot;)]
+public HashSet&lt;Uri&gt; OwnedUseCase { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedVerificationCase_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedVerificationCase*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedVerificationCase" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedVerificationCase">
+  OwnedVerificationCase
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L925"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;VerificationCaseUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedVerificationCase&quot;)]
+[OslcName(&quot;ownedVerificationCase&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#VerificationCaseUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedVerificationCase&quot;)]
+public HashSet&lt;Uri&gt; OwnedVerificationCase { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedView_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedView*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedView" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedView">
+  OwnedView
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L937"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ViewUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedView&quot;)]
+[OslcName(&quot;ownedView&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#ViewUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedView&quot;)]
+public HashSet&lt;Uri&gt; OwnedView { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedViewpoint_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedViewpoint*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwnedViewpoint" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwnedViewpoint">
+  OwnedViewpoint
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L949"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ViewpointUsages&lt;/code&gt; that are &lt;code&gt;ownedUsages&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#ownedViewpoint&quot;)]
+[OslcName(&quot;ownedViewpoint&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#ViewpointUsage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedViewpoint&quot;)]
+public HashSet&lt;Uri&gt; OwnedViewpoint { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Owner_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Owner*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Owner" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Owner">
+  Owner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L961"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The owner of this Element, derived as the &lt;code&gt;owningRelatedElement&lt;/code&gt; of the &lt;code&gt;owningRelationship&lt;/code&gt; of this Element, if any.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#owner&quot;)]
+[OslcName(&quot;owner&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Element&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;owner&quot;)]
+public Uri? Owner { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwningMembership_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwningMembership*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwningMembership" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwningMembership">
+  OwningMembership
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L973"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;owningRelationship&lt;/code&gt; of this &lt;code&gt;Element&lt;/code&gt;, if that &lt;code&gt;Relationship&lt;/code&gt; is a &lt;code&gt;Membership&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#owningMembership&quot;)]
+[OslcName(&quot;owningMembership&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#OwningMembership&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;owningMembership&quot;)]
+public Uri? OwningMembership { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwningNamespace_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwningNamespace*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwningNamespace" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwningNamespace">
+  OwningNamespace
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L985"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;Namespace&lt;/code&gt; that owns this &lt;code&gt;Element&lt;/code&gt;, which is the &lt;code&gt;membershipOwningNamespace&lt;/code&gt; of the &lt;code&gt;owningMembership&lt;/code&gt; of this &lt;code&gt;Element&lt;/code&gt;, if any.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#owningNamespace&quot;)]
+[OslcName(&quot;owningNamespace&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Namespace&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;owningNamespace&quot;)]
+public Uri? OwningNamespace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwningRelationship_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwningRelationship*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_OwningRelationship" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.OwningRelationship">
+  OwningRelationship
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L997"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The Relationship for which this Element is an &lt;tt&gt;ownedRelatedElement&lt;/tt&gt;, if any.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#owningRelationship&quot;)]
+[OslcName(&quot;owningRelationship&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Relationship&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;owningRelationship&quot;)]
+public Uri? OwningRelationship { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_QualifiedName_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.QualifiedName*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_QualifiedName" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.QualifiedName">
+  QualifiedName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L1009"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The full ownership-qualified name of this &lt;code&gt;Element&lt;/code&gt;, represented in a form that is valid according to the KerML textual concrete syntax for qualified names (including use of unrestricted name notation and escaped characters, as necessary). The &lt;code&gt;qualifiedName&lt;/code&gt; is null if this &lt;code&gt;Element&lt;/code&gt; has no &lt;code&gt;owningNamespace&lt;/code&gt; or if there is not a complete ownership chain of named &lt;code&gt;Namespaces&lt;/code&gt; from a root &lt;code&gt;Namespace&lt;/code&gt; to this &lt;code&gt;Element&lt;/code&gt;. If the &lt;code&gt;owningNamespace&lt;/code&gt; has other &lt;code&gt;Elements&lt;/code&gt; with the same name as this one, then the &lt;code&gt;qualifiedName&lt;/code&gt; is null for all such &lt;code&gt;Elements&lt;/code&gt; other than the first.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#qualifiedName&quot;)]
+[OslcName(&quot;qualifiedName&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;qualifiedName&quot;)]
+public string? QualifiedName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Refine_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Refine*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Refine" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Refine">
+  Refine
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L1018"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The target is a refinement of the source. (e.g. a use case scenario\nmight be a refinement of a textual requirement that describes the interaction).&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://jazz.net/ns/dm/linktypes#refine&quot;)]
+[OslcName(&quot;refine&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;refine&quot;)]
+public HashSet&lt;Uri&gt; Refine { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Satisfy_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Satisfy*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Satisfy" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Satisfy">
+  Satisfy
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L1030"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The model element satisfies the requirement (e.g. The use case\nsatisfies a functional requirement).&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://jazz.net/ns/dm/linktypes#satisfy&quot;)]
+[OslcName(&quot;satisfy&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;satisfy&quot;)]
+public HashSet&lt;Uri&gt; Satisfy { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_ServiceProvider_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.ServiceProvider*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_ServiceProvider" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.ServiceProvider">
+  ServiceProvider
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L1042"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A link to the resource&#39;s OSLC Service Provider. There may be cases when the\nsubject resource is available from a service provider that implements multiple domain\nspecifications, which could result in multiple values for this property.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#serviceProvider&quot;)]
+[OslcName(&quot;serviceProvider&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#ServiceProvider&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;serviceProvider&quot;)]
+public HashSet&lt;Uri&gt; ServiceProvider { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_ShortName_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.ShortName*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_ShortName" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.ShortName">
+  ShortName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L1054"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The short name to be used for this &lt;code&gt;Element&lt;/code&gt; during name resolution within its &lt;code&gt;owningNamespace&lt;/code&gt;. This is derived using the &lt;code&gt;effectiveShortName()&lt;/code&gt; operation. By default, it is the same as the &lt;code&gt;declaredShortName&lt;/code&gt;, but this is overridden for certain kinds of &lt;code&gt;Elements&lt;/code&gt; to compute a &lt;code&gt;shortName&lt;/code&gt; even when the &lt;code&gt;declaredName&lt;/code&gt; is null.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#shortName&quot;)]
+[OslcName(&quot;shortName&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;shortName&quot;)]
+public string? ShortName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_ShortTitle_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.ShortTitle*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_ShortTitle" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.ShortTitle">
+  ShortTitle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L1063"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;{{Short name identifying a resource, often used as an abbreviated identifier for presentation to end-users. SHOULD include only content that is valid inside an XHTML &amp;lt;span&amp;gt; element}}.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#shortTitle&quot;)]
+[OslcName(&quot;shortTitle&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;shortTitle&quot;)]
+public string? ShortTitle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Source_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Source*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Source" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Source">
+  Source
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L1073"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The resource URI a client can perform a get on to obtain the original non-OSLC AM formatted resource that was used to create this resource. The source resource is usually a binary or proprietary format that the service provider can consume and convert into an OSLC AM format. The service may use content negotiation with the Accept header to obtain the desired content type.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/source&quot;)]
+[OslcName(&quot;source&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;source&quot;)]
+public Uri? Source { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_TextualRepresentation_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.TextualRepresentation*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_TextualRepresentation" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.TextualRepresentation">
+  TextualRepresentation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L1085"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;TextualRepresentations&lt;/code&gt; that annotate this &lt;code&gt;Element&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#textualRepresentation&quot;)]
+[OslcName(&quot;textualRepresentation&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#TextualRepresentation&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;textualRepresentation&quot;)]
+public HashSet&lt;Uri&gt; TextualRepresentation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Title_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Title*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Title" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Title">
+  Title
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L1097"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Title of the resource represented as rich text in XHTML content.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/title&quot;)]
+[OslcName(&quot;title&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;title&quot;)]
+public string Title { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Trace_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Trace*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Trace" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Trace">
+  Trace
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L1107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The model element has a trace to the requirement (e.g. An attribute\nor its value are traced to a requirement).&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://jazz.net/ns/dm/linktypes#trace&quot;)]
+[OslcName(&quot;trace&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;trace&quot;)]
+public HashSet&lt;Uri&gt; Trace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_UnioningType_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.UnioningType*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_UnioningType" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.UnioningType">
+  UnioningType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L1119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The interpretations of a &lt;code&gt;Type&lt;/code&gt; with &lt;code&gt;unioningTypes&lt;/code&gt; are asserted to be the same as those of all the &lt;code&gt;unioningTypes&lt;/code&gt; together, which are the &lt;code&gt;Types&lt;/code&gt; derived from the &lt;code&gt;unioningType&lt;/code&gt; of the &lt;code&gt;ownedUnionings&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt;. For example, a &lt;code&gt;Classifier&lt;/code&gt; for people might be the union of &lt;code&gt;Classifiers&lt;/code&gt; for all the sexes. Similarly, a feature for people&#39;s children might be the union of features dividing them in the same ways as people in general.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#unioningType&quot;)]
+[OslcName(&quot;unioningType&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Type&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;unioningType&quot;)]
+public HashSet&lt;Uri&gt; UnioningType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Usage_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Usage*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Usage" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Usage">
+  Usage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L1131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;Usages&lt;/code&gt; that are &lt;code&gt;features&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt; (not necessarily owned).&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#usage&quot;)]
+[OslcName(&quot;usage&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Usage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;usage&quot;)]
+public HashSet&lt;Uri&gt; Usage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Variant_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Variant*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_Variant" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Variant">
+  Variant
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L1143"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;Usages&lt;/code&gt; which represent the variants of this &lt;code&gt;Definition&lt;/code&gt; as a variation point &lt;code&gt;Definition&lt;/code&gt;, if &lt;code&gt;isVariation&lt;/code&gt; = true. If &lt;code&gt;isVariation = false&lt;/code&gt;, the there must be no &lt;code&gt;variants&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#variant&quot;)]
+[OslcName(&quot;variant&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#Usage&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;variant&quot;)]
+public HashSet&lt;Uri&gt; Variant { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_VariantMembership_" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.VariantMembership*"></a>
+
+  <h3 id="OSLC4Net_Domains_SysMLV2_OccurrenceDefinition_VariantMembership" data-uid="OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.VariantMembership">
+  VariantMembership
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.SysMLV2/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.SysMLV2.OccurrenceDefinition.Shape.g.cs/#L1155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedMemberships&lt;/code&gt; of this &lt;code&gt;Definition&lt;/code&gt; that are &lt;code&gt;VariantMemberships&lt;/code&gt;. If &lt;code&gt;isVariation&lt;/code&gt; = true, then this must be all &lt;code&gt;ownedMemberships&lt;/code&gt; of the &lt;code&gt;Definition&lt;/code&gt;. If &lt;code&gt;isVariation&lt;/code&gt; = false, then &lt;code&gt;variantMembership&lt;/code&gt;must be empty.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/sysml/vocabulary#variantMembership&quot;)]
+[OslcName(&quot;variantMembership&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/sysml/vocabulary#VariantMembership&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;variantMembership&quot;)]
+public HashSet&lt;Uri&gt; VariantMembership { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
 
 
 

@@ -662,34 +662,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/OSLC4Net.CodeGen.OslcSourceGenerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/OSLC4Net.CodeGen.OslcSourceGenerator.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "OSLC4Net.CodeGen.OslcSourceGenerator",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/OSLC4Net.Core.Attribute.OslcAllowedValue.yml",
       "output": {
         ".html": {
@@ -1526,7 +1498,21 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Core.Model.Compact",
-      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.Compact.yml\" sourcestartlinenumber=\"1\">OSLC Compact resource representation</p>\n"
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.Compact.yml\" sourcestartlinenumber=\"1\">OSLC Compact resource representation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.CompactDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.CompactDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.CompactDto",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.CompactDto.yml\" sourcestartlinenumber=\"1\">DTO representing the OSLC Core 3.0 Compact JSON representation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2198,7 +2184,21 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Core.Model.Preview",
-      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.Preview.yml\" sourcestartlinenumber=\"1\">OSLC Preview attribute</p>\n"
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.Preview.yml\" sourcestartlinenumber=\"1\">OSLC Preview resource representation</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Core.Model.PreviewDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Core.Model.PreviewDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Core.Model.PreviewDto",
+      "Summary": "<p sourcefile=\"api/OSLC4Net.Core.Model.PreviewDto.yml\" sourcestartlinenumber=\"1\">DTO representing the OSLC Core 3.0 Preview JSON representation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3112,6 +3112,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ArchitectureManagement.AM.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ArchitectureManagement.AM.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ArchitectureManagement.AM.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ArchitectureManagement.AM.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ArchitectureManagement.AM.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ArchitectureManagement.AM.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OSLC4Net.Domains.ArchitectureManagement.AM.yml",
       "output": {
         ".html": {
@@ -3140,6 +3168,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ArchitectureManagement.IArchitectureResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ArchitectureManagement.IArchitectureResource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ArchitectureManagement.IArchitectureResource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ArchitectureManagement.ILinkType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ArchitectureManagement.ILinkType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ArchitectureManagement.ILinkType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OSLC4Net.Domains.ArchitectureManagement.LinkType.yml",
       "output": {
         ".html": {
@@ -3164,6 +3220,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Domains.ArchitectureManagement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.Automation.Auto.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.Automation.Auto.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.Automation.Auto.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.Automation.Auto.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.Automation.Auto.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.Automation.Auto.Q",
       "Summary": null
     },
     {
@@ -3224,6 +3308,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.Automation.IAutomationPlan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.Automation.IAutomationPlan.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.Automation.IAutomationPlan",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.Automation.IAutomationRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.Automation.IAutomationRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.Automation.IAutomationRequest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.Automation.IAutomationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.Automation.IAutomationResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.Automation.IAutomationResult",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.Automation.IParameterInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.Automation.IParameterInstance.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.Automation.IParameterInstance",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OSLC4Net.Domains.Automation.ParameterInstance.yml",
       "output": {
         ".html": {
@@ -3248,6 +3388,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Domains.Automation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ChangeManagement.CM.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ChangeManagement.CM.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ChangeManagement.CM.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ChangeManagement.CM.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ChangeManagement.CM.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ChangeManagement.CM.Q",
       "Summary": null
     },
     {
@@ -3318,6 +3486,90 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Domains.ChangeManagement.Enhancement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ChangeManagement.IChangeNotice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ChangeManagement.IChangeNotice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ChangeManagement.IChangeNotice",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ChangeManagement.IChangeRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ChangeManagement.IChangeRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ChangeManagement.IChangeRequest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ChangeManagement.IDefect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ChangeManagement.IDefect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ChangeManagement.IDefect",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ChangeManagement.IEnhancement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ChangeManagement.IEnhancement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ChangeManagement.IEnhancement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ChangeManagement.IReviewTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ChangeManagement.IReviewTask.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ChangeManagement.IReviewTask",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ChangeManagement.ITask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ChangeManagement.ITask.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ChangeManagement.ITask",
       "Summary": null
     },
     {
@@ -3434,6 +3686,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.Config.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.Config.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ConfigurationManagement.Config.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.Config.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.Config.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ConfigurationManagement.Config.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.Config.yml",
       "output": {
         ".html": {
@@ -3458,6 +3738,132 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Domains.ConfigurationManagement.Contribution",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.IActivity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.IActivity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ConfigurationManagement.IActivity",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.IBaseline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.IBaseline.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ConfigurationManagement.IBaseline",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.IChangeSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.IChangeSet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ConfigurationManagement.IChangeSet",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.IChangeSetSelections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.IChangeSetSelections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ConfigurationManagement.IChangeSetSelections",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.IComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.IComponent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ConfigurationManagement.IComponent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.IContribution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.IContribution.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ConfigurationManagement.IContribution",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.ISelections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.ISelections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ConfigurationManagement.ISelections",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.IStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.IStream.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ConfigurationManagement.IStream",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.IVersionResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.ConfigurationManagement.IVersionResource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.ConfigurationManagement.IVersionResource",
       "Summary": null
     },
     {
@@ -4008,6 +4414,1154 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IAnnotatingElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IAnnotatingElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IAnnotatingElement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IAnnotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IAnnotation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IAnnotation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IAssociation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IAssociation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IAssociation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IAssociationStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IAssociationStructure.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IAssociationStructure",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IBehavior.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IBehavior",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IBindingConnector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IBindingConnector.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IBindingConnector",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IBooleanExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IBooleanExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IBooleanExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IClass.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IClass",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IClassifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IClassifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IClassifier",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.ICollectExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.ICollectExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.ICollectExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IComment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IComment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IComment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IConjugation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IConjugation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IConjugation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IConnector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IConnector.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IConnector",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IConstructorExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IConstructorExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IConstructorExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.ICrossSubsetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.ICrossSubsetting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.ICrossSubsetting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IDataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IDataType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IDataType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IDependency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IDependency.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IDependency",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IDifferencing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IDifferencing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IDifferencing",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IDisjoining.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IDisjoining.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IDisjoining",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IDocumentation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IDocumentation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IDocumentation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IElement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IElementFilterMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IElementFilterMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IElementFilterMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IEndFeatureMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IEndFeatureMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IEndFeatureMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IFeature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IFeature.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IFeature",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IFeatureChainExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IFeatureChainExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IFeatureChainExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IFeatureChaining.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IFeatureChaining.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IFeatureChaining",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IFeatureInverting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IFeatureInverting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IFeatureInverting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IFeatureMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IFeatureMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IFeatureMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IFeatureReferenceExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IFeatureReferenceExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IFeatureReferenceExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IFeatureTyping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IFeatureTyping.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IFeatureTyping",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IFeatureValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IFeatureValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IFeatureValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IFlow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IFlow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IFlow",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IFlowEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IFlowEnd.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IFlowEnd",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IFunction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IFunction",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IImport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IImport.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IImport",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IIndexExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IIndexExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IIndexExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IInstantiationExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IInstantiationExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IInstantiationExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IInteraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IInteraction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IInteraction",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IIntersecting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IIntersecting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IIntersecting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IInvariant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IInvariant.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IInvariant",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IInvocationExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IInvocationExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IInvocationExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.ILibraryPackage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.ILibraryPackage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.ILibraryPackage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.ILiteralBoolean.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.ILiteralBoolean.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.ILiteralBoolean",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.ILiteralExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.ILiteralExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.ILiteralExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.ILiteralInfinity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.ILiteralInfinity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.ILiteralInfinity",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.ILiteralInteger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.ILiteralInteger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.ILiteralInteger",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.ILiteralRational.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.ILiteralRational.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.ILiteralRational",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.ILiteralString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.ILiteralString.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.ILiteralString",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IMembershipImport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IMembershipImport.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IMembershipImport",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IMetaclass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IMetaclass.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IMetaclass",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IMetadataAccessExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IMetadataAccessExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IMetadataAccessExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IMetadataFeature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IMetadataFeature.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IMetadataFeature",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IMultiplicity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IMultiplicity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IMultiplicity",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IMultiplicityRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IMultiplicityRange.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IMultiplicityRange",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.INamespace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.INamespace.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.INamespace",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.INamespaceImport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.INamespaceImport.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.INamespaceImport",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.INullExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.INullExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.INullExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IOperatorExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IOperatorExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IOperatorExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IOwningMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IOwningMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IOwningMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IPackage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IPackage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IPackage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IParameterMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IParameterMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IParameterMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IPayloadFeature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IPayloadFeature.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IPayloadFeature",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IPredicate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IPredicate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IPredicate",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IRedefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IRedefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IRedefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IReferenceSubsetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IReferenceSubsetting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IReferenceSubsetting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IRelationship.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IRelationship.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IRelationship",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IResultExpressionMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IResultExpressionMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IResultExpressionMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IReturnParameterMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IReturnParameterMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IReturnParameterMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.ISelectExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.ISelectExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.ISelectExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.ISpecialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.ISpecialization.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.ISpecialization",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IStep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IStep.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IStep",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IStructure.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IStructure",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.ISubclassification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.ISubclassification.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.ISubclassification",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.ISubsetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.ISubsetting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.ISubsetting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.ISuccession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.ISuccession.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.ISuccession",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.ISuccessionFlow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.ISuccessionFlow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.ISuccessionFlow",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.ITextualRepresentation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.ITextualRepresentation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.ITextualRepresentation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.ITypeFeaturing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.ITypeFeaturing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.ITypeFeaturing",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.IUnioning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.IUnioning.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.IUnioning",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OSLC4Net.Domains.KerML.Import.yml",
       "output": {
         ".html": {
@@ -4102,6 +5656,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Domains.KerML.InvocationExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.KerMLVocabulary.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.KerMLVocabulary.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.KerMLVocabulary.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.KerML.KerMLVocabulary.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.KerML.KerMLVocabulary.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.KerML.KerMLVocabulary.Q",
       "Summary": null
     },
     {
@@ -4694,6 +6276,104 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.QualityManagement.ITestCase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.QualityManagement.ITestCase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.QualityManagement.ITestCase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.QualityManagement.ITestExecutionRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.QualityManagement.ITestExecutionRecord.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.QualityManagement.ITestExecutionRecord",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.QualityManagement.ITestPlan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.QualityManagement.ITestPlan.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.QualityManagement.ITestPlan",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.QualityManagement.ITestResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.QualityManagement.ITestResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.QualityManagement.ITestResult",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.QualityManagement.ITestScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.QualityManagement.ITestScript.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.QualityManagement.ITestScript",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.QualityManagement.QM.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.QualityManagement.QM.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.QualityManagement.QM.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.QualityManagement.QM.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.QualityManagement.QM.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.QualityManagement.QM.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OSLC4Net.Domains.QualityManagement.QM.yml",
       "output": {
         ".html": {
@@ -4862,6 +6542,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.RequirementsManagement.IRequirement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.RequirementsManagement.IRequirement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.RequirementsManagement.IRequirement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.RequirementsManagement.IRequirementCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.RequirementsManagement.IRequirementCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.RequirementsManagement.IRequirementCollection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OSLC4Net.Domains.RequirementsManagement.RM.P.yml",
       "output": {
         ".html": {
@@ -4942,6 +6650,608 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Domains.RequirementsManagement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxAI.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxAI.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxAI.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxAI.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxAI.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxAI.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxAI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxAI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxAI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxBuild.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxBuild.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxBuild.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxBuild.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxBuild.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxBuild.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxBuild.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxBuild.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxBuild",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxCore.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxCore.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxCore.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxCore.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxCore.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxCore.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxCore.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxCore",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxDataset.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxDataset.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxDataset.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxDataset.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxDataset.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxDataset.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxDataset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxDataset.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxDataset",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxExpandedLicensing.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxExpandedLicensing.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxExpandedLicensing.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxExpandedLicensing.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxExpandedLicensing.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxExpandedLicensing.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxExpandedLicensing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxExpandedLicensing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxExpandedLicensing",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxExtension.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxExtension.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxExtension.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxExtension.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxExtension.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxExtension.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxFunctionalSafety.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxFunctionalSafety.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxFunctionalSafety.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxFunctionalSafety.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxFunctionalSafety.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxFunctionalSafety.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxFunctionalSafety.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxFunctionalSafety.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxFunctionalSafety",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxHardware.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxHardware.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxHardware.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxHardware.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxHardware.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxHardware.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxHardware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxHardware.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxHardware",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxOperations.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxOperations.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxOperations.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxOperations.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxOperations.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxOperations.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxOperations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxOperations.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxOperations",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSecurity.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSecurity.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxSecurity.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSecurity.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSecurity.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxSecurity.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSecurity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSecurity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxSecurity",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxService.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxService.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxService.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxService.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxService.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxService.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSimpleLicensing.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSimpleLicensing.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxSimpleLicensing.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSimpleLicensing.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSimpleLicensing.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxSimpleLicensing.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSimpleLicensing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSimpleLicensing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxSimpleLicensing",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSoftware.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSoftware.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxSoftware.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSoftware.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSoftware.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxSoftware.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSoftware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSoftware.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxSoftware",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSupplyChain.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSupplyChain.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxSupplyChain.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSupplyChain.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSupplyChain.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxSupplyChain.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSupplyChain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.SpdxSupplyChain.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX.SpdxSupplyChain",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SPDX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SPDX.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SPDX",
       "Summary": null
     },
     {
@@ -5978,6 +8288,2456 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Domains.SysMLV2.Function",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IAcceptActionUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IAcceptActionUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IAcceptActionUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IActionDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IActionDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IActionDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IActionUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IActionUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IActionUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IActorMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IActorMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IActorMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IAllocationDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IAllocationDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IAllocationDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IAllocationUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IAllocationUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IAllocationUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IAnalysisCaseDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IAnalysisCaseDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IAnalysisCaseDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IAnalysisCaseUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IAnalysisCaseUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IAnalysisCaseUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IAnnotatingElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IAnnotatingElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IAnnotatingElement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IAnnotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IAnnotation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IAnnotation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IAssertConstraintUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IAssertConstraintUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IAssertConstraintUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IAssignmentActionUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IAssignmentActionUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IAssignmentActionUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IAssociation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IAssociation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IAssociation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IAssociationStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IAssociationStructure.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IAssociationStructure",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IAttributeDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IAttributeDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IAttributeDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IAttributeUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IAttributeUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IAttributeUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IBehavior.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IBehavior",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IBindingConnector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IBindingConnector.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IBindingConnector",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IBindingConnectorAsUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IBindingConnectorAsUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IBindingConnectorAsUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IBooleanExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IBooleanExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IBooleanExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ICalculationDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ICalculationDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ICalculationDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ICalculationUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ICalculationUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ICalculationUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ICaseDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ICaseDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ICaseDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ICaseUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ICaseUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ICaseUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IClass.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IClass",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IClassifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IClassifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IClassifier",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ICollectExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ICollectExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ICollectExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IComment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IComment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IComment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IConcernDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IConcernDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IConcernDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IConcernUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IConcernUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IConcernUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IConjugatedPortDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IConjugatedPortDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IConjugatedPortDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IConjugatedPortTyping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IConjugatedPortTyping.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IConjugatedPortTyping",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IConjugation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IConjugation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IConjugation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IConnectionDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IConnectionDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IConnectionDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IConnectionUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IConnectionUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IConnectionUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IConnector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IConnector.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IConnector",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IConnectorAsUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IConnectorAsUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IConnectorAsUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IConstraintDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IConstraintDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IConstraintDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IConstraintUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IConstraintUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IConstraintUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IConstructorExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IConstructorExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IConstructorExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IControlNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IControlNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IControlNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ICrossSubsetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ICrossSubsetting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ICrossSubsetting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IDataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IDataType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IDataType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IDecisionNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IDecisionNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IDecisionNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IDependency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IDependency.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IDependency",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IDifferencing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IDifferencing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IDifferencing",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IDisjoining.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IDisjoining.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IDisjoining",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IDocumentation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IDocumentation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IDocumentation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IElement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IElementFilterMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IElementFilterMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IElementFilterMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IEndFeatureMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IEndFeatureMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IEndFeatureMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IEnumerationDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IEnumerationDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IEnumerationDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IEnumerationUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IEnumerationUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IEnumerationUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IEventOccurrenceUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IEventOccurrenceUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IEventOccurrenceUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IExhibitStateUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IExhibitStateUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IExhibitStateUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IExpose.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IExpose.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IExpose",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IFeature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IFeature.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IFeature",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IFeatureChainExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IFeatureChainExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IFeatureChainExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IFeatureChaining.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IFeatureChaining.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IFeatureChaining",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IFeatureInverting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IFeatureInverting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IFeatureInverting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IFeatureMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IFeatureMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IFeatureMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IFeatureReferenceExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IFeatureReferenceExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IFeatureReferenceExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IFeatureTyping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IFeatureTyping.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IFeatureTyping",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IFeatureValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IFeatureValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IFeatureValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IFlow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IFlow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IFlow",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IFlowDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IFlowDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IFlowDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IFlowEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IFlowEnd.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IFlowEnd",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IFlowUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IFlowUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IFlowUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IForLoopActionUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IForLoopActionUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IForLoopActionUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IForkNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IForkNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IForkNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IFramedConcernMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IFramedConcernMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IFramedConcernMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IFunction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IFunction",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IIfActionUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IIfActionUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IIfActionUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IImport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IImport.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IImport",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IIncludeUseCaseUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IIncludeUseCaseUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IIncludeUseCaseUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IIndexExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IIndexExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IIndexExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IInstantiationExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IInstantiationExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IInstantiationExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IInteraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IInteraction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IInteraction",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IInterfaceDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IInterfaceDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IInterfaceDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IInterfaceUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IInterfaceUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IInterfaceUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IIntersecting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IIntersecting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IIntersecting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IInvariant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IInvariant.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IInvariant",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IInvocationExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IInvocationExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IInvocationExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IItemDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IItemDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IItemDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IItemUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IItemUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IItemUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IJoinNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IJoinNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IJoinNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ILibraryPackage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ILibraryPackage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ILibraryPackage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ILiteralBoolean.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ILiteralBoolean.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ILiteralBoolean",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ILiteralExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ILiteralExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ILiteralExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ILiteralInfinity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ILiteralInfinity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ILiteralInfinity",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ILiteralInteger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ILiteralInteger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ILiteralInteger",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ILiteralRational.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ILiteralRational.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ILiteralRational",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ILiteralString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ILiteralString.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ILiteralString",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ILoopActionUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ILoopActionUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ILoopActionUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IMembershipExpose.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IMembershipExpose.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IMembershipExpose",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IMembershipImport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IMembershipImport.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IMembershipImport",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IMergeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IMergeNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IMergeNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IMetaclass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IMetaclass.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IMetaclass",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IMetadataAccessExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IMetadataAccessExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IMetadataAccessExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IMetadataDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IMetadataDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IMetadataDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IMetadataFeature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IMetadataFeature.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IMetadataFeature",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IMetadataUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IMetadataUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IMetadataUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IMultiplicity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IMultiplicity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IMultiplicity",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IMultiplicityRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IMultiplicityRange.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IMultiplicityRange",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.INamespace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.INamespace.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.INamespace",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.INamespaceExpose.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.INamespaceExpose.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.INamespaceExpose",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.INamespaceImport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.INamespaceImport.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.INamespaceImport",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.INullExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.INullExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.INullExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IObjectiveMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IObjectiveMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IObjectiveMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IOccurrenceDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IOccurrenceDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IOccurrenceDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IOccurrenceUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IOccurrenceUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IOccurrenceUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IOperatorExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IOperatorExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IOperatorExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IOwningMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IOwningMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IOwningMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IPackage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IPackage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IPackage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IParameterMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IParameterMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IParameterMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IPartDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IPartDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IPartDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IPartUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IPartUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IPartUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IPayloadFeature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IPayloadFeature.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IPayloadFeature",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IPerformActionUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IPerformActionUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IPerformActionUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IPortConjugation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IPortConjugation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IPortConjugation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IPortDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IPortDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IPortDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IPortUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IPortUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IPortUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IPredicate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IPredicate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IPredicate",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IRedefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IRedefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IRedefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IReferenceSubsetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IReferenceSubsetting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IReferenceSubsetting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IReferenceUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IReferenceUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IReferenceUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IRelationship.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IRelationship.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IRelationship",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IRenderingDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IRenderingDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IRenderingDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IRenderingUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IRenderingUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IRenderingUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IRequirementConstraintMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IRequirementConstraintMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IRequirementConstraintMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IRequirementDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IRequirementDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IRequirementDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IRequirementUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IRequirementUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IRequirementUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IRequirementVerificationMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IRequirementVerificationMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IRequirementVerificationMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IResultExpressionMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IResultExpressionMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IResultExpressionMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IReturnParameterMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IReturnParameterMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IReturnParameterMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ISType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ISType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ISType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ISatisfyRequirementUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ISatisfyRequirementUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ISatisfyRequirementUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ISelectExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ISelectExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ISelectExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ISendActionUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ISendActionUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ISendActionUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ISpecialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ISpecialization.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ISpecialization",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IStakeholderMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IStakeholderMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IStakeholderMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IStateDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IStateDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IStateDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IStateSubactionMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IStateSubactionMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IStateSubactionMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IStateUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IStateUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IStateUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IStep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IStep.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IStep",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IStructure.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IStructure",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ISubclassification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ISubclassification.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ISubclassification",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ISubjectMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ISubjectMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ISubjectMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ISubsetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ISubsetting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ISubsetting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ISuccession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ISuccession.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ISuccession",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ISuccessionAsUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ISuccessionAsUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ISuccessionAsUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ISuccessionFlow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ISuccessionFlow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ISuccessionFlow",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ISuccessionFlowUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ISuccessionFlowUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ISuccessionFlowUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ITerminateActionUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ITerminateActionUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ITerminateActionUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ITextualRepresentation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ITextualRepresentation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ITextualRepresentation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ITransitionFeatureMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ITransitionFeatureMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ITransitionFeatureMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ITransitionUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ITransitionUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ITransitionUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ITriggerInvocationExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ITriggerInvocationExpression.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ITriggerInvocationExpression",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.ITypeFeaturing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.ITypeFeaturing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.ITypeFeaturing",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IUnioning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IUnioning.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IUnioning",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IUseCaseDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IUseCaseDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IUseCaseDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IUseCaseUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IUseCaseUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IUseCaseUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IVariantMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IVariantMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IVariantMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IVerificationCaseDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IVerificationCaseDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IVerificationCaseDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IVerificationCaseUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IVerificationCaseUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IVerificationCaseUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IViewDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IViewDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IViewDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IViewRenderingMembership.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IViewRenderingMembership.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IViewRenderingMembership",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IViewUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IViewUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IViewUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IViewpointDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IViewpointDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IViewpointDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IViewpointUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IViewpointUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IViewpointUsage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.IWhileLoopActionUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.IWhileLoopActionUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.IWhileLoopActionUsage",
       "Summary": null
     },
     {
@@ -7130,6 +11890,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.SysMLVocabulary.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.SysMLVocabulary.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.SysMLVocabulary.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.SysMLVocabulary.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.SysMLV2.SysMLVocabulary.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.SysMLV2.SysMLVocabulary.Q",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OSLC4Net.Domains.SysMLV2.SysMLVocabulary.yml",
       "output": {
         ".html": {
@@ -7480,6 +12268,90 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.TrackedResourceSet.IBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.TrackedResourceSet.IBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.TrackedResourceSet.IBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.TrackedResourceSet.IChangeLog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.TrackedResourceSet.IChangeLog.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.TrackedResourceSet.IChangeLog",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.TrackedResourceSet.ICreationEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.TrackedResourceSet.ICreationEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.TrackedResourceSet.ICreationEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.TrackedResourceSet.IDeletionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.TrackedResourceSet.IDeletionEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.TrackedResourceSet.IDeletionEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.TrackedResourceSet.IModificationEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.TrackedResourceSet.IModificationEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.TrackedResourceSet.IModificationEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.TrackedResourceSet.ITrackedResourceSetResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.TrackedResourceSet.ITrackedResourceSetResource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.TrackedResourceSet.ITrackedResourceSetResource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OSLC4Net.Domains.TrackedResourceSet.ModificationEvent.yml",
       "output": {
         ".html": {
@@ -7490,6 +12362,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OSLC4Net.Domains.TrackedResourceSet.ModificationEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.TrackedResourceSet.TRS.P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.TrackedResourceSet.TRS.P.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.TrackedResourceSet.TRS.P",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OSLC4Net.Domains.TrackedResourceSet.TRS.Q.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OSLC4Net.Domains.TrackedResourceSet.TRS.Q.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OSLC4Net.Domains.TrackedResourceSet.TRS.Q",
       "Summary": null
     },
     {

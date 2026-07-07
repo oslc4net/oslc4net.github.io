@@ -89,7 +89,7 @@
 
 
   <h1 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice" class="text-break">
-Class ChangeNotice  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/ChangeManagementDomain.cs/#L21"><i class="bi bi-code-slash"></i></a>
+Class ChangeNotice  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,8 @@ Class ChangeNotice  <a class="header-action link-secondary" title="View source" 
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[OslcShape(&quot;http://open-services.net/ns/cm/shapes/3.0#ChangeNoticeShape&quot;)]
-public record ChangeNotice : IEquatable&lt;ChangeNotice&gt;</code></pre>
+[OslcNamespace(&quot;http://open-services.net/ns/cm#&quot;)]
+public record ChangeNotice : ChangeRequest, IEquatable&lt;AbstractResourceRecord&gt;, IEquatable&lt;ChangeRequest&gt;, IChangeNotice, IChangeRequest, IExtendedResource, IResource, IEquatable&lt;ChangeNotice&gt;</code></pre>
   </div>
 
 
@@ -112,6 +113,8 @@ public record ChangeNotice : IEquatable&lt;ChangeNotice&gt;</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.ChangeManagement.ChangeRequest.html">ChangeRequest</a></div>
       <div><span class="xref">ChangeNotice</span></div>
     </dd>
   </dl>
@@ -119,6 +122,12 @@ public record ChangeNotice : IEquatable&lt;ChangeNotice&gt;</code></pre>
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.ChangeManagement.ChangeRequest.html">ChangeRequest</a>&gt;</div>
+      <div><a class="xref" href="OSLC4Net.Domains.ChangeManagement.IChangeNotice.html">IChangeNotice</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.ChangeManagement.IChangeRequest.html">IChangeRequest</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IExtendedResource.html">IExtendedResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.ChangeManagement.ChangeNotice.html">ChangeNotice</a>&gt;</div>
     </dd>
   </dl>
@@ -127,6 +136,63 @@ public record ChangeNotice : IEquatable&lt;ChangeNotice&gt;</code></pre>
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="OSLC4Net.Domains.ChangeManagement.ChangeRequest.html#OSLC4Net_Domains_ChangeManagement_ChangeRequest_AffectsTestResult">ChangeRequest.AffectsTestResult</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Domains.ChangeManagement.ChangeRequest.html#OSLC4Net_Domains_ChangeManagement_ChangeRequest_BlocksTestExecutionRecord">ChangeRequest.BlocksTestExecutionRecord</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Domains.ChangeManagement.ChangeRequest.html#OSLC4Net_Domains_ChangeManagement_ChangeRequest_RelatedTestCase">ChangeRequest.RelatedTestCase</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Domains.ChangeManagement.ChangeRequest.html#OSLC4Net_Domains_ChangeManagement_ChangeRequest_RelatedTestExecutionRecord">ChangeRequest.RelatedTestExecutionRecord</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Domains.ChangeManagement.ChangeRequest.html#OSLC4Net_Domains_ChangeManagement_ChangeRequest_RelatedTestPlan">ChangeRequest.RelatedTestPlan</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Domains.ChangeManagement.ChangeRequest.html#OSLC4Net_Domains_ChangeManagement_ChangeRequest_RelatedTestScript">ChangeRequest.RelatedTestScript</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Domains.ChangeManagement.ChangeRequest.html#OSLC4Net_Domains_ChangeManagement_ChangeRequest_TestedByTestCase">ChangeRequest.TestedByTestCase</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Domains.ChangeManagement.ChangeRequest.html#OSLC4Net_Domains_ChangeManagement_ChangeRequest_ImplementsRequirement">ChangeRequest.ImplementsRequirement</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Domains.ChangeManagement.ChangeRequest.html#OSLC4Net_Domains_ChangeManagement_ChangeRequest_TracksRequirement">ChangeRequest.TracksRequirement</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_About">AbstractResourceRecord.About</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_Types">AbstractResourceRecord.Types</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_ExtendedProperties">AbstractResourceRecord.ExtendedProperties</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetAbout">AbstractResourceRecord.GetAbout()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetAbout_System_Uri_">AbstractResourceRecord.SetAbout(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetTypes">AbstractResourceRecord.GetTypes()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetTypes_System_Collections_Generic_ICollection_System_Uri__">AbstractResourceRecord.SetTypes(ICollection&lt;Uri&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_AddType_System_Uri_">AbstractResourceRecord.AddType(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__">AbstractResourceRecord.SetExtendedProperties(IDictionary&lt;QName, object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetExtendedProperties">AbstractResourceRecord.GetExtendedProperties()</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -155,11 +221,1216 @@ public record ChangeNotice : IEquatable&lt;ChangeNotice&gt;</code></pre>
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice__ctor_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice__ctor" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.#ctor">
+  ChangeNotice()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChangeNotice()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice__ctor_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice__ctor_System_Uri_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.#ctor(System.Uri)">
+  ChangeNotice(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChangeNotice(Uri about)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>about</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_AffectedByDefect_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.AffectedByDefect*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_AffectedByDefect" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.AffectedByDefect">
+  AffectedByDefect
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Change request is affected by a reported defect. It is likely that the target resource will be an &lt;code&gt;oslc_cm:Defect&lt;/code&gt; but that is not necessarily the case.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#affectedByDefect&quot;)]
+[OslcName(&quot;affectedByDefect&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/cm#Defect&quot; })]
+[OslcTitle(&quot;Affected by Defect&quot;)]
+public HashSet&lt;Uri&gt; AffectedByDefect { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_AffectsPlanItem_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.AffectsPlanItem*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_AffectsPlanItem" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.AffectsPlanItem">
+  AffectsPlanItem
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Change request affects plan item.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#affectsPlanItem&quot;)]
+[OslcName(&quot;affectsPlanItem&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcTitle(&quot;Affects PlanItem&quot;)]
+public HashSet&lt;Uri&gt; AffectsPlanItem { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_AffectsRequirement_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.AffectsRequirement*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_AffectsRequirement" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.AffectsRequirement">
+  AffectsRequirement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Change request affecting a Requirement. It is likely that the target resource will be an &lt;code&gt;oslc_rm:Requirement&lt;/code&gt; but that is not necessarily the case.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#affectsRequirement&quot;)]
+[OslcName(&quot;affectsRequirement&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/rm#Requirement&quot; })]
+[OslcTitle(&quot;Affects Requirement&quot;)]
+public HashSet&lt;Uri&gt; AffectsRequirement { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Approved_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Approved*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Approved" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Approved">
+  Approved
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether or not the Change Request has been approved.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#approved&quot;)]
+[OslcName(&quot;approved&quot;)]
+[OslcValueType(ValueType.Boolean)]
+[OslcTitle(&quot;approved&quot;)]
+public bool? Approved { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Authorizer_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Authorizer*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Authorizer" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Authorizer">
+  Authorizer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Agents who are responsible authorizing and/or has authorized effort to be expended to address a set of child change requests.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#authorizer&quot;)]
+[OslcName(&quot;authorizer&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://xmlns.com/foaf/0.1/Agent&quot; })]
+[OslcTitle(&quot;authorizer&quot;)]
+public HashSet&lt;Uri&gt; Authorizer { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_CloseDate_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.CloseDate*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_CloseDate" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.CloseDate">
+  CloseDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The date at which no further activity or work is intended to be conducted.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#closeDate&quot;)]
+[OslcName(&quot;closeDate&quot;)]
+[OslcValueType(ValueType.DateTime)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;closeDate&quot;)]
+public DateTimeOffset? CloseDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Closed_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Closed*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Closed" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Closed">
+  Closed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether or not the Change Request is completely done, no further fixes or fix verification is needed.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#closed&quot;)]
+[OslcName(&quot;closed&quot;)]
+[OslcValueType(ValueType.Boolean)]
+[OslcTitle(&quot;closed&quot;)]
+public bool? Closed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Contributor_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Contributor*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Contributor" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Contributor">
+  Contributor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The person(s) who are responsible for the work needed to complete the change request (reference: Dublin Core). It is likely that the target resource will be a &lt;code&gt;foaf:Person&lt;/code&gt; but that is not necessarily the case.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/contributor&quot;)]
+[OslcName(&quot;contributor&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcTitle(&quot;contributor&quot;)]
+public HashSet&lt;Uri&gt; Contributor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Created_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Created*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Created" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Created">
+  Created
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Timestamp of resource creation (reference: Dublin Core).&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/created&quot;)]
+[OslcName(&quot;created&quot;)]
+[OslcValueType(ValueType.DateTime)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;created&quot;)]
+public DateTimeOffset? Created { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Creator_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Creator*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Creator" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Creator">
+  Creator
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Creator or creators of resource (reference: Dublin Core). It is likely that the target resource will be a &lt;code&gt;foaf:Person&lt;/code&gt; but that is not necessarily the case.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/creator&quot;)]
+[OslcName(&quot;creator&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcTitle(&quot;creator&quot;)]
+public HashSet&lt;Uri&gt; Creator { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Description_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Description*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Description" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Description">
+  Description
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Descriptive text (reference: Dublin Core) about resource represented as rich text in XHTML content. SHOULD include only content that is valid and suitable inside an XHTML &amp;lt;div&amp;gt; element.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/description&quot;)]
+[OslcName(&quot;description&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+[OslcTitle(&quot;description&quot;)]
+public string? Description { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_DiscussedBy_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.DiscussedBy*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_DiscussedBy" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.DiscussedBy">
+  DiscussedBy
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A series of notes and comments about this change request.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#discussedBy&quot;)]
+[OslcName(&quot;discussedBy&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Discussion&quot; })]
+[OslcTitle(&quot;discussedBy&quot;)]
+public Uri? DiscussedBy { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Fixed_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Fixed*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Fixed" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Fixed">
+  Fixed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether or not the Change Request has been fixed.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#fixed&quot;)]
+[OslcName(&quot;fixed&quot;)]
+[OslcValueType(ValueType.Boolean)]
+[OslcTitle(&quot;fixed&quot;)]
+public bool? Fixed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Identifier_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Identifier*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Identifier" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Identifier">
+  Identifier
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A unique identifier for a resource. Assigned by the service provider when a resource is created. Not intended for end-user display.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/identifier&quot;)]
+[OslcName(&quot;identifier&quot;)]
+[OslcValueType(ValueType.String)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;identifier&quot;)]
+public string Identifier { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_InProgress_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.InProgress*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_InProgress" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.InProgress">
+  InProgress
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether or not the Change Request in a state indicating that active work is occurring. If oslc_cm:inProgress is true, then oslc_cm:fixed and oslc_cm:closed must also be false.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#inProgress&quot;)]
+[OslcName(&quot;inProgress&quot;)]
+[OslcValueType(ValueType.Boolean)]
+[OslcTitle(&quot;inProgress&quot;)]
+public bool? InProgress { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_InstanceShape_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.InstanceShape*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_InstanceShape" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.InstanceShape">
+  InstanceShape
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Resource Shape that provides hints as to resource property value-types and allowed values.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#instanceShape&quot;)]
+[OslcName(&quot;instanceShape&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#ResourceShape&quot; })]
+[OslcTitle(&quot;instanceShape&quot;)]
+public HashSet&lt;Uri&gt; InstanceShape { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Modified_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Modified*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Modified" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Modified">
+  Modified
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Timestamp of latest resource modification (reference: Dublin Core).&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/modified&quot;)]
+[OslcName(&quot;modified&quot;)]
+[OslcValueType(ValueType.DateTime)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;modified&quot;)]
+public DateTimeOffset? Modified { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Parent_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Parent*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Parent" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Parent">
+  Parent
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L195"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The related parent change requests of the subject change request. Establishes a parent/child relationship between change requests.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#parent&quot;)]
+[OslcName(&quot;parent&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/cm#ChangeRequest&quot; })]
+[OslcTitle(&quot;Parent of Change Request&quot;)]
+public HashSet&lt;Uri&gt; Parent { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Priority_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Priority*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Priority" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Priority">
+  Priority
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Priority of this change request.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#priority&quot;)]
+[OslcName(&quot;priority&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/cm#Priority&quot; })]
+[OslcTitle(&quot;priority&quot;)]
+public HashSet&lt;Uri&gt; Priority { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_RelatedChangeRequest_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.RelatedChangeRequest*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_RelatedChangeRequest" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.RelatedChangeRequest">
+  RelatedChangeRequest
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;This relationship is loosely coupled and has no specific meaning.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#relatedChangeRequest&quot;)]
+[OslcName(&quot;relatedChangeRequest&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcTitle(&quot;Related ChangeRequest&quot;)]
+public HashSet&lt;Uri&gt; RelatedChangeRequest { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Reviewed_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Reviewed*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Reviewed" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Reviewed">
+  Reviewed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether or not the Change Request has been reviewed.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#reviewed&quot;)]
+[OslcName(&quot;reviewed&quot;)]
+[OslcValueType(ValueType.Boolean)]
+[OslcTitle(&quot;reviewed&quot;)]
+public bool? Reviewed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_ServiceProvider_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.ServiceProvider*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_ServiceProvider" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.ServiceProvider">
+  ServiceProvider
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L236"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A link to the resource&#39;s OSLC Service Provider. There may be cases when the\nsubject resource is available from a service provider that implements multiple domain\nspecifications, which could result in multiple values for this property.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#serviceProvider&quot;)]
+[OslcName(&quot;serviceProvider&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#ServiceProvider&quot; })]
+[OslcTitle(&quot;serviceProvider&quot;)]
+public HashSet&lt;Uri&gt; ServiceProvider { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Severity_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Severity*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Severity" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Severity">
+  Severity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L247"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Severity or criticality of this change request.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#severity&quot;)]
+[OslcName(&quot;severity&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/cm#Severity&quot; })]
+[OslcTitle(&quot;severity&quot;)]
+public HashSet&lt;Uri&gt; Severity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_ShortTitle_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.ShortTitle*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_ShortTitle" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.ShortTitle">
+  ShortTitle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Short name identifying a resource, often used as an abbreviated identifier for presentation to end-users. SHOULD include only content that is valid inside an XHTML &amp;lt;span&amp;gt; element.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#shortTitle&quot;)]
+[OslcName(&quot;shortTitle&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+[OslcTitle(&quot;Short title&quot;)]
+public string? ShortTitle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_State_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.State*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_State" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.State">
+  State
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L267"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Used to indicate the state of the change request. This property is often read-only, but could be changed using OSLC Actions.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#state&quot;)]
+[OslcName(&quot;state&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/cm#State&quot; })]
+[OslcTitle(&quot;state&quot;)]
+public string? State { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Status_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Status*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Status" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Status">
+  Status
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L276"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Used to indicate the status of the change request. This property is often read-only.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#status&quot;)]
+[OslcName(&quot;status&quot;)]
+[OslcValueType(ValueType.String)]
+[OslcTitle(&quot;status&quot;)]
+public string? Status { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Subject_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Subject*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Subject" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Subject">
+  Subject
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L285"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Tag or keyword for a resource. Each occurrence of a dcterms:subject property denotes an additional tag for the resource.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/subject&quot;)]
+[OslcName(&quot;subject&quot;)]
+[OslcValueType(ValueType.String)]
+[OslcTitle(&quot;subject&quot;)]
+public HashSet&lt;string&gt; Subject { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Title_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Title*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Title" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Title">
+  Title
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L294"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Title (reference: Dublin Core) or often a single line summary of the resource represented as rich text in XHTML content. SHOULD include only content that is valid and suitable inside an XHTML &amp;lt;div&amp;gt; element.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/title&quot;)]
+[OslcName(&quot;title&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+[OslcTitle(&quot;title&quot;)]
+public string Title { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_TracksChangeSet_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.TracksChangeSet*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_TracksChangeSet" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.TracksChangeSet">
+  TracksChangeSet
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L303"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Tracks a resource that represents a set of changes on the resource.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#tracksChangeSet&quot;)]
+[OslcName(&quot;tracksChangeSet&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/config#ChangeSet&quot; })]
+[OslcTitle(&quot;Tracks Change Set&quot;)]
+public HashSet&lt;Uri&gt; TracksChangeSet { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Verified_" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Verified*"></a>
+
+  <h3 id="OSLC4Net_Domains_ChangeManagement_ChangeNotice_Verified" data-uid="OSLC4Net.Domains.ChangeManagement.ChangeNotice.Verified">
+  Verified
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L314"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether or not the resolution or fix of the Change Request has been verified.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/cm#verified&quot;)]
+[OslcName(&quot;verified&quot;)]
+[OslcValueType(ValueType.Boolean)]
+[OslcTitle(&quot;verified&quot;)]
+public bool? Verified { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/ChangeManagementDomain.cs/#L21" class="edit-link">Edit this page</a>
+          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ChangeManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ChangeManagement.ChangeNotice.Shape.g.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -101,8 +101,9 @@ Class InvocationExpression  <a class="header-action link-secondary" title="View 
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcShape(&quot;https://www.omg.org/spec/kerml/20250201/shapes#InvocationExpressionShape&quot;)]
-public record InvocationExpression : IEquatable&lt;InvocationExpression&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">[OslcNamespace(&quot;https://www.omg.org/spec/kerml/vocabulary#&quot;)]
+[OslcShape(&quot;https://www.omg.org/spec/kerml/20250201/shapes#InvocationExpressionShape&quot;)]
+public record InvocationExpression : InstantiationExpression, IEquatable&lt;AbstractResourceRecord&gt;, IEquatable&lt;Element&gt;, IEquatable&lt;Namespace&gt;, IEquatable&lt;Type&gt;, IEquatable&lt;Feature&gt;, IEquatable&lt;Step&gt;, IEquatable&lt;Expression&gt;, IEquatable&lt;InstantiationExpression&gt;, IInvocationExpression, IInstantiationExpression, IExpression, IStep, IFeature, IType, INamespace, IElement, IExtendedResource, IResource, IEquatable&lt;InvocationExpression&gt;</code></pre>
   </div>
 
 
@@ -112,6 +113,14 @@ public record InvocationExpression : IEquatable&lt;InvocationExpression&gt;</cod
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.KerML.Element.html">Element</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.KerML.Namespace.html">Namespace</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.KerML.Type.html">Type</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.KerML.Feature.html">Feature</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.KerML.Step.html">Step</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.KerML.Expression.html">Expression</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.KerML.InstantiationExpression.html">InstantiationExpression</a></div>
       <div><span class="xref">InvocationExpression</span></div>
     </dd>
   </dl>
@@ -119,14 +128,71 @@ public record InvocationExpression : IEquatable&lt;InvocationExpression&gt;</cod
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.KerML.Element.html">Element</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.KerML.Namespace.html">Namespace</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.KerML.Type.html">Type</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.KerML.Feature.html">Feature</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.KerML.Step.html">Step</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.KerML.Expression.html">Expression</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.KerML.InstantiationExpression.html">InstantiationExpression</a>&gt;</div>
+      <div><a class="xref" href="OSLC4Net.Domains.KerML.IInvocationExpression.html">IInvocationExpression</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.KerML.IInstantiationExpression.html">IInstantiationExpression</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.KerML.IExpression.html">IExpression</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.KerML.IStep.html">IStep</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.KerML.IFeature.html">IFeature</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.KerML.IType.html">IType</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.KerML.INamespace.html">INamespace</a></div>
+      <div><a class="xref" href="OSLC4Net.Domains.KerML.IElement.html">IElement</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IExtendedResource.html">IExtendedResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.KerML.InvocationExpression.html">InvocationExpression</a>&gt;</div>
     </dd>
   </dl>
 
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="OSLC4Net.Domains.KerML.OperatorExpression.html">OperatorExpression</a></div>
+    </dd>
+  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="OSLC4Net.Domains.KerML.Feature.html#OSLC4Net_Domains_KerML_Feature_Feature2">Feature.Feature2</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_About">AbstractResourceRecord.About</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_Types">AbstractResourceRecord.Types</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_ExtendedProperties">AbstractResourceRecord.ExtendedProperties</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetAbout">AbstractResourceRecord.GetAbout()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetAbout_System_Uri_">AbstractResourceRecord.SetAbout(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetTypes">AbstractResourceRecord.GetTypes()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetTypes_System_Collections_Generic_ICollection_System_Uri__">AbstractResourceRecord.SetTypes(ICollection&lt;Uri&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_AddType_System_Uri_">AbstractResourceRecord.AddType(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__">AbstractResourceRecord.SetExtendedProperties(IDictionary&lt;QName, object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetExtendedProperties">AbstractResourceRecord.GetExtendedProperties()</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -149,6 +215,3871 @@ public record InvocationExpression : IEquatable&lt;InvocationExpression&gt;</cod
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression__ctor_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression__ctor" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.#ctor">
+  InvocationExpression()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InvocationExpression()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression__ctor_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression__ctor_System_Uri_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.#ctor(System.Uri)">
+  InvocationExpression(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InvocationExpression(Uri about)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>about</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_AliasIds_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.AliasIds*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_AliasIds" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.AliasIds">
+  AliasIds
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Various alternative identifiers for this Element. Generally, these will be set by tools.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#aliasIds&quot;)]
+[OslcName(&quot;aliasIds&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;aliasIds&quot;)]
+public HashSet&lt;string&gt; AliasIds { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Argument_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Argument*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Argument" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Argument">
+  Argument
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;Expressions&lt;/code&gt; whose &lt;code&gt;results&lt;/code&gt; are bound to &lt;code&gt;features&lt;/code&gt; of the &lt;code&gt;instantiatedType&lt;/code&gt;. The &lt;code&gt;arguments&lt;/code&gt; are ordered consistent with the order of the &lt;code&gt;features&lt;/code&gt;, though they may not be one-to-one with all the &lt;code&gt;features&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#argument&quot;)]
+[OslcName(&quot;argument&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Expression&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;argument&quot;)]
+public HashSet&lt;Uri&gt; Argument { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Behavior_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Behavior*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Behavior" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Behavior">
+  Behavior
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;Behaviors&lt;/code&gt; that type this &lt;code&gt;Step&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#behavior&quot;)]
+[OslcName(&quot;behavior&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Behavior&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;behavior&quot;)]
+public HashSet&lt;Uri&gt; Behavior { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_ChainingFeature_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.ChainingFeature*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_ChainingFeature" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.ChainingFeature">
+  ChainingFeature
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;Feature&lt;/code&gt; that are chained together to determine the values of this &lt;code&gt;Feature&lt;/code&gt;, derived from the &lt;code&gt;chainingFeatures&lt;/code&gt; of the &lt;code&gt;ownedFeatureChainings&lt;/code&gt; of this &lt;code&gt;Feature&lt;/code&gt;, in the same order. The values of a &lt;code&gt;Feature&lt;/code&gt; with &lt;code&gt;chainingFeatures&lt;/code&gt; are the same as values of the last &lt;code&gt;Feature&lt;/code&gt; in the chain, which can be found by starting with the values of the first &lt;code&gt;Feature&lt;/code&gt; (for each instance of the domain of the original &lt;code&gt;Feature&lt;/code&gt;), then using each of those as domain instances to find the values of the second &lt;code&gt;Feature&lt;/code&gt; in chainingFeatures, and so on, to values of the last &lt;code&gt;Feature&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#chainingFeature&quot;)]
+[OslcName(&quot;chainingFeature&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;chainingFeature&quot;)]
+public HashSet&lt;Uri&gt; ChainingFeature { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Contributor_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Contributor*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Contributor" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Contributor">
+  Contributor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Contributor or contributors to the resource. It is likely that the target resource will be a foaf:Person but that is not necessarily the case.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/contributor&quot;)]
+[OslcName(&quot;contributor&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;contributor&quot;)]
+public HashSet&lt;Uri&gt; Contributor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Created_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Created*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Created" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Created">
+  Created
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Timestamp of resource creation.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/created&quot;)]
+[OslcName(&quot;created&quot;)]
+[OslcValueType(ValueType.DateTime)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;created&quot;)]
+public DateTimeOffset? Created { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Creator_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Creator*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Creator" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Creator">
+  Creator
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Creator or creators of the resource. It is likely that the target resource will be a foaf:Person but that is not necessarily the case.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/creator&quot;)]
+[OslcName(&quot;creator&quot;)]
+[OslcValueType(ValueType.AnyResource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;creator&quot;)]
+public HashSet&lt;Uri&gt; Creator { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_CrossFeature_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.CrossFeature*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_CrossFeature" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.CrossFeature">
+  CrossFeature
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The second &lt;code&gt;chainingFeature&lt;/code&gt; of the &lt;code&gt;crossedFeature&lt;/code&gt; of the &lt;code&gt;ownedCrossSubsetting&lt;/code&gt; of this &lt;code&gt;Feature&lt;/code&gt;, if it has one. Semantically, the values of the &lt;code&gt;crossFeature&lt;/code&gt; of an end &lt;code&gt;Feature&lt;/code&gt; must include all values of the end &lt;code&gt;Feature&lt;/code&gt; obtained when navigating from values of the other end &lt;code&gt;Features&lt;/code&gt; of the same &lt;code&gt;owningType&lt;/code&gt;.\n.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#crossFeature&quot;)]
+[OslcName(&quot;crossFeature&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;crossFeature&quot;)]
+public Uri? CrossFeature { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Dctype_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Dctype*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Dctype" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Dctype">
+  Dctype
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A short string representation for the type, for example ‘Car’.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/type&quot;)]
+[OslcName(&quot;dctype&quot;)]
+[OslcValueType(ValueType.String)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;dctype&quot;)]
+public HashSet&lt;string&gt; Dctype { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_DeclaredName_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.DeclaredName*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_DeclaredName" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.DeclaredName">
+  DeclaredName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The declared name of this &lt;code&gt;Element&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#declaredName&quot;)]
+[OslcName(&quot;declaredName&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;declaredName&quot;)]
+public string? DeclaredName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_DeclaredShortName_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.DeclaredShortName*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_DeclaredShortName" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.DeclaredShortName">
+  DeclaredShortName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;An optional alternative name for the &lt;code&gt;Element&lt;/code&gt; that is intended to be shorter or in some way more succinct than its primary &lt;code&gt;name&lt;/code&gt;. It may act as a modeler-specified identifier for the &lt;code&gt;Element&lt;/code&gt;, though it is then the responsibility of the modeler to maintain the uniqueness of this identifier within a model or relative to some other context.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#declaredShortName&quot;)]
+[OslcName(&quot;declaredShortName&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;declaredShortName&quot;)]
+public string? DeclaredShortName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Derives_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Derives*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Derives" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Derives">
+  Derives
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The resource that derives from another resource originated from or is\nsignificantly influenced by the referenced resource. For example a model element derives from a\nrequirement.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://jazz.net/ns/dm/linktypes#derives&quot;)]
+[OslcName(&quot;derives&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;derives&quot;)]
+public HashSet&lt;Uri&gt; Derives { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Description_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Description*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Description" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Description">
+  Description
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Descriptive text about resource represented as rich text in XHTML content.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/description&quot;)]
+[OslcName(&quot;description&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;description&quot;)]
+public string? Description { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_DifferencingType_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.DifferencingType*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_DifferencingType" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.DifferencingType">
+  DifferencingType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The interpretations of a &lt;code&gt;Type&lt;/code&gt; with &lt;code&gt;differencingTypes&lt;/code&gt; are asserted to be those of the first of those &lt;code&gt;Types&lt;/code&gt;, but not including those of the remaining &lt;code&gt;Types&lt;/code&gt;. For example, a &lt;code&gt;Classifier&lt;/code&gt; might be the difference of a &lt;code&gt;Classifier&lt;/code&gt; for people and another for people of a particular nationality, leaving people who are not of that nationality. Similarly, a feature of people might be the difference between a feature for their children and a &lt;code&gt;Classifier&lt;/code&gt; for people of a particular sex, identifying their children not of that sex (because the interpretations of the children &lt;code&gt;Feature&lt;/code&gt; that identify those of that sex are also interpretations of the &lt;code&gt;Classifier&lt;/code&gt; for that sex).&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#differencingType&quot;)]
+[OslcName(&quot;differencingType&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Type&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;differencingType&quot;)]
+public HashSet&lt;Uri&gt; DifferencingType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_DirectedFeature_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.DirectedFeature*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_DirectedFeature" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.DirectedFeature">
+  DirectedFeature
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;features&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; that have a non-null &lt;code&gt;direction&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#directedFeature&quot;)]
+[OslcName(&quot;directedFeature&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;directedFeature&quot;)]
+public HashSet&lt;Uri&gt; DirectedFeature { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Direction_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Direction*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Direction" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Direction">
+  Direction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L188"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Indicates how values of this &lt;code&gt;Feature&lt;/code&gt; are determined or used (as specified for the &lt;code&gt;FeatureDirectionKind&lt;/code&gt;).&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#direction&quot;)]
+[OslcName(&quot;direction&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;direction&quot;)]
+public string? Direction { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Documentation_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Documentation*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Documentation" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Documentation">
+  Documentation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The Documentation owned by this Element.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#documentation&quot;)]
+[OslcName(&quot;documentation&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Documentation&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;documentation&quot;)]
+public HashSet&lt;Uri&gt; Documentation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Elaborates_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Elaborates*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Elaborates" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Elaborates">
+  Elaborates
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L209"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;This resource elaborates the referenced resource.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://jazz.net/ns/dm/linktypes#elaborates&quot;)]
+[OslcName(&quot;elaborates&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;elaborates&quot;)]
+public HashSet&lt;Uri&gt; Elaborates { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_ElementId_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.ElementId*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_ElementId" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.ElementId">
+  ElementId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The globally unique identifier for this Element. This is intended to be set by tooling, and it must not change during the lifetime of the Element.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#elementId&quot;)]
+[OslcName(&quot;elementId&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;elementId&quot;)]
+public string ElementId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_EndFeature_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.EndFeature*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_EndFeature" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.EndFeature">
+  EndFeature
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;All &lt;code&gt;features&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; with &lt;code&gt;isEnd = true&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#endFeature&quot;)]
+[OslcName(&quot;endFeature&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;endFeature&quot;)]
+public HashSet&lt;Uri&gt; EndFeature { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_EndOwningType_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.EndOwningType*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_EndOwningType" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.EndOwningType">
+  EndOwningType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;Type&lt;/code&gt; that is related to this &lt;code&gt;Feature&lt;/code&gt; by an &lt;code&gt;EndFeatureMembership&lt;/code&gt; in which the &lt;code&gt;Feature&lt;/code&gt; is an &lt;code&gt;ownedMemberFeature&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#endOwningType&quot;)]
+[OslcName(&quot;endOwningType&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Type&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;endOwningType&quot;)]
+public Uri? EndOwningType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_External_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.External*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_External" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.External">
+  External
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L254"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A generic link from a resource to an external web page.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://jazz.net/ns/dm/linktypes#external&quot;)]
+[OslcName(&quot;external&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;external&quot;)]
+public HashSet&lt;Uri&gt; External { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Feature_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Feature*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Feature" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Feature">
+  Feature
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L266"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedMemberFeatures&lt;/code&gt; of the &lt;code&gt;featureMemberships&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#feature&quot;)]
+[OslcName(&quot;feature&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;feature&quot;)]
+public HashSet&lt;Uri&gt; Feature { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_FeatureMembership_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.FeatureMembership*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_FeatureMembership" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.FeatureMembership">
+  FeatureMembership
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L278"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;FeatureMemberships&lt;/code&gt; for &lt;code&gt;features&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt;, which include all &lt;code&gt;ownedFeatureMemberships&lt;/code&gt; and those &lt;code&gt;inheritedMemberships&lt;/code&gt; that are &lt;code&gt;FeatureMemberships&lt;/code&gt; (but does &lt;em&gt;not&lt;/em&gt; include any &lt;code&gt;importedMemberships&lt;/code&gt;).&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#featureMembership&quot;)]
+[OslcName(&quot;featureMembership&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#FeatureMembership&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;featureMembership&quot;)]
+public HashSet&lt;Uri&gt; FeatureMembership { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_FeatureTarget_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.FeatureTarget*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_FeatureTarget" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.FeatureTarget">
+  FeatureTarget
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L290"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The last of the &lt;code&gt;chainingFeatures&lt;/code&gt; of this &lt;code&gt;Feature&lt;/code&gt;, if it has any. Otherwise, this &lt;code&gt;Feature&lt;/code&gt; itself.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#featureTarget&quot;)]
+[OslcName(&quot;featureTarget&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;featureTarget&quot;)]
+public Uri FeatureTarget { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_FeaturingType_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.FeaturingType*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_FeaturingType" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.FeaturingType">
+  FeaturingType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L302"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;&lt;code&gt;Types&lt;/code&gt; that feature this &lt;code&gt;Feature&lt;/code&gt;, such that any instance in the domain of the &lt;code&gt;Feature&lt;/code&gt; must be classified by all of these &lt;code&gt;Types&lt;/code&gt;, including at least all the &lt;code&gt;featuringTypes&lt;/code&gt; of its &lt;code&gt;typeFeaturings&lt;/code&gt;.  If the &lt;code&gt;Feature&lt;/code&gt; is chained, then the &lt;code&gt;featuringTypes&lt;/code&gt; of the first &lt;code&gt;Feature&lt;/code&gt; in the chain are also &lt;code&gt;featuringTypes&lt;/code&gt; of the chained &lt;code&gt;Feature&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#featuringType&quot;)]
+[OslcName(&quot;featuringType&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Type&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;featuringType&quot;)]
+public HashSet&lt;Uri&gt; FeaturingType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Function_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Function*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Function" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Function">
+  Function
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L314"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;Function&lt;/code&gt; that types this &lt;code&gt;Expression&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#function&quot;)]
+[OslcName(&quot;function&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Function&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;function&quot;)]
+public Uri? Function { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Identifier_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Identifier*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Identifier" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Identifier">
+  Identifier
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L326"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A unique identifier for a resource. Typically read-only and assigned by the\nservice provider when a resource is created. Not typically intended for end-user display.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/identifier&quot;)]
+[OslcName(&quot;identifier&quot;)]
+[OslcValueType(ValueType.String)]
+[OslcReadOnly(true)]
+[OslcTitle(&quot;identifier&quot;)]
+public string Identifier { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_ImportedMembership_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.ImportedMembership*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_ImportedMembership" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.ImportedMembership">
+  ImportedMembership
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L336"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;Memberships&lt;/code&gt; in this &lt;code&gt;Namespace&lt;/code&gt; that result from the &lt;code&gt;ownedImports&lt;/code&gt; of this &lt;code&gt;Namespace&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#importedMembership&quot;)]
+[OslcName(&quot;importedMembership&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Membership&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;importedMembership&quot;)]
+public HashSet&lt;Uri&gt; ImportedMembership { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_InheritedFeature_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.InheritedFeature*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_InheritedFeature" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.InheritedFeature">
+  InheritedFeature
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L348"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;All the &lt;code&gt;memberFeatures&lt;/code&gt; of the &lt;code&gt;inheritedMemberships&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; that are &lt;code&gt;FeatureMemberships&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#inheritedFeature&quot;)]
+[OslcName(&quot;inheritedFeature&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;inheritedFeature&quot;)]
+public HashSet&lt;Uri&gt; InheritedFeature { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_InheritedMembership_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.InheritedMembership*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_InheritedMembership" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.InheritedMembership">
+  InheritedMembership
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L360"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;All &lt;code&gt;Memberships&lt;/code&gt; inherited by this &lt;code&gt;Type&lt;/code&gt; via &lt;code&gt;Specialization&lt;/code&gt; or &lt;code&gt;Conjugation&lt;/code&gt;. These are included in the derived union for the &lt;code&gt;memberships&lt;/code&gt; of the &lt;code&gt;Type&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#inheritedMembership&quot;)]
+[OslcName(&quot;inheritedMembership&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Membership&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;inheritedMembership&quot;)]
+public HashSet&lt;Uri&gt; InheritedMembership { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Input_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Input*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Input" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Input">
+  Input
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L372"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;All &lt;code&gt;features&lt;/code&gt; related to this &lt;code&gt;Type&lt;/code&gt; by &lt;code&gt;FeatureMemberships&lt;/code&gt; that have &lt;code&gt;direction&lt;/code&gt; &lt;code&gt;in&lt;/code&gt; or &lt;code&gt;inout&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#input&quot;)]
+[OslcName(&quot;input&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;input&quot;)]
+public HashSet&lt;Uri&gt; Input { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_InstanceShape_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.InstanceShape*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_InstanceShape" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.InstanceShape">
+  InstanceShape
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L384"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The URI of a Resource Shape that describes the possible properties, occurrence,\nvalue types, allowed values and labels. This shape information is useful in displaying the subject\nresource as well as guiding clients in performing modifications. Instance shapes may be specific\nto the authenticated user associated with the request that retrieved the resource, the current\nstate of the resource and other factors and thus should not be cached.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#instanceShape&quot;)]
+[OslcName(&quot;instanceShape&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#ResourceShape&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;instanceShape&quot;)]
+public Uri? InstanceShape { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_InstantiatedType_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.InstantiatedType*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_InstantiatedType" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.InstantiatedType">
+  InstantiatedType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L396"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;Type&lt;/code&gt; that is being instantiated.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#instantiatedType&quot;)]
+[OslcName(&quot;instantiatedType&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Type&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;instantiatedType&quot;)]
+public Uri InstantiatedType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_IntersectingType_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IntersectingType*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_IntersectingType" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IntersectingType">
+  IntersectingType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L408"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The interpretations of a &lt;code&gt;Type&lt;/code&gt; with &lt;code&gt;intersectingTypes&lt;/code&gt; are asserted to be those in common among the &lt;code&gt;intersectingTypes&lt;/code&gt;, which are the &lt;code&gt;Types&lt;/code&gt; derived from the &lt;code&gt;intersectingType&lt;/code&gt; of the &lt;code&gt;ownedIntersectings&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt;. For example, a &lt;code&gt;Classifier&lt;/code&gt; might be an intersection of &lt;code&gt;Classifiers&lt;/code&gt; for people of a particular sex and of a particular nationality. Similarly, a feature for people&#39;s children of a particular sex might be the intersection of a &lt;code&gt;Feature&lt;/code&gt; for their children and a &lt;code&gt;Classifier&lt;/code&gt; for people of that sex (because the interpretations of the children &lt;code&gt;Feature&lt;/code&gt; that identify those of that sex are also interpretations of the Classifier for that sex).&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#intersectingType&quot;)]
+[OslcName(&quot;intersectingType&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Type&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;intersectingType&quot;)]
+public HashSet&lt;Uri&gt; IntersectingType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_IsAbstract_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsAbstract*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_IsAbstract" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsAbstract">
+  IsAbstract
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L420"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Indicates whether instances of this &lt;code&gt;Type&lt;/code&gt; must also be instances of at least one of its specialized &lt;code&gt;Types&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#isAbstract&quot;)]
+[OslcName(&quot;isAbstract&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isAbstract&quot;)]
+public string IsAbstract { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_IsComposite_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsComposite*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_IsComposite" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsComposite">
+  IsComposite
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L429"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether the &lt;code&gt;Feature&lt;/code&gt; is a composite &lt;code&gt;feature&lt;/code&gt; of its &lt;code&gt;featuringType&lt;/code&gt;. If so, the values of the &lt;code&gt;Feature&lt;/code&gt; cannot exist after its featuring instance no longer does and cannot be values of another composite feature that is not on the same featuring instance.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#isComposite&quot;)]
+[OslcName(&quot;isComposite&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isComposite&quot;)]
+public string IsComposite { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_IsConjugated_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsConjugated*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_IsConjugated" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsConjugated">
+  IsConjugated
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L438"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Indicates whether this &lt;code&gt;Type&lt;/code&gt; has an &lt;code&gt;ownedConjugator&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#isConjugated&quot;)]
+[OslcName(&quot;isConjugated&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isConjugated&quot;)]
+public string IsConjugated { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_IsConstant_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsConstant*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_IsConstant" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsConstant">
+  IsConstant
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L447"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;If &lt;code&gt;isVariable&lt;/code&gt; is true, then whether the value of this &lt;code&gt;Feature&lt;/code&gt; nevertheless does not change over all &lt;code&gt;&lt;em&gt;snapshots&lt;/em&gt;&lt;/code&gt; of its &lt;code&gt;owningType&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#isConstant&quot;)]
+[OslcName(&quot;isConstant&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isConstant&quot;)]
+public string IsConstant { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_IsDerived_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsDerived*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_IsDerived" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsDerived">
+  IsDerived
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L456"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether the values of this &lt;code&gt;Feature&lt;/code&gt; can always be computed from the values of other &lt;code&gt;Features&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#isDerived&quot;)]
+[OslcName(&quot;isDerived&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isDerived&quot;)]
+public string IsDerived { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_IsEnd_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsEnd*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_IsEnd" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsEnd">
+  IsEnd
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L465"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether or not this &lt;code&gt;Feature&lt;/code&gt; is an end &lt;code&gt;Feature&lt;/code&gt;. An end &lt;code&gt;Feature&lt;/code&gt; always has multiplicity 1, mapping each of its domain instances to a single co-domain instance. However, it may have a &lt;code&gt;crossFeature&lt;/code&gt;, in which case values of the &lt;code&gt;crossFeature&lt;/code&gt; must be the same as those found by navigation across instances of the &lt;code&gt;owningType&lt;/code&gt; from values of other end &lt;code&gt;Features&lt;/code&gt; to values of this Feature. If the &lt;code&gt;owningType&lt;/code&gt; has &lt;em&gt;n&lt;/em&gt; end &lt;code&gt;Features&lt;/code&gt;, then the multiplicity, ordering, and uniqueness declared for the &lt;code&gt;crossFeature&lt;/code&gt; of any one of these end &lt;code&gt;Features&lt;/code&gt; constrains the cardinality, ordering, and uniqueness of the collection of values of that &lt;code&gt;Feature&lt;/code&gt; reached by navigation when the values of the other &lt;em&gt;n-1&lt;/em&gt; end &lt;code&gt;Features&lt;/code&gt; are held fixed.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#isEnd&quot;)]
+[OslcName(&quot;isEnd&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isEnd&quot;)]
+public string IsEnd { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_IsImpliedIncluded_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsImpliedIncluded*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_IsImpliedIncluded" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsImpliedIncluded">
+  IsImpliedIncluded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L474"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether all necessary implied Relationships have been included in the &lt;code&gt;ownedRelationships&lt;/code&gt; of this Element. This property may be true, even if there are not actually any &lt;code&gt;ownedRelationships&lt;/code&gt; with &lt;code&gt;isImplied = true&lt;/code&gt;, meaning that no such Relationships are actually implied for this Element. However, if it is false, then &lt;code&gt;ownedRelationships&lt;/code&gt; may &lt;em&gt;not&lt;/em&gt; contain any implied Relationships. That is, either &lt;em&gt;all&lt;/em&gt; required implied Relationships must be included, or none of them.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#isImpliedIncluded&quot;)]
+[OslcName(&quot;isImpliedIncluded&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isImpliedIncluded&quot;)]
+public string IsImpliedIncluded { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_IsLibraryElement_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsLibraryElement*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_IsLibraryElement" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsLibraryElement">
+  IsLibraryElement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L483"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether this Element is contained in the ownership tree of a library model.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#isLibraryElement&quot;)]
+[OslcName(&quot;isLibraryElement&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isLibraryElement&quot;)]
+public string IsLibraryElement { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_IsModelLevelEvaluable_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsModelLevelEvaluable*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_IsModelLevelEvaluable" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsModelLevelEvaluable">
+  IsModelLevelEvaluable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L492"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether this &lt;code&gt;Expression&lt;/code&gt; meets the constraints necessary to be evaluated at &lt;em&gt;model level&lt;/em&gt;, that is, using metadata within the model.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#isModelLevelEvaluable&quot;)]
+[OslcName(&quot;isModelLevelEvaluable&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isModelLevelEvaluable&quot;)]
+public string IsModelLevelEvaluable { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_IsOrdered_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsOrdered*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_IsOrdered" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsOrdered">
+  IsOrdered
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L501"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether an order exists for the values of this &lt;code&gt;Feature&lt;/code&gt; or not.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#isOrdered&quot;)]
+[OslcName(&quot;isOrdered&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isOrdered&quot;)]
+public string IsOrdered { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_IsPortion_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsPortion*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_IsPortion" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsPortion">
+  IsPortion
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L510"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether the values of this &lt;code&gt;Feature&lt;/code&gt; are contained in the space and time of instances of the domain of the &lt;code&gt;Feature&lt;/code&gt; and represent the same thing as those instances.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#isPortion&quot;)]
+[OslcName(&quot;isPortion&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isPortion&quot;)]
+public string IsPortion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_IsSufficient_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsSufficient*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_IsSufficient" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsSufficient">
+  IsSufficient
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L519"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether all things that meet the classification conditions of this &lt;code&gt;Type&lt;/code&gt; must be classified by the &lt;code&gt;Type&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#isSufficient&quot;)]
+[OslcName(&quot;isSufficient&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isSufficient&quot;)]
+public string IsSufficient { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_IsUnique_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsUnique*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_IsUnique" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsUnique">
+  IsUnique
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L528"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether or not values for this &lt;code&gt;Feature&lt;/code&gt; must have no duplicates or not.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#isUnique&quot;)]
+[OslcName(&quot;isUnique&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isUnique&quot;)]
+public string IsUnique { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_IsVariable_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsVariable*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_IsVariable" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.IsVariable">
+  IsVariable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L537"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Whether the value of this &lt;code&gt;Feature&lt;/code&gt; might vary over time. That is, whether the &lt;code&gt;Feature&lt;/code&gt; may have a different value for each &lt;em&gt;&lt;code&gt;snapshot&lt;/code&gt;&lt;/em&gt; of an &lt;code&gt;owningType&lt;/code&gt; that is an &lt;em&gt;&lt;code&gt;Occurrence&lt;/code&gt;&lt;/em&gt;.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#isVariable&quot;)]
+[OslcName(&quot;isVariable&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;isVariable&quot;)]
+public string IsVariable { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Member_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Member*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Member" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Member">
+  Member
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L546"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The set of all member &lt;code&gt;Elements&lt;/code&gt; of this &lt;code&gt;Namespace&lt;/code&gt;, which are the &lt;code&gt;memberElements&lt;/code&gt; of all &lt;code&gt;memberships&lt;/code&gt; of the &lt;code&gt;Namespace&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#member&quot;)]
+[OslcName(&quot;member&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Element&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;member&quot;)]
+public HashSet&lt;Uri&gt; Member { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Membership_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Membership*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Membership" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Membership">
+  Membership
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L558"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;All &lt;code&gt;Memberships&lt;/code&gt; in this &lt;code&gt;Namespace&lt;/code&gt;, including (at least) the union of &lt;code&gt;ownedMemberships&lt;/code&gt; and &lt;code&gt;importedMemberships&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#membership&quot;)]
+[OslcName(&quot;membership&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Membership&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;membership&quot;)]
+public HashSet&lt;Uri&gt; Membership { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Modified_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Modified*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Modified" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Modified">
+  Modified
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L570"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Timestamp of latest resource modification.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/modified&quot;)]
+[OslcName(&quot;modified&quot;)]
+[OslcValueType(ValueType.DateTime)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;modified&quot;)]
+public DateTimeOffset? Modified { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Multiplicity_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Multiplicity*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Multiplicity" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Multiplicity">
+  Multiplicity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L580"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;An &lt;code&gt;ownedMember&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; that is a &lt;code&gt;Multiplicity&lt;/code&gt;, which constraints the cardinality of the &lt;code&gt;Type&lt;/code&gt;. If there is no such &lt;code&gt;ownedMember&lt;/code&gt;, then the cardinality of this &lt;code&gt;Type&lt;/code&gt; is constrained by all the &lt;code&gt;Multiplicity&lt;/code&gt; constraints applicable to any direct supertypes.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#multiplicity&quot;)]
+[OslcName(&quot;multiplicity&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Multiplicity&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;multiplicity&quot;)]
+public Uri? Multiplicity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Name_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Name*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Name" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L592"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The name to be used for this &lt;code&gt;Element&lt;/code&gt; during name resolution within its &lt;code&gt;owningNamespace&lt;/code&gt;. This is derived using the &lt;code&gt;effectiveName()&lt;/code&gt; operation. By default, it is the same as the &lt;code&gt;declaredName&lt;/code&gt;, but this is overridden for certain kinds of &lt;code&gt;Elements&lt;/code&gt; to compute a &lt;code&gt;name&lt;/code&gt; even when the &lt;code&gt;declaredName&lt;/code&gt; is null.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#name&quot;)]
+[OslcName(&quot;name&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;name&quot;)]
+public string? Name { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Output_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Output*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Output" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Output">
+  Output
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L601"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;All &lt;code&gt;features&lt;/code&gt; related to this &lt;code&gt;Type&lt;/code&gt; by &lt;code&gt;FeatureMemberships&lt;/code&gt; that have &lt;code&gt;direction&lt;/code&gt; &lt;code&gt;out&lt;/code&gt; or &lt;code&gt;inout&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#output&quot;)]
+[OslcName(&quot;output&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;output&quot;)]
+public HashSet&lt;Uri&gt; Output { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedAnnotation_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedAnnotation*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedAnnotation" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedAnnotation">
+  OwnedAnnotation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L613"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedRelationships&lt;/code&gt; of this &lt;code&gt;Element&lt;/code&gt; that are &lt;code&gt;Annotations&lt;/code&gt;, for which this &lt;code&gt;Element&lt;/code&gt; is the &lt;code&gt;annotatedElement&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedAnnotation&quot;)]
+[OslcName(&quot;ownedAnnotation&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Annotation&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedAnnotation&quot;)]
+public HashSet&lt;Uri&gt; OwnedAnnotation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedConjugator_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedConjugator*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedConjugator" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedConjugator">
+  OwnedConjugator
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L625"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A &lt;code&gt;Conjugation&lt;/code&gt; owned by this &lt;code&gt;Type&lt;/code&gt; for which the &lt;code&gt;Type&lt;/code&gt; is the &lt;code&gt;originalType&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedConjugator&quot;)]
+[OslcName(&quot;ownedConjugator&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Conjugation&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedConjugator&quot;)]
+public Uri? OwnedConjugator { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedCrossSubsetting_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedCrossSubsetting*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedCrossSubsetting" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedCrossSubsetting">
+  OwnedCrossSubsetting
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L637"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The one &lt;code&gt;ownedSubsetting&lt;/code&gt; of this &lt;code&gt;Feature&lt;/code&gt;, if any, that is a &lt;code&gt;CrossSubsetting}, for which the &lt;code&gt;Feature&lt;/code&gt; is the &lt;code&gt;crossingFeature&lt;/code&gt;.&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedCrossSubsetting&quot;)]
+[OslcName(&quot;ownedCrossSubsetting&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#CrossSubsetting&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedCrossSubsetting&quot;)]
+public Uri? OwnedCrossSubsetting { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedDifferencing_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedDifferencing*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedDifferencing" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedDifferencing">
+  OwnedDifferencing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L649"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedRelationships&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; that are &lt;code&gt;Differencings&lt;/code&gt;, having this &lt;code&gt;Type&lt;/code&gt; as their &lt;code&gt;typeDifferenced&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedDifferencing&quot;)]
+[OslcName(&quot;ownedDifferencing&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Differencing&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedDifferencing&quot;)]
+public HashSet&lt;Uri&gt; OwnedDifferencing { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedDisjoining_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedDisjoining*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedDisjoining" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedDisjoining">
+  OwnedDisjoining
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L661"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedRelationships&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; that are &lt;code&gt;Disjoinings&lt;/code&gt;, for which the &lt;code&gt;Type&lt;/code&gt; is the &lt;code&gt;typeDisjoined&lt;/code&gt; &lt;code&gt;Type&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedDisjoining&quot;)]
+[OslcName(&quot;ownedDisjoining&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Disjoining&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedDisjoining&quot;)]
+public HashSet&lt;Uri&gt; OwnedDisjoining { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedElement_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedElement*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedElement" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedElement">
+  OwnedElement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L673"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The Elements owned by this Element, derived as the &lt;tt&gt;ownedRelatedElements&lt;/tt&gt; of the &lt;tt&gt;ownedRelationships&lt;/tt&gt; of this Element.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedElement&quot;)]
+[OslcName(&quot;ownedElement&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Element&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedElement&quot;)]
+public HashSet&lt;Uri&gt; OwnedElement { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedEndFeature_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedEndFeature*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedEndFeature" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedEndFeature">
+  OwnedEndFeature
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L685"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;All &lt;code&gt;endFeatures&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; that are &lt;code&gt;ownedFeatures&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedEndFeature&quot;)]
+[OslcName(&quot;ownedEndFeature&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedEndFeature&quot;)]
+public HashSet&lt;Uri&gt; OwnedEndFeature { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedFeature_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedFeature*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedFeature" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedFeature">
+  OwnedFeature
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L697"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedMemberFeatures&lt;/code&gt; of the &lt;code&gt;ownedFeatureMemberships&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedFeature&quot;)]
+[OslcName(&quot;ownedFeature&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedFeature&quot;)]
+public HashSet&lt;Uri&gt; OwnedFeature { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedFeatureChaining_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedFeatureChaining*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedFeatureChaining" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedFeatureChaining">
+  OwnedFeatureChaining
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L709"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedRelationships&lt;/code&gt; of this &lt;code&gt;Feature&lt;/code&gt; that are &lt;code&gt;FeatureChainings&lt;/code&gt;, for which the &lt;code&gt;Feature&lt;/code&gt; will be the &lt;code&gt;featureChained&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedFeatureChaining&quot;)]
+[OslcName(&quot;ownedFeatureChaining&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#FeatureChaining&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedFeatureChaining&quot;)]
+public HashSet&lt;Uri&gt; OwnedFeatureChaining { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedFeatureInverting_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedFeatureInverting*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedFeatureInverting" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedFeatureInverting">
+  OwnedFeatureInverting
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L721"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedRelationships&lt;/code&gt; of this &lt;code&gt;Feature&lt;/code&gt; that are &lt;code&gt;FeatureInvertings&lt;/code&gt; and for which the &lt;code&gt;Feature&lt;/code&gt; is the &lt;code&gt;featureInverted&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedFeatureInverting&quot;)]
+[OslcName(&quot;ownedFeatureInverting&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#FeatureInverting&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedFeatureInverting&quot;)]
+public HashSet&lt;Uri&gt; OwnedFeatureInverting { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedFeatureMembership_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedFeatureMembership*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedFeatureMembership" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedFeatureMembership">
+  OwnedFeatureMembership
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L733"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedMemberships&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; that are &lt;code&gt;FeatureMemberships&lt;/code&gt;, for which the &lt;code&gt;Type&lt;/code&gt; is the &lt;code&gt;owningType&lt;/code&gt;. Each such &lt;code&gt;FeatureMembership&lt;/code&gt; identifies an &lt;code&gt;ownedFeature&lt;/code&gt; of the &lt;code&gt;Type&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedFeatureMembership&quot;)]
+[OslcName(&quot;ownedFeatureMembership&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#FeatureMembership&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedFeatureMembership&quot;)]
+public HashSet&lt;Uri&gt; OwnedFeatureMembership { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedImport_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedImport*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedImport" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedImport">
+  OwnedImport
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L745"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedRelationships&lt;/code&gt; of this &lt;code&gt;Namespace&lt;/code&gt; that are &lt;code&gt;Imports&lt;/code&gt;, for which the &lt;code&gt;Namespace&lt;/code&gt; is the &lt;code&gt;importOwningNamespace&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedImport&quot;)]
+[OslcName(&quot;ownedImport&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Import&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedImport&quot;)]
+public HashSet&lt;Uri&gt; OwnedImport { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedIntersecting_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedIntersecting*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedIntersecting" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedIntersecting">
+  OwnedIntersecting
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L757"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedRelationships&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; that are &lt;code&gt;Intersectings&lt;/code&gt;, have the &lt;code&gt;Type&lt;/code&gt; as their &lt;code&gt;typeIntersected&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedIntersecting&quot;)]
+[OslcName(&quot;ownedIntersecting&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Intersecting&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedIntersecting&quot;)]
+public HashSet&lt;Uri&gt; OwnedIntersecting { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedMember_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedMember*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedMember" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedMember">
+  OwnedMember
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L769"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The owned &lt;code&gt;members&lt;/code&gt; of this &lt;code&gt;Namespace&lt;/code&gt;, which are the &lt;cpde&gt;&lt;code&gt;ownedMemberElements&lt;/code&gt; of the &lt;code&gt;ownedMemberships&lt;/code&gt; of the &lt;code&gt;Namespace&lt;/code&gt;.&lt;/cpde&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedMember&quot;)]
+[OslcName(&quot;ownedMember&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Element&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedMember&quot;)]
+public HashSet&lt;Uri&gt; OwnedMember { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedMembership_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedMembership*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedMembership" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedMembership">
+  OwnedMembership
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L781"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedRelationships&lt;/code&gt; of this &lt;code&gt;Namespace&lt;/code&gt; that are &lt;code&gt;Memberships&lt;/code&gt;, for which the &lt;code&gt;Namespace&lt;/code&gt; is the &lt;code&gt;membershipOwningNamespace&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedMembership&quot;)]
+[OslcName(&quot;ownedMembership&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Membership&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedMembership&quot;)]
+public HashSet&lt;Uri&gt; OwnedMembership { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedRedefinition_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedRedefinition*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedRedefinition" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedRedefinition">
+  OwnedRedefinition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L793"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedSubsettings&lt;/code&gt; of this &lt;code&gt;Feature&lt;/code&gt; that are &lt;code&gt;Redefinitions&lt;/code&gt;, for which the &lt;code&gt;Feature&lt;/code&gt; is the &lt;code&gt;redefiningFeature&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedRedefinition&quot;)]
+[OslcName(&quot;ownedRedefinition&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Redefinition&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedRedefinition&quot;)]
+public HashSet&lt;Uri&gt; OwnedRedefinition { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedReferenceSubsetting_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedReferenceSubsetting*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedReferenceSubsetting" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedReferenceSubsetting">
+  OwnedReferenceSubsetting
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L805"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The one &lt;code&gt;ownedSubsetting&lt;/code&gt; of this &lt;code&gt;Feature&lt;/code&gt;, if any, that is a &lt;code&gt;ReferenceSubsetting&lt;/code&gt;, for which the &lt;code&gt;Feature&lt;/code&gt; is the &lt;code&gt;referencingFeature&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedReferenceSubsetting&quot;)]
+[OslcName(&quot;ownedReferenceSubsetting&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#ReferenceSubsetting&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedReferenceSubsetting&quot;)]
+public Uri? OwnedReferenceSubsetting { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedRelationship_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedRelationship*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedRelationship" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedRelationship">
+  OwnedRelationship
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L817"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The Relationships for which this Element is the &lt;tt&gt;owningRelatedElement&lt;/tt&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedRelationship&quot;)]
+[OslcName(&quot;ownedRelationship&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Relationship&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedRelationship&quot;)]
+public HashSet&lt;Uri&gt; OwnedRelationship { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedSpecialization_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedSpecialization*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedSpecialization" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedSpecialization">
+  OwnedSpecialization
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L829"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedRelationships&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; that are &lt;code&gt;Specializations&lt;/code&gt;, for which the &lt;code&gt;Type&lt;/code&gt; is the &lt;code&gt;specific&lt;/code&gt; &lt;code&gt;Type&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedSpecialization&quot;)]
+[OslcName(&quot;ownedSpecialization&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Specialization&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedSpecialization&quot;)]
+public HashSet&lt;Uri&gt; OwnedSpecialization { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedSubsetting_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedSubsetting*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedSubsetting" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedSubsetting">
+  OwnedSubsetting
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L841"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedSpecializations&lt;/code&gt; of this &lt;code&gt;Feature&lt;/code&gt; that are &lt;code&gt;Subsettings&lt;/code&gt;, for which the &lt;code&gt;Feature&lt;/code&gt; is the &lt;code&gt;subsettingFeature&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedSubsetting&quot;)]
+[OslcName(&quot;ownedSubsetting&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Subsetting&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedSubsetting&quot;)]
+public HashSet&lt;Uri&gt; OwnedSubsetting { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedTypeFeaturing_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedTypeFeaturing*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedTypeFeaturing" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedTypeFeaturing">
+  OwnedTypeFeaturing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L853"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedRelationships&lt;/code&gt; of this &lt;code&gt;Feature&lt;/code&gt; that are &lt;code&gt;TypeFeaturings&lt;/code&gt; and for which the &lt;code&gt;Feature&lt;/code&gt; is the &lt;code&gt;featureOfType&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedTypeFeaturing&quot;)]
+[OslcName(&quot;ownedTypeFeaturing&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#TypeFeaturing&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedTypeFeaturing&quot;)]
+public HashSet&lt;Uri&gt; OwnedTypeFeaturing { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedTyping_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedTyping*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedTyping" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedTyping">
+  OwnedTyping
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L865"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedSpecializations&lt;/code&gt; of this &lt;code&gt;Feature&lt;/code&gt; that are &lt;code&gt;FeatureTypings&lt;/code&gt;, for which the &lt;code&gt;Feature&lt;/code&gt; is the &lt;code&gt;typedFeature&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedTyping&quot;)]
+[OslcName(&quot;ownedTyping&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#FeatureTyping&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedTyping&quot;)]
+public HashSet&lt;Uri&gt; OwnedTyping { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedUnioning_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedUnioning*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwnedUnioning" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwnedUnioning">
+  OwnedUnioning
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L877"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;ownedRelationships&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt; that are &lt;code&gt;Unionings&lt;/code&gt;, having the &lt;code&gt;Type&lt;/code&gt; as their &lt;code&gt;typeUnioned&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#ownedUnioning&quot;)]
+[OslcName(&quot;ownedUnioning&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Unioning&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;ownedUnioning&quot;)]
+public HashSet&lt;Uri&gt; OwnedUnioning { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Owner_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Owner*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Owner" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Owner">
+  Owner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L889"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The owner of this Element, derived as the &lt;code&gt;owningRelatedElement&lt;/code&gt; of the &lt;code&gt;owningRelationship&lt;/code&gt; of this Element, if any.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#owner&quot;)]
+[OslcName(&quot;owner&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Element&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;owner&quot;)]
+public Uri? Owner { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwningFeatureMembership_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwningFeatureMembership*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwningFeatureMembership" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwningFeatureMembership">
+  OwningFeatureMembership
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L901"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;FeatureMembership&lt;/code&gt; that owns this &lt;code&gt;Feature&lt;/code&gt; as an &lt;code&gt;ownedMemberFeature&lt;/code&gt;, determining its &lt;code&gt;owningType&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#owningFeatureMembership&quot;)]
+[OslcName(&quot;owningFeatureMembership&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#FeatureMembership&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;owningFeatureMembership&quot;)]
+public Uri? OwningFeatureMembership { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwningMembership_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwningMembership*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwningMembership" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwningMembership">
+  OwningMembership
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L913"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;owningRelationship&lt;/code&gt; of this &lt;code&gt;Element&lt;/code&gt;, if that &lt;code&gt;Relationship&lt;/code&gt; is a &lt;code&gt;Membership&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#owningMembership&quot;)]
+[OslcName(&quot;owningMembership&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#OwningMembership&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;owningMembership&quot;)]
+public Uri? OwningMembership { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwningNamespace_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwningNamespace*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwningNamespace" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwningNamespace">
+  OwningNamespace
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L925"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;Namespace&lt;/code&gt; that owns this &lt;code&gt;Element&lt;/code&gt;, which is the &lt;code&gt;membershipOwningNamespace&lt;/code&gt; of the &lt;code&gt;owningMembership&lt;/code&gt; of this &lt;code&gt;Element&lt;/code&gt;, if any.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#owningNamespace&quot;)]
+[OslcName(&quot;owningNamespace&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Namespace&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;owningNamespace&quot;)]
+public Uri? OwningNamespace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwningRelationship_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwningRelationship*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwningRelationship" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwningRelationship">
+  OwningRelationship
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L937"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The Relationship for which this Element is an &lt;tt&gt;ownedRelatedElement&lt;/tt&gt;, if any.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#owningRelationship&quot;)]
+[OslcName(&quot;owningRelationship&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Relationship&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;owningRelationship&quot;)]
+public Uri? OwningRelationship { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_OwningType_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwningType*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_OwningType" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.OwningType">
+  OwningType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L949"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;Type&lt;/code&gt; that is the &lt;code&gt;owningType&lt;/code&gt; of the &lt;code&gt;owningFeatureMembership&lt;/code&gt; of this &lt;code&gt;Feature&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#owningType&quot;)]
+[OslcName(&quot;owningType&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Type&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;owningType&quot;)]
+public Uri? OwningType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Parameter_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Parameter*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Parameter" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Parameter">
+  Parameter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L961"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;parameters&lt;/code&gt; of this &lt;code&gt;Step&lt;/code&gt;, which are defined as its &lt;code&gt;directedFeatures&lt;/code&gt;, whose values are passed into and/or out of a performance of the &lt;code&gt;Step&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#parameter&quot;)]
+[OslcName(&quot;parameter&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;parameter&quot;)]
+public HashSet&lt;Uri&gt; Parameter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_QualifiedName_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.QualifiedName*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_QualifiedName" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.QualifiedName">
+  QualifiedName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L973"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The full ownership-qualified name of this &lt;code&gt;Element&lt;/code&gt;, represented in a form that is valid according to the KerML textual concrete syntax for qualified names (including use of unrestricted name notation and escaped characters, as necessary). The &lt;code&gt;qualifiedName&lt;/code&gt; is null if this &lt;code&gt;Element&lt;/code&gt; has no &lt;code&gt;owningNamespace&lt;/code&gt; or if there is not a complete ownership chain of named &lt;code&gt;Namespaces&lt;/code&gt; from a root &lt;code&gt;Namespace&lt;/code&gt; to this &lt;code&gt;Element&lt;/code&gt;. If the &lt;code&gt;owningNamespace&lt;/code&gt; has other &lt;code&gt;Elements&lt;/code&gt; with the same name as this one, then the &lt;code&gt;qualifiedName&lt;/code&gt; is null for all such &lt;code&gt;Elements&lt;/code&gt; other than the first.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#qualifiedName&quot;)]
+[OslcName(&quot;qualifiedName&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;qualifiedName&quot;)]
+public string? QualifiedName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Refine_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Refine*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Refine" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Refine">
+  Refine
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L982"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The target is a refinement of the source. (e.g. a use case scenario\nmight be a refinement of a textual requirement that describes the interaction).&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://jazz.net/ns/dm/linktypes#refine&quot;)]
+[OslcName(&quot;refine&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;refine&quot;)]
+public HashSet&lt;Uri&gt; Refine { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Result_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Result*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Result" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Result">
+  Result
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L994"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#result&quot;)]
+[OslcName(&quot;result&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Feature&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;result&quot;)]
+public Uri Result { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Satisfy_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Satisfy*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Satisfy" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Satisfy">
+  Satisfy
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L1006"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The model element satisfies the requirement (e.g. The use case\nsatisfies a functional requirement).&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://jazz.net/ns/dm/linktypes#satisfy&quot;)]
+[OslcName(&quot;satisfy&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;satisfy&quot;)]
+public HashSet&lt;Uri&gt; Satisfy { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_ServiceProvider_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.ServiceProvider*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_ServiceProvider" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.ServiceProvider">
+  ServiceProvider
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L1018"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A link to the resource&#39;s OSLC Service Provider. There may be cases when the\nsubject resource is available from a service provider that implements multiple domain\nspecifications, which could result in multiple values for this property.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#serviceProvider&quot;)]
+[OslcName(&quot;serviceProvider&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#ServiceProvider&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;serviceProvider&quot;)]
+public HashSet&lt;Uri&gt; ServiceProvider { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_ShortName_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.ShortName*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_ShortName" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.ShortName">
+  ShortName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L1030"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The short name to be used for this &lt;code&gt;Element&lt;/code&gt; during name resolution within its &lt;code&gt;owningNamespace&lt;/code&gt;. This is derived using the &lt;code&gt;effectiveShortName()&lt;/code&gt; operation. By default, it is the same as the &lt;code&gt;declaredShortName&lt;/code&gt;, but this is overridden for certain kinds of &lt;code&gt;Elements&lt;/code&gt; to compute a &lt;code&gt;shortName&lt;/code&gt; even when the &lt;code&gt;declaredName&lt;/code&gt; is null.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#shortName&quot;)]
+[OslcName(&quot;shortName&quot;)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;shortName&quot;)]
+public string? ShortName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_ShortTitle_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.ShortTitle*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_ShortTitle" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.ShortTitle">
+  ShortTitle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L1039"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;{{Short name identifying a resource, often used as an abbreviated identifier for presentation to end-users. SHOULD include only content that is valid inside an XHTML &amp;lt;span&amp;gt; element}}.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#shortTitle&quot;)]
+[OslcName(&quot;shortTitle&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;shortTitle&quot;)]
+public string? ShortTitle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Source_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Source*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Source" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Source">
+  Source
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L1049"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The resource URI a client can perform a get on to obtain the original non-OSLC AM formatted resource that was used to create this resource. The source resource is usually a binary or proprietary format that the service provider can consume and convert into an OSLC AM format. The service may use content negotiation with the Accept header to obtain the desired content type.&quot;)]
+[OslcOccurs(Occurs.ZeroOrOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/source&quot;)]
+[OslcName(&quot;source&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;source&quot;)]
+public Uri? Source { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_TextualRepresentation_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.TextualRepresentation*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_TextualRepresentation" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.TextualRepresentation">
+  TextualRepresentation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L1061"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The &lt;code&gt;TextualRepresentations&lt;/code&gt; that annotate this &lt;code&gt;Element&lt;/code&gt;.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#textualRepresentation&quot;)]
+[OslcName(&quot;textualRepresentation&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#TextualRepresentation&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;textualRepresentation&quot;)]
+public HashSet&lt;Uri&gt; TextualRepresentation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Title_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Title*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Title" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Title">
+  Title
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L1073"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Title of the resource represented as rich text in XHTML content.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/title&quot;)]
+[OslcName(&quot;title&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;title&quot;)]
+public string Title { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_Trace_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Trace*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_Trace" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.Trace">
+  Trace
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L1083"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The model element has a trace to the requirement (e.g. An attribute\nor its value are traced to a requirement).&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://jazz.net/ns/dm/linktypes#trace&quot;)]
+[OslcName(&quot;trace&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Any&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;trace&quot;)]
+public HashSet&lt;Uri&gt; Trace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_KerML_InvocationExpression_UnioningType_" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.UnioningType*"></a>
+
+  <h3 id="OSLC4Net_Domains_KerML_InvocationExpression_UnioningType" data-uid="OSLC4Net.Domains.KerML.InvocationExpression.UnioningType">
+  UnioningType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.KerML/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.KerML.InvocationExpression.Shape.g.cs/#L1095"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;The interpretations of a &lt;code&gt;Type&lt;/code&gt; with &lt;code&gt;unioningTypes&lt;/code&gt; are asserted to be the same as those of all the &lt;code&gt;unioningTypes&lt;/code&gt; together, which are the &lt;code&gt;Types&lt;/code&gt; derived from the &lt;code&gt;unioningType&lt;/code&gt; of the &lt;code&gt;ownedUnionings&lt;/code&gt; of this &lt;code&gt;Type&lt;/code&gt;. For example, a &lt;code&gt;Classifier&lt;/code&gt; for people might be the union of &lt;code&gt;Classifiers&lt;/code&gt; for all the sexes. Similarly, a feature for people&#39;s children might be the union of features dividing them in the same ways as people in general.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;https://www.omg.org/spec/kerml/vocabulary#unioningType&quot;)]
+[OslcName(&quot;unioningType&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Either)]
+[OslcRange(new string[] { &quot;https://www.omg.org/spec/kerml/vocabulary#Type&quot; })]
+[OslcReadOnly(false)]
+[OslcTitle(&quot;unioningType&quot;)]
+public HashSet&lt;Uri&gt; UnioningType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
 
 
 

@@ -89,7 +89,7 @@
 
 
   <h1 id="OSLC4Net_Domains_ConfigurationManagement_Selections" data-uid="OSLC4Net.Domains.ConfigurationManagement.Selections" class="text-break">
-Class Selections  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/ConfigurationManagementDomain.cs/#L36"><i class="bi bi-code-slash"></i></a>
+Class Selections  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ConfigurationManagement.Selections.Shape.g.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,8 @@ Class Selections  <a class="header-action link-secondary" title="View source" hr
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[OslcShape(&quot;http://open-services.net/ns/config/shapes/1.0/#SelectionsShape&quot;)]
-public record Selections : IEquatable&lt;Selections&gt;</code></pre>
+[OslcNamespace(&quot;http://open-services.net/ns/config#&quot;)]
+public record Selections : AbstractResourceRecord, IEquatable&lt;AbstractResourceRecord&gt;, ISelections, IExtendedResource, IResource, IEquatable&lt;Selections&gt;</code></pre>
   </div>
 
 
@@ -112,6 +113,7 @@ public record Selections : IEquatable&lt;Selections&gt;</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a></div>
       <div><span class="xref">Selections</span></div>
     </dd>
   </dl>
@@ -119,14 +121,54 @@ public record Selections : IEquatable&lt;Selections&gt;</code></pre>
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html">AbstractResourceRecord</a>&gt;</div>
+      <div><a class="xref" href="OSLC4Net.Domains.ConfigurationManagement.ISelections.html">ISelections</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IExtendedResource.html">IExtendedResource</a></div>
+      <div><a class="xref" href="OSLC4Net.Core.Model.IResource.html">IResource</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="OSLC4Net.Domains.ConfigurationManagement.Selections.html">Selections</a>&gt;</div>
     </dd>
   </dl>
 
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="OSLC4Net.Domains.ConfigurationManagement.ChangeSetSelections.html">ChangeSetSelections</a></div>
+    </dd>
+  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_About">AbstractResourceRecord.About</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_Types">AbstractResourceRecord.Types</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_ExtendedProperties">AbstractResourceRecord.ExtendedProperties</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetAbout">AbstractResourceRecord.GetAbout()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetAbout_System_Uri_">AbstractResourceRecord.SetAbout(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetTypes">AbstractResourceRecord.GetTypes()</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetTypes_System_Collections_Generic_ICollection_System_Uri__">AbstractResourceRecord.SetTypes(ICollection&lt;Uri&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_AddType_System_Uri_">AbstractResourceRecord.AddType(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_SetExtendedProperties_System_Collections_Generic_IDictionary_OSLC4Net_Core_Model_QName_System_Object__">AbstractResourceRecord.SetExtendedProperties(IDictionary&lt;QName, object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="OSLC4Net.Core.Model.AbstractResourceRecord.html#OSLC4Net_Core_Model_AbstractResourceRecord_GetExtendedProperties">AbstractResourceRecord.GetExtendedProperties()</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -155,11 +197,114 @@ public record Selections : IEquatable&lt;Selections&gt;</code></pre>
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Selections__ctor_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Selections.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Selections__ctor" data-uid="OSLC4Net.Domains.ConfigurationManagement.Selections.#ctor">
+  Selections()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ConfigurationManagement.Selections.Shape.g.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Selections()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Selections__ctor_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Selections.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Selections__ctor_System_Uri_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Selections.#ctor(System.Uri)">
+  Selections(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ConfigurationManagement.Selections.Shape.g.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Selections(Uri about)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>about</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="OSLC4Net_Domains_ConfigurationManagement_Selections_Selects_" data-uid="OSLC4Net.Domains.ConfigurationManagement.Selections.Selects*"></a>
+
+  <h3 id="OSLC4Net_Domains_ConfigurationManagement_Selections_Selects" data-uid="OSLC4Net.Domains.ConfigurationManagement.Selections.Selects">
+  Selects
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ConfigurationManagement.Selections.Shape.g.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;{{If the selection type is not `oslc_config:UnboundSelections`,\nthe target resource MUST be a version resource}}.\nIf the selection type is `oslc_config:UnboundSelections`,\nthe target is a concept URI for a concept resource that should be in the configuration,\nbut for which no version is determined by this selection.\nUnbound selections can be bound to specific versions by mechanisms not defined by this specification\n(such as effectivity parameters, variability parameters, etc.), or may be left unbound,\nin which case the configuration may represent an incomplete or abstract view of a system.\n{{Selected resources MUST NOT be of type `oslc_config:Configuration`}};\nsub-configurations are given in the `oslc_config:contributions` property.\nNo meaning is assigned to a selected resource of type `oslc_config:Component`.\n{{This property is read-only for selections of a baseline, but MAY be modifiable for selections of a stream}}.&quot;)]
+[OslcOccurs(Occurs.ZeroOrMany)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/config#selects&quot;)]
+[OslcName(&quot;selects&quot;)]
+[OslcValueType(ValueType.Resource)]
+[OslcRepresentation(Representation.Reference)]
+[OslcTitle(&quot;selects&quot;)]
+public HashSet&lt;Uri&gt; Selects { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/ConfigurationManagementDomain.cs/#L36" class="edit-link">Edit this page</a>
+          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Domains.ConfigurationManagement/Generated/OSLC4Net.CodeGen/OSLC4Net.CodeGen.OslcSourceGenerator.OslcDomainGenerator/OSLC4Net.Domains.ConfigurationManagement.Selections.Shape.g.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 

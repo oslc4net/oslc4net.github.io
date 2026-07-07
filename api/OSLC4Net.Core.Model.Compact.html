@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class Compact | OSLC4Net ">
       
-      <meta name="description" content="OSLC Compact resource representation">
+      <meta name="description" content="OSLC Compact resource representation.">
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="OSLC4Net_Core_Model_Compact" data-uid="OSLC4Net.Core.Model.Compact" class="text-break">
-Class Compact  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L23"><i class="bi bi-code-slash"></i></a>
+Class Compact  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Class Compact  <a class="header-action link-secondary" title="View source" href=
   <dl><dt>Assembly</dt><dd>OSLC4Net.Core.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>OSLC Compact resource representation</p>
+  <div class="markdown summary"><p>OSLC Compact resource representation.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -185,6 +185,369 @@ public class Compact : AbstractResource, IExtendedResource, IResource</code></pr
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OSLC4Net_Core_Model_Compact__ctor_" data-uid="OSLC4Net.Core.Model.Compact.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Compact__ctor" data-uid="OSLC4Net.Core.Model.Compact.#ctor">
+  Compact()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Compact()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Compact__ctor_" data-uid="OSLC4Net.Core.Model.Compact.#ctor*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Compact__ctor_System_Uri_" data-uid="OSLC4Net.Core.Model.Compact.#ctor(System.Uri)">
+  Compact(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Compact(Uri about)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>about</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="OSLC4Net_Core_Model_Compact_Icon_" data-uid="OSLC4Net.Core.Model.Compact.Icon*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Compact_Icon" data-uid="OSLC4Net.Core.Model.Compact.Icon">
+  Icon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Uri of an image which may be used in the display of a link to the resource. The image SHOULD be 16x16 pixels in size.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Uri of an image which may be used in the display of a link to the resource. The image SHOULD be 16x16 pixels in size.&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#icon&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Icon&quot;)]
+public Uri? Icon { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Compact_IconAltLabel_" data-uid="OSLC4Net.Core.Model.Compact.IconAltLabel*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Compact_IconAltLabel" data-uid="OSLC4Net.Core.Model.Compact.IconAltLabel">
+  IconAltLabel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Alternative label text for the icon image, e.g. for accessibility. This property is deprecated. Programmatic users should use oslc:iconTitle instead.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Alternative label text for the icon image, e.g. for accessibility. This property is deprecated. Programmatic users should use oslc:iconTitle instead.&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#iconAltLabel&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Icon Alternative Label&quot;)]
+public string? IconAltLabel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Compact_IconSrcSet_" data-uid="OSLC4Net.Core.Model.Compact.IconSrcSet*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Compact_IconSrcSet" data-uid="OSLC4Net.Core.Model.Compact.IconSrcSet">
+  IconSrcSet
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>A list of alternate icon images, e.g. for high-resolution displays. The syntax of this property's value is the same as the srcset attribute of the HTML img element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;A list of alternate icon images, e.g. for high-resolution displays. The syntax of this property&#39;s value is the same as the srcset attribute of the HTML img element.&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#iconSrcSet&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Icon Source Set&quot;)]
+public string? IconSrcSet { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Compact_IconTitle_" data-uid="OSLC4Net.Core.Model.Compact.IconTitle*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Compact_IconTitle" data-uid="OSLC4Net.Core.Model.Compact.IconTitle">
+  IconTitle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Alternative text for the icon image. It should be used if the icon fails to load, or for screen readers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Alternative text for the icon image. It should be used if the icon fails to load, or for screen readers.&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#iconTitle&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Icon Title&quot;)]
+public string? IconTitle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Compact_LargePreview_" data-uid="OSLC4Net.Core.Model.Compact.LargePreview*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Compact_LargePreview" data-uid="OSLC4Net.Core.Model.Compact.LargePreview">
+  LargePreview
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Uri and sizing properties for an HTML document to be used for a large preview.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Uri and sizing properties for an HTML document to be used for a large preview.&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#largePreview&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Preview&quot; })]
+[OslcReadOnly]
+[OslcRepresentation(Representation.Inline)]
+[OslcTitle(&quot;Large Preview&quot;)]
+[OslcValueShape(&quot;resourceShapes/preview&quot;)]
+[OslcValueType(ValueType.LocalResource)]
+public Preview? LargePreview { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Preview.html">Preview</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Compact_ShortTitle_" data-uid="OSLC4Net.Core.Model.Compact.ShortTitle*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Compact_ShortTitle" data-uid="OSLC4Net.Core.Model.Compact.ShortTitle">
+  ShortTitle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Abbreviated title which may be used in the display of a link to the resource.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Abbreviated title which may be used in the display of a link to the resource.&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#shortTitle&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Short Title&quot;)]
+public string? ShortTitle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Compact_SmallPreview_" data-uid="OSLC4Net.Core.Model.Compact.SmallPreview*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Compact_SmallPreview" data-uid="OSLC4Net.Core.Model.Compact.SmallPreview">
+  SmallPreview
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Uri and sizing properties for an HTML document to be used for a small preview.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Uri and sizing properties for an HTML document to be used for a small preview.&quot;)]
+[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#smallPreview&quot;)]
+[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Preview&quot; })]
+[OslcReadOnly]
+[OslcRepresentation(Representation.Inline)]
+[OslcTitle(&quot;Small Preview&quot;)]
+[OslcValueShape(&quot;resourceShapes/preview&quot;)]
+[OslcValueType(ValueType.LocalResource)]
+public Preview? SmallPreview { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="OSLC4Net.Core.Model.Preview.html">Preview</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OSLC4Net_Core_Model_Compact_Title_" data-uid="OSLC4Net.Core.Model.Compact.Title*"></a>
+
+  <h3 id="OSLC4Net_Core_Model_Compact_Title" data-uid="OSLC4Net.Core.Model.Compact.Title">
+  Title
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Title which may be used in the display of a link to the resource.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Title which may be used in the display of a link to the resource.&quot;)]
+[OslcOccurs(Occurs.ExactlyOne)]
+[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/title&quot;)]
+[OslcReadOnly]
+[OslcTitle(&quot;Title&quot;)]
+[OslcValueType(ValueType.XMLLiteral)]
+public string? Title { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -193,17 +556,15 @@ public class Compact : AbstractResource, IExtendedResource, IResource</code></pr
 
   <h3 id="OSLC4Net_Core_Model_Compact_GetIcon" data-uid="OSLC4Net.Core.Model.Compact.GetIcon">
   GetIcon()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L168"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Uri of an image which may be used in the display of a link to the resource.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Uri of an image which may be used in the display of a link to the resource. The image SHOULD be 16x16 pixels in size.&quot;)]
-[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#icon&quot;)]
-[OslcReadOnly]
-[OslcTitle(&quot;Icon&quot;)]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Icon property instead&quot;)]
 public Uri GetIcon()</code></pre>
   </div>
 
@@ -228,21 +589,15 @@ public Uri GetIcon()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Compact_GetLargePreview" data-uid="OSLC4Net.Core.Model.Compact.GetLargePreview">
   GetLargePreview()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L177"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Uri and sizing properties for an HTML document to be used for a large preview.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Uri and sizing properties for an HTML document to be used for a large preview.&quot;)]
-[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#largePreview&quot;)]
-[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Preview&quot; })]
-[OslcReadOnly]
-[OslcRepresentation(Representation.Inline)]
-[OslcTitle(&quot;Large Preview&quot;)]
-[OslcValueShape(&quot;resourceShapes/preview&quot;)]
-[OslcValueType(ValueType.LocalResource)]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use LargePreview property instead&quot;)]
 public Preview GetLargePreview()</code></pre>
   </div>
 
@@ -267,17 +622,15 @@ public Preview GetLargePreview()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Compact_GetShortTitle" data-uid="OSLC4Net.Core.Model.Compact.GetShortTitle">
   GetShortTitle()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L186"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Abbreviated title which may be used in the display of a link to the resource.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Abbreviated title which may be used in the display of a link to the resource.&quot;)]
-[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#shortTitle&quot;)]
-[OslcReadOnly]
-[OslcTitle(&quot;Short Title&quot;)]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use ShortTitle property instead&quot;)]
 public string GetShortTitle()</code></pre>
   </div>
 
@@ -302,21 +655,15 @@ public string GetShortTitle()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Compact_GetSmallPreview" data-uid="OSLC4Net.Core.Model.Compact.GetSmallPreview">
   GetSmallPreview()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L195"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Uri and sizing properties for an HTML document to be used for a small preview.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Uri and sizing properties for an HTML document to be used for a small preview.&quot;)]
-[OslcPropertyDefinition(&quot;http://open-services.net/ns/core#smallPreview&quot;)]
-[OslcRange(new string[] { &quot;http://open-services.net/ns/core#Preview&quot; })]
-[OslcReadOnly]
-[OslcRepresentation(Representation.Inline)]
-[OslcTitle(&quot;Small Preview&quot;)]
-[OslcValueShape(&quot;resourceShapes/preview&quot;)]
-[OslcValueType(ValueType.LocalResource)]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use SmallPreview property instead&quot;)]
 public Preview GetSmallPreview()</code></pre>
   </div>
 
@@ -341,19 +688,15 @@ public Preview GetSmallPreview()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Compact_GetTitle" data-uid="OSLC4Net.Core.Model.Compact.GetTitle">
   GetTitle()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L204"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Title which may be used in the display of a link to the resource.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OslcDescription(&quot;Title which may be used in the display of a link to the resource.&quot;)]
-[OslcOccurs(Occurs.ExactlyOne)]
-[OslcPropertyDefinition(&quot;http://purl.org/dc/terms/title&quot;)]
-[OslcReadOnly]
-[OslcTitle(&quot;Title&quot;)]
-[OslcValueType(ValueType.XMLLiteral)]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Title property instead&quot;)]
 public string GetTitle()</code></pre>
   </div>
 
@@ -378,14 +721,16 @@ public string GetTitle()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Compact_SetIcon_System_Uri_" data-uid="OSLC4Net.Core.Model.Compact.SetIcon(System.Uri)">
   SetIcon(Uri)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L213"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Uri of an image which may be used in the display of a link to the resource.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetIcon(Uri icon)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Icon property instead&quot;)]
+public void SetIcon(Uri icon)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -409,14 +754,16 @@ public string GetTitle()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Compact_SetLargePreview_OSLC4Net_Core_Model_Preview_" data-uid="OSLC4Net.Core.Model.Compact.SetLargePreview(OSLC4Net.Core.Model.Preview)">
   SetLargePreview(Preview)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L222"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Uri and sizing properties for an HTML document to be used for a large preview.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetLargePreview(Preview largePreview)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use LargePreview property instead&quot;)]
+public void SetLargePreview(Preview largePreview)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -440,14 +787,16 @@ public string GetTitle()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Compact_SetShortTitle_System_String_" data-uid="OSLC4Net.Core.Model.Compact.SetShortTitle(System.String)">
   SetShortTitle(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L231"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Abbreviated title which may be used in the display of a link to the resource.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetShortTitle(string shortTitle)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use ShortTitle property instead&quot;)]
+public void SetShortTitle(string shortTitle)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -471,14 +820,16 @@ public string GetTitle()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Compact_SetSmallPreview_OSLC4Net_Core_Model_Preview_" data-uid="OSLC4Net.Core.Model.Compact.SetSmallPreview(OSLC4Net.Core.Model.Preview)">
   SetSmallPreview(Preview)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L240"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Uri and sizing properties for an HTML document to be used for a small preview.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetSmallPreview(Preview smallPreview)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use SmallPreview property instead&quot;)]
+public void SetSmallPreview(Preview smallPreview)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -502,14 +853,16 @@ public string GetTitle()</code></pre>
 
   <h3 id="OSLC4Net_Core_Model_Compact_SetTitle_System_String_" data-uid="OSLC4Net.Core.Model.Compact.SetTitle(System.String)">
   SetTitle(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L249"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Title which may be used in the display of a link to the resource.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetTitle(string title)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Title property instead&quot;)]
+public void SetTitle(string title)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -533,7 +886,7 @@ public string GetTitle()</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L23" class="edit-link">Edit this page</a>
+          <a href="https://github.com/OSLC/oslc4net/blob/main/OSLC4Net_SDK/OSLC4Net.Core/Model/Compact.cs/#L24" class="edit-link">Edit this page</a>
         </div>
 
 
