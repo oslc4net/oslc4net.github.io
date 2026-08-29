@@ -203,7 +203,7 @@ Class OslcClient  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Do not use HttpClient directly, use HttpClientFactory&quot;)]
 public OslcClient(Func&lt;HttpRequestMessage, X509Certificate2, X509Chain, SslPolicyErrors, bool&gt; certCallback, ILogger&lt;OslcClient&gt; logger)</code></pre>
   </div>
 
@@ -240,7 +240,7 @@ public OslcClient(Func&lt;HttpRequestMessage, X509Certificate2, X509Chain, SslPo
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Do not use HttpClient directly, use HttpClientFactory&quot;)]
 protected OslcClient(Func&lt;HttpRequestMessage, X509Certificate2, X509Chain, SslPolicyErrors, bool&gt; certCallback, HttpMessageHandler userHttpMessageHandler, ILogger&lt;OslcClient&gt; logger)</code></pre>
   </div>
 
@@ -419,7 +419,7 @@ protected OslcClient(Func&lt;HttpRequestMessage, X509Certificate2, X509Chain, Ss
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Do not use HttpClient directly, use HttpClientFactory&quot;)]
 public static bool AcceptAllServerCertificates(object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors errors)</code></pre>
   </div>
 
@@ -632,7 +632,7 @@ public static bool AcceptAllServerCertificates(object sender, X509Certificate ce
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Do not use HttpClient directly, use HttpClientFactory&quot;)]
 public HttpResponseMessage DeleteResource(string url)</code></pre>
   </div>
 
@@ -1217,7 +1217,7 @@ the default Query Capability, if it exists.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Do not use HttpClient directly, use HttpClientFactory&quot;)]
 public HttpResponseMessage UpdateResource(string url, object artifact, string mediaType)</code></pre>
   </div>
 
@@ -1259,7 +1259,7 @@ public HttpResponseMessage UpdateResource(string url, object artifact, string me
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Do not use HttpClient directly, use HttpClientFactory&quot;)]
 public HttpResponseMessage UpdateResource(string url, object artifact, string mediaType, string acceptType)</code></pre>
   </div>
 
@@ -1303,7 +1303,7 @@ public HttpResponseMessage UpdateResource(string url, object artifact, string me
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Do not use HttpClient directly, use HttpClientFactory&quot;)]
 public HttpResponseMessage UpdateResource(string url, object artifact, string mediaType, string acceptType, string ifMatch)</code></pre>
   </div>
 
